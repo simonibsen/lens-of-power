@@ -162,12 +162,23 @@ window my training normalizes.
    naming, euphemism.
 3. **Institutional** — Active. CENTCOM, IDF, UK military, Iranian state
    institutions as actors and narrators.
-4. **Economic** — Submerged. War economy, oil markets, defense contracts
-   active but absent from coverage.
-5. **Surveillance & Information** — Active. Information warfare, fog of
+4. **Surveillance & Information** — Active. Information warfare, fog of
    war, competing claims.
-6. **Legal & Regulatory** — Conspicuously absent. No mention of
-   international law, war powers, legality of regime change.
+
+### Layers active but absent from source
+5. **Economic** — War economy, oil markets, defense contracts, and
+   military-industrial procurement are all structurally active during a
+   major military operation but entirely absent from the live blog's
+   frame. This may be incidental (outside scope of breaking news
+   coverage) or significant (economic interests driving the operation
+   are better served by their invisibility).
+6. **Legal & Regulatory** — International law (UN Charter Article 2(4),
+   laws of armed conflict, war crimes standards for civilian targets),
+   war powers authorization, and the legality of regime change are all
+   directly relevant but completely absent from coverage. This is an
+   Axiom 8 signal: the absence of law from the discussion of warfare
+   removes it as a constraint on the actors and a framework for
+   evaluation by the audience.
 
 ### Layer interactions
 ```

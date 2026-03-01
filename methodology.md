@@ -106,12 +106,22 @@ Position this material relative to existing knowledge in the framework.
 **Do this**:
 - Does this confirm, contradict, or extend existing principles in `principles/`?
 - Does this match known patterns in `patterns.md`?
-- Which layers from `taxonomy.md` are active?
+- Which layers from `taxonomy.md` are active in the material?
+- Which layers are *structurally relevant but absent from the source*?
+  A layer is "active but absent" when the analyst can identify its
+  operation through inference, context, or domain knowledge, but the
+  source material does not mention or address it. This is an Axiom 8
+  signal — the absence may be incidental (outside the source's scope)
+  or significant (serving identifiable interests). Flag it either way;
+  evaluate which in the ABSENT step.
 - Map the layer interactions (use the interaction format from taxonomy.md)
 
 **Output format**:
 ```
-LAYERS ACTIVE: [list from taxonomy]
+LAYERS ACTIVE: [list from taxonomy — layers visible in the material]
+LAYERS ACTIVE BUT ABSENT FROM SOURCE: [layers the analyst identifies as
+  structurally relevant but not addressed in the material, with brief
+  reasoning for each]
 LAYER INTERACTIONS:
   [Layer A] --[relationship]--> [Layer B]
 CONFIRMS: [existing principles/patterns this supports]
@@ -128,6 +138,11 @@ Find non-obvious connections to other domains, eras, or works.
 - What historical parallel exists?
 - What principle from `principles/` does this instantiate in a new context?
 - What would someone studying a different layer of power recognize here?
+- Scan `analyses/` for prior analyses with structural parallels. If
+  a prior analysis identified similar mechanisms, layers, or patterns,
+  cite it explicitly. The framework's value compounds when analyses
+  cross-reference each other rather than relying solely on the analyst's
+  general knowledge.
 
 **Output format**:
 ```
