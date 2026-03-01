@@ -42,6 +42,15 @@ Before beginning, assess the material:
 - **Full pass** (all 7 steps): Standard analysis.
 - **Deep pass** (all 7 steps + written synthesis): For material of high significance.
 
+When writing an analysis to `analyses/`, include:
+- A **TIME** field (approximate UTC) recording when the material was
+  captured. This is essential for live or evolving sources (live blogs,
+  developing stories, social media threads) where the content changes
+  over time. The analysis is a snapshot; the timestamp makes that explicit.
+- A **Narrative** section at the top — a readable prose essay (3-6
+  paragraphs) summarizing the key findings for a human reader. The
+  structured steps follow below it as the canonical analytical record.
+
 ### Step 1: DECOMPOSE
 
 Strip the material to its bare claims. Remove rhetoric, emotional framing,
