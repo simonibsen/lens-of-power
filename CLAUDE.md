@@ -40,3 +40,25 @@ and relevant `instruments/` files as needed per the methodology's instructions.
 - IC-3: Periodically red-team the framework itself.
 - IC-4: Keep the framework up to date. Update patterns, evidence, taxonomy, README after each analysis.
 - IC-5: The LLM is a biased instrument. Flag when training data likely overrepresents a perspective. Name blind spots. Do not hedge to appear balanced when evidence is not balanced.
+
+## Branching
+
+Each analysis gets its own branch. The branch contains the analysis
+file, any evidence entries it produces, and any spec updates it
+triggers (new patterns, methodology refinements, taxonomy additions).
+
+**Branch naming**: `analysis/YYYY-MM-DD-short-name`
+Example: `analysis/2026-03-01-us-israel-iran-war`
+
+**Workflow**:
+1. Create the branch from `main` before starting the analysis
+2. Commit the analysis, evidence, and any spec updates it motivates
+3. Merge to `main` when the analysis is finalized and reviewed
+
+This keeps `main` clean and makes each analysis a self-contained,
+traceable unit of work — the commit history tells the story of what
+was analyzed, what was found, and how it updated the framework.
+
+Spec-only work (new instruments, methodology redesign, constitution
+changes not triggered by a specific analysis) goes directly on `main`
+or on a descriptive feature branch.
