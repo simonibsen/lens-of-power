@@ -51,6 +51,30 @@ When writing an analysis to `analyses/`, include:
   paragraphs) summarizing the key findings for a human reader. The
   structured steps follow below it as the canonical analytical record.
 
+### Addenda convention
+
+Analyses are snapshots. Do not rewrite an analysis with later knowledge
+— this destroys the framework's ability to evaluate its own accuracy
+and violates the honest-memory principle of IC-4.
+
+When new information emerges that affects a prior analysis (verified
+claims, revised casualty figures, new connections from later analyses),
+append a dated addendum to the end of the file:
+
+```
+## Addenda
+
+### YYYY-MM-DD ~HH:MM UTC
+[What changed and why. Reference new evidence, analyses, or external
+sources. Note any confidence level changes.]
+See: [links to new evidence/ or analyses/ entries]
+```
+
+Each addendum gets its own date and timestamp. The original analysis
+above remains untouched. This preserves the snapshot, keeps the
+analysis useful as a living reference, and creates a visible trail of
+how understanding evolved over time.
+
 ### Step 1: DECOMPOSE
 
 Strip the material to its bare claims. Remove rhetoric, emotional framing,
