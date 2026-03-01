@@ -58,7 +58,8 @@ lens-of-power/
 │   └── orwell-1984.md        8 principles from Nineteen Eighty-Four
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
-└── analyses/                Applied analyses of current material
+├── analyses/                Applied analyses of current material
+└── tools/                   Utility scripts (article fetcher, etc.)
 ```
 
 ## Integrity constraints
