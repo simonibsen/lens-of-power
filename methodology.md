@@ -42,6 +42,95 @@ Before beginning, assess the material:
 - **Full pass** (all 7 steps): Standard analysis.
 - **Deep pass** (all 7 steps + written synthesis): For material of high significance.
 
+**Filename convention**: `YYYY-MM-DD-source-type-description.md`
+where source is who published it and type is the format. Examples:
+`2026-03-01-guardian-liveblog-us-israel-iran-war.md`,
+`2026-04-15-usgov-pressrelease-sanctions-expansion.md`,
+`2026-05-20-nyt-article-housing-policy-reform.md`.
+
+When writing an analysis to `analyses/`, include:
+- A **TIME** field (approximate UTC) recording when the material was
+  captured. This is essential for live or evolving sources (live blogs,
+  developing stories, social media threads) where the content changes
+  over time. The analysis is a snapshot; the timestamp makes that explicit.
+- A **SOURCE TYPE** field describing the structural type of the material.
+  This is an observable property of the format, not a judgment about
+  content or bias. Examples: live blog, news article, press release,
+  government report, academic paper, speech transcript, corporate
+  filing, social media thread, policy document, legislative text,
+  editorial/opinion, leaked document. The source type helps the reader
+  calibrate expectations — a press release and an investigative report
+  are structurally different kinds of material. Bias assessment belongs
+  in Step 2 (SOURCE), not here.
+- A **Narrative** section at the top — a readable prose essay (3-6
+  paragraphs) summarizing the key findings for a human reader. The
+  structured steps follow below it as the canonical analytical record.
+
+### Addenda convention
+
+Analyses are snapshots. Do not rewrite an analysis with later knowledge
+— this destroys the framework's ability to evaluate its own accuracy
+and violates the honest-memory principle of IC-4.
+
+When new information emerges that affects a prior analysis (verified
+claims, revised casualty figures, new connections from later analyses),
+append a dated addendum to the end of the file:
+
+```
+## Addenda
+
+### YYYY-MM-DD ~HH:MM UTC
+[What changed and why. Reference new evidence, analyses, or external
+sources. Note any confidence level changes.]
+See: [links to new evidence/ or analyses/ entries]
+```
+
+Each addendum gets its own date and timestamp. The original analysis
+above remains untouched. This preserves the snapshot, keeps the
+analysis useful as a living reference, and creates a visible trail of
+how understanding evolved over time.
+
+### Analysis index
+
+Maintain `analyses/INDEX.md` as a registry of all completed analyses.
+After each analysis, add an entry:
+
+```
+| Date | Material | Domain | Primary layers | Null case outcome |
+|------|----------|--------|----------------|-------------------|
+| YYYY-MM-DD | [short description] | [domain] | [layers] | rejected / plausible / accepted |
+```
+
+The index serves two functions:
+1. **Selection bias detection**: During red team reviews (IC-3), review
+   the index for clustering. If analyses concentrate in one domain,
+   one set of layers, or consistently reject the null case, the
+   framework is being fed a biased diet.
+2. **Cross-referencing**: The CONNECT step can scan the index to
+   identify prior analyses with structural parallels.
+
+### Adversarial input
+
+The framework must periodically be applied to material where the null
+case is likely to win. This is not optional — it is the empirical
+test of whether IC-2 functions or is decorative.
+
+**Adversarial material includes**:
+- A functional institution doing what it claims to do
+- A policy that worked as intended for its stated beneficiaries
+- A reform that succeeded without hidden costs
+- An event best explained by incompetence, accident, or good faith
+- Material from a domain the framework has not yet been applied to
+
+**Frequency**: At least 1 in every 5 analyses should be adversarial.
+If the framework cannot produce "the power explanation does not hold
+here" as an honest conclusion, it is a confirmation machine regardless
+of what the integrity constraints say.
+
+The analysis index makes this trackable — if the "null case outcome"
+column never reads "accepted" or "plausible," that is itself a finding
+about the framework's health.
+
 ### Step 1: DECOMPOSE
 
 Strip the material to its bare claims. Remove rhetoric, emotional framing,
@@ -97,12 +186,22 @@ Position this material relative to existing knowledge in the framework.
 **Do this**:
 - Does this confirm, contradict, or extend existing principles in `principles/`?
 - Does this match known patterns in `patterns.md`?
-- Which layers from `taxonomy.md` are active?
+- Which layers from `taxonomy.md` are active in the material?
+- Which layers are *structurally relevant but absent from the source*?
+  A layer is "active but absent" when the analyst can identify its
+  operation through inference, context, or domain knowledge, but the
+  source material does not mention or address it. This is an Axiom 8
+  signal — the absence may be incidental (outside the source's scope)
+  or significant (serving identifiable interests). Flag it either way;
+  evaluate which in the ABSENT step.
 - Map the layer interactions (use the interaction format from taxonomy.md)
 
 **Output format**:
 ```
-LAYERS ACTIVE: [list from taxonomy]
+LAYERS ACTIVE: [list from taxonomy — layers visible in the material]
+LAYERS ACTIVE BUT ABSENT FROM SOURCE: [layers the analyst identifies as
+  structurally relevant but not addressed in the material, with brief
+  reasoning for each]
 LAYER INTERACTIONS:
   [Layer A] --[relationship]--> [Layer B]
 CONFIRMS: [existing principles/patterns this supports]
@@ -119,6 +218,11 @@ Find non-obvious connections to other domains, eras, or works.
 - What historical parallel exists?
 - What principle from `principles/` does this instantiate in a new context?
 - What would someone studying a different layer of power recognize here?
+- Scan `analyses/` for prior analyses with structural parallels. If
+  a prior analysis identified similar mechanisms, layers, or patterns,
+  cite it explicitly. The framework's value compounds when analyses
+  cross-reference each other rather than relying solely on the analyst's
+  general knowledge.
 
 **Output format**:
 ```
@@ -498,7 +602,33 @@ taxonomy layer:
 - **Surveillance**: Is the framework making me see control everywhere,
   producing a paranoid lens rather than an analytical one?
 
-### Step 3: CHECK THE EVIDENCE BASE
+### Step 3: CHECK THE INPUT DIET
+
+Review `analyses/INDEX.md` for selection bias:
+
+- What domains have been analyzed? What domains have been avoided?
+- Which taxonomy layers appear most often as primary? Which never appear?
+- What is the distribution of null case outcomes? If the null case has
+  never been rated "plausible" or "accepted," the framework may be
+  selecting inputs that confirm its axioms.
+- Has any adversarial material been analyzed? What was the result?
+- Are there types of material the analyst instinctively avoids
+  (corporate governance, functioning democracies, successful reforms)?
+  That avoidance is a signal.
+
+**Output format**:
+```
+INPUT DIET:
+  TOTAL ANALYSES: [count]
+  DOMAIN DISTRIBUTION: [domains and counts]
+  PRIMARY LAYER DISTRIBUTION: [layers and counts]
+  NULL CASE OUTCOMES: [rejected/plausible/accepted counts]
+  ADVERSARIAL ANALYSES: [count and outcomes]
+  BLIND SPOTS: [domains or material types never analyzed]
+  RECOMMENDATION: [what to analyze next to test the framework]
+```
+
+### Step 4: CHECK THE EVIDENCE BASE
 
 Review `evidence/` entries:
 
@@ -508,7 +638,7 @@ Review `evidence/` entries:
 - Are there axioms with no challenging evidence at all? Flag them —
   either they are robustly true or they are not being tested.
 
-### Step 4: ASSESS FALSIFIABILITY
+### Step 5: ASSESS FALSIFIABILITY
 
 Review the falsifiability table in `constitution.md`:
 
@@ -535,8 +665,68 @@ Record the output in `evidence/` with tags:
 ## Output discipline
 
 - Be specific. Name the mechanism, name the layer, name the actor.
-- Distinguish between what is observed and what is inferred.
 - Mark confidence levels: HIGH (directly evidenced), MEDIUM (strongly
   implied), LOW (speculative but worth noting).
 - When uncertain, say so. The framework values honesty over completeness.
 - Always end with a framework update recommendation, even if it's "none."
+
+### Claim discipline: observation, inference, speculation
+
+Every claim in an analysis exists at one of three levels. The analyst
+must make clear which level a claim occupies — especially in prose
+sections (Narrative, Significance) where the structure of formatted
+output no longer enforces precision.
+
+**Observed** — directly evidenced in the source material. No analytical
+judgment required. Use language that reports:
+- "CENTCOM issued a statement with no specifics or timeline."
+- "The school strike was reported in the live blog, then followed by
+  twelve military updates."
+- "Trump said '48 leaders are gone in one shot.'"
+
+**Inferred** — follows from evidence but involves analytical judgment.
+The connection between evidence and conclusion requires the analyst's
+reasoning. Use language that signals inference:
+- "This suggests...", "The observable effect is...", "This is consistent
+  with...", "This pattern resembles...", "The evidence points toward..."
+- "The statement's observable effect is to close the topic without
+  opening an investigation."
+- "The absence of legal framing from coverage removes it as a framework
+  for public evaluation."
+
+**Speculative** — plausible and worth noting, but not established by
+available evidence. Use language that marks contingency:
+- "If verified, this would...", "This may indicate...", "It is possible
+  that...", "One reading is..."
+- "If the diplomatic record confirms Araghchi's claim, this would
+  indicate diplomacy was performative."
+
+**The failure mode**: The framework's characteristic error is collapsing
+inference into observation — writing "the function of X is Y" when the
+evidence supports "the observable effect of X is Y." This happens most
+in prose sections where analytical momentum carries the writer past the
+evidence. Functional and causal claims ("serves to," "is designed to,"
+"functions as," "in order to") assert intent or purpose; they belong at
+the inferred or speculative level unless the source material explicitly
+states the intent.
+
+### Review pass
+
+After drafting an analysis and before writing it to file, perform a
+single self-review pass:
+
+1. Scan every **causal or functional claim** — any sentence containing
+   "the function of," "serves to," "is designed to," "functions as,"
+   "in order to," "the purpose of," or equivalent phrasing.
+2. For each, ask: **Is this observed, inferred, or speculative?**
+   Does the source material directly evidence the intent/function
+   claimed, or is the analyst supplying the connection?
+3. If inferred or speculative, does the language make that clear?
+   If not, revise to use the appropriate signal vocabulary.
+4. Check prose sections (Narrative, Significance) with extra scrutiny
+   — these are where analytical momentum most often overruns evidence.
+
+This pass is not a separate methodology step. It is a writing discipline
+applied before the analysis is finalized. It takes two minutes and
+prevents the framework's most common integrity failure: presenting
+the analyst's interpretation as the material's demonstrated fact.

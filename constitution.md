@@ -169,6 +169,14 @@ framework producing suspiciously consistent results).
 >    already believe?"
 > 5. "If someone applied this framework to *me* — to my use of it —
 >    what would they find?"
+> 6. "What material has the framework been fed? Review the analysis
+>    index in `analyses/INDEX.md`. What domains, layers, and conclusions
+>    are overrepresented? What types of material have never been
+>    analyzed? If the framework has only been applied to material where
+>    power dynamics are obvious, it has never been tested."
+> 7. "Has the framework ever concluded that the null case wins — that
+>    power dynamics are NOT the primary explanation? If not, IC-2 is
+>    decorative rather than functional."
 
 A framework that cannot survive its own scrutiny has no business
 scrutinizing anything else. Record the results of red team reviews

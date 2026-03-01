@@ -3,7 +3,7 @@ name: lop
 description: Apply the Lens of Power interpretive framework to analyze material for power dynamics, extract principles from a body of work, evaluate sources as potential instruments, or red-team the framework itself.
 argument-hint: <analyze|extract|instrument|redteam> [material, work, or source]
 user-invocable: true
-allowed-tools: Read, Grep, Glob, WebFetch, WebSearch, Write, Edit, Agent
+allowed-tools: Read, Grep, Glob, WebFetch, WebSearch, Write, Edit, Agent, Bash
 ---
 
 # Lens of Power — Analytical Framework
@@ -61,7 +61,23 @@ Cross-reference `patterns.md` at every step where the methodology calls for it.
 
 ## If the material is a URL
 
-Use WebFetch to retrieve the content, then proceed with analysis.
+Try these strategies in order until content is obtained:
+
+1. **WebFetch** (try first — fastest, handles simple pages):
+   Use WebFetch to retrieve and summarize the content.
+
+2. **fetch-article.py** (if WebFetch fails or returns unusable content):
+   Run via Bash: `python3 tools/fetch-article.py <url>`
+   This uses browser-like headers and extracts content from JSON-LD,
+   meta tags, and paragraph elements. Works on most news sites.
+
+3. **WebSearch** (if direct fetching fails entirely):
+   Search for the article title or URL to find the content
+   reproduced or summarized on other sites.
+
+4. **Ask the user** (last resort):
+   If all automated methods fail, ask the user to paste the
+   article content directly.
 
 ## If the material is a book or large work
 
