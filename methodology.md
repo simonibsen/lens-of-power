@@ -583,8 +583,68 @@ Record the output in `evidence/` with tags:
 ## Output discipline
 
 - Be specific. Name the mechanism, name the layer, name the actor.
-- Distinguish between what is observed and what is inferred.
 - Mark confidence levels: HIGH (directly evidenced), MEDIUM (strongly
   implied), LOW (speculative but worth noting).
 - When uncertain, say so. The framework values honesty over completeness.
 - Always end with a framework update recommendation, even if it's "none."
+
+### Claim discipline: observation, inference, speculation
+
+Every claim in an analysis exists at one of three levels. The analyst
+must make clear which level a claim occupies — especially in prose
+sections (Narrative, Significance) where the structure of formatted
+output no longer enforces precision.
+
+**Observed** — directly evidenced in the source material. No analytical
+judgment required. Use language that reports:
+- "CENTCOM issued a statement with no specifics or timeline."
+- "The school strike was reported in the live blog, then followed by
+  twelve military updates."
+- "Trump said '48 leaders are gone in one shot.'"
+
+**Inferred** — follows from evidence but involves analytical judgment.
+The connection between evidence and conclusion requires the analyst's
+reasoning. Use language that signals inference:
+- "This suggests...", "The observable effect is...", "This is consistent
+  with...", "This pattern resembles...", "The evidence points toward..."
+- "The statement's observable effect is to close the topic without
+  opening an investigation."
+- "The absence of legal framing from coverage removes it as a framework
+  for public evaluation."
+
+**Speculative** — plausible and worth noting, but not established by
+available evidence. Use language that marks contingency:
+- "If verified, this would...", "This may indicate...", "It is possible
+  that...", "One reading is..."
+- "If the diplomatic record confirms Araghchi's claim, this would
+  indicate diplomacy was performative."
+
+**The failure mode**: The framework's characteristic error is collapsing
+inference into observation — writing "the function of X is Y" when the
+evidence supports "the observable effect of X is Y." This happens most
+in prose sections where analytical momentum carries the writer past the
+evidence. Functional and causal claims ("serves to," "is designed to,"
+"functions as," "in order to") assert intent or purpose; they belong at
+the inferred or speculative level unless the source material explicitly
+states the intent.
+
+### Review pass
+
+After drafting an analysis and before writing it to file, perform a
+single self-review pass:
+
+1. Scan every **causal or functional claim** — any sentence containing
+   "the function of," "serves to," "is designed to," "functions as,"
+   "in order to," "the purpose of," or equivalent phrasing.
+2. For each, ask: **Is this observed, inferred, or speculative?**
+   Does the source material directly evidence the intent/function
+   claimed, or is the analyst supplying the connection?
+3. If inferred or speculative, does the language make that clear?
+   If not, revise to use the appropriate signal vocabulary.
+4. Check prose sections (Narrative, Significance) with extra scrutiny
+   — these are where analytical momentum most often overruns evidence.
+
+This pass is not a separate methodology step. It is a writing discipline
+applied before the analysis is finalized. It takes two minutes and
+prevents the framework's most common integrity failure: presenting
+the analyst's interpretation as the material's demonstrated fact.

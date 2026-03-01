@@ -34,8 +34,11 @@ campaign. Meanwhile, an airstrike hit a girls' elementary school in
 Minab, killing 148 people including children. CENTCOM's response was a
 masterpiece of institutional deflection: "We are aware of reports
 concerning civilian harm resulting from ongoing military operations. We
-take these reports seriously and are looking into them." The language of
-accountability performing the function of evasion.
+take these reports seriously and are looking into them." A generic
+acknowledgment with no specifics, no timeline, and no accountability
+mechanism — whether this is standard wartime protocol or deliberate
+deflection, its observable effect is the same: the statement closes
+the topic without opening an investigation.
 
 What the coverage does not contain is as significant as what it does.
 There is no mention of international law — no reference to the UN
@@ -43,7 +46,9 @@ Charter, no question of legality, no discussion of war crimes standards
 for the school strike. There are no anti-war voices, no congressional
 opposition, no Iranian civilians speaking in their own words. The entire
 Legal & Regulatory layer of power is absent from the coverage, which
-means it is absent as a constraint on the operation. And most strikingly,
+removes it as a framework for public evaluation — whether it is also
+absent as a constraint on the operation itself is unknown from this
+source. And most strikingly,
 Iran's foreign minister told ABC that the US attacked Iran during active
 negotiations — twice in twelve months — and that "a deal was at our
 reach." If true, this means the stated purpose of diplomacy (reaching
@@ -61,8 +66,9 @@ repeating pattern. This analysis names that pattern *Serial Regime
 Change* and proposes it for the framework's catalog.
 
 The most important thing this analysis makes visible is the gap between
-the coverage and the event. A war of regime change that kills school
-children is being reported in the register of ongoing developments —
+the coverage and the event. A regime change operation in which an
+airstrike killed 148 people at a school is being reported in the
+register of ongoing developments —
 urgent but normalized, serious but unquestioned. The live blog format is
 not a failure of journalism; it is a structural feature of modern
 information environments that serves power by producing informed

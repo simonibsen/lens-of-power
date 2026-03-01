@@ -31,12 +31,20 @@ campaign aimed at regime change in Iran.
 
 ## Significance
 This is the deadliest single mass casualty event reported in the opening
-phase of the US-Israeli war on Iran. It supports Axiom 7 (stated purpose
-vs. function): the operation is framed as targeting Iran's government and
-military, but its actual function includes the destruction of civilian
-infrastructure and lives. CENTCOM's response — bureaucratic acknowledgment
-without accountability — exemplifies the Inversion of Stated Purpose
-pattern: the language of concern performing deflection rather than
-accountability. It also supports Axiom 8 (absence): in the live blog
-coverage, the school strike is reported factually but then buried under
-subsequent military updates, preventing sustained attention.
+phase of the US-Israeli war on Iran. The operation is framed as targeting
+Iran's government and military; its observed effects include mass civilian
+death at a girls' school. Whether civilian destruction is a function of
+the operation (intentional or accepted) or a byproduct (targeting error,
+proximity to IRGC barracks) is an open question — the null case
+(fog-of-war accident) has MEDIUM plausibility for this specific event.
+
+The evidence is relevant to Axiom 7 (stated purpose vs. function) but
+does not by itself resolve the distinction — it records the gap between
+stated targeting and observed consequence without claiming the gap is
+deliberate. What is clear: CENTCOM's response — "aware of reports
+concerning civilian harm... looking into them" — is accountability
+language performing deflection rather than investigation, an instance
+of the Inversion of Stated Purpose pattern. It is also relevant to
+Axiom 8 (absence): in the live blog coverage, the school strike is
+reported factually but buried under subsequent military updates,
+preventing sustained attention.
