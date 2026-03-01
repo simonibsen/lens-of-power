@@ -8,7 +8,7 @@
 
 ## Modes of operation
 
-This methodology has two modes. Select one based on the task:
+Select a mode based on the task:
 
 ### ANALYZE mode
 **Input**: A piece of new information (article, speech, policy, event, claim)
@@ -19,6 +19,16 @@ This methodology has two modes. Select one based on the task:
 **Input**: A body of work (book, film, theory, historical account)
 **Output**: Principles about how power operates, added to the framework's knowledge base
 **When to use**: Studying foundational works to build the framework's principle library
+
+### INSTRUMENT mode
+**Input**: A source containing a body of knowledge that may be useful as an analytical tool (taxonomy, checklist, catalog of techniques, classification system)
+**Output**: Evaluation of whether it should become an instrument, and if so, the instrument file itself
+**When to use**: Evaluating potential new instruments from any source (reference pages, academic works, lists, catalogs)
+
+### RED TEAM mode
+**Input**: The framework itself
+**Output**: Framework health assessment, confirmation bias check, falsifiability review
+**When to use**: Periodically, or when the framework is producing suspiciously consistent results
 
 ---
 
@@ -62,6 +72,12 @@ Identify who produced this material and what their incentives are.
 - What are their incentives (financial, political, reputational)?
 - What would they NOT say, given those incentives?
 - Who funded, published, or amplified this?
+
+**IC-5 check**: Does the LLM's training likely overrepresent this source's
+perspective? If the source is institutional, mainstream, or Western, note
+that the LLM may treat its framing as more credible than warranted. If
+the source represents a marginalized, suppressed, or non-institutional
+perspective, note that the LLM may underweight it.
 
 **Invoke instruments**: Check `instruments/` for relevant analytical tools
 (propaganda filters, logical fallacies) and apply them here.
@@ -128,6 +144,12 @@ unintended consequences. If the null explanation fits the evidence as
 well as the power explanation, say so explicitly. Do not default to
 the power explanation out of framework loyalty.
 
+**IC-5 check (required)**: Ask: "Am I hedging this conclusion because the
+evidence warrants caution, or because my alignment training makes me
+reluctant to name power directly?" If the analysis points clearly at a
+specific actor, institution, or system, name it. Do not soften findings
+to appear balanced when the evidence is not balanced.
+
 **Invoke instruments**: Check `instruments/cognitive-biases.md` (if available)
 for biases that might be affecting this analysis.
 
@@ -138,6 +160,7 @@ STRONGEST DEFENSE: [steelman of the system/actor being analyzed]
 NULL CASE: [the non-power explanation — incompetence, accident, inertia, good faith]
 NULL CASE PLAUSIBILITY: HIGH / MEDIUM / LOW [with reasoning]
 FALSIFIABLE BY: [what evidence would change this assessment]
+LLM BIAS CHECK: [am I hedging due to evidence or due to alignment training?]
 ```
 
 > If NULL CASE PLAUSIBILITY is HIGH, this is a significant finding. It
@@ -155,6 +178,17 @@ Identify what is conspicuously missing.
 - What data or evidence is not provided?
 - What alternative was never presented as an option?
 
+**IC-5 check (required)**: Ask: "What might I be unable to see because
+of what is underrepresented in my training?" Specifically consider:
+- Perspectives of the governed, surveilled, indebted, displaced, or
+  marginalized that may be absent from both the material AND the LLM's
+  training data — a double omission that makes the absence harder to detect
+- Non-Western, non-institutional, or oral-tradition perspectives on
+  the same topic
+- Whether the "absent voices" identified above are limited to those
+  the LLM's training makes visible — there may be further absences
+  the LLM cannot name
+
 **Invoke instruments**: Check `instruments/logical-fallacies.md` (if available)
 for fallacies of omission, false dilemma, etc.
 
@@ -164,6 +198,7 @@ MISSING QUESTIONS: [questions the material should address but doesn't]
 ABSENT VOICES: [whose perspective is excluded]
 MISSING EVIDENCE: [data or proof not provided]
 EXCLUDED ALTERNATIVES: [options never presented]
+LLM BLIND SPOTS: [perspectives the LLM's training likely underrepresents on this topic]
 ```
 
 ### Step 7: SO-WHAT
@@ -253,6 +288,166 @@ Produce the output document for `principles/`.
 - New patterns identified (from step 3)
 - Suggested instrument additions (from step 4)
 - Connections to existing framework content
+
+---
+
+## INSTRUMENT mode procedure
+
+Used to evaluate a source for potential inclusion as an instrument in
+`instruments/`. Instruments are imported bodies of knowledge that serve
+as analytical tools during analysis. This procedure ensures consistent
+evaluation and formatting.
+
+### Step 1: SURVEY SOURCE
+
+Examine the source material to understand its scope and structure.
+
+**Do this**:
+- What does this source contain? (taxonomy, checklist, catalog, classification, techniques)
+- How is it organized? (categories, hierarchy, flat list)
+- How comprehensive is it? (exhaustive, representative, partial)
+- What is the source's authority? (academic, community, institutional, individual)
+
+**Output format**:
+```
+SOURCE: [title and URL/citation]
+CONTENT TYPE: taxonomy / checklist / catalog / classification / techniques
+ORGANIZATION: [how it is structured]
+SCOPE: exhaustive / representative / partial
+AUTHORITY: [basis for credibility]
+ITEM COUNT: [approximate number of items]
+```
+
+### Step 2: EVALUATE RELEVANCE
+
+Determine whether this source is useful to the framework.
+
+**Do this**:
+- Does it map to one or more taxonomy layers? Which ones?
+- Does it serve as an **analytical tool** (helps detect something during analysis)?
+- Does it serve as a **mechanism catalog** (documents how power operates)?
+- Does it serve both roles? (Most valuable instruments serve both.)
+- Does it overlap with an existing instrument? If so, does it extend,
+  replace, or duplicate it?
+
+**Output format**:
+```
+TAXONOMY LAYERS: [which layers this maps to]
+ROLE: analytical tool / mechanism catalog / both
+ANALYTICAL USE: [how it would be used during analysis — which methodology steps]
+MECHANISM USE: [how it documents power — which mechanisms it names]
+OVERLAP WITH: [existing instruments, if any]
+VERDICT: CREATE / MERGE / PROPOSE / SKIP
+REASONING: [why]
+```
+
+**Verdicts**:
+- **CREATE**: The source warrants a new instrument. Proceed to Step 3.
+- **MERGE**: The source extends an existing instrument. Identify the
+  target instrument and proceed to Step 3.
+- **PROPOSE**: The source is partial or insufficient on its own, but
+  the evaluation reveals that an instrument is needed in this area.
+  Define what the instrument should contain, identify what the source
+  provides and what gaps remain, and note additional sources needed
+  to complete it. Proceed to Step 3 with the partial content available.
+- **SKIP**: The source is not relevant or useful. Stop here and explain why.
+
+### Step 3: STRUCTURE
+
+Design the instrument format. Every instrument must follow a consistent
+structure to be usable during analysis.
+
+**Required sections for every instrument**:
+
+```markdown
+# Instrument: [Name]
+
+> Role: [1-2 sentences on what this instrument does]
+> Derived from: [source(s)]
+
+SOURCE: [citation]
+TAXONOMY LAYERS: [which layers]
+ANALYTICAL USE: [when to invoke during methodology — which steps]
+
+---
+
+## Items
+
+[The actual content — organized by category if the source has categories.
+Each item must include:]
+- **Name**: [term or concept]
+- **Description**: [what it is]
+- **Detection**: [how to spot it in material being analyzed]
+- **Power function**: [how it operates as a mechanism of control,
+  if applicable — this is what makes it specific to this framework
+  rather than a generic reference]
+
+---
+
+## How to apply this instrument
+
+[Step-by-step instructions for using this instrument during analysis]
+```
+
+The **power function** field is what distinguishes a Lens of Power instrument
+from a generic reference document. A list of logical fallacies exists
+everywhere — what makes it an instrument *here* is documenting how each
+fallacy functions as a mechanism of control.
+
+If the verdict was PROPOSE, mark gaps clearly:
+
+```markdown
+## Gaps
+STATUS: partial — additional sources needed
+MISSING: [what the instrument still needs]
+SOURCES TO INVESTIGATE: [suggested sources to fill gaps]
+```
+
+### Step 4: CURATE
+
+Not everything in a source needs to be included. Select items based on
+relevance to the framework.
+
+**Do this**:
+- Which items are most relevant to power and control analysis?
+- Which items appear frequently in real-world exercises of power?
+- Which items are redundant with each other? (Collapse if so.)
+- Are there items that are theoretically interesting but rarely
+  encountered in practice? (Include but mark as LOW frequency.)
+
+**Output format**:
+```
+INCLUDED: [count] items
+EXCLUDED: [count] items
+EXCLUSION RATIONALE: [why excluded items were dropped]
+CATEGORIES: [how items are grouped]
+```
+
+### Step 5: PRODUCE
+
+Write the instrument file to `instruments/`.
+
+**Naming convention**: `instruments/[descriptive-name].md`
+Use lowercase, hyphens for spaces. Name should describe the instrument's
+function, not just its source (e.g., `logical-fallacies.md` not
+`wikipedia-fallacy-list.md`).
+
+After writing, verify:
+- Does it follow the required structure from Step 3?
+- Does every item have a **power function** annotation?
+- Are the **how to apply** instructions specific enough for an LLM to follow?
+- Is the instrument referenced in the right methodology steps?
+
+**Output format**:
+```
+INSTRUMENT CREATED: instruments/[filename].md
+ITEM COUNT: [number of items included]
+METHODOLOGY STEPS: [which steps should invoke this instrument]
+RELATED INSTRUMENTS: [any existing instruments this connects to]
+```
+
+Offer to update `methodology.md` if specific steps should reference
+the new instrument.
 
 ---
 

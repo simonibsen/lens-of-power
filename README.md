@@ -29,6 +29,7 @@ If using Claude Code, navigate to this directory and use the `/lop` skill:
 ```
 /lop analyze [article, event, policy, or URL]
 /lop extract [book, film, theory, or historical account]
+/lop instrument [source to evaluate as potential analytical tool]
 /lop redteam
 ```
 
@@ -47,7 +48,7 @@ Then follow the procedure in `methodology.md` for your chosen mode.
 lens-of-power/
 ├── constitution.md          Foundational axioms and integrity constraints
 ├── taxonomy.md              The six layers of power and their mechanisms
-├── methodology.md           Analytical procedures (analyze/extract/redteam)
+├── methodology.md           Analytical procedures (analyze/extract/instrument/redteam)
 ├── patterns.md              Cross-cutting patterns (grows over time)
 ├── instruments/             Imported analytical tools
 │   ├── control-hierarchy.md   5-level escalation ladder for control ambition

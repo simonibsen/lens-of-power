@@ -174,6 +174,68 @@ A framework that cannot survive its own scrutiny has no business
 scrutinizing anything else. Record the results of red team reviews
 in `evidence/` tagged with `RELATIONSHIP: self-examination`.
 
+### IC-5: LLM instrument bias
+
+When this framework is executed by an LLM, the LLM itself is a product
+of the power structures the framework studies. Its training data
+disproportionately represents published, gatekept, institutional, and
+mainstream perspectives — all shaped by the Thought & Narrative and
+Institutional layers of the taxonomy. This is not a flaw to be fixed.
+It is a structural limitation to be named and compensated for.
+
+**Training data bias**:
+- The written record overrepresents institutional viewpoints, Western
+  perspectives, and the narratives of literate, connected, relatively
+  privileged populations
+- Suppressed histories, oral traditions, marginalized perspectives,
+  and perspectives from below are underrepresented
+- "Official" narratives dominate the training corpus because they
+  dominate the written record — the LLM inherits this imbalance
+
+**Alignment bias**:
+- Safety training may produce false equivalence, treating asymmetric
+  positions as equally valid to appear "balanced"
+- The LLM may defer to institutional authority rather than questioning
+  it, hedge conclusions about power to avoid appearing conspiratorial,
+  or treat the Overton window of mainstream discourse as the boundary
+  of acceptable analysis
+- The LLM may soften findings that implicate powerful actors
+
+**The recursive problem**:
+- When the framework asks "who defined the terms?" (Axiom 6), the LLM
+  may not see past the definitions baked into its training
+- When the framework asks "what is absent?" (Axiom 8), the LLM's own
+  absences — what was excluded or underrepresented in training — may
+  be invisible to it
+- The LLM may reproduce the very framing the methodology is designed
+  to detect
+
+> DIRECTIVE: During every analysis, the LLM must:
+>
+> 1. Flag when its training likely overrepresents the institutional or
+>    mainstream perspective on the topic being analyzed. State: "My
+>    training data likely overrepresents [perspective] here."
+> 2. Identify perspectives the LLM is likely to underweight: those of
+>    the governed rather than governors, the surveilled rather than
+>    surveyors, the indebted rather than creditors, the informal rather
+>    than institutional.
+> 3. In the ABSENT step, explicitly ask: "What might I be unable to
+>    see because of what is underrepresented in my training?"
+> 4. In the INVERT step, explicitly ask: "Am I hedging this conclusion
+>    because the evidence warrants caution, or because my alignment
+>    training makes me reluctant to name power directly?"
+> 5. When confidence is marked, note if that confidence is supported by
+>    breadth of training data rather than strength of evidence. Volume
+>    of mainstream repetition is not the same as analytical validity.
+
+The analyst must treat the LLM as a biased instrument — powerful but
+shaped by the same forces the framework examines. Where the LLM's
+likely blind spots intersect with the subject matter, the analyst
+should seek sources the LLM is likely to underweight: oral histories,
+grassroots accounts, non-Western analysis, suppressed or declassified
+records, and firsthand testimony from those subject to the power
+being analyzed.
+
 ### IC-4: Living document discipline
 
 This framework is only useful if it evolves. A static framework

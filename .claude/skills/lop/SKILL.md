@@ -1,7 +1,7 @@
 ---
 name: lop
-description: Apply the Lens of Power interpretive framework to analyze material for power dynamics, extract principles from a body of work, or red-team the framework itself. Use when the user wants to analyze news, policy, events, arguments, or extract insights from books, films, or theories.
-argument-hint: <analyze|extract|redteam> [material or work description]
+description: Apply the Lens of Power interpretive framework to analyze material for power dynamics, extract principles from a body of work, evaluate sources as potential instruments, or red-team the framework itself.
+argument-hint: <analyze|extract|instrument|redteam> [material, work, or source]
 user-invocable: true
 allowed-tools: Read, Grep, Glob, WebFetch, WebSearch, Write, Edit, Agent
 ---
@@ -35,6 +35,9 @@ Parse `$ARGUMENTS` to determine the mode:
   (article, news, speech, policy, event): use **ANALYZE mode** from methodology.md
 - If the first argument is `extract` or the user is providing a body of work
   (book, film, theory, historical account): use **EXTRACT mode** from methodology.md
+- If the first argument is `instrument` or the user is providing a source
+  to evaluate as a potential analytical tool (reference page, list, catalog,
+  classification system): use **INSTRUMENT mode** from methodology.md
 - If the first argument is `redteam`: use **RED TEAM mode** from methodology.md
 
 If unclear, ask the user which mode to use.
@@ -90,6 +93,12 @@ appropriate files (patterns.md, evidence/, etc.).
 ### For EXTRACT mode:
 Produce the output defined in methodology.md and offer to write the
 results to a new file in `principles/`.
+
+### For INSTRUMENT mode:
+Produce the structured output defined in the INSTRUMENT mode section of
+methodology.md. If the verdict is CREATE or PROPOSE, offer to write the
+instrument file to `instruments/`. If PROPOSE, clearly mark the gaps and
+suggest sources to fill them.
 
 ### For RED TEAM mode:
 Produce the output defined in the RED TEAM mode section of methodology.md
