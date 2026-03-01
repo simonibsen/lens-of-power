@@ -47,6 +47,15 @@ When writing an analysis to `analyses/`, include:
   captured. This is essential for live or evolving sources (live blogs,
   developing stories, social media threads) where the content changes
   over time. The analysis is a snapshot; the timestamp makes that explicit.
+- A **SOURCE TYPE** field describing the structural type of the material.
+  This is an observable property of the format, not a judgment about
+  content or bias. Examples: live blog, news article, press release,
+  government report, academic paper, speech transcript, corporate
+  filing, social media thread, policy document, legislative text,
+  editorial/opinion, leaked document. The source type helps the reader
+  calibrate expectations — a press release and an investigative report
+  are structurally different kinds of material. Bias assessment belongs
+  in Step 2 (SOURCE), not here.
 - A **Narrative** section at the top — a readable prose essay (3-6
   paragraphs) summarizing the key findings for a human reader. The
   structured steps follow below it as the canonical analytical record.

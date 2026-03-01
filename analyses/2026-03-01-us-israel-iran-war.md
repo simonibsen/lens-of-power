@@ -2,6 +2,7 @@
 
 DATE: 2026-03-01
 TIME: ~15:00 UTC (content snapshot — live blog continues to update)
+SOURCE TYPE: live blog
 MODE: ANALYZE (deep pass)
 SOURCE: Guardian live blog, "US-Israel war on Iran live: death tolls rise
 in Israel, UAE and across region as Iran attacks continue and IDF strikes
