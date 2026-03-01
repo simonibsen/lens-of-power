@@ -173,3 +173,42 @@ framework producing suspiciously consistent results).
 A framework that cannot survive its own scrutiny has no business
 scrutinizing anything else. Record the results of red team reviews
 in `evidence/` tagged with `RELATIONSHIP: self-examination`.
+
+### IC-4: Living document discipline
+
+This framework is only useful if it evolves. A static framework
+becomes a dogma. The following maintenance obligations apply:
+
+**After every analysis or extraction**:
+- If new patterns were identified, add them to `patterns.md`
+- If evidence was found that supports or challenges an axiom, record
+  it in `evidence/`
+- If a new mechanism of control was identified, check whether it
+  belongs in `taxonomy.md`
+- If the analysis revealed a gap in the framework — a type of power
+  it cannot see — note it and propose a structural addition
+- If the structure of the project changed (new directories, new file
+  types, new modes of operation), update `README.md` to reflect it
+
+**Periodically (suggested: monthly or after every 10 analyses)**:
+- Review `patterns.md` — promote patterns observed in 3+ independent
+  contexts from MEDIUM to HIGH confidence
+- Review `evidence/` — check the balance of supporting vs. challenging
+  evidence for each axiom
+- Review `instruments/` — are there analytical tools referenced in
+  analyses that should be formalized as instruments?
+- Review the taxonomy — are the six layers still sufficient? Has a
+  new layer of power emerged that the framework cannot currently see?
+- Review this constitution — do the axioms still hold? Do the
+  integrity constraints still function? Is anything missing?
+- Review `README.md` — does it accurately describe the current state
+  of the framework, its structure, and how to use it?
+
+**Version discipline**:
+- The framework is version-controlled. Every structural change to
+  the constitution, taxonomy, or methodology should be committed
+  with a clear description of what changed and why.
+- Never silently alter an axiom. If an axiom changes, the commit
+  message must name the axiom, describe the change, and cite the
+  evidence that prompted it.
+- The git history is the framework's memory. It must be honest.
