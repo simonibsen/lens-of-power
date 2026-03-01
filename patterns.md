@@ -36,7 +36,7 @@ MECHANISM: Naming a system for a desirable outcome (truth, peace, security,
 freedom) prevents scrutiny of its actual function by making criticism appear
 to oppose the desirable outcome itself.
 OBSERVED IN: principles/orwell-1984.md (Ministry of Truth/Peace/Plenty/Love),
-analyses/2026-03-01-us-israel-iran-war.md ("Operation Epic Fury" as heroic
+analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md ("Operation Epic Fury" as heroic
 branding for regime change war; CENTCOM's "looking into" civilian harm as
 accountability language performing deflection)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
@@ -62,7 +62,7 @@ MECHANISM: Maintain war (real or fabricated) to justify surveillance,
 rationing, emergency powers, and suppression of dissent. The war need not
 be won — it must only continue.
 OBSERVED IN: principles/orwell-1984.md (perpetual war with Eurasia/Eastasia),
-analyses/2026-03-01-us-israel-iran-war.md (Trump's "47 years" framing of
+analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Trump's "47 years" framing of
 Iran as eternal enemy, justifying regime change as inevitable resolution
 rather than a policy choice)
 EVIDENCE: evidence/2026-03-01-iran-fm-diplomacy-during-attacks.md
@@ -116,7 +116,7 @@ continuous partial awareness. Every fact is reported; no fact is
 evaluated. The volume of information substitutes for analysis, producing
 an informed but analytically paralyzed audience. This is distinct from
 censorship — it is control through abundance rather than scarcity.
-OBSERVED IN: analyses/2026-03-01-us-israel-iran-war.md (Guardian live blog
+OBSERVED IN: analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Guardian live blog
 format during opening phase of US-Israeli war on Iran)
 EVIDENCE: —
 CONFIDENCE: LOW (first observation; the mechanism is clear but needs to be
@@ -135,7 +135,7 @@ leave a destabilized state with no viable governance plan. Each instance
 is framed as a response to a unique crisis, preventing structural
 recognition of the repeating pattern. The framing of each war as
 unprecedented obscures the serial nature of the enterprise.
-OBSERVED IN: analyses/2026-03-01-us-israel-iran-war.md (Iran 2026, with
+OBSERVED IN: analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Iran 2026, with
 structural parallels to Iraq 2003, Libya 2011, Afghanistan 2001)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 CONFIDENCE: MEDIUM (multiple historical instances available; this is the

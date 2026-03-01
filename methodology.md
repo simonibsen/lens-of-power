@@ -42,6 +42,12 @@ Before beginning, assess the material:
 - **Full pass** (all 7 steps): Standard analysis.
 - **Deep pass** (all 7 steps + written synthesis): For material of high significance.
 
+**Filename convention**: `YYYY-MM-DD-source-type-description.md`
+where source is who published it and type is the format. Examples:
+`2026-03-01-guardian-liveblog-us-israel-iran-war.md`,
+`2026-04-15-usgov-pressrelease-sanctions-expansion.md`,
+`2026-05-20-nyt-article-housing-policy-reform.md`.
+
 When writing an analysis to `analyses/`, include:
 - A **TIME** field (approximate UTC) recording when the material was
   captured. This is essential for live or evolving sources (live blogs,
