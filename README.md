@@ -52,6 +52,7 @@ lens-of-power/
 ├── patterns.md              Cross-cutting patterns (grows over time)
 ├── instruments/             Imported analytical tools
 │   ├── control-hierarchy.md   5-level escalation ladder for control ambition
+│   ├── logical-fallacies.md   38 fallacies organized by power function
 │   └── newspeak-checklist.md  Detecting language as an instrument of control
 ├── principles/              Extracted from specific works
 │   └── orwell-1984.md        8 principles from Nineteen Eighty-Four
@@ -74,6 +75,8 @@ ideological system:
   to detect confirmation bias and unfalsifiability.
 - **IC-4: Living document** — The framework must evolve. Axioms,
   patterns, and the taxonomy are updated as evidence accumulates.
+- **IC-5: LLM bias** — When executed by an LLM, the framework names
+  the LLM's own training biases as a structural limitation.
 
 ## Design principles
 
