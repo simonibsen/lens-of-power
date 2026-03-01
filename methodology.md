@@ -75,6 +75,47 @@ above remains untouched. This preserves the snapshot, keeps the
 analysis useful as a living reference, and creates a visible trail of
 how understanding evolved over time.
 
+### Analysis index
+
+Maintain `analyses/INDEX.md` as a registry of all completed analyses.
+After each analysis, add an entry:
+
+```
+| Date | Material | Domain | Primary layers | Null case outcome |
+|------|----------|--------|----------------|-------------------|
+| YYYY-MM-DD | [short description] | [domain] | [layers] | rejected / plausible / accepted |
+```
+
+The index serves two functions:
+1. **Selection bias detection**: During red team reviews (IC-3), review
+   the index for clustering. If analyses concentrate in one domain,
+   one set of layers, or consistently reject the null case, the
+   framework is being fed a biased diet.
+2. **Cross-referencing**: The CONNECT step can scan the index to
+   identify prior analyses with structural parallels.
+
+### Adversarial input
+
+The framework must periodically be applied to material where the null
+case is likely to win. This is not optional — it is the empirical
+test of whether IC-2 functions or is decorative.
+
+**Adversarial material includes**:
+- A functional institution doing what it claims to do
+- A policy that worked as intended for its stated beneficiaries
+- A reform that succeeded without hidden costs
+- An event best explained by incompetence, accident, or good faith
+- Material from a domain the framework has not yet been applied to
+
+**Frequency**: At least 1 in every 5 analyses should be adversarial.
+If the framework cannot produce "the power explanation does not hold
+here" as an honest conclusion, it is a confirmation machine regardless
+of what the integrity constraints say.
+
+The analysis index makes this trackable — if the "null case outcome"
+column never reads "accepted" or "plausible," that is itself a finding
+about the framework's health.
+
 ### Step 1: DECOMPOSE
 
 Strip the material to its bare claims. Remove rhetoric, emotional framing,
@@ -546,7 +587,33 @@ taxonomy layer:
 - **Surveillance**: Is the framework making me see control everywhere,
   producing a paranoid lens rather than an analytical one?
 
-### Step 3: CHECK THE EVIDENCE BASE
+### Step 3: CHECK THE INPUT DIET
+
+Review `analyses/INDEX.md` for selection bias:
+
+- What domains have been analyzed? What domains have been avoided?
+- Which taxonomy layers appear most often as primary? Which never appear?
+- What is the distribution of null case outcomes? If the null case has
+  never been rated "plausible" or "accepted," the framework may be
+  selecting inputs that confirm its axioms.
+- Has any adversarial material been analyzed? What was the result?
+- Are there types of material the analyst instinctively avoids
+  (corporate governance, functioning democracies, successful reforms)?
+  That avoidance is a signal.
+
+**Output format**:
+```
+INPUT DIET:
+  TOTAL ANALYSES: [count]
+  DOMAIN DISTRIBUTION: [domains and counts]
+  PRIMARY LAYER DISTRIBUTION: [layers and counts]
+  NULL CASE OUTCOMES: [rejected/plausible/accepted counts]
+  ADVERSARIAL ANALYSES: [count and outcomes]
+  BLIND SPOTS: [domains or material types never analyzed]
+  RECOMMENDATION: [what to analyze next to test the framework]
+```
+
+### Step 4: CHECK THE EVIDENCE BASE
 
 Review `evidence/` entries:
 
@@ -556,7 +623,7 @@ Review `evidence/` entries:
 - Are there axioms with no challenging evidence at all? Flag them —
   either they are robustly true or they are not being tested.
 
-### Step 4: ASSESS FALSIFIABILITY
+### Step 5: ASSESS FALSIFIABILITY
 
 Review the falsifiability table in `constitution.md`:
 

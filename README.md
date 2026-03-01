@@ -59,6 +59,7 @@ lens-of-power/
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
+│   └── INDEX.md               Analysis registry (selection bias tracking)
 └── tools/                   Utility scripts (article fetcher, etc.)
 ```
 
