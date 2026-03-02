@@ -29,6 +29,7 @@ be used by both humans and LLMs.
   - [Analyze](#lop-analyze--analyze-new-material) — 7-step analysis with briefing output
   - [Extract](#lop-extract--study-a-source-for-principles-and-instruments) — study a source for principles and instruments
   - [Red team](#lop-redteam--turn-the-framework-on-itself) — turn the framework on itself
+- [Viewer](#viewer) — interactive visualization of the framework
 - [How the framework grows](#how-the-framework-grows)
 - [Structure](#structure) — directory layout
 - [Integrity constraints](#integrity-constraints) — IC-1 through IC-5
@@ -386,6 +387,37 @@ and recommended adjustments.
 > analyses, or whenever the framework is producing suspiciously consistent
 > results. Certainty is the signal that a red team is overdue.
 
+## Viewer
+
+![Viewer dashboard](docs/viewer-dashboard.png)
+
+The framework includes an interactive viewer that visualizes the
+knowledge base — patterns, principles, instruments, evidence, and
+analyses — and the connections between them.
+
+```
+python3 tools/build-viewer.py
+open viewer.html
+```
+
+The build script reads all framework markdown files, extracts structured
+metadata and cross-references, and outputs `viewer.html` + `viewer-data.js`
+(both gitignored build artifacts). A git post-commit hook auto-rebuilds
+when `.md` files are committed.
+
+**Views**:
+
+- **Dashboard** — Stats, recent analyses, works studied, layer coverage,
+  and links to the visualization views
+- **Content** — Detail view for any item with rendered markdown and
+  connected items
+- **Graph** — Force-directed network showing all items and their
+  connections, with node sizing by degree and edge coloring by
+  relationship type
+- **Layers** — Items organized by taxonomy layer, showing cross-layer
+  connections
+- **Matrix** — Pattern corroboration across source works
+
 ## How the framework grows
 
 > [!NOTE]
@@ -447,6 +479,7 @@ lens-of-power/
 ├── analyses/                Applied analyses of current material
 │   └── INDEX.md               Analysis registry (selection bias tracking)
 └── tools/                   Utility scripts
+    ├── build-viewer.py        Static viewer generator (produces viewer.html + viewer-data.js)
     └── fetch-article.py       URL content extraction (fallback for WebFetch)
 ```
 

@@ -1,4 +1,4 @@
-# James C. Scott — *Weapons of the Weak: Everyday Forms of Peasant Resistance* (1985)
+# Principles: Weapons of the Weak
 
 SOURCE: James C. Scott, *Weapons of the Weak: Everyday Forms of Peasant Resistance*, Yale University Press, 1985
 TYPE: Political anthropology / Ethnography of resistance

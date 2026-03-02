@@ -1,4 +1,4 @@
-# Frantz Fanon --- *The Wretched of the Earth* (1961)
+# Principles: The Wretched of the Earth
 
 SOURCE: Frantz Fanon, *Les Damnes de la Terre*, 1961 (English: *The
 Wretched of the Earth*, trans. Constance Farrington, 1963; trans.

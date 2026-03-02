@@ -1,4 +1,4 @@
-# Niccolò Machiavelli — *The Prince* (1513)
+# Principles: The Prince
 
 SOURCE: Niccolò Machiavelli, *Il Principe*, written 1513, published 1532
 TYPE: Political treatise / Manual for rulers
