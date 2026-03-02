@@ -396,7 +396,8 @@ lens-of-power/
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
 │   └── INDEX.md               Analysis registry (selection bias tracking)
-└── tools/                   Utility scripts (article fetcher, etc.)
+└── tools/                   Utility scripts
+    └── fetch-article.py       URL content extraction (fallback for WebFetch)
 ```
 
 ## Integrity constraints
