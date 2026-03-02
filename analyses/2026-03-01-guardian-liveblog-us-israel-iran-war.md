@@ -9,6 +9,46 @@ in Israel, UAE and across region as Iran attacks continue and IDF strikes
 'heart of Tehran'"
 URL: https://www.theguardian.com/us-news/live/2026/mar/01/us-israel-war-on-iran-ayatollah-ali-khamenei-i-dead-latest-reports
 
+## Contents
+- [Summary](#summary)
+- [Narrative](#narrative)
+- [Material summary](#material-summary)
+- [Step 1: DECOMPOSE](#step-1-decompose)
+  - Claims
+  - Framing
+  - Emotional register
+  - Instrument findings — Newspeak Checklist
+  - Instrument findings — Logical Fallacies
+- [Step 2: SOURCE](#step-2-source)
+- [Step 3: LOCATE](#step-3-locate)
+- [Step 4: CONNECT](#step-4-connect)
+- [Step 5: INVERT](#step-5-invert)
+- [Step 6: ABSENT](#step-6-absent)
+- [Step 7: SO-WHAT](#step-7-so-what)
+- [Sources](#sources)
+
+---
+
+## Summary
+
+```
+MATERIAL: Guardian live blog — Day 2 of US-Israeli war on Iran
+PRIMARY LAYERS: Physical & Coercive, Thought & Narrative
+KEY MECHANISMS: Direct force, narrative framing, institutional
+authority, omission of legal framework
+KEY FINDING: This is the fourth US-led regime change war in the Middle
+East in 25 years, following an identical template — yet coverage treats
+it as unique, reporting all facts while preventing structural
+recognition. The most significant buried claim is Iran's FM stating the
+US attacked during active negotiations, which if true means diplomacy
+was performative.
+CONFIDENCE: HIGH (power dynamics); MEDIUM (diplomacy claim)
+NULL CASE CONSIDERED: Yes. LOW plausibility for the operation; MEDIUM
+for individual incidents.
+FRAMEWORK UPDATES: 2 new patterns, 2 evidence entries, 1 existing
+pattern updated.
+```
+
 ---
 
 ## Narrative
@@ -317,28 +357,6 @@ FRAMEWORK UPDATES MADE:
 MADE VISIBLE: The live blog as a control mechanism. The absence of law
 from war coverage. Trump's business-metrics framing of killing. The
 potential performativity of diplomacy preceding military action.
-
----
-
-## Summary
-
-```
-MATERIAL: Guardian live blog — Day 2 of US-Israeli war on Iran
-PRIMARY LAYERS: Physical & Coercive, Thought & Narrative
-KEY MECHANISMS: Direct force, narrative framing, institutional
-authority, omission of legal framework
-KEY FINDING: This is the fourth US-led regime change war in the Middle
-East in 25 years, following an identical template — yet coverage treats
-it as unique, reporting all facts while preventing structural
-recognition. The most significant buried claim is Iran's FM stating the
-US attacked during active negotiations, which if true means diplomacy
-was performative.
-CONFIDENCE: HIGH (power dynamics); MEDIUM (diplomacy claim)
-NULL CASE CONSIDERED: Yes. LOW plausibility for the operation; MEDIUM
-for individual incidents.
-FRAMEWORK UPDATES: 2 new patterns, 2 evidence entries, 1 existing
-pattern updated.
-```
 
 ---
 

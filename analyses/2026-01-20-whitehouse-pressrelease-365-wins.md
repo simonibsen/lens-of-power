@@ -18,6 +18,26 @@ framing architecture; the list items instantiate it.
 
 ---
 
+## Contents
+- [Briefing](#briefing-white-house-anniversary-self-assessment)
+  - Key finding
+  - Who benefits / who bears cost
+  - What is absent
+  - Findings
+  - Analytical apparatus
+  - Null case
+  - Watch
+- [Narrative](#narrative)
+- [Step 1: DECOMPOSE](#step-1-decompose)
+- [Step 2: SOURCE](#step-2-source)
+- [Step 3: LOCATE](#step-3-locate)
+- [Step 4: CONNECT](#step-4-connect)
+- [Step 5: INVERT](#step-5-invert)
+- [Step 6: ABSENT](#step-6-absent)
+- [Step 7: SO-WHAT](#step-7-so-what)
+
+---
+
 ## Briefing: White House Anniversary Self-Assessment
 
 **SOURCE POSITION**: Position 1 — Ruler/Operator

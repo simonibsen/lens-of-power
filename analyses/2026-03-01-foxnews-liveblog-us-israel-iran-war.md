@@ -17,6 +17,166 @@ makes visible and invisible.
 
 ---
 
+## Contents
+- [Briefing](#briefing-fox-news-war-coverage-as-selective-narrative-construction)
+  - Key findings
+  - Who benefits / who bears cost
+  - What is absent
+  - Findings
+  - Analytical apparatus
+  - Null case
+  - Watch
+- [Narrative](#narrative)
+- [Step 1: DECOMPOSE](#step-1-decompose)
+  - Claims
+  - Framing
+  - Emotional register
+  - Propaganda classification
+  - Newspeak detections
+- [Step 2: SOURCE](#step-2-source)
+- [Step 3: LOCATE](#step-3-locate)
+- [Step 4: CONNECT](#step-4-connect)
+- [Step 5: INVERT](#step-5-invert)
+- [Step 6: ABSENT](#step-6-absent)
+- [Step 7: SO-WHAT](#step-7-so-what)
+- [Sources](#sources)
+
+---
+
+## Briefing: Fox News War Coverage as Selective Narrative Construction
+
+DATE: 2026-03-01
+SOURCE TYPE: live blog
+SOURCE POSITION: Hybrid — Position 1 (Ruler) / Position 5 (Observer)
+
+### Key findings
+
+1. Fox News's live blog of Operation Epic Fury covers oil futures,
+   maritime traffic, an Austin bar shooting, a 19-year-old kidnapping case,
+   and the operational details of bodyguard phone surveillance — but
+   contains zero mention of 148 people killed at a girls' school in Minab,
+   the largest documented civilian casualty event of the operation. This is
+   not saturation preventing synthesis (the Guardian's mechanism) but
+   selective omission removing the single fact most incompatible with the
+   narrative architecture.
+
+2. The blog constructs a domestic threat narrative — the Austin shooting
+   (Iranian flag imagery), sleeper cell warnings, Capitol security, DHS
+   posture — inside the foreign war live blog, creating an associative link
+   between Iran and danger on American soil. This extends the Perpetual
+   Threat pattern: external military operations generate internal security
+   narratives that justify both the war abroad and vigilance at home.
+
+3. The Legal & Regulatory layer is entirely absent from Fox's coverage,
+   as it was from the Guardian's. Former military officers called the
+   operation a clear violation of domestic and international law in The
+   Intercept on the same day. The identical structural absence across
+   ideologically opposed sources suggests this is a feature of wartime
+   media, not a product of any single outlet's bias.
+
+### Who benefits / who bears cost
+
+| Actor | Gains | At whose expense |
+|-------|-------|------------------|
+| Trump administration | Wartime coverage narrating competence, justification, and coalition support; no legal scrutiny | US public's capacity for informed evaluation; democratic accountability through law |
+| US/Israeli military | Intelligence operation celebrated as triumph; no civilian casualty reporting to constrain operations | Iranian civilians — 148 dead at a school; existence removed from the narrative |
+| Fox News | Audience engagement; access to administration sources; political alignment with its base | Audience receives a structurally incomplete account missing the most consequential civilian event |
+| Domestic security apparatus (DHS) | Threat narrative justifies funding, posture, expanded authority | Civil liberties; Muslim/Middle Eastern communities subject to heightened suspicion |
+
+### What is absent
+
+- 148 dead at a girls' school in Minab — the single largest omission
+- The legality of the operation under the War Powers Resolution and UN Charter
+- Any anti-war voice — political, military, civilian, or academic
+- Iranian civilians speaking in any capacity
+- Iran's FM claim about being attacked during active negotiations
+- Historical outcomes of the previous three US regime change operations in the region
+
+### Findings
+
+1. **Complete omission of the Minab school strike**
+   LAYER: Thought & Narrative
+   STATUS: observed
+   The Fox News live blog — the most detailed English-language live coverage of the operation — contains no mention of the Minab school strike (148 killed including children), which was reported by the Guardian and independently confirmed by The Intercept. The blog covers oil futures, maritime traffic, an Austin bar shooting, the Levinson family, and bodyguard phone tracking. The omission is observable, not inferred. It removes the single fact most damaging to the narrative architecture the blog constructs.
+
+2. **Domestic threat narrative woven into foreign war coverage**
+   LAYER: Thought & Narrative, Physical & Coercive, Surveillance & Information
+   STATUS: observed (placement in blog) / inferred (associative function)
+   The Austin shooting — a Senegalese-born man wearing Iranian imagery — is placed inside the Iran war live blog despite no established connection to Iranian state action. Former DHS chief warns of "sleeper cells" and "lone actors sympathetic to Tehran." Capitol security enhanced. The observable effect is to link the foreign war to domestic danger, creating a feedback loop that justifies both.
+
+3. **Intelligence operation narrated as triumph**
+   LAYER: Surveillance & Information, Thought & Narrative
+   STATUS: observed
+   Fox senior correspondent Benjamin Hall describes CIA tracking, bodyguard phone surveillance, and signals intelligence monitoring in detail, calling it "an incredible way to start this sort of attack." The audience is invited to admire the mechanics of assassination. The surveillance apparatus is celebrated rather than questioned — the operational perspective of power naturalized as the audience's perspective.
+
+4. **Legal layer structurally absent across ideologically opposed sources**
+   LAYER: Legal & Regulatory (absent)
+   STATUS: observed (absence in Fox) / inferred (structural rather than ideological, based on identical absence in Guardian)
+   Neither Fox News (right) nor the Guardian (center-left) includes any reference to the War Powers Resolution, UN Charter, international humanitarian law, or the legality of regime change. The Intercept published a detailed legal analysis on the same day. The identical absence across opposed sources suggests the omission is structural to wartime live-blog media, not a product of any single outlet's editorial position.
+
+5. **Coalition statement as constructed appearance of multilateral consensus**
+   LAYER: Institutional, Thought & Narrative
+   STATUS: observed (statement reproduced) / inferred (appearance function)
+   The seven-nation joint statement condemning Iran's "indiscriminate" attacks is reproduced in full. It frames the coalition nations as defending against Iranian aggression — despite the US and Israel having initiated the military operation. The statement constructs an appearance of multilateral legitimacy for what is structurally a US-Israeli offensive.
+
+6. **Iranian-American intermediary voice providing liberation cover**
+   LAYER: Thought & Narrative, Institutional
+   STATUS: observed (presence in blog) / inferred (structural function)
+   The sole Iranian-perspective voice is Sarah Raviani, described as a "communications strategist" — a diaspora professional speaking from Position 4 (intermediary). She frames the war as a freedom moment for the Iranian people. No Iranian inside Iran speaks. No Iranian under the bombs speaks. The effect is to provide civilian-aspiration cover for a military operation, with the intermediary voice substituting for the governed population's actual voice.
+
+7. **Comparative finding: saturation vs. selection produce the same analytical outcome**
+   LAYER: Thought & Narrative
+   STATUS: inferred (from comparative analysis with Guardian)
+   The Guardian reports all facts but prevents synthesis (Real-Time Narrative Saturation). Fox News selects facts that compose a coherent story (selective construction). Both produce the same outcome: the audience does not arrive at the structural question — is this legal? who dies? who profits? has this worked before? The convergence across opposed sources suggests the mechanism is deeper than editorial bias.
+
+### Analytical apparatus
+
+INSTRUMENTS APPLIED:
+- Propaganda Typology (instruments/propaganda-typology.md) — classified as compound wartime propaganda: agitation+integration, political, vertical, rational+irrational, supporting; identified the domestic threat narrative as agitation element and the coalition framing as integration element
+- Newspeak Checklist (instruments/newspeak-checklist.md) — detected euphemistic substitution ("operations" vs. "attacks"), redefinition ("defensive" for offensive), emotional substitution (celebrating assassination mechanics), binary framing (no space between support and opposition)
+- Positional Lens (instruments/positional-lens.md) — identified Fox as hybrid Position 1/5 (narrating from inside the command structure); identified Raviani as Position 4 (intermediary); identified the complete absence of Position 2 (everyday governed — Iranian civilians) and Position 3 (structural critic — anti-war voices)
+
+PRINCIPLES REFERENCED:
+- Orwell P3 (surveillance as self-policing) — the intelligence narrative invites admiration of the surveillance state
+- Ellul P5 (pre-propaganda conditioning) — domestic threat narrative activates decades of Middle Eastern terrorism associations
+- Machiavelli P2 (appearance as operating terrain) — coalition statement as constructed appearance
+- Fanon P4 (national bourgeoisie as relay) — Raviani as intermediary voice providing liberation cover
+- Stanley P1 (undermining propaganda) — "self-defense" framing of a preemptive attack uses the ideal of defense to authorize aggression
+
+PATTERNS MATCHED:
+- Inversion of Stated Purpose — ESTABLISHED — "defensive" operations, "self-defense" joint statement, "eliminating threats" for regime change
+- Perpetual Threat as Perpetual Justification — SUPPORTED — domestic threat narrative extends the pattern; additional corroboration
+- Serial Regime Change — SUPPORTED — structural parallels to Iraq 2003 coverage
+- Real-Time Narrative Saturation — SUPPORTED — variant: selective construction rather than comprehensive saturation
+- Appearance as Structural Terrain — ESTABLISHED — coalition statement as appearance of consensus
+- Layered Redundancy of Control — ESTABLISHED — all non-Legal layers reinforcing
+
+PATTERNS NOT MATCHED:
+- Institutional Abdication — the congressional briefing coverage creates an appearance of institutional functioning; Congress has not visibly abdicated (though the absence of the authorization question from coverage may facilitate future abdication)
+
+### Null case
+
+The null case — standard conservative news coverage prioritizing American
+interests — explains most individual content choices but cannot explain
+the structured absences. The school strike omission is the critical test:
+in a live blog of this length covering this many peripheral events, the
+absence of 148 dead at a girls' school is not plausible as editorial
+judgment. The legal layer's absence matches the Guardian, suggesting a
+structural rather than ideological mechanism for that omission.
+**Null case plausibility: LOW for the school strike omission and overall
+narrative architecture; MEDIUM for individual content choices (domestic
+threat, coalition, military detail).**
+
+### Watch
+
+- Whether Fox News reports the Minab school strike in any format at any time
+- Whether the Austin shooting investigation reveals or rules out Iranian state connection
+- Whether the legal question surfaces as congressional briefings occur
+- How the domestic threat narrative develops — does it persist beyond the operation?
+- Whether the "liberation" narrative survives contact with operational reality
+
+---
+
 ## Narrative
 
 Fox News Digital's live blog of Day 2 of "Operation Epic Fury" is
@@ -665,140 +825,6 @@ MADE VISIBLE:
     the mechanics of state violence rather than question its
     legitimacy
 ```
-
----
-
-## Briefing: Fox News War Coverage as Selective Narrative Construction
-
-DATE: 2026-03-01
-SOURCE TYPE: live blog
-SOURCE POSITION: Hybrid — Position 1 (Ruler) / Position 5 (Observer)
-
-### Key findings
-
-1. Fox News's live blog of Operation Epic Fury covers oil futures,
-   maritime traffic, an Austin bar shooting, a 19-year-old kidnapping case,
-   and the operational details of bodyguard phone surveillance — but
-   contains zero mention of 148 people killed at a girls' school in Minab,
-   the largest documented civilian casualty event of the operation. This is
-   not saturation preventing synthesis (the Guardian's mechanism) but
-   selective omission removing the single fact most incompatible with the
-   narrative architecture.
-
-2. The blog constructs a domestic threat narrative — the Austin shooting
-   (Iranian flag imagery), sleeper cell warnings, Capitol security, DHS
-   posture — inside the foreign war live blog, creating an associative link
-   between Iran and danger on American soil. This extends the Perpetual
-   Threat pattern: external military operations generate internal security
-   narratives that justify both the war abroad and vigilance at home.
-
-3. The Legal & Regulatory layer is entirely absent from Fox's coverage,
-   as it was from the Guardian's. Former military officers called the
-   operation a clear violation of domestic and international law in The
-   Intercept on the same day. The identical structural absence across
-   ideologically opposed sources suggests this is a feature of wartime
-   media, not a product of any single outlet's bias.
-
-### Who benefits / who bears cost
-
-| Actor | Gains | At whose expense |
-|-------|-------|------------------|
-| Trump administration | Wartime coverage narrating competence, justification, and coalition support; no legal scrutiny | US public's capacity for informed evaluation; democratic accountability through law |
-| US/Israeli military | Intelligence operation celebrated as triumph; no civilian casualty reporting to constrain operations | Iranian civilians — 148 dead at a school; existence removed from the narrative |
-| Fox News | Audience engagement; access to administration sources; political alignment with its base | Audience receives a structurally incomplete account missing the most consequential civilian event |
-| Domestic security apparatus (DHS) | Threat narrative justifies funding, posture, expanded authority | Civil liberties; Muslim/Middle Eastern communities subject to heightened suspicion |
-
-### What is absent
-
-- 148 dead at a girls' school in Minab — the single largest omission
-- The legality of the operation under the War Powers Resolution and UN Charter
-- Any anti-war voice — political, military, civilian, or academic
-- Iranian civilians speaking in any capacity
-- Iran's FM claim about being attacked during active negotiations
-- Historical outcomes of the previous three US regime change operations in the region
-
-### Findings
-
-1. **Complete omission of the Minab school strike**
-   LAYER: Thought & Narrative
-   STATUS: observed
-   The Fox News live blog — the most detailed English-language live coverage of the operation — contains no mention of the Minab school strike (148 killed including children), which was reported by the Guardian and independently confirmed by The Intercept. The blog covers oil futures, maritime traffic, an Austin bar shooting, the Levinson family, and bodyguard phone tracking. The omission is observable, not inferred. It removes the single fact most damaging to the narrative architecture the blog constructs.
-
-2. **Domestic threat narrative woven into foreign war coverage**
-   LAYER: Thought & Narrative, Physical & Coercive, Surveillance & Information
-   STATUS: observed (placement in blog) / inferred (associative function)
-   The Austin shooting — a Senegalese-born man wearing Iranian imagery — is placed inside the Iran war live blog despite no established connection to Iranian state action. Former DHS chief warns of "sleeper cells" and "lone actors sympathetic to Tehran." Capitol security enhanced. The observable effect is to link the foreign war to domestic danger, creating a feedback loop that justifies both.
-
-3. **Intelligence operation narrated as triumph**
-   LAYER: Surveillance & Information, Thought & Narrative
-   STATUS: observed
-   Fox senior correspondent Benjamin Hall describes CIA tracking, bodyguard phone surveillance, and signals intelligence monitoring in detail, calling it "an incredible way to start this sort of attack." The audience is invited to admire the mechanics of assassination. The surveillance apparatus is celebrated rather than questioned — the operational perspective of power naturalized as the audience's perspective.
-
-4. **Legal layer structurally absent across ideologically opposed sources**
-   LAYER: Legal & Regulatory (absent)
-   STATUS: observed (absence in Fox) / inferred (structural rather than ideological, based on identical absence in Guardian)
-   Neither Fox News (right) nor the Guardian (center-left) includes any reference to the War Powers Resolution, UN Charter, international humanitarian law, or the legality of regime change. The Intercept published a detailed legal analysis on the same day. The identical absence across opposed sources suggests the omission is structural to wartime live-blog media, not a product of any single outlet's editorial position.
-
-5. **Coalition statement as constructed appearance of multilateral consensus**
-   LAYER: Institutional, Thought & Narrative
-   STATUS: observed (statement reproduced) / inferred (appearance function)
-   The seven-nation joint statement condemning Iran's "indiscriminate" attacks is reproduced in full. It frames the coalition nations as defending against Iranian aggression — despite the US and Israel having initiated the military operation. The statement constructs an appearance of multilateral legitimacy for what is structurally a US-Israeli offensive.
-
-6. **Iranian-American intermediary voice providing liberation cover**
-   LAYER: Thought & Narrative, Institutional
-   STATUS: observed (presence in blog) / inferred (structural function)
-   The sole Iranian-perspective voice is Sarah Raviani, described as a "communications strategist" — a diaspora professional speaking from Position 4 (intermediary). She frames the war as a freedom moment for the Iranian people. No Iranian inside Iran speaks. No Iranian under the bombs speaks. The effect is to provide civilian-aspiration cover for a military operation, with the intermediary voice substituting for the governed population's actual voice.
-
-7. **Comparative finding: saturation vs. selection produce the same analytical outcome**
-   LAYER: Thought & Narrative
-   STATUS: inferred (from comparative analysis with Guardian)
-   The Guardian reports all facts but prevents synthesis (Real-Time Narrative Saturation). Fox News selects facts that compose a coherent story (selective construction). Both produce the same outcome: the audience does not arrive at the structural question — is this legal? who dies? who profits? has this worked before? The convergence across opposed sources suggests the mechanism is deeper than editorial bias.
-
-### Analytical apparatus
-
-INSTRUMENTS APPLIED:
-- Propaganda Typology (instruments/propaganda-typology.md) — classified as compound wartime propaganda: agitation+integration, political, vertical, rational+irrational, supporting; identified the domestic threat narrative as agitation element and the coalition framing as integration element
-- Newspeak Checklist (instruments/newspeak-checklist.md) — detected euphemistic substitution ("operations" vs. "attacks"), redefinition ("defensive" for offensive), emotional substitution (celebrating assassination mechanics), binary framing (no space between support and opposition)
-- Positional Lens (instruments/positional-lens.md) — identified Fox as hybrid Position 1/5 (narrating from inside the command structure); identified Raviani as Position 4 (intermediary); identified the complete absence of Position 2 (everyday governed — Iranian civilians) and Position 3 (structural critic — anti-war voices)
-
-PRINCIPLES REFERENCED:
-- Orwell P3 (surveillance as self-policing) — the intelligence narrative invites admiration of the surveillance state
-- Ellul P5 (pre-propaganda conditioning) — domestic threat narrative activates decades of Middle Eastern terrorism associations
-- Machiavelli P2 (appearance as operating terrain) — coalition statement as constructed appearance
-- Fanon P4 (national bourgeoisie as relay) — Raviani as intermediary voice providing liberation cover
-- Stanley P1 (undermining propaganda) — "self-defense" framing of a preemptive attack uses the ideal of defense to authorize aggression
-
-PATTERNS MATCHED:
-- Inversion of Stated Purpose — ESTABLISHED — "defensive" operations, "self-defense" joint statement, "eliminating threats" for regime change
-- Perpetual Threat as Perpetual Justification — SUPPORTED — domestic threat narrative extends the pattern; additional corroboration
-- Serial Regime Change — SUPPORTED — structural parallels to Iraq 2003 coverage
-- Real-Time Narrative Saturation — SUPPORTED — variant: selective construction rather than comprehensive saturation
-- Appearance as Structural Terrain — ESTABLISHED — coalition statement as appearance of consensus
-- Layered Redundancy of Control — ESTABLISHED — all non-Legal layers reinforcing
-
-PATTERNS NOT MATCHED:
-- Institutional Abdication — the congressional briefing coverage creates an appearance of institutional functioning; Congress has not visibly abdicated (though the absence of the authorization question from coverage may facilitate future abdication)
-
-### Null case
-
-The null case — standard conservative news coverage prioritizing American
-interests — explains most individual content choices but cannot explain
-the structured absences. The school strike omission is the critical test:
-in a live blog of this length covering this many peripheral events, the
-absence of 148 dead at a girls' school is not plausible as editorial
-judgment. The legal layer's absence matches the Guardian, suggesting a
-structural rather than ideological mechanism for that omission.
-**Null case plausibility: LOW for the school strike omission and overall
-narrative architecture; MEDIUM for individual content choices (domestic
-threat, coalition, military detail).**
-
-### Watch
-
-- Whether Fox News reports the Minab school strike in any format at any time
-- Whether the Austin shooting investigation reveals or rules out Iranian state connection
-- Whether the legal question surfaces as congressional briefings occur
-- How the domestic threat narrative develops — does it persist beyond the operation?
-- Whether the "liberation" narrative survives contact with operational reality
 
 ---
 

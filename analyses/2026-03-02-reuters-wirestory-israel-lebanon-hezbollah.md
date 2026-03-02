@@ -21,6 +21,26 @@ is used as a structural comparator throughout.
 
 ---
 
+## Contents
+- [Briefing](#briefing-reuters-wire-coverage-of-lebanon-front-opening)
+  - Key finding
+  - Who benefits / who bears cost
+  - What is absent
+  - Findings
+  - Analytical apparatus
+  - Null case
+  - Watch
+- [Narrative](#narrative)
+- [Step 1: DECOMPOSE](#step-1-decompose)
+- [Step 2: SOURCE](#step-2-source)
+- [Step 3: LOCATE](#step-3-locate)
+- [Step 4: CONNECT](#step-4-connect)
+- [Step 5: INVERT](#step-5-invert)
+- [Step 6: ABSENT](#step-6-absent)
+- [Step 7: SO-WHAT](#step-7-so-what)
+
+---
+
 ## Briefing: Reuters Wire Coverage of Lebanon Front Opening
 
 **SOURCE POSITION**: Position 5 (External Observer) with structural
