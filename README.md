@@ -422,7 +422,9 @@ lens-of-power/
 │   ├── zuboff-age-of-surveillance-capitalism.md  10 principles from The Age of Surveillance Capitalism
 │   ├── snyder-on-tyranny.md  7 principles from On Tyranny
 │   ├── piketty-capital-in-the-twenty-first-century.md  8 principles from Capital in the Twenty-First Century
-│   └── scheidel-the-great-leveler.md  5 principles from The Great Leveler
+│   ├── scheidel-the-great-leveler.md  5 principles from The Great Leveler
+│   ├── winters-oligarchy.md  5 principles from Oligarchy
+│   └── hartmann-hidden-history-american-oligarchy.md  4 principles from The Hidden History of American Oligarchy
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
