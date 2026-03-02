@@ -20,25 +20,25 @@
 LAYERS: Institutional, Thought & Narrative
 STATEMENT: Systems of control are frequently named for or justified by the opposite of their actual function.
 MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making criticism appear to oppose the outcome itself.
-CORROBORATION: ESTABLISHED (15 sources)
+CORROBORATION: ESTABLISHED (17 sources)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
 STATEMENT: Durable power structures operate multiple control mechanisms simultaneously so that failure at one layer is caught by another.
 MECHANISM: Defense-in-depth applied to social control. If narrative control fails, surveillance catches them. If surveillance fails, economic dependency constrains them. If that fails, legal or physical force is the backstop.
-CORROBORATION: ESTABLISHED (6 sources)
+CORROBORATION: ESTABLISHED (8 sources)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
 STATEMENT: A permanent external threat justifies permanent internal control, because a population at war accepts restrictions it would otherwise resist.
 MECHANISM: Maintain war (real or fabricated) to justify surveillance, rationing, emergency powers, and suppression of dissent. The war need not be won — it must only continue.
-CORROBORATION: SUPPORTED (2 sources)
+CORROBORATION: SUPPORTED (3 sources)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
 STATEMENT: Abundance is deliberately prevented or destroyed because material security reduces dependency and enables independence.
-MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, and debt-based channels.
-CORROBORATION: SUPPORTED (5 sources)
+MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, debt-based, and network-effect-based channels.
+CORROBORATION: SUPPORTED (6 sources)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -62,7 +62,7 @@ CORROBORATION: PRELIMINARY (1 source + 1 counter-perspective)
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: The gap between how a system presents itself and how it operates is not incidental — it is the operating environment power depends on.
 MECHANISM: The population evaluates systems by appearances because it has no access to inner workings. The gap between appearance and reality is the structural condition that makes political power operational.
-CORROBORATION: ESTABLISHED (10 sources)
+CORROBORATION: ESTABLISHED (12 sources)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -74,7 +74,7 @@ CORROBORATION: SUPPORTED (2 sources)
 LAYERS: All layers
 STATEMENT: Between full compliance and open rebellion exists a continuous spectrum of partial, selective, delayed, malicious, and performative compliance that constitutes the primary terrain of power negotiation.
 MECHANISM: The powerful set terms. The subordinate comply partially. The powerful decide whether to enforce fully (costly) or accept partial compliance (cheaper). This produces dynamic equilibrium.
-CORROBORATION: SUPPORTED (3 sources)
+CORROBORATION: SUPPORTED (4 sources)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -86,7 +86,7 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
 STATEMENT: In most stable power relationships, both the dominant and the subordinate perform for each other — and both sides are aware the other is performing, yet maintain the mutual fiction because the cost of breaking it is asymmetric.
 MECHANISM: Neither side can afford to break the fiction. The public transcript is a jointly produced performance maintained for different strategic reasons by both parties.
-CORROBORATION: ESTABLISHED (4 sources)
+CORROBORATION: ESTABLISHED (5 sources)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -110,13 +110,13 @@ CORROBORATION: SUPPORTED (1 source, independently recognizable across diverse do
 LAYERS: Thought & Narrative, Surveillance & Information
 STATEMENT: Continuous live coverage that reports all facts but prevents synthesis functions as narrative control — not by suppressing information but by overwhelming processing capacity.
 MECHANISM: Every fact is reported; no fact is evaluated. The volume of information substitutes for analysis, producing an informed but analytically paralyzed audience.
-CORROBORATION: SUPPORTED (2 sources — empirical observation + theoretical account)
+CORROBORATION: SUPPORTED (2 sources — empirical observation + theoretical account; variant mechanism (selective construction) observed in Fox News analysis)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
 STATEMENT: A state repeatedly applies the same military intervention template across different targets, each time presenting the operation as unique while following an identical structural pattern.
 MECHANISM: Construct threat narrative, build coalition, aerial bombardment, declare success, leave destabilized state. Framing each war as unprecedented obscures the serial nature.
-CORROBORATION: SUPPORTED (1 formal observation + extensive public record)
+CORROBORATION: SUPPORTED (2 analyses + extensive public record)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -128,13 +128,13 @@ CORROBORATION: SUPPORTED (2 sources)
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
 STATEMENT: Surveillance capitalism advances through a repeating four-stage normalization cycle — incursion, habituation, adaptation, redirection — that ratchets extraction outward with each completion.
 MECHANISM: Each extension provokes initial resistance. The company absorbs criticism, makes cosmetic concessions, waits. Users habituate. New baseline established. Next incursion begins. Non-reversible without structural intervention.
-CORROBORATION: SUPPORTED (3 sources)
+CORROBORATION: SUPPORTED (4 sources)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
 STATEMENT: Structural asymmetry of knowledge where one party can learn about, predict, and shape another who cannot access the data, predictions, or modifications applied to them.
 MECHANISM: Maintained through trade secret law, algorithmic opacity, proprietary data, and computational scale. Those who can see cannot be seen; those who are seen cannot see back.
-CORROBORATION: SUPPORTED (5 sources)
+CORROBORATION: SUPPORTED (6 sources)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -146,8 +146,8 @@ CORROBORATION: PRELIMINARY (1 source)
 LAYERS: Institutional, Legal & Regulatory
 STATEMENT: Institutions voluntarily abandon their structural roles under pressure, creating the vacuum that authoritarianism fills. Distinct from capture (active redirection) — here the institution stops functioning because professionals individually calculate compliance is safer.
 MECHANISM: Individually rational choices produce collective structural failure. Four stages: signaling norms are unenforced, individual calculation that independence is risky, abdication becoming general, institution persisting in form while ceasing to function.
-NOTE: Three distinct mechanisms produce the same outcome — abdication (hollowing from within), capture (redirection from without), and structural dependency (inability to act independently of the power being counteracted).
-CORROBORATION: SUPPORTED (3 sources)
+NOTE: Four distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), and strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed).
+CORROBORATION: SUPPORTED (4 sources)
 
 ### The Peacetime Ratchet
 LAYERS: Economic, Institutional, Legal & Regulatory
