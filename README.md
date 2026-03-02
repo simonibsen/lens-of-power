@@ -420,7 +420,9 @@ lens-of-power/
 │   ├── scott-weapons-of-the-weak.md  12 principles from Weapons of the Weak
 │   ├── fanon-wretched-of-the-earth.md  9 principles from The Wretched of the Earth
 │   ├── zuboff-age-of-surveillance-capitalism.md  10 principles from The Age of Surveillance Capitalism
-│   └── snyder-on-tyranny.md  7 principles from On Tyranny
+│   ├── snyder-on-tyranny.md  7 principles from On Tyranny
+│   ├── piketty-capital-in-the-twenty-first-century.md  8 principles from Capital in the Twenty-First Century
+│   └── scheidel-the-great-leveler.md  5 principles from The Great Leveler
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material

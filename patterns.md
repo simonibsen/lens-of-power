@@ -60,12 +60,17 @@ accountability language performing deflection),
 principles/zuboff-age-of-surveillance-capitalism.md P1, P8 (Google's "Don't be
 evil," Facebook's "connecting the world" — stated purpose of user service conceals
 function of behavioral extraction; inevitabilist ideology frames corporate
-decisions as technological necessity)
+decisions as technological necessity),
+principles/piketty-capital-in-the-twenty-first-century.md P4 (meritocratic
+narrative claims wealth reflects talent and effort while functioning to legitimize
+structurally determined outcomes — the "supermanager" phenomenon demonstrates the
+disconnect between stated merit and actual institutional capture)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CORROBORATION: ESTABLISHED (six sources across different eras, domains, and
-positions — Orwell, Machiavelli, Fanon, Scott, a current events analysis, and
-Zuboff — each observing the mechanism from a different position in the power
-relationship; Zuboff extends it to the digital domain)
+CORROBORATION: ESTABLISHED (seven sources across different eras, domains, and
+positions — Orwell, Machiavelli, Fanon, Scott, a current events analysis, Zuboff,
+and Piketty — each observing the mechanism from a different position in the power
+relationship; Piketty adds the economic domain's primary instantiation: meritocracy
+as legitimation of r > g)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -78,10 +83,15 @@ physical force is the backstop.
 OBSERVED IN: principles/orwell-1984.md (the Party's multi-layer system),
 principles/machiavelli-the-prince.md P1 (arms as prerequisite for all other
 authority — Machiavelli treats all six layers as active, with Physical &
-Coercive as the foundation the others depend on)
+Coercive as the foundation the others depend on),
+principles/piketty-capital-in-the-twenty-first-century.md P8 (the political
+capture feedback loop — concentrated wealth provides simultaneous leverage across
+economic, institutional, legal, and narrative layers; lobbying, campaign finance,
+think tanks, and revolving doors operate as redundant control channels)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two sources from different eras — Orwell's
-totalitarian fiction and Machiavelli's political theory)
+CORROBORATION: SUPPORTED (three sources from different eras — Orwell's
+totalitarian fiction, Machiavelli's political theory, and Piketty's economic
+analysis — each describing multi-layer reinforcement from a different domain)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -112,14 +122,19 @@ upward redistribution of gains, not through decline in output)
 NOTE: principles/zuboff-age-of-surveillance-capitalism.md P7 presents an
 inversion — surveillance capitalism manufactures scarcity of *knowledge* rather
 than goods. The Division of Learning creates structural information scarcity
-where one side can see and the other cannot. The pattern may need broadening
-to encompass manufactured scarcity of any resource (material, informational,
-or epistemic) as a control mechanism.
+where one side can see and the other cannot.
+NOTE: principles/piketty-capital-in-the-twenty-first-century.md P3, P4 adds a
+structural variant — the distribution of abundance creates functional scarcity;
+overall growth occurs while the majority's share declines. Scarcity need not be
+actively manufactured when the default distribution of surplus produces it.
+principles/scheidel-the-great-leveler.md P3 confirms across civilizations.
+The pattern may need broadening to encompass manufactured, distributed, and
+informational scarcity as control mechanisms.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two sources from different eras — Orwell's
-totalitarian fiction and Scott's ethnography of agrarian resistance — plus
-an inverted instance in Zuboff that extends the mechanism to informational
-domains)
+CORROBORATION: SUPPORTED (four sources from different eras and domains — Orwell,
+Scott, Zuboff (informational inversion), and Piketty/Scheidel (structural
+distribution producing functional scarcity) — the mechanism operates through
+material, informational, and distributional channels)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -210,13 +225,17 @@ for different reasons),
 principles/zuboff-age-of-surveillance-capitalism.md P6 (the Two Texts — every
 interaction with a surveillance capitalist system produces a visible text (the
 service) and a shadow text (the behavioral data); the user interface is the
-appearance, data extraction is the reality)
+appearance, data extraction is the reality),
+principles/piketty-capital-in-the-twenty-first-century.md P4 (meritocracy is the
+appearance; r > g is the structural reality — the population evaluates the
+economic system through the meritocratic narrative while having no access to the
+structural mechanisms that actually determine outcomes)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (three sources from three distinct positions in the
-power relationship — the ruler's side (Machiavelli), the ruled's side (Scott),
-and the external observer (Zuboff) — each independently confirming that the gap
-between appearance and operational reality is structural, not incidental; Zuboff
-extends it from political to digital-economic domains)
+CORROBORATION: ESTABLISHED (four sources from four distinct positions and domains —
+Machiavelli (political, ruler), Scott (agrarian, ruled), Zuboff (digital, observer),
+Piketty (economic, observer) — each independently confirming that the gap between
+appearance and operational reality is structural; Piketty extends the pattern to
+the economic domain where meritocracy is the structural terrain power operates on)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -509,13 +528,18 @@ can see cannot be seen; those who are seen cannot see back.
 OBSERVED IN: principles/zuboff-age-of-surveillance-capitalism.md P7 (Google's
 refusal to disclose search ranking algorithms; Facebook's opacity about news
 feed curation; the impossibility of an individual auditing their own
-advertising profile)
+advertising profile),
+principles/piketty-capital-in-the-twenty-first-century.md P7 (financial opacity
+as structural enabler of concentration — tax havens, shell companies, opaque trusts
+prevent democratic accountability; the "missing wealth" problem demonstrates
+trillions hidden from national statistics; extends the division from digital to
+financial domains)
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (one source; the mechanism maps structurally onto
-credit scoring, predictive policing, employer monitoring, and national
-security surveillance — any context where one party's systematic knowledge of
-another creates an exploitable power asymmetry — but these instances need
-formal observation within the framework)
+CORROBORATION: SUPPORTED (two sources from different domains — Zuboff describes
+the division in digital/behavioral data, Piketty describes it in financial wealth
+data; both identify structural opacity maintained through legal and institutional
+mechanisms; the pattern operates wherever one party's systematic knowledge
+asymmetry over another creates exploitable power)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -573,3 +597,75 @@ CORROBORATION: PRELIMINARY (one source; the mechanism is structurally
 recognizable in judicial deference during emergencies, regulatory capture,
 academic self-censorship under political pressure, and journalistic timidity —
 but these instances need formal observation within the framework)
+
+### The Peacetime Ratchet
+LAYERS: Economic, Institutional, Legal & Regulatory
+STATEMENT: In the absence of catastrophic disruption, inequality increases as a
+structural default. The mechanisms of concentration operate continuously during
+stability and are resisted only weakly by non-catastrophic counterforces. Extended
+stability corresponds to increasing concentration across all known civilizations.
+MECHANISM: During periods of stability, capital accumulates, returns compound,
+institutional structures entrench the existing distribution, and political
+influence follows wealth. The counterforce is weakest precisely when it is most
+needed — during long periods of stability when the urgency of redistribution
+seems low and the political influence of the wealthy is highest. Piketty
+identifies the mechanism: r > g operates continuously, compressing labor's share
+and expanding capital's. Scheidel confirms the universality: the pattern holds
+across Rome, China, Mesoamerica, medieval and modern Europe. Post-compression
+institutional arrangements (progressive taxation, welfare states, labor
+protections) erode over 30-50 years as the wealthy lobby for favorable policy
+changes and the political urgency that created the institutions fades.
+OBSERVED IN: principles/piketty-capital-in-the-twenty-first-century.md P1, P2, P6
+(r > g as the mathematical expression of the ratchet; the post-WWII compression
+unwinding from the 1980s as the ratchet reasserting; progressive taxation as the
+maintenance mechanism that erodes),
+principles/scheidel-the-great-leveler.md P3, P4 (the peacetime default confirmed
+across all known civilizations — Rome, China, Mesoamerica, medieval and modern
+Europe; the impermanence of equality as the ratchet's temporal dimension — every
+historical compression has been followed by return to concentration)
+EVIDENCE: —
+CORROBORATION: SUPPORTED (two independent sources from different analytical
+approaches — Piketty provides the mathematical mechanism (r > g) across 200+ years
+and 20+ countries; Scheidel provides the cross-civilizational confirmation across
+millennia and independent civilizations; the pattern holds with no counter-example
+of peacetime sustained equality, though Scandinavian social democracies represent
+a contested partial exception)
+
+### Compression Through Destruction
+LAYERS: Physical & Coercive, Economic, Institutional
+STATEMENT: Significant, lasting reductions in inequality have historically been
+achieved not through redistribution (lifting the bottom) but through compression
+(destroying the top). The mechanism is the destruction of capital, elites, and
+institutional structures that maintain concentration — not the creation of new
+structures that distribute wealth more equally.
+MECHANISM: Wars destroy factories, property, and financial assets. Revolutions
+expropriate and destroy. State collapses eliminate the institutional apparatus
+that maintained the old distribution. Pandemics shift structural labor-capital
+ratios by killing enough of the population that labor becomes scarce. In each
+case, the floor may not rise significantly — the ceiling falls. Equality is
+achieved not because the poor become richer but because the rich become poorer.
+Post-catastrophe institutions (welfare states, progressive taxation) then
+maintain the compressed base, but the initial compression was destructive, not
+constructive. The implication: systems built to concentrate wealth cannot be
+reformed into systems that distribute it without first disrupting the structures
+themselves.
+OBSERVED IN: principles/scheidel-the-great-leveler.md P1, P2 (the Four Horsemen
+of Leveling — mass mobilization warfare, transformative revolution, state collapse,
+and lethal pandemics; post-WWII Europe's "economic miracle" was built on a base
+compressed by wartime capital destruction; the Black Death raised wages 50-100%
+by killing laborers, not by creating new institutions)
+NOTE: This pattern carries a major IC-1 flag on Axiom 5. The axiom states "power
+concentrates unless actively counteracted." Scheidel's evidence confirms the first
+clause overwhelmingly but challenges the implied sufficiency of "actively
+counteracted" — historically, effective counteraction has required catastrophic
+violence. The axiom is strengthened while made more pessimistic. Counter-evidence:
+Scandinavian social democracies achieved significant equality through democratic
+politics without catastrophic violence. Scheidel argues these are small,
+homogeneous nations in special circumstances, and even their equality is eroding.
+The evidence is contested, not resolved.
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (one primary source; the mechanism is independently
+implied by Piketty's historical anomaly thesis — the mid-20th century compression
+was produced by catastrophic shocks, not by policy alone — but Piketty does not
+develop the destructive mechanism as explicitly as Scheidel; additional sources
+needed for promotion)
