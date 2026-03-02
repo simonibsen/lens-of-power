@@ -427,7 +427,8 @@ lens-of-power/
 │   ├── hartmann-hidden-history-american-oligarchy.md  4 principles from The Hidden History of American Oligarchy
 │   ├── graeber-debt-the-first-5000-years.md  7 principles from Debt: The First 5,000 Years
 │   ├── powell-memo.md          4 principles from the Powell Memo (1971 primary source)
-│   └── whitehouse-the-scheme.md  4 principles from The Scheme
+│   ├── whitehouse-the-scheme.md  4 principles from The Scheme
+│   └── cobb-most-southern-place-on-earth.md  6 principles from The Most Southern Place on Earth
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
