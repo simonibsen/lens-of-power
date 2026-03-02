@@ -22,6 +22,165 @@ assembled from Meta's own announcements, third-party analyses, investigative
 reporting, and LLM training knowledge. This limitation is analytically
 significant (see Finding 6).
 
+## Contents
+- [Briefing](#briefing-metas-three-governing-policies-as-a-unified-control-apparatus)
+  - Key findings
+  - Who benefits / who bears cost
+  - What is absent
+  - Findings
+  - Analytical apparatus
+  - Null case
+  - Watch
+- [Narrative](#narrative)
+- [Step 1: DECOMPOSE](#step-1-decompose)
+  - Claims — Terms of Service
+  - Claims — Privacy Policy
+  - Claims — Community Standards
+  - Framing
+  - Emotional register
+  - Propaganda classification
+  - Newspeak detections
+- [Step 2: SOURCE](#step-2-source)
+- [Step 3: LOCATE](#step-3-locate)
+- [Step 4: CONNECT](#step-4-connect)
+- [Step 5: INVERT](#step-5-invert)
+- [Step 6: ABSENT](#step-6-absent)
+- [Step 7: SO-WHAT](#step-7-so-what)
+
+---
+
+## Briefing: Meta's Three Governing Policies as a Unified Control Apparatus
+
+DATE: 2026-03-01
+SOURCE TYPE: Corporate policy documents (Terms of Service, Privacy Policy,
+Community Standards)
+SOURCE POSITION: Position 1 — Ruler / Operator
+
+### Key findings
+
+1. Meta's three policy documents are not independent legal instruments but
+   a unified governance apparatus that establishes authority (Terms of
+   Service), authorizes extraction (Privacy Policy), and governs discourse
+   (Community Standards) for approximately one-third of the world's
+   population. Each document's stated purpose inverts its actual function.
+
+2. The January 2025 moderation changes — eliminating fact-checking, rolling
+   back hate-speech restrictions, replacing professional moderation with
+   unpaid Community Notes — are undermining propaganda per Stanley's
+   typology: the ideal of free expression invoked to degrade the
+   conditions free expression requires. The inauguration-adjacent timing
+   suggests political repositioning rather than intellectual conviction.
+
+3. The "accept or leave" binary at the core of the Terms of Service is a
+   manufactured choice. When Meta is embedded in social, professional, and
+   civic infrastructure — and is the de facto internet in much of the
+   Global South — leaving is not a meaningful alternative. The choice is
+   the appearance; the structural dependency is the reality.
+
+### Who benefits / who bears cost
+
+| Actor | Gains | At whose expense |
+|-------|-------|------------------|
+| Meta (shareholders, Zuckerberg) | ~$160B annual revenue from behavioral data; unilateral content licensing including AI training rights; reduced moderation costs; political alignment with incoming administration | ~3.3 billion users whose data is extracted, content is licensed, and speech is governed without representation |
+| Advertising clients | Precision-targeted behavioral advertising based on comprehensive surveillance | Users whose behavior is predicted and modified without informed consent |
+| Incoming US administration (2025) | Reduced content moderation on politically favorable topics; platform aligned with political agenda | Marginalized communities who relied on hate-speech enforcement; users in authoritarian contexts |
+| Community Notes contributors | Perceived civic participation; sense of agency | Their labor is unpaid; Meta retains all data and revenue; they absorb the cost of moderation previously borne by professionals |
+
+### What is absent
+
+- The voice of ~3 billion users in the drafting of the terms that govern them
+- Evidence supporting "too many mistakes" — the stated rationale for removing fact-checking
+- The experience of users in the Global South where Meta is primary internet infrastructure
+- Any alternative to the binary "accept or leave" — no negotiated terms, no collective bargaining, no tiered consent
+- The economic analysis of the moderation rollback
+
+### Findings
+
+1. **The policies compose a unified governance apparatus**
+   LAYER: All non-Physical layers
+   STATUS: inferred
+   The three documents are not independent — they operate as mutually reinforcing components of a single system. The Terms of Service establish legal authority and extract content rights. The Privacy Policy authorizes behavioral surveillance and data extraction. The Community Standards govern permissible discourse. Together they constitute a governance framework whose subjects have no vote, no representation, and no meaningful capacity to refuse. The coherence of the system is the finding — each document enables the others.
+
+2. **The Terms of Service function as a unilateral contract of adhesion, not a mutual agreement**
+   LAYER: Legal & Regulatory, Thought & Narrative
+   STATUS: observed
+   The Terms present unilateral conditions as bilateral agreement. The user "agrees" by using the platform. The terms are retroactively applied to existing content. They bind non-users who view content through shared links. Meta may deny opt-out requests for AI training of user content. The binary "accept or leave" eliminates negotiation. When Meta is embedded in social, professional, and civic infrastructure, the "leave" option is structurally coercive for most users.
+
+3. **The Privacy Policy authorizes comprehensive behavioral surveillance while using the language of user empowerment**
+   LAYER: Surveillance & Information, Thought & Narrative, Economic
+   STATUS: observed (data collection) / inferred (the framing as empowerment is inversion)
+   Meta's tracking pixel is embedded on ~30% of the world's top websites. Data is harvested from non-users. Hospital patient information has been transmitted through the pixel. Offline purchase data is collected. AI conversations are stored and used for ad targeting. This is described as "personalized experience," "transparency," and "control." The gap between the extraction apparatus and its description is the Appearance as Structural Terrain pattern in operation.
+
+4. **The January 2025 moderation changes are undermining propaganda — invoking free expression to degrade the conditions it requires**
+   LAYER: Thought & Narrative, Institutional
+   STATUS: inferred
+   Zuckerberg's "More Speech and Fewer Mistakes" announcement invokes free expression values while removing the infrastructure informed public discourse requires: professional fact-checking eliminated, proactive moderation of non-severe content ended, restrictions on political hate speech removed. This is undermining propaganda per the framework's typology: the ideal invoked in a way that degrades the conditions the ideal requires. The inauguration-adjacent timing suggests political repositioning, though the structural function is the same whether the framing is sincere or strategic.
+
+5. **Community Notes transfers moderation costs to unpaid users while Meta retains all revenue**
+   LAYER: Economic, Institutional
+   STATUS: inferred
+   The shift from professional fact-checking to Community Notes presents as democratization of epistemic authority. Its observable economic effect is the transfer of moderation labor from paid professionals to unpaid volunteers, while Meta retains 100% of advertising revenue. The structural parallel to Fanon's relay class is suggestive: a population performing governance labor under Meta's terms, serving Meta's interests while believing they serve their own community.
+
+6. **The opacity of the documents is functional, not incidental**
+   LAYER: Surveillance & Information, Legal & Regulatory
+   STATUS: inferred
+   Facebook.com blocks automated retrieval of its own policies. The Terms of Service are written at a length and complexity that precludes user comprehension. The Privacy Policy describes a surveillance apparatus in language designed to reassure rather than inform. Whether this opacity is deliberate or institutional artifact, its function is the same: it prevents the informed scrutiny that accountability requires.
+
+7. **Network effects make "accept or leave" a manufactured binary**
+   LAYER: Economic, Institutional
+   STATUS: inferred
+   The Terms present a choice: accept or leave. When Meta's platforms are embedded in social networks, professional contacts, community organizing, news distribution, and — in many countries — basic internet access, leaving is not a meaningful alternative. The choice is the appearance; the structural dependency is the reality. This is Axiom 9 — compliance manufactured without explicit coercion through the engineering of dependency.
+
+### Analytical apparatus
+
+INSTRUMENTS APPLIED:
+- Propaganda Typology (instruments/propaganda-typology.md) — classified all three documents; identified the Community Standards announcement as a multi-axis compound (agitation+integration, political, vertical, rational+irrational, undermining); identified integration+undermining as the dominant mode across the system
+- Newspeak Checklist (instruments/newspeak-checklist.md) — detected compound linguistic manipulation: euphemistic substitution, redefinition, complexity as obscurity, binary framing, forced affirmation operating simultaneously
+- Positional Lens (instruments/positional-lens.md) — identified Meta as Position 1 (Ruler/Operator); identified absent positions (everyday governed, revolutionary/structural critic); noted compounding of absent voices with LLM training bias
+
+PRINCIPLES REFERENCED:
+- Zuboff: Behavioral Surplus Discovery, Dispossession Cycle, Division of Learning, Instrumentarian Power, Inevitabilist Ideology (principles/zuboff-age-of-surveillance-capitalism.md) — the Privacy Policy is a concrete legal instrument implementing the extraction Zuboff describes
+- Orwell: Newspeak / Language Reduction (principles/orwell-1984.md) — linguistic manipulation across all three documents
+- Ellul: Sociological Propaganda as Total Environment, Integration Propaganda (principles/ellul-propaganda.md) — the policies function as integration propaganda, producing compliance through participation
+- Scott: Compliance Gradient, Hidden Transcript (principles/scott-weapons-of-the-weak.md) — user behavior maps to the compliance gradient
+- Fanon: National Bourgeoisie as Relay (principles/fanon-wretched-of-the-earth.md) — Community Notes contributors as relay class
+- Graeber: Debt as Moral Instrument (principles/graeber-debt-the-first-5000-years.md) — "free service" framing creates moral asymmetry
+- Stanley: Undermining Propaganda (principles/stanley-how-propaganda-works.md) — January 2025 reframing precisely fits Stanley's mechanism
+
+PATTERNS MATCHED:
+- Inversion of Stated Purpose — ESTABLISHED — primary pattern; all three documents exhibit it; corroboration from new context (corporate policy)
+- Division of Learning — SUPPORTED — structural information asymmetry is the business model
+- Dispossession Cycle — SUPPORTED — each policy update ratchets extraction outward
+- Appearance as Structural Terrain — ESTABLISHED — the gap between presentation and function is the operating environment
+- Layered Redundancy of Control — ESTABLISHED — five non-physical layers simultaneously
+- Manufactured Scarcity as Control — SUPPORTED — scarcity of alternatives via network effects
+- The Compliance Gradient — SUPPORTED — user base exists on compliance spectrum
+- Institutional Abdication — SUPPORTED — January 2025 moderation rollback in new variant: strategic, voluntary, narrated as liberation
+- The Double Performance — ESTABLISHED — users perform acceptance; Meta performs governance
+- Anticipatory Obedience — PRELIMINARY — users self-adjusting to platform expectations
+
+PATTERNS NOT MATCHED:
+- Perpetual Threat as Perpetual Justification — the January 2025 framing invokes a past threat ("censorship") overcome, not a continuing threat. The temporal structure differs from the perpetual-threat pattern.
+
+### Null case
+
+The null case — standard corporate legal documents comparable to any
+technology company at scale — explains individual documents but not the
+system they compose. Broad content licenses are industry norm. But the
+combination of retroactive terms, non-user binding, private message
+licensing, AI opt-out denial, cross-web behavioral surveillance, and
+politically timed abdication of moderation infrastructure exceeds what
+"standard practice" plausibly explains. **Null case plausibility: LOW
+overall; MEDIUM for generic ToS provisions.**
+
+### Watch
+
+- Community Notes performance vs. professional fact-checking — accuracy, reach, which communities are protected or exposed
+- EU Digital Services Act enforcement — the most likely structural counterforce
+- Hate speech prevalence metrics across Meta platforms through 2025-2026
+- Whether Meta's AI training corpus includes ToS-licensed content, and what products result
+- Data portability developments — whether "accept or leave" remains a manufactured binary
+
 ---
 
 ## Narrative
@@ -541,137 +700,3 @@ MADE VISIBLE:
     retrieve, read, or understand is not a failure of communication;
     it is a condition of governance
 ```
-
----
-
-## Briefing: Meta's Three Governing Policies as a Unified Control Apparatus
-
-DATE: 2026-03-01
-SOURCE TYPE: Corporate policy documents (Terms of Service, Privacy Policy,
-Community Standards)
-SOURCE POSITION: Position 1 — Ruler / Operator
-
-### Key findings
-
-1. Meta's three policy documents are not independent legal instruments but
-   a unified governance apparatus that establishes authority (Terms of
-   Service), authorizes extraction (Privacy Policy), and governs discourse
-   (Community Standards) for approximately one-third of the world's
-   population. Each document's stated purpose inverts its actual function.
-
-2. The January 2025 moderation changes — eliminating fact-checking, rolling
-   back hate-speech restrictions, replacing professional moderation with
-   unpaid Community Notes — are undermining propaganda per Stanley's
-   typology: the ideal of free expression invoked to degrade the
-   conditions free expression requires. The inauguration-adjacent timing
-   suggests political repositioning rather than intellectual conviction.
-
-3. The "accept or leave" binary at the core of the Terms of Service is a
-   manufactured choice. When Meta is embedded in social, professional, and
-   civic infrastructure — and is the de facto internet in much of the
-   Global South — leaving is not a meaningful alternative. The choice is
-   the appearance; the structural dependency is the reality.
-
-### Who benefits / who bears cost
-
-| Actor | Gains | At whose expense |
-|-------|-------|------------------|
-| Meta (shareholders, Zuckerberg) | ~$160B annual revenue from behavioral data; unilateral content licensing including AI training rights; reduced moderation costs; political alignment with incoming administration | ~3.3 billion users whose data is extracted, content is licensed, and speech is governed without representation |
-| Advertising clients | Precision-targeted behavioral advertising based on comprehensive surveillance | Users whose behavior is predicted and modified without informed consent |
-| Incoming US administration (2025) | Reduced content moderation on politically favorable topics; platform aligned with political agenda | Marginalized communities who relied on hate-speech enforcement; users in authoritarian contexts |
-| Community Notes contributors | Perceived civic participation; sense of agency | Their labor is unpaid; Meta retains all data and revenue; they absorb the cost of moderation previously borne by professionals |
-
-### What is absent
-
-- The voice of ~3 billion users in the drafting of the terms that govern them
-- Evidence supporting "too many mistakes" — the stated rationale for removing fact-checking
-- The experience of users in the Global South where Meta is primary internet infrastructure
-- Any alternative to the binary "accept or leave" — no negotiated terms, no collective bargaining, no tiered consent
-- The economic analysis of the moderation rollback
-
-### Findings
-
-1. **The policies compose a unified governance apparatus**
-   LAYER: All non-Physical layers
-   STATUS: inferred
-   The three documents are not independent — they operate as mutually reinforcing components of a single system. The Terms of Service establish legal authority and extract content rights. The Privacy Policy authorizes behavioral surveillance and data extraction. The Community Standards govern permissible discourse. Together they constitute a governance framework whose subjects have no vote, no representation, and no meaningful capacity to refuse. The coherence of the system is the finding — each document enables the others.
-
-2. **The Terms of Service function as a unilateral contract of adhesion, not a mutual agreement**
-   LAYER: Legal & Regulatory, Thought & Narrative
-   STATUS: observed
-   The Terms present unilateral conditions as bilateral agreement. The user "agrees" by using the platform. The terms are retroactively applied to existing content. They bind non-users who view content through shared links. Meta may deny opt-out requests for AI training of user content. The binary "accept or leave" eliminates negotiation. When Meta is embedded in social, professional, and civic infrastructure, the "leave" option is structurally coercive for most users.
-
-3. **The Privacy Policy authorizes comprehensive behavioral surveillance while using the language of user empowerment**
-   LAYER: Surveillance & Information, Thought & Narrative, Economic
-   STATUS: observed (data collection) / inferred (the framing as empowerment is inversion)
-   Meta's tracking pixel is embedded on ~30% of the world's top websites. Data is harvested from non-users. Hospital patient information has been transmitted through the pixel. Offline purchase data is collected. AI conversations are stored and used for ad targeting. This is described as "personalized experience," "transparency," and "control." The gap between the extraction apparatus and its description is the Appearance as Structural Terrain pattern in operation.
-
-4. **The January 2025 moderation changes are undermining propaganda — invoking free expression to degrade the conditions it requires**
-   LAYER: Thought & Narrative, Institutional
-   STATUS: inferred
-   Zuckerberg's "More Speech and Fewer Mistakes" announcement invokes free expression values while removing the infrastructure informed public discourse requires: professional fact-checking eliminated, proactive moderation of non-severe content ended, restrictions on political hate speech removed. This is undermining propaganda per the framework's typology: the ideal invoked in a way that degrades the conditions the ideal requires. The inauguration-adjacent timing suggests political repositioning, though the structural function is the same whether the framing is sincere or strategic.
-
-5. **Community Notes transfers moderation costs to unpaid users while Meta retains all revenue**
-   LAYER: Economic, Institutional
-   STATUS: inferred
-   The shift from professional fact-checking to Community Notes presents as democratization of epistemic authority. Its observable economic effect is the transfer of moderation labor from paid professionals to unpaid volunteers, while Meta retains 100% of advertising revenue. The structural parallel to Fanon's relay class is suggestive: a population performing governance labor under Meta's terms, serving Meta's interests while believing they serve their own community.
-
-6. **The opacity of the documents is functional, not incidental**
-   LAYER: Surveillance & Information, Legal & Regulatory
-   STATUS: inferred
-   Facebook.com blocks automated retrieval of its own policies. The Terms of Service are written at a length and complexity that precludes user comprehension. The Privacy Policy describes a surveillance apparatus in language designed to reassure rather than inform. Whether this opacity is deliberate or institutional artifact, its function is the same: it prevents the informed scrutiny that accountability requires.
-
-7. **Network effects make "accept or leave" a manufactured binary**
-   LAYER: Economic, Institutional
-   STATUS: inferred
-   The Terms present a choice: accept or leave. When Meta's platforms are embedded in social networks, professional contacts, community organizing, news distribution, and — in many countries — basic internet access, leaving is not a meaningful alternative. The choice is the appearance; the structural dependency is the reality. This is Axiom 9 — compliance manufactured without explicit coercion through the engineering of dependency.
-
-### Analytical apparatus
-
-INSTRUMENTS APPLIED:
-- Propaganda Typology (instruments/propaganda-typology.md) — classified all three documents; identified the Community Standards announcement as a multi-axis compound (agitation+integration, political, vertical, rational+irrational, undermining); identified integration+undermining as the dominant mode across the system
-- Newspeak Checklist (instruments/newspeak-checklist.md) — detected compound linguistic manipulation: euphemistic substitution, redefinition, complexity as obscurity, binary framing, forced affirmation operating simultaneously
-- Positional Lens (instruments/positional-lens.md) — identified Meta as Position 1 (Ruler/Operator); identified absent positions (everyday governed, revolutionary/structural critic); noted compounding of absent voices with LLM training bias
-
-PRINCIPLES REFERENCED:
-- Zuboff: Behavioral Surplus Discovery, Dispossession Cycle, Division of Learning, Instrumentarian Power, Inevitabilist Ideology (principles/zuboff-age-of-surveillance-capitalism.md) — the Privacy Policy is a concrete legal instrument implementing the extraction Zuboff describes
-- Orwell: Newspeak / Language Reduction (principles/orwell-1984.md) — linguistic manipulation across all three documents
-- Ellul: Sociological Propaganda as Total Environment, Integration Propaganda (principles/ellul-propaganda.md) — the policies function as integration propaganda, producing compliance through participation
-- Scott: Compliance Gradient, Hidden Transcript (principles/scott-weapons-of-the-weak.md) — user behavior maps to the compliance gradient
-- Fanon: National Bourgeoisie as Relay (principles/fanon-wretched-of-the-earth.md) — Community Notes contributors as relay class
-- Graeber: Debt as Moral Instrument (principles/graeber-debt-the-first-5000-years.md) — "free service" framing creates moral asymmetry
-- Stanley: Undermining Propaganda (principles/stanley-how-propaganda-works.md) — January 2025 reframing precisely fits Stanley's mechanism
-
-PATTERNS MATCHED:
-- Inversion of Stated Purpose — ESTABLISHED — primary pattern; all three documents exhibit it; corroboration from new context (corporate policy)
-- Division of Learning — SUPPORTED — structural information asymmetry is the business model
-- Dispossession Cycle — SUPPORTED — each policy update ratchets extraction outward
-- Appearance as Structural Terrain — ESTABLISHED — the gap between presentation and function is the operating environment
-- Layered Redundancy of Control — ESTABLISHED — five non-physical layers simultaneously
-- Manufactured Scarcity as Control — SUPPORTED — scarcity of alternatives via network effects
-- The Compliance Gradient — SUPPORTED — user base exists on compliance spectrum
-- Institutional Abdication — SUPPORTED — January 2025 moderation rollback in new variant: strategic, voluntary, narrated as liberation
-- The Double Performance — ESTABLISHED — users perform acceptance; Meta performs governance
-- Anticipatory Obedience — PRELIMINARY — users self-adjusting to platform expectations
-
-PATTERNS NOT MATCHED:
-- Perpetual Threat as Perpetual Justification — the January 2025 framing invokes a past threat ("censorship") overcome, not a continuing threat. The temporal structure differs from the perpetual-threat pattern.
-
-### Null case
-
-The null case — standard corporate legal documents comparable to any
-technology company at scale — explains individual documents but not the
-system they compose. Broad content licenses are industry norm. But the
-combination of retroactive terms, non-user binding, private message
-licensing, AI opt-out denial, cross-web behavioral surveillance, and
-politically timed abdication of moderation infrastructure exceeds what
-"standard practice" plausibly explains. **Null case plausibility: LOW
-overall; MEDIUM for generic ToS provisions.**
-
-### Watch
-
-- Community Notes performance vs. professional fact-checking — accuracy, reach, which communities are protected or exposed
-- EU Digital Services Act enforcement — the most likely structural counterforce
-- Hate speech prevalence metrics across Meta platforms through 2025-2026
-- Whether Meta's AI training corpus includes ToS-licensed content, and what products result
-- Data portability developments — whether "accept or leave" remains a manufactured binary

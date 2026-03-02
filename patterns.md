@@ -50,7 +50,7 @@ CORROBORATION: SUPPORTED (2 sources)
 LAYERS: Economic, Institutional, Thought & Narrative
 STATEMENT: The middle tier of a power hierarchy is the most heavily controlled because it is the most capable of organizing resistance, and its marginal privilege prevents downward solidarity.
 MECHANISM: Give the middle tier enough to lose. Subject them to greater surveillance. Their investment in relative status prevents alliance with the bottom tier.
-CORROBORATION: ESTABLISHED (4 sources)
+CORROBORATION: ESTABLISHED (5 sources)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -92,7 +92,8 @@ CORROBORATION: ESTABLISHED (5 sources)
 LAYERS: Economic, Institutional, Thought & Narrative
 STATEMENT: When a system of domination is formally dismantled, an indigenous class positioned as intermediary steps into the role of the departed power, reproducing extraction under a new flag.
 MECHANISM: The intermediary class did not build the system — it occupied positions within it. It lacks the capacity or incentive to transform the system. It uses liberation language to legitimize its position while preserving the underlying economic logic.
-CORROBORATION: SUPPORTED (2 sources)
+NOTE: hooks extends from economic relay to categorical relay — liberation movements that adopt the dominant categorical system function as relays for the domination they claim to oppose.
+CORROBORATION: SUPPORTED (3 sources)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -140,7 +141,8 @@ CORROBORATION: SUPPORTED (6 sources)
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Populations under emerging authoritarianism self-adjust behavior to what they anticipate power will demand, before any demand is made.
 MECHANISM: Early pre-compliance creates social proof encouraging further pre-compliance. Each person's compliance raises the cost of non-compliance for everyone else. The cascade accelerates.
-CORROBORATION: PRELIMINARY (1 source)
+NOTE: Arendt provides the structural prerequisite — atomization destroys collective resources for resistance, making anticipatory compliance the individually rational response.
+CORROBORATION: SUPPORTED (2 sources)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
@@ -178,7 +180,8 @@ CORROBORATION: PRELIMINARY (3 sources, all from same national context)
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
 STATEMENT: Economic power operates through a moral vocabulary that converts economic relationships into moral obligations. Resistance appears as moral failure rather than structural critique.
 MECHANISM: (1) A power relationship is described using moral language. (2) The framing creates asymmetry: the subordinate has duties, the dominant has authority. (3) Non-compliance is experienced as moral failure rather than structural resistance.
-CORROBORATION: SUPPORTED (2 sources)
+NOTE: hooks extends — the Moynihan Report converts structural economic damage (effects of slavery and Jim Crow) into moral judgments about Black cultural pathology.
+CORROBORATION: SUPPORTED (3 sources)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -196,4 +199,18 @@ CORROBORATION: PRELIMINARY (1 primary source; recognizable in post-colonial, pos
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
 STATEMENT: Propaganda persists not because it is imposed but because it is structurally needed — by those who exercise power (to govern at scale without continuous coercion) and by those subject to it (to reduce anxiety, provide certainty, and create belonging in an atomized society). The demand side stabilizes the supply.
 MECHANISM: Governors need propaganda because coercion is expensive and consent is cheap. The governed need propaganda because complexity is overwhelming and certainty is psychologically necessary. This dual demand makes propaganda self-reinforcing: exposure increases the need for more exposure. Education and information access increase susceptibility rather than providing immunity because they increase exposure and the opinion imperative.
-CORROBORATION: PRELIMINARY (1 source)
+CORROBORATION: SUPPORTED (2 sources)
+
+### Categorical Blindness
+LAYERS: Thought & Narrative, Surveillance & Information
+STATEMENT: Systems of oppression organized along single axes produce structural invisibility at their intersections. Populations at the intersection of multiple systems are invisible to analyses, movements, and institutions organized around any single axis.
+MECHANISM: Each categorical system has an unmarked default (the most privileged member of the oppressed class). At the intersection of multiple systems, the person is outside every default. The invisibility is produced by the categories themselves — not by oversight but by categorical design.
+NOTE: May be an extension of Axiom 8 (absence as significant) + the Division of Learning rather than a fully distinct pattern. Monitor for independent confirmation.
+CORROBORATION: PRELIMINARY (1 source — hooks; recognizable in disability studies, queer theory, and postcolonial analysis)
+
+### The Boomerang
+LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
+STATEMENT: Methods of domination developed at the periphery of a political system — in colonies, zones of exception, or territories where normal constraints do not apply — migrate to the center and are applied to domestic populations.
+MECHANISM: Zones of exception function as laboratories for techniques of control unconstrained by metropolitan legal and political norms. Once tested and institutionally normalized, these techniques migrate inward through returning personnel, institutional knowledge transfer, and the political availability of "emergency" justifications.
+NOTE: Related to Serial Regime Change (same techniques across targets) and Constitutive Violence (foundational acts at the periphery). Distinct in describing directional flow: periphery to center.
+CORROBORATION: PRELIMINARY (1 source — Arendt; widely documented in subsequent scholarship)

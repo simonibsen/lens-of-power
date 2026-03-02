@@ -1995,16 +1995,32 @@ function showDetail(nodeId) {
   if (node.type === 'analysis') {
     const content = view.querySelector('#detail-content');
     if (content) {
+      // Remove markdown-generated "Contents" section (viewer builds its own TOC)
+      const allH2s = content.querySelectorAll('h2');
+      allH2s.forEach(h => {
+        if (h.textContent.trim().toLowerCase() === 'contents') {
+          // Remove everything between this H2 and the next H2
+          let sib = h.nextElementSibling;
+          while (sib && sib.tagName !== 'H2') {
+            const next = sib.nextElementSibling;
+            sib.remove();
+            sib = next;
+          }
+          h.remove();
+        }
+      });
+
       // Collect H2 headings for TOC
       const h2s = content.querySelectorAll('h2');
       if (h2s.length > 1) {
         // Add IDs to headings
         h2s.forEach((h, i) => { h.id = 'section-' + i; });
 
-        // Find the briefing section and move it before the first H2 (before Narrative)
+        // Find the briefing/summary section and move it before the first H2
         let briefingH2 = null;
         h2s.forEach(h => {
-          if (h.textContent.toLowerCase().includes('briefing')) briefingH2 = h;
+          const ht = h.textContent.toLowerCase().trim();
+          if (ht.includes('briefing') || ht === 'summary') briefingH2 = h;
         });
         if (briefingH2 && h2s.length > 2) {
           // Collect all nodes belonging to the briefing section
@@ -2025,7 +2041,8 @@ function showDetail(nodeId) {
         updatedH2s.forEach((h, i) => {
           h.id = 'section-' + i;
           const text = h.textContent.replace(/^Step \d+:\s*/, '');
-          const isBriefing = h.textContent.toLowerCase().includes('briefing');
+          const hText = h.textContent.toLowerCase().trim();
+          const isBriefing = hText.includes('briefing') || hText === 'summary';
           tocHtml += '<a class="toc-link' + (isBriefing ? ' toc-briefing' : '') + '" href="#section-' + i + '">' + escapeHtml(text) + '</a>';
         });
         tocHtml += '</nav>';
