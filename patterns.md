@@ -56,11 +56,16 @@ programs claim to benefit the poor while enriching the already-wealthy — the
 inversion is visible to the poor, who name it through gossip and moral critique),
 analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md ("Operation Epic Fury" as heroic
 branding for regime change war; CENTCOM's "looking into" civilian harm as
-accountability language performing deflection)
+accountability language performing deflection),
+principles/zuboff-age-of-surveillance-capitalism.md P1, P8 (Google's "Don't be
+evil," Facebook's "connecting the world" — stated purpose of user service conceals
+function of behavioral extraction; inevitabilist ideology frames corporate
+decisions as technological necessity)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CORROBORATION: ESTABLISHED (five sources from different eras and perspectives —
-Orwell, Machiavelli, Fanon, Scott, and a current events analysis — each observing
-the mechanism from a different position in the power relationship)
+CORROBORATION: ESTABLISHED (six sources across different eras, domains, and
+positions — Orwell, Machiavelli, Fanon, Scott, a current events analysis, and
+Zuboff — each observing the mechanism from a different position in the power
+relationship; Zuboff extends it to the digital domain)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -104,9 +109,17 @@ OBSERVED IN: principles/orwell-1984.md (perpetual war absorbing surplus),
 principles/scott-weapons-of-the-weak.md P9 (the Green Revolution increases total
 production while reducing the poor's share — scarcity is manufactured through
 upward redistribution of gains, not through decline in output)
+NOTE: principles/zuboff-age-of-surveillance-capitalism.md P7 presents an
+inversion — surveillance capitalism manufactures scarcity of *knowledge* rather
+than goods. The Division of Learning creates structural information scarcity
+where one side can see and the other cannot. The pattern may need broadening
+to encompass manufactured scarcity of any resource (material, informational,
+or epistemic) as a control mechanism.
 EVIDENCE: —
 CORROBORATION: SUPPORTED (two sources from different eras — Orwell's
-totalitarian fiction and Scott's ethnography of agrarian resistance)
+totalitarian fiction and Scott's ethnography of agrarian resistance — plus
+an inverted instance in Zuboff that extends the mechanism to informational
+domains)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -185,12 +198,17 @@ principles/scott-weapons-of-the-weak.md P3, P12 (Scott provides the view from
 the other side of the terrain — the peasant also operates in the gap between
 appearance and reality, holding the prince's appearance against his reality;
 the public transcript is a jointly produced performance both sides maintain
-for different reasons)
+for different reasons),
+principles/zuboff-age-of-surveillance-capitalism.md P6 (the Two Texts — every
+interaction with a surveillance capitalist system produces a visible text (the
+service) and a shadow text (the behavioral data); the user interface is the
+appearance, data extraction is the reality)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two sources from opposite positions in the power
-relationship — the ruler's side (Machiavelli) and the ruled's side (Scott) —
-which strengthens the pattern; Scott shows the gap is navigated from both
-directions)
+CORROBORATION: ESTABLISHED (three sources from three distinct positions in the
+power relationship — the ruler's side (Machiavelli), the ruled's side (Scott),
+and the external observer (Zuboff) — each independently confirming that the gap
+between appearance and operational reality is structural, not incidental; Zuboff
+extends it from political to digital-economic domains)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -280,18 +298,23 @@ OBSERVED IN: principles/machiavelli-the-prince.md P2 (the prince manages
 appearances — "everyone sees what you appear to be, few experience what you
 really are"), principles/scott-weapons-of-the-weak.md P1, P12 (the peasants
 see through the performance but maintain their own counter-performance of
-deference; the public transcript is a joint production)
+deference; the public transcript is a joint production),
+principles/zuboff-age-of-surveillance-capitalism.md P1, P6 (users perform as
+customers, companies perform as service providers, while the actual transaction
+occurs in the shadow text — the behavioral surplus extraction neither side
+acknowledges openly)
 NOTE: This pattern becomes visible only when Machiavelli and Scott are read
 together. Neither source alone reveals the bilateral structure. Machiavelli
 sees only the ruler's performance; Scott sees both but emphasizes the
-subordinate's. The synthesis reveals that the public face of most power
-relationships is a collaboratively maintained fiction — and that its
-maintenance IS the mechanism of stable domination.
+subordinate's. Zuboff adds a digital variant where the subordinate (user)
+does not even know they are performing — the performance is extracted without
+awareness rather than maintained strategically.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two sources from opposite positions in the power
-relationship — Machiavelli and Scott — whose independent observations converge
-on the same bilateral structure; the logic generalizes to employer-employee
-relations, diplomatic protocols, and institutional hierarchies)
+CORROBORATION: ESTABLISHED (three sources from three positions — the ruler's
+calculus (Machiavelli), the subordinate's strategic counter-performance (Scott),
+and the observer's structural analysis of a digital variant (Zuboff); the
+pattern holds across political, agrarian, and digital-economic domains; Zuboff's
+variant extends it to cases where the subordinate's performance is unconscious)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -333,12 +356,16 @@ established legal and institutional framework implicitly accepts the
 legitimacy of the initial violent distribution.
 OBSERVED IN: principles/fanon-wretched-of-the-earth.md P1 (violence as
 constitutive), principles/fanon-wretched-of-the-earth.md P2 (the Manichean
-structure)
+structure),
+principles/zuboff-age-of-surveillance-capitalism.md P3 (unilateral declaration
+as dispossession — Google's seizure of behavioral data as a non-physical
+instantiation of constitutive violence; the act of taking establishes the
+precedent that legitimizes the taking, paralleling enclosure of the commons)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (one source but the mechanism is structurally
-visible in settler colonialism, post-slavery societies, and any context
-where the current distribution of property traces to historical
-dispossession; the structural logic is widely recognizable)
+CORROBORATION: SUPPORTED (two sources from different domains — Fanon's colonial
+physical dispossession and Zuboff's digital-economic dispossession; both describe
+founding acts of violence/seizure that constitute the system rather than merely
+maintaining it; the non-physical instantiation extends the pattern's scope)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -401,3 +428,74 @@ EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 CORROBORATION: SUPPORTED (first formal observation within the framework but
 the pattern has extensive supporting evidence in the public record across
 multiple independent instances — Iraq, Libya, Afghanistan)
+
+### The Unprecedented as Sanctuary
+LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
+STATEMENT: New forms of power establish themselves by operating in conceptual,
+legal, and regulatory voids where existing frameworks have not yet developed
+categories of understanding or response. The unprecedented nature of the
+operation is not merely descriptive — it is a strategic advantage.
+MECHANISM: Because the form of power is genuinely novel, it faces no existing
+regulation. Because it lacks established language, it cannot be named or
+opposed in familiar terms. Legal frameworks designed for prior forms of power
+do not apply. Public discourse lacks the vocabulary to articulate the harm.
+By the time understanding catches up, the practice has been normalized and
+the infrastructure is entrenched. The void is not a temporary gap — it is
+the operating terrain.
+OBSERVED IN: principles/zuboff-age-of-surveillance-capitalism.md P2 (Google's
+behavioral data extraction operated for years before regulators or public
+discourse developed frameworks to describe or contest it; the FTC's inability
+to categorize the harm; the EU's delayed GDPR response)
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (one source; the mechanism generalizes structurally
+to colonial land claims outside European legal frameworks, financial derivatives
+before regulation, gig economy platforms exploiting labor law gaps, and any
+domain where innovation outpaces governance — but these instances need formal
+observation within the framework)
+
+### The Dispossession Cycle
+LAYERS: Thought & Narrative, Surveillance & Information, Institutional
+STATEMENT: Surveillance capitalism advances through a repeating four-stage
+normalization cycle — incursion, habituation, adaptation, redirection — that
+ratchets the boundary of acceptable extraction outward with each completion.
+MECHANISM: Each new extension of data collection provokes initial resistance
+(media coverage, user outcry, regulatory attention). The company absorbs the
+criticism, makes cosmetic concessions, and waits. The practice persists.
+Users habituate. The new baseline is established. The next incursion begins
+from this new baseline. Each completed cycle expands the domain of extraction
+and raises the threshold of what provokes resistance. The ratcheting structure
+means the cycle is non-reversible without structural intervention.
+OBSERVED IN: principles/zuboff-age-of-surveillance-capitalism.md P4 (the cycle
+repeated across Google's expansion from search to email to location to home
+devices; Facebook's privacy scandals follow the same cycle; Cambridge Analytica
+produced massive outrage that resulted in no structural change to Facebook's
+data extraction)
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (one source; the four-stage structure maps onto
+environmental extraction cycles, labor rights erosion, and any ratcheting
+normalization process — but these instances need formal observation within
+the framework)
+
+### The Division of Learning
+LAYERS: Surveillance & Information, Economic, Institutional
+STATEMENT: Surveillance capitalism creates a structural asymmetry of knowledge
+where one party can learn about, predict, and shape another who cannot access
+the data, the predictions, or the modifications applied to them. This
+asymmetry is self-reinforcing — more data produces better predictions, which
+produces more effective modification, which generates more data.
+MECHANISM: The division is maintained through trade secret law, algorithmic
+opacity, proprietary data systems, and the sheer computational scale required
+to process behavioral data. An individual cannot access their own behavioral
+profile, cannot see the predictions made about them, cannot identify the
+modifications applied to their environment. The structural pattern: those who
+can see cannot be seen; those who are seen cannot see back.
+OBSERVED IN: principles/zuboff-age-of-surveillance-capitalism.md P7 (Google's
+refusal to disclose search ranking algorithms; Facebook's opacity about news
+feed curation; the impossibility of an individual auditing their own
+advertising profile)
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (one source; the mechanism maps structurally onto
+credit scoring, predictive policing, employer monitoring, and national
+security surveillance — any context where one party's systematic knowledge of
+another creates an exploitable power asymmetry — but these instances need
+formal observation within the framework)

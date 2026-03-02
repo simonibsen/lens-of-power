@@ -9,6 +9,31 @@ This is a living analytical system. It accumulates knowledge over time
 as works are studied and current events are analyzed. It is designed to
 be used by both humans and LLMs.
 
+> [!TIP]
+> **Quick start**: Navigate to this directory and use the `/lop` skill:
+> ```
+> /lop analyze [article, event, policy, or URL]
+> /lop extract [book, film, theory, reference source, or catalog]
+> /lop redteam
+> ```
+> Works with Claude Code. For other LLMs or manual use, load `constitution.md`,
+> `taxonomy.md`, `methodology.md`, and `patterns.md` as context, then follow the
+> procedure in `methodology.md`.
+
+## Table of contents
+
+- [What this is for](#what-this-is-for)
+- [Core concepts](#core-concepts) — axiom, layer, principle, pattern, instrument, evidence, analysis
+- [How to use it](#how-to-use-it)
+- [The three modes](#the-three-modes)
+  - [Analyze](#lop-analyze--analyze-new-material) — 7-step analysis with briefing output
+  - [Extract](#lop-extract--study-a-source-for-principles-and-instruments) — study a source for principles and instruments
+  - [Red team](#lop-redteam--turn-the-framework-on-itself) — turn the framework on itself
+- [How the framework grows](#how-the-framework-grows)
+- [Structure](#structure) — directory layout
+- [Integrity constraints](#integrity-constraints) — IC-1 through IC-5
+- [Architecture and design patterns](#architecture-and-design-patterns)
+
 ## What this is for
 
 Most exercises of power depend on not being seen clearly. Policy is
@@ -348,14 +373,18 @@ whether the framework is revealing or merely confirming.
 rating, list of axioms never challenged, most recent surprising result,
 and recommended adjustments.
 
-This mode is required by Integrity Constraint IC-3 and should be invoked
-after every 5-10 analyses, or whenever the framework is producing
-suspiciously consistent results. Certainty is the signal that a red team
-is overdue.
+> [!CAUTION]
+> This mode is required by IC-3 and should be invoked after every 5-10
+> analyses, or whenever the framework is producing suspiciously consistent
+> results. Certainty is the signal that a red team is overdue.
 
 ## How the framework grows
 
-The framework is designed to accumulate knowledge over time:
+> [!NOTE]
+> The framework is designed to accumulate knowledge over time. Each
+> extraction, analysis, or red team review may produce new principles,
+> evidence, patterns, or axiom refinements. The git history records every
+> structural change with its rationale.
 
 1. **Extractions** add principles to `principles/`. Each principle is
    tagged with taxonomy layers and cross-referenced against axioms and
@@ -367,12 +396,10 @@ The framework is designed to accumulate knowledge over time:
    invoked during specific methodology steps and listed in the analytical
    apparatus of every analysis that uses it.
 4. **Patterns** are promoted as evidence accumulates. A pattern observed
-   in one source is LOW confidence. Three independent sources from
-   different perspectives may warrant HIGH confidence.
+   in one source is PRELIMINARY. Confirmation across meaningfully
+   independent contexts warrants SUPPORTED or ESTABLISHED.
 5. **Red team reviews** prevent the framework from calcifying. They check
    for confirmation bias, test falsifiability, and recommend adjustments.
-
-The git history records every structural change with its rationale.
 
 ## Structure
 
@@ -391,7 +418,8 @@ lens-of-power/
 │   ├── orwell-1984.md         8 principles from Nineteen Eighty-Four
 │   ├── machiavelli-the-prince.md  7 principles from The Prince
 │   ├── scott-weapons-of-the-weak.md  12 principles from Weapons of the Weak
-│   └── fanon-wretched-of-the-earth.md  9 principles from The Wretched of the Earth
+│   ├── fanon-wretched-of-the-earth.md  9 principles from The Wretched of the Earth
+│   └── zuboff-age-of-surveillance-capitalism.md  10 principles from The Age of Surveillance Capitalism
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
@@ -402,10 +430,11 @@ lens-of-power/
 
 ## Integrity constraints
 
-The framework includes five structural safeguards against becoming a
-closed ideological system. These are non-negotiable — a framework for
-studying power that cannot examine its own power over the analyst is a
-failed instrument.
+> [!IMPORTANT]
+> The framework includes five structural safeguards against becoming a
+> closed ideological system. These are non-negotiable — a framework for
+> studying power that cannot examine its own power over the analyst is a
+> failed instrument.
 
 - **IC-1: Falsifiability** — Every axiom has an explicit falsification
   condition. Evidence that contradicts an axiom is recorded, not suppressed.
@@ -547,11 +576,12 @@ This is chaos engineering applied to an analytical system: deliberately
 stress-testing the framework's assumptions to find weaknesses before they
 compound.
 
-The red team procedure applies the framework's own taxonomy to itself:
-Is the framework functioning as Thought & Narrative control (framing
-everything as power)? Has it become an Institutional authority (deferred
-to rather than used critically)? Is it producing Surveillance effects
-(making the analyst see control everywhere)?
+> [!WARNING]
+> The red team procedure applies the framework's own taxonomy to itself:
+> Is the framework functioning as Thought & Narrative control (framing
+> everything as power)? Has it become an Institutional authority (deferred
+> to rather than used critically)? Is it producing Surveillance effects
+> (making the analyst see control everywhere)?
 
 ### Two-scale rating system
 
