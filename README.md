@@ -243,9 +243,12 @@ Load these files as context:
 1. `constitution.md` — axioms and integrity constraints
 2. `taxonomy.md` — the six layers of power
 3. `methodology.md` — the analytical procedure
-4. `patterns.md` — known cross-cutting patterns
+4. `patterns.md` — compact pattern definitions
+5. `principles/INDEX.md` — compact principles lookup table
 
-Then follow the procedure in `methodology.md` for your chosen mode.
+Load `patterns-detail.md` and individual `principles/*.md` files only when
+deeper comparison is needed. Then follow the procedure in `methodology.md`
+for your chosen mode.
 
 ## The three modes
 
@@ -408,13 +411,15 @@ lens-of-power/
 ├── constitution.md          Foundational axioms and integrity constraints
 ├── taxonomy.md              The six layers of power and their mechanisms
 ├── methodology.md           Analytical procedures and output formats
-├── patterns.md              Cross-cutting patterns (grows over time)
+├── patterns.md              Compact pattern definitions (always loaded)
+├── patterns-detail.md       Full evidence trails per pattern (loaded for audits)
 ├── instruments/             Imported analytical tools
 │   ├── control-hierarchy.md   5-level escalation ladder for control ambition
 │   ├── logical-fallacies.md   38 fallacies organized by power function
 │   ├── newspeak-checklist.md  Detecting language as an instrument of control
 │   └── positional-lens.md    Identifying source position in power relationships
 ├── principles/              Extracted from specific works
+│   ├── INDEX.md               Compact lookup table (always loaded)
 │   ├── orwell-1984.md         8 principles from Nineteen Eighty-Four
 │   ├── machiavelli-the-prince.md  7 principles from The Prince
 │   ├── scott-weapons-of-the-weak.md  12 principles from Weapons of the Weak
@@ -428,7 +433,8 @@ lens-of-power/
 │   ├── graeber-debt-the-first-5000-years.md  7 principles from Debt: The First 5,000 Years
 │   ├── powell-memo.md          4 principles from the Powell Memo (1971 primary source)
 │   ├── whitehouse-the-scheme.md  4 principles from The Scheme
-│   └── cobb-most-southern-place-on-earth.md  6 principles from The Most Southern Place on Earth
+│   ├── cobb-most-southern-place-on-earth.md  6 principles from The Most Southern Place on Earth
+│   └── stanley-how-propaganda-works.md  5 principles from How Propaganda Works
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
@@ -477,7 +483,8 @@ Each file has a single, well-defined responsibility:
 | `constitution.md` | What to look for (axioms) | Configuration / constants |
 | `taxonomy.md` | Domain model (the six layers) | Type definitions / schema |
 | `methodology.md` | How to process (procedures) | Business logic / pipeline |
-| `patterns.md` | Accumulated state (findings) | Database / knowledge store |
+| `patterns.md` | Compact pattern definitions | Index / materialized view |
+| `patterns-detail.md` | Full evidence trails | Database / knowledge store |
 | `instruments/` | Pluggable detection tools | Plugin modules |
 | `principles/` | Source-bound knowledge | Reference data |
 | `evidence/` | Ground truth | Test fixtures / assertions |

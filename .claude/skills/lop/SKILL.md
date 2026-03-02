@@ -18,14 +18,14 @@ Before proceeding, read these files from the project root:
 1. `constitution.md` — axioms, directives, and integrity constraints (ALWAYS load)
 2. `taxonomy.md` — layers of power (ALWAYS load)
 3. `methodology.md` — the analytical procedure (ALWAYS load)
-4. `patterns.md` — known cross-cutting patterns (ALWAYS load)
+4. `patterns.md` — compact pattern definitions (ALWAYS load)
+5. `principles/INDEX.md` — compact principles lookup table (ALWAYS load)
 
-Also check for relevant instruments:
-5. `instruments/` — load any instruments relevant to the material
-
-Also check for existing related work:
-6. `principles/` — scan for principles relevant to the material
-7. `evidence/` — scan for evidence relevant to the material
+Load selectively as needed:
+6. `patterns-detail.md` — full evidence trails for patterns (load for RED TEAM mode, pattern audits, or when checking specific pattern evidence)
+7. `instruments/` — load any instruments relevant to the material
+8. `principles/[source].md` — load full principles file only when deep comparison with a specific source is needed (the INDEX has enough for cross-referencing)
+9. `evidence/` — scan for evidence relevant to the material
 
 ## Determine mode
 
