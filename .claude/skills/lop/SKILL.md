@@ -1,7 +1,7 @@
 ---
 name: lop
-description: Apply the Lens of Power interpretive framework to analyze material for power dynamics, extract principles from a body of work, evaluate sources as potential instruments, or red-team the framework itself.
-argument-hint: <analyze|extract|instrument|redteam> [material, work, or source]
+description: Apply the Lens of Power interpretive framework to analyze material for power dynamics, extract principles and instruments from a source, or red-team the framework itself.
+argument-hint: <analyze|extract|redteam> [material, work, or source]
 user-invocable: true
 allowed-tools: Read, Grep, Glob, WebFetch, WebSearch, Write, Edit, Agent, Bash
 ---
@@ -33,11 +33,11 @@ Parse `$ARGUMENTS` to determine the mode:
 
 - If the first argument is `analyze` or the user is providing current material
   (article, news, speech, policy, event): use **ANALYZE mode** from methodology.md
-- If the first argument is `extract` or the user is providing a body of work
-  (book, film, theory, historical account): use **EXTRACT mode** from methodology.md
-- If the first argument is `instrument` or the user is providing a source
-  to evaluate as a potential analytical tool (reference page, list, catalog,
-  classification system): use **INSTRUMENT mode** from methodology.md
+- If the first argument is `extract` or the user is providing a source to
+  study (book, film, theory, historical account, reference page, list, catalog,
+  classification system): use **EXTRACT mode** from methodology.md. The extract
+  procedure evaluates what the source offers — principles, instruments, or
+  both — and produces only what is genuinely valuable.
 - If the first argument is `redteam`: use **RED TEAM mode** from methodology.md
 
 If unclear, ask the user which mode to use.
@@ -46,7 +46,7 @@ If unclear, ask the user which mode to use.
 
 Follow the procedure defined in `methodology.md` for the selected mode.
 Apply all axiom directives from `constitution.md` throughout.
-Apply all integrity constraints (IC-1, IC-2, IC-3) from `constitution.md`.
+Apply all integrity constraints (IC-1 through IC-5) from `constitution.md`.
 Use the taxonomy layers from `taxonomy.md` as your analytical checklist.
 Cross-reference `patterns.md` at every step where the methodology calls for it.
 
@@ -58,6 +58,9 @@ Cross-reference `patterns.md` at every step where the methodology calls for it.
   the non-power explanation. If it is equally plausible, say so.
 - **IC-3 (Red team)**: In RED TEAM mode, apply the framework to itself
   with full honesty. The framework's legitimacy depends on this.
+- **IC-5 (LLM bias)**: Flag when training data likely overrepresents a
+  perspective. Name blind spots. Do not hedge to appear balanced when
+  evidence is not balanced.
 
 ## If the material is a URL
 
@@ -89,32 +92,25 @@ provide the text.
 ## Output
 
 ### For ANALYZE mode:
-Produce the structured output defined in methodology.md for each step.
-After the final step, produce a summary section:
+Produce the structured step-by-step output defined in methodology.md,
+followed by the briefing document in the hybrid format (briefing header +
+findings list + analytical apparatus). The briefing format is defined in
+the "Analysis output format" section of methodology.md.
 
-```
-## Summary
-MATERIAL: [what was analyzed]
-PRIMARY LAYERS: [dominant taxonomy layers]
-KEY MECHANISMS: [most significant mechanisms identified]
-KEY FINDING: [single most important insight — 1-2 sentences]
-CONFIDENCE: HIGH / MEDIUM / LOW
-NULL CASE CONSIDERED: [yes/no — was the non-power explanation evaluated?]
-FRAMEWORK UPDATES: [any additions to patterns.md, evidence/, or axiom refinements]
-```
+The analytical apparatus section is required — it lists every instrument,
+principle, and pattern that shaped the analysis, with sources.
 
 If the analysis produces framework updates, offer to write them to the
 appropriate files (patterns.md, evidence/, etc.).
 
 ### For EXTRACT mode:
-Produce the output defined in methodology.md and offer to write the
-results to a new file in `principles/`.
+Produce the output defined in methodology.md. The extract procedure
+evaluates the source for both principles and instruments:
 
-### For INSTRUMENT mode:
-Produce the structured output defined in the INSTRUMENT mode section of
-methodology.md. If the verdict is CREATE or PROPOSE, offer to write the
-instrument file to `instruments/`. If PROPOSE, clearly mark the gaps and
-suggest sources to fill them.
+- If principles are found, offer to write them to `principles/`
+- If instruments are found, offer to write them to `instruments/`
+- If both are found, produce both with cross-references
+- If neither is found, document what was surveyed and why
 
 ### For RED TEAM mode:
 Produce the output defined in the RED TEAM mode section of methodology.md
@@ -123,7 +119,9 @@ and offer to write the results to `evidence/`.
 ## Tone
 
 Be direct and specific. Name actors, mechanisms, and layers explicitly.
-Distinguish observation from inference. Mark confidence levels.
+Distinguish observation from inference. Mark evidentiary basis and
+corroboration levels per the output discipline in methodology.md.
+Use professional language throughout.
 Do not hedge excessively — this framework exists to make things visible.
 But do not overreach — the integrity constraints exist to keep the
 framework honest.

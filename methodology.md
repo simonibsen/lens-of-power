@@ -16,14 +16,13 @@ Select a mode based on the task:
 **When to use**: Processing current events, news, policy documents, arguments
 
 ### EXTRACT mode
-**Input**: A body of work (book, film, theory, historical account)
-**Output**: Principles about how power operates, added to the framework's knowledge base
-**When to use**: Studying foundational works to build the framework's principle library
-
-### INSTRUMENT mode
-**Input**: A source containing a body of knowledge that may be useful as an analytical tool (taxonomy, checklist, catalog of techniques, classification system)
-**Output**: Evaluation of whether it should become an instrument, and if so, the instrument file itself
-**When to use**: Evaluating potential new instruments from any source (reference pages, academic works, lists, catalogs)
+**Input**: A source — body of work (book, film, theory, historical account)
+or reference source (taxonomy, checklist, catalog of techniques)
+**Output**: Principles, instruments, or both — whatever the source yields
+**When to use**: Studying any source to build the framework's knowledge base.
+The procedure evaluates what the source offers and produces only what is
+genuinely valuable. Not every source yields both principles and instruments;
+some yield neither.
 
 ### RED TEAM mode
 **Input**: The framework itself
@@ -334,22 +333,170 @@ MADE VISIBLE: [what this analysis reveals that was previously hidden]
 
 ---
 
+## Analysis output format
+
+Every analysis produces two outputs: the structured step-by-step working
+(above) and a **briefing document** that presents the findings in a form
+designed for human reading. The briefing is appended after the structured
+steps in the analysis file.
+
+The briefing uses a hybrid format: a structured header for immediate
+comprehension, followed by a numbered findings list for detail and
+cross-referenceability. Language should be professional throughout.
+
+### Briefing header
+
+```
+## Briefing: [Title]
+
+DATE: [YYYY-MM-DD]
+SOURCE TYPE: [e.g., live blog, policy document, speech, legislation]
+SOURCE POSITION: [from positional-lens.md — ruler/everyday governed/
+  revolutionary/intermediary/observer]
+
+### Key finding
+
+[1-2 sentences: the single most important insight from this analysis.
+State it directly.]
+
+### Who benefits / who bears cost
+
+| Actor | Gains | At whose expense |
+|-------|-------|------------------|
+| [actor] | [what they gain] | [who pays] |
+
+### What is absent
+
+- [missing perspective or unasked question]
+- [missing perspective or unasked question]
+```
+
+### Findings list
+
+Each finding is a discrete, tagged, cross-referenceable unit. No continuous
+prose. Each finding stands alone.
+
+```
+### Findings
+
+1. **[Finding title]**
+   LAYER: [taxonomy layer(s)]
+   STATUS: observed / inferred / speculative
+   [2-3 sentences. Professional register. Specific.]
+
+2. **[Finding title]**
+   LAYER: [taxonomy layer(s)]
+   STATUS: observed / inferred / speculative
+   [2-3 sentences.]
+```
+
+STATUS vocabulary:
+- **observed**: Directly present in the material. Could be verified by
+  another reader examining the same source.
+- **inferred**: Not stated but follows from observed facts through
+  reasoning. The inference should be stated as such.
+- **speculative**: A plausible implication that goes beyond what the
+  evidence directly supports. Worth noting but should not be treated
+  as established.
+
+### Analytical apparatus
+
+Every analysis must include a provenance section listing the framework
+components that shaped the analysis. This serves transparency (the reader
+sees what tools were applied), later review (a red team can assess whether
+the right instruments were used), and framework health (patterns in
+instrument usage reveal blind spots).
+
+```
+### Analytical apparatus
+
+INSTRUMENTS APPLIED:
+- [instrument name] (instruments/[filename].md) — [what it found or
+  contributed to this analysis]
+- [instrument name] — [what it found]
+
+PRINCIPLES REFERENCED:
+- [principle ID and title] (principles/[filename].md) — [how it applies]
+- [principle ID and title] — [how it applies]
+
+PATTERNS MATCHED:
+- [pattern name] (patterns.md) — [corroboration level] — [how it appears here]
+- [pattern name] — [corroboration level] — [how it appears here]
+
+PATTERNS NOT MATCHED:
+- [any patterns explicitly considered and found inapplicable — optional
+  but valuable for demonstrating rigor]
+```
+
+### Closing sections
+
+```
+### Null case
+
+[Assessment of the non-power explanation. Required by IC-2.]
+
+### Watch
+
+- [thread to monitor going forward]
+- [thread to monitor]
+```
+
+---
+
 ## EXTRACT mode procedure
 
-Used for bodies of work (books, films, theories, historical accounts).
-The goal is to distill principles about how power operates and add them
-to the framework's knowledge base.
+Used for studying a source — a body of work (book, film, theory, historical
+account) or a reference source (taxonomy, checklist, catalog, classification
+system). The procedure evaluates what the source offers and produces whatever
+is genuinely valuable: principles, instruments, both, or neither.
+
+A **principle** is a generalizable truth about how power operates, extracted
+from a specific source. It states: *this mechanism produces this effect
+because of this reason*. Principles are more specific than axioms (they
+describe particular mechanisms) and more source-bound than patterns (they
+may be observed in only one work). When a principle is independently
+confirmed across multiple sources, it may be promoted to a pattern.
+
+An **instrument** is a reusable analytical tool imported from a source and
+annotated with power-function descriptions. What distinguishes an instrument
+from a generic reference document is the power function field — documenting
+how each item functions specifically as a mechanism of power and control.
+
+Not every source yields both. A political treatise may yield principles but
+no instruments. A reference list may yield an instrument but no principles.
+A rich work may yield both. The evaluation step determines what is there;
+the procedure does not force output that the source does not support.
 
 ### Step 1: SURVEY
 
-Read/review the work with the taxonomy layers as a lens.
+Examine the source to understand its scope, structure, and what it offers.
 
 **Do this**:
-- Which layers of power does this work address?
-- What is the work's central thesis about power (explicit or implicit)?
+- What type of source is this? (treatise, ethnography, reference catalog,
+  historical account, film, theory, checklist, classification system)
+- What is its central thesis about power, if any? (explicit or implicit)
+- Which layers of power does it address?
 - What systems or mechanisms does it describe?
+- Does it contain structured knowledge that could serve as an analytical
+  tool? (taxonomies, classification systems, catalogs of techniques,
+  diagnostic checklists)
 
-### Step 2: EXTRACT PRINCIPLES
+**Output format**:
+```
+SOURCE: [title and citation]
+TYPE: [what kind of source]
+THESIS: [central claim about power, if any — "none" for pure reference sources]
+LAYERS ADDRESSED: [from taxonomy]
+PRINCIPLE CANDIDATE: yes / no [does the source contain generalizable
+  principles about how power operates?]
+INSTRUMENT CANDIDATE: yes / no [does the source contain structured knowledge
+  usable as an analytical tool?]
+RATIONALE: [brief reasoning for each assessment]
+```
+
+### Step 2: EXTRACT PRINCIPLES (if principle candidate)
+
+Run this step only if Step 1 identified the source as a principle candidate.
 
 Identify generalizable principles about power and control.
 
@@ -367,6 +514,7 @@ MECHANISM: [how it works]
 EVIDENCE FROM WORK: [specific example from the source]
 GENERALIZES TO: [where else this applies]
 FRAMEWORK STATUS: confirms/refines/contradicts [which axiom or pattern]
+STATUS: observed / inferred / speculative
 ```
 
 ### Step 3: IDENTIFY PATTERNS
@@ -378,64 +526,20 @@ Look for patterns that recur within the work or connect to existing patterns.
 - Does it reveal new cross-layer patterns not yet documented?
 - What mechanisms does the work show operating across multiple layers?
 
-### Step 4: NOTE INSTRUMENTS
+### Step 4: EVALUATE AND BUILD INSTRUMENTS (if instrument candidate)
 
-Identify any analytical tools, taxonomies, or frameworks within the work
-that could be added to `instruments/`.
+Run this step only if Step 1 identified the source as an instrument candidate.
 
-**Do this**:
-- Does the work provide a useful classification system?
-- Does it name mechanisms that belong in the taxonomy?
-- Does it describe techniques of control that should be cataloged?
+This step has two phases: evaluation and construction. Not every candidate
+produces an instrument — the evaluation may determine that the material is
+not sufficiently valuable, or that it duplicates existing instruments.
 
-### Step 5: SYNTHESIZE
-
-Produce the output document for `principles/`.
-
-**Output format**: A markdown file containing:
-- Source metadata (title, author, year)
-- Central thesis about power
-- Extracted principles (from step 2)
-- New patterns identified (from step 3)
-- Suggested instrument additions (from step 4)
-- Connections to existing framework content
-
----
-
-## INSTRUMENT mode procedure
-
-Used to evaluate a source for potential inclusion as an instrument in
-`instruments/`. Instruments are imported bodies of knowledge that serve
-as analytical tools during analysis. This procedure ensures consistent
-evaluation and formatting.
-
-### Step 1: SURVEY SOURCE
-
-Examine the source material to understand its scope and structure.
+**Phase 1: Evaluate relevance**
 
 **Do this**:
-- What does this source contain? (taxonomy, checklist, catalog, classification, techniques)
-- How is it organized? (categories, hierarchy, flat list)
-- How comprehensive is it? (exhaustive, representative, partial)
-- What is the source's authority? (academic, community, institutional, individual)
-
-**Output format**:
-```
-SOURCE: [title and URL/citation]
-CONTENT TYPE: taxonomy / checklist / catalog / classification / techniques
-ORGANIZATION: [how it is structured]
-SCOPE: exhaustive / representative / partial
-AUTHORITY: [basis for credibility]
-ITEM COUNT: [approximate number of items]
-```
-
-### Step 2: EVALUATE RELEVANCE
-
-Determine whether this source is useful to the framework.
-
-**Do this**:
-- Does it map to one or more taxonomy layers? Which ones?
-- Does it serve as an **analytical tool** (helps detect something during analysis)?
+- Does the material map to one or more taxonomy layers? Which ones?
+- Does it serve as an **analytical tool** (helps detect something during
+  analysis)?
 - Does it serve as a **mechanism catalog** (documents how power operates)?
 - Does it serve both roles? (Most valuable instruments serve both.)
 - Does it overlap with an existing instrument? If so, does it extend,
@@ -453,22 +557,20 @@ REASONING: [why]
 ```
 
 **Verdicts**:
-- **CREATE**: The source warrants a new instrument. Proceed to Step 3.
-- **MERGE**: The source extends an existing instrument. Identify the
-  target instrument and proceed to Step 3.
-- **PROPOSE**: The source is partial or insufficient on its own, but
+- **CREATE**: The material warrants a new instrument. Proceed to Phase 2.
+- **MERGE**: The material extends an existing instrument. Identify the
+  target instrument and proceed to Phase 2.
+- **PROPOSE**: The material is partial or insufficient on its own, but
   the evaluation reveals that an instrument is needed in this area.
   Define what the instrument should contain, identify what the source
   provides and what gaps remain, and note additional sources needed
-  to complete it. Proceed to Step 3 with the partial content available.
-- **SKIP**: The source is not relevant or useful. Stop here and explain why.
+  to complete it. Proceed to Phase 2 with the partial content available.
+- **SKIP**: The material is not sufficiently valuable as an instrument.
+  Note the reasoning and continue to Step 5.
 
-### Step 3: STRUCTURE
+**Phase 2: Structure, curate, and produce** (if verdict is not SKIP)
 
-Design the instrument format. Every instrument must follow a consistent
-structure to be usable during analysis.
-
-**Required sections for every instrument**:
+Structure the instrument. Every instrument must follow a consistent format:
 
 ```markdown
 # Instrument: [Name]
@@ -505,6 +607,10 @@ from a generic reference document. A list of logical fallacies exists
 everywhere — what makes it an instrument *here* is documenting how each
 fallacy functions as a mechanism of control.
 
+Curate the content: select items based on relevance to the framework, collapse
+redundancies, and mark low-frequency items. Not everything in a source needs
+to be included.
+
 If the verdict was PROPOSE, mark gaps clearly:
 
 ```markdown
@@ -514,51 +620,25 @@ MISSING: [what the instrument still needs]
 SOURCES TO INVESTIGATE: [suggested sources to fill gaps]
 ```
 
-### Step 4: CURATE
-
-Not everything in a source needs to be included. Select items based on
-relevance to the framework.
-
-**Do this**:
-- Which items are most relevant to power and control analysis?
-- Which items appear frequently in real-world exercises of power?
-- Which items are redundant with each other? (Collapse if so.)
-- Are there items that are theoretically interesting but rarely
-  encountered in practice? (Include but mark as LOW frequency.)
-
-**Output format**:
-```
-INCLUDED: [count] items
-EXCLUDED: [count] items
-EXCLUSION RATIONALE: [why excluded items were dropped]
-CATEGORIES: [how items are grouped]
-```
-
-### Step 5: PRODUCE
-
-Write the instrument file to `instruments/`.
-
 **Naming convention**: `instruments/[descriptive-name].md`
 Use lowercase, hyphens for spaces. Name should describe the instrument's
 function, not just its source (e.g., `logical-fallacies.md` not
 `wikipedia-fallacy-list.md`).
 
-After writing, verify:
-- Does it follow the required structure from Step 3?
-- Does every item have a **power function** annotation?
-- Are the **how to apply** instructions specific enough for an LLM to follow?
-- Is the instrument referenced in the right methodology steps?
+### Step 5: SYNTHESIZE
 
-**Output format**:
-```
-INSTRUMENT CREATED: instruments/[filename].md
-ITEM COUNT: [number of items included]
-METHODOLOGY STEPS: [which steps should invoke this instrument]
-RELATED INSTRUMENTS: [any existing instruments this connects to]
-```
+Produce the output. What is produced depends on what Steps 1-4 found:
 
-Offer to update `methodology.md` if specific steps should reference
-the new instrument.
+- **Principles found**: Write a principles file to `principles/` containing
+  source metadata, IC-5 disclosure, central thesis, extracted principles,
+  new patterns identified, connections to existing framework content, and
+  (if instruments were also produced) references to the instrument files.
+- **Instruments found**: Write instrument files to `instruments/`. Reference
+  them in the principles file if one was also produced.
+- **Both found**: Produce both, cross-referenced.
+- **Neither found**: Document what was surveyed and why it did not yield
+  principles or instruments. This is a valid outcome — not every source
+  contributes to the framework, and recording that prevents re-evaluation.
 
 ---
 
@@ -672,8 +752,18 @@ Record the output in `evidence/` with tags:
 ## Output discipline
 
 - Be specific. Name the mechanism, name the layer, name the actor.
-- Mark confidence levels: HIGH (directly evidenced), MEDIUM (strongly
-  implied), LOW (speculative but worth noting).
+- Distinguish between what is observed and what is inferred.
+- Mark evidentiary basis on every claim: **observed** (directly present
+  in material), **inferred** (follows from reasoning), **speculative**
+  (plausible but beyond direct evidence).
+- Mark corroboration on patterns: **preliminary** (observed in one
+  context; may not generalize), **supported** (confirmed across
+  meaningfully independent contexts — different eras, domains, or
+  positions in the power relationship), **established** (confirmed
+  across multiple independent contexts with no unresolved
+  counter-evidence). Thresholds are qualitative, not numeric — the
+  analyst must justify the rating based on the independence and diversity
+  of confirming sources, not count to a threshold.
 - When uncertain, say so. The framework values honesty over completeness.
 - Always end with a framework update recommendation, even if it's "none."
 

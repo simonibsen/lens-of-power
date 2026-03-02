@@ -7,7 +7,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 
 - `constitution.md` — Foundational axioms about how power operates
 - `taxonomy.md` — The layers of power (thought, economic, legal, institutional, surveillance, physical)
-- `methodology.md` — The analytical procedure (ANALYZE, EXTRACT, INSTRUMENT, RED TEAM modes)
+- `methodology.md` — The analytical procedure (ANALYZE, EXTRACT, RED TEAM modes)
 - `patterns.md` — Cross-cutting patterns observed across domains (grows over time)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
 - `principles/` — Generalizable truths extracted from specific works
@@ -18,8 +18,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 
 Use the `/lop` skill to apply this framework:
 - `/lop analyze [material]` — Run the analytical methodology on new information
-- `/lop extract [work]` — Extract principles from a body of work
-- `/lop instrument [source]` — Evaluate a source as a potential analytical instrument
+- `/lop extract [source]` — Study a source for principles and/or instruments
 - `/lop redteam` — Turn the framework on itself (integrity constraint IC-3)
 
 When working in this project, always load `constitution.md`, `taxonomy.md`,
@@ -33,7 +32,7 @@ and relevant `instruments/` files as needed per the methodology's instructions.
 - Evidence entries use the format defined in `evidence/README.md`
 - Principles use the format defined in the EXTRACT mode section of `methodology.md`
 - Patterns use the format defined in `patterns.md`
-- Instruments use the format defined in the INSTRUMENT mode section of `methodology.md`
+- Instruments use the format defined in the EXTRACT mode Step 4 of `methodology.md`
 - Maintain integrity constraints (IC-1, IC-2, IC-3, IC-4) as defined in `constitution.md`
 - IC-1: Every axiom must be falsifiable. Flag contradicting evidence, do not suppress it.
 - IC-2: Every analysis must consider the null case (non-power explanation).

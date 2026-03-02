@@ -1,8 +1,11 @@
 # Constitution: Lens of Power
 
 > Role: This document defines the foundational axioms of the framework.
+> An **axiom** is a foundational assumption about how power operates —
+> the framework's starting premise, subject to revision when evidence
+> warrants it. Each axiom has a directive (a question the analyst must
+> ask) and a falsification condition (what evidence would disprove it).
 > When loaded as context, use these axioms to guide all analysis.
-> Every axiom includes a directive — a question you MUST ask during analysis.
 
 ---
 

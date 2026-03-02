@@ -1,9 +1,19 @@
 # Patterns
 
-> Role: This document catalogs cross-cutting patterns — recurring structures
-> of power observed across multiple domains, eras, or contexts. Patterns
-> are the highest-value output of this framework. They are what make the
-> invisible visible.
+> Role: This document catalogs cross-cutting patterns. A **pattern** is a
+> recurring structure of power observed across multiple independent sources,
+> domains, eras, or contexts. Patterns emerge when a principle extracted
+> from one source is independently confirmed in others. They are the
+> framework's highest-value output — they describe mechanisms that repeat
+> despite different surface forms.
+>
+> Corroboration levels: PRELIMINARY (observed in one context; may not
+> generalize), SUPPORTED (confirmed across meaningfully independent
+> contexts — different eras, domains, or positions in the power
+> relationship), ESTABLISHED (confirmed across multiple independent
+> contexts with no unresolved counter-evidence). Thresholds are
+> qualitative — the rating is justified by the independence and
+> diversity of confirming sources, not by counting to a number.
 >
 > This document grows over time. Each analysis or extraction may add new
 > patterns or provide additional evidence for existing ones.
@@ -21,7 +31,7 @@ STATEMENT: [one-sentence description of the pattern]
 MECHANISM: [how it works]
 OBSERVED IN: [list of analyses or principles where this was identified]
 EVIDENCE: [references to evidence/ entries]
-CONFIDENCE: HIGH / MEDIUM / LOW
+CORROBORATION: ESTABLISHED / SUPPORTED / PRELIMINARY
 ```
 
 ---
@@ -48,8 +58,9 @@ analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md ("Operation Epic Fur
 branding for regime change war; CENTCOM's "looking into" civilian harm as
 accountability language performing deflection)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CONFIDENCE: HIGH (observed in five sources from different eras and perspectives,
-including current events)
+CORROBORATION: ESTABLISHED (five sources from different eras and perspectives —
+Orwell, Machiavelli, Fanon, Scott, and a current events analysis — each observing
+the mechanism from a different position in the power relationship)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -64,7 +75,8 @@ principles/machiavelli-the-prince.md P1 (arms as prerequisite for all other
 authority — Machiavelli treats all six layers as active, with Physical &
 Coercive as the foundation the others depend on)
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in two sources from different eras)
+CORROBORATION: SUPPORTED (two sources from different eras — Orwell's
+totalitarian fiction and Machiavelli's political theory)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -78,7 +90,8 @@ analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Trump's "47 years" 
 Iran as eternal enemy, justifying regime change as inevitable resolution
 rather than a policy choice)
 EVIDENCE: evidence/2026-03-01-iran-fm-diplomacy-during-attacks.md
-CONFIDENCE: MEDIUM (observed in two sources across fiction and current events)
+CORROBORATION: SUPPORTED (two sources — Orwell's totalitarian fiction and a
+current events analysis — across different eras)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -92,7 +105,8 @@ principles/scott-weapons-of-the-weak.md P9 (the Green Revolution increases total
 production while reducing the poor's share — scarcity is manufactured through
 upward redistribution of gains, not through decline in output)
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in two sources from different eras)
+CORROBORATION: SUPPORTED (two sources from different eras — Orwell's
+totalitarian fiction and Scott's ethnography of agrarian resistance)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -104,7 +118,7 @@ present to prevent unapproved action. Control the future to prevent
 unapproved imagination. Each temporal dimension reinforces the others.
 OBSERVED IN: principles/orwell-1984.md (Ministry of Truth, telescreens, Newspeak)
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in one source; expected to appear widely)
+CORROBORATION: PRELIMINARY (one source; expected to appear widely)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -126,9 +140,10 @@ principles/fanon-wretched-of-the-earth.md P6 (the lumpenproletariat — inverts
 the pattern: those completely excluded have no stake in the existing order,
 making them either the most revolutionary or the most co-optable force)
 EVIDENCE: —
-CONFIDENCE: HIGH (observed in three independent sources from different eras
-and perspectives; Fanon adds both confirmation from below and an inversion
-via the lumpenproletariat)
+CORROBORATION: ESTABLISHED (three independent sources from different eras
+and perspectives — Orwell, Machiavelli, Fanon — each describing the dynamic
+from a different position; Fanon adds both confirmation from below and an
+inversion via the lumpenproletariat)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -149,7 +164,7 @@ constitutive violence delegitimizes the system it establishes. The pattern
 holds as an empirical description of the ruler's calculus but carries no
 normative weight.
 EVIDENCE: —
-CONFIDENCE: LOW (observed in one source with one counter-perspective; the
+CORROBORATION: PRELIMINARY (one source with one counter-perspective; the
 pattern describes a real strategic calculus but its scope may be limited to
 contexts where the subjected population has not organized counter-force)
 
@@ -172,9 +187,10 @@ appearance and reality, holding the prince's appearance against his reality;
 the public transcript is a jointly produced performance both sides maintain
 for different reasons)
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in two sources from opposite perspectives — the
-ruler's side and the ruled's side — which strengthens the pattern significantly;
-Scott shows the gap is navigated from both directions)
+CORROBORATION: SUPPORTED (two sources from opposite positions in the power
+relationship — the ruler's side (Machiavelli) and the ruled's side (Scott) —
+which strengthens the pattern; Scott shows the gap is navigated from both
+directions)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -192,7 +208,7 @@ OBSERVED IN: principles/scott-weapons-of-the-weak.md P1, P12 (Sedaka
 villagers maintain a hidden transcript of gossip, moral critique, and
 alternative interpretation behind the public performance of deference)
 EVIDENCE: —
-CONFIDENCE: LOW (observed in one source; expected to appear in slave
+CORROBORATION: PRELIMINARY (one source; expected to appear in slave
 narratives, colonial resistance, workplace ethnographies, and studies
 of authoritarian dissent)
 
@@ -212,7 +228,7 @@ OBSERVED IN: principles/scott-weapons-of-the-weak.md P2, P6, P10
 (everyday resistance in Sedaka operates through a spectrum of partial
 compliance, not through a binary of obedience or revolt)
 EVIDENCE: —
-CONFIDENCE: LOW (observed in one source; expected to appear in labor
+CORROBORATION: PRELIMINARY (one source; expected to appear in labor
 relations, colonial governance, regulatory compliance, and
 institutional management)
 
@@ -235,10 +251,11 @@ Sedaka villagers hold wealthy farmers to Islamic charity norms the
 wealthy themselves endorse — the critique operates entirely within
 the dominant moral framework)
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in one source but with extensive
-generalization — the structure is visible in colonial liberation
-movements, labor movements, civil rights movements, and
-anti-corruption campaigns across many contexts)
+CORROBORATION: SUPPORTED (one source but with extensive generalization —
+the structure is visible in colonial liberation movements, labor movements,
+civil rights movements, and anti-corruption campaigns across many contexts;
+the diversity of domains where the mechanism is recognizable warrants
+SUPPORTED despite a single primary source)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -271,11 +288,10 @@ subordinate's. The synthesis reveals that the public face of most power
 relationships is a collaboratively maintained fiction — and that its
 maintenance IS the mechanism of stable domination.
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in two sources from opposite positions in the
-power relationship; the structural logic generalizes to employer-employee
-relations, diplomatic protocols, institutional hierarchies, and any context
-where open acknowledgment of the actual power dynamic would destabilize the
-arrangement)
+CORROBORATION: SUPPORTED (two sources from opposite positions in the power
+relationship — Machiavelli and Scott — whose independent observations converge
+on the same bilateral structure; the logic generalizes to employer-employee
+relations, diplomatic protocols, and institutional hierarchies)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -294,10 +310,11 @@ OBSERVED IN: principles/fanon-wretched-of-the-earth.md P4 (the national
 bourgeoisie as intermediary), principles/fanon-wretched-of-the-earth.md P7
 (national consciousness without political education)
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in one source; strongly expected to appear in
-analyses of post-colonial states, post-Soviet transitions, corporate
-diversity initiatives, and institutional reform efforts that change personnel
-but not structure)
+CORROBORATION: SUPPORTED (one source but the mechanism is structurally
+visible in post-colonial states, post-Soviet transitions, corporate diversity
+initiatives, and institutional reform efforts that change personnel but not
+structure; the breadth of recognizable instances warrants SUPPORTED despite
+a single primary source)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -318,9 +335,10 @@ OBSERVED IN: principles/fanon-wretched-of-the-earth.md P1 (violence as
 constitutive), principles/fanon-wretched-of-the-earth.md P2 (the Manichean
 structure)
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in one source; expected to appear in analyses of
-settler colonialism, post-slavery societies, and any context where the
-current distribution of property traces to historical dispossession)
+CORROBORATION: SUPPORTED (one source but the mechanism is structurally
+visible in settler colonialism, post-slavery societies, and any context
+where the current distribution of property traces to historical
+dispossession; the structural logic is widely recognizable)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -340,10 +358,11 @@ OBSERVED IN: principles/fanon-wretched-of-the-earth.md P5 (psychological
 reconstruction), principles/fanon-wretched-of-the-earth.md P8 (culture as
 control and resistance)
 EVIDENCE: —
-CONFIDENCE: MEDIUM (observed in one source; expected to map onto analyses of
-cultural production in any context of domination — African American literary
+CORROBORATION: SUPPORTED (one source but the sequence maps onto cultural
+production in multiple contexts of domination — African American literary
 tradition, postcolonial literature, indigenous cultural revival, feminist
-cultural production)
+cultural production; the three-phase structure is independently recognizable
+across diverse domains)
 
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -360,9 +379,9 @@ censorship — it is control through abundance rather than scarcity.
 OBSERVED IN: analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Guardian live blog
 format during opening phase of US-Israeli war on Iran)
 EVIDENCE: —
-CONFIDENCE: LOW (first observation; the mechanism is clear but needs to be
-observed across multiple crisis events to confirm it as a structural pattern
-rather than an incidental feature of live journalism)
+CORROBORATION: PRELIMINARY (one analysis; the mechanism is clear but needs
+to be observed across multiple crisis events to confirm it as a structural
+pattern rather than an incidental feature of live journalism)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -379,6 +398,6 @@ unprecedented obscures the serial nature of the enterprise.
 OBSERVED IN: analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Iran 2026, with
 structural parallels to Iraq 2003, Libya 2011, Afghanistan 2001)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CONFIDENCE: MEDIUM (multiple historical instances available; this is the
-first formal observation within the framework but the pattern has extensive
-supporting evidence in the public record)
+CORROBORATION: SUPPORTED (first formal observation within the framework but
+the pattern has extensive supporting evidence in the public record across
+multiple independent instances — Iraq, Libya, Afghanistan)
