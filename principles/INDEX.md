@@ -114,6 +114,23 @@ KEY PATTERNS: Inversion of Stated Purpose, Appearance as Structural Terrain, Div
 IC-1 FLAGS: Axiom 3 (epistemic closure mechanism), Axiom 10 (sincerity challenges understanding-as-resistance)
 INSTRUMENT: instruments/propaganda-typology.md (co-derived with Ellul — Stanley provides Axis 5: undermining/supporting)
 
+## hooks-aint-i-a-woman.md
+SOURCE: bell hooks, *Ain't I a Woman?: Black Women and Feminism* (1981)
+POSITION: Hybrid (3/5 — Black feminist intellectual writing from lived experience and academic analysis)
+PRINCIPLES: 6 — Categorical Exclusion Through Default Subjects, The Devaluation Architecture, Liberation Movement Reproduction of Domination, Intersectional Invisibility as Structural Production, Structural Effects Inverted as Blame, Cross-Axis Complicity
+LAYERS: All six (Thought & Narrative and Economic primary)
+KEY PATTERNS: Middle Stratum Trap (extended to intersectional axis), Relay Class (extended to categorical relay), Inversion of Stated Purpose, Appearance as Structural Terrain, Moral Infrastructure of Economic Power
+NEW PATTERN CANDIDATE: Categorical Blindness (PRELIMINARY)
+
+## arendt-origins-of-totalitarianism.md
+SOURCE: Hannah Arendt, *The Origins of Totalitarianism* (1951)
+POSITION: Hybrid (2/5 — stateless refugee turned political theorist)
+PRINCIPLES: 7 — Superfluousness as Precondition for Total Domination, The Boomerang Thesis, Atomization as Structural Prerequisite, Ideology as Closed Logical System, The Right to Have Rights, Terror as Elimination of Spontaneity, The Alliance of Mob and Capital
+LAYERS: All six (Thought & Narrative, Physical & Coercive, Institutional, Legal & Regulatory all primary)
+KEY PATTERNS: Appearance as Structural Terrain, Institutional Abdication, Anticipatory Obedience, Peacetime Ratchet, Division of Learning, Constitutive Violence, Structural Demand for Propaganda
+IC-1 FLAGS: Axiom 9 (terror beyond manufactured compliance — destruction of agency), Axiom 10 (ideology as closed system captures "understanding")
+NEW PATTERN CANDIDATE: The Boomerang (PRELIMINARY)
+
 ## ellul-propaganda.md
 SOURCE: Jacques Ellul, *Propaganda: The Formation of Men's Attitudes* (1962)
 POSITION: 5 (sociologist/theologian)
