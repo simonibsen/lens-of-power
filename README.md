@@ -25,10 +25,12 @@ be used by both humans and LLMs.
 - [What this is for](#what-this-is-for)
 - [Core concepts](#core-concepts) — axiom, layer, principle, pattern, instrument, evidence, analysis
 - [How to use it](#how-to-use-it)
+- [Working with Claude](#working-with-claude) — steering, session flow, mid-session direction
 - [The three modes](#the-three-modes)
   - [Analyze](#lop-analyze--analyze-new-material) — 7-step analysis with briefing output
   - [Extract](#lop-extract--study-a-source-for-principles-and-instruments) — study a source for principles and instruments
   - [Red team](#lop-redteam--turn-the-framework-on-itself) — turn the framework on itself
+- [Viewer](#viewer) — interactive visualization of the framework
 - [How the framework grows](#how-the-framework-grows)
 - [Structure](#structure) — directory layout
 - [Integrity constraints](#integrity-constraints) — IC-1 through IC-5
@@ -255,6 +257,72 @@ Load `patterns-detail.md` and individual `principles/*.md` files only when
 deeper comparison is needed. Then follow the procedure in `methodology.md`
 for your chosen mode.
 
+## Working with Claude
+
+The `/lop` skill invokes structured modes, but the invocation itself is
+conversational. You can direct Claude to emphasize specific layers,
+apply specific instruments, draw comparisons, or ask particular questions
+— all in natural language alongside the mode keyword.
+
+### Steering with natural language
+
+```
+/lop analyze https://example.com/article — focus on the propaganda elements
+/lop analyze [paste policy text] — what's happening at the economic layer?
+/lop extract The Prince — compare with Scott on resistance from below
+/lop analyze this speech — what's missing? who isn't mentioned?
+```
+
+The mode determines the procedure. The natural-language direction
+determines where within that procedure to push hardest, what comparisons
+to draw, and what questions to prioritize.
+
+### What a session looks like
+
+**Analysis session**: You provide material (a URL, pasted text, or a
+description of an event). Claude runs the 7-step analysis procedure,
+producing structured working followed by a briefing. You can intervene at
+any step — redirect emphasis, challenge a claim level, or ask Claude to
+apply a specific instrument. When the analysis is complete, Claude
+proposes framework updates (new evidence entries, pattern updates, axiom
+refinements). You approve, revise, or reject each proposal. The analysis
+and any updates are committed on a dedicated branch with full provenance.
+
+**Extraction session**: You name a source (a book, film, theory, or
+reference work). Claude surveys it for principles and instruments,
+evaluating what the source genuinely offers rather than forcing output it
+doesn't support. You refine the framing of proposed principles, discuss
+generalizability, and decide what merits inclusion. Instruments are
+annotated with power-function descriptions before being committed.
+
+**Comparative analysis**: You provide two or more sources covering the
+same event or topic — different outlets, different eras, different
+positions in the power relationship. The framework analyzes each and then
+reveals what each makes visible and invisible, where their framings
+converge and diverge, and what structural dynamics only become apparent
+in the comparison.
+
+### What you can ask mid-session
+
+The process is interactive throughout. At any point during a session you
+can:
+
+- **Go deeper**: "Expand on finding 3 — what's the historical precedent?"
+- **Compare**: "How does this relate to what Fanon says about the national
+  bourgeoisie?"
+- **Challenge**: "I think finding 5 is speculative, not inferred — the
+  evidence doesn't support that claim level."
+- **Apply an instrument**: "Run the propaganda typology on the second
+  paragraph."
+- **Push on the null case**: "The null explanation feels too weak here —
+  make the strongest version of it."
+- **Redirect**: "Skip the economic layer, this is primarily operating at
+  thought and narrative."
+
+Claude will adjust the analysis in response. The integrity constraints
+still apply — IC-2 cannot be skipped, IC-5 is always active — but
+within those constraints, the analytical emphasis is yours to direct.
+
 ## The three modes
 
 ### `/lop analyze` — Analyze new material
@@ -386,6 +454,37 @@ and recommended adjustments.
 > analyses, or whenever the framework is producing suspiciously consistent
 > results. Certainty is the signal that a red team is overdue.
 
+## Viewer
+
+![Viewer dashboard](docs/viewer-dashboard.png)
+
+The framework includes an interactive viewer that visualizes the
+knowledge base — patterns, principles, instruments, evidence, and
+analyses — and the connections between them.
+
+```
+python3 tools/build-viewer.py
+open viewer.html
+```
+
+The build script reads all framework markdown files, extracts structured
+metadata and cross-references, and outputs `viewer.html` + `viewer-data.js`
+(both gitignored build artifacts). A git post-commit hook auto-rebuilds
+when `.md` files are committed.
+
+**Views**:
+
+- **Dashboard** — Stats, recent analyses, works studied, layer coverage,
+  and links to the visualization views
+- **Content** — Detail view for any item with rendered markdown and
+  connected items
+- **Graph** — Force-directed network showing all items and their
+  connections, with node sizing by degree and edge coloring by
+  relationship type
+- **Layers** — Items organized by taxonomy layer, showing cross-layer
+  connections
+- **Matrix** — Pattern corroboration across source works
+
 ## How the framework grows
 
 > [!NOTE]
@@ -447,6 +546,7 @@ lens-of-power/
 ├── analyses/                Applied analyses of current material
 │   └── INDEX.md               Analysis registry (selection bias tracking)
 └── tools/                   Utility scripts
+    ├── build-viewer.py        Static viewer generator (produces viewer.html + viewer-data.js)
     └── fetch-article.py       URL content extraction (fallback for WebFetch)
 ```
 

@@ -15,6 +15,8 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `principles/` — Full principles files (loaded selectively)
 - `evidence/` — Concrete facts, data, cases that ground the framework
 - `analyses/` — Applied analyses of specific material
+- `tools/build-viewer.py` — Generates `viewer.html` + `viewer-data.js` (both gitignored build artifacts)
+- `tools/fetch-article.py` — URL content extraction fallback
 
 ## Usage
 
@@ -65,3 +67,18 @@ was analyzed, what was found, and how it updated the framework.
 Spec-only work (new instruments, methodology redesign, constitution
 changes not triggered by a specific analysis) goes directly on `main`
 or on a descriptive feature branch.
+
+## Viewer
+
+`tools/build-viewer.py` generates a static viewer from all framework
+markdown files. Run `python3 tools/build-viewer.py` to rebuild. Output
+is `viewer.html` + `viewer-data.js` (both gitignored).
+
+A post-commit hook (`.git/hooks/post-commit`) auto-rebuilds when `.md`
+files are committed.
+
+The viewer has six views: Dashboard (landing page with stats, recent
+analyses, works studied, layer coverage, and explore links), Content
+(detail view for any item), Graph (force-directed network), Layers
+(items organized by taxonomy layer), and Matrix (pattern corroboration
+across sources).

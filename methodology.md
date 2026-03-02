@@ -62,8 +62,45 @@ When writing an analysis to `analyses/`, include:
   are structurally different kinds of material. Bias assessment belongs
   in Step 2 (SOURCE), not here.
 - A **Narrative** section at the top — a readable prose essay (3-6
-  paragraphs) summarizing the key findings for a human reader. The
-  structured steps follow below it as the canonical analytical record.
+  paragraphs) summarizing what the structural analysis found for a human
+  reader. The structured steps follow below it as the canonical
+  analytical record.
+
+  **Narrative register**: The narrative describes structure and
+  observations. It does not argue a case, perform a reaction, or
+  encode the analyst's evaluations as descriptions. Specific rules:
+
+  - **Describe, do not evaluate.** Write "The live blog does not
+    mention the school strike" rather than "The most consequential
+    fact has been removed." The first is an observation; the second
+    is the analyst's judgment about what is most consequential,
+    presented as though it were a property of the material.
+  - **Do not editorialize.** Avoid constructions that express the
+    analyst's attitude toward the material: "a masterpiece of
+    deflection," "the facts are staggering," "an astonishing
+    omission." If the finding is significant, the described
+    structure will demonstrate that without the analyst saying so.
+  - **Avoid rhetorical devices.** No dramatic parallelism ("told
+    them everything and helped them understand nothing"), no
+    standalone emphasis words ("Zero."), no literary constructions
+    designed to produce a reaction in the reader. These belong in
+    opinion writing, not structural analysis.
+  - **Claim discipline applies.** The narrative is prose, but the
+    claim discipline (observed / inferred / speculative) still
+    governs it. Functional claims ("serves to," "functions as,"
+    "is designed to") must be marked as inferred unless the source
+    explicitly states intent. See the claim discipline section below.
+  - **Let the steps do the evaluative work.** The narrative
+    synthesizes what was found; the INVERT, ABSENT, and SO-WHAT
+    steps are where analytical conclusions and evaluative judgments
+    belong. The narrative's job is to make the terrain legible, not
+    to tell the reader what to think about it.
+
+  The test: could a reader with different political commitments
+  accept the narrative as an accurate description of what the
+  analysis found, even if they disagree with the conclusions drawn
+  in later steps? If not, the narrative has crossed from description
+  into advocacy.
 
 ### Addenda convention
 
@@ -847,6 +884,11 @@ single self-review pass:
    If not, revise to use the appropriate signal vocabulary.
 4. Check prose sections (Narrative, Significance) with extra scrutiny
    — these are where analytical momentum most often overruns evidence.
+5. Check the **Narrative** section for register violations — editorial
+   adjectives, rhetorical devices, evaluative constructions disguised
+   as descriptions. Apply the test: could a reader with different
+   political commitments accept this as an accurate description of
+   what the analysis found?
 
 This pass is not a separate methodology step. It is a writing discipline
 applied before the analysis is finalized. It takes two minutes and

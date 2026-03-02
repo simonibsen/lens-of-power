@@ -1,4 +1,4 @@
-# George Orwell — *1984* (1949)
+# Principles: Nineteen Eighty-Four
 
 SOURCE: George Orwell, *Nineteen Eighty-Four*, 1949
 TYPE: Dystopian fiction / Political theory through narrative
