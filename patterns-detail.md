@@ -84,10 +84,16 @@ invoked to block affirmative action),
 principles/ellul-propaganda.md P3 (integration propaganda — democratic participation
 presented as freedom, functioning as conformity; the inversion operates at the system
 level: the act of participating is the mechanism of integration)
+analyses/2026-03-01-meta-policy-meta-three-policies.md (all three policy documents
+exhibit the pattern: "agreement" that eliminates negotiation, "privacy" policy that
+authorizes surveillance, "community standards" that consolidate corporate control,
+and "more speech" reframing that reduces accountability infrastructure; the January
+2025 announcement is undermining propaganda per Stanley — free expression invoked to
+degrade its own conditions; corroboration from a new domain: corporate policy)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CORROBORATION: ESTABLISHED (fifteen sources; Ellul adds the system-level instance —
-the inversion operating through participation itself rather than through specific
-claims or institutions)
+CORROBORATION: ESTABLISHED (sixteen sources; the Meta analysis extends the pattern
+to the corporate policy domain, confirming it operates through legal instruments at
+planetary scale, not only through state or institutional rhetoric)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -114,12 +120,16 @@ media, courts, and legislature simultaneously by design),
 principles/powell-memo.md P2 (primary-source evidence — the memo explicitly argues
 that each institutional front must reinforce the others and that no single front is
 sufficient without the others; written by a Position 1 (ruler) actor explaining why
-layers must be coordinated simultaneously)
+layers must be coordinated simultaneously),
+analyses/2026-03-01-meta-policy-meta-three-policies.md (Meta's three policies
+operate across all five non-physical layers simultaneously with mutual reinforcement:
+Thought & Narrative legitimizes Surveillance, Surveillance enables Economic extraction,
+Economic incentives drive Narrative framing, Legal authorizes Surveillance, Institutional
+scale naturalizes Legal authority; each document enables the others)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (six sources; the Powell Memo P2 provides the strongest
-evidence to date: a primary-source document from a power-holder *explaining* why
-multi-front coordination is necessary — this confirms the pattern as not merely
-structural but deliberately designed in at least one documented case)
+CORROBORATION: ESTABLISHED (seven sources; the Meta analysis extends the pattern to
+corporate platform governance, demonstrating layered redundancy operating through legal
+instruments rather than state institutions)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -162,12 +172,17 @@ of the population must work to service debts, their labor is channeled into debt
 service rather than autonomous production. Scarcity is produced not by restricting
 supply but by capturing future labor through obligation.
 The pattern may need broadening to encompass manufactured, distributed,
-informational, and debt-based scarcity as control mechanisms.
+informational, debt-based, and network-effect-based scarcity as control mechanisms.
+NOTE: analyses/2026-03-01-meta-policy-meta-three-policies.md adds a network-effect
+variant — Meta's dominance creates artificial scarcity of alternatives for social
+communication; network effects mean the value of an alternative platform is near-zero
+until it achieves critical mass; the "accept or leave" binary in the Terms of Service
+depends on this structural scarcity of viable alternatives.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (five sources from different eras and domains — Orwell,
-Scott, Zuboff (informational inversion), Piketty/Scheidel (structural distribution),
-and Graeber (debt-based capture of future labor) — the mechanism operates through
-material, informational, distributional, and debt-based channels)
+CORROBORATION: SUPPORTED (six sources; the Meta analysis adds a network-effect
+channel — scarcity of alternatives manufactured through platform dominance and
+network effects rather than through restriction of physical supply, information,
+distribution, or debt)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -291,11 +306,17 @@ perceive the gap because the ideology prevents recognition of the evidence),
 principles/ellul-propaganda.md P1 (sociological propaganda extends the pattern to
 its limit — when the propaganda IS the environment, the gap between appearance and
 reality dissolves because there is no external vantage point from which to perceive
-it; the terrain is total)
+it; the terrain is total),
+analyses/2026-03-01-meta-policy-meta-three-policies.md (Zuboff's Two Texts precisely
+instantiated: the user interface is the appearance ("personalized experience," "your
+privacy matters," "community standards"); the behavioral data extraction is the
+reality; the Privacy Policy describes surveillance in the language of empowerment;
+the gap between presentation and function is not a deficiency of the system but its
+operating environment)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (ten sources; Ellul extends the pattern to its structural
-limit — when sociological propaganda constitutes the total environment, appearance is
-not a gap over reality but the only available reality)
+CORROBORATION: ESTABLISHED (eleven sources; the Meta analysis adds a corporate policy
+instance — the gap between the policies' stated purpose and actual function is
+observable in the documents themselves, not inferred from external critique)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -354,11 +375,16 @@ sabotage), to cultural counter-knowledge (blues), to geographic escape
 coercive infrastructure (P4) sets the cost curve that shapes where on the
 gradient most people operate at any given time)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (three independent sources — Scott's agrarian
-ethnography, Snyder's democratic collapse history, and Cobb's regional
-history of the American South; Cobb adds the longest temporal view — the
-gradient operating across 150 years with the position shifting as the
-cost curve changed)
+analyses/2026-03-01-meta-policy-meta-three-policies.md (Meta's ~3.3 billion users
+exist on a compliance gradient: passive acceptance of terms without reading, partial
+setting adjustment, use of ad-blockers and privacy extensions, selective data sharing,
+platform exit; Meta's design assumes and depends on the gradient skewing toward passive
+compliance — the complexity and opacity of the policies function to keep the cost curve
+positioned against active resistance)
+CORROBORATION: SUPPORTED (four sources; the Meta analysis extends the gradient to the
+digital platform domain where the spectrum runs from passive acceptance through privacy
+tool use to platform exit, with network effects raising the cost of resistance at every
+point)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -428,11 +454,16 @@ knew the performance was strategic; the blues (P5) documented the gap between
 public transcript and private knowledge; the coercive infrastructure (P4) enforced
 the cost of breaking the performance)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (four sources; Cobb adds the racial-agrarian domain and
-uniquely shows all three dimensions in one system: the ruler's paternalist
-performance, the subordinate's strategic deference, AND the hidden counter-
-performance (blues) that documented the gap — the most complete single-system
-illustration of the bilateral structure)
+analyses/2026-03-01-meta-policy-meta-three-policies.md (users perform acceptance of
+terms they haven't read; Meta performs governance it selectively enforces; the ToS
+click-through is the public transcript — both sides know the "agreement" is a fiction,
+yet neither breaks it: users because refusing means losing access to embedded social
+infrastructure, Meta because acknowledging the fiction would undermine the legal
+authority it produces)
+CORROBORATION: ESTABLISHED (five sources; the Meta analysis adds the digital-platform
+domain — the click-through consent ritual as a jointly maintained fiction where neither
+side believes in the "agreement" but both maintain it because the cost of breaking it
+is asymmetric)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -627,13 +658,18 @@ principles/whitehouse-the-scheme.md P4 (case manufacturing produces ratcheting
 judicial precedents — each manufactured ruling creates the legal baseline for the
 next expansion; Janus v. AFSCME illustrates the cycle: a manufactured case overturns
 mandatory union fees, establishing a new baseline that weakens labor's capacity to
-resist the next incursion)
+resist the next incursion),
+analyses/2026-03-01-meta-policy-meta-three-policies.md (each policy update ratchets
+extraction outward: the January 2025 Terms of Service extend content licensing to
+private messages and AI training with opt-out denial; previously posted content
+retroactively subject to new terms; non-users bound through shared links; each cycle
+provokes brief resistance then habituation, establishing a new baseline for the next
+incursion)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (three sources from different domains — Zuboff describes
-the cycle in digital data extraction, Hartmann describes it in legal rights
-expansion, Whitehouse describes it in manufactured judicial precedent; the
-four-stage ratcheting structure operates across technological, legal, and judicial
-domains)
+CORROBORATION: SUPPORTED (four sources; the Meta analysis provides a concrete,
+ongoing instance of the cycle operating through corporate policy updates — each
+revision extends claims over user data and content, with cosmetic "control" features
+absorbing resistance)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -668,12 +704,18 @@ legal structures),
 principles/stanley-how-propaganda-works.md P3 (material inequality produces epistemic
 inequality — the wealthy fund the conceptual infrastructure that defines what counts
 as reasonable discourse, shaping the epistemic environment through research funding,
-media control, and term-setting)
+media control, and term-setting),
+analyses/2026-03-01-meta-policy-meta-three-policies.md (the information asymmetry IS
+the business model — Meta knows everything about users (cross-platform, cross-web
+pixel on 30% of sites, offline data, AI conversations); users know almost nothing about
+how their data is used, how algorithms affect them, or what their behavioral profile
+contains; the Privacy Policy's "transparency" language describes the extraction while
+concealing its scope)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (five sources; Stanley adds the epistemic dimension — the
-division of learning operates not just through informational and financial opacity
-but through control of the conceptual infrastructure that determines what questions
-are asked)
+CORROBORATION: SUPPORTED (six sources; the Meta analysis extends the pattern to
+platform governance — the division of learning is not merely a structural feature but
+the revenue model itself, codified in legal instruments that describe extraction as
+"personalized experience")
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -737,13 +779,20 @@ because their implementation depended on planter-controlled local institutions;
 the agencies cooperated with planter interests not through corruption but through
 structural dependency on local infrastructure they could not bypass)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (three sources from different contexts — Snyder describes
-rapid institutional abdication under authoritarian pressure, Hartmann describes
-gradual institutional abdication under oligarchic pressure, Cobb describes
-institutional abdication of federal agencies under local elite pressure; the
-mechanism operates through different institutional relationships but the structural
-logic is the same: institutional actors calculating that cooperation is the path
-of least resistance)
+analyses/2026-03-01-meta-policy-meta-three-policies.md (the January 2025 moderation
+changes represent a fourth variant of institutional abdication: *strategic abdication
+narrated as liberation*. Meta voluntarily abandons content moderation infrastructure —
+eliminating fact-checking, ending proactive moderation of non-severe content, rolling
+back hate speech restrictions — and frames the abdication as an expansion of freedom.
+Distinct from the three prior variants: this is not abdication under pressure (Snyder),
+gradual erosion (Hartmann), or structural dependency (Cobb) — it is voluntary, sudden,
+and presented as a gift to the governed. The "cultural tipping point" language and
+inauguration-adjacent timing suggest political alignment as the strategic motivation.)
+CORROBORATION: SUPPORTED (four sources; the Meta analysis adds a new variant:
+strategic, voluntary institutional abdication framed as liberation; the structural logic
+differs from prior observations — the institution does not collapse from within under
+pressure but strategically withdraws its own governance infrastructure while narrating
+the withdrawal as an expansion of freedom for those it governs)
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
 and *redirected* from outside through strategic selection of personnel (Federalist
