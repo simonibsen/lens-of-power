@@ -640,6 +640,31 @@ Produce the output. What is produced depends on what Steps 1-4 found:
   principles or instruments. This is a valid outcome — not every source
   contributes to the framework, and recording that prevents re-evaluation.
 
+#### Extraction record (required)
+
+The principles file must include an **extraction record** section that
+preserves the analytical reasoning that produced the extraction — not just
+the output. This is the EXTRACT mode equivalent of the structured working
+in ANALYZE mode. Without it, the reasoning is lost when the conversation
+ends and the extraction cannot be audited, contested, or learned from.
+
+The extraction record includes:
+
+- **SURVEY**: The Step 1 assessment — source type, layers addressed,
+  principle/instrument candidate verdicts, and the rationale for each.
+  This records *why* the source was evaluated as it was.
+- **INSTRUMENT EVALUATION**: If the source was evaluated as an instrument
+  candidate, the full evaluation — taxonomy layers, role, analytical use,
+  overlap assessment, verdict, and reasoning. This records the instrument
+  decision and its justification.
+- **SYNTHESIS SUMMARY**: A brief assessment of the extraction's yield —
+  what was novel, what was confirmatory, what the source's distinctive
+  contribution to the framework is, and what its limitations are.
+
+Place the extraction record after the IC-5 disclosure and before the
+principles. The record is part of the permanent file — it is not
+working notes to be discarded.
+
 ---
 
 ## Instrument invocation

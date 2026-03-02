@@ -15,6 +15,30 @@ Positional lens: Zuboff writes from the external observer position. This makes t
 
 ---
 
+## Extraction record
+
+### SURVEY
+
+TYPE: Political-economic treatise / theory of power
+LAYERS ADDRESSED: Surveillance & Information (primary), Economic, Thought & Narrative, Institutional, Legal & Regulatory
+PRINCIPLE CANDIDATE: yes — the book develops a comprehensive theory of a novel form of power with named mechanisms (behavioral surplus, instrumentarian power, division of learning, rendition, etc.) that generalize beyond the specific cases analyzed
+INSTRUMENT CANDIDATE: possibly — the concepts could form a "Surveillance Capitalism Diagnostic" for detecting surveillance capitalist mechanisms during analysis, but additional sources would be needed for practical detection criteria
+RATIONALE: Zuboff's work is a major theoretical contribution that names and structures a form of power the framework's taxonomy addresses (Surveillance & Information layer) but that no existing extraction had developed in depth. High principle yield expected due to the book's systematic identification of mechanisms. Instrument yield is partial — the concepts are analytical but need operational detection criteria from additional sources (Schneier, Pasquale, Morozov).
+
+### INSTRUMENT EVALUATION
+
+TAXONOMY LAYERS: Surveillance & Information, Economic
+ROLE: mechanism catalog (documents how surveillance capitalism operates)
+ANALYTICAL USE: LOCATE step (identifying surveillance capitalist mechanisms), CONNECT step (linking digital-era phenomena to historical extraction patterns)
+OVERLAP WITH: no existing instrument covers this domain
+VERDICT: PROPOSE — the concepts provide a strong theoretical foundation but are insufficient alone for a complete analytical instrument. A "Surveillance Capitalism Diagnostic" would need additional sources for practical detection criteria: Schneier (*Data and Goliath*) for technical indicators, Pasquale (*The Black Box Society*) for opacity mechanisms, Morozov for structural critiques.
+
+### SYNTHESIS SUMMARY
+
+Zuboff yields 10 principles and 1 instrument proposal — the highest principle count of any extraction. The book's distinctive contribution is the systematic naming of a structurally novel form of power (instrumentarian) that operates through the Surveillance & Information and Economic layers in ways not previously articulated in the framework. Key novel concepts: behavioral surplus as extraction logic, the two texts, the division of learning, the dispossession cycle. The book also produces two IC-1 flags — on Axiom 6 (power through absence of language, not just deployment) and Axiom 9 (behavioral modification transcending compliance). Limitation: the book centers Western consumers and Silicon Valley; the same mechanisms may operate differently in non-Western or non-consumer contexts.
+
+---
+
 ## Principles
 
 ### P1: Behavioral Surplus as Extraction Logic

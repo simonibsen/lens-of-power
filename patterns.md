@@ -129,9 +129,17 @@ the future (shaping what is thinkable).
 MECHANISM: Control the past to prevent unfavorable comparisons. Control the
 present to prevent unapproved action. Control the future to prevent
 unapproved imagination. Each temporal dimension reinforces the others.
-OBSERVED IN: principles/orwell-1984.md (Ministry of Truth, telescreens, Newspeak)
+OBSERVED IN: principles/orwell-1984.md (Ministry of Truth, telescreens, Newspeak),
+principles/snyder-on-tyranny.md P4 (the two temporal myths — the politics of
+inevitability controls the future by presenting progress as automatic, the politics
+of eternity controls the past by mythologizing national victimization; the
+transition between the two is the moment of maximum danger for democratic order)
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (one source; expected to appear widely)
+CORROBORATION: SUPPORTED (two independent sources from different analytical
+approaches — Orwell's structural description of totalitarian temporal control
+and Snyder's identification of two named temporal narratives that function as
+specific mechanisms of democratic erosion; Snyder adds significant specificity
+to Orwell's general observation)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -244,11 +252,16 @@ favorable to the powerful than the formal terms — and both sides
 know it.
 OBSERVED IN: principles/scott-weapons-of-the-weak.md P2, P6, P10
 (everyday resistance in Sedaka operates through a spectrum of partial
-compliance, not through a binary of obedience or revolt)
+compliance, not through a binary of obedience or revolt),
+principles/snyder-on-tyranny.md P1 (anticipatory obedience is a specific
+mechanism within the gradient — describes how the gradient shifts toward
+compliance without external pressure, through self-generated pre-compliance
+that cascades across the population)
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (one source; expected to appear in labor
-relations, colonial governance, regulatory compliance, and
-institutional management)
+CORROBORATION: SUPPORTED (two independent sources — Scott's ethnography
+of agrarian resistance and Snyder's historical account of democratic collapse;
+Scott describes the gradient from the subordinate's perspective, Snyder
+describes how the gradient collapses under authoritarian pressure)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -445,13 +458,17 @@ the operating terrain.
 OBSERVED IN: principles/zuboff-age-of-surveillance-capitalism.md P2 (Google's
 behavioral data extraction operated for years before regulators or public
 discourse developed frameworks to describe or contest it; the FTC's inability
-to categorize the harm; the EU's delayed GDPR response)
+to categorize the harm; the EU's delayed GDPR response),
+principles/snyder-on-tyranny.md P4 (Snyder's "be calm when the unthinkable
+arrives" confirms from the citizen's perspective — authoritarian consolidation
+exploits the unprecedented to paralyze response; the population's inability to
+categorize what is happening delays resistance past the point of effectiveness)
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (one source; the mechanism generalizes structurally
-to colonial land claims outside European legal frameworks, financial derivatives
-before regulation, gig economy platforms exploiting labor law gaps, and any
-domain where innovation outpaces governance — but these instances need formal
-observation within the framework)
+CORROBORATION: SUPPORTED (two independent sources from different domains —
+Zuboff describes the unprecedented as sanctuary from the system-builder's
+perspective (digital capitalism), Snyder describes it from the citizen's
+perspective (democratic collapse); the mechanism operates through the same
+structural void: absence of categories for comprehension and response)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -499,3 +516,60 @@ credit scoring, predictive policing, employer monitoring, and national
 security surveillance — any context where one party's systematic knowledge of
 another creates an exploitable power asymmetry — but these instances need
 formal observation within the framework)
+
+### Anticipatory Obedience
+LAYERS: Thought & Narrative, Institutional
+STATEMENT: Populations under emerging authoritarianism self-adjust their
+behavior to what they anticipate power will demand, before any demand is
+made. This pre-compliance is self-reinforcing: each act of anticipatory
+obedience shifts the baseline of what is normal, making the next demand
+more extreme and more acceptable. The powerful never needed to ask for
+what was freely given.
+MECHANISM: Subjects observe the direction power is moving and pre-comply —
+to avoid future risk, to signal loyalty, or to gain advantage. Early
+pre-compliance creates social proof that encourages further pre-compliance
+in others. The cascade accelerates because each person's compliance raises
+the cost of non-compliance for everyone else. The mechanism is distinct from
+manufactured compliance (no one manufactured it), behavioral modification
+(the subject is conscious), and strategic deference (the subject goes beyond
+performance to implementation). Anticipatory obedience is the public
+transcript overwriting the private one — the subject stops maintaining the
+hidden transcript and internalizes compliance.
+OBSERVED IN: principles/snyder-on-tyranny.md P1 (in 1930s Germany and
+Austria, citizens, businesses, and institutions implemented anti-Jewish
+measures before they were legally required — and often went further than
+anything the regime had demanded)
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (one source; the mechanism is structurally
+recognizable in corporate compliance cultures, academic self-censorship,
+media self-regulation, and social media self-policing — but these instances
+need formal observation within the framework)
+
+### Institutional Abdication
+LAYERS: Institutional, Legal & Regulatory
+STATEMENT: Institutions and professionals voluntarily abandon their structural
+roles under pressure or anticipation of pressure, creating the vacuum that
+authoritarianism fills. Distinct from institutional *capture* (where the
+institution is actively redirected by external actors) — here the institution
+simply stops functioning because its constituent professionals individually
+calculate that compliance is safer than independence.
+MECHANISM: The mechanism is the aggregate of individually rational choices
+producing collective structural failure. When an individual professional
+abandons their code (judge, lawyer, doctor, bureaucrat, journalist), the
+immediate effect is small. When the practice becomes general, the
+institutional layer collapses from within. No external force was needed.
+The collapse proceeds through four stages: (1) signaling that institutional
+norms are no longer enforced; (2) individual professionals calculating that
+independence is risky; (3) the practice of abdication becoming general,
+creating social proof; (4) the institution persisting in form while ceasing
+to function — the shell remains, the function disappears.
+OBSERVED IN: principles/snyder-on-tyranny.md P2, P3 (the Weimar Republic's
+institutions were formally intact when Hitler became chancellor; they were
+hollowed out through Gleichschaltung — the self-coordination of professional
+associations, universities, and media organizations; many cooperated in their
+own neutralization)
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (one source; the mechanism is structurally
+recognizable in judicial deference during emergencies, regulatory capture,
+academic self-censorship under political pressure, and journalistic timidity —
+but these instances need formal observation within the framework)

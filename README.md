@@ -419,7 +419,8 @@ lens-of-power/
 │   ├── machiavelli-the-prince.md  7 principles from The Prince
 │   ├── scott-weapons-of-the-weak.md  12 principles from Weapons of the Weak
 │   ├── fanon-wretched-of-the-earth.md  9 principles from The Wretched of the Earth
-│   └── zuboff-age-of-surveillance-capitalism.md  10 principles from The Age of Surveillance Capitalism
+│   ├── zuboff-age-of-surveillance-capitalism.md  10 principles from The Age of Surveillance Capitalism
+│   └── snyder-on-tyranny.md  7 principles from On Tyranny
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
