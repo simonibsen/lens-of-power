@@ -28,13 +28,34 @@ These relationships are structural, not coincidental.
 > this layer enable or depend on control at another layer?" Trace the
 > reinforcement chain.
 
-### 3. Power is most effective when invisible
+### 3. Power is most effective when its contingency is invisible
 
 The most durable form of control is that which is perceived as natural,
-inevitable, or nonexistent. Visibility is the precondition of accountability.
+inevitable, or without alternative. This operates through three distinct
+modes:
+
+- **Hidden mechanism**: The apparatus of control is itself concealed. The
+  population does not see the system operating. (Orwell: the Party's
+  internal logic is invisible to the population.)
+- **Visible mechanism, hidden contingency**: The apparatus is visible — the
+  subjects see the police, the extraction, the hierarchy — but its
+  contingency is hidden. It appears as the natural order rather than as a
+  constructed arrangement that could be otherwise. (Fanon: the colonized
+  see the barracks but cannot imagine an alternative.)
+- **Visible mechanism, visible contingency, prohibitive cost**: Both the
+  mechanism and its contingency are visible, yet resistance remains
+  structurally prohibitive. The cost of challenging visible power exceeds
+  what any individual can bear. (Scott: the peasants see the extraction
+  clearly, know it could be otherwise, but cannot afford open confrontation.)
+
+Visibility is the precondition of accountability, but visibility alone is
+insufficient without the structural capacity to act on what is seen.
 
 > DIRECTIVE: Ask: "What is being presented as natural, inevitable, or
-> simply the way things are?" Flag any framing that discourages questioning.
+> simply the way things are? If the mechanism is visible, is its contingency
+> visible — can the affected population see that it could be otherwise?
+> If contingency is visible, do they have the structural capacity to act
+> on that knowledge?" Flag any framing that discourages questioning.
 
 ### 4. Mechanisms are consistent; manifestations vary
 
@@ -125,7 +146,7 @@ a falsification condition, the axiom MUST be flagged for review.
 |-------|-----------------|
 | 1. Layers simultaneous | A durable system of control is found that genuinely operates through only one layer with no dependence on others |
 | 2. Layers reinforce | Control at one layer is found to consistently *undermine* control at another, structurally rather than incidentally |
-| 3. Invisible power | A system of control is found that is more durable *because* it is visible and acknowledged, not despite it |
+| 3. Contingency invisible | A system of control is found where mechanism, contingency, and capacity to act are all fully visible to the subjected population, yet the system remains durably stable without escalating coercion |
 | 4. Consistent mechanisms | A mechanism of power is found that has no structural parallel in any other era or context |
 | 5. Power concentrates | A system is found where power distributed itself without active structural effort to prevent concentration |
 | 6. Language first | A significant shift in power is found that occurred without any preceding change in language or framing |

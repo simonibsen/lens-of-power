@@ -169,11 +169,15 @@ the source represents a marginalized, suppressed, or non-institutional
 perspective, note that the LLM may underweight it.
 
 **Invoke instruments**: Check `instruments/` for relevant analytical tools
-(propaganda filters, logical fallacies) and apply them here.
+(propaganda filters, logical fallacies, positional lens) and apply them here.
+Apply `instruments/positional-lens.md` to identify which position in the
+power relationship this source speaks from and what that position makes
+visible and invisible.
 
 **Output format**:
 ```
 SOURCE: [who]
+POSITION: [from positional-lens.md — ruler/everyday governed/revolutionary/intermediary/observer]
 INCENTIVES: [what they gain from this message]
 WOULD NOT SAY: [what their incentives prevent them from saying]
 AMPLIFICATION: [who is spreading this and why]
@@ -294,7 +298,10 @@ of what is underrepresented in my training?" Specifically consider:
   the LLM cannot name
 
 **Invoke instruments**: Check `instruments/logical-fallacies.md` (if available)
-for fallacies of omission, false dilemma, etc.
+for fallacies of omission, false dilemma, etc. Apply
+`instruments/positional-lens.md` to identify which positions in the power
+relationship are absent from the material and what those positions would
+reveal if present.
 
 **Output format**:
 ```
