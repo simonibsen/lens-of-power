@@ -1,9 +1,13 @@
 # Evidence
 
-> Role: This directory stores concrete facts, data points, documented cases,
-> quotes, and observations that ground the framework in reality. Evidence
-> is not analysis — it is raw material that supports, challenges, or
-> illustrates the framework's axioms and patterns.
+> Role: This directory stores **evidence** — concrete facts, data points,
+> documented cases, quotes, and observations that ground the framework in
+> reality. Evidence is not interpretation — it is raw material that
+> supports, challenges, or illustrates the framework's axioms and patterns.
+> Each entry is tagged with the axioms and patterns it relates to and with
+> its relationship to them (supports / challenges / complicates). Evidence
+> that challenges an axiom is the most valuable kind — it tests whether
+> the framework's assumptions hold.
 
 ## Entry format
 

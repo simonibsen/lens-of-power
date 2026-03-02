@@ -1,9 +1,11 @@
 # Taxonomy of Power
 
 > Role: This document defines the layers through which power and control
-> operate. When analyzing material, use these layers as a checklist.
-> Identify which layers are active, which mechanisms are at play, and
-> — critically — how the layers interact with each other.
+> operate. A **layer** is one of six domains through which power acts
+> simultaneously. Layers are the framework's analytical checklist — every
+> analysis maps which layers are active, how they interact, and which are
+> conspicuously absent. Identify which layers are active, which mechanisms
+> are at play, and — critically — how the layers interact with each other.
 
 ---
 
