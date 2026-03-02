@@ -8,9 +8,11 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `constitution.md` — Foundational axioms about how power operates
 - `taxonomy.md` — The layers of power (thought, economic, legal, institutional, surveillance, physical)
 - `methodology.md` — The analytical procedure (ANALYZE, EXTRACT, RED TEAM modes)
-- `patterns.md` — Cross-cutting patterns observed across domains (grows over time)
+- `patterns.md` — Compact pattern definitions (always loaded)
+- `patterns-detail.md` — Full evidence trails per pattern (loaded for audits)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
-- `principles/` — Generalizable truths extracted from specific works
+- `principles/INDEX.md` — Compact principles lookup table (always loaded)
+- `principles/` — Full principles files (loaded selectively)
 - `evidence/` — Concrete facts, data, cases that ground the framework
 - `analyses/` — Applied analyses of specific material
 
@@ -22,8 +24,10 @@ Use the `/lop` skill to apply this framework:
 - `/lop redteam` — Turn the framework on itself (integrity constraint IC-3)
 
 When working in this project, always load `constitution.md`, `taxonomy.md`,
-and `methodology.md` as context for any analytical work. Load `patterns.md`
-and relevant `instruments/` files as needed per the methodology's instructions.
+`methodology.md`, `patterns.md`, and `principles/INDEX.md` as context for
+any analytical work. Load `patterns-detail.md` for audits and red team
+reviews. Load individual `principles/*.md` files only when deep comparison
+with a specific source is needed.
 
 ## Conventions
 

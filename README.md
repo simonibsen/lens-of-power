@@ -9,6 +9,31 @@ This is a living analytical system. It accumulates knowledge over time
 as works are studied and current events are analyzed. It is designed to
 be used by both humans and LLMs.
 
+> [!TIP]
+> **Quick start**: Navigate to this directory and use the `/lop` skill:
+> ```
+> /lop analyze [article, event, policy, or URL]
+> /lop extract [book, film, theory, reference source, or catalog]
+> /lop redteam
+> ```
+> Works with Claude Code. For other LLMs or manual use, load `constitution.md`,
+> `taxonomy.md`, `methodology.md`, and `patterns.md` as context, then follow the
+> procedure in `methodology.md`.
+
+## Table of contents
+
+- [What this is for](#what-this-is-for)
+- [Core concepts](#core-concepts) — axiom, layer, principle, pattern, instrument, evidence, analysis
+- [How to use it](#how-to-use-it)
+- [The three modes](#the-three-modes)
+  - [Analyze](#lop-analyze--analyze-new-material) — 7-step analysis with briefing output
+  - [Extract](#lop-extract--study-a-source-for-principles-and-instruments) — study a source for principles and instruments
+  - [Red team](#lop-redteam--turn-the-framework-on-itself) — turn the framework on itself
+- [How the framework grows](#how-the-framework-grows)
+- [Structure](#structure) — directory layout
+- [Integrity constraints](#integrity-constraints) — IC-1 through IC-5
+- [Architecture and design patterns](#architecture-and-design-patterns)
+
 ## What this is for
 
 Most exercises of power depend on not being seen clearly. Policy is
@@ -48,6 +73,11 @@ periodically turned on itself through red team reviews.
 
 The framework is built from seven distinct types of knowledge. Each has a
 specific role and a defined relationship to the others.
+
+The seven types: **axiom** (what to look for), **layer** (where to look),
+**principle** (what was found in one source), **pattern** (what recurs across
+sources), **instrument** (a reusable detection tool), **evidence** (ground
+truth), and **analysis** (the output of applying the framework).
 
 ### Axiom
 
@@ -218,9 +248,12 @@ Load these files as context:
 1. `constitution.md` — axioms and integrity constraints
 2. `taxonomy.md` — the six layers of power
 3. `methodology.md` — the analytical procedure
-4. `patterns.md` — known cross-cutting patterns
+4. `patterns.md` — compact pattern definitions
+5. `principles/INDEX.md` — compact principles lookup table
 
-Then follow the procedure in `methodology.md` for your chosen mode.
+Load `patterns-detail.md` and individual `principles/*.md` files only when
+deeper comparison is needed. Then follow the procedure in `methodology.md`
+for your chosen mode.
 
 ## The three modes
 
@@ -348,14 +381,18 @@ whether the framework is revealing or merely confirming.
 rating, list of axioms never challenged, most recent surprising result,
 and recommended adjustments.
 
-This mode is required by Integrity Constraint IC-3 and should be invoked
-after every 5-10 analyses, or whenever the framework is producing
-suspiciously consistent results. Certainty is the signal that a red team
-is overdue.
+> [!CAUTION]
+> This mode is required by IC-3 and should be invoked after every 5-10
+> analyses, or whenever the framework is producing suspiciously consistent
+> results. Certainty is the signal that a red team is overdue.
 
 ## How the framework grows
 
-The framework is designed to accumulate knowledge over time:
+> [!NOTE]
+> The framework is designed to accumulate knowledge over time. Each
+> extraction, analysis, or red team review may produce new principles,
+> evidence, patterns, or axiom refinements. The git history records every
+> structural change with its rationale.
 
 1. **Extractions** add principles to `principles/`. Each principle is
    tagged with taxonomy layers and cross-referenced against axioms and
@@ -367,12 +404,10 @@ The framework is designed to accumulate knowledge over time:
    invoked during specific methodology steps and listed in the analytical
    apparatus of every analysis that uses it.
 4. **Patterns** are promoted as evidence accumulates. A pattern observed
-   in one source is LOW confidence. Three independent sources from
-   different perspectives may warrant HIGH confidence.
+   in one source is PRELIMINARY. Confirmation across meaningfully
+   independent contexts warrants SUPPORTED or ESTABLISHED.
 5. **Red team reviews** prevent the framework from calcifying. They check
    for confirmation bias, test falsifiability, and recommend adjustments.
-
-The git history records every structural change with its rationale.
 
 ## Structure
 
@@ -381,17 +416,32 @@ lens-of-power/
 ├── constitution.md          Foundational axioms and integrity constraints
 ├── taxonomy.md              The six layers of power and their mechanisms
 ├── methodology.md           Analytical procedures and output formats
-├── patterns.md              Cross-cutting patterns (grows over time)
+├── patterns.md              Compact pattern definitions (always loaded)
+├── patterns-detail.md       Full evidence trails per pattern (loaded for audits)
 ├── instruments/             Imported analytical tools
 │   ├── control-hierarchy.md   5-level escalation ladder for control ambition
 │   ├── logical-fallacies.md   38 fallacies organized by power function
 │   ├── newspeak-checklist.md  Detecting language as an instrument of control
-│   └── positional-lens.md    Identifying source position in power relationships
+│   ├── positional-lens.md    Identifying source position in power relationships
+│   └── propaganda-typology.md 5-axis propaganda classification (Ellul + Stanley)
 ├── principles/              Extracted from specific works
+│   ├── INDEX.md               Compact lookup table (always loaded)
 │   ├── orwell-1984.md         8 principles from Nineteen Eighty-Four
 │   ├── machiavelli-the-prince.md  7 principles from The Prince
 │   ├── scott-weapons-of-the-weak.md  12 principles from Weapons of the Weak
-│   └── fanon-wretched-of-the-earth.md  9 principles from The Wretched of the Earth
+│   ├── fanon-wretched-of-the-earth.md  9 principles from The Wretched of the Earth
+│   ├── zuboff-age-of-surveillance-capitalism.md  10 principles from The Age of Surveillance Capitalism
+│   ├── snyder-on-tyranny.md  7 principles from On Tyranny
+│   ├── piketty-capital-in-the-twenty-first-century.md  8 principles from Capital in the Twenty-First Century
+│   ├── scheidel-the-great-leveler.md  5 principles from The Great Leveler
+│   ├── winters-oligarchy.md  5 principles from Oligarchy
+│   ├── hartmann-hidden-history-american-oligarchy.md  4 principles from The Hidden History of American Oligarchy
+│   ├── graeber-debt-the-first-5000-years.md  7 principles from Debt: The First 5,000 Years
+│   ├── powell-memo.md          4 principles from the Powell Memo (1971 primary source)
+│   ├── whitehouse-the-scheme.md  4 principles from The Scheme
+│   ├── cobb-most-southern-place-on-earth.md  6 principles from The Most Southern Place on Earth
+│   ├── stanley-how-propaganda-works.md  5 principles from How Propaganda Works
+│   └── ellul-propaganda.md  5 principles from Propaganda: The Formation of Men's Attitudes
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
@@ -402,10 +452,11 @@ lens-of-power/
 
 ## Integrity constraints
 
-The framework includes five structural safeguards against becoming a
-closed ideological system. These are non-negotiable — a framework for
-studying power that cannot examine its own power over the analyst is a
-failed instrument.
+> [!IMPORTANT]
+> The framework includes five structural safeguards against becoming a
+> closed ideological system. These are non-negotiable — a framework for
+> studying power that cannot examine its own power over the analyst is a
+> failed instrument.
 
 - **IC-1: Falsifiability** — Every axiom has an explicit falsification
   condition. Evidence that contradicts an axiom is recorded, not suppressed.
@@ -439,7 +490,8 @@ Each file has a single, well-defined responsibility:
 | `constitution.md` | What to look for (axioms) | Configuration / constants |
 | `taxonomy.md` | Domain model (the six layers) | Type definitions / schema |
 | `methodology.md` | How to process (procedures) | Business logic / pipeline |
-| `patterns.md` | Accumulated state (findings) | Database / knowledge store |
+| `patterns.md` | Compact pattern definitions | Index / materialized view |
+| `patterns-detail.md` | Full evidence trails | Database / knowledge store |
 | `instruments/` | Pluggable detection tools | Plugin modules |
 | `principles/` | Source-bound knowledge | Reference data |
 | `evidence/` | Ground truth | Test fixtures / assertions |
@@ -547,11 +599,12 @@ This is chaos engineering applied to an analytical system: deliberately
 stress-testing the framework's assumptions to find weaknesses before they
 compound.
 
-The red team procedure applies the framework's own taxonomy to itself:
-Is the framework functioning as Thought & Narrative control (framing
-everything as power)? Has it become an Institutional authority (deferred
-to rather than used critically)? Is it producing Surveillance effects
-(making the analyst see control everywhere)?
+> [!WARNING]
+> The red team procedure applies the framework's own taxonomy to itself:
+> Is the framework functioning as Thought & Narrative control (framing
+> everything as power)? Has it become an Institutional authority (deferred
+> to rather than used critically)? Is it producing Surveillance effects
+> (making the analyst see control everywhere)?
 
 ### Two-scale rating system
 
