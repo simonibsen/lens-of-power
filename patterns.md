@@ -20,7 +20,7 @@
 LAYERS: Institutional, Thought & Narrative
 STATEMENT: Systems of control are frequently named for or justified by the opposite of their actual function.
 MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making criticism appear to oppose the outcome itself.
-CORROBORATION: ESTABLISHED (14 sources)
+CORROBORATION: ESTABLISHED (15 sources)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -62,7 +62,7 @@ CORROBORATION: PRELIMINARY (1 source + 1 counter-perspective)
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: The gap between how a system presents itself and how it operates is not incidental — it is the operating environment power depends on.
 MECHANISM: The population evaluates systems by appearances because it has no access to inner workings. The gap between appearance and reality is the structural condition that makes political power operational.
-CORROBORATION: ESTABLISHED (9 sources)
+CORROBORATION: ESTABLISHED (10 sources)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -110,7 +110,7 @@ CORROBORATION: SUPPORTED (1 source, independently recognizable across diverse do
 LAYERS: Thought & Narrative, Surveillance & Information
 STATEMENT: Continuous live coverage that reports all facts but prevents synthesis functions as narrative control — not by suppressing information but by overwhelming processing capacity.
 MECHANISM: Every fact is reported; no fact is evaluated. The volume of information substitutes for analysis, producing an informed but analytically paralyzed audience.
-CORROBORATION: PRELIMINARY (1 analysis)
+CORROBORATION: SUPPORTED (2 sources — empirical observation + theoretical account)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -191,3 +191,9 @@ LAYERS: All layers
 STATEMENT: A power structure operating through multiple layers can survive regime changes that disrupt only some layers — by adapting form while maintaining structural continuity through undisrupted layers.
 MECHANISM: Reform targeting one or two layers leaves others intact. Control migrates from disrupted to undisrupted layers. Reform that targets fewer layers than the power structure occupies will fail to produce structural change.
 CORROBORATION: PRELIMINARY (1 primary source; recognizable in post-colonial, post-Soviet, and corporate contexts)
+
+### The Structural Demand for Propaganda
+LAYERS: Thought & Narrative, Institutional, Surveillance & Information
+STATEMENT: Propaganda persists not because it is imposed but because it is structurally needed — by those who exercise power (to govern at scale without continuous coercion) and by those subject to it (to reduce anxiety, provide certainty, and create belonging in an atomized society). The demand side stabilizes the supply.
+MECHANISM: Governors need propaganda because coercion is expensive and consent is cheap. The governed need propaganda because complexity is overwhelming and certainty is psychologically necessary. This dual demand makes propaganda self-reinforcing: exposure increases the need for more exposure. Education and information access increase susceptibility rather than providing immunity because they increase exposure and the opinion imperative.
+CORROBORATION: PRELIMINARY (1 source)

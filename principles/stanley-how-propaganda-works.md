@@ -107,7 +107,7 @@ STATUS: inferred
 - **Graeber P2** (debt as moral instrument): Stanley P2 explains how the moral language of debt functions as flawed ideology
 - **Scott P1** (hidden transcript): Stanley describes contexts where flawed ideology may prevent the formation of a hidden transcript — if the subordinate genuinely accepts the ideology, the gap between public and hidden transcript collapses
 
-## Instrument proposal
+## Instrument
 
-VERDICT: PROPOSE — Propaganda Type Detection Framework
-The undermining/supporting distinction and the flawed ideology concept are analytically valuable but need concrete detection criteria, worked examples across domains, and integration with existing fallacies and Newspeak instruments before becoming a standalone instrument.
+VERDICT: CREATE — see `instruments/propaganda-typology.md`
+Stanley's undermining/supporting distinction is Axis 5 of the 5-axis propaganda typology, combined with Ellul's four structural axes (agitation/integration, political/sociological, vertical/horizontal, rational/irrational). The combined instrument provides the classification system with concrete detection criteria that the original proposal identified as needed.

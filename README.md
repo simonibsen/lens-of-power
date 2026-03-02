@@ -422,7 +422,8 @@ lens-of-power/
 │   ├── control-hierarchy.md   5-level escalation ladder for control ambition
 │   ├── logical-fallacies.md   38 fallacies organized by power function
 │   ├── newspeak-checklist.md  Detecting language as an instrument of control
-│   └── positional-lens.md    Identifying source position in power relationships
+│   ├── positional-lens.md    Identifying source position in power relationships
+│   └── propaganda-typology.md 5-axis propaganda classification (Ellul + Stanley)
 ├── principles/              Extracted from specific works
 │   ├── INDEX.md               Compact lookup table (always loaded)
 │   ├── orwell-1984.md         8 principles from Nineteen Eighty-Four
@@ -439,7 +440,8 @@ lens-of-power/
 │   ├── powell-memo.md          4 principles from the Powell Memo (1971 primary source)
 │   ├── whitehouse-the-scheme.md  4 principles from The Scheme
 │   ├── cobb-most-southern-place-on-earth.md  6 principles from The Most Southern Place on Earth
-│   └── stanley-how-propaganda-works.md  5 principles from How Propaganda Works
+│   ├── stanley-how-propaganda-works.md  5 principles from How Propaganda Works
+│   └── ellul-propaganda.md  5 principles from Propaganda: The Formation of Men's Attitudes
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material

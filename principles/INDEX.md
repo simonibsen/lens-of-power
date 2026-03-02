@@ -112,4 +112,13 @@ PRINCIPLES: 5 — Undermining Propaganda (ideals weaponized against their own co
 LAYERS: Thought & Narrative (primary), Economic, Institutional
 KEY PATTERNS: Inversion of Stated Purpose, Appearance as Structural Terrain, Division of Learning, Ideological Judo (inverse)
 IC-1 FLAGS: Axiom 3 (epistemic closure mechanism), Axiom 10 (sincerity challenges understanding-as-resistance)
-INSTRUMENT PROPOSED: Propaganda Type Detection Framework
+INSTRUMENT: instruments/propaganda-typology.md (co-derived with Ellul — Stanley provides Axis 5: undermining/supporting)
+
+## ellul-propaganda.md
+SOURCE: Jacques Ellul, *Propaganda: The Formation of Men's Attitudes* (1962)
+POSITION: 5 (sociologist/theologian)
+PRINCIPLES: 5 — Sociological Propaganda as Total Environment, The Propagandee's Need, Integration Propaganda as Democratic Necessity, The Education Paradox, Pre-Propaganda as Conditioning
+LAYERS: Thought & Narrative (primary), Surveillance & Information, Institutional, Economic
+KEY PATTERNS: Inversion of Stated Purpose, Appearance as Structural Terrain, Real-Time Narrative Saturation, Structural Demand for Propaganda (new)
+IC-1 FLAGS: Axiom 3 (fourth mode — absence of vantage point), Axiom 10 (education paradox — tools of understanding increase susceptibility)
+INSTRUMENT: instruments/propaganda-typology.md (co-derived with Stanley — Ellul provides Axes 1-4)

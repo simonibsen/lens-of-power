@@ -80,11 +80,14 @@ displacing tenants),
 principles/stanley-how-propaganda-works.md P1 (undermining propaganda — the
 philosophical mechanism: ideals invoked sincerely to destroy the conditions those
 ideals require; "free speech" invoked to defend Citizens United, "equal opportunity"
-invoked to block affirmative action)
+invoked to block affirmative action),
+principles/ellul-propaganda.md P3 (integration propaganda — democratic participation
+presented as freedom, functioning as conformity; the inversion operates at the system
+level: the act of participating is the mechanism of integration)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CORROBORATION: ESTABLISHED (fourteen sources; Stanley adds the philosophical
-mechanism — the inversion can operate through sincere belief, not just strategic
-deception)
+CORROBORATION: ESTABLISHED (fifteen sources; Ellul adds the system-level instance —
+the inversion operating through participation itself rather than through specific
+claims or institutions)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -284,11 +287,15 @@ obligation, and cultural tradition that concealed a system of racialized extract
 the mythology was the structural terrain the planter class operated on),
 principles/stanley-how-propaganda-works.md P2 (flawed ideology as epistemic closure
 — the cognitive condition that makes appearance credible; the population cannot
-perceive the gap because the ideology prevents recognition of the evidence)
+perceive the gap because the ideology prevents recognition of the evidence),
+principles/ellul-propaganda.md P1 (sociological propaganda extends the pattern to
+its limit — when the propaganda IS the environment, the gap between appearance and
+reality dissolves because there is no external vantage point from which to perceive
+it; the terrain is total)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (nine sources; Stanley adds the epistemological mechanism
-— appearance functions as structural terrain because flawed ideology makes the gap
-between appearance and reality unrecognizable)
+CORROBORATION: ESTABLISHED (ten sources; Ellul extends the pattern to its structural
+limit — when sociological propaganda constitutes the total environment, appearance is
+not a gap over reality but the only available reality)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -532,11 +539,20 @@ evaluated. The volume of information substitutes for analysis, producing
 an informed but analytically paralyzed audience. This is distinct from
 censorship — it is control through abundance rather than scarcity.
 OBSERVED IN: analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Guardian live blog
-format during opening phase of US-Israeli war on Iran)
+format during opening phase of US-Israeli war on Iran),
+principles/ellul-propaganda.md P2, P4 (Ellul describes the identical mechanism in 1962:
+the modern individual is bombarded with more information than can be processed, producing
+an informed but analytically paralyzed subject; the "education paradox" — the educated
+consume more information and are therefore more susceptible to information-abundance
+propaganda. Ellul provides the theoretical framework decades before the digital
+instantiation the Guardian analysis observed.)
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (one analysis; the mechanism is clear but needs
-to be observed across multiple crisis events to confirm it as a structural
-pattern rather than an incidental feature of live journalism)
+CORROBORATION: SUPPORTED (two meaningfully independent sources — the framework's
+empirical observation of a specific live blog format and Ellul's theoretical account
+from 1962; the mechanism is the same: information abundance substituting for analysis,
+producing informed paralysis; the sources are separated by 64 years, different media
+(live blog vs. mid-century mass media), and different analytical registers (empirical
+observation vs. sociological theory))
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -1054,3 +1070,45 @@ economic transformation), post-Soviet transitions (democratic form without
 dismantling oligarchic substance), corporate restructurings (new org chart, same
 extraction), and regulatory reforms (new compliance requirements, same market
 structure) — but these instances need formal observation within the framework)
+
+### The Structural Demand for Propaganda
+LAYERS: Thought & Narrative, Institutional, Surveillance & Information
+STATEMENT: Propaganda persists not because it is imposed but because it is structurally
+needed — by those who exercise power (to govern at scale without continuous coercion) and
+by those subject to it (to reduce anxiety, provide certainty, and create belonging in an
+atomized society). The demand side stabilizes the supply.
+MECHANISM: From the supply side: governing large populations through coercion alone is
+prohibitively expensive. Propaganda provides consent at scale, allowing rulers to govern
+without continuous force. From the demand side: the modern individual — atomized, anxious,
+overwhelmed by complexity, required to have opinions on everything — actively seeks the
+certainty, belonging, and cognitive economy that propaganda provides. The individual
+experiences this not as submission but as becoming informed, joining a community, or finding
+meaning. The dual demand creates a self-reinforcing cycle: propaganda produces the conditions
+(information overload, atomization, complexity) that increase the need for more propaganda.
+Education and information access increase susceptibility rather than providing immunity
+because they increase exposure and the opinion imperative without providing structural
+conditions for critical distance.
+OBSERVED IN: principles/ellul-propaganda.md P2 (the propagandee's need — the governed
+actively seek propaganda to cope with the anxiety and complexity of technological society;
+the demand side drives the supply side; the intellectual who reads five newspapers is more
+propagandized than the peasant who reads nothing)
+NOTE: This pattern challenges the framework's implicit model of power as asymmetric
+imposition (Axioms 5, 9). While power is asymmetric in its *distribution* of benefits,
+the mechanism of propaganda is partly symmetrical in its *demand* — both parties need it.
+This does not invalidate the asymmetry (the powerful still benefit disproportionately)
+but it explains why propaganda is so durable: it cannot be eliminated by exposing the
+supply side because the demand side regenerates it. Counter-propaganda strategies that
+focus only on debunking, media literacy, or exposure will fail unless they also address
+the structural conditions (atomization, complexity, opinion imperative) that produce the
+demand.
+NOTE: The pattern connects to Anticipatory Obedience — the demand side of propaganda
+produces something structurally similar to anticipatory obedience from below. The subject
+does not wait for power to demand conformity; the subject seeks the conformity before
+it is demanded. The mechanism differs (Snyder describes obedience anticipating authority;
+Ellul describes the subject seeking the propaganda that produces obedience) but the
+structural effect converges.
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (one primary source; the mechanism is recognizable in social
+media engagement patterns, partisan media consumption, conspiracy theory adherence, and
+corporate employee engagement — but these instances need formal observation within the
+framework)
