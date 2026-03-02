@@ -121,9 +121,7 @@ Precondition), which identifies a mechanism absent from the
 framework: populations can be rendered not merely oppressed but
 structurally unnecessary — stripped of economic function, political
 standing, and social integration. This condition is the structural
-prerequisite for total domination. It connects to hooks' categorical
-invisibility (H4) but goes further: invisibility makes a population
-unseen; superfluousness makes a population disposable.
+prerequisite for total domination.
 
 The Boomerang Thesis (A2) extends the framework's geographic scope:
 methods of domination do not emerge locally but migrate from
@@ -176,9 +174,7 @@ function, legal protection, social integration, and political
 representation creates the structural conditions Arendt identifies.
 FRAMEWORK STATUS: Extends Axiom 5 (power concentrates) — the
 mechanism includes rendering populations disposable, not just
-subordinate. Extends hooks H4 (intersectional invisibility) —
-invisibility makes populations unseen; superfluousness makes them
-disposable. Connects to Manufactured Scarcity — but inverts it:
+subordinate. Connects to Manufactured Scarcity — but inverts it:
 not scarcity of resources to maintain dependency, but the removal
 of the population from the economic structure entirely.
 STATUS: observed
@@ -350,10 +346,10 @@ political membership while theoretically retaining "human rights"
 tests Arendt's principle.
 FRAMEWORK STATUS: Extends Axiom 8 (absence as significant) — the
 absence of political membership reveals the absence at the
-foundation of "universal" rights discourse. Extends hooks H1
-(categorical exclusion) — the category "rights-bearing person"
-has an unmarked default: the citizen. Those outside citizenship
-are excluded by the structure of the category itself.
+foundation of "universal" rights discourse. The category
+"rights-bearing person" has an unmarked default: the citizen.
+Those outside citizenship are excluded by the structure of the
+category itself.
 STATUS: observed
 
 ### A6: Terror as Elimination of Spontaneity
@@ -558,16 +554,6 @@ periphery to center.
   reproduced by a local relay, but colonial techniques returning to
   the colonizer. Together with Fanon, this describes a bidirectional
   flow of domination techniques.
-- **hooks H1 — Categorical Exclusion Through Default Subjects**
-  (principles/hooks-aint-i-a-woman.md): The Right to Have Rights
-  (A5) extends this to the political category itself — the
-  "rights-bearing person" defaults to the citizen, excluding
-  stateless populations by categorical structure.
-- **hooks H4 — Intersectional Invisibility**
-  (principles/hooks-aint-i-a-woman.md): Superfluousness (A1) extends
-  beyond invisibility — the population is not merely unseen but
-  rendered structurally disposable. Invisibility is a precondition;
-  superfluousness is the endpoint.
 - **Snyder Sn1 — Anticipatory Obedience**
   (principles/snyder-on-tyranny.md): Arendt provides the structural
   explanation Snyder's account implies — atomization destroys the
