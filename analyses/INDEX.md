@@ -23,3 +23,4 @@
 |------|----------|--------|----------------|-------------------|
 | 2026-03-01 | US-Israeli war on Iran — Guardian live blog | US foreign policy / military | Physical & Coercive, Thought & Narrative | rejected (LOW plausibility for operation; MEDIUM for school strike) |
 | 2026-03-01 | Meta's three governing policies (ToS, Privacy, Community Standards) | Platform governance / surveillance capitalism | All non-Physical (5 layers) | rejected (LOW overall; MEDIUM for generic ToS provisions) |
+| 2026-03-01 | Fox News live blog — US-Israeli war on Iran (Day 2) | US foreign policy / military / media | Physical & Coercive, Thought & Narrative | rejected (LOW for school omission and architecture; MEDIUM for individual content choices) |

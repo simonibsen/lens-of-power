@@ -89,11 +89,17 @@ exhibit the pattern: "agreement" that eliminates negotiation, "privacy" policy t
 authorizes surveillance, "community standards" that consolidate corporate control,
 and "more speech" reframing that reduces accountability infrastructure; the January
 2025 announcement is undermining propaganda per Stanley — free expression invoked to
-degrade its own conditions; corroboration from a new domain: corporate policy)
+degrade its own conditions; corroboration from a new domain: corporate policy),
+analyses/2026-03-01-foxnews-liveblog-us-israel-iran-war.md ("defensive" UK operations
+that are offensive; "self-defense" in a seven-nation joint statement describing a
+preemptive attack; "eliminating threats" as framing for regime change; the joint
+statement condemns Iran's "indiscriminate attacks" while the US/Israel initiated the
+military operation — the language of defense applied to aggression)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CORROBORATION: ESTABLISHED (sixteen sources; the Meta analysis extends the pattern
-to the corporate policy domain, confirming it operates through legal instruments at
-planetary scale, not only through state or institutional rhetoric)
+CORROBORATION: ESTABLISHED (seventeen sources; the Fox analysis adds military and
+diplomatic instances — "self-defense" joint statement, "defensive" UK framing — from
+a second source covering the same event as the Guardian analysis, confirming the
+pattern operates through official language across allied institutional voices)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -125,11 +131,19 @@ analyses/2026-03-01-meta-policy-meta-three-policies.md (Meta's three policies
 operate across all five non-physical layers simultaneously with mutual reinforcement:
 Thought & Narrative legitimizes Surveillance, Surveillance enables Economic extraction,
 Economic incentives drive Narrative framing, Legal authorizes Surveillance, Institutional
-scale naturalizes Legal authority; each document enables the others)
+scale naturalizes Legal authority; each document enables the others),
+analyses/2026-03-01-foxnews-liveblog-us-israel-iran-war.md (all layers except Legal &
+Regulatory operating in coordinated reinforcement: Physical & Coercive narrated through
+Thought & Narrative as competent and justified; Institutional voices — CENTCOM, IDF, GCC,
+DHS, Congress — all reinforcing the same narrative with no institutional dissent;
+Surveillance & Information celebrated as impressive tradecraft; Economic subordinated as
+"market impact" rather than motive. The Legal layer's structural absence enables the
+others by removing constraint.)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (seven sources; the Meta analysis extends the pattern to
-corporate platform governance, demonstrating layered redundancy operating through legal
-instruments rather than state institutions)
+CORROBORATION: ESTABLISHED (eight sources; the Fox analysis demonstrates layered
+redundancy in wartime media — all non-Legal layers reinforcing the same narrative
+architecture from a right-leaning editorial position, confirming the pattern operates
+across the political spectrum)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -141,10 +155,23 @@ be won — it must only continue.
 OBSERVED IN: principles/orwell-1984.md (perpetual war with Eurasia/Eastasia),
 analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Trump's "47 years" framing of
 Iran as eternal enemy, justifying regime change as inevitable resolution
-rather than a policy choice)
+rather than a policy choice),
+analyses/2026-03-01-foxnews-liveblog-us-israel-iran-war.md (domestic threat narrative
+woven into foreign war coverage — the Austin shooting (Senegalese-born man with Iranian
+flag imagery), former DHS chief warning of "sleeper cells" and "lone actors sympathetic
+to Tehran," Capitol security enhancement, all placed inside the Iran war live blog
+despite no established connection to Iranian state action. This extends the pattern:
+external military operations generate internal security narratives that link the foreign
+enemy to homeland danger, justifying both the war abroad and heightened domestic
+vigilance. The mechanism creates a feedback loop — the threat must be confronted
+overseas because it endangers the homeland, and the homeland must be vigilant because
+the overseas threat generates domestic danger.)
 EVIDENCE: evidence/2026-03-01-iran-fm-diplomacy-during-attacks.md
-CORROBORATION: SUPPORTED (two sources — Orwell's totalitarian fiction and a
-current events analysis — across different eras)
+CORROBORATION: SUPPORTED (three sources — Orwell's totalitarian fiction, and two
+independent analyses of the same event showing distinct mechanisms: the Guardian
+analysis captured the "47 years" eternal enemy framing, the Fox analysis captured the
+domestic threat construction; the pattern operates through both temporal framing and
+spatial extension of the threat)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -312,11 +339,17 @@ instantiated: the user interface is the appearance ("personalized experience," "
 privacy matters," "community standards"); the behavioral data extraction is the
 reality; the Privacy Policy describes surveillance in the language of empowerment;
 the gap between presentation and function is not a deficiency of the system but its
-operating environment)
+operating environment),
+analyses/2026-03-01-foxnews-liveblog-us-israel-iran-war.md (the seven-nation joint
+statement condemning Iran's "indiscriminate attacks" constructs an appearance of
+multilateral consensus for what is structurally a US-Israeli offensive — seven nations
+condemning the attacked party frames the coalition as defending against aggression;
+the appearance of broad international opposition to Iran IS the terrain the operation's
+legitimacy rests on, regardless of the power dynamics that produced the statement)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (eleven sources; the Meta analysis adds a corporate policy
-instance — the gap between the policies' stated purpose and actual function is
-observable in the documents themselves, not inferred from external critique)
+CORROBORATION: ESTABLISHED (twelve sources; the Fox analysis adds a diplomatic instance
+— coalition statements as constructed appearance of multilateral consensus during
+wartime, confirming the pattern operates through international institutional channels)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -576,14 +609,24 @@ the modern individual is bombarded with more information than can be processed, 
 an informed but analytically paralyzed subject; the "education paradox" — the educated
 consume more information and are therefore more susceptible to information-abundance
 propaganda. Ellul provides the theoretical framework decades before the digital
-instantiation the Guardian analysis observed.)
+instantiation the Guardian analysis observed.),
+analyses/2026-03-01-foxnews-liveblog-us-israel-iran-war.md (VARIANT — selective
+construction rather than comprehensive saturation. Fox operates through the inverse
+mechanism: rather than reporting all facts and preventing synthesis, Fox selects facts
+that compose a coherent narrative and omits those that would disrupt it. The analytical
+outcome is the same — the audience does not arrive at the structural question — but the
+route differs: overwhelm vs. omission. The comparative analysis of the same event by two
+ideologically opposed sources reveals that both mechanisms produce identical analytical
+paralysis, suggesting the outcome is structural to wartime media regardless of editorial
+method.)
+NOTE: The Fox variant may warrant a companion pattern ("Selective Narrative Construction")
+if observed in additional instances. The current observation is that two structurally
+different mechanisms — saturation and selection — produce the same analytical outcome.
+More instances needed before proposing a standalone pattern.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two meaningfully independent sources — the framework's
-empirical observation of a specific live blog format and Ellul's theoretical account
-from 1962; the mechanism is the same: information abundance substituting for analysis,
-producing informed paralysis; the sources are separated by 64 years, different media
-(live blog vs. mid-century mass media), and different analytical registers (empirical
-observation vs. sociological theory))
+CORROBORATION: SUPPORTED (two sources for the core mechanism — Guardian empirical
+observation and Ellul's theoretical account — plus a third source observing a variant
+mechanism that produces the same outcome through selection rather than saturation)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -598,10 +641,17 @@ is framed as a response to a unique crisis, preventing structural
 recognition of the repeating pattern. The framing of each war as
 unprecedented obscures the serial nature of the enterprise.
 OBSERVED IN: analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md (Iran 2026, with
-structural parallels to Iraq 2003, Libya 2011, Afghanistan 2001)
+structural parallels to Iraq 2003, Libya 2011, Afghanistan 2001),
+analyses/2026-03-01-foxnews-liveblog-us-israel-iran-war.md (Fox's own senior
+correspondent notes structural parallels to previous operations without drawing the
+structural conclusion — the pattern is visible even from within the supportive editorial
+framework; the coverage follows the identical template: threat narrative → coalition →
+aerial bombardment → celebration of early success → absence of post-regime-change
+planning discussion. Fox's Iraq 2003 coverage used the same editorial architecture.)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CORROBORATION: SUPPORTED (first formal observation within the framework but
-the pattern has extensive supporting evidence in the public record across
+CORROBORATION: SUPPORTED (two analyses of the same event from opposed editorial positions
+both confirm the template; Fox's own implicit acknowledgment of structural parallels
+strengthens the observation; extensive supporting evidence in the public record across
 multiple independent instances — Iraq, Libya, Afghanistan)
 
 ### The Unprecedented as Sanctuary

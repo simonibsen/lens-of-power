@@ -20,19 +20,19 @@
 LAYERS: Institutional, Thought & Narrative
 STATEMENT: Systems of control are frequently named for or justified by the opposite of their actual function.
 MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making criticism appear to oppose the outcome itself.
-CORROBORATION: ESTABLISHED (16 sources)
+CORROBORATION: ESTABLISHED (17 sources)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
 STATEMENT: Durable power structures operate multiple control mechanisms simultaneously so that failure at one layer is caught by another.
 MECHANISM: Defense-in-depth applied to social control. If narrative control fails, surveillance catches them. If surveillance fails, economic dependency constrains them. If that fails, legal or physical force is the backstop.
-CORROBORATION: ESTABLISHED (7 sources)
+CORROBORATION: ESTABLISHED (8 sources)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
 STATEMENT: A permanent external threat justifies permanent internal control, because a population at war accepts restrictions it would otherwise resist.
 MECHANISM: Maintain war (real or fabricated) to justify surveillance, rationing, emergency powers, and suppression of dissent. The war need not be won — it must only continue.
-CORROBORATION: SUPPORTED (2 sources)
+CORROBORATION: SUPPORTED (3 sources)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -62,7 +62,7 @@ CORROBORATION: PRELIMINARY (1 source + 1 counter-perspective)
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: The gap between how a system presents itself and how it operates is not incidental — it is the operating environment power depends on.
 MECHANISM: The population evaluates systems by appearances because it has no access to inner workings. The gap between appearance and reality is the structural condition that makes political power operational.
-CORROBORATION: ESTABLISHED (11 sources)
+CORROBORATION: ESTABLISHED (12 sources)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -110,13 +110,13 @@ CORROBORATION: SUPPORTED (1 source, independently recognizable across diverse do
 LAYERS: Thought & Narrative, Surveillance & Information
 STATEMENT: Continuous live coverage that reports all facts but prevents synthesis functions as narrative control — not by suppressing information but by overwhelming processing capacity.
 MECHANISM: Every fact is reported; no fact is evaluated. The volume of information substitutes for analysis, producing an informed but analytically paralyzed audience.
-CORROBORATION: SUPPORTED (2 sources — empirical observation + theoretical account)
+CORROBORATION: SUPPORTED (2 sources — empirical observation + theoretical account; variant mechanism (selective construction) observed in Fox News analysis)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
 STATEMENT: A state repeatedly applies the same military intervention template across different targets, each time presenting the operation as unique while following an identical structural pattern.
 MECHANISM: Construct threat narrative, build coalition, aerial bombardment, declare success, leave destabilized state. Framing each war as unprecedented obscures the serial nature.
-CORROBORATION: SUPPORTED (1 formal observation + extensive public record)
+CORROBORATION: SUPPORTED (2 analyses + extensive public record)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
