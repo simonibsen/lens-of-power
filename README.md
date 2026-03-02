@@ -424,7 +424,8 @@ lens-of-power/
 │   ├── piketty-capital-in-the-twenty-first-century.md  8 principles from Capital in the Twenty-First Century
 │   ├── scheidel-the-great-leveler.md  5 principles from The Great Leveler
 │   ├── winters-oligarchy.md  5 principles from Oligarchy
-│   └── hartmann-hidden-history-american-oligarchy.md  4 principles from The Hidden History of American Oligarchy
+│   ├── hartmann-hidden-history-american-oligarchy.md  4 principles from The Hidden History of American Oligarchy
+│   └── graeber-debt-the-first-5000-years.md  7 principles from Debt: The First 5,000 Years
 ├── evidence/                Concrete facts, data, cases
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material
