@@ -39,3 +39,9 @@
   Layers: Physical & Coercive, Thought & Narrative, Economic
   Null case: rejected (MEDIUM-LOW — conventions real but absences patterned)
   File: `2026-03-02-reuters-wirestory-israel-lebanon-hezbollah.md`
+
+### 2026-03-02 — DoE hangs Charlie Kirk banner alongside Beecher and Washington
+  Domain: Domestic policy / institutional capture / education
+  Layers: Thought & Narrative, Institutional
+  Null case: rejected (LOW — pairing and framing too deliberate; MEDIUM for coordination level)
+  File: `2026-03-02-guardian-article-doe-charlie-kirk-banner.md`

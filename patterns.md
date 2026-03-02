@@ -20,7 +20,7 @@
 LAYERS: Institutional, Thought & Narrative
 STATEMENT: Systems of control are frequently named for or justified by the opposite of their actual function.
 MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making criticism appear to oppose the outcome itself.
-CORROBORATION: ESTABLISHED (17 sources)
+CORROBORATION: ESTABLISHED (18 sources)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -148,8 +148,8 @@ CORROBORATION: SUPPORTED (2 sources)
 LAYERS: Institutional, Legal & Regulatory
 STATEMENT: Institutions voluntarily abandon their structural roles under pressure, creating the vacuum that authoritarianism fills. Distinct from capture (active redirection) — here the institution stops functioning because professionals individually calculate compliance is safer.
 MECHANISM: Individually rational choices produce collective structural failure. Four stages: signaling norms are unenforced, individual calculation that independence is risky, abdication becoming general, institution persisting in form while ceasing to function.
-NOTE: Four distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), and strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed).
-CORROBORATION: SUPPORTED (4 sources)
+NOTE: Four distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), and strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed). DoE Kirk banner (2026-03-02) instantiates the strategic abdication variant: the institution deploys its authority to honor someone who called for its abolition, with "Empowering our States" as the liberation narrative.
+CORROBORATION: SUPPORTED (5 sources)
 
 ### The Peacetime Ratchet
 LAYERS: Economic, Institutional, Legal & Regulatory
