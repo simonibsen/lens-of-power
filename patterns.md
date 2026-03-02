@@ -74,14 +74,20 @@ wealth defense as "equal protection"),
 principles/graeber-debt-the-first-5000-years.md P1 (the barter myth — the economic
 origin story claims to describe how money naturally emerged while functioning to
 naturalize market relations and conceal the role of violence and state power in
-creating monetary systems)
+creating monetary systems),
+principles/powell-memo.md P1 (the memo states defense against attack, proposes
+coordinated offensive to expand corporate institutional power — primary-source
+evidence of the inversion, documented by its own author),
+principles/whitehouse-the-scheme.md P2, P3 (the judicial selection process states
+presidential judgment, functions as a Federalist Society pipeline; amicus briefs
+state public input, function as orchestrated coordination between dark money
+organizations and sympathetic justices)
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
-CORROBORATION: ESTABLISHED (ten sources across different eras, domains, and
+CORROBORATION: ESTABLISHED (twelve sources across different eras, domains, and
 positions — Orwell, Machiavelli, Fanon, Scott, a current events analysis, Zuboff,
-Piketty, Winters, Hartmann, and Graeber — the mechanism is now confirmed across
-fiction, political theory, ethnography, digital economy, macroeconomics,
-legal-political analysis, and anthropological history; Graeber adds the foundational
-economic origin myth: barter as naturalization of market relations)
+Piketty, Winters, Hartmann, Graeber, the Powell Memo, and Whitehouse; the Powell
+Memo adds primary-source evidence from a Position 1 (ruler) document; Whitehouse
+adds documented inversions in the judicial domain)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -104,14 +110,16 @@ Economic, Legal, and Institutional layers simultaneously as the civil oligarchy'
 defense-in-depth system),
 principles/hartmann-hidden-history-american-oligarchy.md P3 (the Powell Memo
 demonstrates layered redundancy as a *deliberate strategy* — targeting universities,
-media, courts, and legislature simultaneously by design)
+media, courts, and legislature simultaneously by design),
+principles/powell-memo.md P2 (primary-source evidence — the memo explicitly argues
+that each institutional front must reinforce the others and that no single front is
+sufficient without the others; written by a Position 1 (ruler) actor explaining why
+layers must be coordinated simultaneously)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (five sources from different eras and domains — Orwell's
-totalitarian fiction, Machiavelli's political theory, Piketty's economic analysis,
-Winters' comparative political science, and Hartmann's American political history;
-Hartmann P3 provides the most explicit documented evidence of deliberate multi-layer
-design; the pattern is now confirmed across enough independent sources to warrant
-ESTABLISHED)
+CORROBORATION: ESTABLISHED (six sources; the Powell Memo P2 provides the strongest
+evidence to date: a primary-source document from a power-holder *explaining* why
+multi-front coordination is necessary — this confirms the pattern as not merely
+structural but deliberately designed in at least one documented case)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -262,14 +270,17 @@ concentrated wealth),
 principles/graeber-debt-the-first-5000-years.md P2 (the moral language of debt
 creates an appearance — the debtor has a moral obligation — that conceals the
 structural reality — the creditor has power; the moral framework IS the terrain
-the debt relationship operates on)
+the debt relationship operates on),
+principles/whitehouse-the-scheme.md P2, P3, P4 (the formal judicial process —
+presidential nomination, Senate confirmation, organic case-or-controversy
+requirement, public amicus input — IS the appearance that judicial capture operates
+through; the capture does not bypass these processes but uses them as structural
+terrain)
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (six sources from six distinct positions and domains —
-Machiavelli (political, ruler), Scott (agrarian, ruled), Zuboff (digital, observer),
-Piketty (economic, observer), Winters (political-legal, observer), Graeber
-(anthropological, observer-activist) — each independently confirming that the gap
-between appearance and operational reality is structural; Graeber extends it to the
-moral-economic domain where the moral language of debt is the structural terrain)
+CORROBORATION: ESTABLISHED (seven sources; Whitehouse adds the judicial domain —
+the formal judicial process is the appearance, the dark money apparatus is the
+operational reality; uniquely, the capture operates *through* the formal process
+rather than *around* it)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -549,12 +560,18 @@ principles/hartmann-hidden-history-american-oligarchy.md P2 (the corporate right
 escalation follows the same ratcheting normalization in the legal domain — each
 extension of corporate constitutional protections becomes the baseline for the next,
 from corporate personhood to commercial speech to political speech to religious
-freedom)
+freedom),
+principles/whitehouse-the-scheme.md P4 (case manufacturing produces ratcheting
+judicial precedents — each manufactured ruling creates the legal baseline for the
+next expansion; Janus v. AFSCME illustrates the cycle: a manufactured case overturns
+mandatory union fees, establishing a new baseline that weakens labor's capacity to
+resist the next incursion)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two sources from different domains — Zuboff describes
+CORROBORATION: SUPPORTED (three sources from different domains — Zuboff describes
 the cycle in digital data extraction, Hartmann describes it in legal rights
-expansion; the four-stage structure operates in both technological and legal
-domains, confirming it as a general normalization mechanism)
+expansion, Whitehouse describes it in manufactured judicial precedent; the
+four-stage ratcheting structure operates across technological, legal, and judicial
+domains)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -580,13 +597,18 @@ trillions hidden from national statistics; extends the division from digital to
 financial domains),
 principles/winters-oligarchy.md P2 (the wealth defense industry maintains and
 produces opacity as a professional function — the complexity of trust structures,
-offshore vehicles, and legal instruments is itself a form of information asymmetry)
+offshore vehicles, and legal instruments is itself a form of information asymmetry),
+principles/whitehouse-the-scheme.md P1 (the dark money pipeline — Donors Trust,
+Donors Capital Fund, and cascading intermediary organizations — is architectural
+opacity: deliberately designed to sever traceable connections between donors and
+outcomes through multiple anonymous transfer layers enabled by 501(c)(3)/(c)(4)
+legal structures)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (three sources from different domains — Zuboff describes
+CORROBORATION: SUPPORTED (four sources from different domains — Zuboff describes
 the division in digital/behavioral data, Piketty describes it in financial wealth
-data, Winters identifies the institutional apparatus (wealth defense industry) that
-actively produces and maintains opacity as a professional service; the pattern
-operates across digital, financial, and legal domains)
+data, Winters identifies the institutional apparatus that produces opacity, and
+Whitehouse documents a specific architectural implementation: the dark money pipeline
+as designed opacity in the judicial influence domain)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -651,6 +673,14 @@ Hartmann describes gradual institutional abdication under oligarchic pressure
 (1970s-2010s America); the mechanism operates at different speeds but through
 the same structural logic: individual institutional actors calculating that
 compliance is safer than independence)
+NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
+institutions may not merely abdicate their structural roles — they may be *captured*
+and *redirected* from outside through strategic selection of personnel (Federalist
+Society pipeline) and manufactured inputs (case manufacturing). Abdication describes
+hollowing-out from within; capture describes redirection from without. The two
+mechanisms may operate simultaneously — captured personnel who then facilitate
+further abdication — and the distinction between them may matter for counterforce
+design.
 
 ### The Peacetime Ratchet
 LAYERS: Economic, Institutional, Legal & Regulatory
@@ -764,19 +794,31 @@ OBSERVED IN: principles/winters-oligarchy.md P2 (the US wealth defense industry
 employs more professionals than the IRS; the "tax gap" of hundreds of billions
 is enabled by the complexity that wealth defense professionals create and exploit;
 comparative evidence from Singapore and Indonesia shows different forms of the
-same function)
+same function),
+principles/powell-memo.md P4 (the documented strategic origin — Powell's proposal
+for permanent institutional infrastructure (think tanks, legal organizations,
+endowed chairs) that would generate favorable research, litigation, and narrative
+autonomously for decades; the subsequent construction of the Heritage Foundation,
+Cato Institute, Federalist Society, and Pacific Legal Foundation follows this
+blueprint),
+principles/whitehouse-the-scheme.md P1 (the dark money pipeline — Donors Trust,
+Donors Capital Fund, and operational organizations — is the judicial branch of the
+wealth defense industry; it provides the funding infrastructure for judicial
+selection, confirmation campaigns, amicus coordination, and case manufacturing)
 NOTE: This pattern is the institutional mechanism that connects Piketty's r > g
 (the mathematical tendency toward concentration) to Winters' civil oligarchy (the
 political form concentration takes in democracies). Piketty identifies the force;
 the wealth defense industry is the apparatus that protects and accelerates it.
-Hartmann P3 (Powell Memo) provides evidence that the industry's political arm was
-deliberately constructed, not merely emergent.
+The Powell Memo provides the documented strategic origin: the industry was
+deliberately constructed following an explicit blueprint. Whitehouse provides
+the evidence of its judicial branch in operation 50 years later.
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (one primary source with confirmatory connections to
-Piketty P7/P8 and Hartmann P3; the mechanism is structurally recognizable in
-corporate lobbying complexes, pharmaceutical industry regulatory management,
-financial industry compliance-as-barrier, and tech industry antitrust defense —
-but these instances need formal observation within the framework)
+CORROBORATION: SUPPORTED (three sources from different analytical positions —
+Winters provides the theoretical framework and comparative evidence, the Powell
+Memo provides the documented strategic origin from a Position 1 (ruler) primary
+source, and Whitehouse provides the evidence of operational execution in the
+judicial domain; the pattern is confirmed across political science, primary-source
+strategy, and insider institutional observation)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -801,12 +843,16 @@ with preferences of the wealthy, not the median voter — Gilens and Page 2014),
 principles/hartmann-hidden-history-american-oligarchy.md P4 (the American cyclical
 history shows democracy and oligarchy as recurring structural opponents, but
 Hartmann's analysis implies they have been coexisting continuously — the "cycles"
-are shifts in the balance, not alternations between pure types)
+are shifts in the balance, not alternations between pure types),
+principles/whitehouse-the-scheme.md P2, P3, P4 (the formal judicial process
+operates — nominations, confirmations, organic cases, public amicus briefs — while
+the substantive selection, signaling, and case manufacturing is controlled by dark
+money; the judicial domain demonstrates the coexistence at the institutional level)
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (two sources from the same domain — American political
-analysis; the pattern needs confirmation from other national contexts to warrant
-SUPPORTED; candidate cases: India, Brazil, the EU, post-Soviet states — formal
-democracies with documented oligarchic influence on wealth-related policy)
+CORROBORATION: PRELIMINARY (three sources, but all from the same national context —
+American political analysis; Whitehouse adds the judicial domain as a distinct
+institutional instance, but the pattern still needs confirmation from other national
+contexts to warrant SUPPORTED)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -851,3 +897,46 @@ relationships ("honoring your lease"), and international development relationshi
 ("honoring sovereign debt") — but these instances need formal observation within
 the framework; Piketty P4's meritocratic myth is a variant of the same mechanism
 in the domain of wealth distribution)
+
+### The Capture Pipeline
+LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
+STATEMENT: Institutional capture operates through a multi-stage, infrastructure-based
+pipeline: (1) selection of personnel through a privately controlled vetting process,
+(2) installation through funded campaigns, (3) signaling of desired outcomes through
+formal channels repurposed for coordination, (4) manufacturing of inputs (cases,
+comments, testimony) designed to produce specific outputs, (5) reward structures for
+compliant participants. The pipeline operates *through* formal institutional processes,
+not around them — satisfying formal requirements while controlling substantive outcomes.
+MECHANISM: The pipeline converts private funding into institutional outcomes through a
+series of stages, each of which appears to operate normally when viewed in isolation.
+Personnel selection appears to be standard professional networking. Installation
+campaigns appear to be normal political advocacy. Amicus briefs and public comments
+appear to be legitimate input. Cases appear to arise organically. Rewards appear to be
+normal professional opportunities. The capture is invisible not because any single stage
+is hidden but because the coordination across stages is concealed by the apparent
+independence of each stage's participants — many of whom are funded through the same
+dark money pipeline but appear organizationally independent. The pipeline's structural
+advantage: it is self-sustaining once built. Captured personnel produce favorable
+outcomes that attract more funding that funds more capture.
+OBSERVED IN: principles/whitehouse-the-scheme.md P1, P2, P3, P4 (the complete
+five-part apparatus for judicial capture: the Federalist Society selection pipeline,
+dark money-funded confirmation campaigns, coordinated amicus brief filings, case
+manufacturing through shell organizations, and speaking engagement/travel rewards
+for compliant justices),
+principles/powell-memo.md P2, P3, P4 (the strategic blueprint — Powell proposed the
+pipeline's construction: multi-front institutional campaign, courts as priority target,
+permanent infrastructure investment; the subsequent construction of the Federalist
+Society, Heritage Foundation, and legal organizations followed this design)
+NOTE: This pattern describes a *complete* capture system — not merely a tactic or
+mechanism but the full pipeline from funding to institutional outcome. It is distinct
+from the Layered Redundancy pattern (which describes how multiple layers reinforce each
+other) in that the Capture Pipeline describes a *sequential* process that flows through
+stages, while Layered Redundancy describes *simultaneous* reinforcement across layers.
+The two patterns are complementary: the Capture Pipeline operates within the Layered
+Redundancy architecture.
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (two sources from the same national context — American
+judicial capture; the pipeline structure may generalize to other institutional capture
+operations: corporate regulatory capture, academic credentialing capture, international
+standard-setting body capture — but these instances need formal observation within the
+framework)
