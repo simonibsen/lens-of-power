@@ -74,6 +74,11 @@ periodically turned on itself through red team reviews.
 The framework is built from seven distinct types of knowledge. Each has a
 specific role and a defined relationship to the others.
 
+The seven types: **axiom** (what to look for), **layer** (where to look),
+**principle** (what was found in one source), **pattern** (what recurs across
+sources), **instrument** (a reusable detection tool), **evidence** (ground
+truth), and **analysis** (the output of applying the framework).
+
 ### Axiom
 
 A foundational assumption about how power operates. Axioms are the
