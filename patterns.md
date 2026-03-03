@@ -41,7 +41,9 @@ STATEMENT: A permanent external threat justifies permanent internal control, bec
 
 MECHANISM: Maintain war (real or fabricated) to justify surveillance, rationing, emergency powers, and suppression of dissent. The war need not be won — it must only continue.
 
-CORROBORATION: SUPPORTED (3 sources)
+NOTE: Economic-reinforcement variant: when the war economy generates positive-sum returns for the domestic population (arms exports, military-tech sector growth), the perpetual threat frame is reinforced by prosperity rather than just fear. The standard cost-based circuit-breaker (war costs trigger democratic course-correction) does not operate. Observed: Israeli military-tech boom and arms exports funding popular support for permanent war (Guardian, March 2026). Hegseth's "this is not Iraq, this is not endless" (2026-03-02) confirms the administration recognizes the Serial Regime Change parallel as politically dangerous enough to preempt.
+
+CORROBORATION: SUPPORTED (4 sources)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -217,9 +219,9 @@ STATEMENT: Populations under emerging authoritarianism self-adjust behavior to w
 
 MECHANISM: Early pre-compliance creates social proof encouraging further pre-compliance. Each person's compliance raises the cost of non-compliance for everyone else. The cascade accelerates.
 
-NOTE: Arendt provides the structural prerequisite — atomization destroys collective resources for resistance, making anticipatory compliance the individually rational response.
+NOTE: Arendt provides the structural prerequisite — atomization destroys collective resources for resistance, making anticipatory compliance the individually rational response. Institutional variant: Israeli political opposition — including Netanyahu's "bitter rivals" — instantly set aside fierce domestic debate about October 7 responsibility to join the war consensus (Guardian, March 2026). Anticipatory obedience operating at the institutional-political level rather than the individual level.
 
-CORROBORATION: SUPPORTED (2 sources)
+CORROBORATION: SUPPORTED (3 sources)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory

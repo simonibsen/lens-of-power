@@ -94,6 +94,12 @@
   Null case: rejected (LOW for coordination and state involvement; MEDIUM for operation's significance given limited engagement)
   File: `2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md`
 
+### 2026-03-01 — Israel embracing militarism: domestic consensus for permanent war (Guardian)
+  Domain: Israeli domestic politics / military-economic feedback / permanent war
+  Layers: Thought & Narrative (primary), Physical & Coercive (primary), Economic (primary), Institutional, Legal & Regulatory
+  Null case: rejected (MEDIUM-LOW — genuine threat at individual level; structural absence of strategic questioning not explained by it)
+  File: `2026-03-01-guardian-article-israel-embracing-militarism-iran.md`
+
 ### 2026-01-14 — Portland Communications: paid Wikipedia editing for governments and billionaires (TBIJ)
   Domain: Reputation management / information integrity / platform governance / human rights concealment
   Layers: Thought & Narrative (primary), Surveillance & Information (primary), Economic (primary), Institutional, Legal & Regulatory

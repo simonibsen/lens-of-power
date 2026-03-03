@@ -187,11 +187,21 @@ the overseas threat generates domestic danger.)
 
 EVIDENCE: evidence/2026-03-01-iran-fm-diplomacy-during-attacks.md
 
-CORROBORATION: SUPPORTED (three sources — Orwell's totalitarian fiction, and two
-independent analyses of the same event showing distinct mechanisms: the Guardian
-analysis captured the "47 years" eternal enemy framing, the Fox analysis captured the
-domestic threat construction; the pattern operates through both temporal framing and
-spatial extension of the threat)
+OBSERVED IN: [analyses/2026-03-01-guardian-article-israel-embracing-militarism-iran.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-01-guardian-article-israel-embracing-militarism-iran.md) (economic-reinforcement variant:
+Netanyahu declared "historic victory" in June; less than a year later, another war
+launched with broad public support. The military-tech sector's growth and arms
+exports create a positive-sum war economy — the domestic population experiences war
+as economically beneficial. Former ambassador Liel: "look at the sales of arms all
+over the world." The standard cost-based circuit-breaker does not operate because
+the war is profitable. Analyst Zonszein identifies only external circuit-breakers:
+economic cost to Israelis, mass Israeli casualties, or international intervention.
+The perpetual threat frame is reinforced by prosperity, not just fear.)
+
+CORROBORATION: SUPPORTED (four sources — Orwell's totalitarian fiction, two
+independent analyses of the Iran war showing temporal-framing and domestic-threat
+mechanisms, plus Israeli domestic consensus showing economic-reinforcement variant.
+The pattern now has three distinct mechanisms: eternal enemy framing, homeland
+threat construction, and prosperity-through-war feedback loop.)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -958,14 +968,21 @@ hidden transcript and internalizes compliance.
 OBSERVED IN: [principles/snyder-on-tyranny.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/snyder-on-tyranny.md) P1 (in 1930s Germany and
 Austria, citizens, businesses, and institutions implemented anti-Jewish
 measures before they were legally required — and often went further than
-anything the regime had demanded)
+anything the regime had demanded),
+[principles/arendt-origins-of-totalitarianism.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/arendt-origins-of-totalitarianism.md) (atomization as the structural
+prerequisite that makes anticipatory compliance the individually rational response),
+[analyses/2026-03-01-guardian-article-israel-embracing-militarism-iran.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-01-guardian-article-israel-embracing-militarism-iran.md) (institutional-
+political variant: Israeli political opposition — including Netanyahu's "bitter
+rivals" — instantly set aside fierce domestic debate about October 7 responsibility
+to join the war consensus. Not individual pre-compliance but institutional-political
+pre-compliance: an entire opposition class anticipating that dissent during wartime
+would be politically fatal.)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (one source; the mechanism is structurally
-recognizable in corporate compliance cultures, academic self-censorship,
-media self-regulation, and social media self-policing — but these instances
-need formal observation within the framework)
+CORROBORATION: SUPPORTED (three sources — Snyder's historical account, Arendt's
+structural prerequisite, and Israeli institutional-political variant. The pattern
+now has individual, structural-prerequisite, and institutional-political dimensions.)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
