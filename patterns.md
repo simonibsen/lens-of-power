@@ -38,8 +38,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Economic, Thought & Narrative
 STATEMENT: Abundance is deliberately prevented or destroyed because material security reduces dependency and enables independence.
 MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, debt-based, and network-effect-based channels.
-NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026.
-CORROBORATION: SUPPORTED (7 sources)
+NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements (Chen 2026) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption.
+CORROBORATION: SUPPORTED (8 sources)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -176,7 +176,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
 STATEMENT: Formal democracy and substantive oligarchy can operate simultaneously without visible contradiction. Democratic institutions handle issues that don't affect wealth concentration; oligarchic mechanisms handle those that do.
 MECHANISM: Democracy provides the appearance of self-governance; oligarchy provides the substance of wealth defense. The two systems partition the policy space. This is not corruption — it is a stable structural configuration.
-CORROBORATION: PRELIMINARY (3 sources, all from same national context)
+NOTE: Chen (2026) documents a specific mechanism: state equity investment ($10B+) with deliberate refusal of governance (no board seats, worker protections characterized as "ideological agendas," Sanders/Warren public-benefit alternative rejected). The democratic state invests public capital but declines every tool that would convert investment into public accountability. This is the pattern operating through industrial policy — not as structural default but as explicit design choice.
+CORROBORATION: PRELIMINARY (4 sources, all from same national context — cross-national confirmation still needed)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory

@@ -69,3 +69,9 @@
   Layers: Five primary (Thought & Narrative, Economic, Legal & Regulatory, Institutional, Surveillance & Information), Physical & Coercive active but absent
   Null case: rejected (LOW for overall operation; MEDIUM for individual components — sincerity genuine but structure is electoral)
   File: `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
+
+### 2026-03-02 — "The Big AI State": Trump admin AI industrial policy (Data & Society)
+  Domain: Technology policy / industrial policy / state-corporate relations / geopolitics
+  Layers: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Physical & Coercive, Surveillance & Information
+  Null case: plausible (MEDIUM — national security argument genuine; governance gap not explained by it)
+  File: `2026-03-02-datasociety-policybrief-big-ai-state.md`
