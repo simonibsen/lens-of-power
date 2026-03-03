@@ -205,11 +205,16 @@ variant — Meta's dominance creates artificial scarcity of alternatives for soc
 communication; network effects mean the value of an alternative platform is near-zero
 until it achieves critical mass; the "accept or leave" binary in the Terms of Service
 depends on this structural scarcity of viable alternatives.
+NOTE: principles/mishra-western-model-broken.md M2 adds an enabling-condition-
+consumption variant — the material conditions that enabled the western model's
+success (colonial extraction, surplus population export, frontier abundance) were
+partly consumed by that success. The model is self-consuming: it works once and
+removes the conditions for repetition. Scarcity is not maintained or manufactured
+post hoc but constitutively produced by the recommended model's first execution.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (six sources; the Meta analysis adds a network-effect
-channel — scarcity of alternatives manufactured through platform dominance and
-network effects rather than through restriction of physical supply, information,
-distribution, or debt)
+CORROBORATION: SUPPORTED (seven sources; Mishra adds an enabling-condition-
+consumption channel — scarcity produced by the model's first execution removing
+the conditions for replication)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -448,9 +453,19 @@ against the dominant, Stanley describes the dominant using dominant ideology to
 reinforce dominance; "free speech" and "equal opportunity" deployed to protect the
 structures they nominally oppose; same judo mechanism, opposite direction)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (three sources; Stanley adds the inverse case — the dominant
-class can also use ideological judo, deploying its own legitimating ideals to block
-challenges to its position)
+analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md (the powerful
+exploit the weak's genuine resistance for strategic ends — PRISONBREAK documents
+Iranian citizens' real desire for freedom weaponized through AI deepfakes to serve
+Israeli military objectives; imprisoned singers' authentic activism appropriated
+without consent and reproduced in deepfake form as calls for uprising; the genuine
+grievances are real, but the uprising they are channeled toward serves a foreign
+state's goals; same judo mechanism as Scott and Cobb, opposite direction like Stanley,
+but with a new dimension: the weak's resistance is not merely blocked or co-opted but
+actively reproduced in fabricated form)
+EVIDENCE: —
+CORROBORATION: SUPPORTED (four sources; inverse application now documented from two
+directions — Stanley's dominant-uses-own-ideology-to-block-challenges, and PRISONBREAK's
+dominant-appropriates-subordinate's-resistance-to-serve-dominant's-objectives)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -520,13 +535,19 @@ through racial enforcement; the mechanism differs from Fanon's national
 bourgeoisie in that the relay function is compensated with *status* rather
 than material benefit, and the relay class does not *replace* the dominant
 class but *serves* it)
+NOTE: principles/mishra-western-model-broken.md M4 adds a legitimation lock-in
+mechanism — postcolonial ruling elites derive their legitimacy from the promise
+of "catching up" with the west. This founding commitment traps them in the relay
+role: they cannot abandon the western development model without destroying the
+basis of their authority. The relay class is locked in not only by economic
+incentive (Fanon) or status compensation (Cobb) but by the ideological
+structure of their own legitimacy. The personnel and ideology change across
+generations (from Nehru to McKinsey); the structural commitment does not.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two independent sources from different domains —
-Fanon's post-colonial context and Cobb's American racial-agrarian context;
-the mechanism differs in specifics (material vs. status compensation, class
-replacement vs. class service) but the structural function is identical:
-an intermediary group that maintains the extraction relationship between
-dominant and dominated)
+CORROBORATION: SUPPORTED (three independent sources — Fanon's post-colonial
+context, Cobb's American racial-agrarian context, and Mishra's global
+development context; three distinct lock-in mechanisms: economic incentive,
+status compensation, and legitimation structure)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -560,11 +581,15 @@ infrastructure — lynching, police violence, structural threat — maintained
 the original violent distribution as operational infrastructure long after the
 founding act receded into history; adds the *maintenance dimension* — how
 constitutive violence is operationalized as ongoing infrastructure)
+NOTE: principles/mishra-western-model-broken.md M2 adds a consumptive dimension
+— the foundational colonial violence not only established the current distribution
+but consumed the material conditions that would allow others to follow the same
+path. The violence is doubly constitutive: it creates the order AND prevents
+alternatives by depleting the resources the model depended on.
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (four sources; Cobb adds the operational maintenance
-dimension — Fanon describes the constitutive act, Cobb describes how it is
-maintained as infrastructure through individualized violence whose systematicity
-is concealed)
+CORROBORATION: ESTABLISHED (five sources; Mishra adds the consumptive dimension
+— constitutive violence that removes the conditions for replication, not only
+establishing a distribution but foreclosing structural alternatives)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -676,11 +701,20 @@ arrives" confirms from the citizen's perspective — authoritarian consolidation
 exploits the unprecedented to paralyze response; the population's inability to
 categorize what is happening delays resistance past the point of effectiveness)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two independent sources from different domains —
-Zuboff describes the unprecedented as sanctuary from the system-builder's
-perspective (digital capitalism), Snyder describes it from the citizen's
-perspective (democratic collapse); the mechanism operates through the same
-structural void: absence of categories for comprehension and response)
+analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md (AI deepfakes
+synchronized with active military strikes during the June 2025 Twelve-Day War against
+Iran — the Evin Prison deepfake posted during bombing, republished by multiple
+international news outlets before identification as fabricated; no verification
+infrastructure exists for real-time AI-generated content during active military
+operations; the void is exploited at its widest point: the intersection of AI
+fabrication, military operations, and platform distribution; the compound capability
+was not available in any previous conflict)
+EVIDENCE: —
+CORROBORATION: SUPPORTED (three sources — Zuboff from the system-builder's perspective,
+Snyder from the citizen's perspective, Citizen Lab from the military-information
+operations perspective; the void now documented as exploitable by states during
+active military operations, not only by commercial actors or authoritarian
+consolidation)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -762,10 +796,16 @@ how their data is used, how algorithms affect them, or what their behavioral pro
 contains; the Privacy Policy's "transparency" language describes the extraction while
 concealing its scope)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (six sources; the Meta analysis extends the pattern to
-platform governance — the division of learning is not merely a structural feature but
-the revenue model itself, codified in legal instruments that describe extraction as
-"personalized experience")
+NOTE: Roshchyna/ghost detainees analysis (2026-03-02) provides a wartime variant:
+occupied territory as total information asymmetry maintained through military force
+rather than technological or institutional means. The occupied zone functions as an
+"informational black hole" — Russia observes everything, nothing can be observed from
+outside. The journalist who attempted to penetrate the asymmetry was absorbed into the
+system she was documenting, deepening the blackhole. This is the Division of Learning
+at its most absolute: the means of observation is itself a target.
+CORROBORATION: SUPPORTED (seven sources; the Roshchyna analysis extends the pattern
+to military occupation — the division maintained through physical control of territory
+rather than algorithmic opacity or financial complexity)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -838,11 +878,21 @@ Distinct from the three prior variants: this is not abdication under pressure (S
 gradual erosion (Hartmann), or structural dependency (Cobb) — it is voluntary, sudden,
 and presented as a gift to the governed. The "cultural tipping point" language and
 inauguration-adjacent timing suggest political alignment as the strategic motivation.)
-CORROBORATION: SUPPORTED (four sources; the Meta analysis adds a new variant:
-strategic, voluntary institutional abdication framed as liberation; the structural logic
-differs from prior observations — the institution does not collapse from within under
-pressure but strategically withdraws its own governance infrastructure while narrating
-the withdrawal as an expansion of freedom for those it governs)
+analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md (X/Twitter's
+elimination of integrity teams and non-response to Citizen Lab's PRISONBREAK notification
+represents platform abdication — the fifth variant. The platform has "reduce[d] the
+capacity of, or eliminate[d] altogether, internal teams responsible for removing
+coordinated, inauthentic content." The PRISONBREAK operation was detected by external
+academics, not by the platform. X's non-response converts the platform from a governed
+information space into ungoverned terrain available for exploitation by state-directed
+influence operations. Distinct from the four prior variants: not collapse under pressure,
+not gradual erosion, not structural dependency, not strategic withdrawal framed as
+liberation — but elimination of governance infrastructure as institutional indifference,
+where the resulting void is exploited by military-intelligence operations)
+CORROBORATION: SUPPORTED (five sources; five distinct mechanisms now documented:
+abdication under pressure (Snyder), gradual erosion (Hartmann), structural dependency
+(Cobb), strategic abdication as liberation (Meta), and platform abdication as
+institutional indifference (X/PRISONBREAK))
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
 and *redirected* from outside through strategic selection of personnel (Federalist
@@ -987,13 +1037,17 @@ the wealth defense industry is the apparatus that protects and accelerates it.
 The Powell Memo provides the documented strategic origin: the industry was
 deliberately constructed following an explicit blueprint. Whitehouse provides
 the evidence of its judicial branch in operation 50 years later.
+NOTE: principles/alley-very-bad-people.md A1 extends the pattern from domestic
+wealth defense to transnational kleptocratic enablement. The same professional
+class (lawyers, bankers, accountants, trust officers) serves both domestic
+oligarchs and foreign kleptocrats. The enabler architecture operates legally —
+shell companies, nominee directors, trust structures, real estate, legal privilege
+— converting illicit extraction into legitimate assets across jurisdictions. The
+industry is jurisdiction-agnostic: it defends wealth regardless of source.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (three sources from different analytical positions —
-Winters provides the theoretical framework and comparative evidence, the Powell
-Memo provides the documented strategic origin from a Position 1 (ruler) primary
-source, and Whitehouse provides the evidence of operational execution in the
-judicial domain; the pattern is confirmed across political science, primary-source
-strategy, and insider institutional observation)
+CORROBORATION: SUPPORTED (four sources — Winters (theoretical), Powell Memo
+(strategic origin), Whitehouse (judicial execution), Alley (transnational
+kleptocratic extension through the same professional infrastructure))
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -1163,12 +1217,26 @@ explains the IC-1 flag on Scheidel P1: the Civil War was a Four Horsemen event t
 compressed Southern wealth, but the social structure survived through undisrupted
 layers because the catastrophe did not reach them all.
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (one primary source; the mechanism is structurally
-recognizable in post-colonial transitions (Fanon P4 — political independence without
-economic transformation), post-Soviet transitions (democratic form without
-dismantling oligarchic substance), corporate restructurings (new org chart, same
-extraction), and regulatory reforms (new compliance requirements, same market
-structure) — but these instances need formal observation within the framework)
+NOTE: Roshchyna/ghost detainees analysis (2026-03-02) provides a second instance:
+the Soviet gulag system → Russian Federation prison system. SIZO-2 in Taganrog is
+described as "reminiscent of the worst Soviet gulags" with structurally continuous
+practices: institutionalized torture, "reception" beatings, extrajudicial detention
+of civilians. The formal political transformation (USSR → Russian Federation) did not
+produce institutional discontinuity in detention culture. This is the pattern operating
+through the Institutional and Physical & Coercive layers: formal state transformation
+left the prison system's operational culture intact.
+NOTE: West Bank settler violence analysis (2026-03-02) provides a third instance from
+an independent context: Abu Bashar's family displaced in 1948, 1967, and 2023 from the
+same territory — across the Nakba, post-1967 occupation, and post-October-7
+intensification. Three political configurations, same structural outcome: Bedouin
+displacement to make way for Israeli territorial expansion. This is the pattern operating
+across seven decades in the same territory, with the same family as witness. Combined
+with the Mississippi Delta (five regime changes, 150 years), the Russian prison system
+(Soviet → Federation), and this instance, the pattern now has three meaningfully
+independent contexts.
+CORROBORATION: SUPPORTED (three independent contexts — Mississippi Delta multi-regime
+survival, Soviet-to-Russian prison continuity, West Bank multi-displacement of the same
+family across political configurations)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -1211,3 +1279,53 @@ CORROBORATION: PRELIMINARY (one primary source; the mechanism is recognizable in
 media engagement patterns, partisan media consumption, conspiracy theory adherence, and
 corporate employee engagement — but these instances need formal observation within the
 framework)
+
+### Categorical Blindness
+LAYERS: Thought & Narrative, Surveillance & Information
+STATEMENT: Systems of oppression organized along single axes produce structural
+invisibility at their intersections. Populations at the intersection of multiple systems
+are invisible to analyses, movements, and institutions organized around any single axis.
+MECHANISM: Each categorical system has an unmarked default (the most privileged member
+of the oppressed class). At the intersection of multiple systems, the person is outside
+every default. The invisibility is produced by the categories themselves — not by
+oversight but by categorical design.
+OBSERVED IN: principles/hooks-aint-i-a-woman.md P4 (Black women invisible to both
+feminism and Black liberation movements because each uses its most privileged member
+as the default subject)
+NOTE: May be an extension of Axiom 8 (absence as significant) + the Division of
+Learning rather than a fully distinct pattern. Monitor for independent confirmation.
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (1 source — hooks; recognizable in disability studies,
+queer theory, and postcolonial analysis)
+
+### The Boomerang
+LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
+STATEMENT: Methods of domination developed at the periphery of a political system —
+in colonies, zones of exception, or territories where normal constraints do not apply —
+migrate to the center and are applied to domestic populations.
+MECHANISM: Zones of exception function as laboratories for techniques of control
+unconstrained by metropolitan legal and political norms. Once tested and institutionally
+normalized, these techniques migrate inward through returning personnel, institutional
+knowledge transfer, and the political availability of "emergency" justifications.
+OBSERVED IN: principles/arendt-origins-of-totalitarianism.md P2 (the Boomerang Thesis
+— techniques of colonial domination returned to Europe; the camps and racial
+classification systems of imperialism became the raw material for totalitarianism),
+analyses/2026-03-02-wikipedia-article-operation-metro-surge.md (warrantless home entry,
+drones, overwhelming force, denial of access — methods documented in foreign military
+operations applied domestically in Minneapolis; participants explicitly cited the
+pattern; Trump compared the operation to the Venezuela intervention)
+NOTE: Roshchyna/ghost detainees analysis (2026-03-02) provides additional evidence:
+the article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags."
+This is the Boomerang operating across temporal rather than spatial boundaries — gulag-
+era methods applied to a new occupied civilian population. The institutional lineage
+is direct: the Russian prison system carries forward gulag-era practices (reception
+beatings, institutionalized torture, extrajudicial detention of civilians) from the
+Soviet system to the current occupation of Ukrainian territory.
+NOTE: Related to Serial Regime Change (same techniques across targets) and
+Constitutive Violence (foundational acts at the periphery). Distinct in describing
+directional flow: periphery → center (Arendt), or past → present (gulag → current
+Russian detention).
+EVIDENCE: —
+CORROBORATION: SUPPORTED (3 sources — Arendt theoretical account, Operation Metro
+Surge real-time confirmation with participant citation, Roshchyna analysis
+documenting gulag → occupation continuity)

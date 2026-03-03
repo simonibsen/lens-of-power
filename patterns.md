@@ -38,8 +38,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Economic, Thought & Narrative
 STATEMENT: Abundance is deliberately prevented or destroyed because material security reduces dependency and enables independence.
 MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, debt-based, and network-effect-based channels.
-NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements (Chen 2026) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption.
-CORROBORATION: SUPPORTED (8 sources)
+NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements (Chen 2026) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants (Mishra 2014).
+CORROBORATION: SUPPORTED (9 sources)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -81,7 +81,8 @@ CORROBORATION: SUPPORTED (4 sources)
 LAYERS: Thought & Narrative, Institutional, Economic
 STATEMENT: The weak exploit the gap between the powerful's legitimating ideology and their actual practice by holding the powerful to their own stated standards.
 MECHANISM: The powerful require a legitimating ideology containing standards they cannot meet while maintaining extraction. The weak demand consistent application. Structurally irresolvable: the powerful cannot abandon the ideology without losing legitimacy.
-CORROBORATION: SUPPORTED (3 sources)
+NOTE: Inverse application observed: PRISONBREAK (Citizen Lab 2025) documents the powerful exploiting the weak's genuine resistance for strategic ends — Iranian citizens' real desire for freedom weaponized through AI deepfakes to serve Israeli military objectives. The imprisoned singers' authentic activism is appropriated without consent and reproduced in deepfake form. Same mechanism, opposite direction.
+CORROBORATION: SUPPORTED (4 sources — Scott, Cobb, Stanley + Citizen Lab inverse)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -93,14 +94,15 @@ CORROBORATION: ESTABLISHED (5 sources)
 LAYERS: Economic, Institutional, Thought & Narrative
 STATEMENT: When a system of domination is formally dismantled, an indigenous class positioned as intermediary steps into the role of the departed power, reproducing extraction under a new flag.
 MECHANISM: The intermediary class did not build the system — it occupied positions within it. It lacks the capacity or incentive to transform the system. It uses liberation language to legitimize its position while preserving the underlying economic logic.
-NOTE: hooks extends from economic relay to categorical relay — liberation movements that adopt the dominant categorical system function as relays for the domination they claim to oppose.
-CORROBORATION: SUPPORTED (3 sources)
+NOTE: hooks extends from economic relay to categorical relay — liberation movements that adopt the dominant categorical system function as relays for the domination they claim to oppose. Mishra (2014) adds a legitimation lock-in — postcolonial elites cannot exit the relay role without destroying the ideological basis of their authority (the promise of "catching up" with the west).
+CORROBORATION: SUPPORTED (4 sources)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
 STATEMENT: Some systems of control are not merely maintained by violence but constituted through it — the initial distribution was established by force, and the system depends on the continuing implicit threat.
 MECHANISM: The original act of violence creates the initial distribution. Law, institutions, and economics are built on top, naturalizing it. The foundational violence becomes invisible because it has been converted into property, law, and custom.
-CORROBORATION: ESTABLISHED (4 sources)
+NOTE: Mishra (2014) adds a consumptive dimension — colonial violence not only established the current distribution but consumed the material conditions that would allow others to follow the same path. The violence is doubly constitutive: it creates the order AND forecloses alternatives.
+CORROBORATION: ESTABLISHED (5 sources)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -125,7 +127,8 @@ NOTE: Hegseth's "this is not Iraq, this is not endless" (2026-03-02) confirms th
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
 STATEMENT: New forms of power establish themselves by operating in conceptual, legal, and regulatory voids where existing frameworks have not developed responses.
 MECHANISM: No existing regulation applies. Public discourse lacks vocabulary for the harm. By the time understanding catches up, the practice has been normalized and infrastructure entrenched.
-CORROBORATION: SUPPORTED (2 sources)
+NOTE: AI-military compound variant: PRISONBREAK (Citizen Lab 2025) documents AI deepfakes synchronized with active military strikes — the Evin Prison deepfake posted during bombing, republished by multiple international news outlets before identification as fabricated. No verification infrastructure exists for real-time AI-generated content during active military operations. The void is exploited at its widest point: the intersection of AI fabrication, military operations, and platform distribution.
+CORROBORATION: SUPPORTED (3 sources)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -137,7 +140,8 @@ CORROBORATION: SUPPORTED (4 sources)
 LAYERS: Surveillance & Information, Economic, Institutional
 STATEMENT: Structural asymmetry of knowledge where one party can learn about, predict, and shape another who cannot access the data, predictions, or modifications applied to them.
 MECHANISM: Maintained through trade secret law, algorithmic opacity, proprietary data, and computational scale. Those who can see cannot be seen; those who are seen cannot see back.
-CORROBORATION: SUPPORTED (6 sources)
+NOTE: Wartime variant: occupied territory as total information asymmetry maintained through military force. The journalist who attempted to penetrate the blackhole was absorbed into the system she was documenting (Roshchyna/ghost detainees, Forbidden Stories 2026).
+CORROBORATION: SUPPORTED (7 sources)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -150,8 +154,8 @@ CORROBORATION: SUPPORTED (2 sources)
 LAYERS: Institutional, Legal & Regulatory
 STATEMENT: Institutions voluntarily abandon their structural roles under pressure, creating the vacuum that authoritarianism fills. Distinct from capture (active redirection) — here the institution stops functioning because professionals individually calculate compliance is safer.
 MECHANISM: Individually rational choices produce collective structural failure. Four stages: signaling norms are unenforced, individual calculation that independence is risky, abdication becoming general, institution persisting in form while ceasing to function.
-NOTE: Four distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), and strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed). DoE Kirk banner (2026-03-02) instantiates the strategic abdication variant: the institution deploys its authority to honor someone who called for its abolition, with "Empowering our States" as the liberation narrative.
-CORROBORATION: SUPPORTED (5 sources)
+NOTE: Five distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed), and platform abdication (elimination of integrity infrastructure, converting governed platform into ungoverned terrain). DoE Kirk banner (2026-03-02) instantiates the strategic abdication variant. X/Twitter's elimination of integrity teams and non-response to Citizen Lab's PRISONBREAK notification (2025) instantiates the platform abdication variant — the operation was detected by external academics, not by the platform.
+CORROBORATION: SUPPORTED (6 sources)
 
 ### The Peacetime Ratchet
 LAYERS: Economic, Institutional, Legal & Regulatory
@@ -170,7 +174,8 @@ CORROBORATION: PRELIMINARY (1 primary source + counter-evidence from jubilee tra
 LAYERS: Economic, Legal & Regulatory, Institutional
 STATEMENT: Concentrated wealth generates a specialized professional class whose structural function is to defend and grow that wealth, operating with its own institutional momentum.
 MECHANISM: Professionalizes and institutionalizes wealth defense. Creates permanent infrastructure for tax avoidance, asset protection, political influence, and narrative production. Self-reinforcing: its existence creates demand for its services.
-CORROBORATION: SUPPORTED (3 sources)
+NOTE: Alley (2022) extends from domestic wealth defense to transnational kleptocratic enablement — the same professional class (lawyers, bankers, accountants) serves both domestic oligarchs and foreign kleptocrats, converting illicit extraction into legitimate assets across jurisdictions.
+CORROBORATION: SUPPORTED (4 sources)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -197,7 +202,8 @@ CORROBORATION: SUPPORTED (3 sources — Powell Memo blueprint, Whitehouse judici
 LAYERS: All layers
 STATEMENT: A power structure operating through multiple layers can survive regime changes that disrupt only some layers — by adapting form while maintaining structural continuity through undisrupted layers.
 MECHANISM: Reform targeting one or two layers leaves others intact. Control migrates from disrupted to undisrupted layers. Reform that targets fewer layers than the power structure occupies will fail to produce structural change.
-CORROBORATION: PRELIMINARY (1 primary source; recognizable in post-colonial, post-Soviet, and corporate contexts)
+NOTE: Abu Bashar's family displaced from Wadi al-Siq in 1948, 1967, and 2023 — three political configurations, same structural outcome: Bedouin displacement from the same territory (Forbidden Stories 2024). Combined with the Mississippi Delta (Cobb) and Soviet-to-Russian prison continuity, three independent contexts now documented.
+CORROBORATION: SUPPORTED (3 independent contexts)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -217,4 +223,5 @@ LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
 STATEMENT: Methods of domination developed at the periphery of a political system — in colonies, zones of exception, or territories where normal constraints do not apply — migrate to the center and are applied to domestic populations.
 MECHANISM: Zones of exception function as laboratories for techniques of control unconstrained by metropolitan legal and political norms. Once tested and institutionally normalized, these techniques migrate inward through returning personnel, institutional knowledge transfer, and the political availability of "emergency" justifications.
 NOTE: Related to Serial Regime Change (same techniques across targets) and Constitutive Violence (foundational acts at the periphery). Distinct in describing directional flow: periphery to center. Operation Metro Surge (2026) provides the first real-time empirical confirmation: warrantless home entry, drones, overwhelming force, denial of access to investigators, official accounts contradicted by evidence — all documented in foreign military operations, now applied domestically in Minneapolis. Participants explicitly cited the pattern. Trump compared the operation to the 2026 Venezuela intervention.
-CORROBORATION: SUPPORTED (2 sources — Arendt theoretical account + Operation Metro Surge real-time confirmation with participant citation)
+NOTE: Roshchyna/ghost detainees (Forbidden Stories 2026) adds temporal Boomerang: gulag-era methods (reception beatings, institutionalized torture, extrajudicial detention of civilians) applied to occupied Ukrainian population. The article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags."
+CORROBORATION: SUPPORTED (3 sources — Arendt theoretical account, Operation Metro Surge domestic confirmation, Roshchyna gulag-continuity confirmation)
