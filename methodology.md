@@ -73,12 +73,22 @@ updates. Does not write to file unless the user asks.
    register. Claim discipline still applies — distinguish observed from
    inferred from speculative, using signal vocabulary rather than STATUS tags.
 
-**Escalation signal**: If the material warrants deeper treatment, end with
-a single sentence recommending `/lop analyze` (for structured working,
-evidence entries, and framework updates) or `/lop extract` (if the source
-contains principles or instruments worth adding to the knowledge base).
-This is conditional — only when the material genuinely calls for it, not
-as a routine closing.
+**Escalation recommendation**: The final section of every READ mode output
+(after the Framework references) is a brief recommendation on whether the
+material warrants `/lop analyze` or `/lop extract`, or neither. This
+section always appears — it is not conditional. Format:
+
+```
+**Next step**: [analyze / extract / none recommended]
+[1-3 sentences explaining why. Name the specific framework value that
+would or would not result — e.g., evidence entries, pattern updates,
+new corroboration for an existing pattern, principles or instruments
+worth adding to the knowledge base. "None recommended" with reasons
+is itself informative.]
+```
+
+The recommendation makes the option visible, the reasoning transparent,
+and prevents ambiguity about whether escalation was considered.
 
 **What READ mode is not**: It is not a summary or a reaction. It is the
 framework's lens applied to material, producing genuine analytical insight —
@@ -893,6 +903,54 @@ Record the output in `evidence/` with tags:
 
 - Be specific. Name the mechanism, name the layer, name the actor.
 - Distinguish between what is observed and what is inferred.
+- **Framework term references**: In all human-readable output (READ mode
+  prose, ANALYZE mode narrative and briefing, EXTRACT mode synthesis),
+  reference framework-defined terms as follows:
+  - **First occurrence**: Bold the term and follow with a parenthetical
+    gloss (a few words describing what it is). Example:
+    `the **Compliance Gradient** (partial compliance as power negotiation)`
+  - **Subsequent occurrences**: Bold the term, no gloss. Example:
+    `the **Compliance Gradient**`
+  - **Reference list**: At the end of the output, include a
+    "Framework references" section listing every framework term used,
+    with a hyperlink to its definition in the repository. Example:
+    ```
+    **Framework references**
+    - Compliance Gradient: [patterns.md](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-compliance-gradient)
+    - Axiom 9: [constitution.md](https://github.com/simonibsen/lens-of-power/blob/main/constitution.md#9-compliance-can-be-manufactured-without-explicit-coercion)
+    ```
+  - This applies to patterns, axioms, principles, instruments, and
+    integrity constraints when referenced by name. The base URL is
+    `https://github.com/simonibsen/lens-of-power/blob/main/`.
+  - The purpose is twofold: the gloss makes the output legible to
+    readers unfamiliar with the framework; the reference list connects
+    every term to its definition for readers who want depth.
+  - Structured working (Steps 1-7) and internal fields (STATUS,
+    LAYER, CORROBORATION) do not require this treatment — they are
+    already within the framework's context.
+- **Markdown field formatting**: When writing field-based content to
+  files (principles, instruments, patterns, patterns-detail, evidence),
+  always place a blank line between consecutive field lines. Consecutive
+  lines without blank lines collapse into a single paragraph in standard
+  markdown renderers. Write:
+  ```
+  PRINCIPLE: Control of narrative is control of possibility.
+
+  LAYERS: Thought & Narrative
+
+  MECHANISM: ...
+  ```
+  Not:
+  ```
+  PRINCIPLE: Control of narrative is control of possibility.
+  LAYERS: Thought & Narrative
+  MECHANISM: ...
+  ```
+  This applies to all fields (LAYERS, STATEMENT, MECHANISM, NOTE,
+  CORROBORATION, STATUS, EVIDENCE FROM WORK, GENERALIZES TO, SOURCE,
+  TAXONOMY LAYERS, ANALYTICAL USE, OBSERVED IN, etc.). Templates in
+  this methodology show the field structure compactly inside code blocks
+  for readability — the blank-line rule applies when writing actual files.
 - Mark evidentiary basis on every claim: **observed** (directly present
   in material), **inferred** (follows from reasoning), **speculative**
   (plausible but beyond direct evidence).

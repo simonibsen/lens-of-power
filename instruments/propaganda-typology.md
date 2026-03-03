@@ -13,8 +13,10 @@
 SOURCE: Ellul (1962) provides the four structural axes; Stanley (2015)
 provides the fifth axis (undermining/supporting) and the philosophical
 mechanism for how propaganda exploits democratic ideals
+
 TAXONOMY LAYERS: Thought & Narrative (primary), Institutional,
 Surveillance & Information, Economic
+
 ANALYTICAL USE: During ANALYZE steps 1 (DECOMPOSE — classify the
 propaganda type), 2 (SOURCE — identify origin as political or
 sociological), 5 (INVERT — test whether material is propaganda at all

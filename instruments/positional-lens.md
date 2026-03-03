@@ -14,8 +14,10 @@
 SOURCE: Cross-extraction synthesis (principles/machiavelli-the-prince.md,
 principles/scott-weapons-of-the-weak.md,
 principles/fanon-wretched-of-the-earth.md)
+
 TAXONOMY LAYERS: All layers (this instrument concerns perspective, not a
 specific layer)
+
 ANALYTICAL USE: During ANALYZE steps 2 (SOURCE), 3 (LOCATE), and
 6 (ABSENT)
 

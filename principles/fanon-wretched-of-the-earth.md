@@ -3,7 +3,9 @@
 SOURCE: Frantz Fanon, *Les Damnes de la Terre*, 1961 (English: *The
 Wretched of the Earth*, trans. Constance Farrington, 1963; trans.
 Richard Philcox, 2004). Preface by Jean-Paul Sartre.
+
 TYPE: Political theory / Revolutionary analysis / Psychiatric case study
+
 CENTRAL THESIS: Colonialism is a system of total violence --- physical,
 economic, psychological, and cultural --- that maintains itself through
 the absolute division of the world into colonizer and colonized. This
@@ -91,13 +93,16 @@ PRINCIPLE: Colonial systems are constituted through violence and can
 only be dissolved through counter-violence, because violence is not an
 instrument the colonial system *uses* but the substance it *is*. Reform
 within a violent structure reproduces the structure.
+
 LAYERS: Physical & Coercive, all others as dependent
+
 MECHANISM: The colonial world is divided by force. Every boundary ---
 spatial, economic, legal, cultural --- is maintained by physical
 violence or its credible threat. These boundaries cannot be negotiated
 away because the negotiation itself occurs within a framework established
 by violence and controlled by the colonizer. Only force that disrupts
 the framework itself can produce structural change.
+
 EVIDENCE FROM WORK: "Decolonization is always a violent phenomenon."
 (Opening line of Chapter 1). The colonial world is "a world cut in
 two" where "the dividing line, the frontiers are shown by barracks and
@@ -105,6 +110,7 @@ police stations." The settler's town and the native's town are
 separated by force. The colonial subject "is kept in his place by the
 rifle butt." Negotiated settlements that leave the structure intact
 produce neocolonialism, not liberation.
+
 GENERALIZES TO: Any system whose foundational structure was established
 through coercion --- attempting to reform from within accepts the
 legitimacy of the frame established by violence. Applies to settler
@@ -112,6 +118,7 @@ colonial states, apartheid systems, and arguably to any post-conquest
 institutional order whose legitimacy rests on force majeure rather than
 consent. Also applies structurally to economic systems where the
 initial distribution of property was established through dispossession.
+
 FRAMEWORK STATUS: Refines Axiom 2 (layers reinforce each other) with a
 directional claim from below: from the colonized perspective, Physical &
 Coercive is not merely one reinforcing layer but the constitutive layer
@@ -129,8 +136,10 @@ humanity into fully human (colonizer) and sub-human (colonized). This
 division is not a byproduct of colonial administration --- it is the
 ideological architecture that makes extraction and violence appear
 natural and justified.
+
 LAYERS: Thought & Narrative, Physical & Coercive, Economic, Legal &
 Regulatory
+
 MECHANISM: The colonizer's world is presented as the world of values,
 civilization, culture, and law. The colonized world is presented as
 the world of disorder, savagery, and emptiness --- a space to be
@@ -139,12 +148,14 @@ filled by the colonizer's project. This binary is inscribed in space
 for colonizer and colonized), in economics (extraction vs.
 accumulation), and in psychology (the colonized subject internalizes
 the colonizer's judgment of worthlessness).
+
 EVIDENCE FROM WORK: "The colonial world is a Manichean world." The
 settler's town is "a strongly built town... a well-fed town, an
 easy-going town." The native town is "a hungry town, starved of
 bread, of meat, of shoes, of coal, of light." The colonized person
 is described by the colonizer in zoological terms --- as animals, as
 a natural landscape to be tamed.
+
 GENERALIZES TO: Any system that maintains extraction through a
 categorical dehumanization of the extracted population. Racial caste
 systems, apartheid, the rhetorical distinction between "developed" and
@@ -152,6 +163,7 @@ systems, apartheid, the rhetorical distinction between "developed" and
 The structure persists whenever a population is categorically placed
 outside the circle of full moral consideration to justify differential
 treatment.
+
 FRAMEWORK STATUS: Confirms Axiom 3 (power is most effective when
 invisible) with an important refinement: the Manichean structure is
 not hidden from the colonized --- they experience it daily. It is
@@ -182,7 +194,9 @@ colonized subject internalizes the colonizer's evaluation and comes
 to see themselves as inferior, primitive, or culturally empty. At this
 point, coercion becomes partially redundant because the colonized
 subject polices themselves.
+
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
+
 MECHANISM: Colonial education, media, religion, and administrative
 practice continuously present the colonizer's culture as universal and
 superior. The colonized intellectual imitates the colonizer. The
@@ -192,6 +206,7 @@ colonized subject is estranged from their own culture, history, and
 community, but can never be accepted by the colonizer's world. The
 result is a psychological trap that produces compliance without
 ongoing external coercion.
+
 EVIDENCE FROM WORK: Fanon's description of the colonized intellectual
 who has "thrown himself greedily upon Western culture" and internalized
 the colonizer's values. The colonized person who dreams of occupying
@@ -199,12 +214,14 @@ the settler's place rather than abolishing the structure. Chapter 5
 ("Colonial War and Mental Disorders") documents clinical cases of
 psychological destruction: patients who have internalized colonial
 violence as self-hatred.
+
 GENERALIZES TO: Any system where the subjected population adopts the
 value system that justifies their subjection. Cultural imperialism
 through media and education. The internalization of meritocratic
 ideology by those whom the system excludes. Assimilation politics
 that require the marginalized to perform the culture of the dominant
 group as a condition of partial acceptance.
+
 FRAMEWORK STATUS: Directly confirms Axiom 9 (manufactured compliance).
 Extends it: Fanon shows that manufactured compliance operates at the
 level of identity --- the colonized person does not merely comply
@@ -222,7 +239,9 @@ PRINCIPLE: After independence, the indigenous bourgeoisie replaces
 the colonial administration as the intermediary of extraction rather
 than transforming the system. National liberation without social
 revolution produces a change of personnel, not a change of structure.
+
 LAYERS: Economic, Institutional, Thought & Narrative
+
 MECHANISM: The national bourgeoisie did not create the colonial
 economy --- it merely occupied positions within it. It lacks the
 technical capacity, the capital, and the vision to develop a national
@@ -232,6 +251,7 @@ function the colonial bourgeoisie performed. It adopts the lifestyle,
 tastes, and values of the departed colonizer. It uses nationalism as
 a tool to consolidate its own position while the mass of the
 population remains in the same material conditions.
+
 EVIDENCE FROM WORK: "The national middle class discovers its historic
 mission: that of intermediary." The bourgeoisie "is not engaged in
 production, nor in invention, nor building, nor labour; it is
@@ -242,6 +262,7 @@ hides a very commonplace type of bourgeoisie... that of the
 comprador." Fanon's examples include post-independence African states
 where single-party rule by a national elite reproduced colonial
 extraction patterns.
+
 GENERALIZES TO: Post-revolutionary elites in any context who inherit
 rather than transform the structures of power. The pattern applies
 to decolonization across Africa and Asia, to post-Soviet oligarchies,
@@ -249,6 +270,7 @@ to regime changes that replace leadership but leave economic
 structures intact, to corporate diversity programs that change the
 demographics of management without changing the structure of
 extraction.
+
 FRAMEWORK STATUS: Confirms the Middle Stratum Trap pattern from a
 new angle: the national bourgeoisie is the middle stratum between
 foreign capital and the colonized masses. Their marginal privilege
@@ -268,7 +290,9 @@ and economic power but the reconstruction of the colonized subject's
 identity, culture, and psychological integrity. Political independence
 without psychological decolonization leaves the colonial value system
 intact inside the liberated population.
+
 LAYERS: Thought & Narrative, Physical & Coercive, Institutional
+
 MECHANISM: Colonial violence produces specific psychological damage:
 alienation from one's own culture, internalized inferiority,
 identification with the oppressor, muscular tension and psychosomatic
@@ -280,6 +304,7 @@ person who acts against the colonial system breaks the internalized
 prohibition against agency. Beyond individual psychology, cultural
 production --- literature, art, oral tradition --- must be reclaimed
 and rebuilt as part of the liberation process.
+
 EVIDENCE FROM WORK: "At the level of individuals, violence is a
 cleansing force. It frees the native from his inferiority complex
 and from his despair and inaction; it makes him fearless and restores
@@ -290,6 +315,7 @@ the three phases of colonized cultural production: assimilation of
 the colonizer's culture, nostalgic return to pre-colonial traditions,
 and finally a "fighting phase" where the intellectual turns to the
 people and produces a revolutionary national culture.
+
 GENERALIZES TO: The psychological dimensions of any liberation
 movement. The inadequacy of legal or political equality without
 cultural and psychological decolonization. Applies to: post-slavery
@@ -298,6 +324,7 @@ from internalized racial hierarchy; post-conflict societies where
 political settlement leaves traumatic identity structures intact;
 movements for recognition that seek not only rights but the
 reconstruction of stigmatized identities.
+
 FRAMEWORK STATUS: Directly confirms Axiom 10 (understanding is an
 act of resistance) and extends it: understanding alone is insufficient.
 Understanding must be coupled with action that reconstitutes the
@@ -325,7 +352,9 @@ PRINCIPLE: The urban marginalized --- those expelled from both the
 traditional rural order and the formal colonial economy --- constitute
 the most revolutionary class in a colonial context, precisely because
 they have nothing invested in the existing structure.
+
 LAYERS: Economic, Physical & Coercive, Institutional
+
 MECHANISM: Classical Marxism identifies the industrial proletariat as
 the revolutionary class. In the colonial context, there is no
 significant industrial proletariat. The urban working class that exists
@@ -339,6 +368,7 @@ lumpenproletariat for counterrevolutionary violence. But if the
 revolutionary movement reaches the lumpenproletariat first, their
 desperation and total lack of investment in the existing system
 makes them the most committed revolutionary force.
+
 EVIDENCE FROM WORK: "It is within this mass of humanity, this people
 of the shanty towns, at the core of the lumpenproletariat, that the
 rebellion will find its urban spearhead." The lumpenproletariat "like
@@ -348,6 +378,7 @@ forces of a colonized people." Fanon documents how colonial powers
 and conservative nationalist parties alike attempt to use the
 lumpenproletariat as agents provocateurs or counterrevolutionary
 shock troops.
+
 GENERALIZES TO: Revolutionary potential among those most completely
 excluded from existing structures. The pattern recurs wherever a
 marginalized population has been expelled from both traditional and
@@ -356,6 +387,7 @@ displaced rural populations in rapidly urbanizing societies, refugees,
 and populations subjected to structural unemployment. Also applies in
 reverse: the co-optation of the desperate by reactionary forces is
 a persistent counterrevolutionary strategy.
+
 FRAMEWORK STATUS: Inverts the Middle Stratum Trap: the middle stratum
 is trapped by its investment in relative privilege; the lumpenproletariat
 is freed by its total exclusion. Refines Axiom 5 (power concentrates):
@@ -378,7 +410,9 @@ the struggle against the colonizer --- is necessary but insufficient
 for liberation. Without political education that transforms national
 consciousness into social consciousness, independence produces
 authoritarianism, tribalism, and elite capture.
+
 LAYERS: Thought & Narrative, Institutional, Economic
+
 MECHANISM: During the liberation struggle, the common enemy unifies
 diverse populations. National consciousness is the shared awareness
 that "we are not them." After independence, the common enemy is
@@ -388,6 +422,7 @@ regional, religious. The single party, lacking democratic practice,
 becomes an instrument of elite control. The leader becomes a cult
 figure. The masses, having been mobilized for independence but not
 politically educated, are unable to hold the new leaders accountable.
+
 EVIDENCE FROM WORK: "National consciousness, instead of being the
 all-embracing crystallization of the innermost hopes of the whole
 people... will be in any case only an empty shell, a crude and
@@ -397,6 +432,7 @@ Fanon describes the post-independence trajectory: the party becomes
 a means of personal advancement; the leader becomes dictator;
 regional and ethnic rivalries reassert themselves; the masses are
 told to be patient while the elite enriches itself.
+
 GENERALIZES TO: Any revolutionary or liberation movement that
 achieves its negative goal (removal of the oppressor) without
 developing its positive content (what replaces the oppressor).
@@ -405,6 +441,7 @@ authoritarianism; national movements that fracture along ethnic
 lines after independence; populist movements that lack institutional
 depth; protest movements that can articulate what they oppose but
 not what they propose.
+
 FRAMEWORK STATUS: Confirms Axiom 7 (stated purpose vs. function)
 from the revolutionary side: the stated purpose of national
 liberation is freedom; the function, without political education,
@@ -421,7 +458,9 @@ to consolidate control; the colonized reclaim and reconstruct
 culture as an act of resistance. But cultural revival that is
 purely nostalgic (returning to a pre-colonial past) is a dead end
 --- culture must be forged in the present struggle.
+
 LAYERS: Thought & Narrative, Institutional
+
 MECHANISM: Colonial domination includes cultural domination: the
 colonizer's language is the language of education and administration;
 the colonizer's history is the history that is taught; the colonizer's
@@ -434,6 +473,7 @@ who catalogued "native customs" for the purpose of control. Genuine
 cultural liberation occurs only in the third phase: a fighting
 culture, produced by and for the struggle, that is neither imitation
 nor nostalgia but a living creation.
+
 EVIDENCE FROM WORK: Fanon's three phases of cultural production
 by the colonized intellectual: (1) assimilation, (2) nostalgic
 return to roots, (3) revolutionary fighting phase. The colonized
@@ -442,6 +482,7 @@ romanticized versions of traditional themes, then finally writes
 for and with the revolutionary people. Also: the colonial
 administration's use of anthropology to fix and control native
 culture --- turning living traditions into museum exhibits.
+
 GENERALIZES TO: Cultural dimensions of any liberation or
 resistance movement. The tension between assimilation and
 essentialism as responses to cultural domination. The use of
@@ -451,6 +492,7 @@ identity). Applies to: language politics in postcolonial states;
 debates over "authentic" cultural identity; the co-optation of
 resistance aesthetics by dominant culture; the difference between
 heritage tourism and living cultural practice.
+
 FRAMEWORK STATUS: Extends Axiom 6 (language is the first instrument
 of control) to culture broadly: language is part of a wider
 cultural apparatus of control that includes history, aesthetics,
@@ -467,7 +509,9 @@ space. The division of the colonial world into the settler's city
 and the native's city is not merely a consequence of economic
 inequality --- it is a deliberate architecture of domination that
 makes the power structure visible and permanent.
+
 LAYERS: Physical & Coercive, Economic, Surveillance & Information
+
 MECHANISM: The colonial city is physically divided. The settler's
 quarter has wide streets, gardens, electricity, sanitation. The
 native quarter is overcrowded, underserviced, and surveilled. The
@@ -478,6 +522,7 @@ makes their poverty visible as a reinforcement of the Manichean
 ideology (their conditions are presented as evidence of their
 inferiority), it restricts movement and thus economic possibility,
 and it creates a permanent visual reminder of the hierarchy.
+
 EVIDENCE FROM WORK: "The settlers' town is a well-fed town, an
 easy-going town; its belly is always full of good things... The
 native town is a crouching village, a town on its knees, a town
@@ -486,6 +531,7 @@ wallowing in the mire." The spatial division is maintained by
 revolutionary desire is to occupy the settler's place --- the
 spatial arrangement structures the revolutionary imagination
 itself.
+
 GENERALIZES TO: Urban segregation in any context: redlining,
 gated communities, favelas adjacent to wealthy districts, spatial
 planning that routes highways through minority neighborhoods. The
@@ -494,6 +540,7 @@ outlasts the political arrangements that created it. In the
 contemporary context: algorithmic spatial sorting, differential
 policing by neighborhood, infrastructure investment as a map of
 political priorities.
+
 FRAMEWORK STATUS: Confirms Axiom 1 (layers simultaneous): spatial
 control operates at Physical, Economic, Surveillance, and
 Thought & Narrative layers simultaneously. Suggests a mechanism
@@ -509,10 +556,12 @@ CONFIDENCE: HIGH
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
+
 STATEMENT: When a system of domination is formally dismantled, an
 indigenous class positioned as intermediary between the dominant power
 and the dominated population steps into the role of the departed
 power, reproducing the structure of extraction under a new flag.
+
 MECHANISM: The intermediary class (national bourgeoisie, comprador
 elite, managerial class) did not build the system of extraction ---
 it merely occupied positions within it. It lacks the capacity or
@@ -521,6 +570,7 @@ aligned with maintaining the existing structure, merely redirecting
 flows toward itself. It uses the language of liberation (national
 sovereignty, independence, diversity) to legitimize its position
 while preserving the underlying economic logic.
+
 OBSERVED IN: principles/fanon-wretched-of-the-earth.md P4 (the
 national bourgeoisie as intermediary), principles/fanon-wretched-of-the-earth.md
 P7 (national consciousness without political education)
@@ -532,12 +582,14 @@ that change personnel but not structure)
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought
 & Narrative
+
 STATEMENT: Some systems of control are not merely maintained by
 violence but constituted through it --- the initial distribution
 of power, property, and legitimacy was established by force, and
 the system's ongoing operation depends on the continuing implicit
 threat of that foundational violence. Reform within such a system
 accepts the legitimacy of an order established by coercion.
+
 MECHANISM: The original act of violence (conquest, dispossession,
 enslavement) creates the initial distribution of positions. Law,
 institutions, and economic structures are then built on top of
@@ -548,6 +600,7 @@ of historical violence. The foundational violence becomes invisible
 into property, law, and custom. Reform that operates within the
 established legal and institutional framework implicitly accepts
 the legitimacy of the initial violent distribution.
+
 OBSERVED IN: principles/fanon-wretched-of-the-earth.md P1
 (violence as constitutive), principles/fanon-wretched-of-the-earth.md
 P2 (the Manichean structure)
@@ -558,11 +611,13 @@ historical dispossession)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
+
 STATEMENT: The dominated subject's cultural response to domination
 follows a predictable sequence: assimilation (adopting the
 dominator's values), essentialism (nostalgic return to pre-domination
 identity), and finally synthesis (a forward-looking culture forged
 in struggle). Only the third phase is genuinely liberatory.
+
 MECHANISM: The first phase (assimilation) represents internalization
 of the dominant culture's claims to universality. The second phase
 (essentialism) is a reaction against assimilation, but it operates
@@ -572,6 +627,7 @@ valuation). The third phase breaks the binary entirely by producing
 something new that is neither imitation nor nostalgia. This
 sequence applies to individuals, artistic movements, and
 political ideologies.
+
 OBSERVED IN: principles/fanon-wretched-of-the-earth.md P5
 (psychological reconstruction), principles/fanon-wretched-of-the-earth.md
 P8 (culture as control and resistance)

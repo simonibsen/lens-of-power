@@ -98,7 +98,9 @@ provide the text.
 Produce the prose analysis defined in the READ mode procedure of methodology.md.
 Output directly to the conversation — do not write to file unless the user asks.
 No structured steps, no briefing format, no evidence entries, no framework
-update proposals. IC-2 and IC-5 still apply.
+update proposals. IC-2 and IC-5 still apply. End with Framework references,
+then an escalation recommendation (analyze / extract / none) with reasons,
+as defined in methodology.md.
 
 ### For ANALYZE mode:
 Produce the structured step-by-step output defined in methodology.md,
@@ -124,6 +126,15 @@ evaluates the source for both principles and instruments:
 ### For RED TEAM mode:
 Produce the output defined in the RED TEAM mode section of methodology.md
 and offer to write the results to `evidence/`.
+
+## Framework term references
+
+In all human-readable output, follow the framework term reference
+convention defined in the Output discipline section of methodology.md:
+first occurrence gets **bold** with a parenthetical gloss; subsequent
+occurrences get **bold** without gloss. Collect all framework term
+links in a "Framework references" section at the end of the output.
+Base URL: `https://github.com/simonibsen/lens-of-power/blob/main/`
 
 ## Tone
 
