@@ -1004,6 +1004,12 @@ body {
   transition: all 0.15s;
 }
 .connected-item:hover { background: rgba(255,255,255,0.06); }
+.corroboration-sources {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
 
 /* Graph view */
 #graph-view {
@@ -1195,6 +1201,12 @@ body {
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 14px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.layer-card:hover {
+  border-color: var(--purple);
+  background: rgba(163,113,247,0.04);
 }
 .layer-card-name {
   font-weight: 600;
@@ -1318,6 +1330,30 @@ body {
   color: var(--text-muted);
   min-width: 40px;
   text-align: right;
+}
+
+/* Expandable grids — collapse to ~2 rows */
+.dashboard-grid-expandable {
+  max-height: 340px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.dashboard-grid-expandable.expanded {
+  max-height: none;
+}
+.show-all-toggle {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 0;
+  font-size: 13px;
+  color: var(--text-link);
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+.show-all-toggle:hover {
+  text-decoration: underline;
 }
 
 /* View navigation cards */
@@ -1807,10 +1843,9 @@ function buildDashboard() {
   // --- Recent Analyses ---
   const analyses = DATA.nodes
     .filter(n => n.type === 'analysis')
-    .sort((a, b) => (b.meta.date || '').localeCompare(a.meta.date || ''))
-    .slice(0, 3);
+    .sort((a, b) => (b.meta.date || '').localeCompare(a.meta.date || ''));
   if (analyses.length > 0) {
-    html += '<div class="dashboard-section"><h2>Recent Analyses</h2><div class="recent-analyses-grid">';
+    html += '<div class="dashboard-section"><h2>Recent Analyses</h2><div class="recent-analyses-grid dashboard-grid-expandable" data-section="analyses">';
     analyses.forEach(a => {
       const title = getDisplayTitle(a);
       const dateParts = [];
@@ -1831,14 +1866,18 @@ function buildDashboard() {
       if (briefing) html += '<div class="recent-analysis-briefing">' + escapeHtml(briefing) + '</div>';
       html += '</div>';
     });
-    html += '</div></div>';
+    html += '</div>';
+    if (analyses.length > 6) {
+      html += '<button class="show-all-toggle" data-section="analyses">Show all ' + analyses.length + ' analyses</button>';
+    }
+    html += '</div>';
   }
 
   // --- Works studied ---
   const principles = DATA.nodes.filter(n => n.type === 'principle');
   if (principles.length > 0) {
     const sorted = principles.slice().sort((a, b) => (b.meta.principle_count || 0) - (a.meta.principle_count || 0));
-    html += '<div class="dashboard-section"><h2>Works Studied</h2><div class="works-grid">';
+    html += '<div class="dashboard-section"><h2>Works Studied</h2><div class="works-grid dashboard-grid-expandable" data-section="works">';
     sorted.forEach(p => {
       const title = getDisplayTitle(p);
       const source = p.meta.source || '';
@@ -1853,7 +1892,11 @@ function buildDashboard() {
         '</div>' +
       '</div>';
     });
-    html += '</div></div>';
+    html += '</div>';
+    if (sorted.length > 6) {
+      html += '<button class="show-all-toggle" data-section="works">Show all ' + sorted.length + ' works</button>';
+    }
+    html += '</div>';
   }
 
   // --- Layers of Power with coverage ---
@@ -1863,7 +1906,7 @@ function buildDashboard() {
     layerDescs.forEach(l => {
       const count = layerCoverage[l.name] || 0;
       const pct = Math.round((count / maxCoverage) * 100);
-      html += '<div class="layer-card">' +
+      html += '<div class="layer-card" data-layer="' + escapeHtml(l.name) + '">' +
         '<div class="layer-card-name">' + escapeHtml(l.name) + '</div>' +
         '<div class="layer-card-desc">' + escapeHtml(l.description) + '</div>' +
         '<div class="layer-card-coverage">' +
@@ -1934,6 +1977,27 @@ function buildDashboard() {
       if (v) switchView(v);
     });
   });
+
+  // Layer card click handlers — navigate to Layers view
+  view.querySelectorAll('.layer-card').forEach(card => {
+    card.addEventListener('click', () => {
+      switchView('layers');
+    });
+  });
+
+  // Expand/collapse toggle for dashboard grids
+  function setupExpandToggle(section) {
+    const btn = view.querySelector('.show-all-toggle[data-section="' + section + '"]');
+    const grid = view.querySelector('.dashboard-grid-expandable[data-section="' + section + '"]');
+    if (!btn || !grid) return;
+    btn.addEventListener('click', () => {
+      const expanded = grid.classList.toggle('expanded');
+      btn.textContent = expanded ? 'Show fewer' : btn.dataset.label;
+    });
+    btn.dataset.label = btn.textContent;
+  }
+  setupExpandToggle('analyses');
+  setupExpandToggle('works');
 
   // Collapsible documentation section handlers
   view.querySelectorAll('.dashboard-section-header.collapsible').forEach(header => {
@@ -2103,6 +2167,43 @@ function showDetail(nodeId) {
             if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
           });
         });
+      }
+    }
+  }
+
+  // For patterns: append corroborating source links after the CORROBORATION line
+  if (node.type === 'pattern') {
+    const content = view.querySelector('#detail-content');
+    if (content) {
+      // Collect corroborating sources from edges
+      const adj = adjacency[nodeId] || { incoming: [], outgoing: [] };
+      const sourceIds = new Set();
+      adj.outgoing.forEach(e => {
+        if (e.type === 'observed_in' && nodeMap[e.target]) sourceIds.add(e.target);
+      });
+      adj.incoming.forEach(e => {
+        if ((e.type === 'key_pattern' || e.type === 'matches') && nodeMap[e.source]) sourceIds.add(e.source);
+      });
+      if (sourceIds.size > 0) {
+        // Find the paragraph containing CORROBORATION
+        const paras = content.querySelectorAll('p');
+        let corrPara = null;
+        paras.forEach(p => {
+          if (p.textContent.match(/^CORROBORATION:/)) corrPara = p;
+        });
+        if (corrPara) {
+          let linksHtml = '<div class="corroboration-sources">';
+          sourceIds.forEach(id => {
+            const sn = nodeMap[id];
+            const color = TYPE_COLORS[sn.type];
+            linksHtml += '<span class="connected-item corroboration-source" data-target="' + id + '" style="border-color:' + color + '40">' +
+              '<span class="type-dot" style="background:' + color + '"></span>' +
+              escapeHtml(sn.title) +
+            '</span>';
+          });
+          linksHtml += '</div>';
+          corrPara.insertAdjacentHTML('afterend', linksHtml);
+        }
       }
     }
   }
