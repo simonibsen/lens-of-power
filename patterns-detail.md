@@ -803,9 +803,18 @@ rather than technological or institutional means. The occupied zone functions as
 outside. The journalist who attempted to penetrate the asymmetry was absorbed into the
 system she was documenting, deepening the blackhole. This is the Division of Learning
 at its most absolute: the means of observation is itself a target.
-CORROBORATION: SUPPORTED (seven sources; the Roshchyna analysis extends the pattern
-to military occupation — the division maintained through physical control of territory
-rather than algorithmic opacity or financial complexity)
+NOTE: Portland/TBIJ (2026-01-14) provides an AI amplification variant: manipulation
+at one platform (Wikipedia) propagates through AI systems that use it as training data,
+multiplying the information asymmetry without the manipulator needing to access the
+downstream systems. Portland's paid Wikipedia edits for Qatar, AGRA, and others enter
+AI chatbot responses and search summaries with no provenance tracking and no detection
+mechanism at the second stage. The manipulator edits one platform; the manipulation
+distributes through every AI system that uses Wikipedia. This extends the Division of
+Learning from bilateral asymmetry to systemic multiplication through technological
+infrastructure the manipulator did not build.
+CORROBORATION: SUPPORTED (eight sources; the Portland analysis extends the pattern
+to AI amplification — the division maintained and multiplied through AI training data
+pipelines that inherit manipulated content without verification)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -1044,10 +1053,24 @@ oligarchs and foreign kleptocrats. The enabler architecture operates legally —
 shell companies, nominee directors, trust structures, real estate, legal privilege
 — converting illicit extraction into legitimate assets across jurisdictions. The
 industry is jurisdiction-agnostic: it defends wealth regardless of source.
+NOTE: analyses/2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering.md
+extends the pattern to the information layer. Portland Communications operates as
+reputation defence infrastructure at the Thought & Narrative layer — PR firms
+performing the same structural function as Winters's lawyers and accountants but
+operating through controlled information platforms (Wikipedia) rather than through
+financial and legal instruments. Portland's structural position matches Alley's
+Enabler Architecture: the firm sits between powerful clients (Qatar, Gates/AGRA,
+Libyan government) and the information system (Wikipedia), providing the professional
+expertise to launder reputation through the platform. The NDA regime protecting
+Portland's employees functions as the secrecy infrastructure Alley documents across
+kleptocratic networks. The Dispossession Cycle is confirmed: caught in 2011 →
+outsourced for plausible deniability → operated for a decade → new networks emerging
+after Kotlarek's blocking in 2024.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (four sources — Winters (theoretical), Powell Memo
+CORROBORATION: SUPPORTED (five sources — Winters (theoretical), Powell Memo
 (strategic origin), Whitehouse (judicial execution), Alley (transnational
-kleptocratic extension through the same professional infrastructure))
+kleptocratic extension), Portland/TBIJ (information-layer extension through
+reputation management on platforms))
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative

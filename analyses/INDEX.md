@@ -93,3 +93,9 @@
   Layers: Thought & Narrative (primary), Surveillance & Information (primary), Physical & Coercive, Institutional, Economic
   Null case: rejected (LOW for coordination and state involvement; MEDIUM for operation's significance given limited engagement)
   File: `2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md`
+
+### 2026-01-14 — Portland Communications: paid Wikipedia editing for governments and billionaires (TBIJ)
+  Domain: Reputation management / information integrity / platform governance / human rights concealment
+  Layers: Thought & Narrative (primary), Surveillance & Information (primary), Economic (primary), Institutional, Legal & Regulatory
+  Null case: rejected (LOW for overall operation and specific edits; MEDIUM for broader framing — Portland is instance of industry practice)
+  File: `2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering.md`
