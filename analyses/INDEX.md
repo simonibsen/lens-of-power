@@ -75,3 +75,9 @@
   Layers: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Physical & Coercive, Surveillance & Information
   Null case: plausible (MEDIUM — national security argument genuine; governance gap not explained by it)
   File: `2026-03-02-datasociety-policybrief-big-ai-state.md`
+
+### 2026-03-02 — Russia's ghost detainees: Viktoriia Roshchyna investigation (Forbidden Stories)
+  Domain: Press freedom / extrajudicial detention / military occupation / war crimes
+  Layers: Physical & Coercive (primary), Surveillance & Information (primary), Thought & Narrative, Institutional
+  Null case: rejected (LOW for system; MEDIUM for specific death circumstances)
+  File: `2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees.md`

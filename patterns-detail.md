@@ -777,10 +777,16 @@ how their data is used, how algorithms affect them, or what their behavioral pro
 contains; the Privacy Policy's "transparency" language describes the extraction while
 concealing its scope)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (six sources; the Meta analysis extends the pattern to
-platform governance — the division of learning is not merely a structural feature but
-the revenue model itself, codified in legal instruments that describe extraction as
-"personalized experience")
+NOTE: Roshchyna/ghost detainees analysis (2026-03-02) provides a wartime variant:
+occupied territory as total information asymmetry maintained through military force
+rather than technological or institutional means. The occupied zone functions as an
+"informational black hole" — Russia observes everything, nothing can be observed from
+outside. The journalist who attempted to penetrate the asymmetry was absorbed into the
+system she was documenting, deepening the blackhole. This is the Division of Learning
+at its most absolute: the means of observation is itself a target.
+CORROBORATION: SUPPORTED (seven sources; the Roshchyna analysis extends the pattern
+to military occupation — the division maintained through physical control of territory
+rather than algorithmic opacity or financial complexity)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -1182,12 +1188,17 @@ explains the IC-1 flag on Scheidel P1: the Civil War was a Four Horsemen event t
 compressed Southern wealth, but the social structure survived through undisrupted
 layers because the catastrophe did not reach them all.
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (one primary source; the mechanism is structurally
-recognizable in post-colonial transitions (Fanon P4 — political independence without
-economic transformation), post-Soviet transitions (democratic form without
-dismantling oligarchic substance), corporate restructurings (new org chart, same
-extraction), and regulatory reforms (new compliance requirements, same market
-structure) — but these instances need formal observation within the framework)
+NOTE: Roshchyna/ghost detainees analysis (2026-03-02) provides a second instance:
+the Soviet gulag system → Russian Federation prison system. SIZO-2 in Taganrog is
+described as "reminiscent of the worst Soviet gulags" with structurally continuous
+practices: institutionalized torture, "reception" beatings, extrajudicial detention
+of civilians. The formal political transformation (USSR → Russian Federation) did not
+produce institutional discontinuity in detention culture. This is the pattern operating
+through the Institutional and Physical & Coercive layers: formal state transformation
+left the prison system's operational culture intact.
+CORROBORATION: PRELIMINARY (one primary source + one analytical observation; the
+gulag → Russian prison continuity is well-documented in the literature but needs
+formal extraction within the framework)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -1230,3 +1241,53 @@ CORROBORATION: PRELIMINARY (one primary source; the mechanism is recognizable in
 media engagement patterns, partisan media consumption, conspiracy theory adherence, and
 corporate employee engagement — but these instances need formal observation within the
 framework)
+
+### Categorical Blindness
+LAYERS: Thought & Narrative, Surveillance & Information
+STATEMENT: Systems of oppression organized along single axes produce structural
+invisibility at their intersections. Populations at the intersection of multiple systems
+are invisible to analyses, movements, and institutions organized around any single axis.
+MECHANISM: Each categorical system has an unmarked default (the most privileged member
+of the oppressed class). At the intersection of multiple systems, the person is outside
+every default. The invisibility is produced by the categories themselves — not by
+oversight but by categorical design.
+OBSERVED IN: principles/hooks-aint-i-a-woman.md P4 (Black women invisible to both
+feminism and Black liberation movements because each uses its most privileged member
+as the default subject)
+NOTE: May be an extension of Axiom 8 (absence as significant) + the Division of
+Learning rather than a fully distinct pattern. Monitor for independent confirmation.
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (1 source — hooks; recognizable in disability studies,
+queer theory, and postcolonial analysis)
+
+### The Boomerang
+LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
+STATEMENT: Methods of domination developed at the periphery of a political system —
+in colonies, zones of exception, or territories where normal constraints do not apply —
+migrate to the center and are applied to domestic populations.
+MECHANISM: Zones of exception function as laboratories for techniques of control
+unconstrained by metropolitan legal and political norms. Once tested and institutionally
+normalized, these techniques migrate inward through returning personnel, institutional
+knowledge transfer, and the political availability of "emergency" justifications.
+OBSERVED IN: principles/arendt-origins-of-totalitarianism.md P2 (the Boomerang Thesis
+— techniques of colonial domination returned to Europe; the camps and racial
+classification systems of imperialism became the raw material for totalitarianism),
+analyses/2026-03-02-wikipedia-article-operation-metro-surge.md (warrantless home entry,
+drones, overwhelming force, denial of access — methods documented in foreign military
+operations applied domestically in Minneapolis; participants explicitly cited the
+pattern; Trump compared the operation to the Venezuela intervention)
+NOTE: Roshchyna/ghost detainees analysis (2026-03-02) provides additional evidence:
+the article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags."
+This is the Boomerang operating across temporal rather than spatial boundaries — gulag-
+era methods applied to a new occupied civilian population. The institutional lineage
+is direct: the Russian prison system carries forward gulag-era practices (reception
+beatings, institutionalized torture, extrajudicial detention of civilians) from the
+Soviet system to the current occupation of Ukrainian territory.
+NOTE: Related to Serial Regime Change (same techniques across targets) and
+Constitutive Violence (foundational acts at the periphery). Distinct in describing
+directional flow: periphery → center (Arendt), or past → present (gulag → current
+Russian detention).
+EVIDENCE: —
+CORROBORATION: SUPPORTED (3 sources — Arendt theoretical account, Operation Metro
+Surge real-time confirmation with participant citation, Roshchyna analysis
+documenting gulag → occupation continuity)

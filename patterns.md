@@ -138,7 +138,8 @@ CORROBORATION: SUPPORTED (4 sources)
 LAYERS: Surveillance & Information, Economic, Institutional
 STATEMENT: Structural asymmetry of knowledge where one party can learn about, predict, and shape another who cannot access the data, predictions, or modifications applied to them.
 MECHANISM: Maintained through trade secret law, algorithmic opacity, proprietary data, and computational scale. Those who can see cannot be seen; those who are seen cannot see back.
-CORROBORATION: SUPPORTED (6 sources)
+NOTE: Wartime variant: occupied territory as total information asymmetry maintained through military force. The journalist who attempted to penetrate the blackhole was absorbed into the system she was documenting (Roshchyna/ghost detainees, Forbidden Stories 2026).
+CORROBORATION: SUPPORTED (7 sources)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -219,4 +220,5 @@ LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
 STATEMENT: Methods of domination developed at the periphery of a political system — in colonies, zones of exception, or territories where normal constraints do not apply — migrate to the center and are applied to domestic populations.
 MECHANISM: Zones of exception function as laboratories for techniques of control unconstrained by metropolitan legal and political norms. Once tested and institutionally normalized, these techniques migrate inward through returning personnel, institutional knowledge transfer, and the political availability of "emergency" justifications.
 NOTE: Related to Serial Regime Change (same techniques across targets) and Constitutive Violence (foundational acts at the periphery). Distinct in describing directional flow: periphery to center. Operation Metro Surge (2026) provides the first real-time empirical confirmation: warrantless home entry, drones, overwhelming force, denial of access to investigators, official accounts contradicted by evidence — all documented in foreign military operations, now applied domestically in Minneapolis. Participants explicitly cited the pattern. Trump compared the operation to the 2026 Venezuela intervention.
-CORROBORATION: SUPPORTED (2 sources — Arendt theoretical account + Operation Metro Surge real-time confirmation with participant citation)
+NOTE: Roshchyna/ghost detainees (Forbidden Stories 2026) adds temporal Boomerang: gulag-era methods (reception beatings, institutionalized torture, extrajudicial detention of civilians) applied to occupied Ukrainian population. The article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags."
+CORROBORATION: SUPPORTED (3 sources — Arendt theoretical account, Operation Metro Surge domestic confirmation, Roshchyna gulag-continuity confirmation)
