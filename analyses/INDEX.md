@@ -57,3 +57,9 @@
   Layers: Economic (primary), Physical & Coercive, Institutional
   Null case: plausible (MEDIUM — market responses are mechanical; structural beneficiary pattern warrants scrutiny)
   File: `2026-03-02-bbc-article-oil-gas-prices-iran-war.md`
+
+### 2026-03-02 — Operation Metro Surge (Wikipedia + 10 source links)
+  Domain: Domestic policy / immigration / civil liberties / federal-state relations
+  Layers: All six (all primary — first analysis where every layer is documented as primary)
+  Null case: rejected (LOW for operation overall and killings; MEDIUM for economic damage as unintended)
+  File: `2026-03-02-wikipedia-article-operation-metro-surge.md`
