@@ -81,3 +81,9 @@
   Layers: Physical & Coercive (primary), Surveillance & Information (primary), Thought & Narrative, Institutional
   Null case: rejected (LOW for system; MEDIUM for specific death circumstances)
   File: `2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees.md`
+
+### 2026-03-02 — West Bank settler violence and settlement expansion (Forbidden Stories/Gaza Project)
+  Domain: Military occupation / settlement / press freedom / international commerce
+  Layers: All six (Physical & Coercive, Economic, Legal & Regulatory primary)
+  Null case: rejected (LOW for eviction-expansion pipeline; MEDIUM for individual journalist incidents)
+  File: `2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md`

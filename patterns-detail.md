@@ -1196,9 +1196,18 @@ of civilians. The formal political transformation (USSR → Russian Federation) 
 produce institutional discontinuity in detention culture. This is the pattern operating
 through the Institutional and Physical & Coercive layers: formal state transformation
 left the prison system's operational culture intact.
-CORROBORATION: PRELIMINARY (one primary source + one analytical observation; the
-gulag → Russian prison continuity is well-documented in the literature but needs
-formal extraction within the framework)
+NOTE: West Bank settler violence analysis (2026-03-02) provides a third instance from
+an independent context: Abu Bashar's family displaced in 1948, 1967, and 2023 from the
+same territory — across the Nakba, post-1967 occupation, and post-October-7
+intensification. Three political configurations, same structural outcome: Bedouin
+displacement to make way for Israeli territorial expansion. This is the pattern operating
+across seven decades in the same territory, with the same family as witness. Combined
+with the Mississippi Delta (five regime changes, 150 years), the Russian prison system
+(Soviet → Federation), and this instance, the pattern now has three meaningfully
+independent contexts.
+CORROBORATION: SUPPORTED (three independent contexts — Mississippi Delta multi-regime
+survival, Soviet-to-Russian prison continuity, West Bank multi-displacement of the same
+family across political configurations)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information

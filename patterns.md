@@ -200,7 +200,8 @@ CORROBORATION: SUPPORTED (3 sources — Powell Memo blueprint, Whitehouse judici
 LAYERS: All layers
 STATEMENT: A power structure operating through multiple layers can survive regime changes that disrupt only some layers — by adapting form while maintaining structural continuity through undisrupted layers.
 MECHANISM: Reform targeting one or two layers leaves others intact. Control migrates from disrupted to undisrupted layers. Reform that targets fewer layers than the power structure occupies will fail to produce structural change.
-CORROBORATION: PRELIMINARY (1 primary source; recognizable in post-colonial, post-Soviet, and corporate contexts)
+NOTE: Abu Bashar's family displaced from Wadi al-Siq in 1948, 1967, and 2023 — three political configurations, same structural outcome: Bedouin displacement from the same territory (Forbidden Stories 2024). Combined with the Mississippi Delta (Cobb) and Soviet-to-Russian prison continuity, three independent contexts now documented.
+CORROBORATION: SUPPORTED (3 independent contexts)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
