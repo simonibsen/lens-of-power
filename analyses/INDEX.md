@@ -87,3 +87,9 @@
   Layers: All six (Physical & Coercive, Economic, Legal & Regulatory primary)
   Null case: rejected (LOW for eviction-expansion pipeline; MEDIUM for individual journalist incidents)
   File: `2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md`
+
+### 2026-03-02 — PRISONBREAK: AI-enabled influence operation against Iran (Citizen Lab)
+  Domain: Information warfare / AI fabrication / military-intelligence / platform governance
+  Layers: Thought & Narrative (primary), Surveillance & Information (primary), Physical & Coercive, Institutional, Economic
+  Null case: rejected (LOW for coordination and state involvement; MEDIUM for operation's significance given limited engagement)
+  File: `2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md`

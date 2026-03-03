@@ -453,9 +453,19 @@ against the dominant, Stanley describes the dominant using dominant ideology to
 reinforce dominance; "free speech" and "equal opportunity" deployed to protect the
 structures they nominally oppose; same judo mechanism, opposite direction)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (three sources; Stanley adds the inverse case — the dominant
-class can also use ideological judo, deploying its own legitimating ideals to block
-challenges to its position)
+analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md (the powerful
+exploit the weak's genuine resistance for strategic ends — PRISONBREAK documents
+Iranian citizens' real desire for freedom weaponized through AI deepfakes to serve
+Israeli military objectives; imprisoned singers' authentic activism appropriated
+without consent and reproduced in deepfake form as calls for uprising; the genuine
+grievances are real, but the uprising they are channeled toward serves a foreign
+state's goals; same judo mechanism as Scott and Cobb, opposite direction like Stanley,
+but with a new dimension: the weak's resistance is not merely blocked or co-opted but
+actively reproduced in fabricated form)
+EVIDENCE: —
+CORROBORATION: SUPPORTED (four sources; inverse application now documented from two
+directions — Stanley's dominant-uses-own-ideology-to-block-challenges, and PRISONBREAK's
+dominant-appropriates-subordinate's-resistance-to-serve-dominant's-objectives)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -691,11 +701,20 @@ arrives" confirms from the citizen's perspective — authoritarian consolidation
 exploits the unprecedented to paralyze response; the population's inability to
 categorize what is happening delays resistance past the point of effectiveness)
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two independent sources from different domains —
-Zuboff describes the unprecedented as sanctuary from the system-builder's
-perspective (digital capitalism), Snyder describes it from the citizen's
-perspective (democratic collapse); the mechanism operates through the same
-structural void: absence of categories for comprehension and response)
+analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md (AI deepfakes
+synchronized with active military strikes during the June 2025 Twelve-Day War against
+Iran — the Evin Prison deepfake posted during bombing, republished by multiple
+international news outlets before identification as fabricated; no verification
+infrastructure exists for real-time AI-generated content during active military
+operations; the void is exploited at its widest point: the intersection of AI
+fabrication, military operations, and platform distribution; the compound capability
+was not available in any previous conflict)
+EVIDENCE: —
+CORROBORATION: SUPPORTED (three sources — Zuboff from the system-builder's perspective,
+Snyder from the citizen's perspective, Citizen Lab from the military-information
+operations perspective; the void now documented as exploitable by states during
+active military operations, not only by commercial actors or authoritarian
+consolidation)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -859,11 +878,21 @@ Distinct from the three prior variants: this is not abdication under pressure (S
 gradual erosion (Hartmann), or structural dependency (Cobb) — it is voluntary, sudden,
 and presented as a gift to the governed. The "cultural tipping point" language and
 inauguration-adjacent timing suggest political alignment as the strategic motivation.)
-CORROBORATION: SUPPORTED (four sources; the Meta analysis adds a new variant:
-strategic, voluntary institutional abdication framed as liberation; the structural logic
-differs from prior observations — the institution does not collapse from within under
-pressure but strategically withdraws its own governance infrastructure while narrating
-the withdrawal as an expansion of freedom for those it governs)
+analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md (X/Twitter's
+elimination of integrity teams and non-response to Citizen Lab's PRISONBREAK notification
+represents platform abdication — the fifth variant. The platform has "reduce[d] the
+capacity of, or eliminate[d] altogether, internal teams responsible for removing
+coordinated, inauthentic content." The PRISONBREAK operation was detected by external
+academics, not by the platform. X's non-response converts the platform from a governed
+information space into ungoverned terrain available for exploitation by state-directed
+influence operations. Distinct from the four prior variants: not collapse under pressure,
+not gradual erosion, not structural dependency, not strategic withdrawal framed as
+liberation — but elimination of governance infrastructure as institutional indifference,
+where the resulting void is exploited by military-intelligence operations)
+CORROBORATION: SUPPORTED (five sources; five distinct mechanisms now documented:
+abdication under pressure (Snyder), gradual erosion (Hartmann), structural dependency
+(Cobb), strategic abdication as liberation (Meta), and platform abdication as
+institutional indifference (X/PRISONBREAK))
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
 and *redirected* from outside through strategic selection of personnel (Federalist

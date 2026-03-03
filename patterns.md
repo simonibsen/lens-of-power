@@ -81,7 +81,8 @@ CORROBORATION: SUPPORTED (4 sources)
 LAYERS: Thought & Narrative, Institutional, Economic
 STATEMENT: The weak exploit the gap between the powerful's legitimating ideology and their actual practice by holding the powerful to their own stated standards.
 MECHANISM: The powerful require a legitimating ideology containing standards they cannot meet while maintaining extraction. The weak demand consistent application. Structurally irresolvable: the powerful cannot abandon the ideology without losing legitimacy.
-CORROBORATION: SUPPORTED (3 sources)
+NOTE: Inverse application observed: PRISONBREAK (Citizen Lab 2025) documents the powerful exploiting the weak's genuine resistance for strategic ends — Iranian citizens' real desire for freedom weaponized through AI deepfakes to serve Israeli military objectives. The imprisoned singers' authentic activism is appropriated without consent and reproduced in deepfake form. Same mechanism, opposite direction.
+CORROBORATION: SUPPORTED (4 sources — Scott, Cobb, Stanley + Citizen Lab inverse)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -126,7 +127,8 @@ NOTE: Hegseth's "this is not Iraq, this is not endless" (2026-03-02) confirms th
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
 STATEMENT: New forms of power establish themselves by operating in conceptual, legal, and regulatory voids where existing frameworks have not developed responses.
 MECHANISM: No existing regulation applies. Public discourse lacks vocabulary for the harm. By the time understanding catches up, the practice has been normalized and infrastructure entrenched.
-CORROBORATION: SUPPORTED (2 sources)
+NOTE: AI-military compound variant: PRISONBREAK (Citizen Lab 2025) documents AI deepfakes synchronized with active military strikes — the Evin Prison deepfake posted during bombing, republished by multiple international news outlets before identification as fabricated. No verification infrastructure exists for real-time AI-generated content during active military operations. The void is exploited at its widest point: the intersection of AI fabrication, military operations, and platform distribution.
+CORROBORATION: SUPPORTED (3 sources)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -152,8 +154,8 @@ CORROBORATION: SUPPORTED (2 sources)
 LAYERS: Institutional, Legal & Regulatory
 STATEMENT: Institutions voluntarily abandon their structural roles under pressure, creating the vacuum that authoritarianism fills. Distinct from capture (active redirection) — here the institution stops functioning because professionals individually calculate compliance is safer.
 MECHANISM: Individually rational choices produce collective structural failure. Four stages: signaling norms are unenforced, individual calculation that independence is risky, abdication becoming general, institution persisting in form while ceasing to function.
-NOTE: Four distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), and strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed). DoE Kirk banner (2026-03-02) instantiates the strategic abdication variant: the institution deploys its authority to honor someone who called for its abolition, with "Empowering our States" as the liberation narrative.
-CORROBORATION: SUPPORTED (5 sources)
+NOTE: Five distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed), and platform abdication (elimination of integrity infrastructure, converting governed platform into ungoverned terrain). DoE Kirk banner (2026-03-02) instantiates the strategic abdication variant. X/Twitter's elimination of integrity teams and non-response to Citizen Lab's PRISONBREAK notification (2025) instantiates the platform abdication variant — the operation was detected by external academics, not by the platform.
+CORROBORATION: SUPPORTED (6 sources)
 
 ### The Peacetime Ratchet
 LAYERS: Economic, Institutional, Legal & Regulatory
