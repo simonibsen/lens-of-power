@@ -140,8 +140,8 @@ CORROBORATION: SUPPORTED (4 sources)
 LAYERS: Surveillance & Information, Economic, Institutional
 STATEMENT: Structural asymmetry of knowledge where one party can learn about, predict, and shape another who cannot access the data, predictions, or modifications applied to them.
 MECHANISM: Maintained through trade secret law, algorithmic opacity, proprietary data, and computational scale. Those who can see cannot be seen; those who are seen cannot see back.
-NOTE: Wartime variant: occupied territory as total information asymmetry maintained through military force. The journalist who attempted to penetrate the blackhole was absorbed into the system she was documenting (Roshchyna/ghost detainees, Forbidden Stories 2026).
-CORROBORATION: SUPPORTED (7 sources)
+NOTE: Wartime variant: occupied territory as total information asymmetry maintained through military force. The journalist who attempted to penetrate the blackhole was absorbed into the system she was documenting (Roshchyna/ghost detainees, Forbidden Stories 2026). AI amplification variant: manipulation at one platform (Wikipedia) propagates through AI systems that use it as training data, multiplying the information asymmetry without the manipulator needing to access downstream systems (Portland/TBIJ 2026).
+CORROBORATION: SUPPORTED (8 sources)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -174,8 +174,8 @@ CORROBORATION: PRELIMINARY (1 primary source + counter-evidence from jubilee tra
 LAYERS: Economic, Legal & Regulatory, Institutional
 STATEMENT: Concentrated wealth generates a specialized professional class whose structural function is to defend and grow that wealth, operating with its own institutional momentum.
 MECHANISM: Professionalizes and institutionalizes wealth defense. Creates permanent infrastructure for tax avoidance, asset protection, political influence, and narrative production. Self-reinforcing: its existence creates demand for its services.
-NOTE: Alley (2022) extends from domestic wealth defense to transnational kleptocratic enablement — the same professional class (lawyers, bankers, accountants) serves both domestic oligarchs and foreign kleptocrats, converting illicit extraction into legitimate assets across jurisdictions.
-CORROBORATION: SUPPORTED (4 sources)
+NOTE: Alley (2022) extends from domestic wealth defense to transnational kleptocratic enablement — the same professional class (lawyers, bankers, accountants) serves both domestic oligarchs and foreign kleptocrats, converting illicit extraction into legitimate assets across jurisdictions. Information-layer variant: PR firms (Portland Communications) as the reputation defence arm, operating at the Thought & Narrative layer through controlled information platforms (Wikipedia), with the same structural position as Alley's enabler architects but on a different layer (TBIJ 2026).
+CORROBORATION: SUPPORTED (5 sources)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
