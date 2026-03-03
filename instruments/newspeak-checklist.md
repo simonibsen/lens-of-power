@@ -9,8 +9,10 @@
 
 SOURCE: Synthesized from George Orwell's *1984* (1949) and "Politics
 and the English Language" (1946)
+
 TAXONOMY LAYERS: Thought & Narrative (primary), Legal & Regulatory,
 Institutional
+
 ANALYTICAL USE: During ANALYZE steps 1, 2, and 6 — detect language
 manipulation in source material. Also useful in EXTRACT mode step 2
 when identifying mechanisms of control in a body of work.

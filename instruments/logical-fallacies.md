@@ -11,8 +11,10 @@
 
 SOURCE: https://en.wikipedia.org/wiki/List_of_fallacies (plus academic
 references cited therein)
+
 TAXONOMY LAYERS: Thought & Narrative (primary), Institutional, Legal &
 Regulatory
+
 ANALYTICAL USE: During ANALYZE steps 1 (DECOMPOSE), 2 (SOURCE),
 5 (INVERT), and 6 (ABSENT)
 

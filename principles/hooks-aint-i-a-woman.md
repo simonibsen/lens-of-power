@@ -2,7 +2,9 @@
 
 SOURCE: bell hooks, *Ain't I a Woman?: Black Women and Feminism*,
 South End Press, 1981
+
 TYPE: Feminist theory / Critical race theory / Historical analysis
+
 CENTRAL THESIS: Black women occupy a unique position at the intersection
 of racial and gender oppression, and both the feminist movement and the
 civil rights movement have marginalized them by treating race and gender
@@ -78,19 +80,24 @@ blindness hooks identifies.
 ### SURVEY
 
 SOURCE: bell hooks, *Ain't I a Woman?* (1981)
+
 TYPE: Feminist theory / Critical race theory / Historical analysis
 THESIS: The intersection of racial and gender oppression produces
 structural invisibility that liberation movements organized around
 single axes cannot see.
+
 LAYERS ADDRESSED: All six (Thought & Narrative and Economic primary)
+
 PRINCIPLE CANDIDATE: yes — the work contains multiple generalizable
 principles about how power operates through categorical systems, how
 liberation movements reproduce domination, and how structural
 invisibility is produced.
+
 INSTRUMENT CANDIDATE: no — the concept of intersectional invisibility
 functions better as a principle directive (a question to ask during
 analysis) than as a standalone diagnostic instrument. The principles
 themselves embed the analytical method.
+
 RATIONALE: hooks' contribution is a set of structural insights about
 how categorical systems produce blindness, not a catalog of items
 to check. The principles encode the analytical approach.
@@ -129,29 +136,35 @@ PRINCIPLE: When a liberation movement defines its subject through a
 single axis of oppression, it defaults to the most privileged members
 of the oppressed group, rendering those at the intersection of
 multiple oppressions invisible.
+
 LAYERS: Thought & Narrative, Institutional
+
 MECHANISM: The feminist movement's subject defaulted to "white woman."
 The civil rights movement's subject defaulted to "Black man." Those at
 the intersection — Black women — were visible to neither because each
 movement's categorical structure assumed the other axis of privilege.
 The default subject is not neutral; it is the most privileged member
 of the oppressed class.
+
 EVIDENCE FROM WORK: The suffrage movement's tactical alliance with
 white supremacists (Susan B. Anthony and Elizabeth Cady Stanton
 opposing the Fifteenth Amendment because it enfranchised Black men
 before white women). The civil rights movement's relegation of women
 to support roles. Black women repeatedly asked to choose between
 racial and gender solidarity.
+
 GENERALIZES TO: Any liberation movement organized around a single
 axis. Disability rights defaulting to able-bodied white men with
 disabilities. LGBTQ+ movements defaulting to white cisgender gay men.
 Labor movements defaulting to male industrial workers. The mechanism
 applies wherever a movement's categorical structure has an unmarked
 default.
+
 FRAMEWORK STATUS: Extends Axiom 8 (absence as significant) — the
 absence is produced by the categorical structure itself. Extends the
 Middle Stratum Trap — those slightly above on each axis protect their
 marginal privilege at the expense of those below on both.
+
 STATUS: observed
 
 ### H2: The Devaluation Architecture
@@ -160,7 +173,9 @@ PRINCIPLE: Systems of domination require an ideological apparatus that
 constructs the dominated as categorically different — not merely
 inferior but a different kind of being — to make domination appear
 natural rather than constructed.
+
 LAYERS: Thought & Narrative (primary), Economic, Physical & Coercive
+
 MECHANISM: The ideology of "true womanhood" (piety, purity,
 submissiveness, domesticity) was constructed as inherently white. Black
 women were excluded from the category "woman" by definition — their
@@ -168,23 +183,27 @@ labor, sexuality, and social position were constructed as categorically
 different from white women's. This is not incidental prejudice; it is
 the ideological infrastructure that makes racialized gender domination
 appear as the natural order.
+
 EVIDENCE FROM WORK: The cult of true womanhood excluded Black women by
 construction. Slavery positioned Black women as property and labor
 units, not as "women" in the ideological sense. Post-emancipation, the
 myth of the Black matriarch (Moynihan Report, 1965) blamed Black women
 for the structural effects of racism — converting systemic damage into
 cultural pathology.
+
 GENERALIZES TO: Colonial categorization of "savage" vs. "civilized."
 Class-based categorization of "deserving" vs. "undeserving" poor. Any
 system requiring a devaluation apparatus to make domination appear
 natural. The mechanism: construct the dominated as categorically
 different so that their treatment appears to follow from their nature
 rather than from an exercise of power.
+
 FRAMEWORK STATUS: Confirms Axiom 3 (invisible power through
 naturalization). Confirms Axiom 6 (language as instrument — the
 categories are the instrument). Extends Appearance as Structural
 Terrain — the categorical system is the terrain on which domination
 operates.
+
 STATUS: observed
 
 ### H3: Liberation Movement Reproduction of Domination
@@ -192,29 +211,35 @@ STATUS: observed
 PRINCIPLE: Liberation movements reproduce the power structures they
 oppose when they adopt the categorical assumptions of the dominant
 system — defining freedom in terms set by the oppressor.
+
 LAYERS: Thought & Narrative, Institutional
+
 MECHANISM: The feminist movement adopted the racial assumptions of
 white supremacy. The civil rights movement adopted the gender
 assumptions of patriarchy. Each movement's emancipatory project was
 constrained by the categories it did not question. Liberation within
 the dominant category system produces a different distribution of
 privilege, not a structural transformation.
+
 EVIDENCE FROM WORK: The suffrage movement's alliance with white
 supremacy. The civil rights movement's treatment of women as
 auxiliary. The "Black matriarchy" myth as acceptance of the patriarchal
 frame — blaming Black women for not conforming to a family structure
 that oppression made impossible.
+
 GENERALIZES TO: Post-colonial states reproducing colonial economic
 structures (Fanon's relay class). Union movements reproducing racial
 hierarchies. Anti-colonial movements reproducing patriarchal
 structures. Any liberation project that does not examine the
 categorical system it operates within will reproduce elements of what
 it opposes.
+
 FRAMEWORK STATUS: Extends the Relay Class pattern — the mechanism
 applies not just to economic relay but to categorical relay. Extends
 the Three Phases of Cultural Resistance — hooks describes the failure
 mode of the first two phases (assimilation and essentialism). Both
 accept the dominant category system and rearrange positions within it.
+
 STATUS: inferred (hooks demonstrates the pattern in specific cases;
 the generalization beyond those cases is inference)
 
@@ -224,7 +249,9 @@ PRINCIPLE: Invisibility at the intersection of multiple systems of
 oppression is not an oversight but a structural product of how those
 systems categorize their subjects. The intersection is invisible
 because neither system's categories can see it.
+
 LAYERS: Thought & Narrative, Surveillance & Information
+
 MECHANISM: Each system of oppression has its own categorical structure:
 racism categorizes by race (unmarked default: male), sexism
 categorizes by gender (unmarked default: white). At the intersection,
@@ -232,21 +259,25 @@ the person is visible to neither system's default gaze. This is a
 structural property of categorical systems of domination, not
 accidental omission. Making the intersection visible requires holding
 multiple systems in view simultaneously.
+
 EVIDENCE FROM WORK: hooks' central argument. Sojourner Truth's "Ain't
 I a Woman?" speech (1851) as the original articulation of this
 structural invisibility — Truth was a woman and Black, and neither
 category as institutionally defined could see her. hooks shows this
 structural blindness persisting through the 1970s in both feminist
 and civil rights movements.
+
 GENERALIZES TO: Any intersection of multiple oppressive systems. The
 mechanism predicts that populations at intersections will be the last
 to be seen by movements organized around single axes, and the first
 to fall through statistics designed to measure inequality along single
 dimensions.
+
 FRAMEWORK STATUS: Extends Axiom 8 (absence as significant) — the
 absence is produced by categorical structure. Extends the Division of
 Learning — the asymmetry of knowledge is produced by the categorical
 system's inability to see its own blind spots.
+
 STATUS: inferred (the structural mechanism is hooks' argument; the
 generalization to all intersections is inference)
 
@@ -255,7 +286,9 @@ generalization to all intersections is inference)
 PRINCIPLE: Systems of domination attribute the structural effects of
 oppression to the character or culture of the oppressed, converting
 systemic outcomes into individual or group moral failure.
+
 LAYERS: Thought & Narrative (primary), Economic, Institutional
+
 MECHANISM: The Moynihan Report (1965) identified Black family
 instability as the cause of Black poverty when it was a consequence
 of slavery, Jim Crow, and structural racism. The structural effects
@@ -263,19 +296,23 @@ of oppression — broken families, poverty, educational disadvantage —
 are attributed to the oppressed population's own characteristics. This
 then justifies continued intervention and surveillance. The oppressed
 are blamed for the damage oppression inflicted on them.
+
 EVIDENCE FROM WORK: The Moynihan Report's "Black matriarchy" thesis.
 The "welfare queen" narrative. The persistent pattern of attributing
 the effects of structural racism to Black cultural pathology.
+
 GENERALIZES TO: "Culture of poverty" arguments applied to any
 impoverished population. "Failed state" narratives applied to
 post-colonial nations. Attributing the effects of austerity or
 deindustrialization to the character of affected communities.
 The mechanism converts systemic causation into moral judgment.
+
 FRAMEWORK STATUS: Confirms and extends Inversion of Stated Purpose —
 the stated purpose of social analysis (understanding causes) is
 inverted into a mechanism of control (blaming the affected). Confirms
 the Moral Infrastructure of Economic Power — moral language converts
 structural relationships into individual responsibilities.
+
 STATUS: observed
 
 ### H6: Cross-Axis Complicity
@@ -284,7 +321,9 @@ PRINCIPLE: Members of an oppressed group who hold privilege on another
 axis can function as active agents of domination along that axis.
 Oppressed status on one dimension does not prevent functioning as
 oppressor on another.
+
 LAYERS: Thought & Narrative, Physical & Coercive, Economic
+
 MECHANISM: White women under patriarchy were simultaneously oppressed
 by gender and beneficiaries of racial hierarchy. Slave-owning women
 exercised direct racial domination. The suffrage movement allied with
@@ -292,20 +331,24 @@ white supremacy to advance gender interests at the expense of racial
 justice. Privilege on one axis creates structural incentives to protect
 that privilege even at the expense of solidarity with those oppressed
 on other axes.
+
 EVIDENCE FROM WORK: Slave-owning women's direct participation in the
 brutality of slavery. The suffrage movement's tactical alliance with
 white supremacists. The feminist movement's persistent erasure of
 Black women's experience.
+
 GENERALIZES TO: Middle-class workers supporting anti-immigrant
 policies. Racial minorities within wealthy nations supporting imperial
 foreign policy. Any situation where privilege on one axis creates
 incentives to protect that privilege over solidarity across another.
+
 FRAMEWORK STATUS: Extends the Middle Stratum Trap — the mechanism
 operates not just vertically (middle tier preventing downward
 solidarity) but across axes (privilege on one axis preventing
 solidarity across another). Confirms Axiom 2 (layers reinforce) —
 racial and gender layers interact to produce complicity patterns
 that neither layer alone would predict.
+
 STATUS: observed
 
 ---
@@ -351,14 +394,18 @@ multiple systems of domination operate simultaneously, populations at
 the intersection will be invisible to analyses, movements, and
 institutions organized around any single axis. This is a structural
 property of categorical systems, not an oversight.
+
 LAYERS: Thought & Narrative, Surveillance & Information
+
 MECHANISM: Each categorical system has an unmarked default (the most
 privileged member of the oppressed class). At the intersection of
 multiple systems, the person is outside every default. The invisibility
 is produced by the categories themselves.
+
 CORROBORATION: PRELIMINARY (1 source; but the mechanism is
 recognizable in disability studies, queer theory, and postcolonial
 analysis)
+
 NOTE: May be an extension of Axiom 8 (absence as significant) + the
 Division of Learning rather than a distinct pattern. Monitor for
 independent confirmation.

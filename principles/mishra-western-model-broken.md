@@ -2,7 +2,9 @@
 
 SOURCE: Pankaj Mishra, "The western model is broken," *The Guardian*,
 14 October 2014
+
 TYPE: Long-form essay (opinion/analysis)
+
 CENTRAL THESIS: The western model of development — nation-state, liberal
 democracy, industrial capitalism — is historically contingent, was forged
 through violence and colonial extraction, and cannot be replicated by the
@@ -96,7 +98,9 @@ economic growth, and satisfy democratic demands face structurally different
 — and far more volatile — conditions than societies that sequenced these
 tasks across centuries. The prescription to do all three at once is not a
 harder version of the same problem; it is a different problem.
+
 LAYERS: Institutional, Economic, Legal & Regulatory, Thought & Narrative
+
 MECHANISM: European states built coercive and administrative capacity
 before extending democratic rights, and achieved industrial growth before
 granting universal suffrage. This sequencing allowed each phase to
@@ -106,23 +110,27 @@ depleted resources, and populations whose political consciousness was
 awakened by the independence struggle itself. The structural impossibility
 is masked by the language of "development" which implies the same
 destination is reachable by the same path.
+
 EVIDENCE FROM WORK: Aron's observation that "no European country ever went
 through the phase of economic development which India and China are now
 experiencing, under a regime that was representative and democratic."
 Weber's documentation that French state-building was "uniformly brutal."
 D'Azeglio's "We have made Italy; now we must make the Italians" — state
 first, citizens after.
+
 GENERALIZES TO: Any context where a model's success conditions are
 historically specific but the model is prescribed as universal. Applies to
 institutional transplantation generally — judicial systems, market
 structures, governance frameworks imposed without the institutional
 substrate that made them functional elsewhere. Applicable to contemporary
 "institution-building" in post-conflict states (Afghanistan, Iraq, Libya).
+
 FRAMEWORK STATUS: Extends Axiom 3 (contingency invisible) — the
 contingency hidden is the historical sequencing that made the model work.
 Extends Axiom 7 (stated vs. function) — the stated purpose of the
 prescription is development; its function is to orient non-western
 economies and institutions toward western frameworks regardless of fit.
+
 STATUS: inferred
 
 ### M2: Enabling Condition Consumption
@@ -132,7 +140,9 @@ success — colonial resource extraction, surplus population export, small
 homogeneous polities, abundant frontier — were partly consumed or
 destroyed by that success. The model cannot be replicated because its
 first execution altered the conditions it depended on.
+
 LAYERS: Economic, Physical & Coercive, Institutional
+
 MECHANISM: European industrial development drew on colonial extraction
 of resources, labor, and markets. Colonial subjects could not later draw
 on the same sources because they had been depleted, and because the
@@ -140,6 +150,7 @@ colonial power retained structural advantages (trade networks,
 institutional knowledge, capital accumulation) from the first-mover
 period. The model is self-consuming: it works once and removes the
 conditions for repetition.
+
 EVIDENCE FROM WORK: Bayly's observation that European and American
 dominance "turned a large part of humanity into long-term losers in the
 scramble for resources and dignity." Davidson's argument that imperialism
@@ -148,16 +159,19 @@ development" and "imposed ruinous ideologies and institutions upon
 societies that had developed their own viable political units." The
 Economist's admission (2014) that emerging economies "might have to wait
 for three centuries in order to catch up."
+
 GENERALIZES TO: Any system where the first mover's success structurally
 disadvantages later entrants. Applies to platform economics (network
 effects), technological dominance (patent regimes), and financial systems
 (reserve currency privilege). The Chen (2026) "full stack" AI export
 requirement is a contemporary instance.
+
 FRAMEWORK STATUS: Extends Manufactured Scarcity — scarcity is not only
 deliberately maintained but was constitutively produced by the process
 being recommended for replication. Extends Constitutive Violence — the
 foundational violence is not only constitutive of the current order but
 consumptive of the conditions for alternatives.
+
 STATUS: inferred
 
 ### M3: The Teleological Screen
@@ -167,7 +181,9 @@ societies must evolve along a single path toward a known destination —
 functions as a screen that prevents structural analysis of why the
 prescribed path fails. Failure is attributed to the society's inadequacy
 rather than to the model's inapplicability.
+
 LAYERS: Thought & Narrative (primary), Institutional
+
 MECHANISM: If "progress" is defined as movement along a single axis
 toward a known endpoint (western liberal democracy + capitalism), then
 societies that do not reach the endpoint are "behind" or "failing" —
@@ -176,6 +192,7 @@ the model itself is flawed or inapplicable. The teleological frame
 converts structural critique into a confession of backwardness. Language
 does the work: "developing," "emerging," "transitional" all presuppose
 a single destination.
+
 EVIDENCE FROM WORK: Niebuhr's critique of those who "regard the highly
 contingent achievements of our culture as the final form and norm of
 human existence." Herzen's 1862 question: "Why should a nation that has
@@ -183,6 +200,7 @@ developed in its own way live through the European past?" Fukuyama's
 2014 insistence that "we should have no doubt as to what kind of society
 lies at the end of History." The persistence of the frame despite serial
 failure — from modernization theory through shock therapy through Iraq.
+
 GENERALIZES TO: Any context where a teleological narrative forecloses
 structural critique. Applies to technology determinism ("all industries
 will be disrupted"), market fundamentalism ("all economies must
@@ -190,6 +208,7 @@ liberalize"), and historical materialism ("all societies must pass through
 feudalism, capitalism, socialism"). The mechanism is the same: a
 predetermined endpoint converts critique of the path into evidence of
 the critic's backwardness.
+
 FRAMEWORK STATUS: Confirms Axiom 3 (power most effective when contingency
 invisible) — the teleological frame makes the western model's contingency
 invisible by definition. Confirms Axiom 6 (language as first instrument)
@@ -197,6 +216,7 @@ invisible by definition. Confirms Axiom 6 (language as first instrument)
 being formulated. Confirms Inversion of Stated Purpose — stated purpose
 is universal human progress; function is to maintain western institutional
 and economic frameworks as the only legitimate reference point.
+
 STATUS: inferred
 
 ### M4: The Relay of Legitimation
@@ -205,7 +225,9 @@ PRINCIPLE: Postcolonial ruling elites derive their legitimacy from the
 promise of "catching up" with the west. This founding commitment locks
 them into perpetuating the western model regardless of its results,
 because abandoning the model would undermine the basis of their authority.
+
 LAYERS: Institutional, Thought & Narrative, Economic
+
 MECHANISM: Nationalist leaders established their legitimacy as
 "modernizers" who would deliver western-style prosperity and sovereignty.
 Subsequent ruling classes — whether socialist or neoliberal — inherit this
@@ -215,17 +237,20 @@ which would destroy their claim to rule. The result is continued pursuit
 of a model that produces disorder, authoritarianism, and inequality,
 because the alternative — acknowledging structural impossibility — is
 politically fatal.
+
 EVIDENCE FROM WORK: Mishra's observation that recent ruling classes "have
 looked to McKinsey rather than Marx" but "have not dared to alter the
 founding basis of their legitimacy as 'modernisers' leading their
 countries to convergence with the west." The trajectory from Atatürk and
 Nehru through contemporary neoliberal elites — the personnel and ideology
 change, the structural commitment to western-model catch-up does not.
+
 GENERALIZES TO: Any context where elite legitimacy is bound to a specific
 framework that cannot deliver on its promises. Applicable to technocratic
 elites committed to "innovation" narratives, institutional reformers
 committed to "best practices," and development agencies committed to
 metrics that measure convergence with western norms.
+
 FRAMEWORK STATUS: Extends the Relay Class pattern — Fanon's national
 bourgeoisie reproduces extraction under a new flag; Mishra adds that the
 relay is locked in by the legitimation structure itself, not only by
@@ -233,6 +258,7 @@ economic incentive. The relay class cannot exit the relay role without
 losing legitimacy. Confirms Appearance as Structural Terrain — the
 appearance of pursuing development IS the terrain on which political
 authority operates.
+
 STATUS: inferred
 
 ---

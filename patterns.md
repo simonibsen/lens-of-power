@@ -50,7 +50,7 @@ STATEMENT: Abundance is deliberately prevented or destroyed because material sec
 
 MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, debt-based, and network-effect-based channels.
 
-NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements (Chen 2026) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants (Mishra 2014).
+NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements ([Chen 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-datasociety-policybrief-big-ai-state.md)) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants ([Mishra 2014](https://github.com/simonibsen/lens-of-power/blob/main/principles/mishra-western-model-broken.md)).
 
 CORROBORATION: SUPPORTED (9 sources)
 
@@ -115,7 +115,7 @@ STATEMENT: The weak exploit the gap between the powerful's legitimating ideology
 
 MECHANISM: The powerful require a legitimating ideology containing standards they cannot meet while maintaining extraction. The weak demand consistent application. Structurally irresolvable: the powerful cannot abandon the ideology without losing legitimacy.
 
-NOTE: Inverse application observed: PRISONBREAK (Citizen Lab 2025) documents the powerful exploiting the weak's genuine resistance for strategic ends — Iranian citizens' real desire for freedom weaponized through AI deepfakes to serve Israeli military objectives. The imprisoned singers' authentic activism is appropriated without consent and reproduced in deepfake form. Same mechanism, opposite direction.
+NOTE: Inverse application observed: PRISONBREAK ([Citizen Lab 2025](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md)) documents the powerful exploiting the weak's genuine resistance for strategic ends — Iranian citizens' real desire for freedom weaponized through AI deepfakes to serve Israeli military objectives. The imprisoned singers' authentic activism is appropriated without consent and reproduced in deepfake form. Same mechanism, opposite direction.
 
 CORROBORATION: SUPPORTED (4 sources — Scott, Cobb, Stanley + Citizen Lab inverse)
 
@@ -186,7 +186,7 @@ STATEMENT: New forms of power establish themselves by operating in conceptual, l
 
 MECHANISM: No existing regulation applies. Public discourse lacks vocabulary for the harm. By the time understanding catches up, the practice has been normalized and infrastructure entrenched.
 
-NOTE: AI-military compound variant: PRISONBREAK (Citizen Lab 2025) documents AI deepfakes synchronized with active military strikes — the Evin Prison deepfake posted during bombing, republished by multiple international news outlets before identification as fabricated. No verification infrastructure exists for real-time AI-generated content during active military operations. The void is exploited at its widest point: the intersection of AI fabrication, military operations, and platform distribution.
+NOTE: AI-military compound variant: PRISONBREAK ([Citizen Lab 2025](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md)) documents AI deepfakes synchronized with active military strikes — the Evin Prison deepfake posted during bombing, republished by multiple international news outlets before identification as fabricated. No verification infrastructure exists for real-time AI-generated content during active military operations. The void is exploited at its widest point: the intersection of AI fabrication, military operations, and platform distribution.
 
 CORROBORATION: SUPPORTED (3 sources)
 
@@ -292,7 +292,7 @@ STATEMENT: Institutional capture operates through a multi-stage pipeline: person
 
 MECHANISM: Each stage appears normal in isolation. The capture is invisible because coordination across stages is concealed by the apparent independence of participants — many funded through the same dark money pipeline but appearing organizationally independent.
 
-NOTE: Ziklag (ProPublica 2024) provides the first primary-source documentation where the pipeline operators describe the pipeline in their own words. The Seven Mountain Mandate articulates capture across all societal sectors; three named operations (Checkmate, Steeplechase, Watchtower) document the pipeline from donor funding through organizational networks (ADF, TPUSA, CPI) to electoral and institutional outcomes. Combined with Whitehouse's judicial pipeline and the Powell Memo blueprint, the pattern is confirmed across three independent documented contexts.
+NOTE: Ziklag ([ProPublica 2024](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md)) provides the first primary-source documentation where the pipeline operators describe the pipeline in their own words. The Seven Mountain Mandate articulates capture across all societal sectors; three named operations (Checkmate, Steeplechase, Watchtower) document the pipeline from donor funding through organizational networks (ADF, TPUSA, CPI) to electoral and institutional outcomes. Combined with Whitehouse's judicial pipeline and the Powell Memo blueprint, the pattern is confirmed across three independent documented contexts.
 
 CORROBORATION: SUPPORTED (3 sources — Powell Memo blueprint, Whitehouse judicial pipeline, Ziklag primary-source documentation)
 
@@ -303,7 +303,7 @@ STATEMENT: A power structure operating through multiple layers can survive regim
 
 MECHANISM: Reform targeting one or two layers leaves others intact. Control migrates from disrupted to undisrupted layers. Reform that targets fewer layers than the power structure occupies will fail to produce structural change.
 
-NOTE: Abu Bashar's family displaced from Wadi al-Siq in 1948, 1967, and 2023 — three political configurations, same structural outcome: Bedouin displacement from the same territory (Forbidden Stories 2024). Combined with the Mississippi Delta (Cobb) and Soviet-to-Russian prison continuity, three independent contexts now documented.
+NOTE: Abu Bashar's family displaced from Wadi al-Siq in 1948, 1967, and 2023 — three political configurations, same structural outcome: Bedouin displacement from the same territory ([Forbidden Stories 2024](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md)). Combined with the Mississippi Delta (Cobb) and Soviet-to-Russian prison continuity, three independent contexts now documented.
 
 CORROBORATION: SUPPORTED (3 independent contexts)
 
@@ -336,6 +336,6 @@ MECHANISM: Zones of exception function as laboratories for techniques of control
 
 NOTE: Related to Serial Regime Change (same techniques across targets) and Constitutive Violence (foundational acts at the periphery). Distinct in describing directional flow: periphery to center. Operation Metro Surge (2026) provides the first real-time empirical confirmation: warrantless home entry, drones, overwhelming force, denial of access to investigators, official accounts contradicted by evidence — all documented in foreign military operations, now applied domestically in Minneapolis. Participants explicitly cited the pattern. Trump compared the operation to the 2026 Venezuela intervention.
 
-NOTE: Roshchyna/ghost detainees (Forbidden Stories 2026) adds temporal Boomerang: gulag-era methods (reception beatings, institutionalized torture, extrajudicial detention of civilians) applied to occupied Ukrainian population. The article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags."
+NOTE: Roshchyna/ghost detainees ([Forbidden Stories 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees.md)) adds temporal Boomerang: gulag-era methods (reception beatings, institutionalized torture, extrajudicial detention of civilians) applied to occupied Ukrainian population. The article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags."
 
 CORROBORATION: SUPPORTED (3 sources — Arendt theoretical account, Operation Metro Surge domestic confirmation, Roshchyna gulag-continuity confirmation)

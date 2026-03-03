@@ -8,7 +8,9 @@
 > Derived from: principles/orwell-1984.md
 
 SOURCE: Synthesized from George Orwell's *1984* (1949)
+
 TAXONOMY LAYERS: All layers (escalation moves through them)
+
 ANALYTICAL USE: During ANALYZE step 3 (LOCATE) and step 7 (SO-WHAT) —
 assess where a system sits on this ladder and whether it is ascending.
 
