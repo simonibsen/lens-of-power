@@ -38,7 +38,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Economic, Thought & Narrative
 STATEMENT: Abundance is deliberately prevented or destroyed because material security reduces dependency and enables independence.
 MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, debt-based, and network-effect-based channels.
-CORROBORATION: SUPPORTED (6 sources)
+NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026.
+CORROBORATION: SUPPORTED (7 sources)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional

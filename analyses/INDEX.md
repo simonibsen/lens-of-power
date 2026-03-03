@@ -51,3 +51,9 @@
   Layers: Thought & Narrative, Institutional, Legal & Regulatory, Physical & Coercive
   Null case: rejected (LOW for strategic operation and student deportations; MEDIUM for tactical preemptive decision)
   File: `2026-03-02-guardian-liveblog-iran-war-powers-domestic.md`
+
+### 2026-03-02 — Oil and gas prices jump as Iran conflict escalates (BBC)
+  Domain: Economics / energy / global markets
+  Layers: Economic (primary), Physical & Coercive, Institutional
+  Null case: plausible (MEDIUM — market responses are mechanical; structural beneficiary pattern warrants scrutiny)
+  File: `2026-03-02-bbc-article-oil-gas-prices-iran-war.md`
