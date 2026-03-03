@@ -98,7 +98,9 @@ provide the text.
 Produce the prose analysis defined in the READ mode procedure of methodology.md.
 Output directly to the conversation — do not write to file unless the user asks.
 No structured steps, no briefing format, no evidence entries, no framework
-update proposals. IC-2 and IC-5 still apply.
+update proposals. IC-2 and IC-5 still apply. End with Framework references,
+then an escalation recommendation (analyze / extract / none) with reasons,
+as defined in methodology.md.
 
 ### For ANALYZE mode:
 Produce the structured step-by-step output defined in methodology.md,

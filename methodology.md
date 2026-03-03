@@ -73,12 +73,22 @@ updates. Does not write to file unless the user asks.
    register. Claim discipline still applies — distinguish observed from
    inferred from speculative, using signal vocabulary rather than STATUS tags.
 
-**Escalation signal**: If the material warrants deeper treatment, end with
-a single sentence recommending `/lop analyze` (for structured working,
-evidence entries, and framework updates) or `/lop extract` (if the source
-contains principles or instruments worth adding to the knowledge base).
-This is conditional — only when the material genuinely calls for it, not
-as a routine closing.
+**Escalation recommendation**: The final section of every READ mode output
+(after the Framework references) is a brief recommendation on whether the
+material warrants `/lop analyze` or `/lop extract`, or neither. This
+section always appears — it is not conditional. Format:
+
+```
+**Next step**: [analyze / extract / none recommended]
+[1-3 sentences explaining why. Name the specific framework value that
+would or would not result — e.g., evidence entries, pattern updates,
+new corroboration for an existing pattern, principles or instruments
+worth adding to the knowledge base. "None recommended" with reasons
+is itself informative.]
+```
+
+The recommendation makes the option visible, the reasoning transparent,
+and prevents ambiguity about whether escalation was considered.
 
 **What READ mode is not**: It is not a summary or a reaction. It is the
 framework's lens applied to material, producing genuine analytical insight —
