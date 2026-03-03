@@ -918,6 +918,29 @@ Record the output in `evidence/` with tags:
   - Structured working (Steps 1-7) and internal fields (STATUS,
     LAYER, CORROBORATION) do not require this treatment — they are
     already within the framework's context.
+- **Markdown field formatting**: When writing field-based content to
+  files (principles, instruments, patterns, patterns-detail, evidence),
+  always place a blank line between consecutive field lines. Consecutive
+  lines without blank lines collapse into a single paragraph in standard
+  markdown renderers. Write:
+  ```
+  PRINCIPLE: Control of narrative is control of possibility.
+
+  LAYERS: Thought & Narrative
+
+  MECHANISM: ...
+  ```
+  Not:
+  ```
+  PRINCIPLE: Control of narrative is control of possibility.
+  LAYERS: Thought & Narrative
+  MECHANISM: ...
+  ```
+  This applies to all fields (LAYERS, STATEMENT, MECHANISM, NOTE,
+  CORROBORATION, STATUS, EVIDENCE FROM WORK, GENERALIZES TO, SOURCE,
+  TAXONOMY LAYERS, ANALYTICAL USE, OBSERVED IN, etc.). Templates in
+  this methodology show the field structure compactly inside code blocks
+  for readability — the blank-line rule applies when writing actual files.
 - Mark evidentiary basis on every claim: **observed** (directly present
   in material), **inferred** (follows from reasoning), **speculative**
   (plausible but beyond direct evidence).
