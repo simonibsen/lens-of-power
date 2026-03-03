@@ -111,13 +111,14 @@ CORROBORATION: SUPPORTED (1 source, independently recognizable across diverse do
 LAYERS: Thought & Narrative, Surveillance & Information
 STATEMENT: Continuous live coverage that reports all facts but prevents synthesis functions as narrative control — not by suppressing information but by overwhelming processing capacity.
 MECHANISM: Every fact is reported; no fact is evaluated. The volume of information substitutes for analysis, producing an informed but analytically paralyzed audience.
-CORROBORATION: SUPPORTED (2 sources — empirical observation + theoretical account; variant mechanism (selective construction) observed in Fox News analysis)
+CORROBORATION: SUPPORTED (3 sources — empirical observation + theoretical account; variant mechanism (selective construction) observed in Fox News analysis; variant mechanism (structurally related stories presented as unrelated) observed in Day 3 Guardian live blog)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
 STATEMENT: A state repeatedly applies the same military intervention template across different targets, each time presenting the operation as unique while following an identical structural pattern.
 MECHANISM: Construct threat narrative, build coalition, aerial bombardment, declare success, leave destabilized state. Framing each war as unprecedented obscures the serial nature.
-CORROBORATION: SUPPORTED (2 analyses + extensive public record)
+CORROBORATION: SUPPORTED (3 analyses + extensive public record)
+NOTE: Hegseth's "this is not Iraq, this is not endless" (2026-03-02) confirms the administration recognizes the Serial Regime Change parallel as politically dangerous enough to preempt.
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative

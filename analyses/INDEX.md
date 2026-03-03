@@ -45,3 +45,9 @@
   Layers: Thought & Narrative, Institutional
   Null case: rejected (LOW — pairing and framing too deliberate; MEDIUM for coordination level)
   File: `2026-03-02-guardian-article-doe-charlie-kirk-banner.md`
+
+### 2026-03-02 — US-Israeli war on Iran: domestic political response (Day 3 Guardian live blog)
+  Domain: US foreign policy / military / domestic politics / civil liberties
+  Layers: Thought & Narrative, Institutional, Legal & Regulatory, Physical & Coercive
+  Null case: rejected (LOW for strategic operation and student deportations; MEDIUM for tactical preemptive decision)
+  File: `2026-03-02-guardian-liveblog-iran-war-powers-domestic.md`
