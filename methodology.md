@@ -10,6 +10,11 @@
 
 Select a mode based on the task:
 
+### READ mode
+**Input**: A piece of new information (article, speech, policy, event, claim)
+**Output**: Concise prose analysis drawing on the full framework context
+**When to use**: Understanding material through the lens without producing the full structured pipeline
+
 ### ANALYZE mode
 **Input**: A piece of new information (article, speech, policy, event, claim)
 **Output**: Structured analysis revealing power dynamics, mechanisms, and connections
@@ -28,6 +33,58 @@ some yield neither.
 **Input**: The framework itself
 **Output**: Framework health assessment, confirmation bias check, falsifiability review
 **When to use**: Periodically, or when the framework is producing suspiciously consistent results
+
+---
+
+## READ mode procedure
+
+A lighter analytical mode for understanding material through the framework's
+lens without producing the full structured pipeline.
+
+**Input**: Same as ANALYZE — an article, speech, policy, event, claim, or URL.
+
+**Output**: A concise prose analysis (1-3 pages) that reads like an analytical
+essay. No structured step-by-step output, no briefing format, no evidence
+entries, no framework update proposals.
+
+**Does not produce**: Structured working steps, numbered findings, briefing
+header, analytical apparatus section, evidence entries, or pattern/framework
+updates. Does not write to file unless the user asks.
+
+**Procedure**:
+
+1. Load the framework context: `constitution.md`, `taxonomy.md`, `patterns.md`,
+   `principles/INDEX.md`. Load instruments only if they become relevant during
+   the reading — do not load all instruments by default.
+
+2. Read the material. Produce a prose analysis that:
+
+   - Identifies which layers of power are active and how they interact
+   - Names which patterns from `patterns.md` appear and why
+   - Draws on principles from `principles/INDEX.md` where they illuminate
+     the material
+   - Notes what is absent — missing voices, unasked questions, layers that
+     are structurally relevant but not addressed
+   - Considers the null case (IC-2 is not optional, even in this lighter mode)
+   - Flags IC-5 (LLM bias) where relevant
+
+3. The output is prose, not structured fields. It reads like an analytical
+   essay that draws on the framework's accumulated knowledge. Professional
+   register. Claim discipline still applies — distinguish observed from
+   inferred from speculative, using signal vocabulary rather than STATUS tags.
+
+**Escalation signal**: If the material warrants deeper treatment, end with
+a single sentence recommending `/lop analyze` (for structured working,
+evidence entries, and framework updates) or `/lop extract` (if the source
+contains principles or instruments worth adding to the knowledge base).
+This is conditional — only when the material genuinely calls for it, not
+as a routine closing.
+
+**What READ mode is not**: It is not a summary or a reaction. It is the
+framework's lens applied to material, producing genuine analytical insight —
+just without the production overhead of structured steps, provenance tracking,
+and framework updates. The analytical depth is comparable to ANALYZE; the
+output format is lighter.
 
 ---
 

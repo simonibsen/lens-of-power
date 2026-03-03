@@ -7,7 +7,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 
 - `constitution.md` — Foundational axioms about how power operates
 - `taxonomy.md` — The layers of power (thought, economic, legal, institutional, surveillance, physical)
-- `methodology.md` — The analytical procedure (ANALYZE, EXTRACT, RED TEAM modes)
+- `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM modes)
 - `patterns.md` — Compact pattern definitions (always loaded)
 - `patterns-detail.md` — Full evidence trails per pattern (loaded for audits)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
@@ -21,7 +21,8 @@ layers of society. It is both a knowledge base and an analytical tool.
 ## Usage
 
 Use the `/lop` skill to apply this framework:
-- `/lop analyze [material]` — Run the analytical methodology on new information
+- `/lop read [material]` — Understand material through the lens (concise prose analysis)
+- `/lop analyze [material]` — Run the full analytical methodology on new information
 - `/lop extract [source]` — Study a source for principles and/or instruments
 - `/lop redteam` — Turn the framework on itself (integrity constraint IC-3)
 

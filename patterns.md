@@ -20,7 +20,7 @@
 LAYERS: Institutional, Thought & Narrative
 STATEMENT: Systems of control are frequently named for or justified by the opposite of their actual function.
 MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making criticism appear to oppose the outcome itself.
-CORROBORATION: ESTABLISHED (17 sources)
+CORROBORATION: ESTABLISHED (18 sources)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -38,7 +38,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Economic, Thought & Narrative
 STATEMENT: Abundance is deliberately prevented or destroyed because material security reduces dependency and enables independence.
 MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, debt-based, and network-effect-based channels.
-CORROBORATION: SUPPORTED (6 sources)
+NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements (Chen 2026) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption.
+CORROBORATION: SUPPORTED (8 sources)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -111,13 +112,14 @@ CORROBORATION: SUPPORTED (1 source, independently recognizable across diverse do
 LAYERS: Thought & Narrative, Surveillance & Information
 STATEMENT: Continuous live coverage that reports all facts but prevents synthesis functions as narrative control — not by suppressing information but by overwhelming processing capacity.
 MECHANISM: Every fact is reported; no fact is evaluated. The volume of information substitutes for analysis, producing an informed but analytically paralyzed audience.
-CORROBORATION: SUPPORTED (2 sources — empirical observation + theoretical account; variant mechanism (selective construction) observed in Fox News analysis)
+CORROBORATION: SUPPORTED (3 sources — empirical observation + theoretical account; variant mechanism (selective construction) observed in Fox News analysis; variant mechanism (structurally related stories presented as unrelated) observed in Day 3 Guardian live blog)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
 STATEMENT: A state repeatedly applies the same military intervention template across different targets, each time presenting the operation as unique while following an identical structural pattern.
 MECHANISM: Construct threat narrative, build coalition, aerial bombardment, declare success, leave destabilized state. Framing each war as unprecedented obscures the serial nature.
-CORROBORATION: SUPPORTED (2 analyses + extensive public record)
+CORROBORATION: SUPPORTED (3 analyses + extensive public record)
+NOTE: Hegseth's "this is not Iraq, this is not endless" (2026-03-02) confirms the administration recognizes the Serial Regime Change parallel as politically dangerous enough to preempt.
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -148,8 +150,8 @@ CORROBORATION: SUPPORTED (2 sources)
 LAYERS: Institutional, Legal & Regulatory
 STATEMENT: Institutions voluntarily abandon their structural roles under pressure, creating the vacuum that authoritarianism fills. Distinct from capture (active redirection) — here the institution stops functioning because professionals individually calculate compliance is safer.
 MECHANISM: Individually rational choices produce collective structural failure. Four stages: signaling norms are unenforced, individual calculation that independence is risky, abdication becoming general, institution persisting in form while ceasing to function.
-NOTE: Four distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), and strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed).
-CORROBORATION: SUPPORTED (4 sources)
+NOTE: Four distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), and strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed). DoE Kirk banner (2026-03-02) instantiates the strategic abdication variant: the institution deploys its authority to honor someone who called for its abolition, with "Empowering our States" as the liberation narrative.
+CORROBORATION: SUPPORTED (5 sources)
 
 ### The Peacetime Ratchet
 LAYERS: Economic, Institutional, Legal & Regulatory
@@ -174,7 +176,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
 STATEMENT: Formal democracy and substantive oligarchy can operate simultaneously without visible contradiction. Democratic institutions handle issues that don't affect wealth concentration; oligarchic mechanisms handle those that do.
 MECHANISM: Democracy provides the appearance of self-governance; oligarchy provides the substance of wealth defense. The two systems partition the policy space. This is not corruption — it is a stable structural configuration.
-CORROBORATION: PRELIMINARY (3 sources, all from same national context)
+NOTE: Chen (2026) documents a specific mechanism: state equity investment ($10B+) with deliberate refusal of governance (no board seats, worker protections characterized as "ideological agendas," Sanders/Warren public-benefit alternative rejected). The democratic state invests public capital but declines every tool that would convert investment into public accountability. This is the pattern operating through industrial policy — not as structural default but as explicit design choice.
+CORROBORATION: PRELIMINARY (4 sources, all from same national context — cross-national confirmation still needed)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -187,7 +190,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
 STATEMENT: Institutional capture operates through a multi-stage pipeline: personnel selection, funded installation, outcome signaling through repurposed formal channels, input manufacturing, and reward structures — all operating *through* formal processes, not around them.
 MECHANISM: Each stage appears normal in isolation. The capture is invisible because coordination across stages is concealed by the apparent independence of participants — many funded through the same dark money pipeline but appearing organizationally independent.
-CORROBORATION: PRELIMINARY (2 sources, same national context)
+NOTE: Ziklag (ProPublica 2024) provides the first primary-source documentation where the pipeline operators describe the pipeline in their own words. The Seven Mountain Mandate articulates capture across all societal sectors; three named operations (Checkmate, Steeplechase, Watchtower) document the pipeline from donor funding through organizational networks (ADF, TPUSA, CPI) to electoral and institutional outcomes. Combined with Whitehouse's judicial pipeline and the Powell Memo blueprint, the pattern is confirmed across three independent documented contexts.
+CORROBORATION: SUPPORTED (3 sources — Powell Memo blueprint, Whitehouse judicial pipeline, Ziklag primary-source documentation)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -212,5 +216,5 @@ CORROBORATION: PRELIMINARY (1 source — hooks; recognizable in disability studi
 LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
 STATEMENT: Methods of domination developed at the periphery of a political system — in colonies, zones of exception, or territories where normal constraints do not apply — migrate to the center and are applied to domestic populations.
 MECHANISM: Zones of exception function as laboratories for techniques of control unconstrained by metropolitan legal and political norms. Once tested and institutionally normalized, these techniques migrate inward through returning personnel, institutional knowledge transfer, and the political availability of "emergency" justifications.
-NOTE: Related to Serial Regime Change (same techniques across targets) and Constitutive Violence (foundational acts at the periphery). Distinct in describing directional flow: periphery to center.
-CORROBORATION: PRELIMINARY (1 source — Arendt; widely documented in subsequent scholarship)
+NOTE: Related to Serial Regime Change (same techniques across targets) and Constitutive Violence (foundational acts at the periphery). Distinct in describing directional flow: periphery to center. Operation Metro Surge (2026) provides the first real-time empirical confirmation: warrantless home entry, drones, overwhelming force, denial of access to investigators, official accounts contradicted by evidence — all documented in foreign military operations, now applied domestically in Minneapolis. Participants explicitly cited the pattern. Trump compared the operation to the 2026 Venezuela intervention.
+CORROBORATION: SUPPORTED (2 sources — Arendt theoretical account + Operation Metro Surge real-time confirmation with participant citation)

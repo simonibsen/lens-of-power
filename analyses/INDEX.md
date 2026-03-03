@@ -39,3 +39,39 @@
   Layers: Physical & Coercive, Thought & Narrative, Economic
   Null case: rejected (MEDIUM-LOW — conventions real but absences patterned)
   File: `2026-03-02-reuters-wirestory-israel-lebanon-hezbollah.md`
+
+### 2026-03-02 — DoE hangs Charlie Kirk banner alongside Beecher and Washington
+  Domain: Domestic policy / institutional capture / education
+  Layers: Thought & Narrative, Institutional
+  Null case: rejected (LOW — pairing and framing too deliberate; MEDIUM for coordination level)
+  File: `2026-03-02-guardian-article-doe-charlie-kirk-banner.md`
+
+### 2026-03-02 — US-Israeli war on Iran: domestic political response (Day 3 Guardian live blog)
+  Domain: US foreign policy / military / domestic politics / civil liberties
+  Layers: Thought & Narrative, Institutional, Legal & Regulatory, Physical & Coercive
+  Null case: rejected (LOW for strategic operation and student deportations; MEDIUM for tactical preemptive decision)
+  File: `2026-03-02-guardian-liveblog-iran-war-powers-domestic.md`
+
+### 2026-03-02 — Oil and gas prices jump as Iran conflict escalates (BBC)
+  Domain: Economics / energy / global markets
+  Layers: Economic (primary), Physical & Coercive, Institutional
+  Null case: plausible (MEDIUM — market responses are mechanical; structural beneficiary pattern warrants scrutiny)
+  File: `2026-03-02-bbc-article-oil-gas-prices-iran-war.md`
+
+### 2026-03-02 — Operation Metro Surge (Wikipedia + 10 source links)
+  Domain: Domestic policy / immigration / civil liberties / federal-state relations
+  Layers: All six (all primary — first analysis where every layer is documented as primary)
+  Null case: rejected (LOW for operation overall and killings; MEDIUM for economic damage as unintended)
+  File: `2026-03-02-wikipedia-article-operation-metro-surge.md`
+
+### 2026-03-02 — Inside Ziklag: secret Christian nationalist donor network (ProPublica)
+  Domain: Institutional capture / election interference / religion-state / dark money
+  Layers: Five primary (Thought & Narrative, Economic, Legal & Regulatory, Institutional, Surveillance & Information), Physical & Coercive active but absent
+  Null case: rejected (LOW for overall operation; MEDIUM for individual components — sincerity genuine but structure is electoral)
+  File: `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
+
+### 2026-03-02 — "The Big AI State": Trump admin AI industrial policy (Data & Society)
+  Domain: Technology policy / industrial policy / state-corporate relations / geopolitics
+  Layers: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Physical & Coercive, Surveillance & Information
+  Null case: plausible (MEDIUM — national security argument genuine; governance gap not explained by it)
+  File: `2026-03-02-datasociety-policybrief-big-ai-state.md`

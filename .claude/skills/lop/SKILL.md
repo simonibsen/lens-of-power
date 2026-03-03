@@ -1,7 +1,7 @@
 ---
 name: lop
-description: Apply the Lens of Power interpretive framework to analyze material for power dynamics, extract principles and instruments from a source, or red-team the framework itself.
-argument-hint: <analyze|extract|redteam> [material, work, or source]
+description: Apply the Lens of Power interpretive framework to read or analyze material for power dynamics, extract principles and instruments from a source, or red-team the framework itself.
+argument-hint: <read|analyze|extract|redteam> [material, work, or source]
 user-invocable: true
 allowed-tools: Read, Grep, Glob, WebFetch, WebSearch, Write, Edit, Agent, Bash
 ---
@@ -31,6 +31,9 @@ Load selectively as needed:
 
 Parse `$ARGUMENTS` to determine the mode:
 
+- If the first argument is `read` or the user wants to understand material
+  through the lens without full production output: use **READ mode** from
+  methodology.md
 - If the first argument is `analyze` or the user is providing current material
   (article, news, speech, policy, event): use **ANALYZE mode** from methodology.md
 - If the first argument is `extract` or the user is providing a source to
@@ -90,6 +93,12 @@ If the user wants analysis of a specific edition or passage, ask them to
 provide the text.
 
 ## Output
+
+### For READ mode:
+Produce the prose analysis defined in the READ mode procedure of methodology.md.
+Output directly to the conversation — do not write to file unless the user asks.
+No structured steps, no briefing format, no evidence entries, no framework
+update proposals. IC-2 and IC-5 still apply.
 
 ### For ANALYZE mode:
 Produce the structured step-by-step output defined in methodology.md,

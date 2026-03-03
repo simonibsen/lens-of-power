@@ -970,6 +970,15 @@ body {
   font-weight: 600;
   color: var(--green);
 }
+.back-to-top {
+  float: right;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-muted);
+  text-decoration: none;
+  cursor: pointer;
+}
+.back-to-top:hover { color: var(--text-link); }
 
 /* Connected items panel */
 #connected-panel {
@@ -1626,6 +1635,9 @@ let currentView = 'dashboard';
 let selectedNode = null;
 let searchQuery = '';
 
+// Configure marked.js: treat single newlines as <br> for metadata fields
+marked.use({ breaks: true });
+
 // Index
 const nodeMap = {};
 DATA.nodes.forEach(n => { nodeMap[n.id] = n; });
@@ -2038,18 +2050,53 @@ function showDetail(nodeId) {
         // Build TOC (re-query since DOM changed)
         const updatedH2s = content.querySelectorAll('h2');
         let tocHtml = '<nav class="analysis-toc"><div class="toc-title">Contents</div>';
+        // Add metadata entry if there's content before the first H2
+        const firstUpdH2 = updatedH2s[0];
+        if (firstUpdH2) {
+          let hasPreContent = false;
+          let sib = content.firstElementChild;
+          while (sib && sib !== firstUpdH2) {
+            if (sib.tagName !== 'NAV' && sib.textContent.trim()) { hasPreContent = true; break; }
+            sib = sib.nextElementSibling;
+          }
+          if (hasPreContent) {
+            const metaAnchor = document.createElement('span');
+            metaAnchor.id = 'section-meta';
+            content.insertBefore(metaAnchor, content.firstElementChild);
+            tocHtml += '<a class="toc-link" href="#section-meta">Metadata</a>';
+          }
+        }
         updatedH2s.forEach((h, i) => {
           h.id = 'section-' + i;
-          const text = h.textContent.replace(/^Step \d+:\s*/, '');
-          const hText = h.textContent.toLowerCase().trim();
+          let text = h.textContent;
+          const hText = text.toLowerCase().trim();
           const isBriefing = hText.includes('briefing') || hText === 'summary';
+          // Format step headings: "Step 3: LOCATE" -> "3. Locate"
+          const stepMatch = text.match(/^Step (\d+):\s*(.+)/);
+          if (stepMatch) {
+            const name = stepMatch[2].toLowerCase().replace(/(^|[-])(\w)/g, function(m, sep, c) { return sep + c.toUpperCase(); });
+            text = stepMatch[1] + '. ' + name;
+          }
           tocHtml += '<a class="toc-link' + (isBriefing ? ' toc-briefing' : '') + '" href="#section-' + i + '">' + escapeHtml(text) + '</a>';
         });
         tocHtml += '</nav>';
         content.insertAdjacentHTML('afterbegin', tocHtml);
 
-        // TOC smooth scroll
-        content.querySelectorAll('.toc-link').forEach(a => {
+        // Add "back to top" link after each H2 heading
+        content.querySelectorAll('h2').forEach(h => {
+          const topLink = document.createElement('a');
+          topLink.className = 'back-to-top';
+          topLink.href = '#analysis-toc';
+          topLink.textContent = 'Contents';
+          h.appendChild(topLink);
+        });
+
+        // Give the TOC nav an ID for back-to-top links
+        const tocNav = content.querySelector('.analysis-toc');
+        if (tocNav) tocNav.id = 'analysis-toc';
+
+        // Smooth scroll for TOC links and back-to-top links
+        content.querySelectorAll('.toc-link, .back-to-top').forEach(a => {
           a.addEventListener('click', (e) => {
             e.preventDefault();
             const target = content.querySelector(a.getAttribute('href'));
