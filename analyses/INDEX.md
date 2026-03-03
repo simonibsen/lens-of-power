@@ -63,3 +63,9 @@
   Layers: All six (all primary — first analysis where every layer is documented as primary)
   Null case: rejected (LOW for operation overall and killings; MEDIUM for economic damage as unintended)
   File: `2026-03-02-wikipedia-article-operation-metro-surge.md`
+
+### 2026-03-02 — Inside Ziklag: secret Christian nationalist donor network (ProPublica)
+  Domain: Institutional capture / election interference / religion-state / dark money
+  Layers: Five primary (Thought & Narrative, Economic, Legal & Regulatory, Institutional, Surveillance & Information), Physical & Coercive active but absent
+  Null case: rejected (LOW for overall operation; MEDIUM for individual components — sincerity genuine but structure is electoral)
+  File: `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`

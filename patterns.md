@@ -189,7 +189,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
 STATEMENT: Institutional capture operates through a multi-stage pipeline: personnel selection, funded installation, outcome signaling through repurposed formal channels, input manufacturing, and reward structures — all operating *through* formal processes, not around them.
 MECHANISM: Each stage appears normal in isolation. The capture is invisible because coordination across stages is concealed by the apparent independence of participants — many funded through the same dark money pipeline but appearing organizationally independent.
-CORROBORATION: PRELIMINARY (2 sources, same national context)
+NOTE: Ziklag (ProPublica 2024) provides the first primary-source documentation where the pipeline operators describe the pipeline in their own words. The Seven Mountain Mandate articulates capture across all societal sectors; three named operations (Checkmate, Steeplechase, Watchtower) document the pipeline from donor funding through organizational networks (ADF, TPUSA, CPI) to electoral and institutional outcomes. Combined with Whitehouse's judicial pipeline and the Powell Memo blueprint, the pattern is confirmed across three independent documented contexts.
+CORROBORATION: SUPPORTED (3 sources — Powell Memo blueprint, Whitehouse judicial pipeline, Ziklag primary-source documentation)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
