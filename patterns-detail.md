@@ -1101,10 +1101,24 @@ operates — nominations, confirmations, organic cases, public amicus briefs —
 the substantive selection, signaling, and case manufacturing is controlled by dark
 money; the judicial domain demonstrates the coexistence at the institutional level)
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (three sources, but all from the same national context —
-American political analysis; Whitehouse adds the judicial domain as a distinct
-institutional instance, but the pattern still needs confirmation from other national
-contexts to warrant SUPPORTED)
+analyses/2026-03-02-datasociety-policybrief-big-ai-state.md (Chen 2026 documents the
+pattern operating through industrial policy: state equity investment with deliberate
+refusal of governance mechanisms — the democratic state invests public capital but
+declines every tool that would convert investment into public accountability),
+analyses/2026-02-26-variety-article-paramount-warner-bros-deal.md (openly-displayed
+variant: Ellison advertised Trump political connections as competitive regulatory
+advantage for Paramount-WBD acquisition without concealment. The formal regulatory
+process — FCC, HSR antitrust — evaluates business fundamentals while the substantive
+editorial-political determination operates through wealth-funded political
+relationships. The open display is itself analytically significant: the mechanism no
+longer requires concealment to function)
+EVIDENCE: —
+CORROBORATION: PRELIMINARY (five sources, but all from the same national context —
+American political analysis. Whitehouse adds the judicial domain, Chen adds the
+industrial policy domain, Paramount-WBD adds the media ownership domain. The pattern
+still needs confirmation from other national contexts to warrant SUPPORTED — the
+question is whether democracy-oligarchy coexistence is a specifically American
+configuration or a general structural possibility)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -1189,7 +1203,21 @@ for compliant justices),
 principles/powell-memo.md P2, P3, P4 (the strategic blueprint — Powell proposed the
 pipeline's construction: multi-front institutional campaign, courts as priority target,
 permanent infrastructure investment; the subsequent construction of the Federalist
-Society, Heritage Foundation, and legal organizations followed this design)
+Society, Heritage Foundation, and legal organizations followed this design),
+analyses/2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md
+(Ziklag provides the first primary-source documentation where pipeline operators
+describe the pipeline in their own words. The Seven Mountain Mandate articulates
+capture across all societal sectors; three named operations — Checkmate, Steeplechase,
+Watchtower — document the pipeline from donor funding through organizational networks
+to electoral and institutional outcomes. Third documented domain: electoral/religious),
+analyses/2026-02-26-variety-article-paramount-warner-bros-deal.md (media-ownership
+variant: Ellison spent $150M to acquire The Free Press and install Bari Weiss as CBS
+News editor-in-chief → editorial promises to FCC Chair Carr → Weiss pulled 60 Minutes
+investigation into Trump-admin detention center → Trump praised changes → FCC approved
+→ Ellison argued regulatory advantage for WBD acquisition. The pipeline sequence —
+personnel selection, installation, institutional outcome, regulatory signaling — operates
+through media ownership rather than judicial appointment or dark money networks. Fourth
+documented domain: media editorial capture)
 NOTE: This pattern describes a *complete* capture system — not merely a tactic or
 mechanism but the full pipeline from funding to institutional outcome. It is distinct
 from the Layered Redundancy pattern (which describes how multiple layers reinforce each
@@ -1198,11 +1226,11 @@ stages, while Layered Redundancy describes *simultaneous* reinforcement across l
 The two patterns are complementary: the Capture Pipeline operates within the Layered
 Redundancy architecture.
 EVIDENCE: —
-CORROBORATION: PRELIMINARY (two sources from the same national context — American
-judicial capture; the pipeline structure may generalize to other institutional capture
-operations: corporate regulatory capture, academic credentialing capture, international
-standard-setting body capture — but these instances need formal observation within the
-framework)
+CORROBORATION: SUPPORTED (four sources across three distinct institutional domains —
+judicial capture (Whitehouse), strategic blueprint (Powell Memo), electoral/religious
+networks (Ziklag), and media editorial capture (Paramount-WBD). All US national context,
+but the pipeline structure operates through different institutional mechanisms in each
+domain, providing independent confirmation of the sequential-capture mechanism)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers

@@ -99,3 +99,9 @@
   Layers: Thought & Narrative (primary), Surveillance & Information (primary), Economic (primary), Institutional, Legal & Regulatory
   Null case: rejected (LOW for overall operation and specific edits; MEDIUM for broader framing — Portland is instance of industry practice)
   File: `2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering.md`
+
+### 2026-02-26 — Paramount-WBD acquisition: political-media infrastructure consolidation (Variety + supplementary)
+  Domain: Media consolidation / editorial capture / political-regulatory / information environment
+  Layers: Economic (primary), Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Surveillance & Information
+  Null case: plausible at component level (MEDIUM); less plausible at sequence level (MEDIUM-LOW — reinforcement chain across components)
+  File: `2026-02-26-variety-article-paramount-warner-bros-deal.md`
