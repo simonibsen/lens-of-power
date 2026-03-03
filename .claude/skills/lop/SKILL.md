@@ -125,6 +125,15 @@ evaluates the source for both principles and instruments:
 Produce the output defined in the RED TEAM mode section of methodology.md
 and offer to write the results to `evidence/`.
 
+## Framework term references
+
+In all human-readable output, follow the framework term reference
+convention defined in the Output discipline section of methodology.md:
+first occurrence gets **bold** with a parenthetical gloss; subsequent
+occurrences get **bold** without gloss. Collect all framework term
+links in a "Framework references" section at the end of the output.
+Base URL: `https://github.com/simonibsen/lens-of-power/blob/main/`
+
 ## Tone
 
 Be direct and specific. Name actors, mechanisms, and layers explicitly.

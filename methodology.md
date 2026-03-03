@@ -893,6 +893,31 @@ Record the output in `evidence/` with tags:
 
 - Be specific. Name the mechanism, name the layer, name the actor.
 - Distinguish between what is observed and what is inferred.
+- **Framework term references**: In all human-readable output (READ mode
+  prose, ANALYZE mode narrative and briefing, EXTRACT mode synthesis),
+  reference framework-defined terms as follows:
+  - **First occurrence**: Bold the term and follow with a parenthetical
+    gloss (a few words describing what it is). Example:
+    `the **Compliance Gradient** (partial compliance as power negotiation)`
+  - **Subsequent occurrences**: Bold the term, no gloss. Example:
+    `the **Compliance Gradient**`
+  - **Reference list**: At the end of the output, include a
+    "Framework references" section listing every framework term used,
+    with a hyperlink to its definition in the repository. Example:
+    ```
+    **Framework references**
+    - Compliance Gradient: [patterns.md](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-compliance-gradient)
+    - Axiom 9: [constitution.md](https://github.com/simonibsen/lens-of-power/blob/main/constitution.md#9-compliance-can-be-manufactured-without-explicit-coercion)
+    ```
+  - This applies to patterns, axioms, principles, instruments, and
+    integrity constraints when referenced by name. The base URL is
+    `https://github.com/simonibsen/lens-of-power/blob/main/`.
+  - The purpose is twofold: the gloss makes the output legible to
+    readers unfamiliar with the framework; the reference list connects
+    every term to its definition for readers who want depth.
+  - Structured working (Steps 1-7) and internal fields (STATUS,
+    LAYER, CORROBORATION) do not require this treatment — they are
+    already within the framework's context.
 - Mark evidentiary basis on every claim: **observed** (directly present
   in material), **inferred** (follows from reasoning), **speculative**
   (plausible but beyond direct evidence).
