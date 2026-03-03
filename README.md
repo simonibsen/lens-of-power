@@ -12,7 +12,8 @@ be used by both humans and LLMs.
 > [!TIP]
 > **Quick start**: Navigate to this directory and use the `/lop` skill:
 > ```
-> /lop analyze [article, event, policy, or URL]
+> /lop read [article, event, policy, or URL]      — understand through the lens
+> /lop analyze [article, event, policy, or URL]    — full production analysis
 > /lop extract [book, film, theory, reference source, or catalog]
 > /lop redteam
 > ```
@@ -26,8 +27,9 @@ be used by both humans and LLMs.
 - [Core concepts](#core-concepts) — axiom, layer, principle, pattern, instrument, evidence, analysis
 - [How to use it](#how-to-use-it)
 - [Working with Claude](#working-with-claude) — steering, session flow, mid-session direction
-- [The three modes](#the-three-modes)
-  - [Analyze](#lop-analyze--analyze-new-material) — 7-step analysis with briefing output
+- [The four modes](#the-four-modes)
+  - [Read](#lop-read--understand-material-through-the-lens) — concise prose analysis
+  - [Analyze](#lop-analyze--analyze-new-material) — full 7-step analysis with briefing output
   - [Extract](#lop-extract--study-a-source-for-principles-and-instruments) — study a source for principles and instruments
   - [Red team](#lop-redteam--turn-the-framework-on-itself) — turn the framework on itself
 - [Viewer](#viewer) — interactive visualization of the framework
@@ -38,13 +40,36 @@ be used by both humans and LLMs.
 
 ## What this is for
 
+The Lens of Power is a lens, not a theory. It does not generate original
+insight about how power works — the scholars it draws from are the source
+of insight. What the framework does is make their observations *available
+at the moment of analysis*: when you read a policy document, the
+principles Machiavelli articulated about appearance and reality are loaded
+alongside Scott's observations about everyday resistance and Zuboff's
+account of surveillance capitalism. The framework is the filing system
+and the checklist — it organizes other people's hard-won observations so
+they can be applied to new material in structured, transparent analysis.
+
+The value is in cross-referencing across disciplines. A mechanism
+described by Orwell in fiction, confirmed by Fanon in revolutionary
+practice, and documented by Piketty in economic data is more than an
+academic exercise — it is a structural pattern that can be recognized
+when it appears in tomorrow's news. No single author could see all of
+that; the framework holds their observations together.
+
+The integrity constraints exist because a structured analytical tool that
+always confirms its priors is worse than no tool at all. Every axiom has
+a falsification condition. Every analysis must consider the non-power
+explanation. The framework is periodically turned on itself. These are
+not decorative — they are what distinguish an analytical tool from an
+ideology.
+
 Most exercises of power depend on not being seen clearly. Policy is
 presented in terms of its stated purpose rather than its function.
 Economic structures are presented as natural rather than constructed.
-Language is shaped to make certain questions difficult to ask.
-
-The Lens of Power provides a structured method for seeing through these
-layers. It is useful for:
+Language is shaped to make certain questions difficult to ask. The
+framework provides a structured method for seeing through these layers.
+It is useful for:
 
 - **Analyzing current events**: News coverage, political speeches, policy
   announcements, corporate communications. The framework strips rhetoric
@@ -238,6 +263,7 @@ Instruments ──applied during──> Analyses ──produce──> Findings
 Navigate to this directory and use the `/lop` skill:
 
 ```
+/lop read [article, event, policy, or URL]
 /lop analyze [article, event, policy, or URL]
 /lop extract [book, film, theory, reference source, or catalog]
 /lop redteam
@@ -278,6 +304,15 @@ determines where within that procedure to push hardest, what comparisons
 to draw, and what questions to prioritize.
 
 ### What a session looks like
+
+**Read session**: You provide material (a URL, pasted text, or a
+description of an event). Claude applies the full framework context —
+axioms, layers, patterns, principles — and produces a concise prose
+analysis directly in the conversation. No structured steps, no file
+output, no framework update proposals. You can follow up with questions,
+push on the null case, or ask Claude to go deeper on a specific layer.
+If the material turns out to warrant the full production pipeline, you
+can follow up with `/lop analyze` on the same material.
 
 **Analysis session**: You provide material (a URL, pasted text, or a
 description of an event). Claude runs the 7-step analysis procedure,
@@ -323,7 +358,30 @@ Claude will adjust the analysis in response. The integrity constraints
 still apply — IC-2 cannot be skipped, IC-5 is always active — but
 within those constraints, the analytical emphasis is yours to direct.
 
-## The three modes
+## The four modes
+
+### `/lop read` — Understand material through the lens
+
+**Input**: An article, speech, policy document, event, claim, or URL.
+
+**What it does**: Applies the full framework — axioms, layers, patterns,
+principles, instruments — to the material, but produces a concise prose
+analysis rather than the full structured pipeline. The output reads like
+an analytical essay: it identifies which layers are active, names the
+patterns at work, notes what is absent, and considers the null case. IC-2
+and IC-5 are not optional.
+
+**What it does not do**: No structured step-by-step working, no numbered
+findings, no briefing format, no evidence entries, no pattern updates, no
+framework update proposals. Does not write to file unless asked.
+
+**When to use read vs. analyze**: Use `read` when the goal is to
+*understand* something through the lens — to see which layers are active,
+which patterns appear, and what is absent. Use `analyze` when the goal is
+to *produce a formal analysis* for the knowledge base — structured working,
+briefing, evidence entries, pattern updates, and full provenance tracking.
+The analytical depth is comparable; the output format and production
+overhead differ.
 
 ### `/lop analyze` — Analyze new material
 
