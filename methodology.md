@@ -118,46 +118,44 @@ When writing an analysis to `analyses/`, include:
   calibrate expectations — a press release and an investigative report
   are structurally different kinds of material. Bias assessment belongs
   in Step 2 (SOURCE), not here.
-- A **Narrative** section at the top — a readable prose essay (3-6
-  paragraphs) summarizing what the structural analysis found for a human
-  reader. The structured steps follow below it as the canonical
-  analytical record.
+- A **SOURCE POSITION** field from the positional lens (Position 1-5).
+  See `instruments/positional-lens.md`.
 
-  **Narrative register**: The narrative describes structure and
-  observations. It does not argue a case, perform a reaction, or
-  encode the analyst's evaluations as descriptions. Specific rules:
+The analysis file has two sections separated by a delimiter. The
+human-readable analysis comes first; the analytical working that
+produced it follows below. See "Analysis output format" for the
+complete file structure.
 
-  - **Describe, do not evaluate.** Write "The live blog does not
-    mention the school strike" rather than "The most consequential
-    fact has been removed." The first is an observation; the second
-    is the analyst's judgment about what is most consequential,
-    presented as though it were a property of the material.
-  - **Do not editorialize.** Avoid constructions that express the
-    analyst's attitude toward the material: "a masterpiece of
-    deflection," "the facts are staggering," "an astonishing
-    omission." If the finding is significant, the described
-    structure will demonstrate that without the analyst saying so.
-  - **Avoid rhetorical devices.** No dramatic parallelism ("told
-    them everything and helped them understand nothing"), no
-    standalone emphasis words ("Zero."), no literary constructions
-    designed to produce a reaction in the reader. These belong in
-    opinion writing, not structural analysis.
-  - **Claim discipline applies.** The narrative is prose, but the
-    claim discipline (observed / inferred / speculative) still
-    governs it. Functional claims ("serves to," "functions as,"
-    "is designed to") must be marked as inferred unless the source
-    explicitly states intent. See the claim discipline section below.
-  - **Let the steps do the evaluative work.** The narrative
-    synthesizes what was found; the INVERT, ABSENT, and SO-WHAT
-    steps are where analytical conclusions and evaluative judgments
-    belong. The narrative's job is to make the terrain legible, not
-    to tell the reader what to think about it.
+**Narrative register**: The narrative describes structure and
+observations. It does not argue a case, perform a reaction, or
+encode the analyst's evaluations as descriptions. Specific rules:
 
-  The test: could a reader with different political commitments
-  accept the narrative as an accurate description of what the
-  analysis found, even if they disagree with the conclusions drawn
-  in later steps? If not, the narrative has crossed from description
-  into advocacy.
+- **Describe, do not evaluate.** Write "The live blog does not
+  mention the school strike" rather than "The most consequential
+  fact has been removed." The first is an observation; the second
+  is the analyst's judgment about what is most consequential,
+  presented as though it were a property of the material.
+- **Do not editorialize.** Avoid constructions that express the
+  analyst's attitude toward the material: "a masterpiece of
+  deflection," "the facts are staggering," "an astonishing
+  omission." If the finding is significant, the described
+  structure will demonstrate that without the analyst saying so.
+- **Avoid rhetorical devices.** No dramatic parallelism ("told
+  them everything and helped them understand nothing"), no
+  standalone emphasis words ("Zero."), no literary constructions
+  designed to produce a reaction in the reader. These belong in
+  opinion writing, not structural analysis.
+- **Claim discipline applies.** The narrative is prose, but the
+  claim discipline (observed / inferred / speculative) still
+  governs it. Functional claims ("serves to," "functions as,"
+  "is designed to") must be marked as inferred unless the source
+  explicitly states intent. See the claim discipline section below.
+
+The test: could a reader with different political commitments
+accept the narrative as an accurate description of what the
+analysis found, even if they disagree with the conclusions drawn
+in the Implications section? If not, the narrative has crossed
+from description into advocacy.
 
 ### Addenda convention
 
@@ -429,59 +427,95 @@ MADE VISIBLE: [what this analysis reveals that was previously hidden]
 
 ## Analysis output format
 
-Every analysis produces two outputs: the structured step-by-step working
-(above) and a **briefing document** that presents the findings in a form
-designed for human reading. The briefing is appended after the structured
-steps in the analysis file.
+An analysis file has two sections separated by a horizontal rule. The
+**human-readable analysis** comes first — this is what a reader engages
+with. The **analytical working** follows below the delimiter — this is
+the production process (Steps 1-7) that produced the analysis. The
+working persists for auditability and review (IC-3) but is not intended
+for primary reading.
 
-The briefing uses a hybrid format: a structured header for immediate
-comprehension, followed by a numbered findings list for detail and
-cross-referenceability. Language should be professional throughout.
+Language should be professional throughout. The narrative register rules
+(above) govern all prose sections.
 
-### Briefing header
+### File structure
 
 ```
-## Briefing: [Title]
+# Analysis: [Title]
 
 DATE: [YYYY-MM-DD]
-SOURCE TYPE: [e.g., live blog, policy document, speech, legislation]
-SOURCE POSITION: [from positional-lens.md — ruler/everyday governed/
-  revolutionary/intermediary/observer]
+TIME: [~HH:MM UTC]
+SOURCE: [who produced it]
+SOURCE TYPE: [e.g., live blog, investigative journalism, press release]
+SOURCE POSITION: [from positional-lens.md — Position 1-5]
+URL: [if applicable]
 
-### Key finding
+---
 
-[1-2 sentences: the single most important insight from this analysis.
-State it directly.]
+## Narrative
 
-### Who benefits / who bears cost
+[3-6 paragraphs. Prose summary of what the structural analysis found.
+The opening paragraph should convey the single most important insight.
+Narrative register rules apply — describe, do not evaluate.]
 
-| Actor | Gains | At whose expense |
-|-------|-------|------------------|
-| [actor] | [what they gain] | [who pays] |
+## Findings
 
-### What is absent
+[Numbered list. Each finding is a discrete, tagged, cross-referenceable
+unit. Include a "who benefits / who bears cost" table after the findings
+list.]
 
-- [missing perspective or unasked question]
-- [missing perspective or unasked question]
+## Implications
+
+[What follows from this analysis. Conclusions and evaluative judgments
+belong here, not in the narrative. Include threads worth investigating.]
+
+## Watch
+
+[What to monitor going forward.]
+
+## Analytical apparatus
+
+[Provenance: instruments, principles, and patterns that shaped the
+analysis.]
+
+## Null case
+
+[IC-2 assessment of the non-power explanation.]
+
+---
+
+## Analytical working
+
+> The structured steps below are the production process that produced
+> the analysis above. They exist for auditability and review (IC-3).
+> They are not intended for primary reading.
+
+### Step 1: DECOMPOSE
+[...]
+
+### Step 2: SOURCE
+[...]
+
+[...through Step 7: SO-WHAT]
 ```
 
 ### Findings list
 
-Each finding is a discrete, tagged, cross-referenceable unit. No continuous
-prose. Each finding stands alone.
+Each finding is a discrete, tagged, cross-referenceable unit. Each
+finding stands alone.
 
 ```
-### Findings
-
 1. **[Finding title]**
    LAYER: [taxonomy layer(s)]
    STATUS: observed / inferred / speculative
    [2-3 sentences. Professional register. Specific.]
+```
 
-2. **[Finding title]**
-   LAYER: [taxonomy layer(s)]
-   STATUS: observed / inferred / speculative
-   [2-3 sentences.]
+After the findings list, include a benefits/cost table:
+
+```
+| Actor | Gains | At whose expense |
+|-------|-------|------------------|
+| [actor] | [what they gain] | [who pays] |
 ```
 
 STATUS vocabulary:
@@ -502,38 +536,25 @@ the right instruments were used), and framework health (patterns in
 instrument usage reveal blind spots).
 
 ```
-### Analytical apparatus
-
 INSTRUMENTS APPLIED:
 - [instrument name] (instruments/[filename].md) — [what it found or
   contributed to this analysis]
-- [instrument name] — [what it found]
 
 PRINCIPLES REFERENCED:
 - [principle ID and title] (principles/[filename].md) — [how it applies]
-- [principle ID and title] — [how it applies]
 
 PATTERNS MATCHED:
 - [pattern name] (patterns.md) — [corroboration level] — [how it appears here]
-- [pattern name] — [corroboration level] — [how it appears here]
 
 PATTERNS NOT MATCHED:
 - [any patterns explicitly considered and found inapplicable — optional
   but valuable for demonstrating rigor]
 ```
 
-### Closing sections
-
-```
 ### Null case
 
-[Assessment of the non-power explanation. Required by IC-2.]
-
-### Watch
-
-- [thread to monitor going forward]
-- [thread to monitor]
-```
+Required by IC-2. Assess the non-power explanation. If the null
+explanation fits the evidence as well as the power explanation, say so.
 
 ---
 
