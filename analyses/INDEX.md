@@ -39,3 +39,9 @@
   Layers: Physical & Coercive, Thought & Narrative, Economic
   Null case: rejected (MEDIUM-LOW — conventions real but absences patterned)
   File: `2026-03-02-reuters-wirestory-israel-lebanon-hezbollah.md`
+
+### 2026-03-02 — Operation Metro Surge (Wikipedia + 10 source links)
+  Domain: Domestic policy / immigration / civil liberties / federal-state relations
+  Layers: All six (all primary — first analysis where every layer is documented as primary)
+  Null case: rejected (LOW for operation overall and killings; MEDIUM for economic damage as unintended)
+  File: `2026-03-02-wikipedia-article-operation-metro-surge.md`
