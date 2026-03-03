@@ -131,6 +131,13 @@ KEY PATTERNS: Appearance as Structural Terrain, Institutional Abdication, Antici
 IC-1 FLAGS: Axiom 9 (terror beyond manufactured compliance — destruction of agency), Axiom 10 (ideology as closed system captures "understanding")
 NEW PATTERN CANDIDATE: The Boomerang (PRELIMINARY)
 
+## mishra-western-model-broken.md
+SOURCE: Pankaj Mishra, "The western model is broken," *The Guardian* (2014)
+POSITION: Hybrid (2/5 — non-western intellectual writing from within western institutional channels)
+PRINCIPLES: 4 — The Sequencing Trap, Enabling Condition Consumption, The Teleological Screen, The Relay of Legitimation
+LAYERS: Thought & Narrative (primary), Economic, Institutional, Physical & Coercive, Legal & Regulatory
+KEY PATTERNS: Inversion of Stated Purpose, Constitutive Violence, Manufactured Scarcity, Relay Class, Appearance as Structural Terrain, Temporal Control
+
 ## ellul-propaganda.md
 SOURCE: Jacques Ellul, *Propaganda: The Formation of Men's Attitudes* (1962)
 POSITION: 5 (sociologist/theologian)
@@ -139,3 +146,12 @@ LAYERS: Thought & Narrative (primary), Surveillance & Information, Institutional
 KEY PATTERNS: Inversion of Stated Purpose, Appearance as Structural Terrain, Real-Time Narrative Saturation, Structural Demand for Propaganda (new)
 IC-1 FLAGS: Axiom 3 (fourth mode — absence of vantage point), Axiom 10 (education paradox — tools of understanding increase susceptibility)
 INSTRUMENT: instruments/propaganda-typology.md (co-derived with Stanley — Ellul provides Axes 1-4)
+
+## alley-very-bad-people.md
+SOURCE: Patrick Alley, *Very Bad People: The Inside Story of the Fight Against the World's Network of Corruption* (2022)
+POSITION: Hybrid (5/activist — co-founder of Global Witness, investigator turned memoirist)
+PRINCIPLES: 5 — The Enabler Architecture, Sovereignty as Shield, The Resource Opacity Nexus, Naming as Disruption, The Complicity Gradient
+LAYERS: Economic (primary), Institutional, Legal & Regulatory, Surveillance & Information, Thought & Narrative, Physical & Coercive
+KEY PATTERNS: Wealth Defense Industry, Inversion of Stated Purpose, Division of Learning, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence, Manufactured Scarcity
+IC-1 FLAGS: Axiom 10 (Kimberley Process — naming captured and converted into new appearance of accountability)
+INSTRUMENT PROPOSED: Kleptocratic Infrastructure Detection (partial — needs additional sources)

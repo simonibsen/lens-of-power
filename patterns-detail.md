@@ -205,11 +205,16 @@ variant — Meta's dominance creates artificial scarcity of alternatives for soc
 communication; network effects mean the value of an alternative platform is near-zero
 until it achieves critical mass; the "accept or leave" binary in the Terms of Service
 depends on this structural scarcity of viable alternatives.
+NOTE: principles/mishra-western-model-broken.md M2 adds an enabling-condition-
+consumption variant — the material conditions that enabled the western model's
+success (colonial extraction, surplus population export, frontier abundance) were
+partly consumed by that success. The model is self-consuming: it works once and
+removes the conditions for repetition. Scarcity is not maintained or manufactured
+post hoc but constitutively produced by the recommended model's first execution.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (six sources; the Meta analysis adds a network-effect
-channel — scarcity of alternatives manufactured through platform dominance and
-network effects rather than through restriction of physical supply, information,
-distribution, or debt)
+CORROBORATION: SUPPORTED (seven sources; Mishra adds an enabling-condition-
+consumption channel — scarcity produced by the model's first execution removing
+the conditions for replication)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -520,13 +525,19 @@ through racial enforcement; the mechanism differs from Fanon's national
 bourgeoisie in that the relay function is compensated with *status* rather
 than material benefit, and the relay class does not *replace* the dominant
 class but *serves* it)
+NOTE: principles/mishra-western-model-broken.md M4 adds a legitimation lock-in
+mechanism — postcolonial ruling elites derive their legitimacy from the promise
+of "catching up" with the west. This founding commitment traps them in the relay
+role: they cannot abandon the western development model without destroying the
+basis of their authority. The relay class is locked in not only by economic
+incentive (Fanon) or status compensation (Cobb) but by the ideological
+structure of their own legitimacy. The personnel and ideology change across
+generations (from Nehru to McKinsey); the structural commitment does not.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (two independent sources from different domains —
-Fanon's post-colonial context and Cobb's American racial-agrarian context;
-the mechanism differs in specifics (material vs. status compensation, class
-replacement vs. class service) but the structural function is identical:
-an intermediary group that maintains the extraction relationship between
-dominant and dominated)
+CORROBORATION: SUPPORTED (three independent sources — Fanon's post-colonial
+context, Cobb's American racial-agrarian context, and Mishra's global
+development context; three distinct lock-in mechanisms: economic incentive,
+status compensation, and legitimation structure)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -560,11 +571,15 @@ infrastructure — lynching, police violence, structural threat — maintained
 the original violent distribution as operational infrastructure long after the
 founding act receded into history; adds the *maintenance dimension* — how
 constitutive violence is operationalized as ongoing infrastructure)
+NOTE: principles/mishra-western-model-broken.md M2 adds a consumptive dimension
+— the foundational colonial violence not only established the current distribution
+but consumed the material conditions that would allow others to follow the same
+path. The violence is doubly constitutive: it creates the order AND prevents
+alternatives by depleting the resources the model depended on.
 EVIDENCE: —
-CORROBORATION: ESTABLISHED (four sources; Cobb adds the operational maintenance
-dimension — Fanon describes the constitutive act, Cobb describes how it is
-maintained as infrastructure through individualized violence whose systematicity
-is concealed)
+CORROBORATION: ESTABLISHED (five sources; Mishra adds the consumptive dimension
+— constitutive violence that removes the conditions for replication, not only
+establishing a distribution but foreclosing structural alternatives)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -987,13 +1002,17 @@ the wealth defense industry is the apparatus that protects and accelerates it.
 The Powell Memo provides the documented strategic origin: the industry was
 deliberately constructed following an explicit blueprint. Whitehouse provides
 the evidence of its judicial branch in operation 50 years later.
+NOTE: principles/alley-very-bad-people.md A1 extends the pattern from domestic
+wealth defense to transnational kleptocratic enablement. The same professional
+class (lawyers, bankers, accountants, trust officers) serves both domestic
+oligarchs and foreign kleptocrats. The enabler architecture operates legally —
+shell companies, nominee directors, trust structures, real estate, legal privilege
+— converting illicit extraction into legitimate assets across jurisdictions. The
+industry is jurisdiction-agnostic: it defends wealth regardless of source.
 EVIDENCE: —
-CORROBORATION: SUPPORTED (three sources from different analytical positions —
-Winters provides the theoretical framework and comparative evidence, the Powell
-Memo provides the documented strategic origin from a Position 1 (ruler) primary
-source, and Whitehouse provides the evidence of operational execution in the
-judicial domain; the pattern is confirmed across political science, primary-source
-strategy, and insider institutional observation)
+CORROBORATION: SUPPORTED (four sources — Winters (theoretical), Powell Memo
+(strategic origin), Whitehouse (judicial execution), Alley (transnational
+kleptocratic extension through the same professional infrastructure))
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative

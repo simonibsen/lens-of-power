@@ -38,8 +38,8 @@ CORROBORATION: SUPPORTED (3 sources)
 LAYERS: Economic, Thought & Narrative
 STATEMENT: Abundance is deliberately prevented or destroyed because material security reduces dependency and enables independence.
 MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, debt-based, and network-effect-based channels.
-NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements (Chen 2026) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption.
-CORROBORATION: SUPPORTED (8 sources)
+NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements (Chen 2026) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants (Mishra 2014).
+CORROBORATION: SUPPORTED (9 sources)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -93,14 +93,15 @@ CORROBORATION: ESTABLISHED (5 sources)
 LAYERS: Economic, Institutional, Thought & Narrative
 STATEMENT: When a system of domination is formally dismantled, an indigenous class positioned as intermediary steps into the role of the departed power, reproducing extraction under a new flag.
 MECHANISM: The intermediary class did not build the system — it occupied positions within it. It lacks the capacity or incentive to transform the system. It uses liberation language to legitimize its position while preserving the underlying economic logic.
-NOTE: hooks extends from economic relay to categorical relay — liberation movements that adopt the dominant categorical system function as relays for the domination they claim to oppose.
-CORROBORATION: SUPPORTED (3 sources)
+NOTE: hooks extends from economic relay to categorical relay — liberation movements that adopt the dominant categorical system function as relays for the domination they claim to oppose. Mishra (2014) adds a legitimation lock-in — postcolonial elites cannot exit the relay role without destroying the ideological basis of their authority (the promise of "catching up" with the west).
+CORROBORATION: SUPPORTED (4 sources)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
 STATEMENT: Some systems of control are not merely maintained by violence but constituted through it — the initial distribution was established by force, and the system depends on the continuing implicit threat.
 MECHANISM: The original act of violence creates the initial distribution. Law, institutions, and economics are built on top, naturalizing it. The foundational violence becomes invisible because it has been converted into property, law, and custom.
-CORROBORATION: ESTABLISHED (4 sources)
+NOTE: Mishra (2014) adds a consumptive dimension — colonial violence not only established the current distribution but consumed the material conditions that would allow others to follow the same path. The violence is doubly constitutive: it creates the order AND forecloses alternatives.
+CORROBORATION: ESTABLISHED (5 sources)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -170,7 +171,8 @@ CORROBORATION: PRELIMINARY (1 primary source + counter-evidence from jubilee tra
 LAYERS: Economic, Legal & Regulatory, Institutional
 STATEMENT: Concentrated wealth generates a specialized professional class whose structural function is to defend and grow that wealth, operating with its own institutional momentum.
 MECHANISM: Professionalizes and institutionalizes wealth defense. Creates permanent infrastructure for tax avoidance, asset protection, political influence, and narrative production. Self-reinforcing: its existence creates demand for its services.
-CORROBORATION: SUPPORTED (3 sources)
+NOTE: Alley (2022) extends from domestic wealth defense to transnational kleptocratic enablement — the same professional class (lawyers, bankers, accountants) serves both domestic oligarchs and foreign kleptocrats, converting illicit extraction into legitimate assets across jurisdictions.
+CORROBORATION: SUPPORTED (4 sources)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
