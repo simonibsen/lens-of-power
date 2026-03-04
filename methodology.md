@@ -954,14 +954,15 @@ Record the output in `evidence/` with tags:
 - Mark evidentiary basis on every claim: **observed** (directly present
   in material), **inferred** (follows from reasoning), **speculative**
   (plausible but beyond direct evidence).
-- Mark corroboration on patterns: **preliminary** (observed in one
-  context; may not generalize), **supported** (confirmed across
-  meaningfully independent contexts — different eras, domains, or
-  positions in the power relationship), **established** (confirmed
-  across multiple independent contexts with no unresolved
-  counter-evidence). Thresholds are qualitative, not numeric — the
-  analyst must justify the rating based on the independence and diversity
-  of confirming sources, not count to a threshold.
+- Mark corroboration on patterns: **preliminary** (< 3 corroborating
+  sources), **supported** (≥ 3 sources AND ≥ 10% of the relevant
+  corpus), **established** (≥ 5 sources AND ≥ 20% of the relevant
+  corpus AND no unresolved counter-evidence). The relevant corpus is
+  sources sharing at least one taxonomy layer with the pattern.
+  Corroboration levels are computed by the build script
+  (`tools/build-viewer.py`) and written back to `patterns.md` and
+  `patterns-detail.md`. The analyst does not need to compute levels
+  manually — the build script handles it after each commit.
 - When uncertain, say so. The framework values honesty over completeness.
 - Always end with a framework update recommendation, even if it's "none."
 

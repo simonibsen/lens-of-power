@@ -4,9 +4,12 @@
 > of power observed across multiple independent sources, domains, eras, or
 > contexts. Patterns are the framework's highest-value output.
 >
-> Corroboration levels: PRELIMINARY (one context), SUPPORTED (confirmed
-> across independent contexts), ESTABLISHED (multiple independent contexts,
-> no unresolved counter-evidence).
+> Corroboration is computed as a hit rate against the relevant corpus —
+> sources sharing at least one taxonomy layer with the pattern.
+>
+> Levels: PRELIMINARY (< 3 corroborating sources), SUPPORTED (≥ 3 sources
+> AND ≥ 10% of relevant corpus), ESTABLISHED (≥ 5 sources AND ≥ 20% of
+> relevant corpus AND no unresolved counter-evidence).
 >
 > This is the compact reference — load this for every operation. For full
 > evidence trails (OBSERVED IN lists, analytical notes, corroboration
@@ -23,7 +26,7 @@ STATEMENT: Systems of control are frequently named for or justified by the oppos
 
 MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making criticism appear to oppose the outcome itself.
 
-CORROBORATION: ESTABLISHED (18 sources)
+CORROBORATION: ESTABLISHED (31 of 31 relevant sources, 100%)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -32,7 +35,7 @@ STATEMENT: Durable power structures operate multiple control mechanisms simultan
 
 MECHANISM: Defense-in-depth applied to social control. If narrative control fails, surveillance catches them. If surveillance fails, economic dependency constrains them. If that fails, legal or physical force is the backstop.
 
-CORROBORATION: ESTABLISHED (8 sources)
+CORROBORATION: ESTABLISHED (11 of 31 relevant sources, 35%)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -43,7 +46,7 @@ MECHANISM: Maintain war (real or fabricated) to justify surveillance, rationing,
 
 NOTE: Economic-reinforcement variant: when the war economy generates positive-sum returns for the domestic population (arms exports, military-tech sector growth), the perpetual threat frame is reinforced by prosperity rather than just fear. The standard cost-based circuit-breaker (war costs trigger democratic course-correction) does not operate. Observed: Israeli military-tech boom and arms exports funding popular support for permanent war (Guardian, March 2026). Hegseth's "this is not Iraq, this is not endless" (2026-03-02) confirms the administration recognizes the Serial Regime Change parallel as politically dangerous enough to preempt.
 
-CORROBORATION: SUPPORTED (4 sources)
+CORROBORATION: ESTABLISHED (7 of 31 relevant sources, 23%)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -54,7 +57,7 @@ MECHANISM: Channel surplus into waste or upward redistribution to maintain depen
 
 NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements ([Chen 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-datasociety-policybrief-big-ai-state.md)) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants ([Mishra 2014](https://github.com/simonibsen/lens-of-power/blob/main/principles/mishra-western-model-broken.md)).
 
-CORROBORATION: SUPPORTED (9 sources)
+CORROBORATION: SUPPORTED (6 of 31 relevant sources, 19%)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -63,7 +66,7 @@ STATEMENT: Total control requires simultaneous control of the past (historical r
 
 MECHANISM: Control the past to prevent unfavorable comparisons. Control the present to prevent unapproved action. Control the future to prevent unapproved imagination.
 
-CORROBORATION: SUPPORTED (2 sources)
+CORROBORATION: PRELIMINARY (3 of 31 relevant sources, 10%)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -72,7 +75,7 @@ STATEMENT: The middle tier of a power hierarchy is the most heavily controlled b
 
 MECHANISM: Give the middle tier enough to lose. Subject them to greater surveillance. Their investment in relative status prevents alliance with the bottom tier.
 
-CORROBORATION: ESTABLISHED (5 sources)
+CORROBORATION: SUPPORTED (4 of 31 relevant sources, 13%)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -81,7 +84,7 @@ STATEMENT: Violence is most effective when concentrated at the moment of acquisi
 
 MECHANISM: Injuries concentrated at one point fade from memory. Benefits distributed gradually create ongoing loyalty. Escalating cruelty produces escalating resistance.
 
-CORROBORATION: PRELIMINARY (1 source + 1 counter-perspective)
+CORROBORATION: PRELIMINARY (1 of 28 relevant sources, 4%) + 1 counter-perspective)
 
 ### Appearance as Structural Terrain
 LAYERS: Thought & Narrative, Institutional
@@ -90,7 +93,7 @@ STATEMENT: The gap between how a system presents itself and how it operates is n
 
 MECHANISM: The population evaluates systems by appearances because it has no access to inner workings. The gap between appearance and reality is the structural condition that makes political power operational.
 
-CORROBORATION: ESTABLISHED (12 sources)
+CORROBORATION: ESTABLISHED (27 of 31 relevant sources, 87%)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -99,7 +102,7 @@ STATEMENT: Every relationship of domination generates a hidden counter-narrative
 
 MECHANISM: The public transcript conceals actual beliefs. The hidden transcript preserves them. When conditions shift, the hidden transcript surfaces as organized resistance.
 
-CORROBORATION: SUPPORTED (2 sources)
+CORROBORATION: SUPPORTED (3 of 28 relevant sources, 11%)
 
 ### The Compliance Gradient
 LAYERS: All layers
@@ -108,7 +111,7 @@ STATEMENT: Between full compliance and open rebellion exists a continuous spectr
 
 MECHANISM: The powerful set terms. The subordinate comply partially. The powerful decide whether to enforce fully (costly) or accept partial compliance (cheaper). This produces dynamic equilibrium.
 
-CORROBORATION: SUPPORTED (4 sources)
+CORROBORATION: SUPPORTED (4 of 31 relevant sources, 13%)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -119,7 +122,7 @@ MECHANISM: The powerful require a legitimating ideology containing standards the
 
 NOTE: Inverse application observed: PRISONBREAK ([Citizen Lab 2025](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md)) documents the powerful exploiting the weak's genuine resistance for strategic ends — Iranian citizens' real desire for freedom weaponized through AI deepfakes to serve Israeli military objectives. The imprisoned singers' authentic activism is appropriated without consent and reproduced in deepfake form. Same mechanism, opposite direction.
 
-CORROBORATION: SUPPORTED (4 sources — Scott, Cobb, Stanley + Citizen Lab inverse)
+CORROBORATION: SUPPORTED (5 of 31 relevant sources, 16%)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -128,7 +131,7 @@ STATEMENT: In most stable power relationships, both the dominant and the subordi
 
 MECHANISM: Neither side can afford to break the fiction. The public transcript is a jointly produced performance maintained for different strategic reasons by both parties.
 
-CORROBORATION: ESTABLISHED (5 sources)
+CORROBORATION: SUPPORTED (5 of 31 relevant sources, 16%)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -139,7 +142,7 @@ MECHANISM: The intermediary class did not build the system — it occupied posit
 
 NOTE: hooks extends from economic relay to categorical relay — liberation movements that adopt the dominant categorical system function as relays for the domination they claim to oppose. Mishra (2014) adds a legitimation lock-in — postcolonial elites cannot exit the relay role without destroying the ideological basis of their authority (the promise of "catching up" with the west).
 
-CORROBORATION: SUPPORTED (4 sources)
+CORROBORATION: PRELIMINARY (2 of 31 relevant sources, 6%)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -150,7 +153,7 @@ MECHANISM: The original act of violence creates the initial distribution. Law, i
 
 NOTE: Mishra (2014) adds a consumptive dimension — colonial violence not only established the current distribution but consumed the material conditions that would allow others to follow the same path. The violence is doubly constitutive: it creates the order AND forecloses alternatives.
 
-CORROBORATION: ESTABLISHED (5 sources)
+CORROBORATION: ESTABLISHED (8 of 31 relevant sources, 26%)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -159,7 +162,7 @@ STATEMENT: The dominated subject's cultural response follows a sequence: assimil
 
 MECHANISM: Assimilation internalizes the dominant culture. Essentialism accepts the dominant categories and reverses the valuation. Synthesis breaks the binary by producing something new.
 
-CORROBORATION: SUPPORTED (1 source, independently recognizable across diverse domains)
+CORROBORATION: PRELIMINARY (1 of 31 relevant sources, 3%)
 
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -168,7 +171,7 @@ STATEMENT: Continuous live coverage that reports all facts but prevents synthesi
 
 MECHANISM: Every fact is reported; no fact is evaluated. The volume of information substitutes for analysis, producing an informed but analytically paralyzed audience.
 
-CORROBORATION: SUPPORTED (3 sources — empirical observation + theoretical account; variant mechanism (selective construction) observed in Fox News analysis; variant mechanism (structurally related stories presented as unrelated) observed in Day 3 Guardian live blog)
+CORROBORATION: ESTABLISHED (7 of 28 relevant sources, 25%)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -177,7 +180,7 @@ STATEMENT: A state repeatedly applies the same military intervention template ac
 
 MECHANISM: Construct threat narrative, build coalition, aerial bombardment, declare success, leave destabilized state. Framing each war as unprecedented obscures the serial nature.
 
-CORROBORATION: SUPPORTED (3 analyses + extensive public record)
+CORROBORATION: SUPPORTED (6 of 31 relevant sources, 19%)
 
 NOTE: Hegseth's "this is not Iraq, this is not endless" (2026-03-02) confirms the administration recognizes the Serial Regime Change parallel as politically dangerous enough to preempt.
 
@@ -190,7 +193,7 @@ MECHANISM: No existing regulation applies. Public discourse lacks vocabulary for
 
 NOTE: AI-military compound variant: PRISONBREAK ([Citizen Lab 2025](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md)) documents AI deepfakes synchronized with active military strikes — the Evin Prison deepfake posted during bombing, republished by multiple international news outlets before identification as fabricated. No verification infrastructure exists for real-time AI-generated content during active military operations. The void is exploited at its widest point: the intersection of AI fabrication, military operations, and platform distribution.
 
-CORROBORATION: SUPPORTED (3 sources)
+CORROBORATION: SUPPORTED (4 of 31 relevant sources, 13%)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -199,7 +202,7 @@ STATEMENT: Surveillance capitalism advances through a repeating four-stage norma
 
 MECHANISM: Each extension provokes initial resistance. The company absorbs criticism, makes cosmetic concessions, waits. Users habituate. New baseline established. Next incursion begins. Non-reversible without structural intervention.
 
-CORROBORATION: SUPPORTED (4 sources)
+CORROBORATION: SUPPORTED (4 of 31 relevant sources, 13%)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -210,7 +213,7 @@ MECHANISM: Maintained through trade secret law, algorithmic opacity, proprietary
 
 NOTE: Wartime variant: occupied territory as total information asymmetry maintained through military force. The journalist who attempted to penetrate the blackhole was absorbed into the system she was documenting (Roshchyna/ghost detainees, Forbidden Stories 2026). AI amplification variant: manipulation at one platform (Wikipedia) propagates through AI systems that use it as training data, multiplying the information asymmetry without the manipulator needing to access downstream systems (Portland/TBIJ 2026).
 
-CORROBORATION: SUPPORTED (8 sources)
+CORROBORATION: SUPPORTED (6 of 31 relevant sources, 19%)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -221,7 +224,7 @@ MECHANISM: Early pre-compliance creates social proof encouraging further pre-com
 
 NOTE: Arendt provides the structural prerequisite — atomization destroys collective resources for resistance, making anticipatory compliance the individually rational response. Institutional variant: Israeli political opposition — including Netanyahu's "bitter rivals" — instantly set aside fierce domestic debate about October 7 responsibility to join the war consensus (Guardian, March 2026). Anticipatory obedience operating at the institutional-political level rather than the individual level.
 
-CORROBORATION: SUPPORTED (3 sources)
+CORROBORATION: SUPPORTED (6 of 31 relevant sources, 19%)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
@@ -232,7 +235,7 @@ MECHANISM: Individually rational choices produce collective structural failure. 
 
 NOTE: Five distinct mechanisms now observed — abdication under pressure (hollowing from within), capture (redirection from without), structural dependency (inability to act independently of the power being counteracted), strategic abdication as liberation narrative (voluntary withdrawal of governance infrastructure, framed as freedom for the governed), and platform abdication (elimination of integrity infrastructure, converting governed platform into ungoverned terrain). DoE Kirk banner (2026-03-02) instantiates the strategic abdication variant. X/Twitter's elimination of integrity teams and non-response to Citizen Lab's PRISONBREAK notification (2025) instantiates the platform abdication variant — the operation was detected by external academics, not by the platform.
 
-CORROBORATION: SUPPORTED (6 sources)
+CORROBORATION: ESTABLISHED (8 of 28 relevant sources, 29%)
 
 ### The Peacetime Ratchet
 LAYERS: Economic, Institutional, Legal & Regulatory
@@ -241,7 +244,7 @@ STATEMENT: In the absence of catastrophic disruption, inequality increases as st
 
 MECHANISM: Capital accumulates, returns compound, institutions entrench existing distribution, political influence follows wealth. Counterforce is weakest during long stability when urgency seems low and the wealthy's influence is highest.
 
-CORROBORATION: ESTABLISHED (6 sources)
+CORROBORATION: SUPPORTED (6 of 31 relevant sources, 19%)
 
 ### Compression Through Destruction
 LAYERS: Physical & Coercive, Economic, Institutional
@@ -252,7 +255,7 @@ MECHANISM: Wars destroy capital. Revolutions expropriate. Pandemics shift labor-
 
 IC-1 FLAG: Challenges the implied sufficiency of "actively counteracted" in Axiom 5. Counter-evidence: Scandinavian social democracies, Mesopotamian debt jubilees.
 
-CORROBORATION: PRELIMINARY (1 primary source + counter-evidence from jubilee tradition)
+CORROBORATION: PRELIMINARY (1 of 31 relevant sources, 3%) + counter-evidence from jubilee tradition)
 
 ### The Wealth Defense Industry
 LAYERS: Economic, Legal & Regulatory, Institutional
@@ -263,7 +266,7 @@ MECHANISM: Professionalizes and institutionalizes wealth defense. Creates perman
 
 NOTE: Alley (2022) extends from domestic wealth defense to transnational kleptocratic enablement — the same professional class (lawyers, bankers, accountants) serves both domestic oligarchs and foreign kleptocrats, converting illicit extraction into legitimate assets across jurisdictions. Information-layer variant: PR firms (Portland Communications) as the reputation defence arm, operating at the Thought & Narrative layer through controlled information platforms (Wikipedia), with the same structural position as Alley's enabler architects but on a different layer (TBIJ 2026).
 
-CORROBORATION: SUPPORTED (5 sources)
+CORROBORATION: PRELIMINARY (3 of 31 relevant sources, 10%)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -274,7 +277,7 @@ MECHANISM: Democracy provides the appearance of self-governance; oligarchy provi
 
 NOTE: Chen (2026) documents a specific mechanism: state equity investment ($10B+) with deliberate refusal of governance (no board seats, worker protections characterized as "ideological agendas," Sanders/Warren public-benefit alternative rejected). The democratic state invests public capital but declines every tool that would convert investment into public accountability. This is the pattern operating through industrial policy — not as structural default but as explicit design choice.
 
-CORROBORATION: PRELIMINARY (4 sources, all from same national context — cross-national confirmation still needed)
+CORROBORATION: ESTABLISHED (7 of 31 relevant sources, 23%)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -285,7 +288,7 @@ MECHANISM: (1) A power relationship is described using moral language. (2) The f
 
 NOTE: hooks extends — the Moynihan Report converts structural economic damage (effects of slavery and Jim Crow) into moral judgments about Black cultural pathology.
 
-CORROBORATION: SUPPORTED (3 sources)
+CORROBORATION: PRELIMINARY (2 of 31 relevant sources, 6%)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -296,7 +299,7 @@ MECHANISM: Each stage appears normal in isolation. The capture is invisible beca
 
 NOTE: Ziklag ([ProPublica 2024](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md)) provides the first primary-source documentation where the pipeline operators describe the pipeline in their own words. The Seven Mountain Mandate articulates capture across all societal sectors; three named operations (Checkmate, Steeplechase, Watchtower) document the pipeline from donor funding through organizational networks (ADF, TPUSA, CPI) to electoral and institutional outcomes. Combined with Whitehouse's judicial pipeline and the Powell Memo blueprint, the pattern is confirmed across three independent documented contexts.
 
-CORROBORATION: SUPPORTED (3 sources — Powell Memo blueprint, Whitehouse judicial pipeline, Ziklag primary-source documentation)
+CORROBORATION: PRELIMINARY (3 of 31 relevant sources, 10%)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -307,7 +310,7 @@ MECHANISM: Reform targeting one or two layers leaves others intact. Control migr
 
 NOTE: Abu Bashar's family displaced from Wadi al-Siq in 1948, 1967, and 2023 — three political configurations, same structural outcome: Bedouin displacement from the same territory ([Forbidden Stories 2024](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md)). Combined with the Mississippi Delta (Cobb) and Soviet-to-Russian prison continuity, three independent contexts now documented.
 
-CORROBORATION: SUPPORTED (3 independent contexts)
+CORROBORATION: PRELIMINARY (3 of 31 relevant sources, 10%)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -316,7 +319,7 @@ STATEMENT: Propaganda persists not because it is imposed but because it is struc
 
 MECHANISM: Governors need propaganda because coercion is expensive and consent is cheap. The governed need propaganda because complexity is overwhelming and certainty is psychologically necessary. This dual demand makes propaganda self-reinforcing: exposure increases the need for more exposure. Education and information access increase susceptibility rather than providing immunity because they increase exposure and the opinion imperative.
 
-CORROBORATION: SUPPORTED (2 sources)
+CORROBORATION: PRELIMINARY (1 of 31 relevant sources, 3%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -327,7 +330,7 @@ MECHANISM: Each categorical system has an unmarked default (the most privileged 
 
 NOTE: May be an extension of Axiom 8 (absence as significant) + the Division of Learning rather than a fully distinct pattern. Monitor for independent confirmation.
 
-CORROBORATION: PRELIMINARY (1 source — hooks; recognizable in disability studies, queer theory, and postcolonial analysis)
+CORROBORATION: PRELIMINARY (1 of 28 relevant sources, 4%)
 
 ### The Boomerang
 LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
@@ -340,4 +343,4 @@ NOTE: Related to Serial Regime Change (same techniques across targets) and Const
 
 NOTE: Roshchyna/ghost detainees ([Forbidden Stories 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees.md)) adds temporal Boomerang: gulag-era methods (reception beatings, institutionalized torture, extrajudicial detention of civilians) applied to occupied Ukrainian population. The article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags."
 
-CORROBORATION: SUPPORTED (3 sources — Arendt theoretical account, Operation Metro Surge domestic confirmation, Roshchyna gulag-continuity confirmation)
+CORROBORATION: SUPPORTED (3 of 29 relevant sources, 10%)
