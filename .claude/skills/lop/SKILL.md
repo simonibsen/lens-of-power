@@ -144,6 +144,32 @@ evaluates the source for both principles and instruments:
 Produce the output defined in the RED TEAM mode section of methodology.md
 and offer to write the results to `evidence/`.
 
+## Commit conventions
+
+When committing framework output, use conventional commit types that
+match the framework operation that produced the work:
+
+- `analyze:` — ANALYZE mode output (analysis file, index entry, viewer)
+- `extract:` — EXTRACT mode output (principles, instruments, index entry)
+- `redteam:` — RED TEAM mode output (evidence entries, framework health)
+- `fix:` — process or methodology corrections
+- `refactor:` — framework restructuring (taxonomy, constitution, patterns)
+- `chore:` — maintenance (viewer-only rebuilds, dependency updates)
+
+Examples:
+```
+analyze: leaked embassy cable on Israel-Hezbollah threat (Guardian)
+extract: Schimpfössl: oligarch moralities of wealth (EEPSC 2024)
+fix: move branching check to start of mode
+refactor: promote Anticipatory Obedience to ESTABLISHED
+```
+
+When a commit includes framework updates triggered by an analysis or
+extraction (pattern corroboration, index updates), include those in the
+same commit as the analysis/extraction — they are part of the same
+operation. Use a separate commit only when the framework update is
+independent of a specific analysis.
+
 ## Framework term references
 
 In all human-readable output, follow the framework term reference
