@@ -111,3 +111,9 @@
   Layers: Economic (primary), Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Surveillance & Information
   Null case: plausible at component level (MEDIUM); less plausible at sequence level (MEDIUM-LOW — reinforcement chain across components)
   File: `2026-02-26-variety-article-paramount-warner-bros-deal.md`
+
+### 2026-03-04 — Leaked embassy cable: Israel flagged Hezbollah threat before launching strikes (Guardian)
+  Domain: US foreign policy / military / diplomacy / intelligence
+  Layers: Thought & Narrative, Physical & Coercive, Institutional, Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  Null case: plausible for cable in isolation (MEDIUM); less plausible for cable-strike-retaliation-escalation sequence
+  File: `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`
