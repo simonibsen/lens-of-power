@@ -45,6 +45,23 @@ Parse `$ARGUMENTS` to determine the mode:
 
 If unclear, ask the user which mode to use.
 
+## Branching check (before analytical work)
+
+For modes that write to the repository (ANALYZE, EXTRACT, RED TEAM),
+check the current git branch **before producing any analytical output**.
+Run `git branch --show-current` and:
+
+- **On main**: Stop. Ask the user to create and switch to a working
+  branch. Do not proceed with the analysis until the branch is resolved.
+- **Not on main**: Confirm with the user that writing to the current
+  branch is intended, then proceed.
+
+This check must happen early — after loading the framework and
+determining the mode, but before triage or any analytical steps. The
+user should not receive a full analysis and then be asked about branches.
+
+READ mode is exempt (no file output by default).
+
 ## Execute
 
 Follow the procedure defined in `methodology.md` for the selected mode.

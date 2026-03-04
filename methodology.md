@@ -98,20 +98,22 @@ output format is lighter.
 
 ---
 
-## Pre-write branching check
+## Branching check
 
-Before writing any file (analysis, extraction, evidence entry, pattern
-update, instrument), check the current git branch:
+For any mode that writes to the repository (ANALYZE, EXTRACT, RED TEAM),
+check the current git branch **at the start of the mode** — after triage
+but before producing analytical output. Do not defer this check to the
+moment of writing; the user should confirm the branch before the analyst
+invests effort in the full procedure.
 
-- **On main**: Do not write. Ask the user to create and switch to a
-  working branch first. Suggest a name based on the material (e.g.,
+- **On main**: Stop. Ask the user to create and switch to a working
+  branch before proceeding. Suggest a name based on the material (e.g.,
   `analysis/2026-03-03-source-topic`).
 - **Not on main**: Confirm with the user that writing to the current
-  branch is intended before proceeding.
+  branch is intended, then proceed with the analysis.
 
-This check applies to ANALYZE, EXTRACT, and RED TEAM modes — any mode
-that writes to the repository. READ mode does not write files by default
-and is exempt unless the user requests file output.
+READ mode does not write files by default and is exempt unless the user
+requests file output.
 
 ## Post-write viewer rebuild
 
