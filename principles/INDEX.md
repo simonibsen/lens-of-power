@@ -147,6 +147,14 @@ KEY PATTERNS: Inversion of Stated Purpose, Appearance as Structural Terrain, Rea
 IC-1 FLAGS: Axiom 3 (fourth mode — absence of vantage point), Axiom 10 (education paradox — tools of understanding increase susceptibility)
 INSTRUMENT: instruments/propaganda-typology.md (co-derived with Stanley — Ellul provides Axes 1-4)
 
+## guriev-rachinsky-role-of-oligarchs.md
+SOURCE: Sergei Guriev and Andrei Rachinsky, "The Role of Oligarchs in Russian Capitalism," *Journal of Economic Perspectives* (2005)
+POSITION: 5 (academic economists with World Bank dataset access, writing from within Russian economics community)
+PRINCIPLES: 4 — The Selective Reform Trap, The Informal State-Capital Pact, Illegitimacy as Structural Vulnerability, The Efficiency-Concentration Paradox
+LAYERS: Economic (primary), Institutional, Legal & Regulatory, Thought & Narrative, Physical & Coercive
+KEY PATTERNS: Democracy-Oligarchy Coexistence, Constitutive Violence, Peacetime Ratchet, Wealth Defense Industry, Capture Pipeline, Appearance as Structural Terrain, Formal Transformation/Structural Continuity, Inversion of Stated Purpose, Middle Stratum Trap
+IC-1 FLAGS: Axiom 3 (mediated agency — population sees illegitimacy but acts through state), Axiom 5 (efficiency-concentration paradox complicates the normative case for counteraction)
+
 ## alley-very-bad-people.md
 SOURCE: Patrick Alley, *Very Bad People: The Inside Story of the Fight Against the World's Network of Corruption* (2022)
 POSITION: Hybrid (5/activist — co-founder of Global Witness, investigator turned memoirist)
@@ -155,3 +163,11 @@ LAYERS: Economic (primary), Institutional, Legal & Regulatory, Surveillance & In
 KEY PATTERNS: Wealth Defense Industry, Inversion of Stated Purpose, Division of Learning, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence, Manufactured Scarcity
 IC-1 FLAGS: Axiom 10 (Kimberley Process — naming captured and converted into new appearance of accountability)
 INSTRUMENT PROPOSED: Kleptocratic Infrastructure Detection (partial — needs additional sources)
+
+## schimpfossl-oligarch-moralities-of-wealth.md
+SOURCE: Elisabeth Schimpfössl, "Oligarch Moralities of Wealth: The Russian Case," *East European Politics and Societies and Cultures* (2024)
+POSITION: Hybrid (5/1-data — sociologist, but evidentiary base is 80 interviews with ultra-wealthy Russians)
+PRINCIPLES: 5 — Biological Naturalization of Social Hierarchy, Pre-Capitalist Identity as Capitalist Legitimation, Philanthropy as Governance Substitution, The Candor Differential and the Ruler's Hidden Transcript, Neoliberal-Authoritarian Compatibility
+LAYERS: Thought & Narrative (primary), Economic, Institutional, Legal & Regulatory
+KEY PATTERNS: Appearance as Structural Terrain, Inversion of Stated Purpose, Democracy-Oligarchy Coexistence, Moral Infrastructure of Economic Power, Formal Transformation/Structural Continuity, Double Performance, Hidden Transcript (extended to ruler)
+IC-1 FLAGS: Axiom 3 (biological naturalization re-naturalizes contingency even when stated openly), Axiom 10 (sincerity problem — belief is genuine, not strategic)
