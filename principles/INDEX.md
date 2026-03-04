@@ -163,3 +163,11 @@ LAYERS: Economic (primary), Institutional, Legal & Regulatory, Surveillance & In
 KEY PATTERNS: Wealth Defense Industry, Inversion of Stated Purpose, Division of Learning, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence, Manufactured Scarcity
 IC-1 FLAGS: Axiom 10 (Kimberley Process — naming captured and converted into new appearance of accountability)
 INSTRUMENT PROPOSED: Kleptocratic Infrastructure Detection (partial — needs additional sources)
+
+## schimpfossl-oligarch-moralities-of-wealth.md
+SOURCE: Elisabeth Schimpfössl, "Oligarch Moralities of Wealth: The Russian Case," *East European Politics and Societies and Cultures* (2024)
+POSITION: Hybrid (5/1-data — sociologist, but evidentiary base is 80 interviews with ultra-wealthy Russians)
+PRINCIPLES: 5 — Biological Naturalization of Social Hierarchy, Pre-Capitalist Identity as Capitalist Legitimation, Philanthropy as Governance Substitution, The Candor Differential and the Ruler's Hidden Transcript, Neoliberal-Authoritarian Compatibility
+LAYERS: Thought & Narrative (primary), Economic, Institutional, Legal & Regulatory
+KEY PATTERNS: Appearance as Structural Terrain, Inversion of Stated Purpose, Democracy-Oligarchy Coexistence, Moral Infrastructure of Economic Power, Formal Transformation/Structural Continuity, Double Performance, Hidden Transcript (extended to ruler)
+IC-1 FLAGS: Axiom 3 (biological naturalization re-naturalizes contingency even when stated openly), Axiom 10 (sincerity problem — belief is genuine, not strategic)

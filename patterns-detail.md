@@ -105,11 +105,20 @@ degrade its own conditions; corroboration from a new domain: corporate policy),
 that are offensive; "self-defense" in a seven-nation joint statement describing a
 preemptive attack; "eliminating threats" as framing for regime change; the joint
 statement condemns Iran's "indiscriminate attacks" while the US/Israel initiated the
-military operation — the language of defense applied to aggression)
+military operation — the language of defense applied to aggression),
+[principles/schimpfossl-oligarch-moralities-of-wealth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/schimpfossl-oligarch-moralities-of-wealth.md) P3, P5 (philanthropy
+states generosity, functions as governance substitution and wealth legitimation —
+"the core aim is to eventually supplant state provision of social care by creating a
+controlled form of 'activism' that is instigated and administered from above."
+Neoliberal doctrine "outsources crisis management to the state while at the same
+time expecting the very same state to implement policies and regulations that
+guarantee the stable growth of private capital." The stated commitment to democracy
+conceals its conditionality — "Neoliberals commit to democracy only as long as it
+is feasible to do so; if not, then dictatorial measures are considered fair game.")
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: ESTABLISHED (33 of 33 relevant sources, 100%)
+CORROBORATION: ESTABLISHED (34 of 34 relevant sources, 100%)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -155,7 +164,7 @@ others by removing constraint.)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (11 of 33 relevant sources, 33%)
+CORROBORATION: ESTABLISHED (11 of 34 relevant sources, 32%)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -194,7 +203,7 @@ the war is profitable. Analyst Zonszein identifies only external circuit-breaker
 economic cost to Israelis, mass Israeli casualties, or international intervention.
 The perpetual threat frame is reinforced by prosperity, not just fear.)
 
-CORROBORATION: ESTABLISHED (7 of 33 relevant sources, 21%)
+CORROBORATION: ESTABLISHED (7 of 34 relevant sources, 21%)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -245,7 +254,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 33 relevant sources, 18%)
+CORROBORATION: SUPPORTED (6 of 34 relevant sources, 18%)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -266,7 +275,7 @@ transition between the two is the moment of maximum danger for democratic order)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 33 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (3 of 34 relevant sources, 9%)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -298,7 +307,7 @@ making them complicit in the system that exploited them)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 33 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -325,7 +334,7 @@ normative weight.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 30 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 31 relevant sources, 3%)
 
 ### Appearance as Structural Terrain
 LAYERS: Thought & Narrative, Institutional
@@ -391,11 +400,21 @@ statement condemning Iran's "indiscriminate attacks" constructs an appearance of
 multilateral consensus for what is structurally a US-Israeli offensive — seven nations
 condemning the attacked party frames the coalition as defending against aggression;
 the appearance of broad international opposition to Iran IS the terrain the operation's
-legitimacy rests on, regardless of the power dynamics that produced the statement)
+legitimacy rests on, regardless of the power dynamics that produced the statement),
+[principles/schimpfossl-oligarch-moralities-of-wealth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/schimpfossl-oligarch-moralities-of-wealth.md) P1, P2, P4 (the
+entire paper documents the gap between oligarchic self-presentation —
+meritocratic, deserving, philanthropic — and the structural conditions of
+wealth acquisition. P1: biological superiority claims are the appearance;
+privatization windfalls and intelligentsia networks are the reality. P2: Soviet
+intelligentsia identity is the appearance; oligarchic wealth defense is the
+reality. P4: the "candor differential" IS the terrain — Russian oligarchs
+partially collapse the gap that Western oligarchs maintain, revealing what the
+appearance conceals in mature democracies. Position 1 primary evidence: 80
+interviews with ultra-wealthy Russians performing legitimation in real time.)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (29 of 33 relevant sources, 88%)
+CORROBORATION: ESTABLISHED (30 of 34 relevant sources, 88%)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -420,11 +439,22 @@ blues tradition as vernacular counter-knowledge — encoding mechanisms of
 control (debt, displacement, police violence, sexual exploitation) in musical
 form that was audible to the Black community and partially opaque to the white
 power structure; different medium (music vs. gossip), different cultural context
-(the American South vs. Southeast Asian peasantry), same structural mechanism)
+(the American South vs. Southeast Asian peasantry), same structural mechanism),
+[principles/schimpfossl-oligarch-moralities-of-wealth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/schimpfossl-oligarch-moralities-of-wealth.md) P4 (EXTENDS the pattern
+from the subordinate to the ruler. Schimpfössl documents the RULER's hidden
+transcript: beliefs the powerful hold privately — biological superiority, anti-
+democratic preferences, Pinochet admiration — that cannot be expressed publicly
+without undermining their legitimating narrative. The candor differential across
+democratic contexts reveals the hidden transcript through cross-context comparison:
+Russian oligarchs express what Western oligarchs suppress. Structural parallel is
+exact: both subordinate and ruler maintain a public and private discourse, but the
+subordinate conceals resistance while the ruler conceals the actual ideological
+basis of domination. First ruler-position evidence for the pattern in the
+framework.)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (3 of 30 relevant sources, 10%)
+CORROBORATION: SUPPORTED (4 of 31 relevant sources, 13%)
 
 ### The Compliance Gradient
 LAYERS: All layers
@@ -464,7 +494,7 @@ platform exit; Meta's design assumes and depends on the gradient skewing toward 
 compliance — the complexity and opacity of the policies function to keep the cost curve
 positioned against active resistance)
 
-CORROBORATION: SUPPORTED (4 of 33 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -511,7 +541,7 @@ actively reproduced in fabricated form)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 33 relevant sources, 15%)
+CORROBORATION: SUPPORTED (5 of 34 relevant sources, 15%)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -559,7 +589,16 @@ yet neither breaks it: users because refusing means losing access to embedded so
 infrastructure, Meta because acknowledging the fiction would undermine the legal
 authority it produces)
 
-CORROBORATION: SUPPORTED (5 of 33 relevant sources, 15%)
+OBSERVED IN: [principles/schimpfossl-oligarch-moralities-of-wealth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/schimpfossl-oligarch-moralities-of-wealth.md) P4 (Western
+oligarchs perform meritocracy and democratic commitment for public consumption while
+privately holding biological superiority beliefs and anti-democratic preferences.
+Russian oligarchs partially break the performance — their candor reveals the gap
+between the ruler's public transcript and private beliefs. Page et al. confirm U.S.
+billionaires are "mindful of the chasm between their own political views and public
+opinion" and therefore "act behind the scenes." The performance is conscious and
+strategic on the ruler's side, not just the subordinate's.)
+
+CORROBORATION: SUPPORTED (5 of 34 relevant sources, 15%)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -598,7 +637,7 @@ generations (from Nehru to McKinsey); the structural commitment does not.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 33 relevant sources, 6%)
+CORROBORATION: PRELIMINARY (2 of 34 relevant sources, 6%)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -652,7 +691,7 @@ alternatives by depleting the resources the model depended on.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (9 of 33 relevant sources, 27%)
+CORROBORATION: ESTABLISHED (9 of 34 relevant sources, 26%)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -677,7 +716,7 @@ control and resistance)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 33 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
 
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -719,7 +758,7 @@ More instances needed before proposing a standalone pattern.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (7 of 30 relevant sources, 23%)
+CORROBORATION: ESTABLISHED (7 of 31 relevant sources, 23%)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -747,7 +786,7 @@ planning discussion. Fox's Iraq 2003 coverage used the same editorial architectu
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: SUPPORTED (6 of 33 relevant sources, 18%)
+CORROBORATION: SUPPORTED (6 of 34 relevant sources, 18%)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -786,7 +825,7 @@ was not available in any previous conflict)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 33 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -827,7 +866,7 @@ incursion)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 33 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -893,7 +932,7 @@ distributes through every AI system that uses Wikipedia. This extends the Divisi
 Learning from bilateral asymmetry to systemic multiplication through technological
 infrastructure the manipulator did not build.
 
-CORROBORATION: SUPPORTED (6 of 33 relevant sources, 18%)
+CORROBORATION: SUPPORTED (6 of 34 relevant sources, 18%)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -931,7 +970,7 @@ would be politically fatal.)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 33 relevant sources, 18%)
+CORROBORATION: SUPPORTED (6 of 34 relevant sources, 18%)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
@@ -992,7 +1031,7 @@ not gradual erosion, not structural dependency, not strategic withdrawal framed 
 liberation — but elimination of governance infrastructure as institutional indifference,
 where the resulting void is exploited by military-intelligence operations)
 
-CORROBORATION: ESTABLISHED (8 of 30 relevant sources, 27%)
+CORROBORATION: ESTABLISHED (8 of 31 relevant sources, 26%)
 
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
@@ -1057,7 +1096,7 @@ would create competitive counterforces are blocked)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (7 of 33 relevant sources, 21%)
+CORROBORATION: ESTABLISHED (7 of 34 relevant sources, 21%)
 
 ### Compression Through Destruction
 LAYERS: Physical & Coercive, Economic, Institutional
@@ -1107,7 +1146,7 @@ New Deal), and the resulting compression was weaker and more easily reversed.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 33 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
 
 ### The Wealth Defense Industry
 LAYERS: Economic, Legal & Regulatory, Institutional
@@ -1183,7 +1222,7 @@ after Kotlarek's blocking in 2024.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 33 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -1233,9 +1272,19 @@ advantage for Paramount-WBD acquisition without concealment. The formal regulato
 process — FCC, HSR antitrust — evaluates business fundamentals while the substantive
 editorial-political determination operates through wealth-funded political
 relationships. The open display is itself analytically significant: the mechanism no
-longer requires concealment to function)
+longer requires concealment to function),
+[principles/schimpfossl-oligarch-moralities-of-wealth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/schimpfossl-oligarch-moralities-of-wealth.md) P5 (extends the pattern with
+a boundary condition: democracy-oligarchy coexistence holds only while democracy
+does not threaten capital. When democratic processes threaten redistribution or
+constraints on accumulation, neoliberal actors prefer authoritarian implementation.
+Aven "encouraged Putin to embrace Reaganomics combined with Pinochet-type dictatorial
+control"; Kokh would change only the Pinochet pension reform detail; "Neoliberals commit
+to democracy only as long as it is feasible to do so." The Chilean model — military
+dictatorship implementing the world's "purest" neoliberal experiment — is the explicit
+reference point for Russian oligarchs. Position 1 primary evidence for the boundary
+condition.)
 
-CORROBORATION: ESTABLISHED (9 of 33 relevant sources, 27%)
+CORROBORATION: ESTABLISHED (10 of 34 relevant sources, 29%)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -1283,9 +1332,20 @@ instrument) by showing that the economic vocabulary of debt is itself the primar
 instrument of economic control — not a description of the control but the
 mechanism of it.
 
+OBSERVED IN: [principles/schimpfossl-oligarch-moralities-of-wealth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/schimpfossl-oligarch-moralities-of-wealth.md) P2, P3 (the
+Soviet intelligentsia identity provides the moral vocabulary for the oligarchic
+position — "inner strength," "work ethic," "discipline," "culture" — converting
+the structural relationship of wealth concentration into a narrative of deserved
+moral standing. P3: the "good"/"bad" wealth distinction (Piketty, Sherman, Freund)
+operates as moral infrastructure preventing structural analysis by relocating
+critique from the system to individual moral character. Philanthropy converts the
+economic relationship of extraction into a moral narrative of generosity. The
+mechanism is documented through Position 1 evidence: the oligarchs themselves
+construct and deploy the moral vocabulary.)
+
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 33 relevant sources, 6%)
+CORROBORATION: PRELIMINARY (2 of 34 relevant sources, 6%)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -1348,7 +1408,7 @@ Redundancy architecture.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 33 relevant sources, 15%)
+CORROBORATION: SUPPORTED (5 of 34 relevant sources, 15%)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -1397,6 +1457,20 @@ explains the IC-1 flag on Scheidel P1: the Civil War was a Four Horsemen event t
 compressed Southern wealth, but the social structure survived through undisrupted
 layers because the catastrophe did not reach them all.
 
+OBSERVED IN: [principles/schimpfossl-oligarch-moralities-of-wealth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/schimpfossl-oligarch-moralities-of-wealth.md) P2 (Soviet
+intelligentsia → oligarch: the formal system changed from socialism to capitalism,
+but social elites maintained continuity through cultural capital conversion. "Almost
+all of them emphasize the legacy of their Soviet intelligentsia upbringing."
+Intelligentsia backgrounds provided "cultural and social capital through the Soviet
+education system, their parents' libraries, and their influential networks." The
+identity shifted from Soviet intelligentsia to "drivers of neoliberal capitalism"
+but "neoliberal ideologies lacked the historical and symbolic gravitas required for
+sustainable identity-building," so oligarchs "incorporated elements of their Soviet
+past into their twenty-first-century identities." Fifth independent context
+documented — complementing Guriev-Rachinsky's structural observation with the
+ideological mechanism: the same individuals who converted nomenklatura control to
+ownership also converted intelligentsia cultural capital to oligarchic legitimation.)
+
 EVIDENCE: —
 
 NOTE: Roshchyna/ghost detainees analysis (2026-03-02) provides a second instance:
@@ -1418,7 +1492,7 @@ with the Mississippi Delta (five regime changes, 150 years), the Russian prison 
 (Soviet → Federation), and this instance, the pattern now has three meaningfully
 independent contexts.
 
-CORROBORATION: SUPPORTED (4 of 33 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -1464,7 +1538,7 @@ structural effect converges.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 33 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -1487,7 +1561,7 @@ Learning rather than a fully distinct pattern. Monitor for independent confirmat
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 30 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 31 relevant sources, 3%)
 
 ### The Boomerang
 LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
@@ -1524,4 +1598,4 @@ Russian detention).
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 31 relevant sources, 10%)
+CORROBORATION: PRELIMINARY (3 of 32 relevant sources, 9%)
