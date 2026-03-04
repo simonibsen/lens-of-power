@@ -124,6 +124,32 @@ python3 tools/build-viewer.py && open viewer.html
 This is not optional — always run it after any file write. The viewer
 shows how the new content connects to the existing knowledge base.
 
+## Post-analysis gap recommendation
+
+After an analysis or extraction is complete and all framework updates
+are written, review the current state of the framework for gaps and
+recommend what to study next. This step runs *after* the analysis is
+finished — it must not influence the analytical process itself.
+
+**Draw on**:
+- Under-corroborated patterns (PRELIMINARY with few sources)
+- Under-studied layers or layer pairs with no cross-layer items
+- Source type concentration (too many of one kind of material)
+- Missing perspectives identified by IC-5 during the analysis
+
+**Output**: A brief recommendation (2-5 sentences) naming specific
+topics, sources, or material types that would strengthen the framework's
+weakest points. Prefer recommendations that would test the framework
+(adversarial material, domains where the null case might win) over
+those that would merely confirm it.
+
+**Integrity note**: This recommendation is driven by framework gaps,
+not by analytical findings. It must never appear before the analysis
+is complete, and it must never cause the analyst to look harder for
+patterns the framework needs corroborated. The analysis serves the
+evidence; the recommendation serves the framework. These are separate
+concerns.
+
 ---
 
 ## ANALYZE mode procedure
