@@ -13,6 +13,8 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
 - `principles/INDEX.md` — Compact principles lookup table (always loaded)
 - `principles/` — Full principles files (loaded selectively)
+- `sources/INDEX.md` — Source provenance lookup table
+- `sources/` — Full provenance records per source (hash, archive links, extraction status)
 - `evidence/` — Concrete facts, data, cases that ground the framework
 - `analyses/` — Applied analyses of specific material
 - `tools/build-viewer.py` — Generates `viewer.html` + `viewer-data.js` (both checked in)
@@ -40,6 +42,7 @@ with a specific source is needed.
 - Principles use the format defined in the EXTRACT mode section of `methodology.md`
 - Patterns use the format defined in `patterns.md`
 - Instruments use the format defined in the EXTRACT mode Step 4 of `methodology.md`
+- Sources use the provenance format defined in the Source provenance section of `methodology.md`
 - Maintain integrity constraints (IC-1, IC-2, IC-3, IC-4) as defined in `constitution.md`
 - IC-1: Every axiom must be falsifiable. Flag contradicting evidence, do not suppress it.
 - IC-2: Every analysis must consider the null case (non-power explanation).
