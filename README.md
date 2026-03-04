@@ -115,7 +115,36 @@ periodically turned on itself through red team reviews.
 ## Core concepts
 
 The framework is built from seven distinct types of knowledge. Each has a
-specific role and a defined relationship to the others.
+specific role, a distinct lifecycle, and a different relationship to truth.
+The decomposition follows a functional principle: each concept exists
+because merging it with another would lose a distinction the framework
+depends on.
+
+- **Axiom vs. pattern**: Axioms are premises — they guide what to look
+  for. Patterns are findings — they emerged from looking. Axioms have
+  falsification conditions; patterns have corroboration levels. The
+  framework needs both because the questions it asks (axioms) must be
+  separable from the answers it finds (patterns).
+- **Principle vs. pattern**: A principle is source-bound ("Machiavelli
+  observed X"). A pattern is source-independent ("X recurs across five
+  independent sources"). The promotion path from principle to pattern
+  tracks how knowledge matures — collapsing them would lose the
+  distinction between a single observation and a confirmed regularity.
+- **Instrument vs. principle**: Principles describe what power does.
+  Instruments describe how to detect what power does. A taxonomy of
+  propaganda techniques is not a finding about power — it is a tool
+  applied during analysis. The distinction matters because instruments
+  are procedural (invoked at specific methodology steps) while
+  principles are referential (compared against during analysis).
+- **Evidence vs. analysis**: Evidence is atomic (a fact, a data point,
+  a case). Analysis is composite (the structured output of applying the
+  full methodology). Evidence can directly challenge an axiom; analyses
+  produce findings that may generate evidence. They have different
+  lifecycles — evidence is permanent; analyses are snapshots.
+- **Layer**: The domain model. Without layers as a first-class concept,
+  the multi-domain analysis that is the framework's core value has no
+  structure. Layers are relatively stable compared to the other concepts;
+  they define where to look rather than what was found.
 
 The seven types: **axiom** (what to look for), **layer** (where to look),
 **principle** (what was found in one source), **pattern** (what recurs across
