@@ -114,11 +114,18 @@ Neoliberal doctrine "outsources crisis management to the state while at the same
 time expecting the very same state to implement policies and regulations that
 guarantee the stable growth of private capital." The stated commitment to democracy
 conceals its conditionality — "Neoliberals commit to democracy only as long as it
-is feasible to do so; if not, then dictatorial measures are considered fair game.")
+is feasible to do so; if not, then dictatorial measures are considered fair game."),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P4, P5, P6 (enforcement
+nullification framed as preventing "weaponized" enforcement; power consolidation
+framed as "returning power to the American people"; elimination of oversight framed
+as "accountability"; the constitutional originalism argument converts institutional
+seizure into constitutional restoration — each proposal's stated purpose is the
+inverse of its structural effect; position 1 primary evidence of the inversion
+authored by its own architects)
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: ESTABLISHED (34 of 34 relevant sources, 100%)
+CORROBORATION: ESTABLISHED (35 of 35 relevant sources, 100%)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -160,11 +167,20 @@ Thought & Narrative as competent and justified; Institutional voices — CENTCOM
 DHS, Congress — all reinforcing the same narrative with no institutional dissent;
 Surveillance & Information celebrated as impressive tradecraft; Economic subordinated as
 "market impact" rather than motive. The Legal layer's structural absence enables the
-others by removing constraint.)
+others by removing constraint.),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P3 (inverse confirmation —
+the document identifies and systematically targets each layer of institutional
+self-defense: personnel protections, oversight offices, independent legal counsel,
+civil rights review, ombudsmen, union rights, inspector-general functions. The
+inverse is analytically significant: if durable power requires layered redundancy,
+then an institutional capture blueprint must dismantle each layer of defense. The
+document's comprehensiveness — targeting every oversight mechanism across every
+agency — is position 1 primary evidence that the architects understand layered
+redundancy and design their strategy to defeat it layer by layer)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (11 of 34 relevant sources, 32%)
+CORROBORATION: ESTABLISHED (12 of 35 relevant sources, 34%)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -203,7 +219,7 @@ the war is profitable. Analyst Zonszein identifies only external circuit-breaker
 economic cost to Israelis, mass Israeli casualties, or international intervention.
 The perpetual threat frame is reinforced by prosperity, not just fear.)
 
-CORROBORATION: ESTABLISHED (7 of 34 relevant sources, 21%)
+CORROBORATION: ESTABLISHED (7 of 35 relevant sources, 20%)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -254,7 +270,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 34 relevant sources, 18%)
+CORROBORATION: SUPPORTED (6 of 35 relevant sources, 17%)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -275,7 +291,7 @@ transition between the two is the moment of maximum danger for democratic order)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 34 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (3 of 35 relevant sources, 9%)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -307,7 +323,7 @@ making them complicit in the system that exploited them)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 35 relevant sources, 11%)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -334,7 +350,7 @@ normative weight.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 31 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 32 relevant sources, 3%)
 
 ### Appearance as Structural Terrain
 LAYERS: Thought & Narrative, Institutional
@@ -410,11 +426,22 @@ intelligentsia identity is the appearance; oligarchic wealth defense is the
 reality. P4: the "candor differential" IS the terrain — Russian oligarchs
 partially collapse the gap that Western oligarchs maintain, revealing what the
 appearance conceals in mature democracies. Position 1 primary evidence: 80
-interviews with ultra-wealthy Russians performing legitimation in real time.)
+interviews with ultra-wealthy Russians performing legitimation in real time.),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P4, P5, P6 (the entire
+document operates in the gap between appearance and reality. The FEC appears
+to enforce campaign finance law; enforcement is structurally impossible. The
+DOJ appears to serve justice; it is directed to serve the President's agenda.
+Independent agencies appear to remain independent; their independence is
+eliminated through personnel and budget control. The constitutional framework
+appears to constrain the President; it is reinterpreted as granting unlimited
+authority. P6 documents the asymmetric ratchet: the consolidation is concrete
+and immediate, the dispersal is aspirational — the appearance of temporary
+seizure for the people's benefit IS the structural terrain the consolidation
+operates on)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (30 of 34 relevant sources, 88%)
+CORROBORATION: ESTABLISHED (31 of 35 relevant sources, 89%)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -454,7 +481,7 @@ framework.)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 31 relevant sources, 13%)
+CORROBORATION: SUPPORTED (4 of 32 relevant sources, 12%)
 
 ### The Compliance Gradient
 LAYERS: All layers
@@ -494,7 +521,7 @@ platform exit; Meta's design assumes and depends on the gradient skewing toward 
 compliance — the complexity and opacity of the policies function to keep the cost curve
 positioned against active resistance)
 
-CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 35 relevant sources, 11%)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -537,11 +564,19 @@ without consent and reproduced in deepfake form as calls for uprising; the genui
 grievances are real, but the uprising they are channeled toward serves a foreign
 state's goals; same judo mechanism as Scott and Cobb, opposite direction like Stanley,
 but with a new dimension: the weak's resistance is not merely blocked or co-opted but
-actively reproduced in fabricated form)
+actively reproduced in fabricated form),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P5 (inverse — the powerful
+use their own legitimating document (the Constitution) offensively: Article II's
+vesting of executive power is deployed to eliminate institutional independence.
+"The Administrative State holds 100 percent of its power at the sufferance of
+Congress, and its insulation from presidential discipline is an unconstitutional
+fairy tale." The constitutional text functions not as a constraint on power but as
+a weapon for consolidation — the same judo mechanism but with the powerful using
+their own foundational document against the institutions it created)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 34 relevant sources, 15%)
+CORROBORATION: SUPPORTED (5 of 35 relevant sources, 14%)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -598,7 +633,7 @@ billionaires are "mindful of the chasm between their own political views and pub
 opinion" and therefore "act behind the scenes." The performance is conscious and
 strategic on the ruler's side, not just the subordinate's.)
 
-CORROBORATION: SUPPORTED (5 of 34 relevant sources, 15%)
+CORROBORATION: SUPPORTED (5 of 35 relevant sources, 14%)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -637,7 +672,7 @@ generations (from Nehru to McKinsey); the structural commitment does not.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 34 relevant sources, 6%)
+CORROBORATION: PRELIMINARY (2 of 35 relevant sources, 6%)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -691,7 +726,7 @@ alternatives by depleting the resources the model depended on.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (9 of 34 relevant sources, 26%)
+CORROBORATION: ESTABLISHED (9 of 35 relevant sources, 26%)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -716,7 +751,7 @@ control and resistance)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 35 relevant sources, 3%)
 
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -758,7 +793,7 @@ More instances needed before proposing a standalone pattern.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (7 of 31 relevant sources, 23%)
+CORROBORATION: ESTABLISHED (7 of 32 relevant sources, 22%)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -786,7 +821,7 @@ planning discussion. Fox's Iraq 2003 coverage used the same editorial architectu
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: SUPPORTED (6 of 34 relevant sources, 18%)
+CORROBORATION: SUPPORTED (6 of 35 relevant sources, 17%)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -825,7 +860,7 @@ was not available in any previous conflict)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 35 relevant sources, 11%)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -866,7 +901,7 @@ incursion)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 35 relevant sources, 11%)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -932,7 +967,7 @@ distributes through every AI system that uses Wikipedia. This extends the Divisi
 Learning from bilateral asymmetry to systemic multiplication through technological
 infrastructure the manipulator did not build.
 
-CORROBORATION: SUPPORTED (6 of 34 relevant sources, 18%)
+CORROBORATION: SUPPORTED (6 of 35 relevant sources, 17%)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -966,11 +1001,19 @@ political variant: Israeli political opposition — including Netanyahu's "bitte
 rivals" — instantly set aside fierce domestic debate about October 7 responsibility
 to join the war consensus. Not individual pre-compliance but institutional-political
 pre-compliance: an entire opposition class anticipating that dissent during wartime
-would be politically fatal.)
+would be politically fatal.),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P1 (the personnel mechanisms
+— Schedule F at-will reclassification, loyalty vetting, union elimination, political
+appointee saturation — create the structural conditions for anticipatory obedience.
+Career employees who know they can be terminated at will for policy disagreement
+will self-censor before any directive is issued. The mechanism is by design: "whoever
+holds a government position sets its policy." The threat of reclassification produces
+compliance before actual termination. Position 1 primary evidence: the architects
+explicitly design for anticipatory obedience as a feature, not a side effect)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 34 relevant sources, 18%)
+CORROBORATION: ESTABLISHED (7 of 35 relevant sources, 20%)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
@@ -1029,9 +1072,20 @@ information space into ungoverned terrain available for exploitation by state-di
 influence operations. Distinct from the four prior variants: not collapse under pressure,
 not gradual erosion, not structural dependency, not strategic withdrawal framed as
 liberation — but elimination of governance infrastructure as institutional indifference,
-where the resulting void is exploited by military-intelligence operations)
+where the resulting void is exploited by military-intelligence operations),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P2, P3 (the document
+describes and prescribes multiple abdication mechanisms — a sixth variant: *coerced
+abdication through binary ultimatum*. Institutions are presented with comply-or-die:
+accept total political subordination or face defunding and disestablishment. "If the
+de facto aim of the agency simply remains to compete in foreign markets using
+anti-U.S. talking points... then this represents an unacceptable burden to the U.S.
+taxpayer... the USAGM should be defunded and disestablished." P3 documents the
+complementary mechanism: systematic elimination of oversight bodies — ombudsmen,
+civil rights offices, independent legal counsel, advisory committees — as precondition
+for institutional redirection. Position 1 primary evidence: the capture blueprint
+prescribes the abdication mechanisms it needs)
 
-CORROBORATION: ESTABLISHED (8 of 31 relevant sources, 26%)
+CORROBORATION: ESTABLISHED (9 of 32 relevant sources, 28%)
 
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
@@ -1092,11 +1146,19 @@ compression did not reach),
 operating in a post-transition economy — "ownership concentration in modern Russia...
 is likely to increase further as Russia's natural monopolies are reformed and
 privatized"; the selective reform trap ensures the ratchet continues — reforms that
-would create competitive counterforces are blocked)
+would create competitive counterforces are blocked),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P6 (the asymmetric ratchet:
+consolidation mechanisms are concrete, specific, and immediately actionable while
+dispersal promises are aspirational and structurally unenforceable. Once Schedule F
+reclassifies tens of thousands of positions, restoring protections requires new
+legislation. Once oversight offices are eliminated, re-establishing them requires
+new appropriations. The consolidation becomes the new baseline — the ratchet engages
+in the forward direction with no mechanism for reversal beyond voluntary restraint
+by the actors who accumulated the power)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (7 of 34 relevant sources, 21%)
+CORROBORATION: ESTABLISHED (8 of 35 relevant sources, 23%)
 
 ### Compression Through Destruction
 LAYERS: Physical & Coercive, Economic, Institutional
@@ -1146,7 +1208,7 @@ New Deal), and the resulting compression was weaker and more easily reversed.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 35 relevant sources, 3%)
 
 ### The Wealth Defense Industry
 LAYERS: Economic, Legal & Regulatory, Institutional
@@ -1222,7 +1284,7 @@ after Kotlarek's blocking in 2024.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 35 relevant sources, 11%)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -1282,9 +1344,18 @@ control"; Kokh would change only the Pinochet pension reform detail; "Neoliberal
 to democracy only as long as it is feasible to do so." The Chilean model — military
 dictatorship implementing the world's "purest" neoliberal experiment — is the explicit
 reference point for Russian oligarchs. Position 1 primary evidence for the boundary
-condition.)
+condition.),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P4 (the FEC chapter is the
+clearest instantiation: the formal apparatus of campaign finance regulation continues
+to exist while enforcement is structurally nullified through even-number commission
+deadlock, DOJ prosecution ban, and removal of independent litigation authority.
+"The current requirement of four votes to authorize an enforcement action... ensures
+that there is bipartisan agreement before any action is taken." The law exists, the
+agency exists, but the enforcement chain is architecturally disabled. Democratic form
+— campaign finance law — persists while oligarchic substance — unlimited spending
+without enforcement — operates through the designed gap)
 
-CORROBORATION: ESTABLISHED (10 of 34 relevant sources, 29%)
+CORROBORATION: ESTABLISHED (11 of 35 relevant sources, 31%)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -1345,7 +1416,7 @@ construct and deploy the moral vocabulary.)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 34 relevant sources, 6%)
+CORROBORATION: PRELIMINARY (2 of 35 relevant sources, 6%)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -1397,7 +1468,17 @@ documented domain: media editorial capture),
 domain: oligarchs captured RSPP governance → created taskforces → drafted legislation →
 secured regular presidential meetings → provided "advice" on legislative changes.
 The pipeline operates through a legitimate business association. Fifth domain: economic
-policy reform capture through trade association)
+policy reform capture through trade association),
+[principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P1, P2, P3 (the document IS
+a capture pipeline specification — the most operationally detailed in the corpus. It
+describes every stage: personnel selection (Schedule F reclassification, PPO centralized
+vetting, loyalty screening), installation (Day One executive orders, political appointee
+saturation at every level), outcome signaling (OMB regulatory review, "commander's
+intent" directives), oversight elimination (absorbing independent offices, dismissing
+advisory committees), and enforcement nullification (FEC structural deadlock, DOJ
+prosecution ban). Unlike prior instances that describe the pipeline from outside or
+after the fact, this is the pipeline architects' own operational blueprint. Sixth
+documented domain: comprehensive federal executive capture)
 NOTE: This pattern describes a *complete* capture system — not merely a tactic or
 mechanism but the full pipeline from funding to institutional outcome. It is distinct
 from the Layered Redundancy pattern (which describes how multiple layers reinforce each
@@ -1408,7 +1489,7 @@ Redundancy architecture.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 34 relevant sources, 15%)
+CORROBORATION: SUPPORTED (6 of 35 relevant sources, 17%)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -1492,7 +1573,17 @@ with the Mississippi Delta (five regime changes, 150 years), the Russian prison 
 (Soviet → Federation), and this instance, the pattern now has three meaningfully
 independent contexts.
 
-CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
+OBSERVED IN: [principles/project-2025-mandate-for-leadership.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/project-2025-mandate-for-leadership.md) P1, P2 (the
+document proposes transforming the formal structure of institutions — reorganizing
+offices, eliminating oversight bodies, reclassifying employment categories — while
+preserving and intensifying the underlying power relationship: executive control
+over the administrative apparatus. The form changes (Schedule F replaces merit
+protections; political appointees replace career staff; absorbed offices replace
+independent oversight); the direction of control intensifies. This is the pattern
+operating prospectively rather than retrospectively — a blueprint for how to change
+institutional forms while maintaining structural continuity of executive authority)
+
+CORROBORATION: SUPPORTED (4 of 35 relevant sources, 11%)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -1538,7 +1629,7 @@ structural effect converges.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 35 relevant sources, 3%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -1561,7 +1652,7 @@ Learning rather than a fully distinct pattern. Monitor for independent confirmat
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 31 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 32 relevant sources, 3%)
 
 ### The Boomerang
 LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
@@ -1598,4 +1689,4 @@ Russian detention).
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 32 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (3 of 33 relevant sources, 9%)

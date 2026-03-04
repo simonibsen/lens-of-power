@@ -171,3 +171,13 @@ PRINCIPLES: 5 — Biological Naturalization of Social Hierarchy, Pre-Capitalist 
 LAYERS: Thought & Narrative (primary), Economic, Institutional, Legal & Regulatory
 KEY PATTERNS: Appearance as Structural Terrain, Inversion of Stated Purpose, Democracy-Oligarchy Coexistence, Moral Infrastructure of Economic Power, Formal Transformation/Structural Continuity, Double Performance, Hidden Transcript (extended to ruler)
 IC-1 FLAGS: Axiom 3 (biological naturalization re-naturalizes contingency even when stated openly), Axiom 10 (sincerity problem — belief is genuine, not strategic)
+
+## project-2025-mandate-for-leadership.md
+SOURCE: Heritage Foundation, *Mandate for Leadership 2025: The Conservative Promise* (2023)
+POSITION: 1 (ruler — former/prospective executive-branch officials writing a governing blueprint)
+SOURCE TYPE: primary_document (see `sources/project-2025.md`)
+PRINCIPLES: 6 — Personnel as Primary Instrument of Institutional Control, The Comply-or-Die Binary, Oversight Elimination as Precondition for Control, Enforcement Nullification Through Institutional Design, Constitutional Originalism as Consolidation Legitimation, The Asymmetric Ratchet (Concrete Seizure/Aspirational Dispersal)
+LAYERS: All six (Institutional and Legal & Regulatory primary)
+KEY PATTERNS: Capture Pipeline, Institutional Abdication, Inversion of Stated Purpose, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence, Anticipatory Obedience, Formal Transformation/Structural Continuity, Peacetime Ratchet, Layered Redundancy (inverse), Ideological Judo (inverse)
+IC-1 FLAGS: Axiom 3 (visibility without recognition — proposals are public but framing prevents recognition as power consolidation), Axiom 5 (analytical recursion — is the administrative state a counterforce to executive overreach, or itself a concentration?)
+INSTRUMENT PROPOSED: Institutional Capture Playbook (pending cross-reference with Powell Memo, Whitehouse, Ziklag)

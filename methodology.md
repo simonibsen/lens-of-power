@@ -751,7 +751,14 @@ REASONING: [why]
   the evaluation reveals that an instrument is needed in this area.
   Define what the instrument should contain, identify what the source
   provides and what gaps remain, and note additional sources needed
-  to complete it. Proceed to Phase 2 with the partial content available.
+  to complete it. **Then check `principles/INDEX.md` and
+  `analyses/INDEX.md` for whether those sources are already in the
+  framework.** If the needed sources are already extracted or analyzed,
+  cross-reference them immediately and re-evaluate: if the combined
+  material is sufficient, upgrade the verdict to CREATE or MERGE.
+  PROPOSE should remain only when needed sources are genuinely absent
+  from the framework. Proceed to Phase 2 with whatever content is
+  available.
 - **SKIP**: The material is not sufficiently valuable as an instrument.
   Note the reasoning and continue to Step 5.
 
@@ -851,6 +858,23 @@ The extraction record includes:
 Place the extraction record after the IC-5 disclosure and before the
 principles. The record is part of the permanent file — it is not
 working notes to be discarded.
+
+#### Post-extraction framework updates (required)
+
+After writing extraction outputs, update these framework files:
+
+1. **`principles/INDEX.md`** — add or update the source entry
+2. **`patterns.md`** — update corroboration counts for confirmed patterns
+3. **`patterns-detail.md`** — add OBSERVED IN entries with analytical notes
+4. **`sources/*.md`** — if a source record exists, update its Related files
+   section and change extraction status from `(pending)` to complete
+5. **`sources/INDEX.md`** — update extraction status if changed
+6. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+
+This checklist is not optional. An extraction that writes a principles
+file but does not update the framework's cross-referencing files leaves
+the framework in an inconsistent state — the knowledge exists but is
+not discoverable through normal framework operations.
 
 ---
 
@@ -958,6 +982,106 @@ SELF-ASSESSMENT: [honest summary of the framework's current state]
 
 Record the output in `evidence/` with tags:
 `AXIOMS: all`, `RELATIONSHIP: self-examination`
+
+---
+
+## Source provenance
+
+Every source analyzed or extracted must have a provenance record in
+`sources/`. This ensures the framework can verify what it analyzed,
+even if the original source changes or disappears.
+
+### Source directory structure
+
+```
+sources/
+  INDEX.md              — compact lookup table (like principles/INDEX.md)
+  [source-name].md      — full provenance record per source
+```
+
+### Source types and provenance tiers
+
+Sources fall into three provenance tiers based on what the framework
+can verify:
+
+**Primary document** — the analyst has the artifact (PDF, document file).
+Strongest provenance.
+```
+SOURCE TYPE: primary_document
+HASH: sha256:[hash of the file analyzed]
+ARCHIVE: [Internet Archive or other permanent link(s)]
+QUOTE STATUS: verbatim with page references
+```
+
+**URL article** — content fetched from a URL. Archive link and excerpts
+provide durability.
+```
+SOURCE TYPE: url
+URL: [original URL]
+FETCH DATE: [YYYY-MM-DD]
+ARCHIVE: [Wayback Machine snapshot link]
+QUOTE STATUS: verbatim (excerpts only)
+```
+IP/legal note: do not store full article text in the repo. Store only
+the excerpts cited in the extraction (fair use for commentary/criticism).
+Archive links provide the fallback for full context.
+
+**Training data** — no artifact; the analyst (LLM) is working from
+training data knowledge. Weakest provenance.
+```
+SOURCE TYPE: training_data
+QUOTE STATUS: reconstructed (unverified)
+EDITION: [best guess at reference edition/translation]
+VERIFICATION: pending | verified against [source]
+```
+Training-data extractions should be flagged per IC-5 (the LLM is a
+biased instrument). Quotes are reconstructions, not verified verbatim
+passages. These extractions can be upgraded by obtaining the actual
+source and verifying quotes against it.
+
+### Source record format
+
+Each source file in `sources/` follows this structure:
+
+```markdown
+# Source: [Title]
+
+## Metadata
+TITLE: [full title]
+AUTHOR(S): [names]
+PUBLISHER: [publisher/institution]
+DATE: [publication date]
+FORMAT: [PDF, book, article, etc.]
+PAGE COUNT: [if applicable]
+SOURCE TYPE: [primary_document | url | training_data]
+
+## Provenance
+HASH: [sha256 hash, if primary_document]
+ORIGINAL URL: [if applicable]
+ARCHIVE: [archive.org links]
+QUOTE STATUS: [verbatim | reconstructed (unverified)]
+
+## Extraction status
+[List of sections/chapters with status:
+  - EXTRACTED — included in the extraction
+  - FUTURE CANDIDATE — identified for possible future extraction
+  - NOT SELECTED — outside scope]
+
+## Related files
+[Links to extraction files, analyses, and evidence entries
+that reference this source]
+```
+
+### Provenance requirements for extractions
+
+Every principle and instrument extracted must include a verbatim quote
+from the source with a page reference (for primary documents) or
+section reference (for articles). This is not optional — it is the
+evidentiary basis for the claim.
+
+For training-data sources, quotes must be marked as `reconstructed
+(unverified)` and the extraction file must note that quotes have not
+been verified against a physical copy.
 
 ---
 
