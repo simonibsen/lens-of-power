@@ -117,3 +117,10 @@
   Layers: Thought & Narrative, Physical & Coercive, Institutional, Surveillance & Information (Economic and Legal & Regulatory active but absent)
   Null case: plausible for cable in isolation (MEDIUM); less plausible for cable-strike-retaliation-escalation sequence
   File: `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`
+
+### 2026-03-04 — AI industry PAC spending in NC-04 primary: datacenter politics (Guardian)
+  Domain: AI industry / campaign finance / datacenter infrastructure / regulatory capture
+  Layers: All six (Economic, Thought & Narrative, Institutional, Legal & Regulatory primary)
+  Null case: plausible at component level (MEDIUM); less plausible at configuration level (MEDIUM-LOW)
+  IC-5 flag: Analytical instrument (Claude) produced by the funding entity (Anthropic) under analysis
+  File: `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`

@@ -125,7 +125,7 @@ authored by its own architects)
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: ESTABLISHED (35 of 36 relevant sources, 97%)
+CORROBORATION: ESTABLISHED (36 of 37 relevant sources, 97%)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -180,7 +180,7 @@ redundancy and design their strategy to defeat it layer by layer)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (12 of 36 relevant sources, 33%)
+CORROBORATION: ESTABLISHED (12 of 37 relevant sources, 32%)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -219,7 +219,7 @@ the war is profitable. Analyst Zonszein identifies only external circuit-breaker
 economic cost to Israelis, mass Israeli casualties, or international intervention.
 The perpetual threat frame is reinforced by prosperity, not just fear.)
 
-CORROBORATION: ESTABLISHED (8 of 36 relevant sources, 22%)
+CORROBORATION: ESTABLISHED (8 of 37 relevant sources, 22%)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -270,7 +270,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 36 relevant sources, 17%)
+CORROBORATION: SUPPORTED (6 of 37 relevant sources, 16%)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -291,7 +291,7 @@ transition between the two is the moment of maximum danger for democratic order)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 36 relevant sources, 8%)
+CORROBORATION: PRELIMINARY (3 of 37 relevant sources, 8%)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -323,7 +323,7 @@ making them complicit in the system that exploited them)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 36 relevant sources, 11%)
+CORROBORATION: SUPPORTED (4 of 37 relevant sources, 11%)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -350,7 +350,7 @@ normative weight.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 33 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
 
 ### Appearance as Structural Terrain
 LAYERS: Thought & Narrative, Institutional
@@ -441,7 +441,7 @@ operates on)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (32 of 36 relevant sources, 89%)
+CORROBORATION: ESTABLISHED (33 of 37 relevant sources, 89%)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -481,7 +481,7 @@ framework.)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 33 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
 
 ### The Compliance Gradient
 LAYERS: All layers
@@ -521,7 +521,7 @@ platform exit; Meta's design assumes and depends on the gradient skewing toward 
 compliance — the complexity and opacity of the policies function to keep the cost curve
 positioned against active resistance)
 
-CORROBORATION: SUPPORTED (4 of 36 relevant sources, 11%)
+CORROBORATION: SUPPORTED (4 of 37 relevant sources, 11%)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -576,7 +576,7 @@ their own foundational document against the institutions it created)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 36 relevant sources, 14%)
+CORROBORATION: SUPPORTED (5 of 37 relevant sources, 14%)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -633,7 +633,7 @@ billionaires are "mindful of the chasm between their own political views and pub
 opinion" and therefore "act behind the scenes." The performance is conscious and
 strategic on the ruler's side, not just the subordinate's.)
 
-CORROBORATION: SUPPORTED (5 of 36 relevant sources, 14%)
+CORROBORATION: SUPPORTED (5 of 37 relevant sources, 14%)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -672,7 +672,7 @@ generations (from Nehru to McKinsey); the structural commitment does not.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 36 relevant sources, 6%)
+CORROBORATION: PRELIMINARY (2 of 37 relevant sources, 5%)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -726,7 +726,7 @@ alternatives by depleting the resources the model depended on.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (9 of 36 relevant sources, 25%)
+CORROBORATION: ESTABLISHED (9 of 37 relevant sources, 24%)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -751,7 +751,7 @@ control and resistance)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 36 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 37 relevant sources, 3%)
 
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -793,7 +793,7 @@ More instances needed before proposing a standalone pattern.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (7 of 33 relevant sources, 21%)
+CORROBORATION: ESTABLISHED (7 of 34 relevant sources, 21%)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -821,7 +821,7 @@ planning discussion. Fox's Iraq 2003 coverage used the same editorial architectu
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: SUPPORTED (7 of 36 relevant sources, 19%)
+CORROBORATION: SUPPORTED (7 of 37 relevant sources, 19%)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -860,7 +860,7 @@ was not available in any previous conflict)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 36 relevant sources, 11%)
+CORROBORATION: SUPPORTED (5 of 37 relevant sources, 14%)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -901,7 +901,7 @@ incursion)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 36 relevant sources, 11%)
+CORROBORATION: SUPPORTED (4 of 37 relevant sources, 11%)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -967,7 +967,7 @@ distributes through every AI system that uses Wikipedia. This extends the Divisi
 Learning from bilateral asymmetry to systemic multiplication through technological
 infrastructure the manipulator did not build.
 
-CORROBORATION: SUPPORTED (6 of 36 relevant sources, 17%)
+CORROBORATION: SUPPORTED (6 of 37 relevant sources, 16%)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -1013,7 +1013,7 @@ explicitly design for anticipatory obedience as a feature, not a side effect)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (8 of 36 relevant sources, 22%)
+CORROBORATION: ESTABLISHED (8 of 37 relevant sources, 22%)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
@@ -1085,7 +1085,7 @@ civil rights offices, independent legal counsel, advisory committees — as prec
 for institutional redirection. Position 1 primary evidence: the capture blueprint
 prescribes the abdication mechanisms it needs)
 
-CORROBORATION: ESTABLISHED (9 of 33 relevant sources, 27%)
+CORROBORATION: ESTABLISHED (9 of 34 relevant sources, 26%)
 
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
@@ -1158,7 +1158,7 @@ by the actors who accumulated the power)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (8 of 36 relevant sources, 22%)
+CORROBORATION: ESTABLISHED (8 of 37 relevant sources, 22%)
 
 ### Compression Through Destruction
 LAYERS: Physical & Coercive, Economic, Institutional
@@ -1208,7 +1208,7 @@ New Deal), and the resulting compression was weaker and more easily reversed.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 36 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 37 relevant sources, 3%)
 
 ### The Wealth Defense Industry
 LAYERS: Economic, Legal & Regulatory, Institutional
@@ -1284,7 +1284,7 @@ after Kotlarek's blocking in 2024.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 36 relevant sources, 11%)
+CORROBORATION: SUPPORTED (4 of 37 relevant sources, 11%)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -1355,7 +1355,7 @@ agency exists, but the enforcement chain is architecturally disabled. Democratic
 — campaign finance law — persists while oligarchic substance — unlimited spending
 without enforcement — operates through the designed gap)
 
-CORROBORATION: ESTABLISHED (11 of 36 relevant sources, 31%)
+CORROBORATION: ESTABLISHED (12 of 37 relevant sources, 32%)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -1416,7 +1416,7 @@ construct and deploy the moral vocabulary.)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 36 relevant sources, 6%)
+CORROBORATION: PRELIMINARY (2 of 37 relevant sources, 5%)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -1489,7 +1489,7 @@ Redundancy architecture.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 36 relevant sources, 17%)
+CORROBORATION: SUPPORTED (6 of 37 relevant sources, 16%)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -1583,7 +1583,7 @@ independent oversight); the direction of control intensifies. This is the patter
 operating prospectively rather than retrospectively — a blueprint for how to change
 institutional forms while maintaining structural continuity of executive authority)
 
-CORROBORATION: SUPPORTED (4 of 36 relevant sources, 11%)
+CORROBORATION: SUPPORTED (5 of 37 relevant sources, 14%)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -1629,7 +1629,7 @@ structural effect converges.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 36 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 37 relevant sources, 3%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -1652,7 +1652,7 @@ Learning rather than a fully distinct pattern. Monitor for independent confirmat
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 33 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
 
 ### The Boomerang
 LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
@@ -1689,4 +1689,4 @@ Russian detention).
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 34 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (3 of 35 relevant sources, 9%)
