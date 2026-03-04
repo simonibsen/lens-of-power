@@ -49,8 +49,12 @@ with a specific source is needed.
 
 ## Branching
 
-Analyses are committed on the current working branch. Do not create
-new branches for individual analyses.
+Before writing any output (analyses, extractions, evidence, pattern
+updates), check the current branch:
+
+- **On main**: Ask the user to create and switch to a working branch
+  before writing. Do not write framework files directly to main.
+- **Not on main**: Ask the user whether to write to the current branch.
 
 The commit history tells the story of what was analyzed, what was
 found, and how it updated the framework. Each commit is a
@@ -63,7 +67,8 @@ markdown files. Run `python3 tools/build-viewer.py` to rebuild. Output
 is `viewer.html` + `viewer-data.js` (both checked in; auto-rebuilt on commit).
 
 A post-commit hook (`.git/hooks/post-commit`) auto-rebuilds when `.md`
-files are committed.
+files are committed. After writing any analysis or extraction files,
+always run `python3 tools/build-viewer.py && open viewer.html`.
 
 The viewer has six views: Dashboard (landing page with stats, recent
 analyses, works studied, layer coverage, and explore links), Content

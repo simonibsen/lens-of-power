@@ -98,6 +98,34 @@ output format is lighter.
 
 ---
 
+## Pre-write branching check
+
+Before writing any file (analysis, extraction, evidence entry, pattern
+update, instrument), check the current git branch:
+
+- **On main**: Do not write. Ask the user to create and switch to a
+  working branch first. Suggest a name based on the material (e.g.,
+  `analysis/2026-03-03-source-topic`).
+- **Not on main**: Confirm with the user that writing to the current
+  branch is intended before proceeding.
+
+This check applies to ANALYZE, EXTRACT, and RED TEAM modes — any mode
+that writes to the repository. READ mode does not write files by default
+and is exempt unless the user requests file output.
+
+## Post-write viewer rebuild
+
+After writing analysis or extraction files, rebuild and open the viewer:
+
+```
+python3 tools/build-viewer.py && open viewer.html
+```
+
+This is not optional — always run it after any file write. The viewer
+shows how the new content connects to the existing knowledge base.
+
+---
+
 ## ANALYZE mode procedure
 
 ### Triage: determine depth
@@ -130,6 +158,13 @@ When writing an analysis to `analyses/`, include:
   in Step 2 (SOURCE), not here.
 - A **SOURCE POSITION** field from the positional lens (Position 1-5).
   See `instruments/positional-lens.md`.
+- A **FRAMEWORK STATE** field recording the framework's size at the time
+  of analysis: pattern count, principle count, instrument count, and the
+  git commit hash. This makes it immediately visible whether an analysis
+  was written with a smaller or larger framework, without requiring git
+  archaeology. Analyses written on parallel branches will show the same
+  commit only if they share the same base — divergent states are visible
+  by inspection.
 
 The analysis file has two sections separated by a delimiter. The
 human-readable analysis comes first; the analytical working that
@@ -458,6 +493,7 @@ SOURCE: [who produced it]
 SOURCE TYPE: [e.g., live blog, investigative journalism, press release]
 SOURCE POSITION: [from positional-lens.md — Position 1-5]
 URL: [if applicable]
+FRAMEWORK STATE: [N patterns, N principles, N instruments (commit SHORT_HASH)]
 
 ---
 
