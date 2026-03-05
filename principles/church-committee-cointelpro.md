@@ -118,7 +118,7 @@ that produced COINTELPRO are not resolved by formal termination.
 
 ## Principles
 
-### 1. The Unexpressed Major Premise
+### P1: The Unexpressed Major Premise
 
 PRINCIPLE: When a security institution operates on an unarticulated
 premise — maintaining the existing social order — that premise, not the
@@ -160,7 +160,7 @@ confirms Inversion of Stated Purpose pattern (ESTABLISHED)
 STATUS: observed — the Committee explicitly identifies this as the
 structural explanation for COINTELPRO's scope
 
-### 2. The Targeting Gradient
+### P2: The Targeting Gradient
 
 PRINCIPLE: Once an institution acquires the authority and operational
 capacity for covert action against a defined threat, targeting criteria
@@ -206,7 +206,7 @@ domestic populations)
 STATUS: observed — documented through progressive program expansion
 and Huston's testimony
 
-### 3. The Structural Demand for Covert Action
+### P3: The Structural Demand for Covert Action
 
 PRINCIPLE: When an institution defines a threat that existing legal
 tools cannot adequately address, and the institution has the operational
@@ -252,7 +252,7 @@ abdicates its legal constraints rather than its operational mission)
 STATUS: observed — the absence of legal deliberation is documented
 through multiple witnesses
 
-### 4. The Weaponization of Organizational Trust
+### P4: The Weaponization of Organizational Trust
 
 PRINCIPLE: The most effective covert technique against an organization
 exploits the trust structures the organization depends on — by falsely
@@ -300,7 +300,7 @@ internal organizational dynamics, not merely asymmetric observation.
 STATUS: observed — documented through specific technique descriptions
 and agent testimony
 
-### 5. The Oversight Inversion
+### P5: The Oversight Inversion
 
 PRINCIPLE: When the overseen institution controls the information flow
 to its overseers — preparing the summaries, selecting what is disclosed,
@@ -347,7 +347,7 @@ absent information is the mechanism of control)
 STATUS: observed — documented through specific oversight failures and
 institutional testimony
 
-### 6. Formal Termination as Structural Continuation
+### P6: Formal Termination as Structural Continuation
 
 PRINCIPLE: When a covert program is formally terminated but the
 institutional conditions that produced it remain unchanged — the
@@ -396,7 +396,7 @@ the structural reality
 STATUS: observed — documented through termination order text, post-
 termination actions, and Committee analysis of the "grey area"
 
-### 7. The Wartime Technique Transfer
+### P7: The Wartime Technique Transfer
 
 PRINCIPLE: Techniques developed for wartime counterintelligence against
 foreign adversaries are transferred to domestic populations when the
