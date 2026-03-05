@@ -156,3 +156,10 @@
   Layers: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative (primary), Surveillance & Information, Physical & Coercive
   Null case: rejected (LOW-MEDIUM — component-level explanations genuine; configuration-level consistency not explained by null case)
   File: `2023-nypd-report-discipline.md`
+
+### 2026-03-05 — Santa Barbara City Council minutes: routine municipal governance (2018)
+  Domain: Local government / municipal administration
+  Layers: Institutional (primary), Legal & Regulatory, Economic
+  Null case: accepted (HIGH — routine democratic governance through established procedures; power explanation does not surpass null case)
+  Adversarial input: yes — selected to test null-case-accepted result for routine democratic governance
+  File: `2018-sbca-govminutes-city-council-minutes.md`
