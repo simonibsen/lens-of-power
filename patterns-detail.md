@@ -129,11 +129,19 @@ institutional role it protects. The mechanism created to limit executive militar
 is characterized by the legislature as exceeding its authority. Rubio's dual posture —
 complying with the Act while asserting it is unconstitutional — is a meta-inversion:
 the act of compliance is performed to demonstrate legitimacy while the underlying
-mechanism is simultaneously delegitimized)
+mechanism is simultaneously delegitimized),
+[principles/church-committee-cointelpro.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/church-committee-cointelpro.md) P1 ("Counterintelligence program":
+a misnomer for domestic covert action against American citizens. The stated purposes —
+"protecting national security" and "preventing violence" — do not explain the
+operational record. The Committee identifies the "unexpressed major premise": the Bureau
+had a role in "maintaining the existing social order." The inversion is complete: a
+"counterintelligence" program that was neither counter- nor intelligence- but domestic
+covert action; "national security" targeting that included free speech demonstrators
+and a rabbi who supported the Vietnam war)
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: ESTABLISHED (38 of 41 relevant sources, 93%)
+CORROBORATION: ESTABLISHED (39 of 43 relevant sources, 91%)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -184,11 +192,16 @@ inverse is analytically significant: if durable power requires layered redundanc
 then an institutional capture blueprint must dismantle each layer of defense. The
 document's comprehensiveness — targeting every oversight mechanism across every
 agency — is position 1 primary evidence that the architects understand layered
-redundancy and design their strategy to defeat it layer by layer)
+redundancy and design their strategy to defeat it layer by layer),
+[principles/church-committee-cointelpro.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/church-committee-cointelpro.md) (COINTELPRO operated propaganda,
+infiltration, disruption, economic harassment, legal harassment, and physical threat
+simultaneously against the same targets — failure at one technique was caught by
+others; the Bureau's "no holds were barred" approach was structurally redundant
+by design)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (13 of 42 relevant sources, 31%)
+CORROBORATION: ESTABLISHED (14 of 44 relevant sources, 32%)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -227,7 +240,15 @@ the war is profitable. Analyst Zonszein identifies only external circuit-breaker
 economic cost to Israelis, mass Israeli casualties, or international intervention.
 The perpetual threat frame is reinforced by prosperity, not just fear.)
 
-CORROBORATION: SUPPORTED (8 of 42 relevant sources, 19%)
+NOTE: Church Committee COINTELPRO (1976) — the Communist threat (1956), then Black
+nationalism (1967), then the New Left (1968): each new threat category justified
+continuation and expansion. The pattern is documented through the progressive
+loosening of targeting criteria across programs — from a specific organization with
+foreign ties (CPUSA) to an undefined movement (New Left, never operationally
+defined). Each new threat category expanded operational scope while the prior
+threats remained active.
+
+CORROBORATION: SUPPORTED (8 of 44 relevant sources, 18%)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -278,7 +299,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 42 relevant sources, 14%)
+CORROBORATION: SUPPORTED (6 of 44 relevant sources, 14%)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -299,7 +320,7 @@ transition between the two is the moment of maximum danger for democratic order)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 42 relevant sources, 7%)
+CORROBORATION: PRELIMINARY (3 of 44 relevant sources, 7%)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -331,7 +352,7 @@ making them complicit in the system that exploited them)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
+CORROBORATION: PRELIMINARY (4 of 44 relevant sources, 9%)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -358,7 +379,7 @@ normative weight.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 37 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 38 relevant sources, 3%)
 
 ### Appearance as Structural Terrain
 LAYERS: Thought & Narrative, Institutional
@@ -464,7 +485,15 @@ legislature will exercise or abdicate its role)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (36 of 41 relevant sources, 88%)
+NOTE: Church Committee COINTELPRO (1976) — the formal termination order
+("for security reasons") is the appearance; the "exceptional circumstances"
+provision and "grey area" between COINTELPRO and investigation provide the
+structural terrain for continuation. The oversight structure is a second-
+order instance: the executive branch is briefed (appearance of oversight)
+through Bureau-prepared summaries that omit dangerous techniques (structural
+terrain of non-oversight).
+
+CORROBORATION: ESTABLISHED (37 of 43 relevant sources, 86%)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -504,7 +533,7 @@ framework.)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 38 relevant sources, 11%)
+CORROBORATION: SUPPORTED (4 of 39 relevant sources, 10%)
 
 ### The Compliance Gradient
 LAYERS: All layers
@@ -544,7 +573,7 @@ platform exit; Meta's design assumes and depends on the gradient skewing toward 
 compliance — the complexity and opacity of the policies function to keep the cost curve
 positioned against active resistance)
 
-CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
+CORROBORATION: PRELIMINARY (4 of 44 relevant sources, 9%)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -599,7 +628,7 @@ their own foundational document against the institutions it created)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 42 relevant sources, 12%)
+CORROBORATION: SUPPORTED (5 of 44 relevant sources, 11%)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -656,7 +685,7 @@ billionaires are "mindful of the chasm between their own political views and pub
 opinion" and therefore "act behind the scenes." The performance is conscious and
 strategic on the ruler's side, not just the subordinate's.)
 
-CORROBORATION: SUPPORTED (6 of 42 relevant sources, 14%)
+CORROBORATION: SUPPORTED (6 of 44 relevant sources, 14%)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -695,7 +724,7 @@ generations (from Nehru to McKinsey); the structural commitment does not.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 42 relevant sources, 5%)
+CORROBORATION: PRELIMINARY (2 of 44 relevant sources, 5%)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -749,7 +778,7 @@ alternatives by depleting the resources the model depended on.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (9 of 42 relevant sources, 21%)
+CORROBORATION: ESTABLISHED (9 of 44 relevant sources, 20%)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -774,7 +803,7 @@ control and resistance)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 41 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (1 of 43 relevant sources, 2%)
 
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -816,7 +845,7 @@ More instances needed before proposing a standalone pattern.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (7 of 38 relevant sources, 18%)
+CORROBORATION: SUPPORTED (7 of 39 relevant sources, 18%)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -844,7 +873,7 @@ planning discussion. Fox's Iraq 2003 coverage used the same editorial architectu
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: SUPPORTED (7 of 41 relevant sources, 17%)
+CORROBORATION: SUPPORTED (7 of 43 relevant sources, 16%)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -883,7 +912,7 @@ was not available in any previous conflict)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 42 relevant sources, 12%)
+CORROBORATION: SUPPORTED (5 of 44 relevant sources, 11%)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -924,7 +953,7 @@ incursion)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
+CORROBORATION: PRELIMINARY (4 of 44 relevant sources, 9%)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -996,7 +1025,14 @@ cannot see into the criteria-setting process, the investigation methodology, or 
 political dynamics shaping which companies are investigated. The asymmetry operates
 through institutional opacity rather than technological or financial means.
 
-CORROBORATION: SUPPORTED (7 of 42 relevant sources, 17%)
+NOTE: Church Committee COINTELPRO (1976) — three-level information asymmetry:
+the Bureau knew everything about its targets (through infiltration, informants,
+surveillance); the targets did not know they were being targeted; the overseers
+did not know what the Bureau was doing (Bureau-prepared summaries omitted
+dangerous techniques). The oversight relationship is itself a Division of Learning
+— the overseer sees what the overseen chooses to show.
+
+CORROBORATION: SUPPORTED (7 of 44 relevant sources, 16%)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -1046,9 +1082,15 @@ EVIDENCE: —
 Ratcliffe, Caine, and Hegseth. A source told Fox News that Republicans "who may have been
 swayed were frustrated with Kaine's repeated use of the Senate floor." The private
 pre-commitment followed by public partisan vote — the institutional-political variant
-at the legislative level)
+at the legislative level),
+[principles/church-committee-cointelpro.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/church-committee-cointelpro.md) P3 (Bureau agents carried out
+COINTELPRO without questioning legality because the institutional culture made
+compliance the default and legal inquiry the deviant path. "No, we never gave it a
+thought." This is anticipatory obedience operating at the institutional-professional
+level: agents anticipated that questioning the program's legality would be career-
+threatening, and pre-complied by not raising the question)
 
-CORROBORATION: SUPPORTED (8 of 41 relevant sources, 20%)
+CORROBORATION: ESTABLISHED (9 of 43 relevant sources, 21%)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
@@ -1130,7 +1172,24 @@ arguments for why its own mechanism should not exist. Distinct from all prior va
 the institution actively reasons its way out of its structural role through constitutional
 reinterpretation, procedural fatigue, and delegitimization of oversight frequency.)
 
-CORROBORATION: ESTABLISHED (9 of 39 relevant sources, 23%)
+NOTE: Church Committee COINTELPRO (1976) — both the oversight mechanism
+(Inspection Division evaluating effectiveness not propriety: "There was no
+instruction... that the Inspector should be on the alert to see that constitutional
+values are being protected") and the executive branch (interpreting partial
+disclosure as authorization: "the absence of disapproval has been interpreted by
+the Bureau as sufficient authorization to continue an activity") abdicate their
+structural roles. This is an eighth variant: *oversight abdication through
+information asymmetry* — the overseer has the formal authority but accepts
+the overseen's framing of what requires scrutiny, converting the oversight
+relationship from a constraint into an authorization mechanism. Distinct from
+pressure-based abdication (Snyder), gradual erosion (Hartmann), structural
+dependency (Cobb), strategic liberation narrative (Meta), platform indifference
+(X/Twitter), coerced abdication (Project 2025), and self-disarmament (Senate
+war powers) — here the institution retains its formal role but the information
+channel is controlled by the entity being overseen, so the oversight produces
+authorization rather than constraint.
+
+CORROBORATION: ESTABLISHED (10 of 41 relevant sources, 24%)
 
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
@@ -1203,7 +1262,7 @@ by the actors who accumulated the power)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (8 of 42 relevant sources, 19%)
+CORROBORATION: SUPPORTED (8 of 44 relevant sources, 18%)
 
 ### Compression Through Destruction
 LAYERS: Physical & Coercive, Economic, Institutional
@@ -1253,7 +1312,7 @@ New Deal), and the resulting compression was weaker and more easily reversed.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 42 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (1 of 44 relevant sources, 2%)
 
 ### The Wealth Defense Industry
 LAYERS: Economic, Legal & Regulatory, Institutional
@@ -1329,7 +1388,7 @@ after Kotlarek's blocking in 2024.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
+CORROBORATION: PRELIMINARY (4 of 44 relevant sources, 9%)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -1406,7 +1465,7 @@ with global market influence; democratically governed but structurally oligarchi
 in its investment power; the democratic process legitimizes the concentration,
 making it resistant to the Axiom 5 diagnostic)
 
-CORROBORATION: ESTABLISHED (13 of 42 relevant sources, 31%)
+CORROBORATION: ESTABLISHED (13 of 44 relevant sources, 30%)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -1473,7 +1532,7 @@ question the ethical criteria appear to oppose responsibility itself. The moral
 vocabulary forecloses structural critique of who defines "responsible" and whose
 interests the criteria serve)
 
-CORROBORATION: PRELIMINARY (2 of 42 relevant sources, 5%)
+CORROBORATION: PRELIMINARY (2 of 44 relevant sources, 5%)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -1546,7 +1605,15 @@ Redundancy architecture.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 42 relevant sources, 14%)
+NOTE: Church Committee COINTELPRO (1976) — "friendly media" contacts used
+as distribution channels for Bureau-authored propaganda. The media outlet's
+apparent editorial independence is the mechanism of the propaganda's credibility.
+This is the Capture Pipeline operating through the Thought & Narrative layer:
+the Bureau selects cooperative journalists (personnel), provides content
+(installation), and the resulting published articles appear as independent
+journalism (outcome). Seventh documented domain: intelligence-media capture.
+
+CORROBORATION: SUPPORTED (6 of 44 relevant sources, 14%)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -1640,7 +1707,18 @@ independent oversight); the direction of control intensifies. This is the patter
 operating prospectively rather than retrospectively — a blueprint for how to change
 institutional forms while maintaining structural continuity of executive authority)
 
-CORROBORATION: SUPPORTED (6 of 42 relevant sources, 14%)
+NOTE: Church Committee COINTELPRO (1976) — the formal termination of COINTELPRO
+(April 27, 1971) is a precise instance of this pattern. The form changed: the
+program label was discontinued, the filing caption changed, the "exceptional
+circumstances" provision replaced blanket authorization. The structure continued:
+the "grey area between counterintelligence and aggressive investigation" was
+undefined, at least three post-termination COINTELPRO-type actions occurred,
+and the Attorney General's proposed guidelines could not distinguish legitimate
+investigation from COINTELPRO because the boundary was structurally unresolvable.
+The Committee observed: "Aggressive investigation continues, and may be even more
+disruptive than covert action." Seventh documented context.
+
+CORROBORATION: SUPPORTED (6 of 44 relevant sources, 14%)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -1686,7 +1764,7 @@ structural effect converges.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 42 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (1 of 44 relevant sources, 2%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -1709,7 +1787,7 @@ Learning rather than a fully distinct pattern. Monitor for independent confirmat
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 38 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 39 relevant sources, 3%)
 
 ### The Boomerang
 LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
@@ -1744,6 +1822,19 @@ Constitutive Violence (foundational acts at the periphery). Distinct in describi
 directional flow: periphery → center (Arendt), or past → present (gulag → current
 Russian detention).
 
+NOTE: Church Committee COINTELPRO (1976) — wartime counterintelligence techniques
+(propaganda, disinformation, agent provocateurs, anonymous communications, "friendly
+media" placement, organizational disruption) transferred wholesale from foreign
+operations to domestic populations. The Bureau did not formally authorize the transfer
+— the techniques were operationally available, the personnel had wartime experience,
+and the perception of domestic "enemies" activated the same institutional reflexes.
+The Committee describes COINTELPRO as "a sophisticated vigilante operation against
+domestic enemies." The wartime lens — where the target population is the enemy — was
+applied domestically without explicit articulation. This is the earliest primary-source
+documentation of the domestic Boomerang in the framework's corpus, predating Operation
+Metro Surge (2026) by 50 years and confirming the structural persistence of the
+mechanism. Fourth documented context.
+
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 40 relevant sources, 8%)
+CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)

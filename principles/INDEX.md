@@ -181,3 +181,13 @@ LAYERS: All six (Institutional and Legal & Regulatory primary)
 KEY PATTERNS: Capture Pipeline, Institutional Abdication, Inversion of Stated Purpose, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence, Anticipatory Obedience, Formal Transformation/Structural Continuity, Peacetime Ratchet, Layered Redundancy (inverse), Ideological Judo (inverse)
 IC-1 FLAGS: Axiom 3 (visibility without recognition — proposals are public but framing prevents recognition as power consolidation), Axiom 5 (analytical recursion — is the administrative state a counterforce to executive overreach, or itself a concentration?)
 INSTRUMENT: instruments/institutional-capture-playbook.md (co-derived with Powell Memo, Whitehouse, Ziklag, Variety/Ellison, Guriev-Rachinsky)
+
+## church-committee-cointelpro.md
+SOURCE: Church Committee, *Book III: COINTELPRO — The FBI's Covert Action Programs Against American Citizens* (1976)
+POSITION: Hybrid (4/5 — Congressional investigation with subpoena power, systematic documentary analysis)
+SOURCE TYPE: primary_document (see `sources/church-committee-cointelpro.md`)
+PRINCIPLES: 7 — The Unexpressed Major Premise, The Targeting Gradient, The Structural Demand for Covert Action, The Weaponization of Organizational Trust, The Oversight Inversion, Formal Termination as Structural Continuation, The Wartime Technique Transfer
+LAYERS: All six (Physical & Coercive, Surveillance & Information, Institutional primary)
+KEY PATTERNS: Inversion of Stated Purpose, The Boomerang, Institutional Abdication, Appearance as Structural Terrain, Formal Transformation/Structural Continuity, Division of Learning, Layered Redundancy, Perpetual Threat, Anticipatory Obedience, Capture Pipeline
+IC-1 FLAGS: Axiom 10 (understanding-as-resistance tested — Church Committee naming led to formal termination but structural conditions survived)
+INSTRUMENT PROPOSED: Domestic Covert Action Technique Taxonomy (partial — needs post-1971 sources)
