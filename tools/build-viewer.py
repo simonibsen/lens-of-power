@@ -599,6 +599,113 @@ def sync_corroboration_to_markdown(nodes):
 
 
 # ---------------------------------------------------------------------------
+# Framework health metrics
+# ---------------------------------------------------------------------------
+
+def compute_health_metrics(nodes):
+    """Compute framework health metrics from parsed nodes."""
+    analyses = [n for n in nodes if n["type"] == "analysis"]
+    evidence = [n for n in nodes if n["type"] == "evidence"]
+
+    # 1. Evidence balance: count by relationship, overall and per axiom
+    evidence_balance = {}
+    axiom_balance = {}
+    for e in evidence:
+        rel = (e["meta"].get("relationship") or "").strip().lower()
+        if rel in ("supports", "challenges", "complicates", "self-examination"):
+            evidence_balance[rel] = evidence_balance.get(rel, 0) + 1
+        axioms_str = e["meta"].get("axioms") or ""
+        for ax in re.findall(r'\d+', axioms_str):
+            if ax not in axiom_balance:
+                axiom_balance[ax] = {}
+            axiom_balance[ax][rel] = axiom_balance[ax].get(rel, 0) + 1
+
+    # 2. Null case distribution from analysis content
+    null_cases = {"rejected": 0, "plausible": 0, "accepted": 0}
+    for a in analyses:
+        content = a.get("content", "")
+        m = re.search(
+            r'\*?\*?Null case(?:\s+plausibility)?\*?\*?:?\s*'
+            r'(HIGH|MEDIUM|LOW|rejected|plausible|accepted)',
+            content, re.IGNORECASE,
+        )
+        if m:
+            val = m.group(1).upper()
+            if val == "HIGH":
+                null_cases["accepted"] += 1
+            elif val in ("MEDIUM", "MEDIUM-LOW"):
+                null_cases["plausible"] += 1
+            elif val == "LOW":
+                null_cases["rejected"] += 1
+            elif val.lower() in null_cases:
+                null_cases[val.lower()] += 1
+
+    # 3. Red team timing — use date+time for precise ordering
+    def make_timestamp(node):
+        """Build a sortable 'YYYY-MM-DD HH:MM' string from date + time fields."""
+        d = node["meta"].get("date") or ""
+        if not re.match(r'\d{4}-\d{2}-\d{2}', d):
+            return ""
+        d = d[:10]  # trim to YYYY-MM-DD
+        t = node["meta"].get("time") or node.get("content", "")
+        # Extract HH:MM from time field like "~18:00 UTC" or "TIME RECORDED: ~15:00 UTC"
+        tm = re.search(r'TIME RECORDED:\s*~?(\d{1,2}:\d{2})', t)
+        if not tm:
+            tm = re.search(r'~?(\d{1,2}:\d{2})\s*UTC', node["meta"].get("time") or "")
+        # If no time found, use 23:59 so same-day entries without times
+        # sort after any timestamped entry on the same day.
+        return d + " " + tm.group(1) if tm else d + " 23:59"
+
+    last_red_team = None
+    last_red_team_ts = ""
+    last_red_team_id = None
+    red_team_ids = []
+    for e in evidence:
+        rel = (e["meta"].get("relationship") or "").strip().lower()
+        if rel == "self-examination":
+            red_team_ids.append(e["id"])
+            ts = make_timestamp(e)
+            if ts and (not last_red_team_ts or ts > last_red_team_ts):
+                last_red_team = (e["meta"].get("date") or "")[:10]
+                last_red_team_ts = ts
+                last_red_team_id = e["id"]
+    analyses_since_red_team = len(analyses)
+    if last_red_team_ts:
+        analyses_since_red_team = sum(
+            1 for a in analyses
+            if make_timestamp(a) > last_red_team_ts
+        )
+
+    # 4. Adversarial ratio — check both analysis content and INDEX.md
+    adversarial_files = set()
+    for a in analyses:
+        if re.search(r'Adversarial input:\s*yes', a.get("content", ""), re.IGNORECASE):
+            adversarial_files.add(a["id"])
+    # Also scan INDEX.md for "Adversarial input: yes" entries
+    index_path = ROOT / "analyses" / "INDEX.md"
+    if index_path.exists():
+        index_text = index_path.read_text(encoding="utf-8")
+        for block in re.split(r'\n###\s+', index_text):
+            if re.search(r'Adversarial input:\s*yes', block, re.IGNORECASE):
+                fm = re.search(r'File:\s*`?([^`\n]+\.md)', block)
+                if fm:
+                    adversarial_files.add("analyses/" + fm.group(1))
+    adversarial_count = len(adversarial_files)
+
+    return {
+        "evidence_balance": evidence_balance,
+        "axiom_balance": axiom_balance,
+        "null_cases": null_cases,
+        "last_red_team": last_red_team,
+        "last_red_team_id": last_red_team_id,
+        "red_team_ids": red_team_ids,
+        "analyses_since_red_team": analyses_since_red_team,
+        "total_analyses": len(analyses),
+        "adversarial_count": adversarial_count,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Main build
 # ---------------------------------------------------------------------------
 
@@ -703,6 +810,9 @@ def build():
     compute_corroboration(nodes, valid_edges)
     sync_corroboration_to_markdown(nodes)
 
+    # --- Compute framework health metrics ---
+    health = compute_health_metrics(nodes)
+
     data = {
         "nodes": nodes,
         "edges": valid_edges,
@@ -711,6 +821,7 @@ def build():
             "layers": layer_names,
             "readme_sections": readme_sections,
             "layer_descriptions": layer_descriptions,
+            "health": health,
         },
     }
 
@@ -819,6 +930,8 @@ body {
 .filter-btn[data-type="instrument"].active { color: var(--orange); background: rgba(210,153,34,0.1); }
 .filter-btn[data-type="pattern"].active { color: var(--purple); background: rgba(163,113,247,0.1); }
 .filter-btn[data-type="evidence"].active { color: var(--gray); background: rgba(139,148,158,0.1); }
+.redteam-nav-btn { color: var(--red) !important; border-color: var(--red) !important; background: rgba(248,81,73,0.1) !important; }
+.redteam-nav-btn:hover { background: rgba(248,81,73,0.2) !important; }
 
 #sidebar-list {
   flex: 1;
@@ -1155,8 +1268,11 @@ body {
 .graph-link { stroke-opacity: 0.3; }
 .graph-link.highlight { stroke-opacity: 0.8; stroke-width: 2.5px !important; }
 .graph-node.highlight circle { stroke-width: 3px; }
-.graph-node.dimmed { opacity: 0.1; }
+.graph-node.dimmed { opacity: 0.1; pointer-events: none; }
 .graph-link.dimmed { stroke-opacity: 0.03; }
+.graph-locked .graph-node.dimmed { pointer-events: none; }
+.graph-locked .graph-node:not(.dimmed) { cursor: pointer; }
+.graph-locked .graph-node:not(.dimmed) circle { filter: brightness(1.2); }
 
 /* Reset button */
 .view-reset-btn {
@@ -1176,6 +1292,15 @@ body {
 .view-reset-btn:hover {
   color: var(--text);
   border-color: var(--text-muted);
+}
+#graph-hint {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  font-size: 11px;
+  color: var(--text-muted);
+  opacity: 0.5;
+  pointer-events: none;
 }
 
 /* Graph legend */
@@ -1209,6 +1334,10 @@ body {
   margin-bottom: 3px;
   color: var(--text-muted);
 }
+.legend-clickable { cursor: pointer; border-radius: 4px; padding: 2px 4px; margin-left: -4px; transition: background 0.15s; }
+.legend-clickable:hover { background: rgba(255,255,255,0.08); }
+.legend-off { opacity: 0.35; }
+.legend-active { background: rgba(255,255,255,0.1); }
 .legend-dot {
   width: 8px;
   height: 8px;
@@ -1231,33 +1360,44 @@ body {
 }
 .stats-bar {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   flex-wrap: wrap;
-  margin-bottom: 16px;
-  padding: 16px 20px;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 10px 14px;
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 6px;
+}
+.stats-bar-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-right: 4px;
+  min-width: 60px;
 }
 .stats-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 70px;
+  min-width: 50px;
 }
 .stats-value {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
 }
 .stats-label {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
+.stats-bar[style*="cursor"] { transition: border-color 0.15s; }
+.stats-bar[style*="cursor"]:hover { border-color: var(--accent); }
 .corroboration-bar {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 .dashboard-section {
   margin-bottom: 36px;
@@ -1767,7 +1907,7 @@ body {
 
 /* Graph tooltip */
 #graph-tooltip {
-  position: absolute;
+  position: fixed;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -2009,6 +2149,26 @@ body {
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
 }
+.health-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+.health-card { background: var(--bg-card); border-radius: 8px; padding: 16px; }
+.health-card h4 { margin: 0 0 8px 0; font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.health-metric { font-size: 24px; font-weight: 600; margin-bottom: 8px; }
+.health-detail { font-size: 12px; color: var(--text-muted); }
+.health-status-ok { color: var(--green); }
+.health-status-warn { color: var(--orange); }
+.health-status-critical { color: var(--red); }
+.health-stacked-bar { display: flex; height: 20px; border-radius: 4px; overflow: hidden; margin: 8px 0; }
+.health-stacked-bar > div { height: 100%; }
+.health-legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: 11px; color: var(--text-muted); }
+.health-warning { font-size: 12px; color: var(--orange); margin-top: 4px; }
+.health-bar { border-left: 3px solid var(--text-muted); padding-left: 12px; }
+.health-bar:hover { border-left-color: var(--accent); }
+.health-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.health-dot.health-status-ok { background: var(--green); }
+.health-dot.health-status-warn { background: var(--orange); }
+.health-dot.health-status-critical { background: var(--red); }
+.health-link { color: inherit; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; cursor: pointer; }
+.health-link:hover { text-decoration-style: solid; }
 .gaps-row {
   display: flex;
   align-items: center;
@@ -2063,6 +2223,24 @@ body {
 }
 
 /* Lineage view */
+#redteam-view {
+  height: 100%;
+  overflow-y: auto;
+  padding: 32px 48px;
+  max-width: 960px;
+  display: none;
+}
+#redteam-view .redteam-report { margin-bottom: 32px; }
+#redteam-view .redteam-report h2 { font-size: 16px; margin: 20px 0 8px; }
+#redteam-view .redteam-report h3 { font-size: 14px; margin: 16px 0 6px; }
+#redteam-view .redteam-report p { font-size: 13px; line-height: 1.6; margin-bottom: 8px; color: var(--text); }
+#redteam-view .redteam-report ul, #redteam-view .redteam-report ol { font-size: 13px; line-height: 1.6; margin: 0 0 8px 20px; }
+#redteam-view .redteam-report blockquote { border-left: 3px solid var(--red); padding-left: 12px; color: var(--text-muted); margin: 8px 0; }
+#redteam-view .redteam-related { margin-top: 24px; }
+#redteam-view .redteam-related h3 { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.3px; margin: 0 0 12px 0; }
+#redteam-view .redteam-item { display: flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 13px; transition: background 0.1s; }
+#redteam-view .redteam-item:hover { background: rgba(255,255,255,0.04); }
+#redteam-view .redteam-item-meta { color: var(--text-muted); font-size: 11px; margin-left: auto; }
 #lineage-view {
   height: 100%;
   overflow-y: auto;
@@ -2071,60 +2249,60 @@ body {
   display: none;
 }
 .lineage-cluster {
-  margin-bottom: 28px;
-  padding-left: 16px;
-  border-left: 3px solid var(--purple);
-}
-.lineage-cluster h3 {
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--text);
-  margin: 0 0 4px 0;
-}
-.lineage-shared-patterns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin: 8px 0 12px 0;
-}
-.lineage-pattern-pill {
-  background: rgba(163,113,247,0.12);
-  color: var(--purple);
-  border-radius: 10px;
-  padding: 2px 10px;
-  font-size: 12px;
-  cursor: pointer;
-}
-.lineage-pattern-pill:hover { background: rgba(163,113,247,0.2); }
-.lineage-members {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 10px;
-}
-.lineage-member-card {
+  margin-bottom: 24px;
+  padding: 16px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 12px 14px;
+}
+.lineage-pattern-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.lineage-pattern-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--purple);
   cursor: pointer;
-  transition: border-color 0.15s, background 0.15s;
+}
+.lineage-pattern-name:hover { text-decoration: underline; }
+.lineage-count {
+  font-size: 11px;
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.06);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.lineage-pattern-statement {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+.lineage-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.lineage-member-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: border-color 0.15s;
 }
 .lineage-member-card:hover {
   border-color: var(--green);
-  background: rgba(63,185,80,0.04);
 }
 .lineage-member-title {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--text);
-  margin-bottom: 2px;
 }
 .lineage-member-source {
-  font-size: 11px;
-  color: var(--text-muted);
-  margin-bottom: 4px;
-}
-.lineage-score {
   font-size: 11px;
   color: var(--text-muted);
 }
@@ -2181,6 +2359,7 @@ body {
         <button class="filter-btn active" data-type="instrument">Instruments</button>
         <button class="filter-btn active" data-type="pattern">Patterns</button>
         <button class="filter-btn active" data-type="evidence">Evidence</button>
+        <button class="filter-btn redteam-nav-btn" id="redteam-nav-btn">&#9760; Red Team</button>
       </div>
     </div>
     <div id="sidebar-list"></div>
@@ -2190,7 +2369,7 @@ body {
     <div id="main-header">
       <div id="view-toggle">
         <button class="view-btn active" data-view="dashboard">Dashboard</button>
-        <button class="view-btn" data-view="detail">Content</button>
+        <button class="view-btn" data-view="gaps">Gap Analysis</button>
         <div class="view-dropdown">
           <button class="view-dropdown-btn" id="viz-dropdown-btn">Visualizations &#9662;</button>
           <div class="view-dropdown-menu" id="viz-dropdown-menu">
@@ -2200,7 +2379,6 @@ body {
             <div class="view-dropdown-sep"></div>
             <div class="view-dropdown-item" data-view="timeline">Timeline</div>
             <div class="view-dropdown-item" data-view="flow">Layer Flow</div>
-            <div class="view-dropdown-item" data-view="gaps">Gap Analysis</div>
             <div class="view-dropdown-item" data-view="lineage">Principle Lineage</div>
           </div>
         </div>
@@ -2213,6 +2391,7 @@ body {
       <div id="graph-view">
         <div id="graph-legend"></div>
         <button class="view-reset-btn" id="graph-reset" title="Reset zoom and focus">Reset</button>
+        <div id="graph-hint">Hover + Space to lock selection</div>
       </div>
       <div id="layers-view"></div>
       <div id="matrix-view"></div>
@@ -2220,6 +2399,7 @@ body {
       <div id="flow-view"></div>
       <div id="gaps-view"></div>
       <div id="lineage-view"></div>
+      <div id="redteam-view"></div>
       <div id="graph-tooltip">
         <div class="tt-title"></div>
         <div class="tt-type"></div>
@@ -2422,6 +2602,38 @@ function buildSidebar() {
     const type = g.dataset.type;
     if (type && sidebarCollapseState[type]) g.classList.add('collapsed');
   });
+
+  // Red Team section — show self-examination evidence items
+  const rtIds = (DATA.meta.health || {}).red_team_ids || [];
+  if (rtIds.length > 0) {
+    const rtGroup = document.createElement('div');
+    rtGroup.className = 'sidebar-group sidebar-redteam';
+    rtGroup.dataset.type = 'redteam';
+    rtGroup.innerHTML =
+      '<div class="sidebar-group-header">' +
+        '<span class="chevron">&#9660;</span>' +
+        'Red Team <span class="count">(' + rtIds.length + ')</span>' +
+      '</div>' +
+      '<div class="sidebar-group-items"></div>';
+    const rtHeader = rtGroup.querySelector('.sidebar-group-header');
+    rtHeader.addEventListener('click', () => { rtGroup.classList.toggle('collapsed'); });
+    const rtContainer = rtGroup.querySelector('.sidebar-group-items');
+    rtIds.forEach(id => {
+      const n = nodeMap[id];
+      if (!n) return;
+      const item = document.createElement('div');
+      item.className = 'sidebar-item' + (selectedNode && selectedNode.id === n.id ? ' active' : '');
+      item.dataset.nodeId = n.id;
+      item.innerHTML =
+        '<span class="type-dot" style="background:var(--red)"></span>' +
+        escapeHtml(getDisplayTitle(n)) +
+        '<span class="item-subtitle">' + escapeHtml(n.meta.date || '') + '</span>';
+      item.addEventListener('click', () => selectNode(n.id));
+      rtContainer.appendChild(item);
+    });
+    if (sidebarCollapseState['redteam']) rtGroup.classList.add('collapsed');
+    list.appendChild(rtGroup);
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -2455,19 +2667,6 @@ function buildDashboard() {
 
   let html = '';
 
-  // --- Stats bar ---
-  html += '<div class="stats-bar">';
-  TYPE_ORDER.forEach(t => {
-    html += '<div class="stats-item"><span class="stats-value" style="color:' + TYPE_COLORS[t] + '">' + typeCounts[t] + '</span><span class="stats-label">' + TYPE_LABELS[t] + '</span></div>';
-  });
-  html += '<div class="stats-item"><span class="stats-value">' + DATA.edges.length + '</span><span class="stats-label">Connections</span></div>';
-  html += '</div>';
-
-  html += '<div class="stats-bar corroboration-bar">';
-  html += '<div class="stats-item"><span class="stats-value" style="color:var(--green)">' + corroboration.ESTABLISHED + '</span><span class="stats-label">Established</span></div>';
-  html += '<div class="stats-item"><span class="stats-value" style="color:var(--orange)">' + corroboration.SUPPORTED + '</span><span class="stats-label">Supported</span></div>';
-  html += '<div class="stats-item"><span class="stats-value" style="color:var(--text-muted)">' + corroboration.PRELIMINARY + '</span><span class="stats-label">Preliminary</span></div>';
-  html += '</div>';
 
   // --- Recent Analyses ---
   const analyses = DATA.nodes
@@ -2547,38 +2746,6 @@ function buildDashboard() {
     html += '</div></div>';
   }
 
-  // --- View navigation cards ---
-  html += '<div class="dashboard-section"><h2>Explore</h2><div class="view-nav-grid">';
-  html += '<div class="view-nav-card" data-view="graph">' +
-    '<div class="view-nav-icon">&#9678;</div>' +
-    '<div class="view-nav-label">Force Graph</div>' +
-    '<div class="view-nav-desc">Connections between all framework items</div></div>';
-  html += '<div class="view-nav-card" data-view="layers">' +
-    '<div class="view-nav-icon">&#9638;</div>' +
-    '<div class="view-nav-label">Layer Deep Dive</div>' +
-    '<div class="view-nav-desc">Per-layer analysis with co-occurrence and items</div></div>';
-  html += '<div class="view-nav-card" data-view="matrix">' +
-    '<div class="view-nav-icon">&#9635;</div>' +
-    '<div class="view-nav-label">Corroboration Matrix</div>' +
-    '<div class="view-nav-desc">Which sources confirm which patterns</div></div>';
-  html += '<div class="view-nav-card" data-view="timeline">' +
-    '<div class="view-nav-icon">&#8614;</div>' +
-    '<div class="view-nav-label">Timeline</div>' +
-    '<div class="view-nav-desc">How the framework\'s understanding evolved</div></div>';
-  html += '<div class="view-nav-card" data-view="flow">' +
-    '<div class="view-nav-icon">&#8644;</div>' +
-    '<div class="view-nav-label">Layer Flow</div>' +
-    '<div class="view-nav-desc">How power transfers across layers</div></div>';
-  html += '<div class="view-nav-card" data-view="gaps">' +
-    '<div class="view-nav-icon">&#9888;</div>' +
-    '<div class="view-nav-label">Gap Analysis</div>' +
-    '<div class="view-nav-desc">Blind spots and under-studied areas</div></div>';
-  html += '<div class="view-nav-card" data-view="lineage">' +
-    '<div class="view-nav-icon">&#8726;</div>' +
-    '<div class="view-nav-label">Principle Lineage</div>' +
-    '<div class="view-nav-desc">Principles from different sources that converge</div></div>';
-  html += '</div></div>';
-
   // --- Documentation sections (collapsible) ---
   const sections = DATA.meta.readme_sections || {};
   if (sections.core_concepts) {
@@ -2612,14 +2779,6 @@ function buildDashboard() {
     card.addEventListener('click', () => {
       const id = card.dataset.id;
       if (id && nodeMap[id]) selectNode(id, { forceDetail: true });
-    });
-  });
-
-  // View navigation card click handlers
-  view.querySelectorAll('.view-nav-card').forEach(card => {
-    card.addEventListener('click', () => {
-      const v = card.dataset.view;
-      if (v) switchView(v);
     });
   });
 
@@ -2916,9 +3075,18 @@ function buildGraph() {
   const width = container.clientWidth;
   const height = container.clientHeight;
 
-  const filteredNodes = DATA.nodes.filter(n => activeFilters.has(n.type));
+  // Deep-copy nodes and edges so d3 mutations don't corrupt DATA
+  const filteredNodes = DATA.nodes
+    .filter(n => activeFilters.has(n.type))
+    .map(n => Object.assign({}, n));
   const filteredIds = new Set(filteredNodes.map(n => n.id));
-  const filteredEdges = DATA.edges.filter(e => filteredIds.has(e.source) && filteredIds.has(e.target));
+  const filteredEdges = DATA.edges
+    .map(e => ({
+      source: typeof e.source === 'object' ? e.source.id : e.source,
+      target: typeof e.target === 'object' ? e.target.id : e.target,
+      type: e.type,
+    }))
+    .filter(e => filteredIds.has(e.source) && filteredIds.has(e.target));
 
   const svg = d3.select(container).insert('svg', ':first-child')
     .attr('width', width)
@@ -2980,30 +3148,75 @@ function buildGraph() {
 
   // Tooltip
   const tooltip = document.getElementById('graph-tooltip');
+  let lockedNodeId = null;
+  let hoveredNodeId = null;
+
+  function positionTooltip(event) {
+    const pad = 12;
+    const tw = tooltip.offsetWidth;
+    const th = tooltip.offsetHeight;
+    let x = event.clientX + pad;
+    let y = event.clientY - 20;
+    if (x + tw > window.innerWidth - pad) x = event.clientX - tw - pad;
+    if (y + th > window.innerHeight - pad) y = window.innerHeight - th - pad;
+    if (y < pad) y = pad;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }
+
+  function unlockHighlight() {
+    lockedNodeId = null;
+    clearHighlight(node, link);
+    tooltip.style.display = 'none';
+    svg.classed('graph-locked', false);
+  }
+
+  // Keyboard: Space to lock/unlock, Escape to unlock
+  function graphKeyHandler(e) {
+    if (currentView !== 'graph') return;
+    if (e.code === 'Space' && hoveredNodeId && !lockedNodeId) {
+      e.preventDefault();
+      lockedNodeId = hoveredNodeId;
+      highlightNeighborhood(lockedNodeId, node, link);
+      svg.classed('graph-locked', true);
+    } else if ((e.code === 'Space' || e.code === 'Escape') && lockedNodeId) {
+      e.preventDefault();
+      unlockHighlight();
+    }
+  }
+  document.addEventListener('keydown', graphKeyHandler);
 
   // Node hover
   node.on('mouseover', (event, d) => {
+    hoveredNodeId = d.id;
     tooltip.querySelector('.tt-title').textContent = d.title;
     tooltip.querySelector('.tt-type').textContent = d.type;
+    if (lockedNodeId) {
+      tooltip.querySelector('.tt-type').textContent = d.type + ' (Space to unlock)';
+    }
     tooltip.style.display = 'block';
-    tooltip.style.left = (event.pageX + 12) + 'px';
-    tooltip.style.top = (event.pageY - 20) + 'px';
-
-    highlightNeighborhood(d.id, node, link);
+    positionTooltip(event);
+    if (!lockedNodeId) highlightNeighborhood(d.id, node, link);
   });
 
-  node.on('mousemove', (event) => {
-    tooltip.style.left = (event.pageX + 12) + 'px';
-    tooltip.style.top = (event.pageY - 20) + 'px';
-  });
+  node.on('mousemove', (event) => positionTooltip(event));
 
   node.on('mouseout', () => {
+    hoveredNodeId = null;
     tooltip.style.display = 'none';
-    clearHighlight(node, link);
+    if (!lockedNodeId) clearHighlight(node, link);
   });
 
   node.on('click', (event, d) => {
     selectNode(d.id, { forceDetail: true });
+    if (lockedNodeId) unlockHighlight();
+  });
+
+  // Click on background to unlock
+  svg.on('click', (event) => {
+    if (event.target === svg.node() || event.target.tagName === 'svg') {
+      if (lockedNodeId) unlockHighlight();
+    }
   });
 
   // Edge hover
@@ -3015,14 +3228,10 @@ function buildGraph() {
       (nodeMap[srcId] ? nodeMap[srcId].title : srcId) + ' \u2192 ' +
       (nodeMap[tgtId] ? nodeMap[tgtId].title : tgtId);
     tooltip.style.display = 'block';
-    tooltip.style.left = (event.pageX + 12) + 'px';
-    tooltip.style.top = (event.pageY - 20) + 'px';
+    positionTooltip(event);
   });
 
-  linkHover.on('mousemove', (event) => {
-    tooltip.style.left = (event.pageX + 12) + 'px';
-    tooltip.style.top = (event.pageY - 20) + 'px';
-  });
+  linkHover.on('mousemove', (event) => positionTooltip(event));
 
   linkHover.on('mouseout', () => {
     tooltip.style.display = 'none';
@@ -3108,10 +3317,15 @@ function clearHighlight(nodeSel, linkSel) {
 function focusGraphNode(nodeId) {
   if (!graphNodeSel || !graphLinkSel || !graphSvg) return;
 
-  const d = DATA.nodes.find(n => n.id === nodeId);
+  // Find node in simulation data (has x/y), not DATA.nodes (no x/y due to shallow copies)
+  let d = null;
+  graphNodeSel.each(function(n) { if (n.id === nodeId) d = n; });
   if (!d || d.x === undefined) return;
 
+  // Lock highlight so it persists after sidebar click
+  lockedNodeId = nodeId;
   highlightNeighborhood(nodeId, graphNodeSel, graphLinkSel);
+  graphSvg.classed('graph-locked', true);
 
   // Zoom to node
   const container = document.getElementById('graph-view');
@@ -3128,7 +3342,9 @@ function buildGraphLegend() {
   const legend = document.getElementById('graph-legend');
   let html = '<div class="legend-section"><div class="legend-title">Nodes</div>';
   TYPE_ORDER.forEach(t => {
-    html += '<div class="legend-item"><span class="legend-dot" style="background:' + TYPE_COLORS[t] + '"></span>' + TYPE_LABELS[t] + '</div>';
+    const active = activeFilters.has(t);
+    html += '<div class="legend-item legend-clickable' + (active ? '' : ' legend-off') + '" data-node-type="' + t + '">' +
+      '<span class="legend-dot" style="background:' + TYPE_COLORS[t] + '"></span>' + TYPE_LABELS[t] + '</div>';
   });
   html += '</div><div class="legend-section"><div class="legend-title">Edges</div>';
 
@@ -3136,12 +3352,66 @@ function buildGraphLegend() {
   const edgeTypesPresent = new Set(DATA.edges.map(e => e.type));
   Object.entries(EDGE_COLORS).forEach(([type, color]) => {
     if (edgeTypesPresent.has(type)) {
-      html += '<div class="legend-item"><span class="legend-line" style="background:' + color + '"></span>' + (EDGE_LABELS[type] || type) + '</div>';
+      html += '<div class="legend-item legend-clickable" data-edge-type="' + type + '">' +
+        '<span class="legend-line" style="background:' + color + '"></span>' + (EDGE_LABELS[type] || type) + '</div>';
     }
   });
   html += '</div>';
   legend.innerHTML = html;
   legend.style.display = 'block';
+
+  // Node type click: toggle filter and rebuild graph
+  legend.querySelectorAll('[data-node-type]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      const type = el.dataset.nodeType;
+      if (e.shiftKey) {
+        if (activeFilters.has(type)) activeFilters.delete(type);
+        else activeFilters.add(type);
+      } else {
+        if (activeFilters.size === 1 && activeFilters.has(type)) {
+          TYPE_ORDER.forEach(t => activeFilters.add(t));
+        } else {
+          activeFilters.clear();
+          activeFilters.add(type);
+        }
+      }
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.toggle('active', activeFilters.has(b.dataset.type));
+      });
+      buildSidebar();
+      buildGraph();
+    });
+  });
+
+  // Edge type click: highlight those edges
+  legend.querySelectorAll('[data-edge-type]').forEach(el => {
+    el.addEventListener('click', () => {
+      const type = el.dataset.edgeType;
+      if (!graphLinkSel || !graphNodeSel) return;
+      // Toggle: if already highlighting this type, clear
+      if (legend._activeEdgeType === type) {
+        clearHighlight(graphNodeSel, graphLinkSel);
+        legend._activeEdgeType = null;
+        legend.querySelectorAll('[data-edge-type]').forEach(e => e.classList.remove('legend-active'));
+        return;
+      }
+      legend._activeEdgeType = type;
+      legend.querySelectorAll('[data-edge-type]').forEach(e => e.classList.toggle('legend-active', e.dataset.edgeType === type));
+      // Highlight matching edges and their connected nodes
+      const connIds = new Set();
+      graphLinkSel.classed('highlight', e => {
+        if (e.type === type) {
+          connIds.add(typeof e.source === 'object' ? e.source.id : e.source);
+          connIds.add(typeof e.target === 'object' ? e.target.id : e.target);
+          return true;
+        }
+        return false;
+      });
+      graphLinkSel.classed('dimmed', e => e.type !== type);
+      graphNodeSel.classed('dimmed', n => !connIds.has(n.id));
+      graphNodeSel.classed('highlight', false);
+    });
+  });
 }
 
 // ---------------------------------------------------------------------------
@@ -3491,7 +3761,7 @@ function buildTimeline() {
     }
   });
 
-  // Track first-seen patterns
+  // Track first-seen patterns (chronological order)
   const seenPatterns = new Set();
   const timelineData = analyses.map(a => {
     const pats = analysisPatterns[a.id] || new Set();
@@ -3505,8 +3775,11 @@ function buildTimeline() {
     return { analysis: a, patterns: pats, newPatterns: newPats };
   });
 
+  // Reverse for display (newest first)
+  timelineData.reverse();
+
   const allPatterns = DATA.nodes.filter(n => n.type === 'pattern');
-  const dateRange = analyses[0].meta.date + ' — ' + analyses[analyses.length - 1].meta.date;
+  const dateRange = analyses[analyses.length - 1].meta.date + ' — ' + analyses[0].meta.date;
 
   let html = '<h2>Framework Evolution</h2>';
   html += '<div class="timeline-stats">';
@@ -3673,6 +3946,90 @@ function buildGaps() {
   let html = '<h2>Gap Analysis</h2>';
   html += '<p style="color:var(--text-muted);margin-bottom:24px">Blind spots, weak corroboration, and understudied areas.</p>';
 
+  // 0. Framework Health
+  const health = DATA.meta.health || {};
+  html += '<div class="gaps-section"><h3>Framework Health</h3>';
+  html += '<div class="health-cards">';
+
+  // Evidence balance card
+  const eb = health.evidence_balance || {};
+  const totalEv = Object.values(eb).reduce((a,b) => a+b, 0) || 1;
+  html += '<div class="health-card">';
+  html += '<h4>Evidence Balance</h4>';
+  html += '<div class="health-stacked-bar">';
+  const evColors = { supports: 'var(--green)', challenges: 'var(--red)', complicates: 'var(--orange)', 'self-examination': 'var(--purple)' };
+  ['supports','challenges','complicates','self-examination'].forEach(r => {
+    const c = eb[r] || 0;
+    if (c > 0) html += '<div style="width:' + Math.round(c/totalEv*100) + '%;background:' + evColors[r] + '" title="' + r + ': ' + c + '"></div>';
+  });
+  html += '</div>';
+  html += '<div class="health-legend">';
+  ['supports','challenges','complicates','self-examination'].forEach(r => {
+    html += '<span><span style="background:' + evColors[r] + ';width:8px;height:8px;border-radius:2px;display:inline-block;margin-right:4px;vertical-align:middle"></span>' + r + ': ' + (eb[r]||0) + '</span>';
+  });
+  html += '</div>';
+  // Warning for unchallenged axioms
+  const ab = health.axiom_balance || {};
+  const unchallenged = (DATA.meta.axioms || []).filter((_, i) => {
+    const ax = String(i + 1);
+    return !ab[ax] || !ab[ax].challenges;
+  });
+  if (unchallenged.length > 0 && (DATA.meta.axioms||[]).length > 0) {
+    html += '<div class="health-warning">' + unchallenged.length + ' of ' + (DATA.meta.axioms||[]).length + ' axioms have no challenging evidence</div>';
+  }
+  html += '</div>';
+
+  // Null case card
+  const nc = health.null_cases || {};
+  const totalNC = (nc.rejected||0) + (nc.plausible||0) + (nc.accepted||0) || 1;
+  html += '<div class="health-card">';
+  html += '<h4>Null Case Distribution</h4>';
+  html += '<div class="health-stacked-bar">';
+  const ncColors = { rejected: '#e74c3c', plausible: 'var(--orange)', accepted: 'var(--green)' };
+  ['rejected','plausible','accepted'].forEach(r => {
+    const c = nc[r] || 0;
+    if (c > 0) html += '<div style="width:' + Math.round(c/totalNC*100) + '%;background:' + ncColors[r] + '" title="' + r + ': ' + c + '"></div>';
+  });
+  html += '</div>';
+  html += '<div class="health-legend">';
+  ['rejected','plausible','accepted'].forEach(r => {
+    html += '<span><span style="background:' + ncColors[r] + ';width:8px;height:8px;border-radius:2px;display:inline-block;margin-right:4px;vertical-align:middle"></span>' + r + ': ' + (nc[r]||0) + '</span>';
+  });
+  html += '</div>';
+  if ((nc.accepted||0) === 0) {
+    html += '<div class="health-warning">No accepted null cases — IC-2 may be decorative</div>';
+  }
+  html += '</div>';
+
+  // Red team status card
+  html += '<div class="health-card">';
+  html += '<h4>Red Team Status (IC-3)</h4>';
+  const lrt = health.last_red_team;
+  const lrtId = health.last_red_team_id;
+  const asrt = health.analyses_since_red_team || 0;
+  const rtClass = !lrt ? 'health-status-critical' : asrt > 15 ? 'health-status-critical' : asrt > 10 ? 'health-status-warn' : 'health-status-ok';
+  if (lrtId) {
+    html += '<div class="health-metric ' + rtClass + '"><a href="#" class="health-link" data-id="' + lrtId + '">' + lrt + '</a></div>';
+  } else {
+    html += '<div class="health-metric ' + rtClass + '">' + (lrt || 'Never') + '</div>';
+  }
+  html += '<div class="health-detail">' + asrt + ' analyses since last red team' + (asrt > 10 ? ' (threshold: 10)' : '') + '</div>';
+  html += '</div>';
+
+  // Adversarial ratio card
+  html += '<div class="health-card">';
+  html += '<h4>Adversarial Input</h4>';
+  const advCount = health.adversarial_count || 0;
+  const advTotal = health.total_analyses || 0;
+  const advRatio = advTotal > 0 ? advCount / advTotal : 0;
+  const advClass = advRatio >= 0.1 ? 'health-status-ok' : advCount > 0 ? 'health-status-warn' : 'health-status-critical';
+  html += '<div class="health-metric ' + advClass + '">' + advCount + ' / ' + advTotal + '</div>';
+  html += '<div class="health-detail">Target: 1 in 10 analyses (' + Math.round(advRatio * 100) + '% actual)</div>';
+  html += '</div>';
+
+  html += '</div>'; // close health-cards
+  html += '</div>'; // close gaps-section
+
   // 1. Under-corroborated patterns (sorted weakest first)
   const patterns = DATA.nodes.filter(n => n.type === 'pattern').slice();
   patterns.sort((a, b) => (a.meta.corr_hit_rate || 0) - (b.meta.corr_hit_rate || 0));
@@ -3797,6 +4154,130 @@ function buildGaps() {
   view.querySelectorAll('.gaps-row[data-id]').forEach(el => {
     el.addEventListener('click', () => selectNode(el.dataset.id, { forceDetail: true }));
   });
+  view.querySelectorAll('.health-link[data-id]').forEach(el => {
+    el.addEventListener('click', (e) => { e.preventDefault(); selectNode(el.dataset.id, { forceDetail: true }); });
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Red Team view
+// ---------------------------------------------------------------------------
+function buildRedTeam() {
+  const view = document.getElementById('redteam-view');
+  const health = DATA.meta.health || {};
+  const rtIds = health.red_team_ids || [];
+  const latestId = health.last_red_team_id;
+
+  let html = '<h2>Red Team (IC-3)</h2>';
+  html += '<p style="color:var(--text-muted);margin-bottom:24px">Self-examination reports and framework integrity checks.</p>';
+
+  if (rtIds.length === 0) {
+    html += '<p style="color:var(--red)">No red team reports yet. IC-3 requires periodic self-examination.</p>';
+    view.innerHTML = html;
+    return;
+  }
+
+  // Status summary
+  const asrt = health.analyses_since_red_team || 0;
+  const rtClass = asrt > 15 ? 'health-status-critical' : asrt > 10 ? 'health-status-warn' : 'health-status-ok';
+  html += '<div style="margin-bottom:24px;padding:12px 16px;background:var(--bg-card);border-radius:8px;font-size:13px">';
+  html += '<strong>' + rtIds.length + '</strong> red team report' + (rtIds.length !== 1 ? 's' : '') + ' &middot; ';
+  html += '<span class="' + rtClass + '">' + asrt + ' analyses since last red team</span>';
+  html += '</div>';
+
+  // Render most recent report
+  const latest = nodeMap[latestId];
+  if (latest) {
+    html += '<div class="redteam-report">';
+
+    // Render markdown content with cross-reference linking
+    let rendered = marked.parse(latest.content);
+
+    // Link file paths to viewer nodes
+    rendered = rendered.replace(
+      /(?:(?:principles|analyses|instruments|evidence)\/[\w\-]+\.md)/g,
+      function(match) {
+        if (nodeMap[match]) {
+          return '<span class="cross-ref" data-target="' + match + '">' + escapeHtml(nodeMap[match].title || match) + '</span>';
+        }
+        return match;
+      }
+    );
+
+    // Link parenthetical references to patterns
+    const patternLookup = {};
+    DATA.nodes.forEach(n => {
+      if (n.type === 'pattern') {
+        const key = n.title.replace(/^The\s+/i, '').toLowerCase();
+        patternLookup[key] = n.id;
+      }
+    });
+    rendered = rendered.replace(
+      /\(([^)<]{2,60})\)/g,
+      function(match, term) {
+        const key = term.toLowerCase();
+        if (patternLookup[key]) {
+          return '(<span class="cross-ref" data-target="' + patternLookup[key] + '">' + escapeHtml(term) + '</span>)';
+        }
+        return match;
+      }
+    );
+
+    html += rendered;
+    html += '</div>';
+
+    // Connected items for the latest report
+    const adj = adjacency[latestId] || { incoming: [], outgoing: [] };
+    const connected = new Map();
+    adj.outgoing.forEach(e => {
+      const target = nodeMap[e.target];
+      if (target) connected.set(e.target, { node: target, type: e.type });
+    });
+    adj.incoming.forEach(e => {
+      const source = nodeMap[e.source];
+      if (source) connected.set(e.source, { node: source, type: e.type });
+    });
+
+    if (connected.size > 0) {
+      html += '<div class="redteam-related"><h3>Related Items</h3>';
+      connected.forEach((info, id) => {
+        const color = TYPE_COLORS[info.node.type];
+        html += '<div class="redteam-item" data-id="' + id + '">' +
+          '<span class="type-dot" style="background:' + color + ';display:inline-block;width:8px;height:8px;border-radius:50%"></span>' +
+          escapeHtml(getDisplayTitle(info.node)) +
+          '<span class="redteam-item-meta">' + info.node.type + ' &middot; ' + info.type + '</span>' +
+        '</div>';
+      });
+      html += '</div>';
+    }
+  }
+
+  // If there are older reports, list them
+  if (rtIds.length > 1) {
+    html += '<div class="redteam-related" style="margin-top:32px"><h3>All Red Team Reports</h3>';
+    rtIds.forEach(id => {
+      const n = nodeMap[id];
+      if (!n) return;
+      const isCurrent = id === latestId;
+      html += '<div class="redteam-item" data-id="' + id + '">' +
+        '<span class="type-dot" style="background:var(--red);display:inline-block;width:8px;height:8px;border-radius:50%"></span>' +
+        escapeHtml(getDisplayTitle(n)) +
+        (isCurrent ? '<span class="redteam-item-meta" style="color:var(--green)">latest</span>' : '') +
+        '<span class="redteam-item-meta">' + (n.meta.date || '') + '</span>' +
+      '</div>';
+    });
+    html += '</div>';
+  }
+
+  view.innerHTML = html;
+
+  // Wire up click handlers
+  view.querySelectorAll('.redteam-item[data-id]').forEach(el => {
+    el.addEventListener('click', () => selectNode(el.dataset.id, { forceDetail: true }));
+  });
+  view.querySelectorAll('.cross-ref[data-target]').forEach(el => {
+    el.addEventListener('click', () => selectNode(el.dataset.target, { forceDetail: true }));
+  });
 }
 
 // ---------------------------------------------------------------------------
@@ -3805,120 +4286,79 @@ function buildGaps() {
 function buildLineage() {
   const view = document.getElementById('lineage-view');
   const principles = DATA.nodes.filter(n => n.type === 'principle');
+  const patterns = DATA.nodes.filter(n => n.type === 'pattern');
 
   if (principles.length < 2) {
     view.innerHTML = '<h2>Principle Lineage</h2><p style="color:var(--text-muted)">Need at least 2 principle extractions.</p>';
     return;
   }
 
-  // Collect connected patterns per principle
-  const princPatterns = {};
-  principles.forEach(p => { princPatterns[p.id] = new Set(); });
+  // For each pattern, find which principle sources connect to it
+  const patternSources = {};  // patternId -> Set of principle ids
+  patterns.forEach(p => { patternSources[p.id] = new Set(); });
   DATA.edges.forEach(e => {
-    if (e.type === 'key_pattern' && princPatterns[e.source]) princPatterns[e.source].add(e.target);
-    if (e.type === 'observed_in' && princPatterns[e.target]) princPatterns[e.target].add(e.source);
+    const src = typeof e.source === 'object' ? e.source.id : e.source;
+    const tgt = typeof e.target === 'object' ? e.target.id : e.target;
+    if (e.type === 'key_pattern' && patternSources[tgt]) {
+      // source (principle) -> target (pattern)
+      if (nodeMap[src] && nodeMap[src].type === 'principle') patternSources[tgt].add(src);
+    }
+    if (e.type === 'observed_in' && patternSources[src]) {
+      // source (pattern) -> target (principle)
+      if (nodeMap[tgt] && nodeMap[tgt].type === 'principle') patternSources[src].add(tgt);
+    }
   });
 
-  // Compute Jaccard similarity for each pair
-  const n = principles.length;
-  const jaccard = Array.from({length: n}, () => Array(n).fill(0));
-  const interSets = Array.from({length: n}, () => Array.from({length: n}, () => new Set()));
+  // Build convergence list: patterns with 2+ sources
+  const convergences = patterns
+    .filter(p => patternSources[p.id] && patternSources[p.id].size >= 2)
+    .map(p => ({
+      pattern: p,
+      sources: [...patternSources[p.id]].map(id => nodeMap[id]).filter(Boolean),
+    }))
+    .sort((a, b) => b.sources.length - a.sources.length);
 
-  for (let i = 0; i < n; i++) {
-    for (let j = i + 1; j < n; j++) {
-      const si = princPatterns[principles[i].id];
-      const sj = princPatterns[principles[j].id];
-      const inter = new Set([...si].filter(x => sj.has(x)));
-      const union = new Set([...si, ...sj]);
-      const jac = union.size > 0 ? inter.size / union.size : 0;
-      jaccard[i][j] = jac;
-      jaccard[j][i] = jac;
-      interSets[i][j] = inter;
-      interSets[j][i] = inter;
-    }
-  }
-
-  // Greedy clustering: Jaccard >= 0.25 and at least 1 shared pattern
-  const clustered = new Set();
-  const clusters = [];
-
-  for (let i = 0; i < n; i++) {
-    if (clustered.has(i)) continue;
-    const group = [i];
-    clustered.add(i);
-    for (let j = i + 1; j < n; j++) {
-      if (clustered.has(j)) continue;
-      // Must connect to at least one member with Jaccard >= 0.25 and shared > 0
-      const connects = group.some(g => jaccard[g][j] >= 0.25 && interSets[g][j].size > 0);
-      if (connects) { group.push(j); clustered.add(j); }
-    }
-    if (group.length >= 2) {
-      // Collect all shared patterns in the cluster
-      const sharedPats = new Set();
-      for (let a = 0; a < group.length; a++) {
-        for (let b = a + 1; b < group.length; b++) {
-          interSets[group[a]][group[b]].forEach(p => sharedPats.add(p));
-        }
-      }
-      if (sharedPats.size > 0) {
-        clusters.push({ members: group, patterns: sharedPats });
-      }
-    }
-  }
-
-  // Sort clusters by size desc
-  clusters.sort((a, b) => b.members.length - a.members.length);
+  // Track which sources appear in any convergence
+  const convergedSources = new Set();
+  convergences.forEach(c => c.sources.forEach(s => convergedSources.add(s.id)));
 
   let html = '<h2>Principle Lineage</h2>';
-  html += '<p style="color:var(--text-muted);margin-bottom:24px">Principles from different sources that converge on similar ideas, linked by shared patterns.</p>';
+  html += '<p style="color:var(--text-muted);margin-bottom:24px">Patterns that multiple sources independently identified — convergence across different thinkers and traditions.</p>';
 
-  if (clusters.length > 0) {
-    clusters.forEach(cl => {
-      // Label from dominant shared patterns
-      const patNames = [...cl.patterns].map(pid => nodeMap[pid] ? nodeMap[pid].title : '').filter(Boolean);
-      const label = patNames.slice(0, 3).join(', ') + (patNames.length > 3 ? '...' : '');
-
+  if (convergences.length > 0) {
+    convergences.forEach(c => {
+      const pat = c.pattern;
       html += '<div class="lineage-cluster">';
-      html += '<h3>' + escapeHtml(label) + '</h3>';
-      html += '<div class="lineage-shared-patterns">';
-      cl.patterns.forEach(pid => {
-        const pn = nodeMap[pid];
-        if (pn) html += '<span class="lineage-pattern-pill" data-id="' + pid + '">' + escapeHtml(pn.title) + '</span>';
-      });
+      html += '<div class="lineage-pattern-header">';
+      html += '<span class="lineage-pattern-name" data-id="' + pat.id + '">' + escapeHtml(pat.title) + '</span>';
+      html += '<span class="lineage-count">' + c.sources.length + ' sources</span>';
       html += '</div>';
+      if (pat.meta && pat.meta.statement) {
+        html += '<div class="lineage-pattern-statement">' + escapeHtml(pat.meta.statement) + '</div>';
+      }
       html += '<div class="lineage-members">';
-      cl.members.forEach(idx => {
-        const p = principles[idx];
-        const title = getDisplayTitle(p);
-        const source = p.meta.source || '';
-        const count = p.meta.principle_count || 0;
-        // Find max similarity to other members
-        let maxSim = 0;
-        cl.members.forEach(other => {
-          if (other !== idx) maxSim = Math.max(maxSim, jaccard[idx][other]);
-        });
-        html += '<div class="lineage-member-card" data-id="' + p.id + '">' +
+      c.sources.forEach(s => {
+        const title = getDisplayTitle(s);
+        const source = s.meta.source || '';
+        html += '<div class="lineage-member-card" data-id="' + s.id + '">' +
           '<div class="lineage-member-title">' + escapeHtml(title) + '</div>' +
           '<div class="lineage-member-source">' + escapeHtml(source) + '</div>' +
-          '<div class="lineage-score">' + count + ' principles · ' + Math.round(maxSim * 100) + '% overlap</div>' +
         '</div>';
       });
       html += '</div></div>';
     });
+  } else {
+    html += '<p style="color:var(--text-muted)">No patterns have been identified by multiple sources yet.</p>';
   }
 
-  // Standalone principles
-  const standalone = [];
-  for (let i = 0; i < n; i++) {
-    if (!clustered.has(i)) standalone.push(i);
-  }
-
+  // Sources with no convergence
+  const standalone = principles.filter(p => !convergedSources.has(p.id));
   if (standalone.length > 0) {
-    html += '<div class="lineage-section"><h3>Standalone Principles</h3>';
-    standalone.forEach(idx => {
-      const p = principles[idx];
+    html += '<div class="lineage-section"><h3>No Shared Patterns Yet</h3>';
+    html += '<p style="color:var(--text-muted);margin-bottom:12px;font-size:13px">These sources haven\'t yet been linked to patterns seen by other sources.</p>';
+    standalone.forEach(p => {
       html += '<div class="lineage-standalone-row" data-id="' + p.id + '">' +
-        '<span class="type-dot" style="background:' + TYPE_COLORS.principle + ';display:inline-block;width:8px;height:8px;border-radius:50%;flex-shrink:0"></span>' +
+        '<span style="background:' + TYPE_COLORS.principle + ';display:inline-block;width:8px;height:8px;border-radius:50%;flex-shrink:0"></span>' +
         '<span class="lineage-standalone-title">' + escapeHtml(getDisplayTitle(p)) + '</span>' +
         '<span class="lineage-standalone-source">' + escapeHtml(p.meta.source || '') + '</span>' +
       '</div>';
@@ -3932,7 +4372,7 @@ function buildLineage() {
   view.querySelectorAll('.lineage-member-card, .lineage-standalone-row').forEach(el => {
     el.addEventListener('click', () => selectNode(el.dataset.id, { forceDetail: true }));
   });
-  view.querySelectorAll('.lineage-pattern-pill').forEach(el => {
+  view.querySelectorAll('.lineage-pattern-name').forEach(el => {
     el.addEventListener('click', () => {
       const id = el.dataset.id;
       if (id && nodeMap[id]) selectNode(id, { forceDetail: true });
@@ -3959,13 +4399,13 @@ function selectNode(nodeId, options) {
   showDetail(nodeId);
 }
 
-const VIZ_VIEWS = ['graph', 'layers', 'matrix', 'timeline', 'flow', 'gaps', 'lineage'];
+const VIZ_VIEWS = ['graph', 'layers', 'matrix', 'timeline', 'flow', 'lineage'];
 const VIZ_LABELS = {
   graph: 'Force Graph', layers: 'Layer Deep Dive', matrix: 'Corroboration Matrix',
   timeline: 'Timeline', flow: 'Layer Flow', gaps: 'Gap Analysis',
   lineage: 'Principle Lineage',
 };
-const ALL_VIEWS = ['dashboard', 'detail', ...VIZ_VIEWS];
+const ALL_VIEWS = ['dashboard', 'detail', 'gaps', 'redteam', ...VIZ_VIEWS];
 
 function switchView(view) {
   currentView = view;
@@ -4018,6 +4458,7 @@ function switchView(view) {
   if (view === 'flow') setTimeout(() => buildFlow(), 50);
   if (view === 'gaps') setTimeout(() => buildGaps(), 50);
   if (view === 'lineage') setTimeout(() => buildLineage(), 50);
+  if (view === 'redteam') setTimeout(() => buildRedTeam(), 50);
 
   // If switching to detail with a selected node, show it
   if (view === 'detail' && selectedNode) showDetail(selectedNode.id);
@@ -4081,6 +4522,8 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     if (currentView === 'layers') buildLayers();
   });
 });
+
+document.getElementById('redteam-nav-btn').addEventListener('click', () => switchView('redteam'));
 
 document.querySelectorAll('.view-btn').forEach(btn => {
   btn.addEventListener('click', () => switchView(btn.dataset.view));
