@@ -121,11 +121,19 @@ framed as "returning power to the American people"; elimination of oversight fra
 as "accountability"; the constitutional originalism argument converts institutional
 seizure into constitutional restoration — each proposal's stated purpose is the
 inverse of its structural effect; position 1 primary evidence of the inversion
-authored by its own architects)
+authored by its own architects),
+[analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md) (the War
+Powers Act — designed as a Congressional check on executive war-making — is called
+"an unconstitutional shift of authority from the president" by the senators whose
+institutional role it protects. The mechanism created to limit executive military action
+is characterized by the legislature as exceeding its authority. Rubio's dual posture —
+complying with the Act while asserting it is unconstitutional — is a meta-inversion:
+the act of compliance is performed to demonstrate legitimacy while the underlying
+mechanism is simultaneously delegitimized)
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: ESTABLISHED (36 of 37 relevant sources, 97%)
+CORROBORATION: ESTABLISHED (38 of 41 relevant sources, 93%)
 
 ### Layered Redundancy of Control
 LAYERS: All layers
@@ -180,7 +188,7 @@ redundancy and design their strategy to defeat it layer by layer)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (12 of 37 relevant sources, 32%)
+CORROBORATION: ESTABLISHED (13 of 42 relevant sources, 31%)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -219,7 +227,7 @@ the war is profitable. Analyst Zonszein identifies only external circuit-breaker
 economic cost to Israelis, mass Israeli casualties, or international intervention.
 The perpetual threat frame is reinforced by prosperity, not just fear.)
 
-CORROBORATION: ESTABLISHED (8 of 37 relevant sources, 22%)
+CORROBORATION: SUPPORTED (8 of 42 relevant sources, 19%)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -270,7 +278,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 37 relevant sources, 16%)
+CORROBORATION: SUPPORTED (6 of 42 relevant sources, 14%)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -291,7 +299,7 @@ transition between the two is the moment of maximum danger for democratic order)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 37 relevant sources, 8%)
+CORROBORATION: PRELIMINARY (3 of 42 relevant sources, 7%)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -323,7 +331,7 @@ making them complicit in the system that exploited them)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 37 relevant sources, 11%)
+CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -350,7 +358,7 @@ normative weight.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 37 relevant sources, 3%)
 
 ### Appearance as Structural Terrain
 LAYERS: Thought & Narrative, Institutional
@@ -437,11 +445,26 @@ appears to constrain the President; it is reinterpreted as granting unlimited
 authority. P6 documents the asymmetric ratchet: the consolidation is concrete
 and immediate, the dispersal is aspirational — the appearance of temporary
 seizure for the people's benefit IS the structural terrain the consolidation
-operates on)
+operates on),
+[analyses/2013-vasudeva-orgscience-norwegian-swf-responsible-investment.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2013-vasudeva-orgscience-norwegian-swf-responsible-investment.md) (the Norwegian SWF
+presents as an ethical investor; the academic paper studies "responsible investment"
+without examining the power embedded in the framing; the appearance is genuine — the
+SWF really is an ethical investor — but the genuineness of the appearance is precisely
+what makes the structural power invisible; new variant where appearance is not
+deceptive but still constitutes the operating terrain),
+[analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md) (the
+Senate vote creates the appearance of Congressional deliberation — floor speeches,
+constitutional arguments, a recorded vote — while the substance was predetermined
+by a private Republican huddle and administration lobbying. The vote IS the
+appearance; it is the structural terrain on which continued executive war-making
+operates. The constitutional framing of the debate — commander-in-chief authority
+vs. Congressional war powers — adds a second layer of appearance: the debate appears
+to be about constitutional principle when it is structurally about whether the
+legislature will exercise or abdicate its role)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (33 of 37 relevant sources, 89%)
+CORROBORATION: ESTABLISHED (36 of 41 relevant sources, 88%)
 
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -481,7 +504,7 @@ framework.)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 34 relevant sources, 12%)
+CORROBORATION: SUPPORTED (4 of 38 relevant sources, 11%)
 
 ### The Compliance Gradient
 LAYERS: All layers
@@ -521,7 +544,7 @@ platform exit; Meta's design assumes and depends on the gradient skewing toward 
 compliance — the complexity and opacity of the policies function to keep the cost curve
 positioned against active resistance)
 
-CORROBORATION: SUPPORTED (4 of 37 relevant sources, 11%)
+CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -576,7 +599,7 @@ their own foundational document against the institutions it created)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 37 relevant sources, 14%)
+CORROBORATION: SUPPORTED (5 of 42 relevant sources, 12%)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -633,7 +656,7 @@ billionaires are "mindful of the chasm between their own political views and pub
 opinion" and therefore "act behind the scenes." The performance is conscious and
 strategic on the ruler's side, not just the subordinate's.)
 
-CORROBORATION: SUPPORTED (5 of 37 relevant sources, 14%)
+CORROBORATION: SUPPORTED (6 of 42 relevant sources, 14%)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -672,7 +695,7 @@ generations (from Nehru to McKinsey); the structural commitment does not.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 37 relevant sources, 5%)
+CORROBORATION: PRELIMINARY (2 of 42 relevant sources, 5%)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -726,7 +749,7 @@ alternatives by depleting the resources the model depended on.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (9 of 37 relevant sources, 24%)
+CORROBORATION: ESTABLISHED (9 of 42 relevant sources, 21%)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -751,7 +774,7 @@ control and resistance)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 37 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 41 relevant sources, 2%)
 
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -793,7 +816,7 @@ More instances needed before proposing a standalone pattern.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (7 of 34 relevant sources, 21%)
+CORROBORATION: SUPPORTED (7 of 38 relevant sources, 18%)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -821,7 +844,7 @@ planning discussion. Fox's Iraq 2003 coverage used the same editorial architectu
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: SUPPORTED (7 of 37 relevant sources, 19%)
+CORROBORATION: SUPPORTED (7 of 41 relevant sources, 17%)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -860,7 +883,7 @@ was not available in any previous conflict)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 37 relevant sources, 14%)
+CORROBORATION: SUPPORTED (5 of 42 relevant sources, 12%)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -901,7 +924,7 @@ incursion)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 37 relevant sources, 11%)
+CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -967,7 +990,13 @@ distributes through every AI system that uses Wikipedia. This extends the Divisi
 Learning from bilateral asymmetry to systemic multiplication through technological
 infrastructure the manipulator did not build.
 
-CORROBORATION: SUPPORTED (6 of 37 relevant sources, 16%)
+NOTE: Vasudeva (2013) provides a sovereign-institutional variant: Norway's Council on
+Ethics monitors global corporations using proprietary investigations. Exclusion targets
+cannot see into the criteria-setting process, the investigation methodology, or the
+political dynamics shaping which companies are investigated. The asymmetry operates
+through institutional opacity rather than technological or financial means.
+
+CORROBORATION: SUPPORTED (7 of 42 relevant sources, 17%)
 
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
@@ -1012,8 +1041,14 @@ compliance before actual termination. Position 1 primary evidence: the architect
 explicitly design for anticipatory obedience as a feature, not a side effect)
 
 EVIDENCE: —
+[analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md) (Republicans
+"closed ranks" after a private Tuesday huddle and administration briefings with Rubio,
+Ratcliffe, Caine, and Hegseth. A source told Fox News that Republicans "who may have been
+swayed were frustrated with Kaine's repeated use of the Senate floor." The private
+pre-commitment followed by public partisan vote — the institutional-political variant
+at the legislative level)
 
-CORROBORATION: ESTABLISHED (8 of 37 relevant sources, 22%)
+CORROBORATION: SUPPORTED (8 of 41 relevant sources, 20%)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
@@ -1083,9 +1118,19 @@ taxpayer... the USAGM should be defunded and disestablished." P3 documents the
 complementary mechanism: systematic elimination of oversight bodies — ombudsmen,
 civil rights offices, independent legal counsel, advisory committees — as precondition
 for institutional redirection. Position 1 primary evidence: the capture blueprint
-prescribes the abdication mechanisms it needs)
+prescribes the abdication mechanisms it needs),
+[analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md) (legislative
+self-disarmament — a seventh variant. The Senate votes down a War Powers Resolution
+while multiple members characterize the War Powers Act itself as unconstitutional.
+Graham: "an unconstitutional shift of authority from the president." Rubio simultaneously
+claims compliance with the Act and asserts it is unconstitutional. Barrasso delegitimizes
+the mechanism by counting its use — the more oversight is invoked, the less legitimate
+each invocation appears. The institution does not merely fail to act; it produces
+arguments for why its own mechanism should not exist. Distinct from all prior variants:
+the institution actively reasons its way out of its structural role through constitutional
+reinterpretation, procedural fatigue, and delegitimization of oversight frequency.)
 
-CORROBORATION: ESTABLISHED (9 of 34 relevant sources, 26%)
+CORROBORATION: ESTABLISHED (9 of 39 relevant sources, 23%)
 
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
@@ -1158,7 +1203,7 @@ by the actors who accumulated the power)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (8 of 37 relevant sources, 22%)
+CORROBORATION: SUPPORTED (8 of 42 relevant sources, 19%)
 
 ### Compression Through Destruction
 LAYERS: Physical & Coercive, Economic, Institutional
@@ -1208,7 +1253,7 @@ New Deal), and the resulting compression was weaker and more easily reversed.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 37 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 42 relevant sources, 2%)
 
 ### The Wealth Defense Industry
 LAYERS: Economic, Legal & Regulatory, Institutional
@@ -1284,7 +1329,7 @@ after Kotlarek's blocking in 2024.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (4 of 37 relevant sources, 11%)
+CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -1355,7 +1400,13 @@ agency exists, but the enforcement chain is architecturally disabled. Democratic
 — campaign finance law — persists while oligarchic substance — unlimited spending
 without enforcement — operates through the designed gap)
 
-CORROBORATION: ESTABLISHED (12 of 37 relevant sources, 32%)
+analyses/2013-vasudeva-orgscience-norwegian-swf-responsible-investment.md (a
+democratic state concentrating petroleum wealth in a single investment vehicle
+with global market influence; democratically governed but structurally oligarchic
+in its investment power; the democratic process legitimizes the concentration,
+making it resistant to the Axiom 5 diagnostic)
+
+CORROBORATION: ESTABLISHED (13 of 42 relevant sources, 31%)
 
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
@@ -1415,8 +1466,14 @@ mechanism is documented through Position 1 evidence: the oligarchs themselves
 construct and deploy the moral vocabulary.)
 
 EVIDENCE: —
+analyses/2013-vasudeva-orgscience-norwegian-swf-responsible-investment.md
+("responsible investment" converts the economic relationship of SWF investment/
+divestment into moral categories — responsible/irresponsible. Companies that
+question the ethical criteria appear to oppose responsibility itself. The moral
+vocabulary forecloses structural critique of who defines "responsible" and whose
+interests the criteria serve)
 
-CORROBORATION: PRELIMINARY (2 of 37 relevant sources, 5%)
+CORROBORATION: PRELIMINARY (2 of 42 relevant sources, 5%)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -1489,7 +1546,7 @@ Redundancy architecture.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 37 relevant sources, 16%)
+CORROBORATION: SUPPORTED (6 of 42 relevant sources, 14%)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -1583,7 +1640,7 @@ independent oversight); the direction of control intensifies. This is the patter
 operating prospectively rather than retrospectively — a blueprint for how to change
 institutional forms while maintaining structural continuity of executive authority)
 
-CORROBORATION: SUPPORTED (5 of 37 relevant sources, 14%)
+CORROBORATION: SUPPORTED (6 of 42 relevant sources, 14%)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -1629,7 +1686,7 @@ structural effect converges.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 37 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 42 relevant sources, 2%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -1652,7 +1709,7 @@ Learning rather than a fully distinct pattern. Monitor for independent confirmat
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 34 relevant sources, 3%)
+CORROBORATION: PRELIMINARY (1 of 38 relevant sources, 3%)
 
 ### The Boomerang
 LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
@@ -1689,4 +1746,4 @@ Russian detention).
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 35 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (3 of 40 relevant sources, 8%)

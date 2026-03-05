@@ -7,7 +7,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 
 - `constitution.md` — Foundational axioms about how power operates
 - `taxonomy.md` — The layers of power (thought, economic, legal, institutional, surveillance, physical)
-- `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM modes)
+- `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM, SUGGEST modes)
 - `patterns.md` — Compact pattern definitions (always loaded)
 - `patterns-detail.md` — Full evidence trails per pattern (loaded for audits)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
@@ -27,6 +27,7 @@ Use the `/lop` skill to apply this framework:
 - `/lop analyze [material]` — Run the full analytical methodology on new information
 - `/lop extract [source]` — Study a source for principles and/or instruments
 - `/lop redteam` — Turn the framework on itself (integrity constraint IC-3)
+- `/lop suggest` — Run a framework health diagnostic with prioritized recommendations
 
 When working in this project, always load `constitution.md`, `taxonomy.md`,
 `methodology.md`, `patterns.md`, and `principles/INDEX.md` as context for
@@ -72,8 +73,9 @@ is `viewer.html` + `viewer-data.js` (both checked in).
 After writing any analysis or extraction files, always run
 `python3 tools/build-viewer.py && open viewer.html` before committing.
 
-The viewer has six views: Dashboard (landing page with stats, recent
-analyses, works studied, layer coverage, and explore links), Content
-(detail view for any item), Graph (force-directed network), Layers
-(items organized by taxonomy layer), and Matrix (pattern corroboration
-across sources).
+The viewer has three top-level nav items: Dashboard (landing page with
+integrity bar, corpus stats, recent analyses, works studied, layer
+coverage), Gap Analysis (framework health metrics and blind spots),
+and a Visualizations dropdown (Force Graph, Layer Deep Dive,
+Corroboration Matrix, Timeline, Layer Flow, Principle Lineage).
+Clicking any item in the sidebar opens a detail view.

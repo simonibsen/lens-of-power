@@ -34,6 +34,11 @@ some yield neither.
 **Output**: Framework health assessment, confirmation bias check, falsifiability review
 **When to use**: Periodically, or when the framework is producing suspiciously consistent results
 
+### SUGGEST mode
+**Input**: None — scans the framework itself
+**Output**: Framework health diagnostic with prioritized recommendations
+**When to use**: Proactively, to assess framework health and identify what to study, extract, or red-team next
+
 ---
 
 ## READ mode procedure
@@ -112,8 +117,8 @@ invests effort in the full procedure.
 - **Not on main**: Confirm with the user that writing to the current
   branch is intended, then proceed with the analysis.
 
-READ mode does not write files by default and is exempt unless the user
-requests file output.
+READ mode and SUGGEST mode do not write files and are exempt. READ mode
+becomes subject to the branching check only if the user requests file output.
 
 ## Post-write viewer rebuild
 
@@ -286,14 +291,15 @@ test of whether IC-2 functions or is decorative.
 - An event best explained by incompetence, accident, or good faith
 - Material from a domain the framework has not yet been applied to
 
-**Frequency**: At least 1 in every 5 analyses should be adversarial.
+**Frequency**: At least 1 in every 10 analyses should be adversarial.
 If the framework cannot produce "the power explanation does not hold
 here" as an honest conclusion, it is a confirmation machine regardless
 of what the integrity constraints say.
 
 The analysis index makes this trackable — if the "null case outcome"
 column never reads "accepted" or "plausible," that is itself a finding
-about the framework's health.
+about the framework's health. The ratio should be tightened if the
+accepted count drops back to zero over any 10-analysis window.
 
 ### Step 1: DECOMPOSE
 
@@ -306,6 +312,14 @@ and narrative structure.
 - Note the emotional register (urgency, fear, reassurance, outrage)
 - Separate the signal from the packaging
 
+**Null case checkpoint (IC-2)**: Before proceeding to power-dynamics
+mapping, state the strongest non-power explanation for this material in
+1-3 sentences. What would this look like if explained by incompetence,
+accident, inertia, path dependency, genuine good faith, or unintended
+consequences? This must be done NOW — before the analytical momentum of
+Steps 2-4 builds a power-dynamics case. Record it in the output; you
+will revisit it in Step 5 (INVERT) to see if it survived.
+
 **Output format**:
 ```
 CLAIMS:
@@ -314,6 +328,7 @@ CLAIMS:
 
 FRAMING: [describe the rhetorical packaging]
 EMOTIONAL REGISTER: [what feeling is being engineered]
+INITIAL NULL CASE: [strongest non-power explanation, stated before analysis begins]
 ```
 
 ### Step 2: SOURCE
@@ -409,8 +424,11 @@ Test the analysis by considering the opposite and the null case.
   version of their argument?
 - What would you need to see to change your assessment?
 
-**Null case (required by IC-2)**: Ask: "What would this look like if
-power dynamics were NOT the explanation?" Consider simpler accounts:
+**Null case (required by IC-2)**: Revisit the INITIAL NULL CASE stated
+in Step 1. Has the analysis in Steps 2-4 weakened it, strengthened it,
+or left it unchanged? If unchanged, the power explanation may not be
+adding analytical value. Then ask: "What would this look like if power
+dynamics were NOT the explanation?" Consider simpler accounts:
 incompetence, accident, inertia, path dependency, genuine good faith,
 unintended consequences. If the null explanation fits the evidence as
 well as the power explanation, say so explicitly. Do not default to
@@ -878,6 +896,29 @@ file but does not update the framework's cross-referencing files leaves
 the framework in an inconsistent state — the knowledge exists but is
 not discoverable through normal framework operations.
 
+#### Source availability check (after extraction)
+
+After completing the extraction and framework updates, check whether
+the source has remaining material worth extracting.
+
+**Do this**:
+1. Read the source file in `sources/` (if it exists)
+2. Check for "Future candidates" sections or `FUTURE CANDIDATE` entries
+3. If future candidates exist:
+   a. List remaining chapters or sections with page ranges and notes
+   b. Cross-reference with framework gaps — PRELIMINARY patterns needing
+      corroboration, underrepresented layers — to prioritize which to
+      extract next
+   c. If the source has an ARCHIVE URL, note availability
+   d. If not, use WebSearch to check for online availability (search for
+      "[title] PDF" or "[title] archive.org")
+4. Report to user: "N chapters remain. Priority based on framework gaps:
+   [chapter] (would test [pattern]), [chapter] (would add [layer]
+   coverage)"
+
+This check is informational — it does not trigger further extraction.
+It surfaces what remains and helps the user decide what to study next.
+
 ---
 
 ## Instrument invocation
@@ -984,6 +1025,200 @@ SELF-ASSESSMENT: [honest summary of the framework's current state]
 
 Record the output in `evidence/` with tags:
 `AXIOMS: all`, `RELATIONSHIP: self-examination`
+
+---
+
+## SUGGEST mode procedure
+
+A read-only diagnostic mode. Scans framework files to assess health,
+identify gaps, and produce prioritized recommendations for what to
+study, extract, or red-team next. No file writes, no branching check.
+
+**Input**: None — the framework itself is the input.
+
+**Output**: A structured health report with actionable recommendations.
+
+### Step 1: RED TEAM TIMING
+
+Check whether a red team is overdue per IC-3.
+
+**Do this**:
+- Scan `evidence/` for entries with `RELATIONSHIP: self-examination`
+- Count total analyses in `analyses/INDEX.md`
+- Count analyses since the most recent self-examination entry
+- Flag if > 10 analyses without a red team
+
+**Output format**:
+```
+LAST RED TEAM: [date or "never"]
+ANALYSES SINCE: [count]
+STATUS: overdue / due soon / current
+```
+
+### Step 2: SELECTION BIAS
+
+Audit the input diet for systematic skew.
+
+**Do this**:
+- Read `analyses/INDEX.md`
+- **Domain clustering**: Which domains appear most often? Which are absent?
+- **Layer concentration**: Which taxonomy layers appear most as primary?
+  Which never appear?
+- **Null case distribution**: Count rejected / plausible / accepted outcomes.
+  If no null case has ever been rated "plausible" or "accepted," flag that
+  IC-2 may be decorative — the framework is selecting inputs that confirm
+  its axioms.
+- **Adversarial input ratio**: Count analyses where the null case won
+  (accepted) vs total. Flag if < 1 in 5 are adversarial.
+
+**Output format**:
+```
+DOMAIN DISTRIBUTION: [domains and counts]
+PRIMARY LAYER DISTRIBUTION: [layers and counts]
+NULL CASE OUTCOMES: rejected=[n] plausible=[n] accepted=[n]
+ADVERSARIAL RATIO: [n]/[total] ([percentage])
+BLIND SPOTS: [domains or material types never analyzed]
+```
+
+### Step 3: EVIDENCE BALANCE
+
+Check whether the evidence base is testing or merely confirming axioms.
+
+**Do this**:
+- Scan `evidence/*.md` for RELATIONSHIP tags
+- Count `supports` vs `challenges` vs `complicates` per axiom
+- Flag axioms with no challenging evidence — either robustly true or
+  not being tested
+- Note any counter-evidence mentioned in analyses or patterns but not
+  filed as evidence entries
+
+**Output format**:
+```
+EVIDENCE DISTRIBUTION:
+  [axiom]: supports=[n] challenges=[n] complicates=[n]
+  ...
+AXIOMS WITH NO CHALLENGES: [list]
+UNFILED COUNTER-EVIDENCE: [any noted but not recorded]
+```
+
+### Step 4: PATTERN GAPS
+
+Identify patterns needing corroboration or challenge.
+
+**Do this**:
+- Read `patterns.md` for PRELIMINARY patterns
+- For each, identify what material types or domains would corroborate
+  or challenge it
+- Check whether counter-evidence is noted in `patterns-detail.md` but
+  not filed in `evidence/`
+
+**Output format**:
+```
+PRELIMINARY PATTERNS: [count]
+  [pattern name] — corroborate with: [material type]
+  [pattern name] — challenge with: [material type]
+  ...
+COUNTER-EVIDENCE NOTED BUT UNFILED: [list, if any]
+```
+
+### Step 5: EXTRACT GAPS
+
+Identify unextracted material from known sources.
+
+**Do this**:
+- Scan `sources/*.md` for "Future candidates" or "FUTURE CANDIDATE"
+  sections/entries
+- List unextracted chapters or sections with page ranges and notes
+- Check if the source has an ARCHIVE URL — if so, note availability
+- If the source has no ARCHIVE URL, use WebSearch to check for online
+  availability (search for "[title] PDF" or "[title] archive.org")
+- Cross-reference unextracted material with framework gaps (PRELIMINARY
+  patterns, underrepresented layers) to prioritize what to extract next
+
+**Output format**:
+```
+SOURCES WITH UNEXTRACTED MATERIAL:
+  [source title]:
+    - [chapter/section] (pages [range]) — [priority based on framework gaps]
+    - ...
+    AVAILABILITY: [archive URL / found online / not found]
+```
+
+### Step 6: INSTRUMENT GAPS
+
+Identify proposed but unbuilt instruments.
+
+**Do this**:
+- Scan `principles/INDEX.md` for `INSTRUMENT PROPOSED` entries
+- For each, check whether the instrument exists in `instruments/`
+- If it does not exist, note what the instrument would contain and
+  what sources are needed to build it
+
+**Output format**:
+```
+PROPOSED INSTRUMENTS NOT YET BUILT:
+  [instrument name] — proposed in: [source], needs: [what's missing]
+```
+
+### Step 7: COVERAGE GAPS
+
+Identify underrepresentation in layers, perspectives, and source types.
+
+**Do this**:
+- **Layer coverage**: Count which layers appear as primary across all
+  analyses and extractions. Identify layers or layer pairs with no
+  items. Suggest material types that would cover gaps.
+- **Perspective gaps (IC-5)**: Scan `principles/INDEX.md` and analyses
+  for source positions. Flag if Position 2 (everyday governed) and
+  Position 3 (revolutionary) are underrepresented relative to
+  Position 5 (observer/analyst).
+- **Source type concentration**: Count source types across analyses
+  (news article, investigation, policy brief, book, etc.). Flag if
+  one type dominates.
+
+**Output format**:
+```
+LAYER COVERAGE:
+  [layer]: [count] as primary, [count] as secondary
+  UNDERREPRESENTED: [layers with few or no items]
+PERSPECTIVE DISTRIBUTION:
+  Position 1 (exercising): [count]
+  Position 2 (governed): [count]
+  Position 3 (revolutionary): [count]
+  Position 4 (intermediary): [count]
+  Position 5 (observer): [count]
+  UNDERREPRESENTED: [positions with few items]
+SOURCE TYPE DISTRIBUTION:
+  [type]: [count]
+  ...
+  DOMINANT: [type, if one exceeds 50%]
+```
+
+### Step 8: PRIORITIZED RECOMMENDATIONS
+
+Synthesize all findings into an ordered list of actions.
+
+**Priority order** (by framework health impact):
+1. Challenging evidence (axioms never tested → framework unfalsifiable)
+2. Red team (overdue self-examination → confirmation bias undetected)
+3. Adversarial input (null case never wins → IC-2 decorative)
+4. Pattern corroboration (PRELIMINARY patterns → framework ungrounded)
+5. Extract gaps (known material unextracted → knowledge left on table)
+6. Instrument gaps (proposed tools unbuilt → analytical capability missing)
+7. Coverage gaps (layer/perspective/type imbalance → blind spots)
+
+**Each recommendation must be actionable**: name a specific source,
+material type, domain, or action — not a generic suggestion. Where
+possible, name a concrete source or URL.
+
+**Output format**:
+```
+## Prioritized recommendations
+
+1. [action] — [why, referencing the health check that surfaced it]
+2. [action] — [why]
+3. ...
+```
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: lop
-description: Apply the Lens of Power interpretive framework to read or analyze material for power dynamics, extract principles and instruments from a source, or red-team the framework itself.
-argument-hint: <read|analyze|extract|redteam> [material, work, or source]
+description: Apply the Lens of Power interpretive framework to read or analyze material for power dynamics, extract principles and instruments from a source, red-team the framework itself, or run a framework health diagnostic.
+argument-hint: <read|analyze|extract|redteam|suggest> [material, work, or source]
 user-invocable: true
 allowed-tools: Read, Grep, Glob, WebFetch, WebSearch, Write, Edit, Agent, Bash
 ---
@@ -42,6 +42,7 @@ Parse `$ARGUMENTS` to determine the mode:
   procedure evaluates what the source offers — principles, instruments, or
   both — and produces only what is genuinely valuable.
 - If the first argument is `redteam`: use **RED TEAM mode** from methodology.md
+- If the first argument is `suggest`: use **SUGGEST mode** from methodology.md
 
 If unclear, ask the user which mode to use.
 
@@ -60,7 +61,7 @@ This check must happen early — after loading the framework and
 determining the mode, but before triage or any analytical steps. The
 user should not receive a full analysis and then be asked about branches.
 
-READ mode is exempt (no file output by default).
+READ mode and SUGGEST mode are exempt (no file output).
 
 ## Execute
 
@@ -143,6 +144,13 @@ evaluates the source for both principles and instruments:
 ### For RED TEAM mode:
 Produce the output defined in the RED TEAM mode section of methodology.md
 and offer to write the results to `evidence/`.
+
+### For SUGGEST mode:
+Produce the structured health report defined in the SUGGEST mode procedure
+of methodology.md. This is read-only — no file writes, no branching check.
+Scan all relevant framework files (analyses/INDEX.md, evidence/, patterns.md,
+sources/, principles/INDEX.md, instruments/) and produce the prioritized
+recommendations. Use WebSearch for source availability checks when needed.
 
 ## Commit conventions
 
