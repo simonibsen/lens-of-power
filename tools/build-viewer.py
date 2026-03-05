@@ -846,7 +846,7 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
 <title>Lens of Power — Framework Viewer</title>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="viewer-data.js"></script>
+<script src="viewer-data.js?v=__BUILD_TS__"></script>
 <style>
 :root {
   --bg: #0d1117;
@@ -4649,8 +4649,10 @@ def main():
     OUT_DATA.write_text(f"const DATA = {data_json};\n", encoding="utf-8")
     print(f"\nWrote {OUT_DATA} ({OUT_DATA.stat().st_size / 1024:.0f} KB)")
 
-    # Write HTML (no embedded data)
-    OUT.write_text(HTML_TEMPLATE, encoding="utf-8")
+    # Write HTML (no embedded data), with cache-busting timestamp
+    import time
+    html = HTML_TEMPLATE.replace("__BUILD_TS__", str(int(time.time())))
+    OUT.write_text(html, encoding="utf-8")
     print(f"Wrote {OUT} ({OUT.stat().st_size / 1024:.0f} KB)")
 
 
