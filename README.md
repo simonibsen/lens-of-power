@@ -15,7 +15,8 @@ be used by both humans and LLMs.
 > /lop read [article, event, policy, or URL]      — understand through the lens
 > /lop analyze [article, event, policy, or URL]    — full production analysis
 > /lop extract [book, film, theory, reference source, or catalog]
-> /lop redteam
+> /lop redteam                                     — turn the framework on itself
+> /lop suggest                                     — framework health diagnostic
 > ```
 > Works with Claude Code. For other LLMs or manual use, load `constitution.md`,
 > `taxonomy.md`, `methodology.md`, and `patterns.md` as context, then follow the
@@ -32,11 +33,11 @@ knowledge base and the connections between items.
 open viewer.html
 ```
 
-The viewer has eight visualization modes accessible from the
-**Visualizations** dropdown: force-directed graph, layer deep dive,
-corroboration matrix, timeline, cross-layer flow, gap analysis, and
-principle lineage — plus a dashboard landing page and per-item content
-view.
+The viewer has three top-level nav items: **Dashboard** (landing page with
+recent analyses, works studied, layer coverage), **Gap Analysis** (framework
+health metrics and blind spots), and a **Visualizations** dropdown (Force
+Graph, Layer Deep Dive, Corroboration Matrix, Timeline, Layer Flow,
+Principle Lineage). Clicking any item in the sidebar opens a detail view.
 
 ## Table of contents
 
@@ -44,11 +45,12 @@ view.
 - [Core concepts](#core-concepts) — axiom, layer, principle, pattern, instrument, evidence, analysis
 - [How to use it](#how-to-use-it)
 - [Working with Claude](#working-with-claude) — steering, session flow, mid-session direction
-- [The four modes](#the-four-modes)
+- [The five modes](#the-five-modes)
   - [Read](#lop-read--understand-material-through-the-lens) — concise prose analysis
   - [Analyze](#lop-analyze--analyze-new-material) — full 7-step analysis with briefing output
   - [Extract](#lop-extract--study-a-source-for-principles-and-instruments) — study a source for principles and instruments
   - [Red team](#lop-redteam--turn-the-framework-on-itself) — turn the framework on itself
+  - [Suggest](#lop-suggest--framework-health-diagnostic) — framework health diagnostic
 - [How the framework grows](#how-the-framework-grows)
 - [Structure](#structure) — directory layout
 - [Integrity constraints](#integrity-constraints) — IC-1 through IC-5
@@ -312,6 +314,7 @@ Navigate to this directory and use the `/lop` skill:
 /lop analyze [article, event, policy, or URL]
 /lop extract [book, film, theory, reference source, or catalog]
 /lop redteam
+/lop suggest
 ```
 
 ### With another LLM or manually
@@ -382,6 +385,14 @@ reveals what each makes visible and invisible, where their framings
 converge and diverge, and what structural dynamics only become apparent
 in the comparison.
 
+**Suggest session**: You run `/lop suggest` with no arguments. Claude
+scans the entire framework — analyses, evidence, patterns, sources,
+instruments — and produces a health report with prioritized
+recommendations for what to analyze, extract, or red team next. This is
+a planning tool: it identifies gaps (underrepresented layers, domains,
+positions), flags when adversarial inputs or red teams are overdue, and
+suggests specific material that would strengthen the framework.
+
 ### What you can ask mid-session
 
 The process is interactive throughout. At any point during a session you
@@ -403,7 +414,7 @@ Claude will adjust the analysis in response. The integrity constraints
 still apply — IC-2 cannot be skipped, IC-5 is always active — but
 within those constraints, the analytical emphasis is yours to direct.
 
-## The four modes
+## The five modes
 
 ### `/lop read` — Understand material through the lens
 
@@ -557,6 +568,27 @@ and recommended adjustments.
 > analyses, or whenever the framework is producing suspiciously consistent
 > results. Certainty is the signal that a red team is overdue.
 
+### `/lop suggest` — Framework health diagnostic
+
+**Input**: None — scans the framework itself.
+
+**What it does**: Reads `analyses/INDEX.md`, scans `evidence/`,
+`patterns.md`, `principles/INDEX.md`, `sources/`, and `instruments/` to
+assess the current state of the framework. Checks for clustering by
+domain, layer, or source type. Evaluates adversarial input ratio, null
+case distribution, evidence balance, and red team timing. Searches the
+web for source availability when recommending material.
+
+**Output**: A structured health report with prioritized recommendations
+for what to analyze, extract, or red team next. Categories include: gap
+closure (underrepresented layers, domains, or positions), adversarial
+inputs (material likely to produce null-case-accepted results), red team
+timing, source diversification, and pattern corroboration opportunities.
+
+This mode is read-only — it does not write files, does not require a
+working branch, and does not modify the framework. It is a diagnostic
+that helps the user decide what to do next.
+
 ## How the framework grows
 
 > [!NOTE]
@@ -584,18 +616,19 @@ and recommended adjustments.
 
 ```
 lens-of-power/
-├── constitution.md          Foundational axioms and integrity constraints
+├── constitution.md          Foundational axioms (10) and integrity constraints (IC-1 through IC-5)
 ├── taxonomy.md              The six layers of power and their mechanisms
-├── methodology.md           Analytical procedures and output formats
+├── methodology.md           Analytical procedures and output formats (5 modes)
 ├── patterns.md              Compact pattern definitions (always loaded)
 ├── patterns-detail.md       Full evidence trails per pattern (loaded for audits)
-├── instruments/             Imported analytical tools
+├── instruments/             Imported analytical tools (6 instruments)
 │   ├── control-hierarchy.md   5-level escalation ladder for control ambition
+│   ├── institutional-capture-playbook.md  Multi-stage capture detection (Powell/Whitehouse/Ziklag/P2025)
 │   ├── logical-fallacies.md   38 fallacies organized by power function
 │   ├── newspeak-checklist.md  Detecting language as an instrument of control
 │   ├── positional-lens.md    Identifying source position in power relationships
 │   └── propaganda-typology.md 5-axis propaganda classification (Ellul + Stanley)
-├── principles/              Extracted from specific works
+├── principles/              Extracted from specific works (23 sources)
 │   ├── INDEX.md               Compact lookup table (always loaded)
 │   ├── orwell-1984.md         8 principles from Nineteen Eighty-Four
 │   ├── machiavelli-the-prince.md  7 principles from The Prince
@@ -603,19 +636,28 @@ lens-of-power/
 │   ├── fanon-wretched-of-the-earth.md  9 principles from The Wretched of the Earth
 │   ├── zuboff-age-of-surveillance-capitalism.md  10 principles from The Age of Surveillance Capitalism
 │   ├── snyder-on-tyranny.md  7 principles from On Tyranny
-│   ├── piketty-capital-in-the-twenty-first-century.md  8 principles from Capital in the Twenty-First Century
+│   ├── piketty-capital-in-the-twenty-first-century.md  8 principles from Capital
 │   ├── scheidel-the-great-leveler.md  5 principles from The Great Leveler
 │   ├── winters-oligarchy.md  5 principles from Oligarchy
-│   ├── hartmann-hidden-history-american-oligarchy.md  4 principles from The Hidden History of American Oligarchy
-│   ├── graeber-debt-the-first-5000-years.md  7 principles from Debt: The First 5,000 Years
-│   ├── powell-memo.md          4 principles from the Powell Memo (1971 primary source)
+│   ├── hartmann-hidden-history-american-oligarchy.md  4 principles from Hidden History
+│   ├── graeber-debt-the-first-5000-years.md  7 principles from Debt
+│   ├── powell-memo.md          4 principles from the Powell Memo (1971)
 │   ├── whitehouse-the-scheme.md  4 principles from The Scheme
-│   ├── cobb-most-southern-place-on-earth.md  6 principles from The Most Southern Place on Earth
+│   ├── cobb-most-southern-place-on-earth.md  6 principles from Most Southern Place
 │   ├── stanley-how-propaganda-works.md  5 principles from How Propaganda Works
-│   └── ellul-propaganda.md  5 principles from Propaganda: The Formation of Men's Attitudes
-├── evidence/                Concrete facts, data, cases
+│   ├── hooks-aint-i-a-woman.md  6 principles from Ain't I a Woman?
+│   ├── arendt-origins-of-totalitarianism.md  7 principles from Origins of Totalitarianism
+│   ├── ellul-propaganda.md  5 principles from Propaganda
+│   ├── mishra-western-model-broken.md  4 principles (Guardian 2014)
+│   ├── guriev-rachinsky-role-of-oligarchs.md  4 principles (JEP 2005)
+│   ├── alley-very-bad-people.md  5 principles from Very Bad People
+│   ├── schimpfossl-oligarch-moralities-of-wealth.md  5 principles (EEPSC 2024)
+│   └── project-2025-mandate-for-leadership.md  6 principles from Mandate for Leadership
+├── sources/                 Source provenance records
+│   └── INDEX.md               Compact lookup table
+├── evidence/                Concrete facts, data, cases (16 entries)
 │   └── README.md              Entry format specification
-├── analyses/                Applied analyses of current material
+├── analyses/                Applied analyses of current material (24 analyses)
 │   └── INDEX.md               Analysis registry (selection bias tracking)
 └── tools/                   Utility scripts
     ├── build-viewer.py        Static viewer generator (produces viewer.html + viewer-data.js)
