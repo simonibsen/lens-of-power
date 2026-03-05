@@ -89,7 +89,7 @@ POSITION: 1 (ruler — corporate lawyer, future Supreme Court Justice)
 PRINCIPLES: 4 — Defensive Framing of Offensive Strategy, Multi-Front Institutional Campaign, Courts as Supreme Strategic Target, Long-Term Institutional Investment
 LAYERS: All non-Physical
 KEY PATTERNS: Inversion of Stated Purpose, Layered Redundancy (primary-source evidence for deliberate design), Wealth Defense Industry (documented origin)
-INSTRUMENT PROPOSED: Institutional Capture Campaign Indicators
+INSTRUMENT: instruments/institutional-capture-playbook.md (co-derived with Whitehouse, Ziklag, Project 2025, Variety/Ellison, Guriev-Rachinsky)
 
 ## whitehouse-the-scheme.md
 SOURCE: Senator Sheldon Whitehouse, *The Scheme* (2022)
@@ -180,4 +180,4 @@ PRINCIPLES: 6 — Personnel as Primary Instrument of Institutional Control, The 
 LAYERS: All six (Institutional and Legal & Regulatory primary)
 KEY PATTERNS: Capture Pipeline, Institutional Abdication, Inversion of Stated Purpose, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence, Anticipatory Obedience, Formal Transformation/Structural Continuity, Peacetime Ratchet, Layered Redundancy (inverse), Ideological Judo (inverse)
 IC-1 FLAGS: Axiom 3 (visibility without recognition — proposals are public but framing prevents recognition as power consolidation), Axiom 5 (analytical recursion — is the administrative state a counterforce to executive overreach, or itself a concentration?)
-INSTRUMENT PROPOSED: Institutional Capture Playbook (pending cross-reference with Powell Memo, Whitehouse, Ziklag)
+INSTRUMENT: instruments/institutional-capture-playbook.md (co-derived with Powell Memo, Whitehouse, Ziklag, Variety/Ellison, Guriev-Rachinsky)

@@ -111,3 +111,48 @@
   Layers: Economic (primary), Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Surveillance & Information
   Null case: plausible at component level (MEDIUM); less plausible at sequence level (MEDIUM-LOW — reinforcement chain across components)
   File: `2026-02-26-variety-article-paramount-warner-bros-deal.md`
+
+### 2026-03-04 — Leaked embassy cable: Israel flagged Hezbollah threat before launching strikes (Guardian)
+  Domain: US foreign policy / military / diplomacy / intelligence
+  Layers: Thought & Narrative, Physical & Coercive, Institutional, Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  Null case: plausible for cable in isolation (MEDIUM); less plausible for cable-strike-retaliation-escalation sequence
+  File: `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`
+
+### 2026-03-04 — AI industry PAC spending in NC-04 primary: datacenter politics (Guardian)
+  Domain: AI industry / campaign finance / datacenter infrastructure / regulatory capture
+  Layers: All six (Economic, Thought & Narrative, Institutional, Legal & Regulatory primary)
+  Null case: plausible at component level (MEDIUM); less plausible at configuration level (MEDIUM-LOW)
+  IC-5 flag: Analytical instrument (Claude) produced by the funding entity (Anthropic) under analysis
+  File: `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`
+
+### 2013 — Norwegian SWF shaping firms' cross-border investments through normative pressure (Vasudeva, Org Science)
+  Domain: Sovereign wealth funds / institutional theory / state normative influence / corporate governance
+  Layers: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory
+  Null case: plausible (MEDIUM — genuine values, genuine mechanism, genuine positive outcomes; structural power dimensions invisible in academic framing)
+  File: `2013-vasudeva-orgscience-norwegian-swf-responsible-investment.md`
+
+### 2026-03-04 — Senate war powers vote on Operation Epic Fury (Fox News)
+  Domain: US foreign policy / military / war powers / institutional abdication
+  Layers: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative (primary), Physical & Coercive, Surveillance & Information
+  Null case: rejected (MEDIUM-LOW — constitutional debate genuine but arguments dismantle the mechanism itself)
+  File: `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`
+
+### 2026-02-27 — CPPA enforcement order against PlayOn Sports: routine privacy regulation (CPPA)
+  Domain: Privacy regulation / enforcement / youth data / ticketing platforms
+  Layers: Legal & Regulatory (primary), Surveillance & Information, Economic
+  Null case: accepted (HIGH — routine enforcement of compliance failure; power-dynamics explanation does not surpass null case)
+  Adversarial input: yes — selected to test whether framework can produce null-case-accepted result
+  File: `2026-02-27-cppa-enforcement-playon-sports-privacy.md`
+
+### 2026-03-04 — Fort Drum AER campaign: routine military charitable giving (army.mil)
+  Domain: Military community support / charitable giving
+  Layers: Institutional (primary), Economic
+  Null case: accepted (HIGH — routine annual charitable campaign; power-dynamics readings dissolve on examination)
+  Adversarial input: yes — selected to test null-case-accepted result for military institutional material
+  File: `2026-03-04-army-mil-fort-drum-aer-campaign.md`
+
+### 2026-03-04 — NYPD 2023 Discipline Report: institutional self-assessment of police accountability
+  Domain: Policing / civilian oversight / institutional discipline / racial equity
+  Layers: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative (primary), Surveillance & Information, Physical & Coercive
+  Null case: rejected (LOW-MEDIUM — component-level explanations genuine; configuration-level consistency not explained by null case)
+  File: `2023-nypd-report-discipline.md`

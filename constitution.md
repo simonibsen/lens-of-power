@@ -34,7 +34,7 @@ These relationships are structural, not coincidental.
 ### 3. Power is most effective when its contingency is invisible
 
 The most durable form of control is that which is perceived as natural,
-inevitable, or without alternative. This operates through three distinct
+inevitable, or without alternative. This operates through four distinct
 modes:
 
 - **Hidden mechanism**: The apparatus of control is itself concealed. The
@@ -50,15 +50,30 @@ modes:
   structurally prohibitive. The cost of challenging visible power exceeds
   what any individual can bear. (Scott: the peasants see the extraction
   clearly, know it could be otherwise, but cannot afford open confrontation.)
+- **Visible mechanism, visible contingency, degraded perception**: Both
+  the mechanism and its contingency are available to the subject, but the
+  subject's capacity to process them as contingent has been compromised —
+  by epistemic closure (Stanley: flawed ideology creates a closed system
+  that cannot process contradicting evidence), by absence of vantage point
+  (Ellul: when propaganda constitutes the total environment, there is no
+  outside from which to perceive contingency), or by retroactive
+  naturalization (Schimpfössl: contingency stated openly and then annulled
+  through biological metaphor). The subject sees the apparatus and may
+  even see that it could be otherwise, but cannot operationalize that
+  perception.
 
 Visibility is the precondition of accountability, but visibility alone is
-insufficient without the structural capacity to act on what is seen.
+insufficient without both the structural capacity and the epistemic
+capacity to act on what is seen.
 
 > DIRECTIVE: Ask: "What is being presented as natural, inevitable, or
 > simply the way things are? If the mechanism is visible, is its contingency
 > visible — can the affected population see that it could be otherwise?
 > If contingency is visible, do they have the structural capacity to act
-> on that knowledge?" Flag any framing that discourages questioning.
+> on that knowledge? Has their capacity to perceive contingency been
+> degraded — by epistemic closure, ideological encapsulation, or absence
+> of an external reference point?" Flag any framing that discourages
+> questioning, and any mechanism that degrades the capacity to question.
 
 ### 4. Mechanisms are consistent; manifestations vary
 
@@ -117,13 +132,28 @@ the absence of control.
 > DIRECTIVE: Ask: "What soft mechanisms are producing conformity here?
 > What would a person need in order to resist, and do they have it?"
 
-### 10. Understanding is an act of resistance
+### 10. Understanding is an act of resistance — conditionally
 
-To name a mechanism of control is to partially neutralize it. This framework
-exists as a practical tool for seeing what is designed to be unseen.
+To name a mechanism of control can partially neutralize it — but only
+under conditions where the naming can take effect. Understanding resists
+when epistemic capacity is intact, when ideology has not formed a closed
+logical system, and when the act of naming cannot be institutionally
+captured. Five independent sources document mechanisms where understanding
+fails to neutralize control: sincere belief renders naming unrecognizable
+to the propagator (Stanley), closed ideological systems absorb naming as
+fuel (Arendt), education increases susceptibility rather than immunity
+(Ellul), naming is captured and converted into a new appearance of
+accountability (Alley), and genuine conviction makes the mechanism
+invisible to those who operate it (Schimpfössl).
+
+This framework exists as a practical tool for seeing what is designed to
+be unseen — but it must not assume that seeing is sufficient.
 
 > DIRECTIVE: After completing analysis, ask: "What becomes visible now
-> that was hidden before? What action does this understanding make possible?"
+> that was hidden before? What action does this understanding make
+> possible?" Then ask: "Can this understanding be absorbed, captured,
+> or neutralized? Is the audience in a position to act on it, or does
+> the epistemic environment prevent recognition?"
 
 ---
 
@@ -149,7 +179,7 @@ a falsification condition, the axiom MUST be flagged for review.
 |-------|-----------------|
 | 1. Layers simultaneous | A durable system of control is found that genuinely operates through only one layer with no dependence on others |
 | 2. Layers reinforce | Control at one layer is found to consistently *undermine* control at another, structurally rather than incidentally |
-| 3. Contingency invisible | A system of control is found where mechanism, contingency, and capacity to act are all fully visible to the subjected population, yet the system remains durably stable without escalating coercion |
+| 3. Contingency invisible | A system of control is found where mechanism, contingency, and capacity to act are all fully visible to the subjected population, epistemic capacity is intact, yet the system remains durably stable without escalating coercion |
 | 4. Consistent mechanisms | A mechanism of power is found that has no structural parallel in any other era or context |
 | 5. Power concentrates | A system is found where power distributed itself without active structural effort to prevent concentration |
 | 6. Language first | A significant shift in power is found that occurred without any preceding change in language or framing |
