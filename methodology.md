@@ -1462,6 +1462,16 @@ single self-review pass:
    political commitments accept this as an accurate description of
    what the analysis found?
 
+6. Check for **conflation of findings** — where two separately
+   documented observations are merged into a single claim that is
+   stronger than either supports individually. Each finding should
+   stand on its own evidence. If Finding A (enforcement dismantled in
+   domain X) and Finding B (suspicious activity in domain Y) are
+   combined into "enforcement of Y has been dismantled," the combined
+   claim must be independently evidenced, not inferred from the
+   proximity of A and B. Go where the evidence leads — not where the
+   pattern suggests it should lead.
+
 This pass is not a separate methodology step. It is a writing discipline
 applied before the analysis is finalized. It takes two minutes and
 prevents the framework's most common integrity failure: presenting
