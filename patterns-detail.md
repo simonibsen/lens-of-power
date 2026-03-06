@@ -305,7 +305,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (7 of 45 relevant sources, 16%)
+CORROBORATION: SUPPORTED (8 of 45 relevant sources, 18%)
 
 CIRCUMVENTIONS:
 - Economic Alternative (circumventions.md): Graeber's jubilee tradition observed to periodically reset accumulation. Piketty's Scandinavian social democracy observed to constrain the ratchet through progressive taxation. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)

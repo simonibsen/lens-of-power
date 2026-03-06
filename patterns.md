@@ -59,7 +59,7 @@ MECHANISM: Channel surplus into waste or upward redistribution to maintain depen
 
 NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements ([Chen 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-datasociety-policybrief-big-ai-state.md)) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants ([Mishra 2014](https://github.com/simonibsen/lens-of-power/blob/main/principles/mishra-western-model-broken.md)).
 
-CORROBORATION: SUPPORTED (7 of 45 relevant sources, 16%)
+CORROBORATION: SUPPORTED (8 of 45 relevant sources, 18%)
 
 CIRCUMVENTIONS: Economic Alternative, Collective Action
 
