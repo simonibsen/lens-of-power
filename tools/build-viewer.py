@@ -112,6 +112,10 @@ def pattern_id(name: str) -> str:
     return "pattern:" + name.strip()
 
 
+def circumvention_id(name: str) -> str:
+    return "circumvention:" + name.strip()
+
+
 def normalize_pattern_ref(ref: str) -> str:
     """Normalize loose pattern references to canonical names."""
     ref = ref.strip()
@@ -177,6 +181,102 @@ def parse_patterns_detail(path: Path):
                     "target": fref,
                     "type": "evidence",
                 })
+    return edges
+
+
+def parse_circumventions(path: Path):
+    """Parse circumventions.md into a list of circumvention nodes."""
+    content = read_file(path)
+    nodes = []
+    edges = []
+    parts = re.split(r"^### ", content, flags=re.MULTILINE)
+    for part in parts[1:]:
+        lines = part.strip()
+        name = lines.split("\n")[0].strip()
+        layers = extract_field(lines, "LAYERS")
+        counteracts = extract_field(lines, "COUNTERACTS")
+        statement = extract_field(lines, "STATEMENT")
+        outcome_range = extract_field_multiline(lines, "OUTCOME RANGE")
+        mechanism = extract_field_multiline(lines, "MECHANISM")
+        failure_modes = extract_field_multiline(lines, "FAILURE MODES")
+        observed_in = extract_field_multiline(lines, "OBSERVED IN")
+        power_response = extract_field_multiline(lines, "POWER RESPONSE")
+        cid = circumvention_id(name)
+        nodes.append({
+            "id": cid,
+            "type": "circumvention",
+            "title": name,
+            "content": "### " + part.strip(),
+            "meta": {
+                "layers": layers,
+                "layer_list": parse_layers_string(layers),
+                "counteracts": counteracts,
+                "statement": statement,
+                "outcome_range": outcome_range,
+                "mechanism": mechanism,
+                "failure_modes": failure_modes,
+                "power_response": power_response,
+            },
+        })
+        # Edges: circumvention -> pattern (counteracts)
+        if counteracts:
+            for pname in split_list(counteracts):
+                pname = pname.strip()
+                if pname:
+                    edges.append({
+                        "source": cid,
+                        "target": pattern_id(pname),
+                        "type": "counteracts",
+                    })
+        # Edges: circumvention -> principles/analyses (observed_in)
+        if observed_in:
+            for fref in extract_file_refs(observed_in):
+                edges.append({
+                    "source": cid,
+                    "target": fref,
+                    "type": "observed_in",
+                })
+    return nodes, edges
+
+
+def parse_circumventions_detail(path: Path):
+    """Parse circumventions-detail.md for extended OBSERVED IN edges."""
+    content = read_file(path)
+    edges = []
+    parts = re.split(r"^### ", content, flags=re.MULTILINE)
+    for part in parts[1:]:
+        name = part.split("\n")[0].strip()
+        cid = circumvention_id(name)
+
+        observed = extract_field_multiline(part, "OBSERVED IN")
+        if observed:
+            for fref in extract_file_refs(observed):
+                edges.append({
+                    "source": cid,
+                    "target": fref,
+                    "type": "observed_in",
+                })
+    return edges
+
+
+def parse_pattern_circumventions(path: Path):
+    """Parse CIRCUMVENTIONS fields from patterns.md to create pattern->circumvention edges."""
+    content = read_file(path)
+    edges = []
+    parts = re.split(r"^### ", content, flags=re.MULTILINE)
+    for part in parts[1:]:
+        name = part.split("\n")[0].strip()
+        pid = pattern_id(name)
+        circumventions = extract_field(part, "CIRCUMVENTIONS")
+        if circumventions:
+            for cname in split_list(circumventions):
+                cname = cname.strip()
+                if cname:
+                    edges.append({
+                        "source": circumvention_id(cname),
+                        "target": pid,
+                        "type": "counteracts",
+                    })
     return edges
 
 
@@ -725,10 +825,27 @@ def build():
         for n in parse_patterns(patterns_path):
             add_node(n)
 
+    # --- Pattern CIRCUMVENTIONS field edges ---
+    if patterns_path.exists():
+        edges.extend(parse_pattern_circumventions(patterns_path))
+
     # --- Patterns detail (edges only) ---
     detail_path = ROOT / "patterns-detail.md"
     if detail_path.exists():
         edges.extend(parse_patterns_detail(detail_path))
+
+    # --- Circumventions ---
+    circumventions_path = ROOT / "circumventions.md"
+    if circumventions_path.exists():
+        circ_nodes, circ_edges = parse_circumventions(circumventions_path)
+        for n in circ_nodes:
+            add_node(n)
+        edges.extend(circ_edges)
+
+    # --- Circumventions detail (edges only) ---
+    circ_detail_path = ROOT / "circumventions-detail.md"
+    if circ_detail_path.exists():
+        edges.extend(parse_circumventions_detail(circ_detail_path))
 
     # --- Analyses ---
     analyses_dir = ROOT / "analyses"
@@ -826,7 +943,7 @@ def build():
     }
 
     print(f"Nodes: {len(nodes)}")
-    for t in ["analysis", "principle", "instrument", "pattern", "evidence"]:
+    for t in ["analysis", "principle", "instrument", "pattern", "circumvention", "evidence"]:
         count = sum(1 for n in nodes if n["type"] == t)
         print(f"  {t}: {count}")
     print(f"Edges: {len(valid_edges)}")
@@ -929,9 +1046,9 @@ body {
 .filter-btn[data-type="principle"].active { color: var(--green); background: rgba(63,185,80,0.1); }
 .filter-btn[data-type="instrument"].active { color: var(--orange); background: rgba(210,153,34,0.1); }
 .filter-btn[data-type="pattern"].active { color: var(--purple); background: rgba(163,113,247,0.1); }
+.filter-btn[data-type="circumvention"].active { color: #1abc9c; background: rgba(26,188,156,0.1); }
 .filter-btn[data-type="evidence"].active { color: var(--gray); background: rgba(139,148,158,0.1); }
-.redteam-nav-btn { color: var(--red) !important; border-color: var(--red) !important; background: rgba(248,81,73,0.1) !important; }
-.redteam-nav-btn:hover { background: rgba(248,81,73,0.2) !important; }
+.filter-btn[data-type="redteam"].active { color: var(--red); background: rgba(248,81,73,0.1); }
 
 #sidebar-list {
   flex: 1;
@@ -1128,6 +1245,7 @@ body {
 .meta-tag.type-principle { background: rgba(63,185,80,0.15); color: var(--green); }
 .meta-tag.type-instrument { background: rgba(210,153,34,0.15); color: var(--orange); }
 .meta-tag.type-pattern { background: rgba(163,113,247,0.15); color: var(--purple); }
+.meta-tag.type-circumvention { background: rgba(26,188,156,0.15); color: #1abc9c; }
 .meta-tag.type-evidence { background: rgba(139,148,158,0.15); color: var(--gray); }
 
 #detail-content {
@@ -1484,6 +1602,67 @@ body {
   font-size: 13px;
   line-height: 1.5;
   color: var(--text-muted);
+}
+.outcome-range-block {
+  background: rgba(26,188,156,0.06);
+  border: 1px solid rgba(26,188,156,0.2);
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+}
+.outcome-range-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #1abc9c;
+  margin-bottom: 6px;
+}
+.outcome-range-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.circumvention-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+.circumvention-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.circumvention-card:hover {
+  border-color: #1abc9c;
+  background: rgba(26,188,156,0.04);
+}
+.circumvention-card-name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #1abc9c;
+}
+.circumvention-card-stmt {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.circumvention-card-counteracts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.circumvention-counteracts-tag {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: rgba(163,113,247,0.1);
+  color: var(--purple);
 }
 .works-grid {
   display: grid;
@@ -2358,8 +2537,9 @@ body {
         <button class="filter-btn active" data-type="principle">Principles</button>
         <button class="filter-btn active" data-type="instrument">Instruments</button>
         <button class="filter-btn active" data-type="pattern">Patterns</button>
+        <button class="filter-btn active" data-type="circumvention">Circumventions</button>
         <button class="filter-btn active" data-type="evidence">Evidence</button>
-        <button class="filter-btn redteam-nav-btn" id="redteam-nav-btn">&#9760; Red Team</button>
+        <button class="filter-btn active" data-type="redteam" id="redteam-nav-btn">Red Team</button>
       </div>
     </div>
     <div id="sidebar-list"></div>
@@ -2416,6 +2596,7 @@ const TYPE_COLORS = {
   principle: '#3fb950',
   instrument: '#d29922',
   pattern: '#a371f7',
+  circumvention: '#1abc9c',
   evidence: '#8b949e',
 };
 
@@ -2424,10 +2605,11 @@ const TYPE_LABELS = {
   principle: 'Principles',
   instrument: 'Instruments',
   pattern: 'Patterns',
+  circumvention: 'Circumventions',
   evidence: 'Evidence',
 };
 
-const TYPE_ORDER = ['analysis', 'principle', 'instrument', 'pattern', 'evidence'];
+const TYPE_ORDER = ['analysis', 'principle', 'instrument', 'pattern', 'circumvention', 'evidence'];
 
 const LAYER_NAMES = [
   'Thought & Narrative',
@@ -2441,6 +2623,7 @@ const LAYER_NAMES = [
 const EDGE_COLORS = {
   observed_in: '#58a6ff',
   key_pattern: '#a371f7',
+  counteracts: '#1abc9c',
   evidence: '#8b949e',
   evidence_for: '#8b949e',
   matches: '#3fb950',
@@ -2452,6 +2635,7 @@ const EDGE_COLORS = {
 const EDGE_LABELS = {
   observed_in: 'observed in',
   key_pattern: 'key pattern',
+  counteracts: 'counteracts',
   evidence: 'evidence',
   evidence_for: 'evidence for',
   matches: 'matches',
@@ -2746,6 +2930,29 @@ function buildDashboard() {
     html += '</div></div>';
   }
 
+  // --- Circumventions ---
+  const circumventions = DATA.nodes.filter(n => n.type === 'circumvention');
+  if (circumventions.length > 0) {
+    html += '<div class="dashboard-section"><h2>Circumventions</h2>' +
+      '<p style="color:var(--text-muted);font-size:13px;margin-bottom:14px">Observed responses to power concentration — what has been seen to push back, under what conditions, and how power systems responded.</p>' +
+      '<div class="circumvention-cards">';
+    circumventions.forEach(c => {
+      const counteracts = (c.meta.counteracts || '').split(',').map(s => s.trim()).filter(Boolean);
+      html += '<div class="circumvention-card" data-id="' + c.id + '">' +
+        '<div class="circumvention-card-name">' + escapeHtml(c.title) + '</div>' +
+        '<div class="circumvention-card-stmt">' + escapeHtml(c.meta.statement || '') + '</div>';
+      if (counteracts.length > 0) {
+        html += '<div class="circumvention-card-counteracts">';
+        counteracts.forEach(p => {
+          html += '<span class="circumvention-counteracts-tag">' + escapeHtml(p) + '</span>';
+        });
+        html += '</div>';
+      }
+      html += '</div>';
+    });
+    html += '</div></div>';
+  }
+
   // --- Documentation sections (collapsible) ---
   const sections = DATA.meta.readme_sections || {};
   if (sections.core_concepts) {
@@ -2789,6 +2996,14 @@ function buildDashboard() {
       const idx = LAYER_NAMES.indexOf(layerName);
       if (idx >= 0) activeLayerIdx = idx;
       switchView('layers');
+    });
+  });
+
+  // Circumvention card click handlers
+  view.querySelectorAll('.circumvention-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const id = card.dataset.id;
+      if (id && nodeMap[id]) selectNode(id, { forceDetail: true });
     });
   });
 
@@ -2866,6 +3081,28 @@ function showDetail(nodeId) {
     }
   );
 
+  // Third pass: for circumvention/pattern nodes, add a lookup so parenthetical
+  // references to circumvention names also get linked (extending pass 2)
+  if (node.type === 'circumvention' || node.type === 'pattern') {
+    const circumventionLookup = {};
+    DATA.nodes.forEach(n => {
+      if (n.type === 'circumvention') {
+        circumventionLookup[n.title.toLowerCase()] = n.id;
+      }
+    });
+    rendered = rendered.replace(
+      /\(([^)<]{2,60})\)/g,
+      function(match, term) {
+        const key = term.toLowerCase();
+        if (circumventionLookup[key]) {
+          return '(<span class="cross-ref" data-target="' +
+            circumventionLookup[key] + '">' + escapeHtml(term) + '</span>)';
+        }
+        return match;
+      }
+    );
+  }
+
   // Connected items
   const adj = adjacency[nodeId] || { incoming: [], outgoing: [] };
   const connected = new Map();
@@ -2892,7 +3129,16 @@ function showDetail(nodeId) {
     connectedHtml += '</div>';
   }
 
-  view.innerHTML = metaHtml + '<div id="detail-content">' + rendered + '</div>' + connectedHtml;
+  // For circumventions: prepend styled outcome range block
+  let outcomeHtml = '';
+  if (node.type === 'circumvention' && node.meta.outcome_range) {
+    outcomeHtml = '<div class="outcome-range-block">' +
+      '<div class="outcome-range-label">Outcome range</div>' +
+      '<div class="outcome-range-text">' + escapeHtml(node.meta.outcome_range) + '</div>' +
+    '</div>';
+  }
+
+  view.innerHTML = metaHtml + outcomeHtml + '<div id="detail-content">' + rendered + '</div>' + connectedHtml;
   view.scrollTop = 0;
 
   // For analyses: generate TOC and move briefing to top
@@ -4415,6 +4661,10 @@ function switchView(view) {
     b.classList.toggle('active', b.dataset.view === view);
   });
 
+  // Red Team button — active when in redteam view, or when all filters are on
+  const rtBtn = document.getElementById('redteam-nav-btn');
+  if (rtBtn) rtBtn.classList.toggle('active', view === 'redteam' || activeFilters.size === TYPE_ORDER.length);
+
   // Dropdown button state
   const isViz = VIZ_VIEWS.includes(view);
   const dropBtn = document.getElementById('viz-dropdown-btn');
@@ -4500,7 +4750,18 @@ searchClear.addEventListener('click', () => {
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', (e) => {
     const type = btn.dataset.type;
-    if (e.shiftKey) {
+    const isRedTeam = (type === 'redteam');
+
+    if (isRedTeam) {
+      // Red Team: toggle between redteam view and dashboard
+      if (currentView === 'redteam') {
+        TYPE_ORDER.forEach(t => activeFilters.add(t));
+        switchView('dashboard');
+      } else {
+        activeFilters.clear();
+        switchView('redteam');
+      }
+    } else if (e.shiftKey) {
       // Shift+click: toggle this one filter (old behavior)
       if (activeFilters.has(type)) activeFilters.delete(type);
       else activeFilters.add(type);
@@ -4514,16 +4775,20 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
         activeFilters.add(type);
       }
     }
+
+    const allOn = activeFilters.size === TYPE_ORDER.length;
     document.querySelectorAll('.filter-btn').forEach(b => {
-      b.classList.toggle('active', activeFilters.has(b.dataset.type));
+      if (b.dataset.type === 'redteam') {
+        b.classList.toggle('active', currentView === 'redteam' || allOn);
+      } else {
+        b.classList.toggle('active', activeFilters.has(b.dataset.type));
+      }
     });
     buildSidebar();
     if (currentView === 'graph') buildGraph();
     if (currentView === 'layers') buildLayers();
   });
 });
-
-document.getElementById('redteam-nav-btn').addEventListener('click', () => switchView('redteam'));
 
 document.querySelectorAll('.view-btn').forEach(btn => {
   btn.addEventListener('click', () => switchView(btn.dataset.view));
