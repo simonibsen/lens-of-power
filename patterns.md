@@ -28,6 +28,8 @@ MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making c
 
 CORROBORATION: ESTABLISHED (39 of 43 relevant sources, 91%)
 
+CIRCUMVENTIONS: Transparency / Naming
+
 ### Layered Redundancy of Control
 LAYERS: All layers
 
@@ -58,6 +60,8 @@ MECHANISM: Channel surplus into waste or upward redistribution to maintain depen
 NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements ([Chen 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-datasociety-policybrief-big-ai-state.md)) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants ([Mishra 2014](https://github.com/simonibsen/lens-of-power/blob/main/principles/mishra-western-model-broken.md)).
 
 CORROBORATION: SUPPORTED (6 of 44 relevant sources, 14%)
+
+CIRCUMVENTIONS: Economic Alternative, Collective Action
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -95,6 +99,8 @@ MECHANISM: The population evaluates systems by appearances because it has no acc
 
 CORROBORATION: ESTABLISHED (37 of 43 relevant sources, 86%)
 
+CIRCUMVENTIONS: Transparency / Naming
+
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
 
@@ -104,6 +110,8 @@ MECHANISM: The public transcript conceals actual beliefs. The hidden transcript 
 
 CORROBORATION: SUPPORTED (4 of 39 relevant sources, 10%)
 
+CIRCUMVENTIONS: Cultural Production, Everyday Resistance
+
 ### The Compliance Gradient
 LAYERS: All layers
 
@@ -112,6 +120,8 @@ STATEMENT: Between full compliance and open rebellion exists a continuous spectr
 MECHANISM: The powerful set terms. The subordinate comply partially. The powerful decide whether to enforce fully (costly) or accept partial compliance (cheaper). This produces dynamic equilibrium.
 
 CORROBORATION: PRELIMINARY (4 of 44 relevant sources, 9%)
+
+CIRCUMVENTIONS: Collective Action, Everyday Resistance
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -164,6 +174,8 @@ MECHANISM: Assimilation internalizes the dominant culture. Essentialism accepts 
 
 CORROBORATION: PRELIMINARY (1 of 43 relevant sources, 2%)
 
+CIRCUMVENTIONS: Cultural Production
+
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
 
@@ -215,6 +227,8 @@ NOTE: Wartime variant: occupied territory as total information asymmetry maintai
 
 CORROBORATION: SUPPORTED (7 of 44 relevant sources, 16%)
 
+CIRCUMVENTIONS: Transparency / Naming
+
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
 
@@ -237,6 +251,8 @@ NOTE: Six distinct mechanisms now observed — abdication under pressure (hollow
 
 CORROBORATION: ESTABLISHED (10 of 41 relevant sources, 24%)
 
+CIRCUMVENTIONS: Institutional Reform
+
 ### The Peacetime Ratchet
 LAYERS: Economic, Institutional, Legal & Regulatory
 
@@ -245,6 +261,8 @@ STATEMENT: In the absence of catastrophic disruption, inequality increases as st
 MECHANISM: Capital accumulates, returns compound, institutions entrench existing distribution, political influence follows wealth. Counterforce is weakest during long stability when urgency seems low and the wealthy's influence is highest.
 
 CORROBORATION: SUPPORTED (8 of 44 relevant sources, 18%)
+
+CIRCUMVENTIONS: Economic Alternative, Catastrophic Leveling
 
 ### Compression Through Destruction
 LAYERS: Physical & Coercive, Economic, Institutional
@@ -279,6 +297,8 @@ NOTE: Chen (2026) documents a specific mechanism: state equity investment ($10B+
 
 CORROBORATION: ESTABLISHED (13 of 44 relevant sources, 30%)
 
+CIRCUMVENTIONS: Electoral / Democratic, Legal Challenge
+
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
 
@@ -300,6 +320,8 @@ MECHANISM: Each stage appears normal in isolation. The capture is invisible beca
 NOTE: Ziklag ([ProPublica 2024](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md)) provides the first primary-source documentation where the pipeline operators describe the pipeline in their own words. The Seven Mountain Mandate articulates capture across all societal sectors; three named operations (Checkmate, Steeplechase, Watchtower) document the pipeline from donor funding through organizational networks (ADF, TPUSA, CPI) to electoral and institutional outcomes. Combined with Whitehouse's judicial pipeline and the Powell Memo blueprint, the pattern is confirmed across three independent documented contexts. Media-ownership variant: Ellison/Paramount-WBD acquisition (Variety 2026) documents the pipeline operating through media ownership — personnel selection ($150M acquisition of The Free Press to install Bari Weiss as CBS News editor-in-chief), editorial direction as regulatory signaling (promises to FCC Chair Carr), killed investigation (60 Minutes El Salvador detention center story), presidential praise as feedback, regulatory advantage as competitive positioning for WBD acquisition. Fourth documented domain. Intelligence-media variant: Church Committee COINTELPRO (1976) documents "friendly media" contacts used to distribute Bureau-authored propaganda — the media outlet's editorial independence is the mechanism of the propaganda's credibility. Seventh documented domain.
 
 CORROBORATION: SUPPORTED (6 of 44 relevant sources, 14%)
+
+CIRCUMVENTIONS: Legal Challenge, Institutional Reform
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -344,3 +366,5 @@ NOTE: Related to Serial Regime Change (same techniques across targets) and Const
 NOTE: Roshchyna/ghost detainees ([Forbidden Stories 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees.md)) adds temporal Boomerang: gulag-era methods (reception beatings, institutionalized torture, extrajudicial detention of civilians) applied to occupied Ukrainian population. The article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags." Church Committee COINTELPRO (1976) provides the earliest primary-source documentation: wartime counterintelligence techniques transferred wholesale to domestic populations without formal authorization — the Bureau described as running "a sophisticated vigilante operation against domestic enemies."
 
 CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
+
+CIRCUMVENTIONS: International Pressure
