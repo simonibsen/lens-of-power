@@ -42,7 +42,7 @@ Principle Lineage). Clicking any item in the sidebar opens a detail view.
 ## Table of contents
 
 - [What this is for](#what-this-is-for)
-- [Core concepts](#core-concepts) — axiom, layer, principle, pattern, instrument, evidence, analysis
+- [Core concepts](#core-concepts) — axiom, layer, principle, pattern, circumvention, instrument, evidence, analysis
 - [How to use it](#how-to-use-it)
 - [Working with Claude](#working-with-claude) — steering, session flow, mid-session direction
 - [The five modes](#the-five-modes)
@@ -116,7 +116,7 @@ periodically turned on itself through red team reviews.
 
 ## Core concepts
 
-The framework is built from seven distinct types of knowledge. Each has a
+The framework is built from eight distinct types of knowledge. Each has a
 specific role, a distinct lifecycle, and a different relationship to truth.
 The decomposition follows a functional principle: each concept exists
 because merging it with another would lose a distinction the framework
@@ -148,10 +148,11 @@ depends on.
   structure. Layers are relatively stable compared to the other concepts;
   they define where to look rather than what was found.
 
-The seven types: **axiom** (what to look for), **layer** (where to look),
+The eight types: **axiom** (what to look for), **layer** (where to look),
 **principle** (what was found in one source), **pattern** (what recurs across
-sources), **instrument** (a reusable detection tool), **evidence** (ground
-truth), and **analysis** (the output of applying the framework).
+sources), **circumvention** (what has been observed to push back),
+**instrument** (a reusable detection tool), **evidence** (ground truth),
+and **analysis** (the output of applying the framework).
 
 ### Axiom
 
@@ -232,6 +233,36 @@ ESTABLISHED corroboration.
 principle observed in one source is a finding. The same structural dynamic
 confirmed across three independent sources becomes a pattern.
 
+### Circumvention
+
+An observed response to power concentration, documented across the corpus.
+Circumventions catalog what has been seen to push back against specific
+patterns — under what conditions, with what outcomes, and how power systems
+responded. They are the framework's counterforce record: without them, the
+framework would diagnose how power operates but remain silent on what has
+been observed to contest it.
+
+Circumventions use observational language throughout: "has been observed to,"
+"may," "appeared to." They are descriptive, not prescriptive — the framework
+records what has happened, not what should be pursued.
+
+Each circumvention type has fields for which layers it operates on, which
+patterns it counteracts, its mechanism, failure modes, outcome range, and
+documented power responses. They live in `circumventions.md` (compact
+reference) and `circumventions-detail.md` (full evidence trails).
+
+*Example*: Everyday Resistance — "Foot-dragging, feigned ignorance,
+pilfering, false compliance, gossip, anonymous sabotage, and other 'weapons
+of the weak' have been observed to constitute a continuous, low-visibility
+terrain of power negotiation." Counteracts the Compliance Gradient and the
+Hidden Transcript. Observed in Scott and Cobb. Outcome range: continuous
+negotiation of domination terms documented, but structural transformation
+through everyday resistance alone not observed.
+
+**Relationship to patterns**: Circumventions are linked to the patterns they
+have been observed to counteract. A pattern's CIRCUMVENTIONS field lists
+which types have been documented as responses to that mechanism.
+
 ### Instrument
 
 A reusable analytical tool imported from an external source and annotated
@@ -294,6 +325,10 @@ Sources ──extract──> Principles ──confirmed across sources──> Pa
                                                                   │
 Evidence ──supports/challenges─────────────────────────────────────┘
 
+Circumventions ──counteract──> Patterns
+       │
+       └──observed in──> Principles, Analyses
+
 Instruments ──applied during──> Analyses ──produce──> Findings
                                    │                      │
                                    │                      ├──> new Evidence
@@ -325,10 +360,11 @@ Load these files as context:
 2. `taxonomy.md` — the six layers of power
 3. `methodology.md` — the analytical procedure
 4. `patterns.md` — compact pattern definitions
-5. `principles/INDEX.md` — compact principles lookup table
+5. `circumventions.md` — observed responses to power concentration
+6. `principles/INDEX.md` — compact principles lookup table
 
-Load `patterns-detail.md` and individual `principles/*.md` files only when
-deeper comparison is needed. Then follow the procedure in `methodology.md`
+Load `patterns-detail.md`, `circumventions-detail.md`, and individual
+`principles/*.md` files only when deeper comparison is needed. Then follow the procedure in `methodology.md`
 for your chosen mode.
 
 ## Working with Claude
@@ -602,14 +638,19 @@ that helps the user decide what to do next.
    patterns.
 2. **Analyses** test principles and patterns against new material. When
    a pattern appears in a new context, its confidence increases. When
-   evidence challenges an axiom, it is recorded.
+   evidence challenges an axiom, it is recorded. Analyses also document
+   circumventions — resistance mechanisms observed in the material.
 3. **Instruments** add reusable analytical tools. Each instrument is
    invoked during specific methodology steps and listed in the analytical
    apparatus of every analysis that uses it.
 4. **Patterns** are promoted as evidence accumulates. A pattern observed
    in one source is PRELIMINARY. Confirmation across meaningfully
    independent contexts warrants SUPPORTED or ESTABLISHED.
-5. **Red team reviews** prevent the framework from calcifying. They check
+5. **Circumventions** accumulate as the corpus documents responses to
+   power concentration. Each type tracks its outcome range — what has
+   been observed to succeed, fail, or be captured — and is linked to
+   the patterns it counteracts.
+6. **Red team reviews** prevent the framework from calcifying. They check
    for confirmation bias, test falsifiability, and recommend adjustments.
 
 ## Structure
@@ -621,7 +662,10 @@ lens-of-power/
 ├── methodology.md           Analytical procedures and output formats (5 modes)
 ├── patterns.md              Compact pattern definitions (always loaded)
 ├── patterns-detail.md       Full evidence trails per pattern (loaded for audits)
-├── instruments/             Imported analytical tools (6 instruments)
+├── circumventions.md        Observed responses to power concentration (always loaded)
+├── circumventions-detail.md Full evidence trails per circumvention (loaded for audits)
+├── instruments/             Imported analytical tools (7 instruments)
+│   ├── circumvention-typology.md  Detection guide for observed responses to power
 │   ├── control-hierarchy.md   5-level escalation ladder for control ambition
 │   ├── institutional-capture-playbook.md  Multi-stage capture detection (Powell/Whitehouse/Ziklag/P2025)
 │   ├── logical-fallacies.md   38 fallacies organized by power function
@@ -706,6 +750,8 @@ Each file has a single, well-defined responsibility:
 | `methodology.md` | How to process (procedures) | Business logic / pipeline |
 | `patterns.md` | Compact pattern definitions | Index / materialized view |
 | `patterns-detail.md` | Full evidence trails | Database / knowledge store |
+| `circumventions.md` | Observed counterforce types | Counterforce index |
+| `circumventions-detail.md` | Full counterforce evidence | Counterforce store |
 | `instruments/` | Pluggable detection tools | Plugin modules |
 | `principles/` | Source-bound knowledge | Reference data |
 | `evidence/` | Ground truth | Test fixtures / assertions |
@@ -761,7 +807,9 @@ Every output type has a defined schema:
 - **Principles**: PRINCIPLE / LAYERS / MECHANISM / EVIDENCE FROM WORK /
   GENERALIZES TO / FRAMEWORK STATUS / STATUS (observed/inferred/speculative)
 - **Patterns**: LAYERS / STATEMENT / MECHANISM / OBSERVED IN / EVIDENCE /
-  CORROBORATION (preliminary/supported/established)
+  CORROBORATION (preliminary/supported/established) / CIRCUMVENTIONS
+- **Circumventions**: LAYERS / COUNTERACTS / STATEMENT / OUTCOME RANGE /
+  MECHANISM / FAILURE MODES / OBSERVED IN / POWER RESPONSE
 - **Evidence entries**: DATE / SOURCE / SOURCE TYPE / AXIOMS / PATTERNS /
   LAYERS / RELATIONSHIP / CONTENT / SIGNIFICANCE
 - **Findings**: LAYER / STATUS (observed/inferred/speculative)
