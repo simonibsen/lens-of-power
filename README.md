@@ -9,18 +9,68 @@ This is a living analytical system. It accumulates knowledge over time
 as works are studied and current events are analyzed. It is designed to
 be used by both humans and LLMs.
 
-> [!TIP]
-> **Quick start**: Navigate to this directory and use the `/lop` skill:
-> ```
-> /lop read [article, event, policy, or URL]      — understand through the lens
-> /lop analyze [article, event, policy, or URL]    — full production analysis
-> /lop extract [book, film, theory, reference source, or catalog]
-> /lop redteam                                     — turn the framework on itself
-> /lop suggest                                     — framework health diagnostic
-> ```
-> Works with Claude Code. For other LLMs or manual use, load `constitution.md`,
-> `taxonomy.md`, `methodology.md`, and `patterns.md` as context, then follow the
-> procedure in `methodology.md`.
+## Getting started
+
+### Prerequisites
+
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (the `/lop`
+  skill is included in the repo and auto-discovered)
+- Python 3 (for the viewer build script — standard library only, no pip
+  dependencies)
+- Git
+
+### Setup
+
+```bash
+git clone https://github.com/simonibsen/lens-of-power.git
+cd lens-of-power
+```
+
+That's it. The repo includes a `.claude/skills/lop/` directory that Claude
+Code discovers automatically when you open a session in this directory. The
+`/lop` skill loads the framework's axioms, taxonomy, methodology, patterns,
+and principles before every operation — you don't need to load anything
+manually.
+
+The repo also includes `.claude/settings.local.json` with permissions for
+URL fetching and PDF extraction. Claude Code will prompt you to approve
+these on first use.
+
+### First session
+
+Open the viewer to see the current state of the framework:
+
+```bash
+open viewer.html
+```
+
+Then start a Claude Code session and try one of these:
+
+```
+/lop suggest                    — see what the framework recommends doing next
+/lop read [paste a news URL]    — understand an article through the lens
+/lop extract The Prince         — study a work for principles (uses training data)
+```
+
+`/lop read` is the lightest mode — it produces a prose analysis in the
+conversation without writing any files. Start here to get a feel for how
+the framework thinks.
+
+`/lop analyze` is the full production pipeline. It writes an analysis file,
+proposes framework updates, and rebuilds the viewer. Before writing files,
+Claude will ask you to create a working branch (the framework never writes
+directly to main).
+
+### For other LLMs or manual use
+
+Load these files as context, then follow the procedure in `methodology.md`:
+
+1. `constitution.md` — axioms and integrity constraints
+2. `taxonomy.md` — the six layers of power
+3. `methodology.md` — the analytical procedure
+4. `patterns.md` — compact pattern definitions
+5. `circumventions.md` — observed responses to power concentration
+6. `principles/INDEX.md` — compact principles lookup table
 
 ## Viewer
 
@@ -41,9 +91,9 @@ Principle Lineage). Clicking any item in the sidebar opens a detail view.
 
 ## Table of contents
 
+- [Getting started](#getting-started) — prerequisites, setup, first session
 - [What this is for](#what-this-is-for)
 - [Core concepts](#core-concepts) — axiom, layer, principle, pattern, circumvention, instrument, evidence, analysis
-- [How to use it](#how-to-use-it)
 - [Working with Claude](#working-with-claude) — steering, session flow, mid-session direction
 - [The five modes](#the-five-modes)
   - [Read](#lop-read--understand-material-through-the-lens) — concise prose analysis
@@ -337,35 +387,6 @@ Instruments ──applied during──> Analyses ──produce──> Findings
                                    │
                                    └──listed in──> Analytical Apparatus
 ```
-
-## How to use it
-
-### With Claude Code
-
-Navigate to this directory and use the `/lop` skill:
-
-```
-/lop read [article, event, policy, or URL]
-/lop analyze [article, event, policy, or URL]
-/lop extract [book, film, theory, reference source, or catalog]
-/lop redteam
-/lop suggest
-```
-
-### With another LLM or manually
-
-Load these files as context:
-
-1. `constitution.md` — axioms and integrity constraints
-2. `taxonomy.md` — the six layers of power
-3. `methodology.md` — the analytical procedure
-4. `patterns.md` — compact pattern definitions
-5. `circumventions.md` — observed responses to power concentration
-6. `principles/INDEX.md` — compact principles lookup table
-
-Load `patterns-detail.md`, `circumventions-detail.md`, and individual
-`principles/*.md` files only when deeper comparison is needed. Then follow the procedure in `methodology.md`
-for your chosen mode.
 
 ## Working with Claude
 
@@ -703,9 +724,13 @@ lens-of-power/
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material (24 analyses)
 │   └── INDEX.md               Analysis registry (selection bias tracking)
-└── tools/                   Utility scripts
-    ├── build-viewer.py        Static viewer generator (produces viewer.html + viewer-data.js)
-    └── fetch-article.py       URL content extraction (fallback for WebFetch)
+├── tools/                   Utility scripts
+│   ├── build-viewer.py        Static viewer generator (produces viewer.html + viewer-data.js)
+│   └── fetch-article.py       URL content extraction (fallback for WebFetch)
+├── .claude/                 Claude Code configuration (auto-discovered)
+│   ├── skills/lop/SKILL.md   The /lop skill definition
+│   └── settings.local.json   Permissions for URL fetching and PDF extraction
+└── CLAUDE.md                Project instructions for Claude Code
 ```
 
 ## Integrity constraints

@@ -182,6 +182,15 @@ KEY PATTERNS: Capture Pipeline, Institutional Abdication, Inversion of Stated Pu
 IC-1 FLAGS: Axiom 3 (visibility without recognition — proposals are public but framing prevents recognition as power consolidation), Axiom 5 (analytical recursion — is the administrative state a counterforce to executive overreach, or itself a concentration?)
 INSTRUMENT: instruments/institutional-capture-playbook.md (co-derived with Powell Memo, Whitehouse, Ziklag, Variety/Ellison, Guriev-Rachinsky)
 
+## huxley-brave-new-world.md
+SOURCE: Aldous Huxley, *Brave New World* (1932)
+POSITION: 5 (fiction as analytical model)
+SOURCE TYPE: training_data
+PRINCIPLES: 9 — Pleasure as Terminal Control, Biological Manufacture of Consent, Chemical Management of Discontent, Cognitive Saturation as Structural Prevention, Elimination of Depth as Elimination of Alternatives, The Knowledgeable Controller, Exile as Sufficiency over Destruction, The Impossibility of the Outsider, Stability as the Unchallengeable Value
+LAYERS: All six (Thought & Narrative, Economic primary)
+KEY PATTERNS: Inversion of Stated Purpose, Layered Redundancy, Manufactured Scarcity (inverted variant), Real-Time Narrative Saturation, Appearance as Structural Terrain
+IC-1 FLAGS: Axiom 10 (strongest challenge — the Savage's complete understanding achieves nothing; structurally irrelevant without leverage or audience)
+
 ## church-committee-cointelpro.md
 SOURCE: Church Committee, *Book III: COINTELPRO — The FBI's Covert Action Programs Against American Citizens* (1976)
 POSITION: Hybrid (4/5 — Congressional investigation with subpoena power, systematic documentary analysis)

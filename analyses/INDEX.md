@@ -163,3 +163,9 @@
   Null case: accepted (HIGH — routine democratic governance through established procedures; power explanation does not surpass null case)
   Adversarial input: yes — selected to test null-case-accepted result for routine democratic governance
   File: `2018-sbca-govminutes-city-council-minutes.md`
+
+### 2026-03-05 — Indian refiners buying prompt Russian oil as Iran war hits supplies (Reuters)
+  Domain: Energy trade / sanctions effectiveness / geopolitics / war funding
+  Layers: Economic (primary), Physical & Coercive, Institutional, Legal & Regulatory
+  Null case: plausible (MEDIUM-HIGH — commercial decisions rational; systemic consequence is the analytical finding)
+  File: `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`
