@@ -175,5 +175,11 @@
   Layers: Economic (primary), Institutional (primary), Legal & Regulatory (primary), Surveillance & Information, Thought & Narrative
   Null case: rejected (MEDIUM-LOW — component-level explanations genuine; configurational character not explained by null case)
   File: `2026-03-06-propublica-database-trump-financial-disclosures.md`
-  Null case: plausible (MEDIUM-HIGH — commercial decisions rational; systemic consequence is the analytical finding)
-  File: `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`
+
+### 2026-03-05 — The Oracle Layer: infrastructure position across American government and media (The Drey Dossier)
+  Domain: Infrastructure monopoly / regulatory capture / media consolidation / surveillance / defense
+  Layers: All non-Physical (Economic, Institutional, Surveillance & Information, Legal & Regulatory, Thought & Narrative — all primary)
+  Null case: rejected (MEDIUM at component level; LOW-MEDIUM at configurational level — governance asymmetry, guarantee carve-out, regulatory absence, and circular financial dependency not explained by null case)
+  IC-5 flag: Analytical instrument (Claude) produced by Anthropic, which is described in the source material
+  Cross-references: `2026-02-26-variety-article-paramount-warner-bros-deal.md` (complementary media dimension analysis)
+  File: `2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd.md`
