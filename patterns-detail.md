@@ -143,6 +143,9 @@ EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
 CORROBORATION: ESTABLISHED (39 of 43 relevant sources, 91%)
 
+CIRCUMVENTIONS:
+- Transparency / Naming (circumventions.md): Church Committee (1976) observed to produce formal termination of COINTELPRO programs. Structural conditions persisted — see P6: Formal Termination as Structural Continuation. (principles/church-committee-cointelpro.md)
+
 ### Layered Redundancy of Control
 LAYERS: All layers
 
@@ -300,6 +303,10 @@ post hoc but constitutively produced by the recommended model's first execution.
 EVIDENCE: —
 
 CORROBORATION: SUPPORTED (6 of 44 relevant sources, 14%)
+
+CIRCUMVENTIONS:
+- Economic Alternative (circumventions.md): Graeber's jubilee tradition observed to periodically reset accumulation. Piketty's Scandinavian social democracy observed to constrain the ratchet through progressive taxation. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)
+- Collective Action (circumventions.md): Organized labor movements observed to contest manufactured scarcity through strikes and collective bargaining. (principles/scott-weapons-of-the-weak.md)
 
 ### Temporal Control
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -495,6 +502,9 @@ terrain of non-oversight).
 
 CORROBORATION: ESTABLISHED (37 of 43 relevant sources, 86%)
 
+CIRCUMVENTIONS:
+- Transparency / Naming (circumventions.md): Public exposure disrupts the structural terrain by making the gap between appearance and reality visible. Church Committee, Alley, TBIJ Portland all document this mechanism. (principles/church-committee-cointelpro.md, principles/alley-very-bad-people.md)
+
 ### The Hidden Transcript
 LAYERS: Thought & Narrative, Surveillance & Information
 
@@ -535,6 +545,10 @@ EVIDENCE: —
 
 CORROBORATION: SUPPORTED (4 of 39 relevant sources, 10%)
 
+CIRCUMVENTIONS:
+- Cultural Production (circumventions.md): Fanon's synthesis phase produces alternative frameworks that surface the hidden transcript into new forms. (principles/fanon-wretched-of-the-earth.md)
+- Everyday Resistance (circumventions.md): Scott documents the hidden transcript as the infrastructure of everyday resistance — gossip, songs, jokes preserve counter-narratives across generations. (principles/scott-weapons-of-the-weak.md)
+
 ### The Compliance Gradient
 LAYERS: All layers
 
@@ -574,6 +588,10 @@ compliance — the complexity and opacity of the policies function to keep the c
 positioned against active resistance)
 
 CORROBORATION: PRELIMINARY (4 of 44 relevant sources, 9%)
+
+CIRCUMVENTIONS:
+- Collective Action (circumventions.md): Organized collective refusal shifts the compliance gradient by making individual enforcement prohibitively expensive. (principles/scott-weapons-of-the-weak.md)
+- Everyday Resistance (circumventions.md): Foot-dragging, false compliance, and other individually deniable acts exploit the compliance gradient continuously. (principles/scott-weapons-of-the-weak.md, principles/cobb-most-southern-place-on-earth.md)
 
 ### Ideological Judo
 LAYERS: Thought & Narrative, Institutional, Economic
@@ -805,6 +823,9 @@ EVIDENCE: —
 
 CORROBORATION: PRELIMINARY (1 of 43 relevant sources, 2%)
 
+CIRCUMVENTIONS:
+- Cultural Production (circumventions.md): Fanon's synthesis phase — the third phase of cultural resistance — is itself the circumvention, producing genuinely new frameworks rather than reactions within existing ones. (principles/fanon-wretched-of-the-earth.md)
+
 ### Real-Time Narrative Saturation
 LAYERS: Thought & Narrative, Surveillance & Information
 
@@ -1034,6 +1055,9 @@ dangerous techniques). The oversight relationship is itself a Division of Learni
 
 CORROBORATION: SUPPORTED (7 of 44 relevant sources, 16%)
 
+CIRCUMVENTIONS:
+- Transparency / Naming (circumventions.md): Exposure of surveillance systems, FOI requests, and investigative journalism have been observed to partially close the information asymmetry. TBIJ Portland investigation (2026) naming Wikipedia manipulation disrupted the concealed information campaign. (principles/church-committee-cointelpro.md)
+
 ### Anticipatory Obedience
 LAYERS: Thought & Narrative, Institutional
 
@@ -1191,6 +1215,9 @@ authorization rather than constraint.
 
 CORROBORATION: ESTABLISHED (10 of 41 relevant sources, 24%)
 
+CIRCUMVENTIONS:
+- Institutional Reform (circumventions.md): Church Committee reforms (FISA courts, intelligence oversight committees) constrained intelligence agencies for a period. Snyder documents institutional defense as dependent on individuals within institutions choosing institutional loyalty over compliance. (principles/church-committee-cointelpro.md, principles/snyder-on-tyranny.md)
+
 NOTE: The Powell Memo P3 and Whitehouse P2/P4 introduce an important distinction:
 institutions may not merely abdicate their structural roles — they may be *captured*
 and *redirected* from outside through strategic selection of personnel (Federalist
@@ -1263,6 +1290,10 @@ by the actors who accumulated the power)
 EVIDENCE: —
 
 CORROBORATION: SUPPORTED (8 of 44 relevant sources, 18%)
+
+CIRCUMVENTIONS:
+- Economic Alternative (circumventions.md): Jubilee traditions, progressive taxation, and social democratic institutions observed to constrain the ratchet without catastrophe. Piketty documents Scandinavian model as sustained counter-example. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)
+- Catastrophic Leveling (circumventions.md): Scheidel documents the "Four Horsemen" as the primary historical mechanism for compressing the ratchet — destructive rather than strategic. (principles/scheidel-great-leveler.md)
 
 ### Compression Through Destruction
 LAYERS: Physical & Coercive, Economic, Institutional
@@ -1467,6 +1498,10 @@ making it resistant to the Axiom 5 diagnostic)
 
 CORROBORATION: ESTABLISHED (13 of 44 relevant sources, 30%)
 
+CIRCUMVENTIONS:
+- Electoral / Democratic (circumventions.md): Hartmann documents periods (Progressive Era, New Deal, Great Society) in which democratic mobilization produced significant constraints on oligarchic power. The relationship is contested — democracy-oligarchy coexistence may be the stable equilibrium rather than the exception. (principles/hartmann-hidden-history-american-oligarchy.md)
+- Legal Challenge (circumventions.md): Statutory and constitutional challenge has been used to contest oligarchic mechanisms — though the judicial capture pipeline (Whitehouse) suggests the legal terrain is itself contested. (principles/whitehouse-the-scheme.md)
+
 ### The Moral Infrastructure of Economic Power
 LAYERS: Thought & Narrative (primary), Economic, Legal & Regulatory
 
@@ -1614,6 +1649,10 @@ the Bureau selects cooperative journalists (personnel), provides content
 journalism (outcome). Seventh documented domain: intelligence-media capture.
 
 CORROBORATION: SUPPORTED (6 of 44 relevant sources, 14%)
+
+CIRCUMVENTIONS:
+- Legal Challenge (circumventions.md): Statutory enforcement and constitutional challenge may contest specific stages of the capture pipeline, though the pipeline's multi-stage nature means single-point intervention is typically insufficient. (principles/whitehouse-the-scheme.md)
+- Institutional Reform (circumventions.md): Restructuring oversight mechanisms, transparency mandates, and dark money disclosure may disrupt the pipeline's dependence on concealed coordination. (principles/church-committee-cointelpro.md)
 
 ### Formal Transformation, Structural Continuity
 LAYERS: All layers
@@ -1838,3 +1877,6 @@ mechanism. Fourth documented context.
 EVIDENCE: —
 
 CORROBORATION: PRELIMINARY (4 of 42 relevant sources, 10%)
+
+CIRCUMVENTIONS:
+- International Pressure (circumventions.md): International accountability mechanisms and transnational advocacy networks may constrain the boomerang by maintaining scrutiny on techniques migrating from periphery to center. Alley documents these mechanisms as contested terrain. (principles/alley-very-bad-people.md)

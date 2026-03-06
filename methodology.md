@@ -59,8 +59,8 @@ updates. Does not write to file unless the user asks.
 **Procedure**:
 
 1. Load the framework context: `constitution.md`, `taxonomy.md`, `patterns.md`,
-   `principles/INDEX.md`. Load instruments only if they become relevant during
-   the reading — do not load all instruments by default.
+   `circumventions.md`, `principles/INDEX.md`. Load instruments only if they
+   become relevant during the reading — do not load all instruments by default.
 
 2. Read the material. Produce a prose analysis that:
 
@@ -504,6 +504,9 @@ Determine the implications and next actions.
 - What does this add to the framework? (new pattern, new principle,
   refinement of existing axiom)
 - Apply Axiom 10: what becomes visible now that was hidden?
+- Check `circumventions.md`: has any observed circumvention type been
+  attempted, succeeded, failed, or been captured in this material?
+  If so, note which type(s) and the outcome.
 
 **Output format**:
 ```
@@ -511,6 +514,7 @@ IMPLICATIONS: [what follows from this analysis]
 WATCH: [what to monitor going forward]
 INVESTIGATE: [threads worth pulling]
 FRAMEWORK UPDATE: [any additions to patterns.md or refinements to suggest]
+CIRCUMVENTIONS: [any circumvention types observed — type, outcome, failure modes]
 MADE VISIBLE: [what this analysis reveals that was previously hidden]
 ```
 
@@ -732,6 +736,8 @@ Look for patterns that recur within the work or connect to existing patterns.
 - Cross-reference with `patterns.md` — does this work illustrate known patterns?
 - Does it reveal new cross-layer patterns not yet documented?
 - What mechanisms does the work show operating across multiple layers?
+- If the source describes resistance or counterforce mechanisms, check
+  whether they map to types in `circumventions.md`. Flag new types.
 
 ### Step 4: EVALUATE AND BUILD INSTRUMENTS (if instrument candidate)
 
@@ -1386,6 +1392,12 @@ been verified against a physical copy.
   (`tools/build-viewer.py`) and written back to `patterns.md` and
   `patterns-detail.md`. The analyst does not need to compute levels
   manually — the build script handles it after each commit.
+- **Circumvention register**: When documenting circumventions or
+  resistance, use observational language: "has been observed to" (not
+  "works" or "is effective"), "may" (not "will"), "appeared to" (not
+  "succeeded in"), "conditions under which X was observed" (not
+  "requirements for X"). See `instruments/circumvention-typology.md`
+  for the full convention.
 - When uncertain, say so. The framework values honesty over completeness.
 - Always end with a framework update recommendation, even if it's "none."
 

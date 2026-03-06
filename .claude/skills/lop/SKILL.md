@@ -19,13 +19,15 @@ Before proceeding, read these files from the project root:
 2. `taxonomy.md` — layers of power (ALWAYS load)
 3. `methodology.md` — the analytical procedure (ALWAYS load)
 4. `patterns.md` — compact pattern definitions (ALWAYS load)
-5. `principles/INDEX.md` — compact principles lookup table (ALWAYS load)
+5. `circumventions.md` — observed responses to power concentration (ALWAYS load)
+6. `principles/INDEX.md` — compact principles lookup table (ALWAYS load)
 
 Load selectively as needed:
-6. `patterns-detail.md` — full evidence trails for patterns (load for RED TEAM mode, pattern audits, or when checking specific pattern evidence)
-7. `instruments/` — load any instruments relevant to the material
-8. `principles/[source].md` — load full principles file only when deep comparison with a specific source is needed (the INDEX has enough for cross-referencing)
-9. `evidence/` — scan for evidence relevant to the material
+7. `patterns-detail.md` — full evidence trails for patterns (load for RED TEAM mode, pattern audits, or when checking specific pattern evidence)
+8. `circumventions-detail.md` — full evidence trails for circumventions (load for RED TEAM mode or circumvention audits)
+9. `instruments/` — load any instruments relevant to the material
+10. `principles/[source].md` — load full principles file only when deep comparison with a specific source is needed (the INDEX has enough for cross-referencing)
+11. `evidence/` — scan for evidence relevant to the material
 
 ## Determine mode
 

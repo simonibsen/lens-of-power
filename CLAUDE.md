@@ -10,6 +10,8 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM, SUGGEST modes)
 - `patterns.md` — Compact pattern definitions (always loaded)
 - `patterns-detail.md` — Full evidence trails per pattern (loaded for audits)
+- `circumventions.md` — Observed responses to power concentration (always loaded)
+- `circumventions-detail.md` — Full evidence trails per circumvention (loaded for audits)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
 - `principles/INDEX.md` — Compact principles lookup table (always loaded)
 - `principles/` — Full principles files (loaded selectively)
@@ -30,10 +32,11 @@ Use the `/lop` skill to apply this framework:
 - `/lop suggest` — Run a framework health diagnostic with prioritized recommendations
 
 When working in this project, always load `constitution.md`, `taxonomy.md`,
-`methodology.md`, `patterns.md`, and `principles/INDEX.md` as context for
-any analytical work. Load `patterns-detail.md` for audits and red team
-reviews. Load individual `principles/*.md` files only when deep comparison
-with a specific source is needed.
+`methodology.md`, `patterns.md`, `circumventions.md`, and `principles/INDEX.md`
+as context for any analytical work. Load `patterns-detail.md` and
+`circumventions-detail.md` for audits and red team reviews. Load individual
+`principles/*.md` files only when deep comparison with a specific source
+is needed.
 
 ## Conventions
 
