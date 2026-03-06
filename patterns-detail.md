@@ -142,7 +142,7 @@ and a rabbi who supported the Vietnam war),
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: ESTABLISHED (40 of 44 relevant sources, 91%)
+CORROBORATION: ESTABLISHED (41 of 44 relevant sources, 93%)
 
 CIRCUMVENTIONS:
 - Transparency / Naming (circumventions.md): Church Committee (1976) observed to produce formal termination of COINTELPRO programs. Structural conditions persisted — see P6: Formal Termination as Structural Continuation. (principles/church-committee-cointelpro.md)
@@ -504,7 +504,7 @@ order instance: the executive branch is briefed (appearance of oversight)
 through Bureau-prepared summaries that omit dangerous techniques (structural
 terrain of non-oversight).
 
-CORROBORATION: ESTABLISHED (38 of 44 relevant sources, 86%)
+CORROBORATION: ESTABLISHED (39 of 44 relevant sources, 89%)
 
 CIRCUMVENTIONS:
 - Transparency / Naming (circumventions.md): Public exposure disrupts the structural terrain by making the gap between appearance and reality visible. Church Committee, Alley, TBIJ Portland all document this mechanism. (principles/church-committee-cointelpro.md, principles/alley-very-bad-people.md)
@@ -1501,7 +1501,7 @@ with global market influence; democratically governed but structurally oligarchi
 in its investment power; the democratic process legitimizes the concentration,
 making it resistant to the Axiom 5 diagnostic)
 
-CORROBORATION: ESTABLISHED (13 of 45 relevant sources, 29%)
+CORROBORATION: ESTABLISHED (14 of 45 relevant sources, 31%)
 
 CIRCUMVENTIONS:
 - Electoral / Democratic (circumventions.md): Hartmann documents periods (Progressive Era, New Deal, Great Society) in which democratic mobilization produced significant constraints on oligarchic power. The relationship is contested — democracy-oligarchy coexistence may be the stable equilibrium rather than the exception. (principles/hartmann-hidden-history-american-oligarchy.md)

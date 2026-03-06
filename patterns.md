@@ -26,7 +26,7 @@ STATEMENT: Systems of control are frequently named for or justified by the oppos
 
 MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making criticism appear to oppose the outcome itself.
 
-CORROBORATION: ESTABLISHED (40 of 44 relevant sources, 91%)
+CORROBORATION: ESTABLISHED (41 of 44 relevant sources, 93%)
 
 CIRCUMVENTIONS: Transparency / Naming
 
@@ -97,7 +97,7 @@ STATEMENT: The gap between how a system presents itself and how it operates is n
 
 MECHANISM: The population evaluates systems by appearances because it has no access to inner workings. The gap between appearance and reality is the structural condition that makes political power operational.
 
-CORROBORATION: ESTABLISHED (38 of 44 relevant sources, 86%)
+CORROBORATION: ESTABLISHED (39 of 44 relevant sources, 89%)
 
 CIRCUMVENTIONS: Transparency / Naming
 
@@ -295,7 +295,7 @@ MECHANISM: Democracy provides the appearance of self-governance; oligarchy provi
 
 NOTE: Chen (2026) documents a specific mechanism: state equity investment ($10B+) with deliberate refusal of governance (no board seats, worker protections characterized as "ideological agendas," Sanders/Warren public-benefit alternative rejected). The democratic state invests public capital but declines every tool that would convert investment into public accountability. This is the pattern operating through industrial policy — not as structural default but as explicit design choice. Openly-displayed variant: Ellison/Paramount-WBD acquisition (Variety 2026) documents political connections advertised as competitive regulatory advantage without concealment. Ellison "was not shy at all about touting that connection as a key advantage for Paramount in the regulatory review process." The formal regulatory process (FCC, HSR antitrust) handles the review; the substantive editorial-political determination operates through wealth-funded political relationships. The open display is itself analytically significant — the mechanism no longer requires concealment.
 
-CORROBORATION: ESTABLISHED (13 of 45 relevant sources, 29%)
+CORROBORATION: ESTABLISHED (14 of 45 relevant sources, 31%)
 
 CIRCUMVENTIONS: Electoral / Democratic, Legal Challenge
 

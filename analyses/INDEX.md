@@ -169,3 +169,11 @@
   Layers: Economic (primary), Physical & Coercive, Institutional, Legal & Regulatory
   Null case: plausible (MEDIUM-HIGH — commercial decisions rational; systemic consequence is the analytical finding)
   File: `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`
+
+### 2026-03-06 — Trump administration financial disclosures database (ProPublica)
+  Domain: Regulatory capture / ethics enforcement / wealth-in-government / conflicts of interest
+  Layers: Economic (primary), Institutional (primary), Legal & Regulatory (primary), Surveillance & Information, Thought & Narrative
+  Null case: rejected (MEDIUM-LOW — component-level explanations genuine; configurational character not explained by null case)
+  File: `2026-03-06-propublica-database-trump-financial-disclosures.md`
+  Null case: plausible (MEDIUM-HIGH — commercial decisions rational; systemic consequence is the analytical finding)
+  File: `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`
