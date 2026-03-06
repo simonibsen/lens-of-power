@@ -9,6 +9,52 @@ This is a living analytical system. It accumulates knowledge over time
 as works are studied and current events are analyzed. It is designed to
 be used by both humans and LLMs.
 
+> [!TIP]
+> **Quick start**: Clone the repo, `cd` into it, and use the `/lop` skill
+> in Claude Code:
+> ```
+> /lop read [article, event, policy, or URL]      — understand through the lens
+> /lop analyze [article, event, policy, or URL]    — full production analysis
+> /lop extract [book, film, theory, or catalog]    — study a source
+> /lop redteam                                     — turn the framework on itself
+> /lop suggest                                     — framework health diagnostic
+> ```
+> See [Getting started](#getting-started) for setup details.
+
+## Viewer
+
+![Viewer dashboard](docs/viewer-dashboard.png)
+
+The framework includes an interactive viewer that visualizes the entire
+knowledge base and the connections between items.
+
+```
+open viewer.html
+```
+
+The viewer has three top-level nav items: **Dashboard** (landing page with
+recent analyses, works studied, layer coverage), **Gap Analysis** (framework
+health metrics and blind spots), and a **Visualizations** dropdown (Force
+Graph, Layer Deep Dive, Corroboration Matrix, Timeline, Layer Flow,
+Principle Lineage). Clicking any item in the sidebar opens a detail view.
+
+## Table of contents
+
+- [Getting started](#getting-started) — prerequisites, setup, first session
+- [What this is for](#what-this-is-for)
+- [Core concepts](#core-concepts) — axiom, layer, principle, pattern, circumvention, instrument, evidence, analysis
+- [Working with Claude](#working-with-claude) — steering, session flow, mid-session direction
+- [The five modes](#the-five-modes)
+  - [Read](#lop-read--understand-material-through-the-lens) — concise prose analysis
+  - [Analyze](#lop-analyze--analyze-new-material) — full 7-step analysis with briefing output
+  - [Extract](#lop-extract--study-a-source-for-principles-and-instruments) — study a source for principles and instruments
+  - [Red team](#lop-redteam--turn-the-framework-on-itself) — turn the framework on itself
+  - [Suggest](#lop-suggest--framework-health-diagnostic) — framework health diagnostic
+- [How the framework grows](#how-the-framework-grows)
+- [Structure](#structure) — directory layout
+- [Integrity constraints](#integrity-constraints) — IC-1 through IC-5
+- [Architecture and design patterns](#architecture-and-design-patterns)
+
 ## Getting started
 
 ### Prerequisites
@@ -71,40 +117,6 @@ Load these files as context, then follow the procedure in `methodology.md`:
 4. `patterns.md` — compact pattern definitions
 5. `circumventions.md` — observed responses to power concentration
 6. `principles/INDEX.md` — compact principles lookup table
-
-## Viewer
-
-![Viewer dashboard](docs/viewer-dashboard.png)
-
-The framework includes an interactive viewer that visualizes the entire
-knowledge base and the connections between items.
-
-```
-open viewer.html
-```
-
-The viewer has three top-level nav items: **Dashboard** (landing page with
-recent analyses, works studied, layer coverage), **Gap Analysis** (framework
-health metrics and blind spots), and a **Visualizations** dropdown (Force
-Graph, Layer Deep Dive, Corroboration Matrix, Timeline, Layer Flow,
-Principle Lineage). Clicking any item in the sidebar opens a detail view.
-
-## Table of contents
-
-- [Getting started](#getting-started) — prerequisites, setup, first session
-- [What this is for](#what-this-is-for)
-- [Core concepts](#core-concepts) — axiom, layer, principle, pattern, circumvention, instrument, evidence, analysis
-- [Working with Claude](#working-with-claude) — steering, session flow, mid-session direction
-- [The five modes](#the-five-modes)
-  - [Read](#lop-read--understand-material-through-the-lens) — concise prose analysis
-  - [Analyze](#lop-analyze--analyze-new-material) — full 7-step analysis with briefing output
-  - [Extract](#lop-extract--study-a-source-for-principles-and-instruments) — study a source for principles and instruments
-  - [Red team](#lop-redteam--turn-the-framework-on-itself) — turn the framework on itself
-  - [Suggest](#lop-suggest--framework-health-diagnostic) — framework health diagnostic
-- [How the framework grows](#how-the-framework-grows)
-- [Structure](#structure) — directory layout
-- [Integrity constraints](#integrity-constraints) — IC-1 through IC-5
-- [Architecture and design patterns](#architecture-and-design-patterns)
 
 ## What this is for
 
