@@ -19,6 +19,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `sources/` — Full provenance records per source (hash, archive links, extraction status)
 - `evidence/` — Concrete facts, data, cases that ground the framework
 - `analyses/` — Applied analyses of specific material
+- `BACKLOG.md` — Prioritized recommendations from SUGGEST mode diagnostics (living document)
 - `tools/build-viewer.py` — Generates `viewer.html` + `viewer-data.js` (both checked in)
 - `tools/fetch-article.py` — URL content extraction fallback
 

@@ -1226,6 +1226,17 @@ possible, name a concrete source or URL.
 3. ...
 ```
 
+### Capturing recommendations
+
+After producing the health report, offer to write or refresh
+`BACKLOG.md` — a living document that captures prioritized
+recommendations. Items are removed when completed (moved to the
+Completed section with date). Each subsequent SUGGEST run refreshes
+the backlog: existing items that remain valid are kept (preserving
+their original date), resolved items are moved to Completed, and new
+findings are added. The branching check applies when writing the
+backlog (same as other file writes).
+
 ---
 
 ## Source provenance
