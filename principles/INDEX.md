@@ -200,3 +200,13 @@ LAYERS: All six (Physical & Coercive, Surveillance & Information, Institutional 
 KEY PATTERNS: Inversion of Stated Purpose, The Boomerang, Institutional Abdication, Appearance as Structural Terrain, Formal Transformation/Structural Continuity, Division of Learning, Layered Redundancy, Perpetual Threat, Anticipatory Obedience, Capture Pipeline
 IC-1 FLAGS: Axiom 10 (understanding-as-resistance tested — Church Committee naming led to formal termination but structural conditions survived)
 INSTRUMENT PROPOSED: Domestic Covert Action Technique Taxonomy (partial — needs post-1971 sources)
+
+## browne-dark-matters.md
+SOURCE: Simone Browne, *Dark Matters: On the Surveillance of Blackness* (2015)
+POSITION: Hybrid (5/2 — surveillance studies scholar writing from Black diasporic intellectual tradition and lived experience of racialized surveillance)
+SOURCE TYPE: training_data
+PRINCIPLES: 7 — Racializing Surveillance, Black Luminosity (Forced Visibility as Domination), Epidermalization as Biometric Modality, Prototypical Whiteness as Design Default, Dark Sousveillance, Absented Presence (Constitutive Omission), The Security-Violence Continuum
+LAYERS: All six (Surveillance & Information, Thought & Narrative, Physical & Coercive primary)
+KEY PATTERNS: Constitutive Violence, Formal Transformation/Structural Continuity, The Boomerang, The Division of Learning, Categorical Blindness, The Hidden Transcript, The Compliance Gradient, Appearance as Structural Terrain, Inversion of Stated Purpose
+IC-1 FLAGS: Axiom 3 (black luminosity — fifth mode of invisible power: forced visibility of the surveilled), Axiom 8 (absented presence — absence as constitutive, not merely significant), Axiom 10 (dark sousveillance confirms understanding-as-resistance as conditional)
+INSTRUMENT PROPOSED: Racializing Surveillance Detection Protocol (partial — needs Benjamin, Eubanks, Noble), Critical Biometric Consciousness Checklist (partial — needs engineering sources)
