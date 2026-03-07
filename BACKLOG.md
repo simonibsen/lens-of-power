@@ -11,18 +11,6 @@ Last diagnostic: 2026-03-06
 
 ## Immediate priority
 
-### 1. File Browne IC-1 evidence entries (2026-03-06)
-SOURCE: Evidence balance (Step 3)
-Browne's *Dark Matters* extraction identified IC-1 flags for Axioms 3,
-8, and 10 (noted in `principles/browne-dark-matters.md`) but these have
-not been filed as `evidence/` entries. File three entries:
-- Axiom 3: fifth mode of disappearance — forced visibility (not just
-  invisibility)
-- Axiom 8: constitutive omission — surveillance architecture that
-  produces the categories it claims to merely observe
-- Axiom 10: dark sousveillance confirms conditionality of understanding
-  as resistance
-
 ### 2. Source Position 2 testimony (2026-03-06)
 SOURCE: Coverage gaps (Step 7)
 Zero Position 2 (governed) sources in the corpus. The framework
@@ -119,4 +107,7 @@ pattern entries. Currently at 1/47 sources (2%) — PRELIMINARY.
 
 ## Completed
 
-(Items move here with completion date when done.)
+### 1. File Browne IC-1 evidence entries — completed 2026-03-06
+Filed Axiom 3 (forced visibility, 6th complication), Axiom 8 (constitutive
+absence, new entry), Axiom 10 (dark sousveillance, 5th item). Commit
+`f8db6c80`.
