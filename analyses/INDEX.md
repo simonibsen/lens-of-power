@@ -183,3 +183,9 @@
   IC-5 flag: Analytical instrument (Claude) produced by Anthropic, which is described in the source material
   Cross-references: `2026-02-26-variety-article-paramount-warner-bros-deal.md` (complementary media dimension analysis)
   File: `2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd.md`
+
+### 2026-03-06 — Iranian missile strike destroys US THAAD radar in Jordan (Defence Security Asia)
+  Domain: Military / missile defence / defence economics / forward deployment
+  Layers: Physical & Coercive (primary), Economic, Thought & Narrative, Institutional, Legal & Regulatory (active but absent)
+  Null case: plausible (MEDIUM-HIGH for genre conventions at source level; MEDIUM for structural genre-as-normalisation)
+  File: `2026-03-06-dsa-article-thaad-radar-strike-jordan.md`
