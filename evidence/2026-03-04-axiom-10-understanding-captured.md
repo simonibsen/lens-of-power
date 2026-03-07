@@ -2,7 +2,7 @@
 
 DATE RECORDED: 2026-03-04
 
-SOURCE: Stanley (2015), Arendt (1951), Ellul (1962), Alley (2022), Schimpfössl (2024)
+SOURCE: Stanley (2015), Arendt (1951), Ellul (1962), Alley (2022), Schimpfössl (2024), Browne (2015)
 
 SOURCE TYPE: cross-extraction synthesis
 
@@ -53,22 +53,38 @@ in some cases strengthens, the mechanism it names:
    continued extraction. The act of naming produced an institution;
    the institution was captured; the name became a shield.
 
+5. **Dark sousveillance as situated understanding** (Browne 2015):
+   Browne's concept of dark sousveillance confirms the axiom's
+   conditional — understanding CAN function as resistance — while
+   specifying the conditions: the understanding must be tactical
+   (oriented toward specific junctures), situated (grounded in the
+   lived experience of surveillance), and leveraged (directed at an
+   audience or action point). Understanding without audience or
+   leverage remains structurally irrelevant, confirming Huxley's
+   challenge. But Harriet Tubman's reading of the Underground Railroad
+   landscape, enslaved people's use of lantern law knowledge to
+   navigate spaces — these demonstrate understanding as operational
+   resistance when the conditions are met.
+
 ## Significance
 
-These four mechanisms — sincere belief, ideological absorption,
-education-as-exposure, and institutional capture of naming — collectively
-challenge the axiom's core claim. Axiom 10 assumes that naming operates
-in an epistemic environment where recognition is possible and
-consequential. These cases identify environments where naming is
-neutralized (sincerity), absorbed (ideology), counterproductive
-(education paradox), or co-opted (institutional capture).
+These five mechanisms — sincere belief, ideological absorption,
+education-as-exposure, institutional capture of naming, and dark
+sousveillance — collectively specify the axiom's domain of validity.
+Axiom 10 assumes that naming operates in an epistemic environment where
+recognition is possible and consequential. Items 1-4 identify
+environments where naming is neutralized (sincerity), absorbed
+(ideology), counterproductive (education paradox), or co-opted
+(institutional capture). Item 5 identifies the positive conditions:
+understanding resists when it is tactical, situated, and leveraged.
 
 This approaches the falsification condition ("naming a mechanism is
 found to have no effect on its operation"). No single case fully meets
 it — Alley's Kimberley Process comes closest — but the pattern across
-five sources indicates that Axiom 10 describes a contingent outcome,
+six sources indicates that Axiom 10 describes a contingent outcome,
 not a reliable one. Understanding CAN be an act of resistance, but it
 is not reliably so. The axiom may need qualification: understanding
 resists when the epistemic environment permits recognition, the
-audience is not ideologically enclosed, and the naming cannot be
-institutionally captured.
+understanding is situated and tactical (Browne), the audience is not
+ideologically enclosed (Arendt), and the naming cannot be
+institutionally captured (Alley).
