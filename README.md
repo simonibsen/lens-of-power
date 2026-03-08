@@ -18,6 +18,7 @@ be used by both humans and LLMs.
 > /lop extract [book, film, theory, or catalog]    — study a source
 > /lop redteam                                     — turn the framework on itself
 > /lop suggest                                     — framework health diagnostic
+> /lop sample                                      — randomly select material and calibrate
 > ```
 > See [Getting started](#getting-started) for setup details.
 
@@ -198,6 +199,11 @@ checklist for making specific things visible that would otherwise be
 invisible. It is least useful as a **worldview** — a lens that makes
 everything look like power dynamics. The distinction depends on the
 analyst's discipline, not the framework's architecture.
+
+SAMPLE mode (`/lop sample`) partially mitigates the selection bias by
+introducing randomly selected material and tracking the null case rate.
+This provides a calibration metric — but it does not eliminate the bias
+inherent in the framework's design.
 
 Current structural gaps — underrepresented source positions, missing
 perspectives, and calibration weaknesses — are tracked in `BACKLOG.md`
@@ -685,6 +691,31 @@ This mode is read-only — it does not write files, does not require a
 working branch, and does not modify the framework. It is a diagnostic
 that helps the user decide what to do next.
 
+### `/lop sample` — Calibration sample
+
+**Input**: None — selects its own material randomly.
+
+**What it does**: Randomly selects a category and outlet from
+`sources/sample-pool.md`, fetches a current article, and runs READ mode
+on it. The pool includes ~72 outlets across 12 categories — from
+political news to sports, recipes, and pure science — ensuring the
+sample space contains material where power dynamics may be absent.
+
+After the READ analysis, the mode classifies the null case outcome
+(accepted, plausible, or rejected), appends the result to
+`calibration/sample-log.md`, and reports calibration statistics including
+the null case rate and axis coverage.
+
+**Why it exists**: The framework's analysis corpus has 100% positive
+selection — every source was chosen because someone expected it to reveal
+power dynamics. SAMPLE mode introduces randomly selected material to
+measure the framework's false positive rate. The target null case rate
+is 30–60%; outside that range indicates the framework is either too
+aggressive or the pool needs rebalancing.
+
+The user may re-roll the random selection but may not substitute their
+own source — that would defeat the purpose of randomization.
+
 ## How the framework grows
 
 > [!NOTE]
@@ -719,7 +750,7 @@ that helps the user decide what to do next.
 lens-of-power/
 ├── constitution.md          Foundational axioms (10) and integrity constraints (IC-1 through IC-5)
 ├── taxonomy.md              The six layers of power and their mechanisms
-├── methodology.md           Analytical procedures and output formats (5 modes)
+├── methodology.md           Analytical procedures and output formats (6 modes)
 ├── patterns.md              Compact pattern definitions (always loaded)
 ├── patterns-detail.md       Full evidence trails per pattern (loaded for audits)
 ├── circumventions.md        Observed responses to power concentration (always loaded)
@@ -758,7 +789,10 @@ lens-of-power/
 │   ├── schimpfossl-oligarch-moralities-of-wealth.md  5 principles (EEPSC 2024)
 │   └── project-2025-mandate-for-leadership.md  6 principles from Mandate for Leadership
 ├── sources/                 Source provenance records
-│   └── INDEX.md               Compact lookup table
+│   ├── INDEX.md               Compact lookup table
+│   └── sample-pool.md        Source pool for SAMPLE mode randomization
+├── calibration/             SAMPLE mode calibration tracking
+│   └── sample-log.md         Append-only log of calibration runs
 ├── evidence/                Concrete facts, data, cases (16 entries)
 │   └── README.md              Entry format specification
 ├── analyses/                Applied analyses of current material (24 analyses)

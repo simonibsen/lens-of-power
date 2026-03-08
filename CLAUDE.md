@@ -7,7 +7,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 
 - `constitution.md` — Foundational axioms about how power operates
 - `taxonomy.md` — The layers of power (thought, economic, legal, institutional, surveillance, physical)
-- `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM, SUGGEST modes)
+- `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM, SUGGEST, SAMPLE modes)
 - `patterns.md` — Compact pattern definitions (always loaded)
 - `patterns-detail.md` — Full evidence trails per pattern (loaded for audits)
 - `circumventions.md` — Observed responses to power concentration (always loaded)
@@ -17,6 +17,8 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `principles/` — Full principles files (loaded selectively)
 - `sources/INDEX.md` — Source provenance lookup table
 - `sources/` — Full provenance records per source (hash, archive links, extraction status)
+- `sources/sample-pool.md` — Categorized source pool for SAMPLE mode randomization
+- `calibration/sample-log.md` — Append-only tracking log for SAMPLE mode calibration runs
 - `evidence/` — Concrete facts, data, cases that ground the framework
 - `analyses/` — Applied analyses of specific material
 - `BACKLOG.md` — Prioritized recommendations from SUGGEST mode diagnostics (living document)
@@ -31,6 +33,7 @@ Use the `/lop` skill to apply this framework:
 - `/lop extract [source]` — Study a source for principles and/or instruments
 - `/lop redteam` — Turn the framework on itself (integrity constraint IC-3)
 - `/lop suggest` — Run a framework health diagnostic with prioritized recommendations
+- `/lop sample` — Randomly select material and run a calibration read
 
 When working in this project, always load `constitution.md`, `taxonomy.md`,
 `methodology.md`, `patterns.md`, `circumventions.md`, and `principles/INDEX.md`
