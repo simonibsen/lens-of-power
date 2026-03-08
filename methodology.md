@@ -1226,6 +1226,17 @@ possible, name a concrete source or URL.
 3. ...
 ```
 
+### Capturing recommendations
+
+After producing the health report, offer to write or refresh
+`BACKLOG.md` — a living document that captures prioritized
+recommendations. Items are removed when completed (moved to the
+Completed section with date). Each subsequent SUGGEST run refreshes
+the backlog: existing items that remain valid are kept (preserving
+their original date), resolved items are moved to Completed, and new
+findings are added. The branching check applies when writing the
+backlog (same as other file writes).
+
 ---
 
 ## Source provenance
@@ -1461,6 +1472,16 @@ single self-review pass:
    as descriptions. Apply the test: could a reader with different
    political commitments accept this as an accurate description of
    what the analysis found?
+
+6. Check for **conflation of findings** — where two separately
+   documented observations are merged into a single claim that is
+   stronger than either supports individually. Each finding should
+   stand on its own evidence. If Finding A (enforcement dismantled in
+   domain X) and Finding B (suspicious activity in domain Y) are
+   combined into "enforcement of Y has been dismantled," the combined
+   claim must be independently evidenced, not inferred from the
+   proximity of A and B. Go where the evidence leads — not where the
+   pattern suggests it should lead.
 
 This pass is not a separate methodology step. It is a writing discipline
 applied before the analysis is finalized. It takes two minutes and

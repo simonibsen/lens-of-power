@@ -2,7 +2,7 @@
 
 DATE RECORDED: 2026-03-04
 
-SOURCE: Stanley (2015), Ellul (1962), Guriev-Rachinsky (2005), Schimpfössl (2024), Project 2025 (2023)
+SOURCE: Stanley (2015), Ellul (1962), Guriev-Rachinsky (2005), Schimpfössl (2024), Project 2025 (2023), Browne (2015)
 
 SOURCE TYPE: cross-extraction synthesis
 
@@ -56,17 +56,35 @@ not fit cleanly into these modes:
    mechanisms as power consolidation. Contingency is visible but
    unrecognizable due to framing.
 
+6. **Forced visibility of the surveilled** (Browne 2015): Black
+   luminosity — the condition where power operates invisibly not by
+   hiding itself but by illuminating its subjects. The Book of Negroes
+   (1783), lantern laws (18th century), and contemporary biometric
+   surveillance all render the surveilled maximally visible while
+   the surveillance apparatus remains unremarkable. This inverts the
+   axiom's assumed direction: the existing modes describe how power
+   hides *itself*; black luminosity describes how power reveals
+   *its subjects*. The contingency of the surveillance system is
+   invisible precisely because the surveilled body is so visible.
+
 ## Significance
 
-Five independent sources identify phenomena where Axiom 3's three-mode
-framework is insufficient. The complications cluster around a common
-theme: the axiom assumes a subject capable of perceiving contingency
-if it were made visible, but several mechanisms operate by degrading
-the capacity for perception itself (epistemic closure, absence of
-vantage point) or by decoupling perception from recognition
-(biological naturalization, framing). This suggests Axiom 3 may need
-a fourth mode: **visible mechanism, visible contingency, degraded
-perception** — where the apparatus and its contingency are both
-available to the subject, but the subject's capacity to process them
-as contingent has been compromised. This would not replace the
-existing three modes but extend them.
+Six independent sources identify phenomena where Axiom 3's three-mode
+framework is insufficient. The complications cluster into two groups:
+
+**Group A — degraded perception** (items 1-5): The axiom assumes a
+subject capable of perceiving contingency if it were made visible,
+but several mechanisms operate by degrading the capacity for perception
+itself (epistemic closure, absence of vantage point) or by decoupling
+perception from recognition (biological naturalization, framing). This
+suggests a fourth mode: **visible mechanism, visible contingency,
+degraded perception**.
+
+**Group B — inverted visibility** (item 6): Browne identifies a fifth
+mode that operates differently from all others: **forced visibility of
+the surveilled**. Power's contingency is invisible not because the
+subject cannot perceive it, but because attention is redirected — the
+hyper-visibility of the surveilled body naturalizes the apparatus that
+produces it. The watcher is unremarkable; the watched is all that is
+seen. This is structurally distinct from degraded perception and may
+require a separate mode in the axiom.

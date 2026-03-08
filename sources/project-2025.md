@@ -46,20 +46,25 @@ QUOTE STATUS: verbatim with page references
 | 28 | Federal Communications Commission | 845–860 | Brendan Carr |
 | 29 | Federal Election Commission | 861–868 | Hans A. von Spakovsky |
 
-### Future candidates
+### Extracted (Option C scan — new mechanisms and pattern corroboration)
 
-| Chapter | Title | Pages | Author | Notes |
+| Chapter | Title | Pages | Author | Batch |
 |---------|-------|-------|--------|-------|
-| 4 | Department of Defense | 91–132 | Christopher Miller | Military restructuring, civil-military relations |
-| 6 | Department of State | 171–200 | Kiron K. Skinner | Diplomatic alignment with executive |
-| 11 | Department of Education | 319–362 | Lindsey M. Burke | Elimination proposal, culture war dimensions |
-| 13 | Environmental Protection Agency | 417–448 | Mandy M. Gunasekara | Regulatory rollback model |
-| 14 | Dept of Health and Human Services | 449–502 | Roger Severino | Social policy, reproductive rights, gender |
-| 18 | Dept of Labor and Related Agencies | 581–618 | Jonathan Berry | Worker protections, union power |
-| 22 | Department of the Treasury | 691–716 | William L. Walton, Stephen Moore, David R. Burton | Tax policy, IRS restructuring |
-| 24 | Federal Reserve | 731–744 | Paul Winfree | Monetary policy independence |
-| 27 | Financial Regulatory Agencies (SEC, CFPB) | 829–844 | David R. Burton, Robert Bowes | CFPB elimination proposal |
-| 30 | Federal Trade Commission | 869–882 | Adam Candeub | Antitrust, tech regulation |
+| 22 | Department of the Treasury | 691–716 | William L. Walton, Stephen Moore, David R. Burton | Economic |
+| 24 | Federal Reserve | 731–744 | Paul Winfree | Economic |
+| 27 | Financial Regulatory Agencies (SEC, CFPB) | 829–844 | David R. Burton, Robert Bowes | Economic |
+| 30 | Federal Trade Commission | 869–882 | Adam Candeub | Economic |
+
+### Extracted (Option C scan — new mechanisms and pattern corroboration)
+
+| Chapter | Title | Pages | Author | Batch |
+|---------|-------|-------|--------|-------|
+| 4 | Department of Defense | 91–132 | Christopher Miller | Security |
+| 6 | Department of State | 171–200 | Kiron K. Skinner | Security |
+| 11 | Department of Education | 319–362 | Lindsey M. Burke | Social |
+| 13 | Environmental Protection Agency | 417–448 | Mandy M. Gunasekara | Security |
+| 14 | Dept of Health and Human Services | 449–502 | Roger Severino | Social |
+| 18 | Dept of Labor and Related Agencies | 581–618 | Jonathan Berry | Social |
 
 ### Not selected
 

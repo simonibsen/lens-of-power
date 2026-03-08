@@ -237,6 +237,136 @@ The null case must be taken seriously. Several non-power explanations have genui
 
 The honest assessment: some proposals would serve democratic governance; the system they compose would concentrate power in the executive beyond what democratic accountability requires.
 
+NOTE (Principle 2 extension — Institutional Abolition as Response to Capture-Resistant Design): The Financial Regulatory Agencies chapter (Ch 27) reveals a variant of the comply-or-die binary specific to institutions designed to resist standard capture. The Consumer Financial Protection Bureau was architecturally designed to resist the capture toolkit: single director with for-cause removal protection, independent funding through the Federal Reserve (not subject to congressional appropriation), and broad rulemaking authority. Project 2025's response: abolish the institution entirely and redistribute its functions to agencies susceptible to standard capture — "the CFPB should be abolished and its statutory authorities transferred to other agencies" (p. 839). When the standard capture toolkit (personnel replacement, budget control, oversight elimination) fails because the institution was designed to resist it, the fallback is architectural destruction — eliminating the capture-resistant design itself. This extends P2: the comply-or-die binary has a third implicit option for capture-resistant institutions — disassembly.
+
+---
+
+### 7. Tax Architecture as Structural Lock-In
+
+PRINCIPLE: Tax policy can be deployed not merely to set rates but to construct structural constraints that make future policy reversal procedurally impossible, converting temporary political advantage into permanent fiscal architecture.
+
+LAYERS: Economic, Legal & Regulatory, Institutional
+
+MECHANISM: Three interlocking components: (a) reduce tax rates substantially, creating fiscal facts on the ground that make restoration politically costly; (b) impose a supermajority requirement to raise taxes, creating a procedural asymmetry where enactment requires only a simple majority but reversal requires a supermajority; (c) withdraw from international tax coordination bodies to prevent external constraint. The rate reduction is the policy; the supermajority and international withdrawal are the lock-in mechanisms that prevent reversal.
+
+EVIDENCE FROM WORK:
+> "Treasury should support legislation instituting a three-fifths vote threshold in the U.S. House and the Senate to raise income or corporate tax rates to create a wall of protection for the new rate structure." — Ch 22, p. 698
+
+> "This attempt to 'harmonize' global tax rates is an attempt to create a global tax cartel to quash tax competition and to increase the tax burden globally." — Ch 22, p. 698
+
+> "The U.S. should end its financial support and withdraw from the OECD." — Ch 22, p. 698
+
+GENERALIZES TO: Any policy domain where procedural asymmetry is constructed — enactment requires standard democratic process but reversal requires supermajority or constitutional amendment. Observable in constitutional amendments designed to entrench specific policies, in trade agreements with high exit costs, and in infrastructure decisions that create path dependency.
+
+FRAMEWORK STATUS: Extends the Asymmetric Ratchet (Principle 6) — the ratchet described in P6 is rhetorical (concrete seizure vs. aspirational dispersal); this principle describes a procedural ratchet (majority enactment vs. supermajority reversal). Confirms Democracy-Oligarchy Coexistence pattern (democratic process for enactment, effectively oligarchic veto on reversal). The directional asymmetry — same structural tool serving opposite functions depending on the default state — warrants IC-1 attention: supermajority requirements can function as either constraint on power (constitutional amendments) or entrenchment of power (tax cuts), depending on what the default state is.
+
+STATUS: observed — the proposals are explicit in the text
+
+---
+
+### 8. Financial Sovereignty Withdrawal as Structural Constraint Removal
+
+PRINCIPLE: Withdrawal from international institutions and agreements is presented as sovereignty recovery but functions as removal of external constraints on domestic policy, eliminating comparison frameworks, reporting obligations, and accountability structures that make domestic policy choices visible as choices rather than natural defaults.
+
+LAYERS: Institutional, Economic, Surveillance & Information
+
+MECHANISM: The document proposes withdrawal from the OECD (p. 698), the World Bank, the IMF (p. 701-702), the UN Framework Convention on Climate Change, the Paris Agreement (p. 709), the Protocol on Mutual Administrative Assistance in Tax Matters (p. 701), and the Competent Authority Agreement on Automatic Exchange of Financial Account Information (p. 701). Each withdrawal is framed as protecting sovereignty or reducing cost. The cumulative effect is the elimination of every international framework that provides comparative data, imposes reporting obligations, or creates external accountability for fiscal, tax, environmental, or financial transparency policy.
+
+EVIDENCE FROM WORK:
+> "The U.S., however, should withdraw from both the World Bank and the IMF and terminate its financial contribution to both institutions." — Ch 22, p. 701-702
+
+> "If the U.S. is to provide economic assistance or humanitarian aid to other nations, it should do so unilaterally — not through the pass-throughs of international aid organizations." — Ch 22, p. 702
+
+> "International organizations such as the OECD, the World Bank, and the International Monetary Fund espouse economic theories and policies that are inimical to American free market and limited government principles." — Ch 22, p. 701
+
+GENERALIZES TO: Any state withdrawal from international accountability frameworks where the stated rationale is sovereignty but the structural effect is removal of external reference points. Observable in authoritarian states withdrawing from human rights treaties, in corporations exiting industry self-regulation bodies, and in institutions leaving accreditation systems.
+
+FRAMEWORK STATUS: Distinct from Principle 3 (Oversight Elimination), which describes removal of internal checks. This principle operates at the international layer: removing not internal oversight but external reference frames. Internal oversight removal enables unchecked executive action; international withdrawal eliminates the comparative context that would make domestic policy choices visible as policy choices rather than natural defaults. Confirms Division of Learning pattern (not asymmetric knowledge between ruler and ruled, but removal of the external information ecology that sustains alternatives).
+
+STATUS: observed — the withdrawal proposals are explicit; the cumulative structural effect is inferred
+
+NOTE (IC-2 null case): Withdrawal from international institutions is a legitimate policy position with real arguments (sovereignty, institutional capture by non-US interests, cost). The cumulative pattern — withdrawing from all of them simultaneously — is what distinguishes structural constraint removal from case-by-case policy disagreement.
+
+---
+
+## Pattern corroboration (Chapters 22, 24, 27, 30)
+
+The economic chapters (Treasury, Federal Reserve, Financial Regulatory Agencies, FTC) provide additional corroboration for the following patterns beyond what was documented in the initial extraction:
+
+### Capture Pipeline
+NOTE (Treasury, Ch 22): Proposes inserting presidential appointees into 7+ IRS leadership positions currently held by career officials (p. 699-700), extending the personnel selection stage from political agencies into the tax enforcement apparatus.
+
+### Institutional Abdication
+NOTE (Treasury, Ch 22): Proposes defunding the $80 billion IRS expansion, closing the Office of Equity, Diversity, and Inclusion, and holding the IRS operating budget "constant in real terms" (p. 701) — a real-terms freeze that functions as gradual capability reduction. Strategic abdication of enforcement capacity framed as protecting citizens from government intrusion.
+NOTE (Federal Reserve, Ch 24): Proposes a spectrum from eliminating the dual mandate to abolishing the Fed entirely ("free banking" — p. 736). Even "minimum effective reforms" include eliminating the full employment mandate, curbing last-resort lending, and appointing a commission to explore "alternatives to the Federal Reserve system" (p. 740-741).
+
+### Inversion of Stated Purpose
+NOTE (Treasury, Ch 22): The chapter frames eliminating climate policy, equity initiatives, and financial transparency requirements as restoring Treasury to its "core mission" (p. 692). Expanding Treasury's protective function is characterized as "mission drift into a 'woke' agenda"; narrowing it to reduce regulatory capacity is characterized as mission fidelity.
+NOTE (Federal Reserve, Ch 24): "To protect the Federal Reserve's independence" by reducing its independence to act (p. 732). "Returning [the monetary steering wheel] to the people" (p. 736) through a free banking system that would transfer monetary control from a democratic institution to private banks.
+NOTE (FinReg, Ch 27): CFPB abolition framed as consumer protection — "the CFPB is unconstitutionally structured" (p. 839) — when the structural effect is removing the regulatory body designed specifically to protect consumers from predatory financial practices.
+
+### Appearance as Structural Terrain
+NOTE (Treasury, Ch 22): The two-bracket tax system (15%/30%), capital gains at 15%, corporate at 18%, and estate tax reduction would substantially shift the tax burden from capital to labor income, but the word "distribution" does not appear. The proposals operate through the appearance of neutral economic optimization.
+NOTE (Federal Reserve, Ch 24): A menu of monetary reform options (free banking, gold standard, K-Percent Rule, inflation targeting, NGDP targeting, Taylor Rule) presented with academic analysis. Every option reduces the Fed's discretionary power, but the neutral academic appearance is the terrain on which a directional policy agenda operates.
+
+### Democracy-Oligarchy Coexistence
+NOTE (Treasury, Ch 22): The supermajority requirement to raise taxes (p. 698) partitions the policy space: tax reduction requires only simple majority (democratic process), tax restoration requires supermajority (effectively oligarchic veto). The pattern operating through procedural design.
+
+### Anticipatory Obedience
+NOTE (Treasury, Ch 22): Treating participation in DEI initiatives "without objecting on constitutional or moral grounds, as per se grounds for termination of employment" (p. 708). Retroactive punishment of past compliance with previous administration policy signals future civil servants to anticipate the preferences of the next potential administration.
+
+### Peacetime Ratchet
+NOTE (Treasury, Ch 22): Reduced capital gains (15%), reduced corporate rate (18%), indexed capital gains for inflation, expanded estate tax exemption, Universal Savings Accounts with tax-free investment gains — collectively accelerate capital accumulation. Combined with the supermajority lock-in, this is the Peacetime Ratchet with deliberate acceleration.
+NOTE (Federal Reserve, Ch 24): Eliminating the full employment mandate removes the one macroeconomic institution with a mandate to consider employment — a structural shift serving capital holders over workers.
+
+### Manufactured Scarcity
+NOTE (Treasury, Ch 22): Proposes capping untaxed employer-provided benefits at $12,000/year (p. 697), making employer health coverage more expensive, accelerating the shift from employer-provided to individual-market healthcare without building an alternative.
+
+### Wealth Defense Industry
+NOTE (Treasury, Ch 22): Proposes repealing the Corporate Transparency Act, withdrawing the beneficial ownership reporting rule (p. 707), and opposing international tax information exchange (p. 701). The state itself is enlisted in maintaining the opacity infrastructure that enables wealth defense.
+NOTE (FinReg, Ch 27): Proposes eliminating the CFPB and reducing SEC enforcement — removing the regulatory infrastructure that makes financial flows visible to the public.
+
+### Division of Learning
+NOTE (Treasury, Ch 22): Opposes the $600 financial account reporting threshold (p. 699) and the Corporate Transparency Act's beneficial ownership reporting (p. 707). Both would increase government visibility into financial flows. Opposition framed as privacy protection; structural effect is maintaining the information asymmetry that enables tax avoidance.
+
+### Formal Transformation, Structural Continuity
+NOTE (Federal Reserve, Ch 24): Proposes transforming the Fed from a dual-mandate central bank to a narrow price-stability institution or abolishing it for free banking. The formal transformation is radical; the structural continuity is that existing financial beneficiaries — large banks, capital holders — would continue to benefit. Under free banking, "financial services and banking would be governed by general business laws" (p. 736), historically meaning the strongest financial actors set the terms.
+
+### Temporal Control
+NOTE (FinReg, Ch 27): The 2008 financial crisis — the causal event for the CFPB's creation and for the regulatory infrastructure being proposed for demolition — is structurally absent from the chapter. The crisis that justified the regulations is erased from the argument for removing them.
+NOTE (Labor, Ch 18): Company unions (Employee Involvement Organizations) were prohibited by the Wagner Act (NLRA Section 8(a)(2)) specifically because they were recognized as management control mechanisms in the 1920s-1930s. The proposal to re-legalize them (p. 599) contains no reference to this history.
+
+### Compliance Gradient
+NOTE (Labor, Ch 18): The enforcement nullification chain for labor law constitutes a complete compliance gradient collapse: NLRB vacancies prevent quorum, delayed elections allow employer counter-campaigns, weakened unfair labor practice enforcement removes consequences for employer violations, and re-legalized company unions (EIOs) provide an employer-controlled alternative to independent organization (p. 594-599). Workers' formal right to organize persists; the structural conditions for exercising it are systematically disabled at every stage.
+
+### Inversion of Stated Purpose
+NOTE (Education, Ch 11): Title IX is redefined from a tool protecting students from discrimination to a mechanism ensuring "religious liberty" and parental authority — the protection instrument is redirected against the population it was designed to protect.
+NOTE (HHS, Ch 14): Conscience and religious freedom provisions are framed as protecting healthcare workers from being compelled to provide services. The structural effect: the protection instrument protects the provider from the patient, inverting the traditional direction of healthcare regulatory protection.
+NOTE (EPA, Ch 13): "Cooperative federalism" and "returning authority to the states" frames the transfer of environmental enforcement to state agencies — many of which lack independent capacity or political will — as democratic devolution. The stated purpose (local accountability) inverts the structural effect (enforcement diffusion).
+
+### Appearance as Structural Terrain
+NOTE (Education, Ch 11): School choice and voucher programs appear as empowerment of parents. The structural effect is the redirection of public education funding to private institutions with no comparable accountability requirements. The appearance of choice is the terrain on which public institutional defunding operates.
+NOTE (EPA, Ch 13): The "cost-benefit analysis" framework for environmental regulation appears as neutral economic optimization. The structural effect: the analytical framework systematically discounts long-term, diffuse environmental harms while privileging short-term, concentrated industry costs, converting a methodological choice into directional policy.
+
+### Capture Pipeline
+NOTE (Defense, Ch 4): The chapter proposes installing political appointees into military procurement and personnel decisions traditionally insulated from political direction. The same pipeline template — personnel selection, installation, oversight elimination, reward structure — operates identically across civilian and military domains.
+NOTE (State, Ch 6): Proposes restructuring the Foreign Service to increase political appointee ratio and reduce career diplomat authority. The capture pipeline extends to the diplomatic corps — traditionally the most insulated professional service.
+
+### Institutional Abdication
+NOTE (HHS, Ch 14): Proposes a SUNSET rule requiring automatic expiration of HHS regulations unless affirmatively renewed (p. 467-468). This converts regulatory persistence from the default to an active requirement — abdication becomes automatic unless the institution continuously re-justifies its own authority. Distinct from direct elimination: the institution abdicates through procedural attrition.
+
+---
+
+## Cross-chapter synthesis (Chapters 4, 6, 11, 13, 14, 18, 22, 24, 27, 30)
+
+The Option C scan of 10 additional chapters produced two new principles (P7, P8) and extensive corroboration for existing patterns. The key analytical finding is not any individual chapter but the consistency of the template across domains with entirely different substantive missions:
+
+The same methodology — personnel replacement, oversight elimination, enforcement nullification, constitutional legitimation, aspirational dispersal rhetoric — appears in Defense (national security), State (diplomacy), Education (child development), EPA (environmental protection), HHS (public health), Labor (worker protection), Treasury (fiscal policy), the Federal Reserve (monetary policy), Financial Regulation (consumer protection), and the FTC (market competition). Institutions created for fundamentally different purposes are targeted through an identical structural sequence.
+
+This cross-domain consistency is the strongest evidence against the null case. A good-faith effort to improve government efficiency would produce domain-specific reforms reflecting each agency's distinctive failures. An institutional capture program produces an identical template applied regardless of domain. The EPA chapter is the purest expression of P4 (Enforcement Nullification) — environmental law formally persists while the enforcement architecture is comprehensively dismantled through "cooperative federalism" that transfers enforcement to structurally dependent state agencies.
+
+The Labor chapter provides the most complete enforcement nullification chain in the document: NLRB vacancy → quorum failure → delayed elections → weakened unfair labor practice enforcement → re-legalized company unions. Each stage is independently defensible; the chain produces total enforcement collapse while the NLRA formally remains the law of the land.
+
 ---
 
 ## IC-1 flags
