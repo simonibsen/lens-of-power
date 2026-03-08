@@ -42,6 +42,7 @@ Principle Lineage). Clicking any item in the sidebar opens a detail view.
 
 - [Getting started](#getting-started) — prerequisites, setup, first session
 - [What this is for](#what-this-is-for)
+- [Limitations](#limitations) — structural tendency toward confirmation
 - [Core concepts](#core-concepts) — axiom, layer, principle, pattern, circumvention, instrument, evidence, analysis
 - [Working with Claude](#working-with-claude) — steering, session flow, mid-session direction
 - [The five modes](#the-five-modes)
@@ -175,6 +176,32 @@ The framework includes structural safeguards against becoming a closed
 ideological system: every axiom has a falsification condition, every
 analysis must consider the non-power explanation, and the framework is
 periodically turned on itself through red team reviews.
+
+## Limitations
+
+This framework finds power dynamics because it is designed to find power
+dynamics. The axioms define what to look for (concentration, invisibility,
+layer reinforcement), the methodology amplifies the axioms (seven steps
+that ask "where is the power?"), and the source corpus confirms the
+methodology (works selected because they describe how power operates). An
+LLM executing the framework reinforces all three — pattern-matching
+against a pattern-finding checklist will produce patterns.
+
+The integrity constraints (IC-1 through IC-5) exist to counteract this
+tendency, and they work: the framework does accept null cases and flag
+its own blind spots. But the constraints are fighting against the
+framework's own gravitational pull. The analyst must actively resist the
+methodology's default output.
+
+The framework is most useful as a **diagnostic tool** — a vocabulary and
+checklist for making specific things visible that would otherwise be
+invisible. It is least useful as a **worldview** — a lens that makes
+everything look like power dynamics. The distinction depends on the
+analyst's discipline, not the framework's architecture.
+
+Current structural gaps — underrepresented source positions, missing
+perspectives, and calibration weaknesses — are tracked in `BACKLOG.md`
+and visible in the viewer's Gap Analysis page.
 
 ## Core concepts
 

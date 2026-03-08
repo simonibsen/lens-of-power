@@ -60,13 +60,12 @@ strong, needing 1-2 sources to reach SUPPORTED):
 - **Moral Infrastructure of Economic Power** (2/47, 4%) — needs:
   additional oligarch/elite morality studies
 
-### 6. Project 2025 remaining chapters (2026-03-06)
-SOURCE: Extract gaps (Step 5)
-10 chapters marked as future candidates in `sources/project-2025.md`:
-Defense, State, Education, EPA, HHS, Labor, Treasury, Fed, Financial
-Regulation, FTC. PDF at user's Desktop path. Each chapter would
-corroborate institutional capture patterns and strengthen the
-Position 1 corpus.
+### ~~6. Project 2025 remaining chapters — completed 2026-03-08~~
+All 10 chapters scanned (Option C). Produced 2 new principles (P7: Tax
+Architecture as Structural Lock-In, P8: Financial Sovereignty Withdrawal).
+Key finding: identical capture template across all domains confirms Capture
+Pipeline as architectural feature. Updated `sources/project-2025.md`,
+`principles/project-2025-mandate-for-leadership.md`, `patterns-detail.md`.
 
 ### 7. Contemporary circumvention successes (2026-03-06)
 SOURCE: Circumventions audit

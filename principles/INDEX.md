@@ -176,9 +176,10 @@ IC-1 FLAGS: Axiom 3 (biological naturalization re-naturalizes contingency even w
 SOURCE: Heritage Foundation, *Mandate for Leadership 2025: The Conservative Promise* (2023)
 POSITION: 1 (ruler — former/prospective executive-branch officials writing a governing blueprint)
 SOURCE TYPE: primary_document (see `sources/project-2025.md`)
-PRINCIPLES: 6 — Personnel as Primary Instrument of Institutional Control, The Comply-or-Die Binary, Oversight Elimination as Precondition for Control, Enforcement Nullification Through Institutional Design, Constitutional Originalism as Consolidation Legitimation, The Asymmetric Ratchet (Concrete Seizure/Aspirational Dispersal)
+PRINCIPLES: 8 — Personnel as Primary Instrument of Institutional Control, The Comply-or-Die Binary (+ Institutional Abolition variant), Oversight Elimination as Precondition for Control, Enforcement Nullification Through Institutional Design, Constitutional Originalism as Consolidation Legitimation, The Asymmetric Ratchet (Concrete Seizure/Aspirational Dispersal), Tax Architecture as Structural Lock-In, Financial Sovereignty Withdrawal as Structural Constraint Removal
 LAYERS: All six (Institutional and Legal & Regulatory primary)
-KEY PATTERNS: Capture Pipeline, Institutional Abdication, Inversion of Stated Purpose, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence, Anticipatory Obedience, Formal Transformation/Structural Continuity, Peacetime Ratchet, Layered Redundancy (inverse), Ideological Judo (inverse)
+CHAPTERS SCANNED: Foreword, 1-8, 11, 13-14, 17-18, 22, 24, 27-30 (20 of 30 chapters)
+KEY PATTERNS: Capture Pipeline, Institutional Abdication, Inversion of Stated Purpose, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence, Anticipatory Obedience, Formal Transformation/Structural Continuity, Peacetime Ratchet, Layered Redundancy (inverse), Ideological Judo (inverse), Division of Learning, Manufactured Scarcity, Temporal Control, Wealth Defense Industry, Compliance Gradient
 IC-1 FLAGS: Axiom 3 (visibility without recognition — proposals are public but framing prevents recognition as power consolidation), Axiom 5 (analytical recursion — is the administrative state a counterforce to executive overreach, or itself a concentration?)
 INSTRUMENT: instruments/institutional-capture-playbook.md (co-derived with Powell Memo, Whitehouse, Ziklag, Variety/Ellison, Guriev-Rachinsky)
 

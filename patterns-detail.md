@@ -206,7 +206,7 @@ by design),
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (15 of 47 relevant sources, 32%)
+CORROBORATION: ESTABLISHED (15 of 48 relevant sources, 31%)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -253,7 +253,7 @@ foreign ties (CPUSA) to an undefined movement (New Left, never operationally
 defined). Each new threat category expanded operational scope while the prior
 threats remained active.
 
-CORROBORATION: SUPPORTED (8 of 47 relevant sources, 17%)
+CORROBORATION: SUPPORTED (9 of 48 relevant sources, 19%)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -305,7 +305,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (8 of 47 relevant sources, 17%)
+CORROBORATION: SUPPORTED (8 of 48 relevant sources, 17%)
 
 CIRCUMVENTIONS:
 - Economic Alternative (circumventions.md): Graeber's jubilee tradition observed to periodically reset accumulation. Piketty's Scandinavian social democracy observed to constrain the ratchet through progressive taxation. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)
@@ -330,7 +330,31 @@ transition between the two is the moment of maximum danger for democratic order)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (3 of 47 relevant sources, 6%)
+NOTE: Project 2025 Financial Regulatory chapter (Ch 27) provides a policy-domain
+variant: the 2008 financial crisis — the causal event for the CFPB's creation and
+for the regulatory infrastructure being proposed for demolition — is structurally
+absent from the chapter. The crisis that justified the regulations is erased from
+the argument for removing them. This is Temporal Control operating through omission
+rather than falsification: the past is not rewritten but excised, preventing the
+comparison that would make the proposals' structural effect visible.
+(principles/project-2025-mandate-for-leadership.md corroboration notes)
+
+NOTE: Project 2025 Labor chapter (Ch 18) exhibits the same erasure: company
+unions (Employee Involvement Organizations) were prohibited by the Wagner Act
+(NLRA Section 8(a)(2)) specifically because they were recognized as management
+control mechanisms in the 1920s-1930s. The proposal to re-legalize them (p. 599)
+contains no reference to this history. The past that would make the mechanism
+recognizable is absent.
+
+NOTE: Project 2025 HHS chapter (Ch 14) proposes a SUNSET rule requiring automatic
+expiration of regulations unless affirmatively renewed. This is Temporal Control
+operating through procedural design: the past regulatory record is not falsified
+or omitted but made structurally irrelevant through automatic expiration. The
+regulatory history — the reasons the regulations were created — is erased not
+from the argument but from the legal landscape.
+(principles/project-2025-mandate-for-leadership.md corroboration notes)
+
+CORROBORATION: PRELIMINARY (4 of 47 relevant sources, 9%)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -362,7 +386,7 @@ making them complicit in the system that exploited them)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (4 of 47 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (4 of 48 relevant sources, 8%)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -389,7 +413,7 @@ normative weight.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 41 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (1 of 42 relevant sources, 2%)
 
 ### Appearance as Structural Terrain
 LAYERS: Thought & Narrative, Institutional
@@ -504,6 +528,17 @@ order instance: the executive branch is briefed (appearance of oversight)
 through Bureau-prepared summaries that omit dangerous techniques (structural
 terrain of non-oversight).
 
+NOTE: Project 2025 EPA chapter (Ch 13) provides the purest domain-specific
+expression: "cooperative federalism" appears as democratic devolution (returning
+authority to the states); the structural effect is enforcement diffusion to state
+agencies lacking independent capacity or political will. The "cost-benefit analysis"
+framework for environmental regulation appears as neutral economic optimization;
+the analytical framework systematically discounts long-term diffuse environmental
+harms while privileging short-term concentrated industry costs. Both are instances
+where the appearance (devolution, neutral analysis) IS the terrain on which
+enforcement nullification operates.
+(principles/project-2025-mandate-for-leadership.md corroboration notes)
+
 CORROBORATION: ESTABLISHED (41 of 46 relevant sources, 89%)
 
 CIRCUMVENTIONS:
@@ -606,7 +641,17 @@ uniformly distributed. The enforcement cost is borne disproportionately by those
 system marks for enhanced observation. The gradient's equilibrium point shifts by
 social position.
 
-CORROBORATION: SUPPORTED (5 of 47 relevant sources, 11%)
+NOTE: Project 2025 Labor chapter (Ch 18) documents a complete enforcement
+nullification chain that collapses the compliance gradient for labor organizing:
+NLRB vacancies prevent quorum → delayed elections allow employer counter-campaigns
+→ weakened unfair labor practice enforcement removes consequences → re-legalized
+company unions (EIOs) provide employer-controlled alternative to independent
+organization (p. 594-599). Each stage independently shifts the cost curve against
+worker organizing. The formal right to organize persists; the structural conditions
+for exercising it are systematically disabled.
+(principles/project-2025-mandate-for-leadership.md corroboration notes)
+
+CORROBORATION: SUPPORTED (5 of 48 relevant sources, 10%)
 
 CIRCUMVENTIONS:
 - Collective Action (circumventions.md): Organized collective refusal shifts the compliance gradient by making individual enforcement prohibitively expensive. (principles/scott-weapons-of-the-weak.md)
@@ -665,7 +710,7 @@ their own foundational document against the institutions it created)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 47 relevant sources, 11%)
+CORROBORATION: SUPPORTED (5 of 48 relevant sources, 10%)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -761,7 +806,7 @@ generations (from Nehru to McKinsey); the structural commitment does not.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 47 relevant sources, 4%)
+CORROBORATION: PRELIMINARY (2 of 48 relevant sources, 4%)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -823,7 +868,7 @@ of surveillance infrastructure that persists through formal transformations
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (10 of 47 relevant sources, 21%)
+CORROBORATION: ESTABLISHED (10 of 48 relevant sources, 21%)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -894,7 +939,7 @@ More instances needed before proposing a standalone pattern.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (8 of 42 relevant sources, 19%)
+CORROBORATION: ESTABLISHED (9 of 42 relevant sources, 21%)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -922,7 +967,7 @@ planning discussion. Fox's Iraq 2003 coverage used the same editorial architectu
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: SUPPORTED (7 of 46 relevant sources, 15%)
+CORROBORATION: SUPPORTED (8 of 47 relevant sources, 17%)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -1092,7 +1137,22 @@ did not know what the Bureau was doing (Bureau-prepared summaries omitted
 dangerous techniques). The oversight relationship is itself a Division of Learning
 — the overseer sees what the overseen chooses to show.
 
-CORROBORATION: SUPPORTED (8 of 47 relevant sources, 17%)
+NOTE: Project 2025 economic chapters reveal two additional variants. Treasury
+(Ch 22): opposes the $600 financial account reporting threshold and the Corporate
+Transparency Act's beneficial ownership reporting — both mechanisms that would
+increase government visibility into financial flows. The opposition is framed as
+privacy protection; the structural effect is maintaining the information asymmetry
+that enables tax avoidance and illicit finance. Additionally, withdrawal from the
+OECD, IMF, World Bank, and international tax information exchange agreements
+(P8) removes the external information ecology that sustains cross-national
+comparison — an international-level Division of Learning. Labor (Ch 18): proposes
+eliminating EEO-1 workforce data collection and disparate impact liability (p. 582),
+removing the evidentiary infrastructure needed to detect structural discrimination.
+Without aggregate data, patterns of discrimination become invisible — enforcement
+blocked at the evidence-gathering stage rather than the adjudication stage.
+(principles/project-2025-mandate-for-leadership.md P8, corroboration notes)
+
+CORROBORATION: SUPPORTED (8 of 48 relevant sources, 17%)
 
 CIRCUMVENTIONS:
 - Transparency / Naming (circumventions.md): Exposure of surveillance systems, FOI requests, and investigative journalism have been observed to partially close the information asymmetry. TBIJ Portland investigation (2026) naming Wikipedia manipulation disrupted the concealed information campaign. (principles/church-committee-cointelpro.md)
@@ -1328,7 +1388,7 @@ by the actors who accumulated the power)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (9 of 47 relevant sources, 19%)
+CORROBORATION: SUPPORTED (9 of 48 relevant sources, 19%)
 
 CIRCUMVENTIONS:
 - Economic Alternative (circumventions.md): Jubilee traditions, progressive taxation, and social democratic institutions observed to constrain the ratchet without catastrophe. Piketty documents Scandinavian model as sustained counter-example. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)
@@ -1382,7 +1442,7 @@ New Deal), and the resulting compression was weaker and more easily reversed.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 47 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (1 of 48 relevant sources, 2%)
 
 ### The Wealth Defense Industry
 LAYERS: Economic, Legal & Regulatory, Institutional
@@ -1458,7 +1518,7 @@ after Kotlarek's blocking in 2024.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (4 of 47 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (4 of 48 relevant sources, 8%)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -1535,7 +1595,19 @@ with global market influence; democratically governed but structurally oligarchi
 in its investment power; the democratic process legitimizes the concentration,
 making it resistant to the Axiom 5 diagnostic)
 
-CORROBORATION: ESTABLISHED (15 of 47 relevant sources, 32%)
+NOTE: Project 2025 economic chapters (Treasury Ch 22, Labor Ch 18) reveal two
+additional variants. Treasury: the supermajority requirement to raise taxes (p. 698)
+partitions the policy space procedurally — tax reduction requires only simple majority
+(democratic process), tax restoration requires supermajority (effectively oligarchic
+veto). This is the pattern operating through institutional design rather than informal
+influence. Labor: the chapter preserves the formal architecture of labor law (NLRA,
+FLSA, Title VII, OSHA as statutes) while systematically disabling enforcement —
+data collection eliminated, disparate impact theory abolished, enforcement agencies
+defunded, protected activity narrowed, union decertification eased, regulatory floors
+converted to negotiable defaults. The laws exist; the capacity to enforce them is
+removed. (principles/project-2025-mandate-for-leadership.md P7, corroboration notes)
+
+CORROBORATION: ESTABLISHED (15 of 48 relevant sources, 31%)
 
 CIRCUMVENTIONS:
 - Electoral / Democratic (circumventions.md): Hartmann documents periods (Progressive Era, New Deal, Great Society) in which democratic mobilization produced significant constraints on oligarchic power. The relationship is contested — democracy-oligarchy coexistence may be the stable equilibrium rather than the exception. (principles/hartmann-hidden-history-american-oligarchy.md)
@@ -1606,7 +1678,7 @@ question the ethical criteria appear to oppose responsibility itself. The moral
 vocabulary forecloses structural critique of who defines "responsible" and whose
 interests the criteria serve)
 
-CORROBORATION: PRELIMINARY (2 of 47 relevant sources, 4%)
+CORROBORATION: PRELIMINARY (2 of 48 relevant sources, 4%)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -1687,7 +1759,7 @@ the Bureau selects cooperative journalists (personnel), provides content
 (installation), and the resulting published articles appear as independent
 journalism (outcome). Seventh documented domain: intelligence-media capture.
 
-CORROBORATION: SUPPORTED (7 of 47 relevant sources, 15%)
+CORROBORATION: SUPPORTED (7 of 48 relevant sources, 15%)
 
 CIRCUMVENTIONS:
 - Legal Challenge (circumventions.md): Statutory enforcement and constitutional challenge may contest specific stages of the capture pipeline, though the pipeline's multi-stage nature means single-point intervention is typically insufficient. (principles/whitehouse-the-scheme.md)
@@ -1813,7 +1885,7 @@ oneself visible to the state persisted through the institution. Each transformat
 changes form; the structural function — identifying, documenting, and controlling
 racialized bodies — persists. Eighth documented context.
 
-CORROBORATION: SUPPORTED (7 of 47 relevant sources, 15%)
+CORROBORATION: SUPPORTED (7 of 48 relevant sources, 15%)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -1951,7 +2023,7 @@ the geography differs. Fifth documented context.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 45 relevant sources, 11%)
+CORROBORATION: SUPPORTED (5 of 46 relevant sources, 11%)
 
 CIRCUMVENTIONS:
 - International Pressure (circumventions.md): International accountability mechanisms and transnational advocacy networks may constrain the boomerang by maintaining scrutiny on techniques migrating from periphery to center. Alley documents these mechanisms as contested terrain. (principles/alley-very-bad-people.md)
