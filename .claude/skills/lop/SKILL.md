@@ -165,7 +165,9 @@ outlet from `sources/sample-pool.md`, fetch an article, run READ mode on
 it, classify the null case outcome, append the result to
 `calibration/sample-log.md`, and report calibration statistics. No analysis
 files are written. The user may re-roll the selection but may not substitute
-their own source.
+their own source. If the material warrants escalation (analyze or extract),
+offer to proceed immediately — the resulting work follows standard branching
+rules and includes `Origin: SAMPLE mode` provenance.
 
 ## Commit conventions
 

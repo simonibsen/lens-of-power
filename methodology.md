@@ -993,6 +993,11 @@ Review `analyses/INDEX.md` for selection bias:
 - Are there types of material the analyst instinctively avoids
   (corporate governance, functioning democracies, successful reforms)?
   That avoidance is a signal.
+- If `calibration/sample-log.md` exists, compare the calibration null
+  case rate against the analysis diet null case rate. A large delta
+  confirms that the analysis diet has systematic positive selection
+  bias. Report the delta and assess whether SAMPLE mode is being run
+  frequently enough to produce meaningful statistics (5+ samples minimum).
 
 **Output format**:
 ```
@@ -1002,6 +1007,7 @@ INPUT DIET:
   PRIMARY LAYER DISTRIBUTION: [layers and counts]
   NULL CASE OUTCOMES: [rejected/plausible/accepted counts]
   ADVERSARIAL ANALYSES: [count and outcomes]
+  CALIBRATION: [n] samples, null case rate [percentage] (analysis rate: [percentage], delta: [percentage])
   BLIND SPOTS: [domains or material types never analyzed]
   RECOMMENDATION: [what to analyze next to test the framework]
 ```
@@ -1111,6 +1117,18 @@ The delta between calibration and analysis rates is diagnostic:
 - A negative delta (analysis rate higher) would be surprising and
   warrants investigation — it could indicate the analysis diet includes
   material that genuinely lacks power dynamics.
+
+**Unacted escalations**: Scan `calibration/sample-log.md` for entries
+where the Escalation column is `analyze` or `extract` but no
+corresponding analysis or extraction exists in `analyses/INDEX.md` or
+`principles/INDEX.md`. List these as pending opportunities — material
+that was flagged as worth deeper treatment but not yet acted on.
+
+```
+UNACTED ESCALATIONS:
+  [date] [outlet] — [article] — recommended: [analyze/extract]
+  ...
+```
 
 ### Step 3: EVIDENCE BALANCE
 
@@ -1352,6 +1370,14 @@ tracking entry.
    ```
    | [YYYY-MM-DD] | [outlet] | [article title, max 60 chars] | [category] | [accepted/plausible/rejected] | [analyze/extract/none] | [axis tags from pool entry] |
    ```
+4. If escalation is `analyze` or `extract`, offer to proceed immediately:
+   - Present the escalation recommendation with a brief rationale
+   - The user may accept (proceed to ANALYZE or EXTRACT mode on the
+     same material), defer (leave it logged for SUGGEST to surface
+     later), or decline (change escalation to `none` in the log)
+   - If the user accepts, the resulting analysis or extraction follows
+     standard branching rules and includes a provenance note:
+     `Origin: SAMPLE mode ([date])`
 
 ### Step 4: REPORT CALIBRATION STATS
 

@@ -189,3 +189,16 @@
   Layers: Physical & Coercive (primary), Economic, Thought & Narrative, Institutional, Legal & Regulatory (active but absent)
   Null case: plausible (MEDIUM-HIGH for genre conventions at source level; MEDIUM for structural genre-as-normalisation)
   File: `2026-03-06-dsa-article-thaad-radar-strike-jordan.md`
+
+### 2026-03-08 — Africa's campaign for reparative justice (Guardian)
+  Domain: Postcolonial justice / reparations / international law / cultural politics
+  Layers: Thought & Narrative (primary), Legal & Regulatory (primary), Economic (primary), Institutional, Surveillance & Information (active but absent)
+  Null case: plausible (MEDIUM — partially weakened for legal strategy and Germany's word-avoidance; retained for aspirational elements)
+  File: `2026-03-08-guardian-article-africa-reparative-justice.md`
+
+### 2026-02 — OBBBA Medicaid provisions: procedural scarcity and distributive transfer (RAND/CBO)
+  Domain: Healthcare policy / fiscal policy / distributive politics / legislative process
+  Layers: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  Null case: plausible (MEDIUM — individual provisions conventional; distributive configuration asymmetric)
+  Origin: SAMPLE mode (2026-03-08)
+  File: `2026-02-rand-research-medicaid-obbba-state-impacts.md`

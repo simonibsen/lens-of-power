@@ -26,7 +26,7 @@ STATEMENT: Systems of control are frequently named for or justified by the oppos
 
 MECHANISM: Naming a system for a desirable outcome prevents scrutiny by making criticism appear to oppose the outcome itself.
 
-CORROBORATION: ESTABLISHED (43 of 46 relevant sources, 93%)
+CORROBORATION: ESTABLISHED (44 of 46 relevant sources, 96%)
 
 CIRCUMVENTIONS: Transparency / Naming
 
@@ -57,9 +57,9 @@ STATEMENT: Abundance is deliberately prevented or destroyed because material sec
 
 MECHANISM: Channel surplus into waste or upward redistribution to maintain dependency. Operates through material, informational, distributional, debt-based, and network-effect-based channels.
 
-NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements ([Chen 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-datasociety-policybrief-big-ai-state.md)) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants ([Mishra 2014](https://github.com/simonibsen/lens-of-power/blob/main/principles/mishra-western-model-broken.md)).
+NOTE: War-driven supply disruption is a variant — conflict in oil-producing regions creates energy scarcity that benefits specific actors (oil companies, OPEC+ pricing power) whether or not the scarcity was an objective. Same beneficiary pattern observed across Iraq 2003, Libya 2011, and Iran 2026. Technology dependency variant: "full stack" export requirements ([Chen 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-datasociety-policybrief-big-ai-state.md)) prevent foreign governments from purchasing AI components selectively, creating structural dependency on the complete US tech stack. Energy scarcity variant: insufficient grid capacity is treated as justification for removing environmental protections rather than as reason to reconsider the scale of consumption. Enabling-condition-consumption variant: the western development model's material preconditions (colonial extraction, frontier abundance) were consumed by its first execution, producing structural scarcity for later entrants ([Mishra 2014](https://github.com/simonibsen/lens-of-power/blob/main/principles/mishra-western-model-broken.md)). Procedural scarcity variant: the OBBBA does not repeal Medicaid coverage — it creates bureaucratic friction (work requirements, redetermination frequency, documentation demands) that produces disenrollment through compliance failure; scarcity is manufactured in eligibility, not in funds ([RAND/CBO 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md)).
 
-CORROBORATION: SUPPORTED (8 of 48 relevant sources, 17%)
+CORROBORATION: SUPPORTED (9 of 48 relevant sources, 19%)
 
 CIRCUMVENTIONS: Economic Alternative, Collective Action
 
@@ -150,7 +150,7 @@ STATEMENT: When a system of domination is formally dismantled, an indigenous cla
 
 MECHANISM: The intermediary class did not build the system — it occupied positions within it. It lacks the capacity or incentive to transform the system. It uses liberation language to legitimize its position while preserving the underlying economic logic.
 
-NOTE: hooks extends from economic relay to categorical relay — liberation movements that adopt the dominant categorical system function as relays for the domination they claim to oppose. Mishra (2014) adds a legitimation lock-in — postcolonial elites cannot exit the relay role without destroying the ideological basis of their authority (the promise of "catching up" with the west).
+NOTE: hooks extends from economic relay to categorical relay — liberation movements that adopt the dominant categorical system function as relays for the domination they claim to oppose. Mishra (2014) adds a legitimation lock-in — postcolonial elites cannot exit the relay role without destroying the ideological basis of their authority (the promise of "catching up" with the west). Reparations variant: state-level reparations diplomacy creates a channel through which redress may flow to national governments rather than descendant communities — the Herero/Nama exclusion from Germany-Namibia negotiations is the earliest empirical signal (Guardian, March 2026).
 
 CORROBORATION: PRELIMINARY (2 of 48 relevant sources, 4%)
 
@@ -161,7 +161,7 @@ STATEMENT: Some systems of control are not merely maintained by violence but con
 
 MECHANISM: The original act of violence creates the initial distribution. Law, institutions, and economics are built on top, naturalizing it. The foundational violence becomes invisible because it has been converted into property, law, and custom.
 
-NOTE: Mishra (2014) adds a consumptive dimension — colonial violence not only established the current distribution but consumed the material conditions that would allow others to follow the same path. The violence is doubly constitutive: it creates the order AND forecloses alternatives.
+NOTE: Mishra (2014) adds a consumptive dimension — colonial violence not only established the current distribution but consumed the material conditions that would allow others to follow the same path. The violence is doubly constitutive: it creates the order AND forecloses alternatives. Reparations-naming variant: the word "reparations" would convert constitutive violence from an invisible substrate into a named liability — Germany paid €1.1bn to Namibia for the Herero-Nama genocide but refused to call it "reparations" because the category would transform voluntary generosity into obligatory redress, threatening the post-colonial economic arrangement (Guardian, March 2026).
 
 CORROBORATION: ESTABLISHED (10 of 48 relevant sources, 21%)
 
@@ -172,7 +172,9 @@ STATEMENT: The dominated subject's cultural response follows a sequence: assimil
 
 MECHANISM: Assimilation internalizes the dominant culture. Essentialism accepts the dominant categories and reverses the valuation. Synthesis breaks the binary by producing something new.
 
-CORROBORATION: PRELIMINARY (1 of 46 relevant sources, 2%)
+NOTE: Owuor's call for "moral autopsy before moral exorcism" and her warning against an "unseemly rush" into restitution suggests the reparations movement is operating in the synthesis phase — creating new frameworks for understanding rather than merely inverting colonial categories (Guardian, March 2026).
+
+CORROBORATION: PRELIMINARY (2 of 46 relevant sources, 4%)
 
 CIRCUMVENTIONS: Cultural Production
 
@@ -223,7 +225,7 @@ STATEMENT: Structural asymmetry of knowledge where one party can learn about, pr
 
 MECHANISM: Maintained through trade secret law, algorithmic opacity, proprietary data, and computational scale. Those who can see cannot be seen; those who are seen cannot see back.
 
-NOTE: Wartime variant: occupied territory as total information asymmetry maintained through military force. The journalist who attempted to penetrate the blackhole was absorbed into the system she was documenting (Roshchyna/ghost detainees, Forbidden Stories 2026). AI amplification variant: manipulation at one platform (Wikipedia) propagates through AI systems that use it as training data, multiplying the information asymmetry without the manipulator needing to access downstream systems (Portland/TBIJ 2026).
+NOTE: Wartime variant: occupied territory as total information asymmetry maintained through military force. The journalist who attempted to penetrate the blackhole was absorbed into the system she was documenting (Roshchyna/ghost detainees, Forbidden Stories 2026). AI amplification variant: manipulation at one platform (Wikipedia) propagates through AI systems that use it as training data, multiplying the information asymmetry without the manipulator needing to access downstream systems (Portland/TBIJ 2026). Institutional analysis separation variant: RAND analyses Medicaid impacts, CBO/JCT analyses distributional effects, neither connects them — the structural transfer ($664B from the bottom, $2.3T to the top 10%) is visible only when the analyses are juxtaposed; institutional specialisation produces accurate component analyses but prevents the configurational finding from emerging within any single authoritative source ([RAND/CBO 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md)).
 
 CORROBORATION: SUPPORTED (8 of 48 relevant sources, 17%)
 
@@ -260,7 +262,7 @@ STATEMENT: In the absence of catastrophic disruption, inequality increases as st
 
 MECHANISM: Capital accumulates, returns compound, institutions entrench existing distribution, political influence follows wealth. Counterforce is weakest during long stability when urgency seems low and the wealthy's influence is highest.
 
-CORROBORATION: SUPPORTED (9 of 48 relevant sources, 19%)
+CORROBORATION: ESTABLISHED (10 of 48 relevant sources, 21%)
 
 CIRCUMVENTIONS: Economic Alternative, Catastrophic Leveling
 
