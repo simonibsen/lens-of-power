@@ -74,10 +74,10 @@ self-contained, traceable unit of work.
 
 `tools/build-viewer.py` generates a static viewer from all framework
 markdown files. Run `python3 tools/build-viewer.py` to rebuild. Output
-is `viewer.html` + `viewer-data.js` (both checked in).
+is `viewer.html` + `viewer-data.js` (gitignored — generated on demand).
 
 After writing any analysis or extraction files, always run
-`python3 tools/build-viewer.py && open viewer.html` before committing.
+`python3 tools/build-viewer.py && open viewer.html` to verify.
 
 The viewer has three top-level nav items: Dashboard (landing page with
 integrity bar, corpus stats, recent analyses, works studied, layer
