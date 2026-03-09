@@ -1,0 +1,27 @@
+# ============================================================================
+# timing.yaml — Operational performance log
+# ============================================================================
+#
+# Append-only log of analytical operations. Each entry records one
+# operation (analyze, extract, redteam, suggest, sample) with timing
+# breakdowns.
+#
+# Fields marked (auto) are populated by post-analysis.py or tooling.
+# Fields marked (manual) are estimated by the analyst or user.
+#
+# Used by SUGGEST mode to measure automation payoff, identify bottlenecks,
+# and track framework operational health.
+
+entries:
+  # Populated when tooling is ready. Example:
+  #
+  # - date: "2026-03-09"
+  #   time: "~00:45 UTC"
+  #   operation: analyze
+  #   target: "2026-02-opensecrets-report-ai-lobbying-defense-kstreet"
+  #   fetch_seconds: 12            # (auto) time to retrieve source material
+  #   analysis_seconds: 480        # (manual) time for analytical work
+  #   post_analysis_seconds: 35    # (auto) time for framework updates
+  #   viewer_build_seconds: 8      # (auto) time for viewer rebuild
+  #   total_seconds: 535           # (auto) sum
+  #   notes: null

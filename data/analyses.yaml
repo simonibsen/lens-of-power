@@ -1,0 +1,130 @@
+# ============================================================================
+# analyses.yaml — Analysis registry
+# ============================================================================
+#
+# Each entry corresponds to one analysis file in analyses/.
+# The prose lives in the markdown file; the structured metadata lives here.
+#
+# This is the fastest-growing file. Each analysis adds one entry here plus
+# updates to patterns.yaml (observed_in). The migration script populates
+# this from existing analyses/INDEX.md and analysis file headers.
+#
+# --- Relationship to patterns.yaml ---
+#
+# analyses.yaml patterns_matched is AUTHORITATIVE for which patterns an
+# analysis observed. patterns.yaml observed_in is a COMPUTED materialized
+# view built from analyses.yaml patterns_matched + principles.yaml
+# key_patterns. Tooling regenerates observed_in; do not hand-edit it.
+#
+# --- Frontmatter contract ---
+#
+# After migration, new analysis markdown files include YAML frontmatter.
+# post-analysis.py reads the frontmatter, adds an entry here, updates
+# patterns.yaml observed_in, recomputes confidence, and rebuilds viewer.
+#
+# Frontmatter fields (analyst provides in markdown):
+#   id, title, source_name, source_type, position, url, domain,
+#   layers_primary, layers_secondary, layers_absent, null_case,
+#   null_case_level, adversarial, origin, ic5_flag, cross_references,
+#   patterns_matched (including variant and note)
+#
+# Computed fields (tooling adds to this YAML only, not frontmatter):
+#   file, date, source_date, findings_count, commit, time
+#
+# --- Field reference ---
+#
+# id: string (required) — unique identifier, matches filename stem
+# file: string (computed) — path to analysis markdown file
+# date: string (computed) — "YYYY-MM-DD" when analysis was performed
+# time: string (computed) — "~HH:MM UTC" approximate time
+# source_date: string (computed) — "YYYY-MM-DD" or "YYYY-MM" of source material
+# title: string (required) — short title for display
+# source_name: string (required) — who produced the source material
+# source_type: string (required) — from config.yaml analysis_source_types
+# position: list[int] (required) — source's positional lens, e.g. [5] or [2, 5]
+# url: string|null (optional) — URL of source material
+# domain: list[string] (required) — from config.yaml domains
+# layers_primary: list[string] (required) — from config.yaml layers
+# layers_secondary: list[string] (optional) — layers active but not primary
+# layers_absent: list[string] (optional) — layers active but absent from source
+# null_case: string (required) — from config.yaml null_case_outcomes
+# null_case_level: string (required) — free-text assessment (e.g. "MEDIUM-HIGH")
+# adversarial: bool (required) — was this deliberately selected to challenge framework?
+# origin: null|"sample" — null = user-selected; "sample" = SAMPLE mode escalation
+# ic5_flag: string|null (optional) — IC-5 self-reference note, if any
+# cross_references: list[string] (optional) — IDs of related analyses
+# patterns_matched: list[object] (required) — see subfield reference below
+#   .pattern: string — pattern ID (from config pattern ID rules)
+#   .status: string — from config.yaml finding_statuses
+#   .variant: string|null — named variant, or null for base pattern
+#   .note: string — brief description of how pattern manifests
+# findings_count: int (computed) — number of findings in the analysis
+# commit: string|null (computed) — git commit hash when committed
+
+entries:
+
+  - id: "2026-02-opensecrets-report-ai-lobbying-defense-kstreet"
+    file: "analyses/2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md"
+    date: "2026-03-09"
+    time: "~00:45 UTC"
+    source_date: "2026-02"
+    title: "The AI-fication of K Street"
+    source_name: "OpenSecrets"
+    source_type: investigative_data
+    position: [5]
+    url: "https://www.opensecrets.org/news/2026/02/ai-lobbying-defense-industry/"
+    domain:
+      - ai_policy
+      - campaign_finance
+      - military
+      - institutional_capture
+    layers_primary:
+      - economic
+      - institutional
+      - legal_regulatory
+    layers_secondary:
+      - thought_narrative
+      - surveillance_information
+    layers_absent:
+      - physical_coercive
+    null_case: plausible
+    null_case_level: "MEDIUM-HIGH component; MEDIUM configuration"
+    adversarial: false
+    origin: null
+    ic5_flag: null
+    cross_references:
+      - "2026-03-02-datasociety-policybrief-big-ai-state"
+      - "2026-03-04-guardian-article-datacenter-politics-nc-primary"
+    patterns_matched:
+      - pattern: inversion_of_stated_purpose
+        status: observed
+        variant: vocabulary_capture
+        note: "AI label on existing weapons systems"
+      - pattern: appearance_as_structural_terrain
+        status: inferred
+        variant: null
+        note: "lobbying disclosure as terrain for non-transparent influence"
+      - pattern: democracy_oligarchy_coexistence
+        status: observed
+        variant: null
+        note: "314:1 Lockheed vs Disability Rights ratio"
+      - pattern: capture_pipeline
+        status: observed
+        variant: ai_defence_procurement
+        note: "AI-native firms traversing lobbying-procurement pipeline"
+      - pattern: layered_redundancy
+        status: inferred
+        variant: null
+        note: "three-channel influence architecture (lobbying + campaign + policy)"
+      - pattern: division_of_learning
+        status: observed
+        variant: null
+        note: "affected populations absent from lobbying data"
+      - pattern: wealth_defense_industry
+        status: observed
+        variant: null
+        note: "774 organisations, 3500+ lobbying reports"
+    findings_count: 6
+    commit: "6878f654"
+
+  # ... (33 entries total — migration script generates the remaining 32)

@@ -1,0 +1,227 @@
+# ============================================================================
+# principles.yaml — Extracted principle sources
+# ============================================================================
+#
+# Each entry is a source from which principles have been extracted. The
+# prose lives in principles/*.md; this is the structured index.
+#
+# Replaces principles/INDEX.md as the source of truth for cross-referencing.
+# principles/INDEX.md can be generated from this file if needed.
+#
+# key_patterns entries here are one of two authoritative sources for
+# patterns.yaml observed_in (the other is analyses.yaml patterns_matched).
+# Tooling reads key_patterns to build the pattern corroboration trail.
+# key_patterns is structured (with note and variant) so tooling can copy
+# all fields into patterns.yaml observed_in entries.
+#
+# --- Field reference ---
+#
+# id: string (required) — unique identifier, matches filename stem
+# file: string (required) — path to principles markdown file
+# source_name: string (required) — author name
+# source_title: string (required) — work title
+# source_year: int (required) — publication year
+# position: list[int] (required) — positional lens, e.g. [5] or [2, 5]
+# position_note: string (required) — description of position
+# provenance_tier: string (required) — from config.yaml provenance_tiers
+# layers: list[string] (required) — from config.yaml layers
+# principles_list: list[string] (required) — extracted principles with glosses
+# key_patterns: list[object] (required) — patterns this source corroborates
+#   .pattern: string — pattern ID
+#   .variant: string|null — named variant, or null
+#   .note: string — how the pattern manifests in this source
+# ic1_flags: list[object] (optional) — axiom challenges found
+#   .axiom: int — axiom number
+#   .note: string — description of the challenge
+# instruments_proposed: list[string] (optional) — instrument IDs proposed
+# instruments_produced: list[string] (optional) — instrument IDs completed
+
+entries:
+
+  - id: orwell-1984
+    file: "principles/orwell-1984.md"
+    source_name: "George Orwell"
+    source_title: "Nineteen Eighty-Four"
+    source_year: 1949
+    position: [5]
+    position_note: "fiction as analytical model"
+    provenance_tier: training_data
+    layers:
+      - thought_narrative
+      - economic
+      - legal_regulatory
+      - institutional
+      - surveillance_information
+      - physical_coercive
+    principles_list:
+      - "Newspeak (language reduction)"
+      - "Doublethink (contradictory belief)"
+      - "Memory Control (past rewriting)"
+      - "Surveillance as Self-Policing"
+      - "Inner Party Knowledge (rulers understand the system)"
+      - "Proles as Excluded"
+      - "Perpetual War as Domestic Control"
+      - "The Boot (power as end in itself)"
+    key_patterns:
+      - pattern: inversion_of_stated_purpose
+        variant: null
+        note: "Ministry of Truth/Peace/Plenty/Love"
+      - pattern: layered_redundancy
+        variant: null
+        note: "simultaneous narrative, surveillance, economic, and physical control"
+      - pattern: temporal_control
+        variant: null
+        note: "Memory Hole — rewriting the past to control the present"
+      - pattern: manufactured_scarcity
+        variant: null
+        note: "deliberate poverty maintenance despite productive capacity"
+    ic1_flags: []
+    instruments_proposed: []
+    instruments_produced: []
+
+  - id: fanon-wretched-of-the-earth
+    file: "principles/fanon-wretched-of-the-earth.md"
+    source_name: "Frantz Fanon"
+    source_title: "The Wretched of the Earth"
+    source_year: 1961
+    position: [3]
+    position_note: "revolutionary — participant in Algerian revolution"
+    provenance_tier: training_data
+    layers:
+      - thought_narrative
+      - economic
+      - legal_regulatory
+      - institutional
+      - surveillance_information
+      - physical_coercive
+    principles_list:
+      - "Violence as Constitutive"
+      - "Manichean Structure"
+      - "Nationalism to Internationalism"
+      - "National Bourgeoisie as Relay"
+      - "Psychological Reconstruction"
+      - "Lumpenproletariat"
+      - "National Consciousness Without Education"
+      - "Culture as Control and Resistance"
+      - "Spontaneity vs. Organization"
+    key_patterns:
+      - pattern: constitutive_violence
+        variant: null
+        note: "colonial violence as constitutive, not instrumental"
+      - pattern: relay_class
+        variant: null
+        note: "national bourgeoisie as indigenous relay for extraction"
+      - pattern: middle_stratum_trap
+        variant: null
+        note: "colonized middle class prevented from downward solidarity"
+      - pattern: three_phases_of_cultural_resistance
+        variant: null
+        note: "assimilation, essentialism, synthesis phases"
+    ic1_flags: []
+    instruments_proposed: []
+    instruments_produced: []
+
+  - id: stanley-how-propaganda-works
+    file: "principles/stanley-how-propaganda-works.md"
+    source_name: "Jason Stanley"
+    source_title: "How Propaganda Works"
+    source_year: 2015
+    position: [5]
+    position_note: "philosopher"
+    provenance_tier: training_data
+    layers:
+      - thought_narrative
+      - economic
+      - institutional
+    principles_list:
+      - "Undermining Propaganda (ideals weaponized against their own conditions)"
+      - "Flawed Ideology as Epistemic Closure"
+      - "Material Inequality Produces Epistemic Inequality"
+      - "Reasonableness as Exclusion"
+      - "The Sincerity Problem"
+    key_patterns:
+      - pattern: inversion_of_stated_purpose
+        variant: null
+        note: "democratic ideals weaponized against their conditions of possibility"
+      - pattern: appearance_as_structural_terrain
+        variant: null
+        note: "flawed ideology creates the epistemic environment, not just the message"
+      - pattern: division_of_learning
+        variant: null
+        note: "material inequality produces epistemic inequality"
+      - pattern: ideological_judo
+        variant: inverse
+        note: "ideals turned against themselves (inverse judo)"
+    ic1_flags:
+      - axiom: 3
+        note: "epistemic closure mechanism"
+      - axiom: 10
+        note: "sincerity challenges understanding-as-resistance"
+    instruments_proposed: []
+    instruments_produced:
+      - propaganda_typology
+
+  - id: browne-dark-matters
+    file: "principles/browne-dark-matters.md"
+    source_name: "Simone Browne"
+    source_title: "Dark Matters: On the Surveillance of Blackness"
+    source_year: 2015
+    position: [5, 2]
+    position_note: "surveillance studies scholar writing from Black diasporic intellectual tradition and lived experience"
+    provenance_tier: training_data
+    layers:
+      - surveillance_information
+      - thought_narrative
+      - physical_coercive
+      - economic
+      - institutional
+      - legal_regulatory
+    principles_list:
+      - "Racializing Surveillance"
+      - "Black Luminosity (Forced Visibility as Domination)"
+      - "Epidermalization as Biometric Modality"
+      - "Prototypical Whiteness as Design Default"
+      - "Dark Sousveillance"
+      - "Absented Presence (Constitutive Omission)"
+      - "The Security-Violence Continuum"
+    key_patterns:
+      - pattern: constitutive_violence
+        variant: null
+        note: "surveillance as continuation of slave ship logics"
+      - pattern: formal_transformation_structural_continuity
+        variant: null
+        note: "lantern laws to stop-and-frisk to biometric capture"
+      - pattern: boomerang
+        variant: null
+        note: "colonial surveillance techniques returned to metropole"
+      - pattern: division_of_learning
+        variant: null
+        note: "surveillance knowledge asymmetry along racial lines"
+      - pattern: categorical_blindness
+        variant: null
+        note: "single-axis surveillance frameworks miss racialized dimensions"
+      - pattern: hidden_transcript
+        variant: null
+        note: "dark sousveillance as counter-surveillance from below"
+      - pattern: compliance_gradient
+        variant: null
+        note: "racialized population subject to graduated compliance demands"
+      - pattern: appearance_as_structural_terrain
+        variant: null
+        note: "biometric objectivity as naturalized racial categorization"
+      - pattern: inversion_of_stated_purpose
+        variant: null
+        note: "security framing conceals racial control function"
+    ic1_flags:
+      - axiom: 3
+        note: "black luminosity — fifth mode of invisible power: forced visibility of the surveilled"
+      - axiom: 8
+        note: "absented presence — absence as constitutive, not merely significant"
+      - axiom: 10
+        note: "dark sousveillance confirms understanding-as-resistance as conditional"
+    instruments_proposed:
+      - racializing_surveillance_detection
+      - critical_biometric_consciousness
+    instruments_produced: []
+
+  # ... (26 entries total — migration script generates remaining from principles/INDEX.md)

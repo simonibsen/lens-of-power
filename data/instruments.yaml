@@ -1,0 +1,127 @@
+# ============================================================================
+# instruments.yaml — Analytical instruments
+# ============================================================================
+#
+# Each entry is an instrument (complete, partial, or proposed).
+# The prose (detection patterns, technique catalogs) stays in instruments/*.md.
+# This YAML captures derivation, layer coverage, and build status.
+
+entries:
+
+  # --- Complete instruments ---
+
+  - id: institutional_capture_playbook
+    file: "instruments/institutional-capture-playbook.md"
+    name: "Institutional Capture Playbook"
+    layers:
+      - institutional
+      - legal_regulatory
+      - economic
+    derived_from:
+      - powell-memo
+      - whitehouse-the-scheme
+      - project-2025-mandate-for-leadership
+    status: complete
+
+  - id: propaganda_typology
+    file: "instruments/propaganda-typology.md"
+    name: "Propaganda Typology"
+    layers:
+      - thought_narrative
+    derived_from:
+      - ellul-propaganda
+      - stanley-how-propaganda-works
+    status: complete
+
+  - id: logical_fallacies
+    file: "instruments/logical-fallacies.md"
+    name: "Logical Fallacies"
+    layers:
+      - thought_narrative
+    derived_from: []
+    status: complete
+
+  - id: control_hierarchy
+    file: "instruments/control-hierarchy.md"
+    name: "Control Hierarchy"
+    layers:
+      - thought_narrative
+      - economic
+      - institutional
+      - physical_coercive
+    derived_from: []
+    status: complete
+
+  - id: newspeak_checklist
+    file: "instruments/newspeak-checklist.md"
+    name: "Newspeak Checklist"
+    layers:
+      - thought_narrative
+    derived_from:
+      - orwell-1984
+    status: complete
+
+  - id: positional_lens
+    file: "instruments/positional-lens.md"
+    name: "Positional Lens"
+    layers:
+      - thought_narrative
+      - institutional
+    derived_from: []
+    status: complete
+
+  - id: circumvention_typology
+    file: "instruments/circumvention-typology.md"
+    name: "Circumvention Typology"
+    layers:
+      - thought_narrative
+      - economic
+      - institutional
+      - legal_regulatory
+      - physical_coercive
+      - surveillance_information
+    derived_from: []
+    status: complete
+
+  # --- Proposed instruments (not yet built) ---
+
+  - id: kleptocratic_infrastructure_detection
+    file: null
+    name: "Kleptocratic Infrastructure Detection"
+    layers:
+      - economic
+    derived_from:
+      - alley-very-bad-people
+    status: proposed
+    needs: "Burgis, Bullough, OCCRP investigations"
+
+  - id: racializing_surveillance_detection
+    file: null
+    name: "Racializing Surveillance Detection Protocol"
+    layers:
+      - surveillance_information
+    derived_from:
+      - browne-dark-matters
+    status: proposed
+    needs: "Benjamin (Race After Technology), Eubanks (Automating Inequality), Noble (Algorithms of Oppression)"
+
+  - id: critical_biometric_consciousness
+    file: null
+    name: "Critical Biometric Consciousness Checklist"
+    layers:
+      - surveillance_information
+    derived_from:
+      - browne-dark-matters
+    status: proposed
+    needs: "Engineering/technical sources on biometric system design"
+
+  - id: domestic_covert_action_taxonomy
+    file: null
+    name: "Domestic Covert Action Technique Taxonomy"
+    layers:
+      - physical_coercive
+      - institutional
+    derived_from:
+      - church-committee-cointelpro
+    status: proposed
+    needs: "Post-1971 covert action documentation (post-Church reforms, modern FBI)"

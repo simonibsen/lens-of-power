@@ -1,0 +1,36 @@
+# ============================================================================
+# circumventions.yaml — Observed responses to power concentration
+# ============================================================================
+#
+# Each entry is a circumvention type. Prose (statement, mechanism, outcome
+# range, failure modes) stays in circumventions.md / circumventions-detail.md.
+# This YAML captures the structural relationships.
+#
+# observed_in uses source IDs (not file paths) for consistency with other
+# YAML files. source_type indicates whether the source is a principle or
+# analysis.
+
+entries:
+
+  - id: transparency_naming
+    name: "Transparency / Naming"
+    layers:
+      - thought_narrative
+      - surveillance_information
+    counteracts:
+      - inversion_of_stated_purpose
+      - division_of_learning
+      - appearance_as_structural_terrain
+    observed_in:
+      - source_id: church-committee-cointelpro
+        source_type: principle
+      - source_id: alley-very-bad-people
+        source_type: principle
+      - source_id: snyder-on-tyranny
+        source_type: principle
+
+  # ... (10 entries total — migration script generates from circumventions.md)
+  # Remaining entries: Legal Challenge, Collective Action, Economic Alternative,
+  # Cultural Counter-Narrative, Institutional Resistance, Technological
+  # Circumvention, Decentralization, International Pressure, Electoral /
+  # Democratic Process, Everyday Resistance

@@ -1,0 +1,68 @@
+# ============================================================================
+# evidence.yaml — Evidence entry registry
+# ============================================================================
+#
+# Each entry corresponds to one evidence file in evidence/.
+# The prose (facts, quotes, significance) stays in the markdown file.
+# This YAML captures the tags and relationships for cross-referencing.
+#
+# Used by SUGGEST mode (evidence balance audit), REDTEAM mode (axiom
+# challenge tracking), and build-viewer.py (edge generation).
+#
+# evidence_source_type uses the evidence-specific enumeration from
+# config.yaml (statistic, case_study, quote, etc.), NOT the analysis
+# source type enumeration.
+
+entries:
+
+  - id: "2026-03-09-fanon-economy-of-violence-perspective-asymmetry"
+    file: "evidence/2026-03-09-fanon-economy-of-violence-perspective-asymmetry.md"
+    date: "2026-03-09"
+    source_name: "Fanon, Wretched of the Earth P1"
+    evidence_source_type: case_study
+    axioms: [9]
+    patterns:
+      - economy_of_violence
+    layers:
+      - physical_coercive
+    relationship: complicates
+
+  - id: "2026-03-09-propaganda-demand-symmetry-axiom-tension"
+    file: "evidence/2026-03-09-propaganda-demand-symmetry-axiom-tension.md"
+    date: "2026-03-09"
+    source_name: "Ellul P2, Atlantic gullicism analysis"
+    evidence_source_type: case_study
+    axioms: [5, 9]
+    patterns:
+      - structural_demand_for_propaganda
+    layers:
+      - thought_narrative
+      - institutional
+    relationship: complicates
+
+  - id: "2026-03-04-red-team-first-self-examination"
+    file: "evidence/2026-03-04-red-team-first-self-examination.md"
+    date: "2026-03-04"
+    source_name: "Framework self-examination"
+    evidence_source_type: self_examination
+    axioms: [3, 5, 7, 8, 9, 10]
+    patterns: []
+    layers: []
+    relationship: self-examination
+
+  - id: "2026-03-04-compression-scandinavian-jubilee-counter"
+    file: "evidence/2026-03-04-compression-scandinavian-jubilee-counter.md"
+    date: "2026-03-04"
+    source_name: "Scheidel (2017), Mesopotamian debt jubilees"
+    evidence_source_type: case_study
+    axioms: [5]
+    patterns:
+      - compression_through_destruction
+      - peacetime_ratchet
+    layers:
+      - economic
+      - institutional
+      - legal_regulatory
+    relationship: challenges
+
+  # ... (19 entries total — migration script generates from evidence/*.md headers)

@@ -1,0 +1,33 @@
+# ============================================================================
+# sources.yaml — Source provenance records
+# ============================================================================
+#
+# Tracks provenance tier, hashes, archive links, and extraction status
+# for sources with full provenance files in sources/.
+# The prose (extraction notes, future candidates) stays in sources/*.md.
+
+entries:
+
+  - id: project-2025
+    file: "sources/project-2025.md"
+    title: "Mandate for Leadership 2025"
+    author: "Heritage Foundation"
+    year: 2023
+    source_type: primary_document
+    hash: "sha256:ee184bb5f98d76bff6db4334ad6f2ce972757473c096ec9bb55d4f4cb71fc8ec"
+    archive_url: "https://archive.org/details/2025_MandateForLeadership_FULL"
+    extraction_status: partial
+    extraction_detail: "20 of 30 chapters"
+    future_candidates: 10
+
+  - id: church-committee-cointelpro
+    file: "sources/church-committee-cointelpro.md"
+    title: "Book III: COINTELPRO"
+    author: "Church Committee"
+    year: 1976
+    source_type: primary_document
+    hash: "sha256:e9b3cb7b857a6d73fa368399c67541340ef32a8860c8f8a71a2af50b7fdbd88d"
+    archive_url: "https://www.aarclibrary.org/publib/church/reports/book3/pdf/ChurchB3_3_COINTELPRO.pdf"
+    extraction_status: full
+    extraction_detail: "Sections I-VI, 7 principles, 10 patterns confirmed"
+    future_candidates: 0

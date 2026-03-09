@@ -1,0 +1,148 @@
+# ============================================================================
+# patterns.yaml — Pattern corroboration data
+# ============================================================================
+#
+# Each entry is a pattern. Prose definitions (statement, mechanism, notes)
+# stay in the markdown files. This YAML captures:
+#   - observed_in: the corroboration trail
+#   - counter_evidence: links to evidence entries that challenge the pattern
+#   - confidence fields: computed by tooling from observed_in + config thresholds
+#
+# --- IMPORTANT: observed_in is COMPUTED ---
+#
+# Do not hand-edit observed_in. It is a materialized view built by tooling
+# from two authoritative sources:
+#   1. analyses.yaml patterns_matched (each analysis lists its matched patterns)
+#   2. principles.yaml key_patterns (each principle source lists its key patterns)
+#
+# Both sources are structured (with note and variant fields). Tooling copies
+# all fields from the source into the observed_in entry.
+#
+# --- IMPORTANT: counter_evidence is COMPUTED ---
+#
+# Do not hand-edit counter_evidence. It is built by tooling from
+# evidence.yaml — specifically, evidence entries where relationship is
+# "challenges" or "complicates" and the pattern is in their patterns list.
+#
+# --- Confidence computation ---
+#
+# Confidence levels (ESTABLISHED, SUPPORTED, PRELIMINARY) are COMPUTED,
+# never set manually. Tooling reads observed_in counts, computes ratios
+# against the relevant corpus, and applies thresholds from config.yaml.
+#
+# "Relevant corpus" = count of (analyses + principles) whose layers overlap
+# with at least one of the pattern's layers. Evidence entries are NOT counted.
+#
+# --- Pattern ID rules ---
+#
+# IDs are snake_case with leading articles ("The", "A") stripped.
+# "The Capture Pipeline" -> capture_pipeline
+# "The Boomerang" -> boomerang
+# "Inversion of Stated Purpose" -> inversion_of_stated_purpose
+# The `name` field preserves the full display name.
+#
+# --- Field reference ---
+#
+# id: string (required) — unique identifier, see ID rules above
+# name: string (required) — display name including articles
+# file: string|null (optional) — path to pattern markdown file, null until split
+# layers: list[string] (required) — from config.yaml layers
+# circumventions: list[string] (optional) — circumvention IDs that counteract this
+# originated_by: string|null (optional) — principle ID that first proposed this pattern
+# observed_in: list[object] (COMPUTED) — see subfields below
+#   .source_id: string — analysis or principle ID
+#   .source_type: "analysis"|"principle"
+#   .variant: string|null — named variant, or null for base pattern
+#   .note: string — how pattern manifests in this source
+# counter_evidence: list[string] (COMPUTED) — evidence entry IDs
+# confidence_ratio: float|null (COMPUTED) — observed_in count / relevant corpus
+# confidence_level: string|null (COMPUTED) — ESTABLISHED | SUPPORTED | PRELIMINARY
+# relevant_corpus_size: int|null (COMPUTED) — sources sharing >= 1 layer
+
+entries:
+
+  - id: inversion_of_stated_purpose
+    name: "Inversion of Stated Purpose"
+    file: null
+    layers:
+      - institutional
+      - thought_narrative
+    circumventions:
+      - transparency_naming
+    originated_by: null                  # predates source tracking
+    observed_in:
+      - source_id: orwell-1984
+        source_type: principle
+        variant: null
+        note: "Ministry of Truth/Peace/Plenty/Love"
+      - source_id: "2026-03-01-guardian-liveblog-us-israel-iran-war"
+        source_type: analysis
+        variant: null
+        note: "Operation Epic Fury naming"
+      - source_id: "2026-02-opensecrets-report-ai-lobbying-defense-kstreet"
+        source_type: analysis
+        variant: vocabulary_capture
+        note: "AI label on existing weapons systems"
+      # ... (44 entries total — migration script populates from patterns-detail.md)
+    counter_evidence: []
+    confidence_ratio: null
+    confidence_level: null
+    relevant_corpus_size: null
+
+  - id: capture_pipeline
+    name: "The Capture Pipeline"
+    file: null
+    layers:
+      - economic
+      - institutional
+      - legal_regulatory
+    circumventions:
+      - legal_challenge
+      - transparency_naming
+    originated_by: null
+    observed_in:
+      - source_id: whitehouse-the-scheme
+        source_type: principle
+        variant: judicial_nomination
+        note: "Judicial nomination pipeline"
+      - source_id: "2026-02-opensecrets-report-ai-lobbying-defense-kstreet"
+        source_type: analysis
+        variant: ai_defence_procurement
+        note: "AI-native firms traversing lobbying-procurement pipeline"
+      # ... (migration script populates full list)
+    counter_evidence: []
+    confidence_ratio: null
+    confidence_level: null
+    relevant_corpus_size: null
+
+  - id: categorical_blindness
+    name: "Categorical Blindness"
+    file: null
+    layers:
+      - thought_narrative
+      - institutional
+      - legal_regulatory
+    circumventions: []
+    originated_by: hooks-aint-i-a-woman  # example of originated_by in use
+    observed_in: []
+    counter_evidence: []
+    confidence_ratio: null
+    confidence_level: null
+    relevant_corpus_size: null
+
+  - id: boomerang
+    name: "The Boomerang"
+    file: null
+    layers:
+      - physical_coercive
+      - institutional
+      - surveillance_information
+    circumventions: []
+    originated_by: arendt-origins-of-totalitarianism
+    observed_in: []
+    counter_evidence: []
+    confidence_ratio: null
+    confidence_level: null
+    relevant_corpus_size: null
+
+  # ... (32 entries total — migration script generates from patterns-detail.md)

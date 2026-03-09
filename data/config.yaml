@@ -1,0 +1,240 @@
+# ============================================================================
+# config.yaml — Canonical definitions, enumerations, and thresholds
+# ============================================================================
+#
+# Reference data shared by all other YAML files. Tooling validates field
+# values against the enumerations defined here. Confidence thresholds are
+# configurable — change them here, rerun the computation, done.
+#
+# This file changes rarely. When it does, it's a framework-level decision
+# (e.g., adding a new taxonomy layer, revising confidence thresholds).
+#
+# All data files must match this schema version. If a migration changes
+# the schema, bump this version and update all files together.
+#
+# --- YAML safety rules ---
+#
+# 1. Always quote date-like strings: "2026-03-08", not 2026-03-08
+#    (bare dates are parsed as datetime objects by PyYAML)
+# 2. Always quote IDs that start with digits: "2026-02-opensecrets..."
+# 3. Use null (not None, not "none") for absent values
+# 4. Use true/false (lowercase) for booleans
+# 5. When dumping YAML from Python, use yaml.dump(data, default_flow_style=False)
+
+schema_version: 1
+
+# --- Taxonomy layers ---
+# Canonical layer IDs. All layer references in other YAML files use these.
+
+layers:
+  - id: thought_narrative
+    name: "Thought & Narrative"
+  - id: economic
+    name: "Economic"
+  - id: legal_regulatory
+    name: "Legal & Regulatory"
+  - id: institutional
+    name: "Institutional"
+  - id: surveillance_information
+    name: "Surveillance & Information"
+  - id: physical_coercive
+    name: "Physical & Coercive"
+
+# --- Axioms ---
+# Canonical axiom list. Evidence and IC-1 flags reference these by number.
+
+axioms:
+  - id: 1
+    short: "Power operates across layers simultaneously"
+  - id: 2
+    short: "The layers reinforce each other"
+  - id: 3
+    short: "Power is most effective when its contingency is invisible"
+  - id: 4
+    short: "Systems outlast the individuals who create them"
+  - id: 5
+    short: "Power concentrates unless actively counteracted"
+  - id: 6
+    short: "Language is the first instrument of control"
+  - id: 7
+    short: "Stated purpose and actual function routinely diverge"
+  - id: 8
+    short: "Absence is as significant as presence"
+  - id: 9
+    short: "Compliance is manufactured, not voluntary"
+  - id: 10
+    short: "Understanding power does not automatically confer resistance"
+
+# --- Positions ---
+# Source positional lens (from instruments/positional-lens.md).
+# Sources may occupy multiple positions (hybrid). Use list format: [2, 5]
+
+positions:
+  - id: 1
+    label: "Exercising power"
+  - id: 2
+    label: "Everyday governed"
+  - id: 3
+    label: "Revolutionary / participant"
+  - id: 4
+    label: "Intermediary"
+  - id: 5
+    label: "Observer / analyst"
+
+# --- Domains ---
+# Canonical domain taxonomy for analyses. Used by SUGGEST mode to detect
+# clustering and blind spots. Prefer existing domains; add new only when
+# no existing domain covers the material's primary subject.
+
+domains:
+  - id: us_foreign_policy
+    description: "US military operations, diplomacy, war powers"
+  - id: military
+    description: "Defence procurement, missile systems, military institutions"
+  - id: platform_governance
+    description: "Social media policy, content moderation, platform power"
+  - id: surveillance_capitalism
+    description: "Data extraction, behavioral surplus, platform economics"
+  - id: domestic_policy
+    description: "Immigration enforcement, executive actions, federal agencies"
+  - id: institutional_capture
+    description: "Dark money, donor networks, revolving doors, regulatory capture"
+  - id: ai_policy
+    description: "AI regulation, lobbying, procurement, governance"
+  - id: media_consolidation
+    description: "Media ownership, editorial capture, information environment"
+  - id: energy_economics
+    description: "Oil, gas, energy markets, resource extraction"
+  - id: press_freedom
+    description: "Journalist detention, press restrictions, information control"
+  - id: information_warfare
+    description: "State-sponsored influence operations, AI-generated content"
+  - id: policing
+    description: "Police accountability, civilian oversight, criminal justice"
+  - id: local_governance
+    description: "Municipal government, city councils, local administration"
+  - id: privacy_regulation
+    description: "Data protection, enforcement, youth privacy"
+  - id: healthcare_policy
+    description: "Medicaid, healthcare access, public health"
+  - id: campaign_finance
+    description: "PAC spending, lobbying, political donations"
+  - id: labour
+    description: "Trade unions, worker organizing, employment"
+  - id: education
+    description: "Curriculum, institutional messaging, education policy"
+  - id: environment
+    description: "Climate, environmental regulation, resource management"
+  - id: housing
+    description: "Land use, housing policy, displacement"
+  - id: postcolonial
+    description: "Reparations, decolonization, post-independence governance"
+  - id: financial_regulation
+    description: "Banking, securities, financial system governance"
+  - id: geopolitics
+    description: "Trade, sanctions, energy, international relations"
+  - id: military_occupation
+    description: "Settlement, territorial control, occupied populations"
+  - id: ethics_disclosure
+    description: "Financial disclosures, conflicts of interest, ethics enforcement"
+  - id: war_powers
+    description: "Constitutional war authority, congressional oversight"
+  - id: sovereign_wealth
+    description: "State investment vehicles, normative economic influence"
+
+# --- Confidence thresholds ---
+# Govern how confidence levels are computed from observed_in counts.
+# Current thresholds are absolute; future versions may be relative.
+#
+# "Relevant corpus" is defined as: the count of analyses + principles
+# (entries in analyses.yaml + principles.yaml) whose layers overlap with
+# at least one of the pattern's layers. Evidence entries are NOT counted
+# in the corpus — they are supplementary, not primary observations.
+
+confidence_thresholds:
+  preliminary:
+    min_sources: 0
+    min_ratio: 0.0
+  supported:
+    min_sources: 3
+    min_ratio: 0.10
+  established:
+    min_sources: 5
+    min_ratio: 0.20
+    requires_no_unresolved_counter: true
+
+# ============================================================================
+# Enumerations
+# ============================================================================
+# Canonical values for categorical fields. Tooling validates against these.
+
+# Source types for analyses (what kind of material was analyzed)
+analysis_source_types:
+  - news_article
+  - investigation
+  - investigative_data
+  - policy_brief
+  - live_blog
+  - wire_story
+  - academic_paper
+  - government_document
+  - government_minutes
+  - report
+  - database
+  - essay
+  - encyclopedia
+  - military_press_release
+  - research
+
+# Source types for evidence entries (what kind of evidence it is)
+evidence_source_types:
+  - statistic
+  - case_study
+  - quote
+  - document
+  - event
+  - data
+  - self_examination
+
+# Provenance tiers for principle sources and source records
+provenance_tiers:
+  - primary_document     # SHA-256 hash + archive links + verbatim quotes
+  - url                  # archive link + excerpts
+  - training_data        # reconstructed from LLM training, unverified
+
+null_case_outcomes:
+  - accepted
+  - plausible
+  - rejected
+
+finding_statuses:
+  - observed
+  - inferred
+  - speculative
+
+relationship_types:
+  - supports
+  - challenges
+  - complicates
+  - self-examination
+
+instrument_statuses:
+  - complete
+  - partial
+  - proposed
+
+extraction_statuses:
+  - full
+  - partial
+  - pending
+
+# escalation_types: null (no escalation) or one of:
+escalation_types:
+  - analyze
+  - extract
+
+# --- Pattern ID rules ---
+# Pattern IDs are snake_case with leading articles stripped.
+# "The Capture Pipeline" -> capture_pipeline
+# "The Boomerang" -> boomerang
+# The `name` field preserves the display name with articles.
