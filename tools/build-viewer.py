@@ -689,41 +689,31 @@ def compute_corroboration(nodes, edges):
 
 
 def sync_corroboration_to_markdown(nodes):
-    """Write computed corroboration values back to patterns.md and patterns-detail.md."""
+    """Write computed corroboration values back to patterns/INDEX.md."""
     patterns = [n for n in nodes if n["type"] == "pattern"]
 
-    for md_path in [ROOT / "patterns.md", ROOT / "patterns-detail.md"]:
-        if not md_path.exists():
-            continue
-        text = md_path.read_text(encoding="utf-8")
-        changed = False
-        for p in patterns:
-            name = p["title"]
-            new_corr = p["meta"]["corroboration"]
-            # Find the CORROBORATION line for this pattern.
-            # Match from the heading to the CORROBORATION field, then capture
-            # everything on the CORROBORATION line (may wrap onto next line
-            # before the next blank line or field).
-            pat = re.compile(
-                r"(### " + re.escape(name) + r".*?CORROBORATION:\s*)"
-                r"(.+?)(?=\n\n|\n[A-Z][A-Z _]+:|\n### |\Z)",
-                re.DOTALL,
-            )
-            m = pat.search(text)
-            if m:
-                old_val = m.group(2).strip()
-                # Preserve counter-evidence annotations
-                counter_note = ""
-                counter_m = re.search(r"(\+\s*.+?counter.+?)$", old_val, re.IGNORECASE | re.DOTALL)
-                if counter_m:
-                    counter_note = " " + counter_m.group(1).strip()
-                new_line = new_corr + counter_note
-                if old_val != new_line:
-                    text = text[:m.start(2)] + new_line + text[m.end(2):]
-                    changed = True
-        if changed:
-            md_path.write_text(text, encoding="utf-8")
-            print(f"Updated corroboration in {md_path.name}")
+    index_path = ROOT / "patterns" / "INDEX.md"
+    if not index_path.exists():
+        return
+    text = index_path.read_text(encoding="utf-8")
+    changed = False
+    for p in patterns:
+        name = p["title"]
+        new_corr = p["meta"]["corroboration"]
+        pat = re.compile(
+            r"(## \[" + re.escape(name) + r"\].*?CONFIDENCE:\s*)"
+            r"(.+?)(?=\n\n|\n[A-Z][A-Z _]+:|\n## |\Z)",
+            re.DOTALL,
+        )
+        m = pat.search(text)
+        if m:
+            old_val = m.group(2).strip()
+            if old_val != new_corr:
+                text = text[:m.start(2)] + new_corr + text[m.end(2):]
+                changed = True
+    if changed:
+        index_path.write_text(text, encoding="utf-8")
+        print(f"Updated corroboration in patterns/INDEX.md")
 
 
 # ---------------------------------------------------------------------------
@@ -883,14 +873,15 @@ def build():
     instruments_yaml = load_yaml("instruments.yaml")
     calibration_yaml = load_yaml("calibration.yaml")
 
-    # --- Patterns (from YAML + patterns.md content) ---
-    patterns_md = ROOT / "patterns.md"
+    # --- Patterns (from YAML + patterns/*.md content) ---
     pattern_content_map = {}
-    if patterns_md.exists():
-        parts = re.split(r"^### ", read_file(patterns_md), flags=re.MULTILINE)
-        for part in parts[1:]:
-            name = part.split("\n")[0].strip()
-            pattern_content_map[name] = "### " + part.strip()
+    patterns_dir = ROOT / "patterns"
+    for entry in patterns_yaml.get("entries", []):
+        pfile = entry.get("file")
+        if pfile:
+            ppath = ROOT / pfile
+            if ppath.exists():
+                pattern_content_map[entry["name"]] = read_file(ppath)
 
     for entry in patterns_yaml.get("entries", []):
         pid = "pattern:" + entry["name"]

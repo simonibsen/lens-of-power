@@ -82,7 +82,7 @@ manufactured consent, dependency creation — recur across eras, cultures, and
 political systems. The surface forms differ. The structures rhyme.
 
 > DIRECTIVE: Ask: "What known pattern does this echo?" Cross-reference
-> `patterns.md` and `principles/` for structural parallels.
+> `patterns/INDEX.md` and `principles/` for structural parallels.
 
 ### 5. Power concentrates unless actively counteracted
 
@@ -304,7 +304,7 @@ This framework is only useful if it evolves. A static framework
 becomes a dogma. The following maintenance obligations apply:
 
 **After every analysis or extraction**:
-- If new patterns were identified, add them to `patterns.md`
+- If new patterns were identified, add them to `patterns/`
 - If evidence was found that supports or challenges an axiom, record
   it in `evidence/`
 - If a new mechanism of control was identified, check whether it
@@ -315,7 +315,7 @@ becomes a dogma. The following maintenance obligations apply:
   types, new modes of operation), update `README.md` to reflect it
 
 **Periodically (suggested: monthly or after every 10 analyses)**:
-- Review `patterns.md` — promote patterns observed in 3+ independent
+- Review `patterns/INDEX.md` — promote patterns observed in 3+ independent
   contexts from MEDIUM to HIGH confidence
 - Review `evidence/` — check the balance of supporting vs. challenging
   evidence for each axiom

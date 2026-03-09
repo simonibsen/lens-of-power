@@ -8,8 +8,8 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `constitution.md` — Foundational axioms about how power operates
 - `taxonomy.md` — The layers of power (thought, economic, legal, institutional, surveillance, physical)
 - `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM, SUGGEST, SAMPLE modes)
-- `patterns.md` — Compact pattern definitions (always loaded)
-- `patterns-detail.md` — Full evidence trails per pattern (loaded for audits)
+- `patterns/INDEX.md` — Compact pattern lookup table (always loaded)
+- `patterns/` — Individual pattern files with full evidence trails (loaded selectively)
 - `circumventions.md` — Observed responses to power concentration (always loaded)
 - `circumventions-detail.md` — Full evidence trails per circumvention (loaded for audits)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
@@ -36,11 +36,10 @@ Use the `/lop` skill to apply this framework:
 - `/lop sample` — Randomly select material and run a calibration read
 
 When working in this project, always load `constitution.md`, `taxonomy.md`,
-`methodology.md`, `patterns.md`, `circumventions.md`, and `principles/INDEX.md`
-as context for any analytical work. Load `patterns-detail.md` and
-`circumventions-detail.md` for audits and red team reviews. Load individual
-`principles/*.md` files only when deep comparison with a specific source
-is needed.
+`methodology.md`, `patterns/INDEX.md`, `circumventions.md`, and `principles/INDEX.md`
+as context for any analytical work. Load `circumventions-detail.md` for
+circumvention audits. Load individual `patterns/*.md` or `principles/*.md`
+files when detailed evidence trails or deep source comparison is needed.
 
 ## Conventions
 
@@ -48,7 +47,7 @@ is needed.
 - Tag everything (axioms, layers, patterns) so content can be cross-referenced
 - Evidence entries use the format defined in `evidence/README.md`
 - Principles use the format defined in the EXTRACT mode section of `methodology.md`
-- Patterns use the format defined in `patterns.md`
+- Patterns use the format defined in `patterns/INDEX.md` and individual `patterns/*.md` files
 - Instruments use the format defined in the EXTRACT mode Step 4 of `methodology.md`
 - Sources use the provenance format defined in the Source provenance section of `methodology.md`
 - Maintain integrity constraints (IC-1, IC-2, IC-3, IC-4) as defined in `constitution.md`

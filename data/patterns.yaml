@@ -58,11 +58,10 @@
 # confidence_ratio: float|null (COMPUTED) — observed_in count / relevant corpus
 # confidence_level: string|null (COMPUTED) — ESTABLISHED | SUPPORTED | PRELIMINARY
 # relevant_corpus_size: int|null (COMPUTED) — sources sharing >= 1 layer
-
 entries:
 - id: inversion_of_stated_purpose
   name: Inversion of Stated Purpose
-  file: null
+  file: patterns/inversion-of-stated-purpose.md
   layers:
   - thought_narrative
   - institutional
@@ -250,7 +249,7 @@ entries:
   relevant_corpus_size: 46
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
-  file: null
+  file: patterns/layered-redundancy-of-control.md
   layers:
   - thought_narrative
   - economic
@@ -351,7 +350,7 @@ entries:
   relevant_corpus_size: 48
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
-  file: null
+  file: patterns/perpetual-threat-as-perpetual-justification.md
   layers:
   - thought_narrative
   - economic
@@ -385,7 +384,7 @@ entries:
   relevant_corpus_size: 48
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
-  file: null
+  file: patterns/manufactured-scarcity-as-control.md
   layers:
   - thought_narrative
   - economic
@@ -475,7 +474,7 @@ entries:
   relevant_corpus_size: 48
 - id: temporal_control
   name: Temporal Control
-  file: null
+  file: patterns/temporal-control.md
   layers:
   - thought_narrative
   - institutional
@@ -501,7 +500,7 @@ entries:
   relevant_corpus_size: 47
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
-  file: null
+  file: patterns/middle-stratum-trap.md
   layers:
   - thought_narrative
   - economic
@@ -549,7 +548,7 @@ entries:
   relevant_corpus_size: 48
 - id: economy_of_violence
   name: The Economy of Violence
-  file: null
+  file: patterns/economy-of-violence.md
   layers:
   - thought_narrative
   - physical_coercive
@@ -578,7 +577,7 @@ entries:
   relevant_corpus_size: 42
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
-  file: null
+  file: patterns/appearance-as-structural-terrain.md
   layers:
   - thought_narrative
   - institutional
@@ -735,7 +734,7 @@ entries:
   relevant_corpus_size: 46
 - id: hidden_transcript
   name: The Hidden Transcript
-  file: null
+  file: patterns/hidden-transcript.md
   layers:
   - thought_narrative
   - surveillance_information
@@ -784,7 +783,7 @@ entries:
   relevant_corpus_size: 42
 - id: compliance_gradient
   name: The Compliance Gradient
-  file: null
+  file: patterns/compliance-gradient.md
   layers:
   - thought_narrative
   - economic
@@ -826,7 +825,7 @@ entries:
   relevant_corpus_size: 48
 - id: ideological_judo
   name: Ideological Judo
-  file: null
+  file: patterns/ideological-judo.md
   layers:
   - thought_narrative
   - economic
@@ -866,7 +865,7 @@ entries:
   relevant_corpus_size: 48
 - id: double_performance
   name: The Double Performance
-  file: null
+  file: patterns/double-performance.md
   layers:
   - thought_narrative
   - institutional
@@ -911,7 +910,7 @@ entries:
   relevant_corpus_size: 47
 - id: relay_class
   name: The Relay Class
-  file: null
+  file: patterns/relay-class.md
   layers:
   - thought_narrative
   - economic
@@ -953,7 +952,7 @@ entries:
   relevant_corpus_size: 48
 - id: constitutive_violence
   name: Constitutive Violence
-  file: null
+  file: patterns/constitutive-violence.md
   layers:
   - thought_narrative
   - economic
@@ -1032,7 +1031,7 @@ entries:
   relevant_corpus_size: 48
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
-  file: null
+  file: patterns/three-phases-of-cultural-resistance.md
   layers:
   - thought_narrative
   - institutional
@@ -1066,7 +1065,7 @@ entries:
   relevant_corpus_size: 46
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
-  file: null
+  file: patterns/real-time-narrative-saturation.md
   layers:
   - thought_narrative
   - surveillance_information
@@ -1108,7 +1107,7 @@ entries:
   relevant_corpus_size: 42
 - id: serial_regime_change
   name: Serial Regime Change
-  file: null
+  file: patterns/serial-regime-change.md
   layers:
   - thought_narrative
   - institutional
@@ -1137,7 +1136,7 @@ entries:
   relevant_corpus_size: 47
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
-  file: null
+  file: patterns/unprecedented-as-sanctuary.md
   layers:
   - thought_narrative
   - legal_regulatory
@@ -1167,7 +1166,7 @@ entries:
   relevant_corpus_size: 47
 - id: dispossession_cycle
   name: The Dispossession Cycle
-  file: null
+  file: patterns/dispossession-cycle.md
   layers:
   - thought_narrative
   - institutional
@@ -1226,7 +1225,7 @@ entries:
   relevant_corpus_size: 47
 - id: division_of_learning
   name: The Division of Learning
-  file: null
+  file: patterns/division-of-learning.md
   layers:
   - economic
   - institutional
@@ -1291,7 +1290,7 @@ entries:
   relevant_corpus_size: 48
 - id: anticipatory_obedience
   name: Anticipatory Obedience
-  file: null
+  file: patterns/anticipatory-obedience.md
   layers:
   - thought_narrative
   - institutional
@@ -1337,7 +1336,7 @@ entries:
   relevant_corpus_size: 46
 - id: institutional_abdication
   name: Institutional Abdication
-  file: null
+  file: patterns/institutional-abdication.md
   layers:
   - legal_regulatory
   - institutional
@@ -1378,7 +1377,7 @@ entries:
   relevant_corpus_size: 44
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
-  file: null
+  file: patterns/peacetime-ratchet.md
   layers:
   - economic
   - legal_regulatory
@@ -1469,7 +1468,7 @@ entries:
   relevant_corpus_size: 48
 - id: compression_through_destruction
   name: Compression Through Destruction
-  file: null
+  file: patterns/compression-through-destruction.md
   layers:
   - economic
   - institutional
@@ -1502,7 +1501,7 @@ entries:
   relevant_corpus_size: 48
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
-  file: null
+  file: patterns/wealth-defense-industry.md
   layers:
   - economic
   - legal_regulatory
@@ -1568,7 +1567,7 @@ entries:
   relevant_corpus_size: 48
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
-  file: null
+  file: patterns/democracy-oligarchy-coexistence.md
   layers:
   - thought_narrative
   - economic
@@ -1618,7 +1617,7 @@ entries:
   relevant_corpus_size: 48
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
-  file: null
+  file: patterns/moral-infrastructure-of-economic-power.md
   layers:
   - thought_narrative
   - economic
@@ -1659,7 +1658,7 @@ entries:
   relevant_corpus_size: 48
 - id: capture_pipeline
   name: The Capture Pipeline
-  file: null
+  file: patterns/capture-pipeline.md
   layers:
   - economic
   - legal_regulatory
@@ -1712,7 +1711,7 @@ entries:
   relevant_corpus_size: 48
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
-  file: null
+  file: patterns/formal-transformation-structural-continuity.md
   layers:
   - thought_narrative
   - economic
@@ -1765,7 +1764,7 @@ entries:
   relevant_corpus_size: 48
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
-  file: null
+  file: patterns/structural-demand-for-propaganda.md
   layers:
   - thought_narrative
   - institutional
@@ -1797,7 +1796,7 @@ entries:
   relevant_corpus_size: 47
 - id: categorical_blindness
   name: Categorical Blindness
-  file: null
+  file: patterns/categorical-blindness.md
   layers:
   - thought_narrative
   - surveillance_information
@@ -1827,7 +1826,7 @@ entries:
   relevant_corpus_size: 42
 - id: boomerang
   name: The Boomerang
-  file: null
+  file: patterns/boomerang.md
   layers:
   - legal_regulatory
   - institutional

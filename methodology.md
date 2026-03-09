@@ -64,14 +64,14 @@ updates. Does not write to file unless the user asks.
 
 **Procedure**:
 
-1. Load the framework context: `constitution.md`, `taxonomy.md`, `patterns.md`,
+1. Load the framework context: `constitution.md`, `taxonomy.md`, `patterns/INDEX.md`,
    `circumventions.md`, `principles/INDEX.md`. Load instruments only if they
    become relevant during the reading — do not load all instruments by default.
 
 2. Read the material. Produce a prose analysis that:
 
    - Identifies which layers of power are active and how they interact
-   - Names which patterns from `patterns.md` appear and why
+   - Names which patterns from `patterns/INDEX.md` appear and why
    - Draws on principles from `principles/INDEX.md` where they illuminate
      the material
    - Notes what is absent — missing voices, unasked questions, layers that
@@ -374,7 +374,7 @@ Position this material relative to existing knowledge in the framework.
 
 **Do this**:
 - Does this confirm, contradict, or extend existing principles in `principles/`?
-- Does this match known patterns in `patterns.md`?
+- Does this match known patterns in `patterns/INDEX.md`?
 - Which layers from `taxonomy.md` are active in the material?
 - Which layers are *structurally relevant but absent from the source*?
   A layer is "active but absent" when the analyst can identify its
@@ -416,7 +416,7 @@ Find non-obvious connections to other domains, eras, or works.
 **Output format**:
 ```
 ECHOES: [connections to other domains, historical parallels]
-PATTERN MATCH: [which known patterns from patterns.md appear here]
+PATTERN MATCH: [which known patterns from patterns/INDEX.md appear here]
 NEW PATTERN: [any new cross-cutting pattern this suggests]
 ```
 
@@ -519,7 +519,7 @@ Determine the implications and next actions.
 IMPLICATIONS: [what follows from this analysis]
 WATCH: [what to monitor going forward]
 INVESTIGATE: [threads worth pulling]
-FRAMEWORK UPDATE: [any additions to patterns.md or refinements to suggest]
+FRAMEWORK UPDATE: [any additions to patterns/ or refinements to suggest]
 CIRCUMVENTIONS: [any circumvention types observed — type, outcome, failure modes]
 MADE VISIBLE: [what this analysis reveals that was previously hidden]
 ```
@@ -646,7 +646,7 @@ PRINCIPLES REFERENCED:
 - [principle ID and title] (principles/[filename].md) — [how it applies]
 
 PATTERNS MATCHED:
-- [pattern name] (patterns.md) — [corroboration level] — [how it appears here]
+- [pattern name] (patterns/INDEX.md) — [corroboration level] — [how it appears here]
 
 PATTERNS NOT MATCHED:
 - [any patterns explicitly considered and found inapplicable — optional
@@ -663,10 +663,10 @@ explanation fits the evidence as well as the power explanation, say so.
 After writing an analysis file, update these framework files:
 
 1. **`analyses/INDEX.md`** — add an entry for the new analysis
-2. **`patterns.md`** — update corroboration counts for confirmed patterns
-3. **`patterns-detail.md`** — add OBSERVED IN entries with analytical notes
-4. **Counter-evidence filing check** — scan the analysis and any
-   patterns-detail.md notes written during this session for IC-1 flags,
+2. **`patterns/*.md`** — add OBSERVED IN entries with analytical notes to the
+   relevant pattern files; corroboration counts are computed by tooling
+3. **Counter-evidence filing check** — scan the analysis and any
+   pattern file notes written during this session for IC-1 flags,
    counter-perspectives, or axiom challenges. If any exist, file them as
    evidence entries in `evidence/` with the appropriate RELATIONSHIP tag
    (`challenges` or `complicates`). Counter-evidence noted but not filed
@@ -760,7 +760,7 @@ STATUS: observed / inferred / speculative
 Look for patterns that recur within the work or connect to existing patterns.
 
 **Do this**:
-- Cross-reference with `patterns.md` — does this work illustrate known patterns?
+- Cross-reference with `patterns/INDEX.md` — does this work illustrate known patterns?
 - Does it reveal new cross-layer patterns not yet documented?
 - What mechanisms does the work show operating across multiple layers?
 - If the source describes resistance or counterforce mechanisms, check
@@ -917,13 +917,13 @@ working notes to be discarded.
 After writing extraction outputs, update these framework files:
 
 1. **`principles/INDEX.md`** — add or update the source entry
-2. **`patterns.md`** — update corroboration counts for confirmed patterns
-3. **`patterns-detail.md`** — add OBSERVED IN entries with analytical notes
-4. **`sources/*.md`** — if a source record exists, update its Related files
+2. **`patterns/*.md`** — add OBSERVED IN entries with analytical notes to the
+   relevant pattern files; corroboration counts are computed by tooling
+3. **`sources/*.md`** — if a source record exists, update its Related files
    section and change extraction status from `(pending)` to complete
-5. **`sources/INDEX.md`** — update extraction status if changed
-6. **Counter-evidence filing check** — scan the extraction outputs and
-   any patterns-detail.md notes for IC-1 flags, counter-perspectives,
+4. **`sources/INDEX.md`** — update extraction status if changed
+5. **Counter-evidence filing check** — scan the extraction outputs and
+   any pattern file notes for IC-1 flags, counter-perspectives,
    or axiom challenges. If any exist, file them as evidence entries in
    `evidence/` with the appropriate RELATIONSHIP tag (`challenges` or
    `complicates`). Counter-evidence noted but not filed is an IC-1
@@ -1183,10 +1183,10 @@ UNFILED COUNTER-EVIDENCE: [any noted but not recorded]
 Identify patterns needing corroboration or challenge.
 
 **Do this**:
-- Read `patterns.md` for PRELIMINARY patterns
+- Read `patterns/INDEX.md` for PRELIMINARY patterns
 - For each, identify what material types or domains would corroborate
   or challenge it
-- Check whether counter-evidence is noted in `patterns-detail.md` but
+- Check whether counter-evidence is noted in individual pattern files but
   not filed in `evidence/`
 
 **Output format**:
@@ -1568,7 +1568,7 @@ been verified against a physical copy.
     with a hyperlink to its definition in the repository. Example:
     ```
     **Framework references**
-    - Compliance Gradient: [patterns.md](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-compliance-gradient)
+    - Compliance Gradient: [patterns/compliance-gradient.md](https://github.com/simonibsen/lens-of-power/blob/main/patterns/compliance-gradient.md)
     - Axiom 9: [constitution.md](https://github.com/simonibsen/lens-of-power/blob/main/constitution.md#9-compliance-can-be-manufactured-without-explicit-coercion)
     ```
   - This applies to patterns, axioms, principles, instruments, and
@@ -1612,8 +1612,8 @@ been verified against a physical copy.
   corpus AND no unresolved counter-evidence). The relevant corpus is
   sources sharing at least one taxonomy layer with the pattern.
   Corroboration levels are computed by the build script
-  (`tools/build-viewer.py`) and written back to `patterns.md` and
-  `patterns-detail.md`. The analyst does not need to compute levels
+  (`tools/build-viewer.py`) and written back to `patterns/INDEX.md`.
+  The analyst does not need to compute levels
   manually — the build script handles it after each commit.
 - **Circumvention register**: When documenting circumventions or
   resistance, use observational language: "has been observed to" (not

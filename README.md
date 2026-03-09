@@ -116,7 +116,7 @@ Load these files as context, then follow the procedure in `methodology.md`:
 1. `constitution.md` — axioms and integrity constraints
 2. `taxonomy.md` — the six layers of power
 3. `methodology.md` — the analytical procedure
-4. `patterns.md` — compact pattern definitions
+4. `patterns/INDEX.md` — compact pattern lookup table
 5. `circumventions.md` — observed responses to power concentration
 6. `principles/INDEX.md` — compact principles lookup table
 
@@ -315,7 +315,8 @@ may not generalize), SUPPORTED (confirmed across meaningfully independent
 contexts), ESTABLISHED (confirmed across multiple independent contexts
 with no unresolved counter-evidence). Ratings are qualitative — justified
 by the independence and diversity of confirming sources, not by counting
-to a threshold. They live in `patterns.md`.
+to a threshold. They live in `patterns/INDEX.md`, with full evidence
+trails in individual `patterns/*.md` files.
 
 *Example*: The Middle Stratum Trap — "The middle tier of a power hierarchy
 is the most heavily controlled because it is the most capable of organizing
@@ -675,7 +676,7 @@ and recommended adjustments.
 **Input**: None — scans the framework itself.
 
 **What it does**: Reads `analyses/INDEX.md`, scans `evidence/`,
-`patterns.md`, `principles/INDEX.md`, `sources/`, and `instruments/` to
+`patterns/INDEX.md`, `principles/INDEX.md`, `sources/`, and `instruments/` to
 assess the current state of the framework. Checks for clustering by
 domain, layer, or source type. Evaluates adversarial input ratio, null
 case distribution, evidence balance, and red team timing. Searches the
@@ -751,8 +752,9 @@ lens-of-power/
 ├── constitution.md          Foundational axioms (10) and integrity constraints (IC-1 through IC-5)
 ├── taxonomy.md              The six layers of power and their mechanisms
 ├── methodology.md           Analytical procedures and output formats (6 modes)
-├── patterns.md              Compact pattern definitions (always loaded)
-├── patterns-detail.md       Full evidence trails per pattern (loaded for audits)
+├── patterns/
+│   ├── INDEX.md             Compact pattern lookup table (always loaded)
+│   └── *.md                 Individual pattern files with evidence trails
 ├── circumventions.md        Observed responses to power concentration (always loaded)
 ├── circumventions-detail.md Full evidence trails per circumvention (loaded for audits)
 ├── instruments/             Imported analytical tools (7 instruments)
@@ -846,8 +848,8 @@ Each file has a single, well-defined responsibility:
 | `constitution.md` | What to look for (axioms) | Configuration / constants |
 | `taxonomy.md` | Domain model (the six layers) | Type definitions / schema |
 | `methodology.md` | How to process (procedures) | Business logic / pipeline |
-| `patterns.md` | Compact pattern definitions | Index / materialized view |
-| `patterns-detail.md` | Full evidence trails | Database / knowledge store |
+| `patterns/INDEX.md` | Compact pattern lookup table | Index / materialized view |
+| `patterns/*.md` | Individual pattern files with evidence trails | Database / knowledge store |
 | `circumventions.md` | Observed counterforce types | Counterforce index |
 | `circumventions-detail.md` | Full counterforce evidence | Counterforce store |
 | `instruments/` | Pluggable detection tools | Plugin modules |
