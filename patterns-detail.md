@@ -1083,6 +1083,15 @@ extraction outward: the January 2025 Terms of Service extend content licensing t
 private messages and AI training with opt-out denial; previously posted content
 retroactively subject to new terms; non-users bound through shared links; each cycle
 provokes brief resistance then habituation, establishing a new baseline for the next
+
+NOTE: [analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md) identifies a
+commercial epistemic variant: distrust of institutions creates demand for alternative
+products (supplements, crypto, sports betting) → vendors deepen distrust to sustain
+demand → deeper distrust creates further demand. The ratcheting structure is identical
+to the data-extraction cycle but operates through epistemic channels rather than
+surveillance channels. Each completed cycle (institution fails → distrust deepens →
+commercial exploitation → further institutional delegitimation) ratchets the baseline
+of distrust outward.
 incursion)
 
 EVIDENCE: —
@@ -1349,6 +1358,15 @@ each invocation appears. The institution does not merely fail to act; it produce
 arguments for why its own mechanism should not exist. Distinct from all prior variants:
 the institution actively reasons its way out of its structural role through constitutional
 reinterpretation, procedural fatigue, and delegitimization of oversight frequency.)
+
+NOTE: CDC vaccine-autism language capitulation ([The Atlantic, March 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md))
+provides a ninth variant: *public health abdication under political pressure*. The CDC
+— whose stated function is protecting public health — has been forced to state that
+"Studies have not ruled out the possibility that infant vaccines cause autism." This
+is not a scientific conclusion; it is institutional capitulation. The consequence is
+measurable: 3,200+ measles cases and at least two child deaths in a country that had
+eliminated the disease 26 years ago. The institution persists in form while its
+communications now actively undermine its function.
 
 NOTE: Church Committee COINTELPRO (1976) — both the oversight mechanism
 (Inspection Division evaluating effectiveness not propriety: "There was no
@@ -1676,6 +1694,17 @@ a single vehicle). The richest 1% receive tax cuts exceeding $50,000/year; the a
 across all filers is $611. CBO publishes the distributional analysis; the bill is public;
 the mechanism operates through democratic procedure, not around it.
 
+NOTE: AI lobbying data ([OpenSecrets, February 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md))
+quantifies the pattern in the AI policy domain. The lobbying system is formally democratic:
+transparent disclosures, public filings, open legislative process. The substance is
+oligarchic: Lockheed Martin's $15.7M vs. the Disability Rights Education & Defense Fund's
+$50K — a 314:1 spending ratio. AI-active firms in health and FIRE sectors reported $503M
+in combined lobbying expenditures in 2025. Both the democratic form (disclosure) and the
+oligarchic substance (resource asymmetry) are visible in the same dataset. Combined with
+the Data & Society policy output and NC-04 campaign finance data, three independent
+sources document the pattern operating across lobbying, electoral, and policy channels
+simultaneously.
+
 CORROBORATION: ESTABLISHED (15 of 48 relevant sources, 31%)
 
 CIRCUMVENTIONS:
@@ -1827,6 +1856,17 @@ This is the Capture Pipeline operating through the Thought & Narrative layer:
 the Bureau selects cooperative journalists (personnel), provides content
 (installation), and the resulting published articles appear as independent
 journalism (outcome). Seventh documented domain: intelligence-media capture.
+
+NOTE: OpenSecrets AI lobbying data ([February 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md))
+documents AI-native defence firms traversing the pipeline in real time. Applied
+Intuition's lobbying spend jumped 65% in one year ($550K to $910K), targeting Armed
+Services and Appropriations committees to secure pilot programmes and contract access.
+The pipeline sequence: technology → lobbying → committee access → pilot programme →
+appropriations → incumbency. Combined with the Data & Society policy output ($8.9B Intel
+equity, NEPA bypasses) and NC-04 campaign finance (AI PAC spending in Congressional
+primaries), three independent sources document a multi-channel influence architecture
+matching Powell's P2 prescription. Eighth documented domain: AI-defence procurement
+capture through lobbying.
 
 CORROBORATION: SUPPORTED (7 of 48 relevant sources, 15%)
 
@@ -1986,7 +2026,14 @@ conditions for critical distance.
 OBSERVED IN: [principles/ellul-propaganda.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/ellul-propaganda.md) P2 (the propagandee's need — the governed
 actively seek propaganda to cope with the anxiety and complexity of technological society;
 the demand side drives the supply side; the intellectual who reads five newspapers is more
-propagandized than the peasant who reads nothing)
+propagandized than the peasant who reads nothing),
+[analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md) (the demand side documented
+in real time: "gullicists" actively seek conspiracy narratives for certainty, identity,
+self-esteem, and "the feeling that consumers can prove they're smarter than those snooty
+experts." The "One True Reason" syndrome — autism → vaccines, no housing → immigrants — is
+the demand for cognitive economy Ellul describes. The article documents the commercial
+infrastructure that has emerged to serve this demand: supplements, crypto, sports betting,
+all sold on the basis of rejecting expert validation)
 
 NOTE: This pattern challenges the framework's implicit model of power as asymmetric
 imposition (Axioms 5, 9). While power is asymmetric in its *distribution* of benefits,
@@ -2007,7 +2054,7 @@ structural effect converges.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 47 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (2 of 47 relevant sources, 4%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information

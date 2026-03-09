@@ -343,7 +343,7 @@ STATEMENT: Propaganda persists not because it is imposed but because it is struc
 
 MECHANISM: Governors need propaganda because coercion is expensive and consent is cheap. The governed need propaganda because complexity is overwhelming and certainty is psychologically necessary. This dual demand makes propaganda self-reinforcing: exposure increases the need for more exposure. Education and information access increase susceptibility rather than providing immunity because they increase exposure and the opinion imperative.
 
-CORROBORATION: PRELIMINARY (1 of 47 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (2 of 47 relevant sources, 4%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information

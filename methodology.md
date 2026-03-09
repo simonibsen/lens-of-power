@@ -658,6 +658,27 @@ PATTERNS NOT MATCHED:
 Required by IC-2. Assess the non-power explanation. If the null
 explanation fits the evidence as well as the power explanation, say so.
 
+#### Post-analysis framework updates (required)
+
+After writing an analysis file, update these framework files:
+
+1. **`analyses/INDEX.md`** — add an entry for the new analysis
+2. **`patterns.md`** — update corroboration counts for confirmed patterns
+3. **`patterns-detail.md`** — add OBSERVED IN entries with analytical notes
+4. **Counter-evidence filing check** — scan the analysis and any
+   patterns-detail.md notes written during this session for IC-1 flags,
+   counter-perspectives, or axiom challenges. If any exist, file them as
+   evidence entries in `evidence/` with the appropriate RELATIONSHIP tag
+   (`challenges` or `complicates`). Counter-evidence noted but not filed
+   is an IC-1 violation — the framework claims falsifiability but hides
+   disconfirming data in prose rather than recording it formally.
+5. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+
+This checklist is not optional. An analysis that updates patterns but
+does not file counter-evidence leaves the framework in an inconsistent
+state — the challenge exists but is not discoverable through evidence
+audits or SUGGEST mode diagnostics.
+
 ---
 
 ## EXTRACT mode procedure
@@ -901,7 +922,13 @@ After writing extraction outputs, update these framework files:
 4. **`sources/*.md`** — if a source record exists, update its Related files
    section and change extraction status from `(pending)` to complete
 5. **`sources/INDEX.md`** — update extraction status if changed
-6. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+6. **Counter-evidence filing check** — scan the extraction outputs and
+   any patterns-detail.md notes for IC-1 flags, counter-perspectives,
+   or axiom challenges. If any exist, file them as evidence entries in
+   `evidence/` with the appropriate RELATIONSHIP tag (`challenges` or
+   `complicates`). Counter-evidence noted but not filed is an IC-1
+   violation.
+7. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
 
 This checklist is not optional. An extraction that writes a principles
 file but does not update the framework's cross-referencing files leaves
