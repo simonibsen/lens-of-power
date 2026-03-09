@@ -143,7 +143,7 @@ and a rabbi who supported the Vietnam war),
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: ESTABLISHED (44 of 46 relevant sources, 96%)
+CORROBORATION: ESTABLISHED (40 of 58 relevant sources, 69%)
 
 CIRCUMVENTIONS:
 - Transparency / Naming (circumventions.md): Church Committee (1976) observed to produce formal termination of COINTELPRO programs. Structural conditions persisted — see P6: Formal Termination as Structural Continuation. (principles/church-committee-cointelpro.md)
@@ -207,7 +207,7 @@ by design),
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (15 of 48 relevant sources, 31%)
+CORROBORATION: ESTABLISHED (17 of 59 relevant sources, 29%)
 
 ### Perpetual Threat as Perpetual Justification
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
@@ -254,7 +254,7 @@ foreign ties (CPUSA) to an undefined movement (New Left, never operationally
 defined). Each new threat category expanded operational scope while the prior
 threats remained active.
 
-CORROBORATION: SUPPORTED (9 of 48 relevant sources, 19%)
+CORROBORATION: SUPPORTED (9 of 59 relevant sources, 15%)
 
 ### Manufactured Scarcity as Control
 LAYERS: Economic, Thought & Narrative
@@ -307,7 +307,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (9 of 48 relevant sources, 19%)
+CORROBORATION: ESTABLISHED (13 of 59 relevant sources, 22%)
 
 CIRCUMVENTIONS:
 - Economic Alternative (circumventions.md): Graeber's jubilee tradition observed to periodically reset accumulation. Piketty's Scandinavian social democracy observed to constrain the ratchet through progressive taxation. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)
@@ -356,7 +356,7 @@ regulatory history — the reasons the regulations were created — is erased no
 from the argument but from the legal landscape.
 (principles/project-2025-mandate-for-leadership.md corroboration notes)
 
-CORROBORATION: PRELIMINARY (4 of 47 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (3 of 59 relevant sources, 5%)
 
 ### The Middle Stratum Trap
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -388,7 +388,7 @@ making them complicit in the system that exploited them)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (4 of 48 relevant sources, 8%)
+CORROBORATION: PRELIMINARY (4 of 59 relevant sources, 7%)
 
 ### The Economy of Violence
 LAYERS: Physical & Coercive, Thought & Narrative
@@ -415,7 +415,7 @@ normative weight.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 42 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (2 of 53 relevant sources, 4%)
 
 ### Appearance as Structural Terrain
 LAYERS: Thought & Narrative, Institutional
@@ -554,7 +554,7 @@ bill; the contingency (that the distribution could be otherwise) is obscured by 
 of fiscal necessity and "program integrity." The appearance of transparent democratic
 process IS the terrain the distributive transfer operates on.
 
-CORROBORATION: ESTABLISHED (41 of 46 relevant sources, 89%)
+CORROBORATION: ESTABLISHED (33 of 58 relevant sources, 57%)
 
 CIRCUMVENTIONS:
 - Transparency / Naming (circumventions.md): Public exposure disrupts the structural terrain by making the gap between appearance and reality visible. Church Committee, Alley, TBIJ Portland all document this mechanism. (principles/church-committee-cointelpro.md, principles/alley-very-bad-people.md)
@@ -605,7 +605,7 @@ knowledge of the system exceeds the surveiller's because survival demands it.)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 42 relevant sources, 12%)
+CORROBORATION: SUPPORTED (6 of 52 relevant sources, 12%)
 
 CIRCUMVENTIONS:
 - Cultural Production (circumventions.md): Fanon's synthesis phase produces alternative frameworks that surface the hidden transcript into new forms. (principles/fanon-wretched-of-the-earth.md)
@@ -666,7 +666,7 @@ worker organizing. The formal right to organize persists; the structural conditi
 for exercising it are systematically disabled.
 (principles/project-2025-mandate-for-leadership.md corroboration notes)
 
-CORROBORATION: SUPPORTED (5 of 48 relevant sources, 10%)
+CORROBORATION: PRELIMINARY (4 of 59 relevant sources, 7%)
 
 CIRCUMVENTIONS:
 - Collective Action (circumventions.md): Organized collective refusal shifts the compliance gradient by making individual enforcement prohibitively expensive. (principles/scott-weapons-of-the-weak.md)
@@ -730,7 +730,7 @@ mechanism has leverage before it succeeds)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 48 relevant sources, 10%)
+CORROBORATION: PRELIMINARY (5 of 59 relevant sources, 8%)
 
 ### The Double Performance
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -787,7 +787,7 @@ billionaires are "mindful of the chasm between their own political views and pub
 opinion" and therefore "act behind the scenes." The performance is conscious and
 strategic on the ruler's side, not just the subordinate's.)
 
-CORROBORATION: SUPPORTED (6 of 47 relevant sources, 13%)
+CORROBORATION: PRELIMINARY (5 of 59 relevant sources, 8%)
 
 ### The Relay Class
 LAYERS: Economic, Institutional, Thought & Narrative
@@ -834,7 +834,7 @@ Ghana's positioning of the diaspora as its "13th ethnic group" is instrumentally
 clever but creates a state-mediated channel for reparations claims. Third documented
 context (postcolonial reparations).
 
-CORROBORATION: PRELIMINARY (2 of 48 relevant sources, 4%)
+CORROBORATION: PRELIMINARY (3 of 59 relevant sources, 5%)
 
 ### Constitutive Violence
 LAYERS: Physical & Coercive, Legal & Regulatory, Economic, Thought & Narrative
@@ -904,7 +904,7 @@ into obligatory redress. The resistance is not to the payment but to the naming 
 the word threatens to make the foundational violence visible as a continuing
 obligation rather than a historical fact.
 
-CORROBORATION: ESTABLISHED (10 of 48 relevant sources, 21%)
+CORROBORATION: SUPPORTED (9 of 59 relevant sources, 15%)
 
 ### The Three Phases of Cultural Resistance
 LAYERS: Thought & Narrative, Institutional
@@ -933,7 +933,7 @@ creating new frameworks rather than inverting colonial categories)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 46 relevant sources, 4%)
+CORROBORATION: PRELIMINARY (2 of 58 relevant sources, 3%)
 
 CIRCUMVENTIONS:
 - Cultural Production (circumventions.md): Fanon's synthesis phase — the third phase of cultural resistance — is itself the circumvention, producing genuinely new frameworks rather than reactions within existing ones. (principles/fanon-wretched-of-the-earth.md)
@@ -979,7 +979,7 @@ More instances needed before proposing a standalone pattern.
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (9 of 42 relevant sources, 21%)
+CORROBORATION: SUPPORTED (10 of 52 relevant sources, 19%)
 
 ### Serial Regime Change
 LAYERS: Physical & Coercive, Thought & Narrative, Institutional
@@ -1007,7 +1007,7 @@ planning discussion. Fox's Iraq 2003 coverage used the same editorial architectu
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: SUPPORTED (8 of 47 relevant sources, 17%)
+CORROBORATION: SUPPORTED (9 of 58 relevant sources, 16%)
 
 ### The Unprecedented as Sanctuary
 LAYERS: Legal & Regulatory, Institutional, Thought & Narrative
@@ -1046,7 +1046,7 @@ was not available in any previous conflict)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (6 of 47 relevant sources, 13%)
+CORROBORATION: SUPPORTED (7 of 59 relevant sources, 12%)
 
 ### The Dispossession Cycle
 LAYERS: Thought & Narrative, Surveillance & Information, Institutional
@@ -1096,7 +1096,7 @@ incursion)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (4 of 47 relevant sources, 9%)
+CORROBORATION: PRELIMINARY (5 of 59 relevant sources, 8%)
 
 ### The Division of Learning
 LAYERS: Surveillance & Information, Economic, Institutional
@@ -1216,7 +1216,7 @@ administrative records) held by former colonisers create an information asymmetr
 at the historical-evidentiary level. The power to audit the past is held by those
 who benefited from it. An archival-historical variant of the Division of Learning.
 
-CORROBORATION: SUPPORTED (8 of 48 relevant sources, 17%)
+CORROBORATION: SUPPORTED (8 of 57 relevant sources, 14%)
 
 CIRCUMVENTIONS:
 - Transparency / Naming (circumventions.md): Exposure of surveillance systems, FOI requests, and investigative journalism have been observed to partially close the information asymmetry. TBIJ Portland investigation (2026) naming Wikipedia manipulation disrupted the concealed information campaign. (principles/church-committee-cointelpro.md)
@@ -1277,7 +1277,7 @@ thought." This is anticipatory obedience operating at the institutional-professi
 level: agents anticipated that questioning the program's legality would be career-
 threatening, and pre-complied by not raising the question)
 
-CORROBORATION: SUPPORTED (9 of 46 relevant sources, 20%)
+CORROBORATION: ESTABLISHED (12 of 58 relevant sources, 21%)
 
 ### Institutional Abdication
 LAYERS: Institutional, Legal & Regulatory
@@ -1385,7 +1385,7 @@ war powers) — here the institution retains its formal role but the information
 channel is controlled by the entity being overseen, so the oversight produces
 authorization rather than constraint.
 
-CORROBORATION: ESTABLISHED (10 of 44 relevant sources, 23%)
+CORROBORATION: SUPPORTED (10 of 53 relevant sources, 19%)
 
 CIRCUMVENTIONS:
 - Institutional Reform (circumventions.md): Church Committee reforms (FISA courts, intelligence oversight committees) constrained intelligence agencies for a period. Snyder documents institutional defense as dependent on individuals within institutions choosing institutional loyalty over compliance. (principles/church-committee-cointelpro.md, principles/snyder-on-tyranny.md)
@@ -1467,7 +1467,7 @@ requires new legislation against entrenched beneficiaries of the tax cuts)
 
 EVIDENCE: —
 
-CORROBORATION: ESTABLISHED (10 of 48 relevant sources, 21%)
+CORROBORATION: SUPPORTED (11 of 57 relevant sources, 19%)
 
 CIRCUMVENTIONS:
 - Economic Alternative (circumventions.md): Jubilee traditions, progressive taxation, and social democratic institutions observed to constrain the ratchet without catastrophe. Piketty documents Scandinavian model as sustained counter-example. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)
@@ -1521,7 +1521,7 @@ New Deal), and the resulting compression was weaker and more easily reversed.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 48 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (3 of 59 relevant sources, 5%)
 
 ### The Wealth Defense Industry
 LAYERS: Economic, Legal & Regulatory, Institutional
@@ -1597,7 +1597,7 @@ after Kotlarek's blocking in 2024.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (4 of 48 relevant sources, 8%)
+CORROBORATION: SUPPORTED (8 of 57 relevant sources, 14%)
 
 ### Democracy-Oligarchy Coexistence
 LAYERS: Economic, Institutional, Legal & Regulatory, Thought & Narrative
@@ -1705,7 +1705,7 @@ the Data & Society policy output and NC-04 campaign finance data, three independ
 sources document the pattern operating across lobbying, electoral, and policy channels
 simultaneously.
 
-CORROBORATION: ESTABLISHED (15 of 48 relevant sources, 31%)
+CORROBORATION: ESTABLISHED (15 of 59 relevant sources, 25%)
 
 CIRCUMVENTIONS:
 - Electoral / Democratic (circumventions.md): Hartmann documents periods (Progressive Era, New Deal, Great Society) in which democratic mobilization produced significant constraints on oligarchic power. The relationship is contested — democracy-oligarchy coexistence may be the stable equilibrium rather than the exception. (principles/hartmann-hidden-history-american-oligarchy.md)
@@ -1776,7 +1776,7 @@ question the ethical criteria appear to oppose responsibility itself. The moral
 vocabulary forecloses structural critique of who defines "responsible" and whose
 interests the criteria serve)
 
-CORROBORATION: PRELIMINARY (2 of 48 relevant sources, 4%)
+CORROBORATION: PRELIMINARY (3 of 59 relevant sources, 5%)
 
 ### The Capture Pipeline
 LAYERS: Legal & Regulatory, Institutional, Economic, Surveillance & Information
@@ -1868,7 +1868,7 @@ primaries), three independent sources document a multi-channel influence archite
 matching Powell's P2 prescription. Eighth documented domain: AI-defence procurement
 capture through lobbying.
 
-CORROBORATION: SUPPORTED (7 of 48 relevant sources, 15%)
+CORROBORATION: SUPPORTED (9 of 57 relevant sources, 16%)
 
 CIRCUMVENTIONS:
 - Legal Challenge (circumventions.md): Statutory enforcement and constitutional challenge may contest specific stages of the capture pipeline, though the pipeline's multi-stage nature means single-point intervention is typically insufficient. (principles/whitehouse-the-scheme.md)
@@ -2001,7 +2001,7 @@ is the pattern at the international-legal level. The payment is a formal transfo
 structural arrangement (no legal precedent for obligatory redress). Ninth documented
 context.
 
-CORROBORATION: SUPPORTED (7 of 48 relevant sources, 15%)
+CORROBORATION: SUPPORTED (8 of 59 relevant sources, 14%)
 
 ### The Structural Demand for Propaganda
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -2054,7 +2054,7 @@ structural effect converges.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 47 relevant sources, 4%)
+CORROBORATION: PRELIMINARY (3 of 59 relevant sources, 5%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -2087,7 +2087,7 @@ social-categorical argument.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (2 of 42 relevant sources, 5%)
+CORROBORATION: PRELIMINARY (2 of 52 relevant sources, 4%)
 
 ### The Boomerang
 LAYERS: Physical & Coercive, Institutional, Legal & Regulatory
@@ -2146,7 +2146,7 @@ the geography differs. Fifth documented context.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (5 of 46 relevant sources, 11%)
+CORROBORATION: PRELIMINARY (5 of 57 relevant sources, 9%)
 
 CIRCUMVENTIONS:
 - International Pressure (circumventions.md): International accountability mechanisms and transnational advocacy networks may constrain the boomerang by maintaining scrutiny on techniques migrating from periphery to center. Alley documents these mechanisms as contested terrain. (principles/alley-very-bad-people.md)
