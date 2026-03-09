@@ -14,55 +14,329 @@
 # source type enumeration.
 
 entries:
-
-  - id: "2026-03-09-fanon-economy-of-violence-perspective-asymmetry"
-    file: "evidence/2026-03-09-fanon-economy-of-violence-perspective-asymmetry.md"
-    date: "2026-03-09"
-    source_name: "Fanon, Wretched of the Earth P1"
-    evidence_source_type: case_study
-    axioms: [9]
-    patterns:
-      - economy_of_violence
-    layers:
-      - physical_coercive
-    relationship: complicates
-
-  - id: "2026-03-09-propaganda-demand-symmetry-axiom-tension"
-    file: "evidence/2026-03-09-propaganda-demand-symmetry-axiom-tension.md"
-    date: "2026-03-09"
-    source_name: "Ellul P2, Atlantic gullicism analysis"
-    evidence_source_type: case_study
-    axioms: [5, 9]
-    patterns:
-      - structural_demand_for_propaganda
-    layers:
-      - thought_narrative
-      - institutional
-    relationship: complicates
-
-  - id: "2026-03-04-red-team-first-self-examination"
-    file: "evidence/2026-03-04-red-team-first-self-examination.md"
-    date: "2026-03-04"
-    source_name: "Framework self-examination"
-    evidence_source_type: self_examination
-    axioms: [3, 5, 7, 8, 9, 10]
-    patterns: []
-    layers: []
-    relationship: self-examination
-
-  - id: "2026-03-04-compression-scandinavian-jubilee-counter"
-    file: "evidence/2026-03-04-compression-scandinavian-jubilee-counter.md"
-    date: "2026-03-04"
-    source_name: "Scheidel (2017), Mesopotamian debt jubilees"
-    evidence_source_type: case_study
-    axioms: [5]
-    patterns:
-      - compression_through_destruction
-      - peacetime_ratchet
-    layers:
-      - economic
-      - institutional
-      - legal_regulatory
-    relationship: challenges
-
-  # ... (19 entries total — migration script generates from evidence/*.md headers)
+- id: 2026-03-01-iran-fm-diplomacy-during-attacks
+  file: evidence/2026-03-01-iran-fm-diplomacy-during-attacks.md
+  title: 'Iran FM: US attacked during active negotiations twice in 12 months'
+  date_recorded: "2026-03-01"
+  source: Guardian live blog (citing Abbas Araghchi interview on ABC's This Week)
+  source_url: null
+  evidence_source_type: quote
+  axioms:
+  - 7
+  - 3
+  patterns:
+  - inversion_of_stated_purpose
+  layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  relationship: supports
+- id: 2026-03-01-minab-school-strike
+  file: evidence/2026-03-01-minab-school-strike.md
+  title: Minab girls' school strike — 148 killed in US-Israeli bombing of Iran
+  date_recorded: "2026-03-01"
+  source: Guardian live blog (citing Mizan news agency / Iranian judiciary); verified geolocated video and photographs
+  source_url: null
+  evidence_source_type: event
+  axioms:
+  - 7
+  - 8
+  patterns:
+  - inversion_of_stated_purpose
+  - serial_regime_change
+  layers:
+  - thought_narrative
+  - physical_coercive
+  relationship: supports
+- id: 2026-03-02-big-ai-state-equity-without-governance
+  file: evidence/2026-03-02-big-ai-state-equity-without-governance.md
+  title: Equity Without Governance — State Investment Structured to Decline Public Accountability
+  date_recorded: "2026-03-02"
+  source: Brian J. Chen, "The Big AI State," Data & Society Research Institute, January 2026 (citing official agreements,
+    executive orders, and AI Action Plan)
+  source_url: https://datasociety.net/wp-content/uploads/2026/01/TheBigAIState.pdf
+  evidence_source_type: case_study
+  axioms:
+  - 3
+  - 5
+  - 7
+  - 9
+  patterns:
+  - democracy_oligarchy_coexistence
+  - inversion_of_stated_purpose
+  - appearance_as_structural_terrain
+  - wealth_defense_industry
+  layers: []
+  relationship: supports
+- id: 2026-03-02-bondi-letter-surveillance-leverage
+  file: evidence/2026-03-02-bondi-letter-surveillance-leverage.md
+  title: Bondi Letter — Crisis as Leverage for Surveillance Expansion
+  date_recorded: "2026-03-02"
+  source: Democracy Docket, CNN, Fox News (reporting on AG Bondi letter)
+  source_url: https://www.democracydocket.com/news-alerts/attorney-general-bondi-minnesota-voter-rolls-border-patrol-fatal-shooting/
+  evidence_source_type: case_study
+  axioms:
+  - 5
+  - 7
+  - 8
+  patterns:
+  - perpetual_threat_as_perpetual_justification
+  - inversion_of_stated_purpose
+  layers: []
+  relationship: supports
+- id: 2026-03-02-doe-kirk-banner
+  file: evidence/2026-03-02-doe-kirk-banner.md
+  title: Department of Education Kirk Banner
+  date_recorded: "2026-03-02"
+  source: The Guardian
+  source_url: https://www.theguardian.com/us-news/2026/mar/02/us-department-of-education-charlie-kirk-banner
+  evidence_source_type: case_study
+  axioms:
+  - 3
+  - 6
+  - 7
+  patterns:
+  - inversion_of_stated_purpose
+  - appearance_as_structural_terrain
+  - institutional_abdication
+  layers: []
+  relationship: supports
+- id: 2026-03-02-oil-defense-market-gains
+  file: evidence/2026-03-02-oil-defense-market-gains.md
+  title: Oil and Defense Market Gains During Iran War
+  date_recorded: "2026-03-02"
+  source: BBC News
+  source_url: https://www.bbc.com/news/articles/c75evve6l63o
+  evidence_source_type: case_study
+  axioms:
+  - 5
+  - 8
+  patterns:
+  - manufactured_scarcity_as_control
+  - layered_redundancy_of_control
+  layers: []
+  relationship: supports
+- id: 2026-03-02-operation-metro-surge
+  file: evidence/2026-03-02-operation-metro-surge.md
+  title: Operation Metro Surge — Documented Outcomes vs. Stated Purpose
+  date_recorded: "2026-03-02"
+  source: Wikipedia (encyclopedic synthesis of 300+ references)
+  source_url: https://en.wikipedia.org/wiki/Operation_Metro_Surge
+  evidence_source_type: case_study
+  axioms:
+  - 1
+  - 2
+  - 3
+  - 7
+  - 8
+  - 9
+  patterns:
+  - inversion_of_stated_purpose
+  - layered_redundancy_of_control
+  - anticipatory_obedience
+  - boomerang
+  - manufactured_scarcity_as_control
+  - constitutive_violence
+  - ideological_judo
+  - hidden_transcript
+  layers: []
+  relationship: supports
+- id: 2026-03-02-rubio-preemptive-justification
+  file: evidence/2026-03-02-rubio-preemptive-justification.md
+  title: Rubio's "Preemptive" War Justification
+  date_recorded: "2026-03-02"
+  source: Guardian live blog (Rubio press statement)
+  source_url: https://www.theguardian.com/us-news/live/2026/mar/02/democrats-to-force-vote-in-congress-to-limit-trumps-war-powers-against-iran-us-politics-live
+  evidence_source_type: case_study
+  axioms:
+  - 7
+  - 3
+  patterns:
+  - inversion_of_stated_purpose
+  - perpetual_threat_as_perpetual_justification
+  - appearance_as_structural_terrain
+  layers: []
+  relationship: supports
+- id: 2026-03-02-section-237-student-deportations
+  file: evidence/2026-03-02-section-237-student-deportations.md
+  title: Section 237 Deportations of Student Activists
+  date_recorded: "2026-03-02"
+  source: Warren letter to Rubio (via Guardian)
+  source_url: https://www.theguardian.com/us-news/live/2026/mar/02/democrats-to-force-vote-in-congress-to-limit-trumps-war-powers-against-iran-us-politics-live
+  evidence_source_type: case_study
+  axioms:
+  - 6
+  - 8
+  - 9
+  patterns:
+  - inversion_of_stated_purpose
+  layers: []
+  relationship: supports
+- id: 2026-03-02-ziklag-primary-source-capture-pipeline
+  file: evidence/2026-03-02-ziklag-primary-source-capture-pipeline.md
+  title: Ziklag — Primary-Source Documentation of Institutional Capture Pipeline
+  date_recorded: "2026-03-02"
+  source: ProPublica and Documented (based on leaked Ziklag internal documents)
+  source_url: https://www.propublica.org/article/inside-ziklag-secret-christian-charity-2024-election
+  evidence_source_type: case_study
+  axioms:
+  - 1
+  - 2
+  - 3
+  - 5
+  - 7
+  - 8
+  - 9
+  patterns:
+  - capture_pipeline
+  - layered_redundancy_of_control
+  - inversion_of_stated_purpose
+  - division_of_learning
+  - appearance_as_structural_terrain
+  - institutional_abdication
+  - democracy_oligarchy_coexistence
+  - wealth_defense_industry
+  layers: []
+  relationship: supports
+- id: 2026-03-04-axiom-10-understanding-captured
+  file: evidence/2026-03-04-axiom-10-understanding-captured.md
+  title: 'Axiom 10 challenge: understanding captured, co-opted, or neutralized'
+  date_recorded: "2026-03-04"
+  source: Stanley (2015), Arendt (1951), Ellul (1962), Alley (2022), Schimpfössl (2024), Browne (2015)
+  source_url: null
+  evidence_source_type: self_examination
+  axioms:
+  - 10
+  patterns:
+  - inversion_of_stated_purpose
+  - appearance_as_structural_terrain
+  layers:
+  - thought_narrative
+  - economic
+  - institutional
+  relationship: challenges
+- id: 2026-03-04-axiom-3-contingency-beyond-three-modes
+  file: evidence/2026-03-04-axiom-3-contingency-beyond-three-modes.md
+  title: 'Axiom 3 complications: contingency beyond three modes'
+  date_recorded: "2026-03-04"
+  source: Stanley (2015), Ellul (1962), Guriev-Rachinsky (2005), Schimpfössl (2024), Project 2025 (2023), Browne (2015)
+  source_url: null
+  evidence_source_type: self_examination
+  axioms:
+  - 3
+  patterns:
+  - appearance_as_structural_terrain
+  layers:
+  - thought_narrative
+  - economic
+  - institutional
+  relationship: complicates
+- id: 2026-03-04-axiom-5-concentration-normative-complexity
+  file: evidence/2026-03-04-axiom-5-concentration-normative-complexity.md
+  title: 'Axiom 5 complications: concentration and counteraction ambiguity'
+  date_recorded: "2026-03-04"
+  source: Guriev-Rachinsky (2005), Project 2025 (2023)
+  source_url: null
+  evidence_source_type: self_examination
+  axioms:
+  - 5
+  patterns:
+  - democracy_oligarchy_coexistence
+  - peacetime_ratchet
+  layers:
+  - economic
+  - legal_regulatory
+  - institutional
+  relationship: complicates
+- id: 2026-03-04-axiom-9-terror-beyond-compliance
+  file: evidence/2026-03-04-axiom-9-terror-beyond-compliance.md
+  title: 'Axiom 9 challenge: terror beyond manufactured compliance'
+  date_recorded: "2026-03-04"
+  source: Hannah Arendt, *The Origins of Totalitarianism* (1951)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - layered_redundancy_of_control
+  - anticipatory_obedience
+  layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  relationship: challenges
+- id: 2026-03-04-compression-scandinavian-jubilee-counter
+  file: evidence/2026-03-04-compression-scandinavian-jubilee-counter.md
+  title: 'Counter-evidence: inequality reduced without destruction'
+  date_recorded: "2026-03-04"
+  source: Scheidel (2017) — counter-evidence noted by the author himself; historical record of Mesopotamian debt jubilees
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 5
+  patterns:
+  - compression_through_destruction
+  - peacetime_ratchet
+  layers:
+  - economic
+  - legal_regulatory
+  - institutional
+  relationship: challenges
+- id: 2026-03-04-red-team-first-self-examination
+  file: evidence/2026-03-04-red-team-first-self-examination.md
+  title: First framework self-examination (IC-3)
+  date_recorded: "2026-03-04"
+  source: Framework self-analysis — 19 analyses, 20 extractions, 28 patterns
+  source_url: null
+  evidence_source_type: self_examination
+  axioms: []
+  patterns:
+  - all
+  layers: []
+  relationship: self-examination
+- id: 2026-03-06-axiom-8-constitutive-absence
+  file: evidence/2026-03-06-axiom-8-constitutive-absence.md
+  title: 'Axiom 8 extension: constitutive absence'
+  date_recorded: "2026-03-06"
+  source: Browne (2015)
+  source_url: null
+  evidence_source_type: self_examination
+  axioms:
+  - 8
+  patterns:
+  - categorical_blindness
+  - appearance_as_structural_terrain
+  layers:
+  - thought_narrative
+  - surveillance_information
+  relationship: complicates
+- id: 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
+  file: evidence/2026-03-09-fanon-economy-of-violence-perspective-asymmetry.md
+  title: 'Counter-evidence: constitutive violence has no "well-used" form from below'
+  date_recorded: "2026-03-09"
+  source: Fanon, *The Wretched of the Earth* (1961), P1 — via patterns-detail.md NOTE
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - economy_of_violence
+  layers:
+  - physical_coercive
+  relationship: complicates
+- id: 2026-03-09-propaganda-demand-symmetry-axiom-tension
+  file: evidence/2026-03-09-propaganda-demand-symmetry-axiom-tension.md
+  title: 'Counter-evidence: propaganda demand is symmetrical, complicating asymmetry model'
+  date_recorded: "2026-03-09"
+  source: Ellul, *Propaganda* (1962), P2; Atlantic "gullicism" analysis — via patterns-detail.md NOTE
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 5
+  - 9
+  patterns:
+  - structural_demand_for_propaganda
+  layers:
+  - thought_narrative
+  - institutional
+  relationship: complicates

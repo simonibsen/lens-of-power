@@ -7,27 +7,21 @@
 # The prose (extraction notes, future candidates) stays in sources/*.md.
 
 entries:
-
-  - id: project-2025
-    file: "sources/project-2025.md"
-    title: "Mandate for Leadership 2025"
-    author: "Heritage Foundation"
-    year: 2023
-    source_type: primary_document
-    hash: "sha256:ee184bb5f98d76bff6db4334ad6f2ce972757473c096ec9bb55d4f4cb71fc8ec"
-    archive_url: "https://archive.org/details/2025_MandateForLeadership_FULL"
-    extraction_status: partial
-    extraction_detail: "20 of 30 chapters"
-    future_candidates: 10
-
-  - id: church-committee-cointelpro
-    file: "sources/church-committee-cointelpro.md"
-    title: "Book III: COINTELPRO"
-    author: "Church Committee"
-    year: 1976
-    source_type: primary_document
-    hash: "sha256:e9b3cb7b857a6d73fa368399c67541340ef32a8860c8f8a71a2af50b7fdbd88d"
-    archive_url: "https://www.aarclibrary.org/publib/church/reports/book3/pdf/ChurchB3_3_COINTELPRO.pdf"
-    extraction_status: full
-    extraction_detail: "Sections I-VI, 7 principles, 10 patterns confirmed"
-    future_candidates: 0
+- id: project-2025
+  file: sources/project-2025.md
+  source: 'Heritage Foundation, *Mandate for Leadership 2025: The Conservative Promise* (2023)'
+  provenance_tier: primary_document
+  hash: sha256:ee184bb5f98d76bff6db4334ad6f2ce972757473c096ec9bb55d4f4cb71fc8ec
+  archive_urls:
+  - https://archive.org/details/2025_MandateForLeadership_FULL
+  extraction_status: 10 chapters extracted (institutional reshaping focus), 10 future candidates, 11 not selected
+  quote_status: verbatim with page references
+- id: church-committee-cointelpro
+  file: sources/church-committee-cointelpro.md
+  source: 'Church Committee, *Book III: COINTELPRO — The FBI''s Covert Action Programs Against American Citizens* (1976)'
+  provenance_tier: primary_document
+  hash: sha256:e9b3cb7b857a6d73fa368399c67541340ef32a8860c8f8a71a2af50b7fdbd88d
+  archive_urls:
+  - https://www.aarclibrary.org/publib/church/reports/book3/pdf/ChurchB3_3_COINTELPRO.pdf
+  extraction_status: Full chapter extracted (Sections I-VI), 7 principles, 10 patterns confirmed
+  quote_status: verbatim with page references (OCR quality variable)
