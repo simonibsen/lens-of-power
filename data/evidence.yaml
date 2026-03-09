@@ -290,8 +290,7 @@ entries:
   source_url: null
   evidence_source_type: self_examination
   axioms: []
-  patterns:
-  - all
+  patterns: []
   layers: []
   relationship: self-examination
 - id: 2026-03-06-axiom-8-constitutive-absence

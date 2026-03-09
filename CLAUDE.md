@@ -24,6 +24,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `BACKLOG.md` — Prioritized recommendations from SUGGEST mode diagnostics (living document)
 - `tools/build-viewer.py` — Generates `viewer.html` + `viewer-data.js` (both checked in)
 - `tools/fetch-article.py` — URL content extraction fallback
+- `tests/` — Automated test suite (IC-6): unit tests, integration tests, YAML integrity checks
 
 ## Usage
 
@@ -56,6 +57,7 @@ files when detailed evidence trails or deep source comparison is needed.
 - IC-3: Periodically red-team the framework itself.
 - IC-4: Keep the framework up to date. Update patterns, evidence, taxonomy, README after each analysis.
 - IC-5: The LLM is a biased instrument. Flag when training data likely overrepresents a perspective. Name blind spots. Do not hedge to appear balanced when evidence is not balanced.
+- IC-6: All tooling must have automated tests. Write tests before or alongside code, never after. Run with `python3 -m pytest tests/ -v`.
 
 ## Branching
 

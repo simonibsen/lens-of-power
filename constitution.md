@@ -336,3 +336,28 @@ becomes a dogma. The following maintenance obligations apply:
   message must name the axiom, describe the change, and cite the
   evidence that prompted it.
 - The git history is the framework's memory. It must be honest.
+
+### IC-6: Test discipline
+
+The framework's tooling — build scripts, post-analysis automation,
+data integrity checks — must be covered by automated tests. Untested
+code is untrustworthy code: it can silently produce wrong output,
+corrupt data, or break the analytical pipeline without anyone noticing.
+
+**Requirements**:
+- Every new tool or script must have corresponding tests before or
+  alongside the implementation (test-driven or test-concurrent
+  development). Tests must not be deferred to a later step.
+- Every pure function must have unit tests covering expected inputs,
+  edge cases, and error conditions.
+- Data integrity tests must verify cross-file referential integrity
+  (e.g., pattern IDs referenced in analyses must exist in patterns).
+- Integration tests must verify that the build pipeline produces
+  valid, complete output from real data.
+- Tests run with `python3 -m pytest tests/ -v` from the project root.
+
+> DIRECTIVE: When writing or modifying framework tooling, write tests
+> first or concurrently. Do not commit tool changes without corresponding
+> test coverage. If modifying existing behavior, update the affected
+> tests to match. A tool without tests is a tool the framework cannot
+> trust.
