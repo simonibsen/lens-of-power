@@ -39,6 +39,12 @@ some yield neither.
 **Output**: Framework health diagnostic with prioritized recommendations
 **When to use**: Proactively, to assess framework health and identify what to study, extract, or red-team next
 
+### SAMPLE mode
+**Input**: None — selects its own material from the source pool
+**Output**: READ mode prose analysis + calibration tracking entry
+**When to use**: Periodically, to test whether the framework produces
+null cases on randomly selected material
+
 ---
 
 ## READ mode procedure
@@ -652,6 +658,27 @@ PATTERNS NOT MATCHED:
 Required by IC-2. Assess the non-power explanation. If the null
 explanation fits the evidence as well as the power explanation, say so.
 
+#### Post-analysis framework updates (required)
+
+After writing an analysis file, update these framework files:
+
+1. **`analyses/INDEX.md`** — add an entry for the new analysis
+2. **`patterns.md`** — update corroboration counts for confirmed patterns
+3. **`patterns-detail.md`** — add OBSERVED IN entries with analytical notes
+4. **Counter-evidence filing check** — scan the analysis and any
+   patterns-detail.md notes written during this session for IC-1 flags,
+   counter-perspectives, or axiom challenges. If any exist, file them as
+   evidence entries in `evidence/` with the appropriate RELATIONSHIP tag
+   (`challenges` or `complicates`). Counter-evidence noted but not filed
+   is an IC-1 violation — the framework claims falsifiability but hides
+   disconfirming data in prose rather than recording it formally.
+5. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+
+This checklist is not optional. An analysis that updates patterns but
+does not file counter-evidence leaves the framework in an inconsistent
+state — the challenge exists but is not discoverable through evidence
+audits or SUGGEST mode diagnostics.
+
 ---
 
 ## EXTRACT mode procedure
@@ -895,7 +922,13 @@ After writing extraction outputs, update these framework files:
 4. **`sources/*.md`** — if a source record exists, update its Related files
    section and change extraction status from `(pending)` to complete
 5. **`sources/INDEX.md`** — update extraction status if changed
-6. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+6. **Counter-evidence filing check** — scan the extraction outputs and
+   any patterns-detail.md notes for IC-1 flags, counter-perspectives,
+   or axiom challenges. If any exist, file them as evidence entries in
+   `evidence/` with the appropriate RELATIONSHIP tag (`challenges` or
+   `complicates`). Counter-evidence noted but not filed is an IC-1
+   violation.
+7. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
 
 This checklist is not optional. An extraction that writes a principles
 file but does not update the framework's cross-referencing files leaves
@@ -987,6 +1020,11 @@ Review `analyses/INDEX.md` for selection bias:
 - Are there types of material the analyst instinctively avoids
   (corporate governance, functioning democracies, successful reforms)?
   That avoidance is a signal.
+- If `calibration/sample-log.md` exists, compare the calibration null
+  case rate against the analysis diet null case rate. A large delta
+  confirms that the analysis diet has systematic positive selection
+  bias. Report the delta and assess whether SAMPLE mode is being run
+  frequently enough to produce meaningful statistics (5+ samples minimum).
 
 **Output format**:
 ```
@@ -996,6 +1034,7 @@ INPUT DIET:
   PRIMARY LAYER DISTRIBUTION: [layers and counts]
   NULL CASE OUTCOMES: [rejected/plausible/accepted counts]
   ADVERSARIAL ANALYSES: [count and outcomes]
+  CALIBRATION: [n] samples, null case rate [percentage] (analysis rate: [percentage], delta: [percentage])
   BLIND SPOTS: [domains or material types never analyzed]
   RECOMMENDATION: [what to analyze next to test the framework]
 ```
@@ -1084,6 +1123,38 @@ PRIMARY LAYER DISTRIBUTION: [layers and counts]
 NULL CASE OUTCOMES: rejected=[n] plausible=[n] accepted=[n]
 ADVERSARIAL RATIO: [n]/[total] ([percentage])
 BLIND SPOTS: [domains or material types never analyzed]
+```
+
+**Calibration data**: If `calibration/sample-log.md` exists and contains
+5 or more entries, compute the calibration null case rate and compare it
+with the analysis index null case rate from above.
+
+```
+CALIBRATION NULL CASE RATE: [n]/[total] ([percentage])
+ANALYSIS NULL CASE RATE: [n]/[total] ([percentage])
+DELTA: [calibration rate − analysis rate]
+```
+
+The delta between calibration and analysis rates is diagnostic:
+- A calibration rate much higher than the analysis rate confirms that
+  the analysis diet has systematic positive selection bias.
+- A delta near zero suggests the framework is either well-calibrated
+  or that both populations have similar selection bias (unlikely if
+  the sample pool includes null-case-likely categories).
+- A negative delta (analysis rate higher) would be surprising and
+  warrants investigation — it could indicate the analysis diet includes
+  material that genuinely lacks power dynamics.
+
+**Unacted escalations**: Scan `calibration/sample-log.md` for entries
+where the Escalation column is `analyze` or `extract` but no
+corresponding analysis or extraction exists in `analyses/INDEX.md` or
+`principles/INDEX.md`. List these as pending opportunities — material
+that was flagged as worth deeper treatment but not yet acted on.
+
+```
+UNACTED ESCALATIONS:
+  [date] [outlet] — [article] — recommended: [analyze/extract]
+  ...
 ```
 
 ### Step 3: EVIDENCE BALANCE
@@ -1208,10 +1279,11 @@ Synthesize all findings into an ordered list of actions.
 1. Challenging evidence (axioms never tested → framework unfalsifiable)
 2. Red team (overdue self-examination → confirmation bias undetected)
 3. Adversarial input (null case never wins → IC-2 decorative)
-4. Pattern corroboration (PRELIMINARY patterns → framework ungrounded)
-5. Extract gaps (known material unextracted → knowledge left on table)
-6. Instrument gaps (proposed tools unbuilt → analytical capability missing)
-7. Coverage gaps (layer/perspective/type imbalance → blind spots)
+4. Calibration (fewer than 5 samples → calibration not meaningful; null case rate outside 30–60% → framework miscalibrated)
+5. Pattern corroboration (PRELIMINARY patterns → framework ungrounded)
+6. Extract gaps (known material unextracted → knowledge left on table)
+7. Instrument gaps (proposed tools unbuilt → analytical capability missing)
+8. Coverage gaps (layer/perspective/type imbalance → blind spots)
 
 **Each recommendation must be actionable**: name a specific source,
 material type, domain, or action — not a generic suggestion. Where
@@ -1236,6 +1308,146 @@ the backlog: existing items that remain valid are kept (preserving
 their original date), resolved items are moved to Completed, and new
 findings are added. The branching check applies when writing the
 backlog (same as other file writes).
+
+---
+
+## SAMPLE mode procedure
+
+A calibration mode for testing whether the framework produces null cases
+on randomly selected material. The framework's analysis corpus has 100%
+positive selection — every source was chosen because it was expected to
+reveal power dynamics. SAMPLE mode introduces randomness to measure the
+framework's false positive rate.
+
+No analysis files are written. The only file write is appending to the
+calibration tracking log (`calibration/sample-log.md`). Exempt from
+branching check.
+
+**Input**: None — the mode selects its own material.
+
+**Output**: READ mode prose analysis + null case classification +
+calibration statistics.
+
+### Step 1: SELECT SOURCE
+
+Two-stage randomization using the source pool in `sources/sample-pool.md`.
+
+**Do this**:
+1. Read `sources/sample-pool.md`
+2. Extract all category headers (lines matching `### `)
+3. Randomly select one category using Bash:
+   ```bash
+   python3 -c "import random; cats = [CATEGORY_LIST]; print(random.choice(cats))"
+   ```
+4. Extract all outlet entries (lines matching `- **`) within the selected category
+5. Randomly select one outlet using Bash:
+   ```bash
+   python3 -c "import random; outlets = [OUTLET_LIST]; print(random.choice(outlets))"
+   ```
+6. Fetch the outlet's homepage using WebFetch or `python3 tools/fetch-article.py`
+7. Select the first non-opinion, non-editorial article from the homepage
+   (news articles, features, reports — not op-eds, columns, or letters)
+
+**Report to user**:
+```
+SAMPLE SELECTION:
+  Category: [selected category]
+  Outlet: [outlet name] ([url])
+  Article: [title]
+```
+
+The user may approve or re-roll (repeat the randomization). The user
+may NOT substitute a different outlet or article — that defeats the
+purpose of randomization.
+
+### Step 2: EXECUTE READ
+
+Run the full READ mode procedure (defined above) on the selected article.
+
+Same analytical depth, same integrity constraints (IC-1 through IC-5),
+same framework term references. The only difference from a standard
+`/lop read` invocation is that the material was randomly selected rather
+than deliberately chosen.
+
+### Step 3: CLASSIFY AND LOG
+
+Classify the null case outcome from the READ analysis and append a
+tracking entry.
+
+**Null case classifications**:
+- **accepted**: The non-power explanation is more convincing than any
+  power-dynamics reading. The material does not meaningfully exhibit
+  the framework's patterns. Example: a recipe, a sports score recap,
+  a pure-science methodology paper.
+- **plausible**: A non-power explanation exists and is roughly as
+  convincing as the power-dynamics reading. The framework sees something,
+  but a reasonable analyst could disagree. Example: a business merger
+  story where efficiency gains are as plausible as market consolidation.
+- **rejected**: Power dynamics are clearly present and the framework's
+  reading is substantially more convincing than the null case. Example:
+  a lobbying disclosure, a surveillance policy debate, a labor dispute.
+
+**Do this**:
+1. Based on the READ analysis, assign one of the three classifications
+2. Determine escalation recommendation:
+   - `analyze` — material warrants full ANALYZE mode treatment
+   - `extract` — material warrants EXTRACT mode treatment
+   - `none` — no further action needed
+3. Append a row to `calibration/sample-log.md`:
+   ```
+   | [YYYY-MM-DD] | [outlet] | [article title, max 60 chars] | [category] | [accepted/plausible/rejected] | [analyze/extract/none] | [axis tags from pool entry] |
+   ```
+4. If escalation is `analyze` or `extract`, offer to proceed immediately:
+   - Present the escalation recommendation with a brief rationale
+   - The user may accept (proceed to ANALYZE or EXTRACT mode on the
+     same material), defer (leave it logged for SUGGEST to surface
+     later), or decline (change escalation to `none` in the log)
+   - If the user accepts, the resulting analysis or extraction follows
+     standard branching rules and includes a provenance note:
+     `Origin: SAMPLE mode ([date])`
+
+### Step 4: REPORT CALIBRATION STATS
+
+Compute calibration statistics from the full `calibration/sample-log.md`.
+
+**Do this**:
+1. Read the full log
+2. Count total samples
+3. Count null case outcomes: accepted, plausible, rejected
+4. Compute null case rate: (accepted + plausible) / total
+5. Show category coverage from the last 10 samples
+6. Report axis coverage gaps (any axis value never sampled)
+
+**Output format**:
+```
+CALIBRATION STATS (n=[total]):
+  Null case rate: [percentage] (accepted=[n], plausible=[n], rejected=[n])
+  Target range: 30–60%
+  Status: [interpretation]
+
+CATEGORY COVERAGE (last 10 samples):
+  [category]: [count]
+  ...
+  UNSAMPLED: [categories never hit]
+
+AXIS COVERAGE GAPS:
+  [axis]: missing [values never sampled]
+```
+
+**Interpretation**:
+- Below 30%: Framework may be too aggressive — finding power dynamics
+  in material where they are marginal or absent. Consider recalibrating
+  IC-2 application or reviewing recent READ analyses for over-reading.
+- 30–60%: Healthy range. Framework discriminates between material with
+  and without power dynamics.
+- Above 60%: Pool may be weighted too heavily toward null-case-likely
+  categories, or the framework is under-reading material that does
+  contain power dynamics. Review recent "accepted" entries for
+  under-reading.
+- Above 70%: Pool composition issue — rebalance categories.
+
+If fewer than 5 samples exist, note that statistics are not yet
+meaningful and recommend running more samples before interpreting.
 
 ---
 

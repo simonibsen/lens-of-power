@@ -776,7 +776,27 @@ def compute_health_metrics(nodes):
             if make_timestamp(a) > last_red_team_ts
         )
 
-    # 4. Adversarial ratio — check both analysis content and INDEX.md
+    # 4. Calibration stats from sample log
+    calibration = {"total": 0, "accepted": 0, "plausible": 0, "rejected": 0,
+                   "unacted_escalations": 0}
+    sample_log = ROOT / "calibration" / "sample-log.md"
+    if sample_log.exists():
+        for line in sample_log.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line.startswith("|") or line.startswith("| Date") or line.startswith("|---"):
+                continue
+            cols = [c.strip() for c in line.split("|")]
+            # cols: ['', date, outlet, article, category, null_case, escalation, axis_tags, '']
+            if len(cols) >= 8:
+                calibration["total"] += 1
+                nc = cols[5].lower()
+                if nc in calibration:
+                    calibration[nc] += 1
+                esc = cols[6].lower()
+                if esc in ("analyze", "extract"):
+                    calibration["unacted_escalations"] += 1
+
+    # 5. Adversarial ratio — check both analysis content and INDEX.md
     adversarial_files = set()
     for a in analyses:
         if re.search(r'Adversarial input:\s*yes', a.get("content", ""), re.IGNORECASE):
@@ -802,6 +822,7 @@ def compute_health_metrics(nodes):
         "analyses_since_red_team": analyses_since_red_team,
         "total_analyses": len(analyses),
         "adversarial_count": adversarial_count,
+        "calibration": calibration,
     }
 
 
@@ -4271,6 +4292,38 @@ function buildGaps() {
   const advClass = advRatio >= 0.1 ? 'health-status-ok' : advCount > 0 ? 'health-status-warn' : 'health-status-critical';
   html += '<div class="health-metric ' + advClass + '">' + advCount + ' / ' + advTotal + '</div>';
   html += '<div class="health-detail">Target: 1 in 10 analyses (' + Math.round(advRatio * 100) + '% actual)</div>';
+  html += '</div>';
+
+  // Calibration card
+  const cal = health.calibration || {};
+  const calTotal = cal.total || 0;
+  html += '<div class="health-card">';
+  html += '<h4>Calibration (SAMPLE)</h4>';
+  if (calTotal === 0) {
+    html += '<div class="health-metric health-status-critical">No samples</div>';
+    html += '<div class="health-detail">Run /lop sample to begin calibration</div>';
+  } else {
+    const calNull = (cal.accepted || 0) + (cal.plausible || 0);
+    const calRate = Math.round(calNull / calTotal * 100);
+    const calClass = calTotal < 5 ? 'health-status-warn' : (calRate >= 30 && calRate <= 60) ? 'health-status-ok' : 'health-status-critical';
+    html += '<div class="health-metric ' + calClass + '">' + calRate + '%</div>';
+    html += '<div class="health-stacked-bar" style="margin-bottom:4px">';
+    const calColors = { accepted: 'var(--green)', plausible: 'var(--orange)', rejected: '#e74c3c' };
+    ['accepted','plausible','rejected'].forEach(r => {
+      const c = cal[r] || 0;
+      if (c > 0) html += '<div style="width:' + Math.round(c/calTotal*100) + '%;background:' + calColors[r] + '" title="' + r + ': ' + c + '"></div>';
+    });
+    html += '</div>';
+    html += '<div class="health-legend">';
+    ['accepted','plausible','rejected'].forEach(r => {
+      html += '<span><span style="background:' + calColors[r] + ';width:8px;height:8px;border-radius:2px;display:inline-block;margin-right:4px;vertical-align:middle"></span>' + r + ': ' + (cal[r]||0) + '</span>';
+    });
+    html += '</div>';
+    html += '<div class="health-detail">' + calTotal + ' samples — target null rate: 30\u201360%' + (calTotal < 5 ? ' (need 5+ for significance)' : '') + '</div>';
+    if ((cal.unacted_escalations || 0) > 0) {
+      html += '<div class="health-warning">' + cal.unacted_escalations + ' unacted escalation' + (cal.unacted_escalations > 1 ? 's' : '') + ' in sample log</div>';
+    }
+  }
   html += '</div>';
 
   html += '</div>'; // close health-cards

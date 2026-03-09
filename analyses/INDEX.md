@@ -189,3 +189,29 @@
   Layers: Physical & Coercive (primary), Economic, Thought & Narrative, Institutional, Legal & Regulatory (active but absent)
   Null case: plausible (MEDIUM-HIGH for genre conventions at source level; MEDIUM for structural genre-as-normalisation)
   File: `2026-03-06-dsa-article-thaad-radar-strike-jordan.md`
+
+### 2026-03-08 — Africa's campaign for reparative justice (Guardian)
+  Domain: Postcolonial justice / reparations / international law / cultural politics
+  Layers: Thought & Narrative (primary), Legal & Regulatory (primary), Economic (primary), Institutional, Surveillance & Information (active but absent)
+  Null case: plausible (MEDIUM — partially weakened for legal strategy and Germany's word-avoidance; retained for aspirational elements)
+  File: `2026-03-08-guardian-article-africa-reparative-justice.md`
+
+### 2026-02 — OBBBA Medicaid provisions: procedural scarcity and distributive transfer (RAND/CBO)
+  Domain: Healthcare policy / fiscal policy / distributive politics / legislative process
+  Layers: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  Null case: plausible (MEDIUM — individual provisions conventional; distributive configuration asymmetric)
+  Origin: SAMPLE mode (2026-03-08)
+  File: `2026-02-rand-research-medicaid-obbba-state-impacts.md`
+
+### 2026-03 — "The Cynical, Gullible American Man": institutional media's epistemic crisis diagnosis (The Atlantic)
+  Domain: Epistemic crisis / misinformation / commercial exploitation / institutional media / public health
+  Layers: Thought & Narrative (primary), Economic (primary), Institutional (primary), Surveillance & Information, Legal & Regulatory (active but absent), Physical & Coercive (active but absent)
+  Null case: plausible (MEDIUM — article is good cultural commentary; framework adds structural dimension the genre excludes)
+  File: `2026-03-atlantic-essay-cynical-gullible-american-man.md`
+
+### 2026-02 — "The AI-fication of K Street": lobbying channel of the AI-defence-industrial complex (OpenSecrets)
+  Domain: AI policy / lobbying / defence procurement / regulatory capture / campaign finance
+  Layers: Economic (primary), Institutional (primary), Legal & Regulatory (primary), Thought & Narrative, Surveillance & Information, Physical & Coercive (active but absent)
+  Null case: plausible (MEDIUM-HIGH at component level; MEDIUM at configuration level when combined with Data & Society and NC-04 analyses)
+  Cross-references: `2026-03-02-datasociety-policybrief-big-ai-state.md`, `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`
+  File: `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`

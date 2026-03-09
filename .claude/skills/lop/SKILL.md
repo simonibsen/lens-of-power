@@ -1,7 +1,7 @@
 ---
 name: lop
-description: Apply the Lens of Power interpretive framework to read or analyze material for power dynamics, extract principles and instruments from a source, red-team the framework itself, or run a framework health diagnostic.
-argument-hint: <read|analyze|extract|redteam|suggest> [material, work, or source]
+description: Apply the Lens of Power interpretive framework to read or analyze material for power dynamics, extract principles and instruments from a source, red-team the framework itself, run a framework health diagnostic, or run a calibration sample.
+argument-hint: <read|analyze|extract|redteam|suggest|sample> [material, work, or source]
 user-invocable: true
 allowed-tools: Read, Grep, Glob, WebFetch, WebSearch, Write, Edit, Agent, Bash
 ---
@@ -45,6 +45,10 @@ Parse `$ARGUMENTS` to determine the mode:
   both — and produces only what is genuinely valuable.
 - If the first argument is `redteam`: use **RED TEAM mode** from methodology.md
 - If the first argument is `suggest`: use **SUGGEST mode** from methodology.md
+- If the first argument is `sample`: use **SAMPLE mode** from methodology.md.
+  SAMPLE mode selects its own material — do not accept user-provided material.
+  If the user provides material after `sample`, inform them that SAMPLE mode
+  uses randomized selection and suggest READ or ANALYZE mode instead.
 
 If unclear, ask the user which mode to use.
 
@@ -63,7 +67,8 @@ This check must happen early — after loading the framework and
 determining the mode, but before triage or any analytical steps. The
 user should not receive a full analysis and then be asked about branches.
 
-READ mode and SUGGEST mode are exempt (no file output).
+READ mode, SUGGEST mode, and SAMPLE mode are exempt (SAMPLE writes only
+to the diagnostic log `calibration/sample-log.md`).
 
 ## Execute
 
@@ -153,6 +158,16 @@ of methodology.md. This is read-only — no file writes, no branching check.
 Scan all relevant framework files (analyses/INDEX.md, evidence/, patterns.md,
 sources/, principles/INDEX.md, instruments/) and produce the prioritized
 recommendations. Use WebSearch for source availability checks when needed.
+
+### For SAMPLE mode:
+Follow the SAMPLE mode procedure in methodology.md. Randomly select an
+outlet from `sources/sample-pool.md`, fetch an article, run READ mode on
+it, classify the null case outcome, append the result to
+`calibration/sample-log.md`, and report calibration statistics. No analysis
+files are written. The user may re-roll the selection but may not substitute
+their own source. If the material warrants escalation (analyze or extract),
+offer to proceed immediately — the resulting work follows standard branching
+rules and includes `Origin: SAMPLE mode` provenance.
 
 ## Commit conventions
 

@@ -87,13 +87,13 @@ COUNTERACTS: The Hidden Transcript, The Three Phases of Cultural Resistance
 
 STATEMENT: Literature, art, music, film, and intellectual work have been observed to produce alternative frameworks that make existing power arrangements visible and thinkable as contingent rather than natural.
 
-OUTCOME RANGE: Counter-narratives preserved across generations observed (Mississippi Delta oral tradition, Sedaka gossip networks). Vocabulary creation observed to enable subsequent political mobilization. Commodification absorbed critique into market in documented cases. Structural transformation through cultural production alone not documented — appeared to operate as enabling condition rather than sufficient cause.
+OUTCOME RANGE: Counter-narratives preserved across generations observed (Mississippi Delta oral tradition, Sedaka gossip networks). Vocabulary creation observed to enable subsequent political mobilization. Commodification absorbed critique into market in documented cases. Structural transformation through cultural production alone not documented — appeared to operate as enabling condition rather than sufficient cause. Institutional deployment variant: the AU's integration of arts and culture into the reparations campaign extends Cultural Production from covert transcript preservation to overt narrative construction — the mechanism is instrumentalised for institutional change rather than hidden resistance (Guardian, March 2026).
 
 MECHANISM: Cultural production may create shared vocabulary, preserve counter-narratives, and make structural relations visible. Operates through the thought and narrative layer by producing what Fanon described as the synthesis phase — new frameworks that break existing binaries rather than merely inverting them.
 
 FAILURE MODES: Cultural production may be commodified and absorbed into the market it critiques. It may remain confined to elite audiences. The hidden transcript may be surfaced and neutralized. Co-optation may convert critique into aesthetic consumption.
 
-OBSERVED IN: principles/fanon-wretched-of-the-earth.md, principles/cobb-most-southern-place-on-earth.md, principles/scott-weapons-of-the-weak.md
+OBSERVED IN: principles/fanon-wretched-of-the-earth.md, principles/cobb-most-southern-place-on-earth.md, principles/scott-weapons-of-the-weak.md, analyses/2026-03-08-guardian-article-africa-reparative-justice.md
 
 POWER RESPONSE: Commodification, aesthetic absorption, censorship, patronage systems that create dependency
 

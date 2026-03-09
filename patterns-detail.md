@@ -139,10 +139,11 @@ had a role in "maintaining the existing social order." The inversion is complete
 covert action; "national security" targeting that included free speech demonstrators
 and a rabbi who supported the Vietnam war),
 [principles/huxley-brave-new-world.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/huxley-brave-new-world.md): "Community, Identity, Stability" — the World State's motto names the opposite of its function. Genuine community replaced with conditioned social reflexes, genuine identity replaced with manufactured caste identity, "stability" achieved through elimination of everything that makes stability worth having.
+[analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md) ("program integrity" framing characterises coverage reduction as fraud prevention — enrollees who fail work requirements or redetermination deadlines are positioned as integrity problems rather than beneficiaries; the stated purpose (integrity) describes the opposite of the function (disenrollment of 7.6 million people))
 
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md
 
-CORROBORATION: ESTABLISHED (43 of 46 relevant sources, 93%)
+CORROBORATION: ESTABLISHED (44 of 46 relevant sources, 96%)
 
 CIRCUMVENTIONS:
 - Transparency / Naming (circumventions.md): Church Committee (1976) observed to produce formal termination of COINTELPRO programs. Structural conditions persisted — see P6: Formal Termination as Structural Continuation. (principles/church-committee-cointelpro.md)
@@ -270,6 +271,7 @@ OBSERVED IN: [principles/orwell-1984.md](https://github.com/simonibsen/lens-of-p
 production while reducing the poor's share — scarcity is manufactured through
 upward redistribution of gains, not through decline in output),
 [principles/huxley-brave-new-world.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/huxley-brave-new-world.md): Inverted variant — manufactured abundance rather than scarcity. The World State provides material comfort, sexual freedom, chemical happiness, and constant entertainment. The structural principle is identical (management of material conditions to produce dependency) but the mechanism is opposite: abundance eliminates the desire for change rather than scarcity enforcing compliance.
+[analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md) (procedural scarcity variant: the OBBBA does not repeal Medicaid coverage — it creates bureaucratic friction (work requirements, frequent redetermination, documentation demands) that produces disenrollment through compliance failure. Coverage formally exists; the pathway to it is obstructed. Scarcity is manufactured in eligibility, not in funds or coverage)
 
 NOTE: [principles/zuboff-age-of-surveillance-capitalism.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/zuboff-age-of-surveillance-capitalism.md) P7 presents an
 inversion — surveillance capitalism manufactures scarcity of *knowledge* rather
@@ -305,7 +307,7 @@ post hoc but constitutively produced by the recommended model's first execution.
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (8 of 48 relevant sources, 17%)
+CORROBORATION: SUPPORTED (9 of 48 relevant sources, 19%)
 
 CIRCUMVENTIONS:
 - Economic Alternative (circumventions.md): Graeber's jubilee tradition observed to periodically reset accumulation. Piketty's Scandinavian social democracy observed to constrain the ratchet through progressive taxation. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)
@@ -539,6 +541,19 @@ where the appearance (devolution, neutral analysis) IS the terrain on which
 enforcement nullification operates.
 (principles/project-2025-mandate-for-leadership.md corroboration notes)
 
+NOTE: Germany's €1.1bn payment to Namibia for the Herero-Nama genocide, explicitly
+labelled "development aid" rather than "reparations," is the pattern at the state level:
+the payment maintains the appearance of magnanimity while the refusal to name it
+"reparations" preserves the structural arrangement by preventing legal precedent
+([Guardian, March 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-08-guardian-article-africa-reparative-justice.md)).
+
+NOTE: OBBBA Medicaid provisions ([RAND/CBO 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md)) operate through Axiom 3's second
+mode — visible mechanism, hidden contingency. The bill is public, CBO publishes
+distributional analysis, RAND publishes Medicaid impacts. The population can see the
+bill; the contingency (that the distribution could be otherwise) is obscured by framing
+of fiscal necessity and "program integrity." The appearance of transparent democratic
+process IS the terrain the distributive transfer operates on.
+
 CORROBORATION: ESTABLISHED (41 of 46 relevant sources, 89%)
 
 CIRCUMVENTIONS:
@@ -706,7 +721,12 @@ vesting of executive power is deployed to eliminate institutional independence.
 Congress, and its insulation from presidential discipline is an unconstitutional
 fairy tale." The constitutional text functions not as a constraint on power but as
 a weapon for consolidation — the same judo mechanism but with the powerful using
-their own foundational document against the institutions it created)
+their own foundational document against the institutions it created),
+[analyses/2026-03-08-guardian-article-africa-reparative-justice.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-08-guardian-article-africa-reparative-justice.md) (the reparations
+movement holds former colonial powers to their own human rights framework — the
+"crimes against humanity" classification at the UN is the legal formalisation of
+this judo; Germany's explicit avoidance of the "reparations" label confirms the
+mechanism has leverage before it succeeds)
 
 EVIDENCE: —
 
@@ -806,6 +826,14 @@ generations (from Nehru to McKinsey); the structural commitment does not.
 
 EVIDENCE: —
 
+NOTE: [analyses/2026-03-08-guardian-article-africa-reparative-justice.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-08-guardian-article-africa-reparative-justice.md)
+— state-level reparations diplomacy creates a channel through which redress may
+flow to national governments rather than descendant communities. The Herero/Nama
+exclusion from the Germany-Namibia negotiations is the earliest empirical signal.
+Ghana's positioning of the diaspora as its "13th ethnic group" is instrumentally
+clever but creates a state-mediated channel for reparations claims. Third documented
+context (postcolonial reparations).
+
 CORROBORATION: PRELIMINARY (2 of 48 relevant sources, 4%)
 
 ### Constitutive Violence
@@ -868,6 +896,14 @@ of surveillance infrastructure that persists through formal transformations
 
 EVIDENCE: —
 
+NOTE: [analyses/2026-03-08-guardian-article-africa-reparative-justice.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-08-guardian-article-africa-reparative-justice.md)
+— the word "reparations" would convert constitutive violence from an invisible
+substrate into a named liability. Germany paid €1.1bn to Namibia but refused
+to call it "reparations" because the category would transform voluntary generosity
+into obligatory redress. The resistance is not to the payment but to the naming —
+the word threatens to make the foundational violence visible as a continuing
+obligation rather than a historical fact.
+
 CORROBORATION: ESTABLISHED (10 of 48 relevant sources, 21%)
 
 ### The Three Phases of Cultural Resistance
@@ -889,11 +925,15 @@ applies to individuals, artistic movements, and political ideologies.
 
 OBSERVED IN: [principles/fanon-wretched-of-the-earth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/fanon-wretched-of-the-earth.md) P5 (psychological
 reconstruction), [principles/fanon-wretched-of-the-earth.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/fanon-wretched-of-the-earth.md) P8 (culture as
-control and resistance)
+control and resistance),
+[analyses/2026-03-08-guardian-article-africa-reparative-justice.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-08-guardian-article-africa-reparative-justice.md) (Owuor's
+call for "moral autopsy before moral exorcism" and warning against "unseemly rush"
+into restitution — the reparations movement operating in the synthesis phase,
+creating new frameworks rather than inverting colonial categories)
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 46 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (2 of 46 relevant sources, 4%)
 
 CIRCUMVENTIONS:
 - Cultural Production (circumventions.md): Fanon's synthesis phase — the third phase of cultural resistance — is itself the circumvention, producing genuinely new frameworks rather than reactions within existing ones. (principles/fanon-wretched-of-the-earth.md)
@@ -1043,6 +1083,15 @@ extraction outward: the January 2025 Terms of Service extend content licensing t
 private messages and AI training with opt-out denial; previously posted content
 retroactively subject to new terms; non-users bound through shared links; each cycle
 provokes brief resistance then habituation, establishing a new baseline for the next
+
+NOTE: [analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md) identifies a
+commercial epistemic variant: distrust of institutions creates demand for alternative
+products (supplements, crypto, sports betting) → vendors deepen distrust to sustain
+demand → deeper distrust creates further demand. The ratcheting structure is identical
+to the data-extraction cycle but operates through epistemic channels rather than
+surveillance channels. Each completed cycle (institution fails → distrust deepens →
+commercial exploitation → further institutional delegitimation) ratchets the baseline
+of distrust outward.
 incursion)
 
 EVIDENCE: —
@@ -1151,6 +1200,21 @@ removing the evidentiary infrastructure needed to detect structural discriminati
 Without aggregate data, patterns of discrimination become invisible — enforcement
 blocked at the evidence-gathering stage rather than the adjudication stage.
 (principles/project-2025-mandate-for-leadership.md P8, corroboration notes)
+
+NOTE: OBBBA Medicaid analysis ([RAND/CBO 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md))
+provides an institutional analysis separation variant: RAND analyses Medicaid impacts,
+CBO/JCT analyses distributional effects of tax provisions, neither institution connects
+them. The structural transfer — $664B from healthcare for low-income populations funding
+$2.3T in tax cuts for the top 10% — is visible only when the analyses are juxtaposed.
+Institutional specialisation produces accurate component analyses but prevents the
+configurational finding from emerging within any single authoritative source. The
+Division of Learning operates within the policy analysis ecosystem itself.
+
+NOTE: [analyses/2026-03-08-guardian-article-africa-reparative-justice.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-08-guardian-article-africa-reparative-justice.md)
+— colonial-era archives (census records, shipping logs, land registries,
+administrative records) held by former colonisers create an information asymmetry
+at the historical-evidentiary level. The power to audit the past is held by those
+who benefited from it. An archival-historical variant of the Division of Learning.
 
 CORROBORATION: SUPPORTED (8 of 48 relevant sources, 17%)
 
@@ -1295,6 +1359,15 @@ arguments for why its own mechanism should not exist. Distinct from all prior va
 the institution actively reasons its way out of its structural role through constitutional
 reinterpretation, procedural fatigue, and delegitimization of oversight frequency.)
 
+NOTE: CDC vaccine-autism language capitulation ([The Atlantic, March 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md))
+provides a ninth variant: *public health abdication under political pressure*. The CDC
+— whose stated function is protecting public health — has been forced to state that
+"Studies have not ruled out the possibility that infant vaccines cause autism." This
+is not a scientific conclusion; it is institutional capitulation. The consequence is
+measurable: 3,200+ measles cases and at least two child deaths in a country that had
+eliminated the disease 26 years ago. The institution persists in form while its
+communications now actively undermine its function.
+
 NOTE: Church Committee COINTELPRO (1976) — both the oversight mechanism
 (Inspection Division evaluating effectiveness not propriety: "There was no
 instruction... that the Inspector should be on the alert to see that constitutional
@@ -1384,11 +1457,17 @@ reclassifies tens of thousands of positions, restoring protections requires new
 legislation. Once oversight offices are eliminated, re-establishing them requires
 new appropriations. The consolidation becomes the new baseline — the ratchet engages
 in the forward direction with no mechanism for reversal beyond voluntary restraint
-by the actors who accumulated the power)
+by the actors who accumulated the power),
+[analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md) (the OBBBA reconciliation
+as the ratchet operating through legislative process — $664B removed from Medicaid,
+$4.5T in tax cuts ($2.3T to the top 10%), within a single vehicle. The reconciliation
+procedure is the institutional mechanism: budget constraints prevent filibuster, enabling
+directional transfer through majority vote. Once enacted, restoring Medicaid provisions
+requires new legislation against entrenched beneficiaries of the tax cuts)
 
 EVIDENCE: —
 
-CORROBORATION: SUPPORTED (9 of 48 relevant sources, 19%)
+CORROBORATION: ESTABLISHED (10 of 48 relevant sources, 21%)
 
 CIRCUMVENTIONS:
 - Economic Alternative (circumventions.md): Jubilee traditions, progressive taxation, and social democratic institutions observed to constrain the ratchet without catastrophe. Piketty documents Scandinavian model as sustained counter-example. (principles/graeber-debt-the-first-5000-years.md, principles/piketty-capital-in-the-twenty-first-century.md)
@@ -1607,6 +1686,25 @@ defunded, protected activity narrowed, union decertification eased, regulatory f
 converted to negotiable defaults. The laws exist; the capacity to enforce them is
 removed. (principles/project-2025-mandate-for-leadership.md P7, corroboration notes)
 
+NOTE: OBBBA ([RAND/CBO 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md))
+is the legislative instantiation at scale: the democratic process (Congressional votes,
+presidential signature) produces the bill; the distributional substance is oligarchic
+($664B from healthcare for low-income populations, $2.3T to the top 10% of earners, in
+a single vehicle). The richest 1% receive tax cuts exceeding $50,000/year; the average
+across all filers is $611. CBO publishes the distributional analysis; the bill is public;
+the mechanism operates through democratic procedure, not around it.
+
+NOTE: AI lobbying data ([OpenSecrets, February 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md))
+quantifies the pattern in the AI policy domain. The lobbying system is formally democratic:
+transparent disclosures, public filings, open legislative process. The substance is
+oligarchic: Lockheed Martin's $15.7M vs. the Disability Rights Education & Defense Fund's
+$50K — a 314:1 spending ratio. AI-active firms in health and FIRE sectors reported $503M
+in combined lobbying expenditures in 2025. Both the democratic form (disclosure) and the
+oligarchic substance (resource asymmetry) are visible in the same dataset. Combined with
+the Data & Society policy output and NC-04 campaign finance data, three independent
+sources document the pattern operating across lobbying, electoral, and policy channels
+simultaneously.
+
 CORROBORATION: ESTABLISHED (15 of 48 relevant sources, 31%)
 
 CIRCUMVENTIONS:
@@ -1759,6 +1857,17 @@ the Bureau selects cooperative journalists (personnel), provides content
 (installation), and the resulting published articles appear as independent
 journalism (outcome). Seventh documented domain: intelligence-media capture.
 
+NOTE: OpenSecrets AI lobbying data ([February 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md))
+documents AI-native defence firms traversing the pipeline in real time. Applied
+Intuition's lobbying spend jumped 65% in one year ($550K to $910K), targeting Armed
+Services and Appropriations committees to secure pilot programmes and contract access.
+The pipeline sequence: technology → lobbying → committee access → pilot programme →
+appropriations → incumbency. Combined with the Data & Society policy output ($8.9B Intel
+equity, NEPA bypasses) and NC-04 campaign finance (AI PAC spending in Congressional
+primaries), three independent sources document a multi-channel influence architecture
+matching Powell's P2 prescription. Eighth documented domain: AI-defence procurement
+capture through lobbying.
+
 CORROBORATION: SUPPORTED (7 of 48 relevant sources, 15%)
 
 CIRCUMVENTIONS:
@@ -1885,6 +1994,13 @@ oneself visible to the state persisted through the institution. Each transformat
 changes form; the structural function — identifying, documenting, and controlling
 racialized bodies — persists. Eighth documented context.
 
+NOTE: [analyses/2026-03-08-guardian-article-africa-reparative-justice.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-08-guardian-article-africa-reparative-justice.md)
+— Germany's €1.1bn to Namibia labelled "development aid" rather than "reparations"
+is the pattern at the international-legal level. The payment is a formal transformation
+(acknowledgement of genocide); the refusal to name it "reparations" preserves the
+structural arrangement (no legal precedent for obligatory redress). Ninth documented
+context.
+
 CORROBORATION: SUPPORTED (7 of 48 relevant sources, 15%)
 
 ### The Structural Demand for Propaganda
@@ -1910,7 +2026,14 @@ conditions for critical distance.
 OBSERVED IN: [principles/ellul-propaganda.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/ellul-propaganda.md) P2 (the propagandee's need — the governed
 actively seek propaganda to cope with the anxiety and complexity of technological society;
 the demand side drives the supply side; the intellectual who reads five newspapers is more
-propagandized than the peasant who reads nothing)
+propagandized than the peasant who reads nothing),
+[analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md) (the demand side documented
+in real time: "gullicists" actively seek conspiracy narratives for certainty, identity,
+self-esteem, and "the feeling that consumers can prove they're smarter than those snooty
+experts." The "One True Reason" syndrome — autism → vaccines, no housing → immigrants — is
+the demand for cognitive economy Ellul describes. The article documents the commercial
+infrastructure that has emerged to serve this demand: supplements, crypto, sports betting,
+all sold on the basis of rejecting expert validation)
 
 NOTE: This pattern challenges the framework's implicit model of power as asymmetric
 imposition (Axioms 5, 9). While power is asymmetric in its *distribution* of benefits,
@@ -1931,7 +2054,7 @@ structural effect converges.
 
 EVIDENCE: —
 
-CORROBORATION: PRELIMINARY (1 of 47 relevant sources, 2%)
+CORROBORATION: PRELIMINARY (2 of 47 relevant sources, 4%)
 
 ### Categorical Blindness
 LAYERS: Thought & Narrative, Surveillance & Information
