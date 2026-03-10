@@ -643,14 +643,14 @@ understanding.
 - [Axiom 8: Absence significant](https://github.com/simonibsen/lens-of-power/blob/main/constitution.md)
 - [Axiom 9: Manufactured compliance](https://github.com/simonibsen/lens-of-power/blob/main/constitution.md)
 - [Axiom 10: Understanding as resistance](https://github.com/simonibsen/lens-of-power/blob/main/constitution.md)
-- [Inversion of Stated Purpose](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — ESTABLISHED
-- [The Boomerang](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — PRELIMINARY
-- [Institutional Abdication](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — ESTABLISHED
-- [Appearance as Structural Terrain](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — ESTABLISHED
-- [Formal Transformation, Structural Continuity](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — SUPPORTED
-- [Division of Learning](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — SUPPORTED
-- [Layered Redundancy of Control](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — ESTABLISHED
-- [Perpetual Threat as Perpetual Justification](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — SUPPORTED
-- [Anticipatory Obedience](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — SUPPORTED
-- [The Capture Pipeline](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md) — SUPPORTED
+- [Inversion of Stated Purpose](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — ESTABLISHED
+- [The Boomerang](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — PRELIMINARY
+- [Institutional Abdication](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — ESTABLISHED
+- [Appearance as Structural Terrain](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — ESTABLISHED
+- [Formal Transformation, Structural Continuity](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — SUPPORTED
+- [Division of Learning](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — SUPPORTED
+- [Layered Redundancy of Control](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — ESTABLISHED
+- [Perpetual Threat as Perpetual Justification](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — SUPPORTED
+- [Anticipatory Obedience](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — SUPPORTED
+- [The Capture Pipeline](https://github.com/simonibsen/lens-of-power/blob/main/patterns/INDEX.md) — SUPPORTED
 - [Positional lens](https://github.com/simonibsen/lens-of-power/blob/main/instruments/positional-lens.md) — Position 4/5

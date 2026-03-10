@@ -23,8 +23,7 @@ Epilogue). This constitutes the complete COINTELPRO chapter of Book III.
 ## Related files
 
 - `principles/church-committee-cointelpro.md` — 7 principles extracted
-- `patterns.md` — 10 patterns confirmed, 1 new candidate noted
-- `patterns-detail.md` — OBSERVED IN entries added
+- `patterns/` — 10 patterns confirmed, OBSERVED IN entries added
 
 ## Remaining material
 

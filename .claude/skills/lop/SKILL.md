@@ -18,12 +18,12 @@ Before proceeding, read these files from the project root:
 1. `constitution.md` — axioms, directives, and integrity constraints (ALWAYS load)
 2. `taxonomy.md` — layers of power (ALWAYS load)
 3. `methodology.md` — the analytical procedure (ALWAYS load)
-4. `patterns.md` — compact pattern definitions (ALWAYS load)
+4. `patterns/INDEX.md` — compact pattern lookup table (ALWAYS load)
 5. `circumventions.md` — observed responses to power concentration (ALWAYS load)
 6. `principles/INDEX.md` — compact principles lookup table (ALWAYS load)
 
 Load selectively as needed:
-7. `patterns-detail.md` — full evidence trails for patterns (load for RED TEAM mode, pattern audits, or when checking specific pattern evidence)
+7. `patterns/*.md` — individual pattern files with full evidence trails (load for RED TEAM mode, pattern audits, or when checking specific pattern evidence)
 8. `circumventions-detail.md` — full evidence trails for circumventions (load for RED TEAM mode or circumvention audits)
 9. `instruments/` — load any instruments relevant to the material
 10. `principles/[source].md` — load full principles file only when deep comparison with a specific source is needed (the INDEX has enough for cross-referencing)
@@ -68,7 +68,7 @@ determining the mode, but before triage or any analytical steps. The
 user should not receive a full analysis and then be asked about branches.
 
 READ mode, SUGGEST mode, and SAMPLE mode are exempt (SAMPLE writes only
-to the diagnostic log `calibration/sample-log.md`).
+to the diagnostic log `data/calibration.yaml`).
 
 ## Execute
 
@@ -76,7 +76,7 @@ Follow the procedure defined in `methodology.md` for the selected mode.
 Apply all axiom directives from `constitution.md` throughout.
 Apply all integrity constraints (IC-1 through IC-5) from `constitution.md`.
 Use the taxonomy layers from `taxonomy.md` as your analytical checklist.
-Cross-reference `patterns.md` at every step where the methodology calls for it.
+Cross-reference `patterns/INDEX.md` at every step where the methodology calls for it.
 
 ## Integrity constraints (non-negotiable)
 
@@ -137,7 +137,7 @@ The analytical apparatus section is required — it lists every instrument,
 principle, and pattern that shaped the analysis, with sources.
 
 If the analysis produces framework updates, offer to write them to the
-appropriate files (patterns.md, evidence/, etc.).
+appropriate files (patterns/, evidence/, etc.).
 
 ### For EXTRACT mode:
 Produce the output defined in methodology.md. The extract procedure
@@ -155,7 +155,7 @@ and offer to write the results to `evidence/`.
 ### For SUGGEST mode:
 Produce the structured health report defined in the SUGGEST mode procedure
 of methodology.md. This is read-only — no file writes, no branching check.
-Scan all relevant framework files (analyses/INDEX.md, evidence/, patterns.md,
+Scan all relevant framework files (analyses/INDEX.md, evidence/, patterns/INDEX.md,
 sources/, principles/INDEX.md, instruments/) and produce the prioritized
 recommendations. Use WebSearch for source availability checks when needed.
 
@@ -163,7 +163,7 @@ recommendations. Use WebSearch for source availability checks when needed.
 Follow the SAMPLE mode procedure in methodology.md. Randomly select an
 outlet from `sources/sample-pool.md`, fetch an article, run READ mode on
 it, classify the null case outcome, append the result to
-`calibration/sample-log.md`, and report calibration statistics. No analysis
+`data/calibration.yaml`, and report calibration statistics. No analysis
 files are written. The user may re-roll the selection but may not substitute
 their own source. If the material warrants escalation (analyze or extract),
 offer to proceed immediately — the resulting work follows standard branching

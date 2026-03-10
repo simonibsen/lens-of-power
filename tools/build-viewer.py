@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 """Build a self-contained viewer.html from Lens of Power framework files.
 
-Reads all markdown files, extracts structured metadata and cross-references,
-and outputs a single HTML file with embedded JSON data. Uses marked.js (CDN)
-for markdown rendering and D3.js (CDN) for graph visualization.
+Primary data source: YAML files in data/ (structured metadata, cross-references).
+Markdown files are read for prose content (detail view rendering).
 
 Usage: python3 tools/build-viewer.py
-Output: viewer.html
+Output: viewer.html + viewer-data.js
 """
 
 import json
 import os
 import re
 import sys
+import yaml
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
 OUT = ROOT / "viewer.html"
 OUT_DATA = ROOT / "viewer-data.js"
 
@@ -28,9 +29,36 @@ LAYER_NAMES = [
     "Physical & Coercive",
 ]
 
+LAYER_ID_TO_NAME = {
+    "thought_narrative": "Thought & Narrative",
+    "economic": "Economic",
+    "legal_regulatory": "Legal & Regulatory",
+    "institutional": "Institutional",
+    "surveillance_information": "Surveillance & Information",
+    "physical_coercive": "Physical & Coercive",
+}
+
+
+def layer_ids_to_names(ids: list) -> list:
+    """Convert layer IDs to display names."""
+    return [LAYER_ID_TO_NAME.get(lid, lid) for lid in (ids or [])]
+
 
 # ---------------------------------------------------------------------------
-# Parsing helpers
+# YAML loading
+# ---------------------------------------------------------------------------
+
+def load_yaml(filename: str) -> dict:
+    """Load a YAML file from data/."""
+    path = DATA / filename
+    if not path.exists():
+        return {"entries": []}
+    with open(path) as f:
+        return yaml.safe_load(f) or {"entries": []}
+
+
+# ---------------------------------------------------------------------------
+# Parsing helpers (kept for markdown content reading)
 # ---------------------------------------------------------------------------
 
 def read_file(path: Path) -> str:
@@ -43,499 +71,11 @@ def extract_title(content: str) -> str:
     return m.group(1).strip() if m else ""
 
 
-def extract_field(content: str, field: str) -> str:
-    """Extract a single-line field value like 'DATE: 2026-03-01'."""
-    pattern = rf"^{re.escape(field)}:\s*(.+)$"
-    m = re.search(pattern, content, re.MULTILINE)
-    return m.group(1).strip() if m else ""
-
-
-def extract_field_multiline(content: str, field: str) -> str:
-    """Extract a field that may span multiple lines (until the next field or blank line + heading)."""
-    pattern = rf"^{re.escape(field)}:\s*(.+?)(?=\n[A-Z][A-Z _]+:|(?:\n\s*\n))"
-    m = re.search(pattern, content, re.MULTILINE | re.DOTALL)
-    if m:
-        return re.sub(r"\s+", " ", m.group(1)).strip()
-    # Fallback: single line
-    return extract_field(content, field)
-
-
-def split_list(value: str) -> list:
-    """Split a comma-or-semicolon separated string into a list of stripped items."""
-    if not value:
-        return []
-    items = re.split(r"[,;]", value)
-    return [i.strip() for i in items if i.strip()]
-
-
-def extract_file_refs(text: str) -> list:
-    """Extract file path references like principles/foo.md, analyses/bar.md, etc."""
-    return re.findall(
-        r"(?:principles|analyses|instruments|evidence)/[\w\-]+\.md",
-        text,
-    )
 
 
 # ---------------------------------------------------------------------------
-# Layer parsing
+# Metadata parsing (still used by build)
 # ---------------------------------------------------------------------------
-
-def parse_layers_string(s: str) -> list:
-    """Parse a LAYERS field value into a list of canonical layer names."""
-    if not s:
-        return []
-    s = s.strip()
-    # Strip trailing parenthetical annotations like "(Physical as foundation)"
-    base = re.sub(r"\s*\(.*?\)\s*$", "", s).strip().lower()
-    if base in ("all layers", "all six"):
-        return list(LAYER_NAMES)
-    if base == "all non-physical":
-        return [l for l in LAYER_NAMES if l != "Physical & Coercive"]
-    result = []
-    for part in s.split(","):
-        part = re.sub(r"\(.*?\)", "", part).strip()
-        if not part:
-            continue
-        for canon in LAYER_NAMES:
-            if part.lower() == canon.lower() or canon.lower().startswith(part.lower()):
-                if canon not in result:
-                    result.append(canon)
-                break
-    return result
-
-
-# ---------------------------------------------------------------------------
-# Pattern name normalization
-# ---------------------------------------------------------------------------
-
-def pattern_id(name: str) -> str:
-    return "pattern:" + name.strip()
-
-
-def circumvention_id(name: str) -> str:
-    return "circumvention:" + name.strip()
-
-
-def normalize_pattern_ref(ref: str) -> str:
-    """Normalize loose pattern references to canonical names."""
-    ref = ref.strip()
-    canon = ref
-    return canon
-
-
-# ---------------------------------------------------------------------------
-# Parse each file type
-# ---------------------------------------------------------------------------
-
-def parse_patterns(path: Path):
-    """Parse patterns.md into a list of pattern nodes."""
-    content = read_file(path)
-    nodes = []
-    parts = re.split(r"^### ", content, flags=re.MULTILINE)
-    for part in parts[1:]:
-        lines = part.strip()
-        name = lines.split("\n")[0].strip()
-        layers = extract_field(lines, "LAYERS")
-        statement = extract_field(lines, "STATEMENT")
-        mechanism = extract_field(lines, "MECHANISM")
-        corroboration = extract_field(lines, "CORROBORATION")
-        nodes.append({
-            "id": pattern_id(name),
-            "type": "pattern",
-            "title": name,
-            "content": "### " + part.strip(),
-            "meta": {
-                "layers": layers,
-                "layer_list": parse_layers_string(layers),
-                "statement": statement,
-                "mechanism": mechanism,
-                "corroboration": corroboration,
-            },
-        })
-    return nodes
-
-
-def parse_patterns_detail(path: Path):
-    """Parse patterns-detail.md for OBSERVED IN and EVIDENCE edges."""
-    content = read_file(path)
-    edges = []
-    parts = re.split(r"^### ", content, flags=re.MULTILINE)
-    for part in parts[1:]:
-        name = part.split("\n")[0].strip()
-        pid = pattern_id(name)
-
-        observed = extract_field_multiline(part, "OBSERVED IN")
-        if observed:
-            for fref in extract_file_refs(observed):
-                edges.append({
-                    "source": pid,
-                    "target": fref,
-                    "type": "observed_in",
-                })
-
-        evidence = extract_field_multiline(part, "EVIDENCE")
-        if evidence:
-            for fref in extract_file_refs(evidence):
-                edges.append({
-                    "source": pid,
-                    "target": fref,
-                    "type": "evidence",
-                })
-    return edges
-
-
-def parse_circumventions(path: Path):
-    """Parse circumventions.md into a list of circumvention nodes."""
-    content = read_file(path)
-    nodes = []
-    edges = []
-    parts = re.split(r"^### ", content, flags=re.MULTILINE)
-    for part in parts[1:]:
-        lines = part.strip()
-        name = lines.split("\n")[0].strip()
-        layers = extract_field(lines, "LAYERS")
-        counteracts = extract_field(lines, "COUNTERACTS")
-        statement = extract_field(lines, "STATEMENT")
-        outcome_range = extract_field_multiline(lines, "OUTCOME RANGE")
-        mechanism = extract_field_multiline(lines, "MECHANISM")
-        failure_modes = extract_field_multiline(lines, "FAILURE MODES")
-        observed_in = extract_field_multiline(lines, "OBSERVED IN")
-        power_response = extract_field_multiline(lines, "POWER RESPONSE")
-        cid = circumvention_id(name)
-        nodes.append({
-            "id": cid,
-            "type": "circumvention",
-            "title": name,
-            "content": "### " + part.strip(),
-            "meta": {
-                "layers": layers,
-                "layer_list": parse_layers_string(layers),
-                "counteracts": counteracts,
-                "statement": statement,
-                "outcome_range": outcome_range,
-                "mechanism": mechanism,
-                "failure_modes": failure_modes,
-                "power_response": power_response,
-            },
-        })
-        # Edges: circumvention -> pattern (counteracts)
-        if counteracts:
-            for pname in split_list(counteracts):
-                pname = pname.strip()
-                if pname:
-                    edges.append({
-                        "source": cid,
-                        "target": pattern_id(pname),
-                        "type": "counteracts",
-                    })
-        # Edges: circumvention -> principles/analyses (observed_in)
-        if observed_in:
-            for fref in extract_file_refs(observed_in):
-                edges.append({
-                    "source": cid,
-                    "target": fref,
-                    "type": "observed_in",
-                })
-    return nodes, edges
-
-
-def parse_circumventions_detail(path: Path):
-    """Parse circumventions-detail.md for extended OBSERVED IN edges."""
-    content = read_file(path)
-    edges = []
-    parts = re.split(r"^### ", content, flags=re.MULTILINE)
-    for part in parts[1:]:
-        name = part.split("\n")[0].strip()
-        cid = circumvention_id(name)
-
-        observed = extract_field_multiline(part, "OBSERVED IN")
-        if observed:
-            for fref in extract_file_refs(observed):
-                edges.append({
-                    "source": cid,
-                    "target": fref,
-                    "type": "observed_in",
-                })
-    return edges
-
-
-def parse_pattern_circumventions(path: Path):
-    """Parse CIRCUMVENTIONS fields from patterns.md to create pattern->circumvention edges."""
-    content = read_file(path)
-    edges = []
-    parts = re.split(r"^### ", content, flags=re.MULTILINE)
-    for part in parts[1:]:
-        name = part.split("\n")[0].strip()
-        pid = pattern_id(name)
-        circumventions = extract_field(part, "CIRCUMVENTIONS")
-        if circumventions:
-            for cname in split_list(circumventions):
-                cname = cname.strip()
-                if cname:
-                    edges.append({
-                        "source": circumvention_id(cname),
-                        "target": pid,
-                        "type": "counteracts",
-                    })
-    return edges
-
-
-def parse_analysis(path: Path):
-    """Parse an analysis file into a node and edges."""
-    content = read_file(path)
-    rel = str(path.relative_to(ROOT))
-    title = extract_title(content)
-    date = extract_field(content, "DATE")
-    time_field = extract_field(content, "TIME")
-    source_type = extract_field(content, "SOURCE TYPE")
-    mode = extract_field(content, "MODE")
-    source = extract_field(content, "SOURCE")
-
-    # Extract LAYERS ACTIVE (three format variants: numbered list, bullet
-    # list, bold inline).  Feed through parse_layers_string()-compatible
-    # matching so we get canonical layer names.
-    layers_match = re.search(
-        r"\*?\*?LAYERS ACTIVE\*?\*?:?\s*(.+?)(?=\n\s*\n|\nLAYERS ACTIVE BUT|\n##|\Z)",
-        content, re.DOTALL,
-    )
-    analysis_layers = []
-    if layers_match:
-        layers_text = layers_match.group(1)
-        for canon in LAYER_NAMES:
-            # Match full name or first word (e.g. "Physical" for "Physical & Coercive")
-            if canon.lower() in layers_text.lower() or \
-               canon.split(" & ")[0].lower() in layers_text.lower():
-                analysis_layers.append(canon)
-
-    node = {
-        "id": rel,
-        "type": "analysis",
-        "title": title,
-        "content": content,
-        "meta": {
-            "date": date,
-            "time": time_field,
-            "source_type": source_type,
-            "mode": mode,
-            "source": source,
-            "layer_list": analysis_layers,
-        },
-    }
-
-    edges = []
-
-    pattern_section = re.search(
-        r"(?:###\s*Pattern matches|PATTERNS MATCHED:)(.*?)(?=\n###|\n---|\Z)",
-        content, re.DOTALL | re.IGNORECASE,
-    )
-    if pattern_section:
-        text = pattern_section.group(1)
-        for line in text.split("\n"):
-            line = line.strip().lstrip("- ")
-            if line and not line.startswith("#"):
-                name = re.split(r"\s*\(", line)[0].strip()
-                if name and len(name) > 3:
-                    edges.append({
-                        "source": rel,
-                        "target": pattern_id(name),
-                        "type": "matches",
-                    })
-
-    cross_ref = re.search(
-        r"###\s*Framework cross-reference(.*?)(?=\n---|\n##[^#]|\Z)",
-        content, re.DOTALL,
-    )
-    if cross_ref:
-        text = cross_ref.group(1)
-        for fref in extract_file_refs(text):
-            edges.append({
-                "source": rel,
-                "target": fref,
-                "type": "references",
-            })
-
-    sources_section = re.search(
-        r"###\s*Framework files referenced(.*?)(?=\n---|\n##[^#]|\Z)",
-        content, re.DOTALL,
-    )
-    if sources_section:
-        text = sources_section.group(1)
-        for fref in extract_file_refs(text):
-            edges.append({
-                "source": rel,
-                "target": fref,
-                "type": "references",
-            })
-
-    for fref in re.findall(r"instruments/[\w\-]+\.md", content):
-        edges.append({
-            "source": rel,
-            "target": fref,
-            "type": "applies_instrument",
-        })
-
-    return node, edges
-
-
-def parse_principle_index(path: Path):
-    """Parse principles/INDEX.md for KEY PATTERNS, INSTRUMENT refs, and LAYERS."""
-    content = read_file(path)
-    edges = []
-    index_layers = {}
-
-    parts = re.split(r"^## ", content, flags=re.MULTILINE)
-    for part in parts[1:]:
-        lines = part.strip()
-        filename = lines.split("\n")[0].strip()
-        if not filename.endswith(".md"):
-            continue
-        fref = "principles/" + filename
-
-        # LAYERS
-        layers_str = extract_field(lines, "LAYERS")
-        if layers_str:
-            index_layers[fref] = parse_layers_string(layers_str)
-
-        # KEY PATTERNS
-        kp = extract_field(lines, "KEY PATTERNS")
-        if kp:
-            for pname in split_list(kp):
-                pname = pname.strip()
-                if pname:
-                    edges.append({
-                        "source": fref,
-                        "target": pattern_id(pname),
-                        "type": "key_pattern",
-                    })
-
-        # INSTRUMENT refs
-        inst_line = extract_field(lines, "INSTRUMENT")
-        if inst_line:
-            for iref in extract_file_refs(inst_line):
-                edges.append({
-                    "source": fref,
-                    "target": iref,
-                    "type": "produces_instrument",
-                })
-        inst_line2 = extract_field(lines, "INSTRUMENT PROPOSED")
-        if inst_line2:
-            for iref in extract_file_refs(inst_line2):
-                edges.append({
-                    "source": fref,
-                    "target": iref,
-                    "type": "produces_instrument",
-                })
-
-    return edges, index_layers
-
-
-def parse_principle(path: Path):
-    """Parse a principles/*.md file into a node."""
-    content = read_file(path)
-    rel = str(path.relative_to(ROOT))
-    title = extract_title(content)
-    source = extract_field(content, "SOURCE")
-    ptype = extract_field(content, "TYPE")
-    layers_section = re.search(
-        r"##\s*Layers active(.*?)(?=\n---|\n##[^#]|\Z)",
-        content, re.DOTALL,
-    )
-    layers = ""
-    if layers_section:
-        layer_text = layers_section.group(1)
-        layer_names = re.findall(
-            r"\|\s*(Thought & Narrative|Economic|Legal & Regulatory|Institutional|Surveillance & Information|Physical & Coercive)",
-            layer_text,
-        )
-        if layer_names:
-            layers = ", ".join(layer_names)
-
-    principle_names = re.findall(r"^### P\d+:\s*(.+)$", content, re.MULTILINE)
-    principle_count = len(principle_names)
-
-    node = {
-        "id": rel,
-        "type": "principle",
-        "title": title,
-        "content": content,
-        "meta": {
-            "source": source,
-            "type": ptype,
-            "layers": layers,
-            "layer_list": parse_layers_string(layers),
-            "principle_count": principle_count,
-            "principle_names": principle_names,
-        },
-    }
-    return node
-
-
-def parse_instrument(path: Path):
-    """Parse an instruments/*.md file into a node."""
-    content = read_file(path)
-    rel = str(path.relative_to(ROOT))
-    title = extract_title(content)
-    source = extract_field(content, "SOURCE")
-    layers = extract_field(content, "TAXONOMY LAYERS")
-
-    items = re.findall(r"^### (.+)$", content, re.MULTILINE)
-
-    node = {
-        "id": rel,
-        "type": "instrument",
-        "title": title,
-        "content": content,
-        "meta": {
-            "source": source,
-            "layers": layers,
-            "layer_list": parse_layers_string(layers),
-            "item_count": len(items),
-        },
-    }
-    return node
-
-
-def parse_evidence(path: Path):
-    """Parse an evidence/*.md file into a node and edges."""
-    content = read_file(path)
-    rel = str(path.relative_to(ROOT))
-    title = extract_title(content)
-    date = extract_field(content, "DATE RECORDED")
-    source = extract_field(content, "SOURCE")
-    source_type = extract_field(content, "SOURCE TYPE")
-    axioms = extract_field(content, "AXIOMS")
-    patterns = extract_field(content, "PATTERNS")
-    layers = extract_field(content, "LAYERS")
-    relationship = extract_field(content, "RELATIONSHIP")
-
-    node = {
-        "id": rel,
-        "type": "evidence",
-        "title": title,
-        "content": content,
-        "meta": {
-            "date": date,
-            "source": source,
-            "source_type": source_type,
-            "axioms": axioms,
-            "layers": layers,
-            "layer_list": parse_layers_string(layers),
-            "relationship": relationship,
-        },
-    }
-
-    edges = []
-    if patterns:
-        for pname in split_list(patterns):
-            pname = pname.strip()
-            if pname:
-                edges.append({
-                    "source": rel,
-                    "target": pattern_id(pname),
-                    "type": "evidence_for",
-                })
-
-    return node, edges
 
 
 def parse_constitution(path: Path):
@@ -660,42 +200,57 @@ def compute_corroboration(nodes, edges):
         p["meta"]["corr_has_counter"] = has_counter
 
 
-def sync_corroboration_to_markdown(nodes):
-    """Write computed corroboration values back to patterns.md and patterns-detail.md."""
-    patterns = [n for n in nodes if n["type"] == "pattern"]
+def sync_corroboration_to_yaml(nodes):
+    """Write computed corroboration values back to data/patterns.yaml.
 
-    for md_path in [ROOT / "patterns.md", ROOT / "patterns-detail.md"]:
-        if not md_path.exists():
-            continue
-        text = md_path.read_text(encoding="utf-8")
-        changed = False
-        for p in patterns:
-            name = p["title"]
-            new_corr = p["meta"]["corroboration"]
-            # Find the CORROBORATION line for this pattern.
-            # Match from the heading to the CORROBORATION field, then capture
-            # everything on the CORROBORATION line (may wrap onto next line
-            # before the next blank line or field).
-            pat = re.compile(
-                r"(### " + re.escape(name) + r".*?CORROBORATION:\s*)"
-                r"(.+?)(?=\n\n|\n[A-Z][A-Z _]+:|\n### |\Z)",
-                re.DOTALL,
-            )
-            m = pat.search(text)
-            if m:
-                old_val = m.group(2).strip()
-                # Preserve counter-evidence annotations
-                counter_note = ""
-                counter_m = re.search(r"(\+\s*.+?counter.+?)$", old_val, re.IGNORECASE | re.DOTALL)
-                if counter_m:
-                    counter_note = " " + counter_m.group(1).strip()
-                new_line = new_corr + counter_note
-                if old_val != new_line:
-                    text = text[:m.start(2)] + new_line + text[m.end(2):]
+    Updates confidence_level, confidence_ratio, and relevant_corpus_size
+    so that generate-indexes.py can produce accurate CONFIDENCE lines.
+    """
+    patterns = [n for n in nodes if n["type"] == "pattern"]
+    yaml_path = ROOT / "data" / "patterns.yaml"
+    if not yaml_path.exists():
+        return
+
+    original = yaml_path.read_text(encoding="utf-8")
+    data = yaml.safe_load(original)
+    if not data:
+        return
+
+    # Build pattern title → computed values mapping
+    computed = {}
+    for p in patterns:
+        computed[p["title"]] = {
+            "confidence_level": p["meta"].get("corr_level", "PRELIMINARY"),
+            "confidence_ratio": p["meta"].get("corr_hit_rate", 0.0),
+            "relevant_corpus_size": p["meta"].get("corr_relevant", 0),
+            "corr_count": p["meta"].get("corr_count", 0),
+        }
+
+    entries = data.get("entries", [])
+    changed = False
+    for entry in entries:
+        name = entry.get("name", "")
+        if name in computed:
+            c = computed[name]
+            for key in ("confidence_level", "confidence_ratio", "relevant_corpus_size", "corr_count"):
+                if entry.get(key) != c[key]:
+                    entry[key] = c[key]
                     changed = True
-        if changed:
-            md_path.write_text(text, encoding="utf-8")
-            print(f"Updated corroboration in {md_path.name}")
+
+    if changed:
+        # Preserve header comment
+        marker = "\nentries:\n"
+        idx = original.find(marker)
+        header = original[:idx + 1] if idx != -1 else ""
+        dumped = yaml.dump(
+            {"entries": entries},
+            default_flow_style=False,
+            allow_unicode=True,
+            width=120,
+            sort_keys=False,
+        )
+        yaml_path.write_text(header + dumped, encoding="utf-8")
+        print("Updated corroboration in data/patterns.yaml")
 
 
 # ---------------------------------------------------------------------------
@@ -776,32 +331,34 @@ def compute_health_metrics(nodes):
             if make_timestamp(a) > last_red_team_ts
         )
 
-    # 4. Calibration stats from sample log
+    # 4. Calibration stats from data/calibration.yaml
     calibration = {"total": 0, "accepted": 0, "plausible": 0, "rejected": 0,
                    "unacted_escalations": 0}
-    sample_log = ROOT / "calibration" / "sample-log.md"
-    if sample_log.exists():
-        for line in sample_log.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line.startswith("|") or line.startswith("| Date") or line.startswith("|---"):
-                continue
-            cols = [c.strip() for c in line.split("|")]
-            # cols: ['', date, outlet, article, category, null_case, escalation, axis_tags, '']
-            if len(cols) >= 8:
-                calibration["total"] += 1
-                nc = cols[5].lower()
-                if nc in calibration:
-                    calibration[nc] += 1
-                esc = cols[6].lower()
-                if esc in ("analyze", "extract"):
-                    calibration["unacted_escalations"] += 1
+    cal_yaml_path = ROOT / "data" / "calibration.yaml"
+    if cal_yaml_path.exists():
+        cal_data = yaml.safe_load(cal_yaml_path.read_text(encoding="utf-8")) or {}
+        cal_stats = cal_data.get("stats", {})
+        calibration["total"] = cal_stats.get("total_samples", 0)
+        calibration["accepted"] = cal_stats.get("null_accepted", 0)
+        calibration["plausible"] = cal_stats.get("null_plausible", 0)
+        calibration["rejected"] = cal_stats.get("null_rejected", 0)
+        # Count unacted escalations from entries
+        for entry in cal_data.get("entries", []):
+            esc = (entry.get("escalation") or "").lower()
+            if esc in ("analyze", "extract"):
+                calibration["unacted_escalations"] += 1
 
-    # 5. Adversarial ratio — check both analysis content and INDEX.md
+    # 5. Adversarial ratio — from data/analyses.yaml
     adversarial_files = set()
+    analyses_yaml_data = load_yaml("analyses.yaml")
+    for a in analyses_yaml_data.get("entries", []):
+        if a.get("adversarial"):
+            adversarial_files.add(a["id"])
+    # Also scan analysis content for legacy entries
     for a in analyses:
         if re.search(r'Adversarial input:\s*yes', a.get("content", ""), re.IGNORECASE):
             adversarial_files.add(a["id"])
-    # Also scan INDEX.md for "Adversarial input: yes" entries
+    # Also scan INDEX.md for "Adversarial input: yes" entries (belt and suspenders)
     index_path = ROOT / "analyses" / "INDEX.md"
     if index_path.exists():
         index_text = index_path.read_text(encoding="utf-8")
@@ -827,10 +384,15 @@ def compute_health_metrics(nodes):
 
 
 # ---------------------------------------------------------------------------
-# Main build
+# Main build (YAML-based)
 # ---------------------------------------------------------------------------
 
 def build():
+    """Build viewer data from YAML + markdown files.
+
+    YAML provides structured metadata and cross-references.
+    Markdown provides prose content for the detail view.
+    """
     nodes = []
     edges = []
     node_ids = set()
@@ -840,78 +402,291 @@ def build():
             nodes.append(n)
             node_ids.add(n["id"])
 
-    # --- Patterns ---
-    patterns_path = ROOT / "patterns.md"
-    if patterns_path.exists():
-        for n in parse_patterns(patterns_path):
-            add_node(n)
+    # Load all YAML data
+    config = load_yaml("config.yaml")
+    analyses_yaml = load_yaml("analyses.yaml")
+    patterns_yaml = load_yaml("patterns.yaml")
+    principles_yaml = load_yaml("principles.yaml")
+    evidence_yaml = load_yaml("evidence.yaml")
+    circumventions_yaml = load_yaml("circumventions.yaml")
+    instruments_yaml = load_yaml("instruments.yaml")
+    calibration_yaml = load_yaml("calibration.yaml")
 
-    # --- Pattern CIRCUMVENTIONS field edges ---
-    if patterns_path.exists():
-        edges.extend(parse_pattern_circumventions(patterns_path))
+    # --- Patterns (from YAML + patterns/*.md content) ---
+    pattern_content_map = {}
+    patterns_dir = ROOT / "patterns"
+    for entry in patterns_yaml.get("entries", []):
+        pfile = entry.get("file")
+        if pfile:
+            ppath = ROOT / pfile
+            if ppath.exists():
+                pattern_content_map[entry["name"]] = read_file(ppath)
 
-    # --- Patterns detail (edges only) ---
-    detail_path = ROOT / "patterns-detail.md"
-    if detail_path.exists():
-        edges.extend(parse_patterns_detail(detail_path))
+    for entry in patterns_yaml.get("entries", []):
+        pid = "pattern:" + entry["name"]
+        layer_names = layer_ids_to_names(entry.get("layers", []))
+        obs_count = len(entry.get("observed_in", []))
+        corpus = entry.get("relevant_corpus_size") or 0
+        ratio = entry.get("confidence_ratio") or 0
+        level = entry.get("confidence_level") or "PRELIMINARY"
+        corr_str = f"{level} ({obs_count} of {corpus} relevant sources, {ratio:.0%})" if corpus else level
+        counter_ev = entry.get("counter_evidence", [])
 
-    # --- Circumventions ---
-    circumventions_path = ROOT / "circumventions.md"
-    if circumventions_path.exists():
-        circ_nodes, circ_edges = parse_circumventions(circumventions_path)
-        for n in circ_nodes:
-            add_node(n)
-        edges.extend(circ_edges)
+        add_node({
+            "id": pid,
+            "type": "pattern",
+            "title": entry["name"],
+            "content": pattern_content_map.get(entry["name"], ""),
+            "meta": {
+                "layers": ", ".join(layer_names),
+                "layer_list": layer_names,
+                "statement": "",  # In markdown content
+                "mechanism": "",
+                "corroboration": corr_str,
+                "corr_level": level,
+                "corr_count": obs_count,
+                "corr_relevant": corpus,
+                "corr_hit_rate": round(ratio, 3) if ratio else 0,
+                "corr_has_counter": len(counter_ev) > 0,
+            },
+        })
 
-    # --- Circumventions detail (edges only) ---
-    circ_detail_path = ROOT / "circumventions-detail.md"
-    if circ_detail_path.exists():
-        edges.extend(parse_circumventions_detail(circ_detail_path))
+        # Edges: pattern -> circumventions
+        for cid in entry.get("circumventions", []):
+            # Find circumvention display name
+            for c in circumventions_yaml.get("entries", []):
+                if c["id"] == cid:
+                    edges.append({
+                        "source": "circumvention:" + c["name"],
+                        "target": pid,
+                        "type": "counteracts",
+                    })
+                    break
 
-    # --- Analyses ---
-    analyses_dir = ROOT / "analyses"
-    if analyses_dir.exists():
-        for f in sorted(analyses_dir.glob("*.md")):
-            if f.name == "INDEX.md":
-                continue
-            n, e = parse_analysis(f)
-            add_node(n)
-            edges.extend(e)
+        # Edges: observed_in
+        for obs in entry.get("observed_in", []):
+            src_id = obs["source_id"]
+            src_type = obs["source_type"]
+            if src_type == "principle":
+                ref = f"principles/{src_id}.md"
+            else:
+                ref = f"analyses/{src_id}.md"
+            edges.append({
+                "source": pid,
+                "target": ref,
+                "type": "observed_in",
+            })
 
-    # --- Principles ---
-    principles_dir = ROOT / "principles"
-    index_layers = {}
-    if principles_dir.exists():
-        index_path = principles_dir / "INDEX.md"
-        if index_path.exists():
-            idx_edges, index_layers = parse_principle_index(index_path)
-            edges.extend(idx_edges)
+        # Edges: counter_evidence
+        for ev_id in counter_ev:
+            edges.append({
+                "source": f"evidence/{ev_id}.md",
+                "target": pid,
+                "type": "evidence_for",
+            })
 
-        for f in sorted(principles_dir.glob("*.md")):
-            if f.name == "INDEX.md":
-                continue
-            n = parse_principle(f)
-            # Merge layer_list from INDEX if available (authoritative source)
-            if n["id"] in index_layers:
-                n["meta"]["layer_list"] = index_layers[n["id"]]
-            add_node(n)
+    # --- Circumventions (from YAML + circumventions.md content) ---
+    circ_md = ROOT / "circumventions.md"
+    circ_content_map = {}
+    if circ_md.exists():
+        parts = re.split(r"^### ", read_file(circ_md), flags=re.MULTILINE)
+        for part in parts[1:]:
+            name = part.split("\n")[0].strip()
+            circ_content_map[name] = "### " + part.strip()
 
-    # --- Instruments ---
-    instruments_dir = ROOT / "instruments"
-    if instruments_dir.exists():
-        for f in sorted(instruments_dir.glob("*.md")):
-            n = parse_instrument(f)
-            add_node(n)
+    for entry in circumventions_yaml.get("entries", []):
+        cid = "circumvention:" + entry["name"]
+        layer_names = layer_ids_to_names(entry.get("layers", []))
 
-    # --- Evidence ---
-    evidence_dir = ROOT / "evidence"
-    if evidence_dir.exists():
-        for f in sorted(evidence_dir.glob("*.md")):
-            if f.name == "README.md":
-                continue
-            n, e = parse_evidence(f)
-            add_node(n)
-            edges.extend(e)
+        add_node({
+            "id": cid,
+            "type": "circumvention",
+            "title": entry["name"],
+            "content": circ_content_map.get(entry["name"], ""),
+            "meta": {
+                "layers": ", ".join(layer_names),
+                "layer_list": layer_names,
+                "counteracts": ", ".join(entry.get("counteracts", [])),
+                "statement": "",
+                "outcome_range": "",
+                "mechanism": "",
+                "failure_modes": "",
+                "power_response": "",
+            },
+        })
+
+        # Edges: counteracts patterns
+        for pat_id in entry.get("counteracts", []):
+            for p in patterns_yaml.get("entries", []):
+                if p["id"] == pat_id:
+                    edges.append({
+                        "source": cid,
+                        "target": "pattern:" + p["name"],
+                        "type": "counteracts",
+                    })
+                    break
+
+        # Edges: observed_in
+        for obs in entry.get("observed_in", []):
+            src_id = obs["source_id"]
+            src_type = obs["source_type"]
+            if src_type == "principle":
+                ref = f"principles/{src_id}.md"
+            else:
+                ref = f"analyses/{src_id}.md"
+            edges.append({
+                "source": cid,
+                "target": ref,
+                "type": "observed_in",
+            })
+
+    # --- Analyses (from YAML + analysis file content) ---
+    # Build pattern ID -> display name map
+    pattern_id_to_name = {p["id"]: p["name"] for p in patterns_yaml.get("entries", [])}
+
+    for entry in analyses_yaml.get("entries", []):
+        fpath = ROOT / entry["file"]
+        content = read_file(fpath) if fpath.exists() else ""
+        layer_names = layer_ids_to_names(
+            entry.get("layers_primary", []) +
+            entry.get("layers_secondary", [])
+        )
+
+        add_node({
+            "id": entry["file"],
+            "type": "analysis",
+            "title": extract_title(content) if content else entry.get("title", ""),
+            "content": content,
+            "meta": {
+                "date": entry.get("date", ""),
+                "time": entry.get("time", ""),
+                "source_type": entry.get("source_type", ""),
+                "mode": "",
+                "source": entry.get("source_name", ""),
+                "layer_list": layer_names,
+            },
+        })
+
+        # Edges: analysis -> patterns matched
+        for pm in entry.get("patterns_matched", []):
+            pname = pattern_id_to_name.get(pm["pattern"])
+            if pname:
+                edges.append({
+                    "source": entry["file"],
+                    "target": "pattern:" + pname,
+                    "type": "matches",
+                })
+
+        # Edges: cross-references
+        for xref in entry.get("cross_references", []):
+            edges.append({
+                "source": entry["file"],
+                "target": f"analyses/{xref}.md",
+                "type": "references",
+            })
+
+        # Edges: instrument references (scan content)
+        if content:
+            for iref in re.findall(r"instruments/[\w\-]+\.md", content):
+                edges.append({
+                    "source": entry["file"],
+                    "target": iref,
+                    "type": "applies_instrument",
+                })
+
+    # --- Principles (from YAML + principle file content) ---
+    for entry in principles_yaml.get("entries", []):
+        fpath = ROOT / entry["file"]
+        content = read_file(fpath) if fpath.exists() else ""
+        layer_names = layer_ids_to_names(entry.get("layers", []))
+
+        principle_names = entry.get("principles_list", [])
+
+        add_node({
+            "id": entry["file"],
+            "type": "principle",
+            "title": extract_title(content) if content else f"Principles: {entry.get('source_name', '')}",
+            "content": content,
+            "meta": {
+                "source": f"{entry.get('source_name', '')}, *{entry.get('source_title', '')}* ({entry.get('source_year', '')})",
+                "type": "",
+                "layers": ", ".join(layer_names),
+                "layer_list": layer_names,
+                "principle_count": len(principle_names),
+                "principle_names": principle_names,
+            },
+        })
+
+        # Edges: key_patterns
+        for kp in entry.get("key_patterns", []):
+            pname = pattern_id_to_name.get(kp["pattern"])
+            if pname:
+                edges.append({
+                    "source": entry["file"],
+                    "target": "pattern:" + pname,
+                    "type": "key_pattern",
+                })
+
+        # Edges: instruments
+        for inst_id in entry.get("instruments_produced", []):
+            edges.append({
+                "source": entry["file"],
+                "target": f"instruments/{inst_id}.md",
+                "type": "produces_instrument",
+            })
+
+    # --- Instruments (from YAML + instrument file content) ---
+    for entry in instruments_yaml.get("entries", []):
+        fpath = ROOT / entry["file"]
+        content = read_file(fpath) if fpath.exists() else ""
+        layer_names = layer_ids_to_names(entry.get("layers", []))
+
+        items = re.findall(r"^### (.+)$", content, re.MULTILINE) if content else []
+
+        add_node({
+            "id": entry["file"],
+            "type": "instrument",
+            "title": extract_title(content) if content else entry.get("name", ""),
+            "content": content,
+            "meta": {
+                "source": ", ".join(entry.get("derived_from", [])),
+                "layers": ", ".join(layer_names),
+                "layer_list": layer_names,
+                "item_count": len(items),
+            },
+        })
+
+    # --- Evidence (from YAML + evidence file content) ---
+    for entry in evidence_yaml.get("entries", []):
+        fpath = ROOT / entry["file"]
+        content = read_file(fpath) if fpath.exists() else ""
+        layer_names = layer_ids_to_names(entry.get("layers", []))
+
+        add_node({
+            "id": entry["file"],
+            "type": "evidence",
+            "title": extract_title(content) if content else entry.get("title", ""),
+            "content": content,
+            "meta": {
+                "date": entry.get("date_recorded", ""),
+                "source": entry.get("source", ""),
+                "source_type": entry.get("evidence_source_type", ""),
+                "axioms": ", ".join(str(a) for a in entry.get("axioms", [])),
+                "layers": ", ".join(layer_names),
+                "layer_list": layer_names,
+                "relationship": entry.get("relationship", ""),
+            },
+        })
+
+        # Edges: evidence -> patterns
+        for pat_id in entry.get("patterns", []):
+            pname = pattern_id_to_name.get(pat_id)
+            if pname:
+                edges.append({
+                    "source": entry["file"],
+                    "target": "pattern:" + pname,
+                    "type": "evidence_for",
+                })
 
     # --- Constitution & Taxonomy (metadata, not nodes) ---
     axioms = []
@@ -919,10 +694,10 @@ def build():
     if constitution_path.exists():
         axioms = parse_constitution(constitution_path)
 
-    layer_names = []
+    layer_list = []
     taxonomy_path = ROOT / "taxonomy.md"
     if taxonomy_path.exists():
-        layer_names = parse_taxonomy(taxonomy_path)
+        layer_list = parse_taxonomy(taxonomy_path)
 
     # --- README sections ---
     readme_sections = {}
@@ -944,9 +719,9 @@ def build():
             valid_edges.append(e)
             seen.add(key)
 
-    # --- Compute dynamic corroboration ---
+    # --- Compute dynamic corroboration (updates pattern nodes) ---
     compute_corroboration(nodes, valid_edges)
-    sync_corroboration_to_markdown(nodes)
+    sync_corroboration_to_yaml(nodes)
 
     # --- Compute framework health metrics ---
     health = compute_health_metrics(nodes)
@@ -956,7 +731,7 @@ def build():
         "edges": valid_edges,
         "meta": {
             "axioms": axioms,
-            "layers": layer_names,
+            "layers": layer_list,
             "readme_sections": readme_sections,
             "layer_descriptions": layer_descriptions,
             "health": health,

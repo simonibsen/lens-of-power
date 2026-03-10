@@ -49,8 +49,8 @@ material)
   defense of illegitimate power rather than defense of institutional
   independence. The framing converts offense into defense at the
   narrative level before any structural change occurs. Connects to
-  [Inversion of Stated Purpose](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#inversion-of-stated-purpose)
-  and [Appearance as Structural Terrain](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#appearance-as-structural-terrain).
+  [Inversion of Stated Purpose](https://github.com/simonibsen/lens-of-power/blob/main/patterns/inversion-of-stated-purpose.md)
+  and [Appearance as Structural Terrain](https://github.com/simonibsen/lens-of-power/blob/main/patterns/appearance-as-structural-terrain.md).
 - **Documented in**: Powell Memo P1 (business "under broad attack" from
   consumer advocates and environmentalists — defensive framing for an
   offensive institutional campaign), Project 2025 P5 (unitary executive
@@ -83,8 +83,8 @@ material)
   selection, installation campaigns, outcome signaling, and input
   manufacturing, the coordination would be obvious. The funding
   infrastructure makes coordination invisible by making its funding
-  source invisible. Connects to [Division of Learning](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-division-of-learning)
-  and [Wealth Defense Industry](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-wealth-defense-industry).
+  source invisible. Connects to [Division of Learning](https://github.com/simonibsen/lens-of-power/blob/main/patterns/division-of-learning.md)
+  and [Wealth Defense Industry](https://github.com/simonibsen/lens-of-power/blob/main/patterns/wealth-defense-industry.md).
 - **Documented in**: Whitehouse P1 (Donors Trust/Donors Capital Fund
   pipeline — $17M anonymous donation funding Garland blockade and
   Gorsuch confirmation), Ziklag (501(c)(3) charity with $25M+ net worth
@@ -117,7 +117,7 @@ material)
   staffs the think tanks that produce the policy papers that the legal
   organizations litigate. The compounding nature means the initial
   investment's returns accelerate over time. Connects to
-  [Peacetime Ratchet](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-peacetime-ratchet).
+  [Peacetime Ratchet](https://github.com/simonibsen/lens-of-power/blob/main/patterns/peacetime-ratchet.md).
 - **Documented in**: Powell Memo P4 (proposed endowed chairs, permanent
   Chamber staff, standing legal organizations — subsequently constructed
   as Heritage Foundation 1973, Cato Institute 1977, Federalist Society
@@ -149,8 +149,8 @@ material)
   operates normally, but within parameters set by the prior private
   selection. The capture is invisible because the formal process is
   real; what is invisible is the pre-filtering that determined its
-  inputs. Connects to [Capture Pipeline](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-capture-pipeline)
-  and [Anticipatory Obedience](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#anticipatory-obedience).
+  inputs. Connects to [Capture Pipeline](https://github.com/simonibsen/lens-of-power/blob/main/patterns/capture-pipeline.md)
+  and [Anticipatory Obedience](https://github.com/simonibsen/lens-of-power/blob/main/patterns/anticipatory-obedience.md).
 - **Documented in**: Whitehouse P2 (Federalist Society maintains a
   network from law school student chapters through professional practice
   to the judiciary — Trump explicitly outsourced judicial selection to
@@ -184,7 +184,7 @@ material)
   the moment the pipeline transitions from influence to control. Once
   installed, personnel can execute subsequent stages (oversight
   elimination, outcome signaling) from inside the institution.
-  Connects to [Institutional Abdication](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#institutional-abdication)
+  Connects to [Institutional Abdication](https://github.com/simonibsen/lens-of-power/blob/main/patterns/institutional-abdication.md)
   (the installation creates pressure for existing personnel to abdicate).
 - **Documented in**: Whitehouse (dark money-funded confirmation
   campaigns — Judicial Crisis Network spent $17M+ across Gorsuch,
@@ -222,7 +222,7 @@ material)
   legally challenge redirection. Eliminating oversight converts the
   institution from a self-correcting system to a directable one. The
   elimination is often framed as "streamlining" or "reducing
-  bureaucratic redundancy" — [Inversion of Stated Purpose](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#inversion-of-stated-purpose)
+  bureaucratic redundancy" — [Inversion of Stated Purpose](https://github.com/simonibsen/lens-of-power/blob/main/patterns/inversion-of-stated-purpose.md)
   applied to institutional self-defense.
 - **Documented in**: Project 2025 P3 (systematic targeting across every
   agency — "The Office of the Immigration Detention Ombudsman should be
@@ -258,7 +258,7 @@ material)
   outcomes through the inputs. The institution appears to operate
   normally because the formal process ran normally; the capture is in
   the inputs, not the process. Connects to
-  [Democracy-Oligarchy Coexistence](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#democracy-oligarchy-coexistence)
+  [Democracy-Oligarchy Coexistence](https://github.com/simonibsen/lens-of-power/blob/main/patterns/democracy-oligarchy-coexistence.md)
   (formal process handles the appearance; coordinated signals handle the
   substance).
 - **Documented in**: Whitehouse P3 (coordinated amicus briefs from dark
@@ -298,7 +298,7 @@ material)
   deepest form of capture: the institution is not corrupted, redirected,
   or hollowed out — it functions exactly as designed, on manufactured
   inputs. Connects to
-  [Formal Transformation, Structural Continuity](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#formal-transformation-structural-continuity)
+  [Formal Transformation, Structural Continuity](https://github.com/simonibsen/lens-of-power/blob/main/patterns/formal-transformation-structural-continuity.md)
   (the institutional form is unchanged; the substance is controlled).
 - **Documented in**: Whitehouse P4 (case manufacturing — finding
   plaintiffs, funding litigation, steering cases through favorable
@@ -333,10 +333,10 @@ material)
   invisibly: the law remains on the books, the agency remains funded,
   but enforcement is architecturally impossible. Citizens believe
   they are protected; they are not. Connects to
-  [Appearance as Structural Terrain](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#appearance-as-structural-terrain)
+  [Appearance as Structural Terrain](https://github.com/simonibsen/lens-of-power/blob/main/patterns/appearance-as-structural-terrain.md)
   (the regulatory framework is the appearance; nullified enforcement is
   the reality) and
-  [Democracy-Oligarchy Coexistence](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#democracy-oligarchy-coexistence)
+  [Democracy-Oligarchy Coexistence](https://github.com/simonibsen/lens-of-power/blob/main/patterns/democracy-oligarchy-coexistence.md)
   (the democratic law exists; oligarchic exemption operates through the
   structural gap).
 - **Documented in**: Project 2025 P4 (FEC enforcement nullification
@@ -372,7 +372,7 @@ material)
   created. This is why lifetime judicial appointments are the
   highest-value capture target (Powell P3) — a captured judge produces
   favorable outcomes for decades regardless of subsequent elections.
-  Connects to [Peacetime Ratchet](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-peacetime-ratchet).
+  Connects to [Peacetime Ratchet](https://github.com/simonibsen/lens-of-power/blob/main/patterns/peacetime-ratchet.md).
 - **Documented in**: Project 2025 P6 (Schedule F reclassification
   requires new legislation to reverse; eliminated oversight offices
   require new appropriations; consolidated authority becomes the new
@@ -451,7 +451,7 @@ see the complete capture apparatus.
    often begin before earlier stages are complete. Installation (5) may
    begin while long-term investment (3) is still building. Oversight
    elimination (6) may be simultaneous with installation (5).
-3. Cross-reference with the [Capture Pipeline](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-capture-pipeline)
+3. Cross-reference with the [Capture Pipeline](https://github.com/simonibsen/lens-of-power/blob/main/patterns/capture-pipeline.md)
    pattern for the overarching structural description.
 
 ### During ANALYZE Step 6 (ABSENT):

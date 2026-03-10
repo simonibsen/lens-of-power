@@ -9,6 +9,8 @@
 > Maintenance: Add entries when the pool's axis coverage has gaps. Remove
 > entries only if an outlet ceases to exist. Do not curate for "relevance"
 > — the point is randomness.
+>
+> Generated from data/sample-pool.yaml — do not edit directly.
 
 ---
 

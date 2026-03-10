@@ -5,24 +5,25 @@
 > when completed or superseded. Dates track when each recommendation was
 > first surfaced.
 
-Last diagnostic: 2026-03-09
+Last diagnostic: 2026-03-09 (post-YAML migration)
 
 ---
 
 ## Immediate priority
 
-### ~~1. File three unfiled counter-evidence entries — completed 2026-03-09~~
-Filed Fanon/Economy of Violence perspective asymmetry (complicates Axiom 9)
-and propaganda demand symmetry (complicates Axioms 5, 9). Jubilee tradition
-was already adequately covered in existing entry
-(`2026-03-04-compression-scandinavian-jubilee-counter.md`). Also added
-counter-evidence filing check to both post-analysis and post-extraction
-checklists in methodology.md to prevent recurrence.
+### 1. Red team (OVERDUE) (2026-03-09)
+SOURCE: Red team timing (Step 1)
+16 analyses since last self-examination (threshold: 10). This is the
+largest gap since the framework launched. Focus areas:
+- Axiom 7's perfect corroboration record (8 supports, 0 challenges)
+- Position 2 absence (zero governed-perspective sources)
+- Anglophone monoculture (97%)
+- Whether YAML migration introduced analytical distortions
 
 ### 2. Test Axiom 4 and Axiom 7 (2026-03-09)
 SOURCE: Evidence balance (Step 3)
-Axiom 4 (systems outlast individuals) has zero evidence in any direction —
-never tested. Axiom 7 (stated vs. actual purpose) has 7 supports and 0
+Axiom 4 (mechanisms consistent) has zero evidence in any direction —
+never tested. Axiom 7 (stated vs. actual purpose) has 8 supports and 0
 challenges — either robustly true or protected by selection bias.
 - For Axiom 4: analyse a case where individual leadership change genuinely
   transformed a system (post-apartheid South Africa, post-Franco Spain)
@@ -33,8 +34,10 @@ challenges — either robustly true or protected by selection bias.
 ### 3. Run one more SAMPLE to reach calibration threshold (2026-03-09)
 SOURCE: Calibration (Step 2)
 4 of 5 entries completed. One more run enables meaningful calibration
-comparison. Preliminary data: 75% calibration null case rate vs. 48%
-analysis rate confirms positive selection bias.
+comparison. Preliminary data: 75% calibration null case rate vs. 45%
+analysis rate (delta: +30pp) confirms positive selection bias. Current
+rate above the 60% upper target — may indicate pool weighted toward
+null-case-likely categories, but unreliable until n=5.
 
 ### 4. Source Position 2 testimony (2026-03-06)
 SOURCE: Coverage gaps (Step 7)
@@ -75,44 +78,40 @@ SOURCE: Coverage gaps (Step 7)
 ### 8. Corroborate weakest PRELIMINARY patterns (2026-03-06, updated 2026-03-09)
 SOURCE: Pattern gaps (Step 4)
 11 patterns at PRELIMINARY. Three weakest:
-- **Economy of Violence** (1 source, 2%) — extract Kalyvas,
+- **Three Phases of Cultural Resistance** (2/58, 3%) — extract Ngugi
+  wa Thiong'o or Césaire
+- **Economy of Violence** (2/53, 4%) — extract Kalyvas,
   *The Logic of Violence in Civil War*
-- **Compression Through Destruction** (1 source + counter, 2%) —
-  engage Scheidel's full dataset
-- **Relay Class** (2 sources, 4%) — extract Mamdani,
-  *Citizen and Subject*
-Additional targets: Temporal Control, Categorical Blindness, Moral
-Infrastructure of Economic Power, Structural Demand for Propaganda
+- **Categorical Blindness** (2/52, 4%) — extract Crenshaw
+  (intersectionality origin), Benjamin
+Additional targets: Compression Through Destruction, Temporal Control,
+Moral Infrastructure of Economic Power, Structural Demand for Propaganda
 
-### 9. Build Surveillance layer instruments (2026-03-09)
+### 9. Build Surveillance and Economic layer instruments (2026-03-09)
 SOURCE: Instrument gaps (Step 6), Layer coverage (Step 7)
-Surveillance & Information is the most underrepresented layer (4 analyses
-as primary, 0 dedicated instruments). Extract Ruha Benjamin (*Race After
-Technology*) or Virginia Eubanks (*Automating Inequality*) to advance the
-Racializing Surveillance Detection Protocol and add a Position 2-adjacent
-perspective. Also needed: Critical Biometric Consciousness Checklist
-(engineering sources) and Domestic Covert Action Technique Taxonomy
-(post-1971 sources).
+Economic and Surveillance layers have zero dedicated instruments despite
+being primary in 15 and 6 analyses respectively.
+- **Surveillance**: Extract Benjamin (*Race After Technology*) or Eubanks
+  (*Automating Inequality*) to advance the Racializing Surveillance
+  Detection Protocol. Also needed: Critical Biometric Consciousness
+  Checklist (engineering sources) and Domestic Covert Action Technique
+  Taxonomy (post-1971 sources).
+- **Economic**: Create an Economic Extraction Playbook from existing
+  Piketty/Winters/Graeber principles. Also needed: Kleptocratic
+  Infrastructure Detection instrument (needs Burgis, Bullough, OCCRP).
 
-### 10. Economic Extraction Playbook instrument (2026-03-06)
-SOURCE: Instrument gaps (Step 6)
-No instruments target the Economic layer directly. Create an Economic
-Extraction Playbook with detection patterns for: dependency creation,
-scarcity manufacture, wage suppression, debt leverage, monopoly/monopsony
-formation, regulatory capture in markets. Also needed: Kleptocratic
-Infrastructure Detection instrument (needs Burgis, Bullough, OCCRP).
+### 10. Church Committee broader extraction (2026-03-09)
+SOURCE: Extract gaps (Step 5)
+CIA domestic activities chapters would test The Boomerang in a second
+institutional context (currently only FBI). Domestic intelligence chapter
+strengthens Targeting Gradient and Structural Demand for Covert Action.
+AVAILABILITY: AARC Library (permanent link).
 
 ---
 
 ## Longer-term
 
-### 11. Schedule red team (2026-03-09)
-SOURCE: Red team timing (Step 1)
-9 analyses since last red team (threshold: 10). After the next analysis,
-run RED TEAM mode focusing on: Axiom 7's suspiciously perfect corroboration
-record, the Position 2 absence, and the anglophone monoculture.
-
-### 12. Contemporary circumvention successes (2026-03-06)
+### 11. Contemporary circumvention successes (2026-03-06)
 SOURCE: Circumventions audit
 Circumvention documentation skews toward failure modes and historical
 examples. Deliberately source measured-success cases:
@@ -120,33 +119,38 @@ examples. Deliberately source measured-success cases:
 - Successful antitrust enforcement outcomes
 - Effective ballot initiatives / electoral shifts
 
-### 13. Comparative international analysis track (2026-03-06)
+### 12. Comparative international analysis track (2026-03-06)
 SOURCE: Selection bias (Step 2)
 Run parallel analyses on same domains from different geopolitical
 positions (e.g., Iran conflict: Guardian + Al Jazeera + IRGC statements;
 corporate capture: US antitrust + EU competition law + Chinese state
 capacity). Would test whether patterns hold cross-nationally.
 
-### 14. Longitudinal case study (2026-03-06)
+### 13. Longitudinal case study (2026-03-06)
 SOURCE: Red team observation
 Most analyses are synchronic (snapshot). A diachronic case study
 (same institution across 50 years) would test whether patterns thought
 to be structural are actually contingent on specific historical
 conjunctions. Candidate: US telecommunications regulation 1970-2020.
 
-### 15. Disaggregate Structural Demand for Propaganda (2026-03-06, updated 2026-03-09)
+### 14. Disaggregate Structural Demand for Propaganda (2026-03-06, updated 2026-03-09)
 SOURCE: Pattern gaps (Step 4)
 This pattern conflates supply-side (ruling demand for propaganda
 production) with demand-side (subordinate psychological need for
-coherent narrative). These may be distinct mechanisms. Now at 2/47
-sources (4%) — PRELIMINARY. The Atlantic "gullicism" essay corroborated
+coherent narrative). These may be distinct mechanisms. Now at 3/59
+sources (5%) — PRELIMINARY. The Atlantic "gullicism" essay corroborated
 the demand side; supply side still needs independent corroboration.
 
 ---
 
 ## Completed
 
-### Backlog #1: File Browne IC-1 evidence entries — completed 2026-03-06
+### Backlog #1 (original): File unfiled counter-evidence entries — completed 2026-03-09
+Filed Fanon/Economy of Violence perspective asymmetry (complicates Axiom 9)
+and propaganda demand symmetry (complicates Axioms 5, 9). Added
+counter-evidence filing check to methodology.md to prevent recurrence.
+
+### Backlog #1 (Browne): File Browne IC-1 evidence entries — completed 2026-03-06
 Filed Axiom 3 (forced visibility, 6th complication), Axiom 8 (constitutive
 absence, new entry), Axiom 10 (dark sousveillance, 5th item). Commit
 `f8db6c80`.

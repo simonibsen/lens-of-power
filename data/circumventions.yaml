@@ -1,0 +1,216 @@
+# ============================================================================
+# circumventions.yaml — Observed responses to power concentration
+# ============================================================================
+#
+# Each entry is a circumvention type. Prose (statement, mechanism, outcome
+# range, failure modes) stays in circumventions.md / circumventions-detail.md.
+# This YAML captures the structural relationships.
+#
+# observed_in uses source IDs (not file paths) for consistency with other
+# YAML files. source_type indicates whether the source is a principle or
+# analysis.
+
+entries:
+- id: transparency_naming
+  name: Transparency / Naming
+  layers:
+  - thought_narrative
+  - surveillance_information
+  counteracts:
+  - inversion_of_stated_purpose
+  - division_of_learning
+  - appearance_as_structural_terrain
+  observed_in:
+  - source_id: church-committee-cointelpro
+    source_type: principle
+    note: 'Church Committee investigations (1975-1976) named FBI''s COINTELPRO operations, producing formal program termination.
+      However, structural conditions that enabled the programs persisted — see P6: Formal Termination as Structural Continuation.'
+  - source_id: alley-very-bad-people
+    source_type: principle
+    note: Alley documents how naming mechanisms (journalism, investigation, exposure) produced formal responses — the Kimberley
+      Process, sanctions regimes, anti-money-laundering frameworks — that functioned as new appearances of accountability
+      while the underlying extraction continued through adjacent chan...
+  - source_id: snyder-on-tyranny
+    source_type: principle
+    note: Snyder emphasizes investigative journalism and institutional transparency as conditions under which democratic resistance
+      has been observed to succeed. Naming the pattern of authoritarianism — recognizing its historical parallels — is itself
+      a form of transparency that may disrupt the "unpreceden...
+  - source_id: unknown
+    source_type: analysis
+    note: 'TBIJ Portland investigation (2026): Naming PR firm''s Wikipedia manipulation disrupted the mechanism''s operation
+      by making the concealed information campaign visible. AI amplification variant documented: the naming also exposed how
+      manipulated Wikipedia entries propagated through AI training data.'
+- id: legal_challenge
+  name: Legal Challenge
+  layers:
+  - legal_regulatory
+  - institutional
+  counteracts:
+  - capture_pipeline
+  - democracy_oligarchy_coexistence
+  observed_in:
+  - source_id: whitehouse-the-scheme
+    source_type: principle
+    note: 'Whitehouse documents both the potential and capture of legal challenge — the judicial pipeline operates *through*
+      formal legal processes, making legal challenge the contested terrain rather than an external check. The inverse case:
+      legal challenge is the mechanism being captured, not the circumve...'
+  - source_id: unknown
+    source_type: analysis
+    note: 'Santa Barbara City Council analysis (2018): Crime Victims'' Rights Act (CVRA) invoked as statutory basis for legal
+      challenge to prosecutorial discretion — formal legal mechanism applied to contest institutional power arrangement.'
+- id: collective_action
+  name: Collective Action
+  layers:
+  - economic
+  - institutional
+  - physical_coercive
+  counteracts:
+  - manufactured_scarcity
+  - compliance_gradient
+  observed_in:
+  - source_id: scott-weapons-of-the-weak
+    source_type: principle
+    note: Scott documents the Sedaka peasant community's collective resistance to double-cropping mechanization — not through
+      formal protest but through coordinated withdrawal of deference, gossip campaigns against employers who broke reciprocity
+      norms, and collective refusal to normalize the new arrangeme...
+  - source_id: church-committee-cointelpro
+    source_type: principle
+    note: 'COINTELPRO specifically targeted collective action — the program''s operational logic treated organized collective
+      resistance as the primary threat requiring disruption. The inverse case documents the power response: infiltration,
+      leadership discrediting, organizational fracturing.'
+- id: institutional_reform
+  name: Institutional Reform
+  layers:
+  - legal_regulatory
+  - institutional
+  counteracts:
+  - institutional_abdication
+  - capture_pipeline
+  observed_in:
+  - source_id: church-committee-cointelpro
+    source_type: principle
+    note: Church Committee (1975-1976) produced institutional reforms — FISA courts, intelligence oversight committees, executive
+      orders restricting domestic surveillance. These reforms constrained intelligence agencies for a period, though post-9/11
+      expansion substantially eroded them. The case documents ...
+  - source_id: snyder-on-tyranny
+    source_type: principle
+    note: 'Snyder documents institutional resistance as the first line of defense — institutions must be actively defended
+      by those within them. The inverse: institutional abdication occurs when individuals calculate that compliance is safer
+      than institutional defense.'
+- id: cultural_production
+  name: Cultural Production
+  layers:
+  - thought_narrative
+  - institutional
+  counteracts:
+  - hidden_transcript
+  - three_phases_of_cultural_resistance
+  observed_in:
+  - source_id: fanon-wretched-of-the-earth
+    source_type: principle
+    note: Fanon's three phases of cultural resistance — assimilation, essentialism, synthesis — document how cultural production
+      moves from imitation through inversion to genuine creation. Only the third phase appeared to be genuinely liberatory,
+      producing new frameworks rather than reactions within existi...
+  - source_id: cobb-most-southern-place-on-earth
+    source_type: principle
+    note: Cobb documents the Mississippi Delta's cultural production — blues, oral tradition, community narrative — as the
+      preservation of counter-memory against official historical erasure. Cultural production maintained the hidden transcript
+      across generations.
+  - source_id: scott-weapons-of-the-weak
+    source_type: principle
+    note: Scott documents oral culture — gossip, songs, folktales, jokes — as the medium through which the hidden transcript
+      is preserved and transmitted. Not "high" cultural production but everyday cultural practice serving the same structural
+      function.
+- id: everyday_resistance
+  name: Everyday Resistance
+  layers:
+  - thought_narrative
+  - economic
+  - legal_regulatory
+  - institutional
+  - surveillance_information
+  - physical_coercive
+  counteracts:
+  - compliance_gradient
+  - hidden_transcript
+  observed_in:
+  - source_id: scott-weapons-of-the-weak
+    source_type: principle
+    note: Scott's primary contribution — the Sedaka peasant community's continuous low-level resistance to Green Revolution
+      changes. Foot-dragging on harvest obligations, petty theft of rice, character assassination of employers who broke reciprocity
+      norms, false deference masking actual resistance. The en...
+  - source_id: cobb-most-southern-place-on-earth
+    source_type: principle
+    note: Mississippi Delta African Americans practiced everyday resistance under Jim Crow — work slowdowns, migration as
+      resistance, maintenance of autonomous social institutions within the constraints of the system. The hidden transcript
+      operated continuously beneath the public performance of compliance.
+- id: economic_alternative
+  name: Economic Alternative
+  layers:
+  - economic
+  - institutional
+  counteracts:
+  - manufactured_scarcity
+  - peacetime_ratchet
+  observed_in:
+  - source_id: graeber-debt-the-first-5000-years
+    source_type: principle
+    note: 'Graeber documents the Mesopotamian debt jubilee tradition — periodic cancellation of debts as a structural mechanism
+      preventing permanent concentration. The jubilee was not revolutionary but institutional: rulers recognized that unchecked
+      debt accumulation destabilized the social order. The tradi...'
+  - source_id: piketty-capital-in-the-twenty-first-century
+    source_type: principle
+    note: Piketty documents progressive taxation and social insurance as institutional economic alternatives to unchecked
+      accumulation. The Scandinavian social democratic model represents the most sustained modern example of institutional
+      constraint on the peacetime ratchet. Counter-evidence to pure catast...
+- id: electoral_democratic
+  name: Electoral / Democratic
+  layers:
+  - thought_narrative
+  - legal_regulatory
+  - institutional
+  counteracts:
+  - democracy_oligarchy_coexistence
+  observed_in:
+  - source_id: hartmann-hidden-history-american-oligarchy
+    source_type: principle
+    note: 'Hartmann documents periods in which democratic mobilization — the Progressive Era, the New Deal, the Great Society
+      — produced significant constraints on oligarchic power through democratic channels. Also documents the counterforce:
+      organized wealth defense that systematically rolled back democrat...'
+  - source_id: unknown
+    source_type: analysis
+    note: 'Santa Barbara City Council analysis (2018): Local democratic process applied to criminal justice accountability
+      — city council as venue for democratic contestation of prosecutorial power. Null case accepted: non-power explanation
+      (routine procedural matter) was plausible.'
+- id: international_pressure
+  name: International Pressure
+  layers:
+  - economic
+  - legal_regulatory
+  - institutional
+  counteracts:
+  - boomerang
+  observed_in:
+  - source_id: alley-very-bad-people
+    source_type: principle
+    note: Alley documents international accountability mechanisms (sanctions, anti-money-laundering regimes, ICC proceedings)
+      as contested terrain — formally designed to constrain transnational kleptocracy, but observed to be unevenly applied
+      and frequently circumvented through the wealth defense industry....
+- id: catastrophic_leveling
+  name: Catastrophic Leveling
+  layers:
+  - economic
+  - physical_coercive
+  counteracts:
+  - peacetime_ratchet
+  observed_in:
+  - source_id: scheidel-great-leveler
+    source_type: principle
+    note: Scheidel's central thesis — across all known civilizations, significant lasting reductions in inequality have been
+      observed to occur primarily through mass mobilization warfare, transformative revolution, state failure, and lethal
+      pandemics. The "Four Horsemen" produced compression through destru...
+  - source_id: unknown
+    source_type: analysis
+    note: Counter-evidence from jubilee tradition (Graeber) and Scandinavian social democracy (Piketty) suggests non-catastrophic
+      alternatives may exist, though at smaller scale and with uncertain durability. The IC-1 flag on Compression Through
+      Destruction applies here as well.

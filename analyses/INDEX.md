@@ -215,3 +215,10 @@
   Null case: plausible (MEDIUM-HIGH at component level; MEDIUM at configuration level when combined with Data & Society and NC-04 analyses)
   Cross-references: `2026-03-02-datasociety-policybrief-big-ai-state.md`, `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`
   File: `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`
+
+### 2026-03-10 — North Korea's nuclear calculus and the Iran war — the nonproliferation paradox (Guardian)
+  Domain: US foreign policy / military / nuclear proliferation / geopolitics
+  Layers: Physical & Coercive (primary), Thought & Narrative (primary), Institutional (Legal & Regulatory, Economic, Surveillance & Information active but absent)
+  Null case: plausible (MEDIUM — article captures surface logic; framework adds structural patterns not visible in reporting)
+  Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`
+  File: `2026-03-10-guardian-article-north-korea-nuclear-iran-war.md`

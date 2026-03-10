@@ -1,0 +1,95 @@
+# ============================================================================
+# instruments.yaml — Analytical instruments
+# ============================================================================
+#
+# Each entry is an instrument (complete, partial, or proposed).
+# The prose (detection patterns, technique catalogs) stays in instruments/*.md.
+# This YAML captures derivation, layer coverage, and build status.
+
+entries:
+- id: circumvention-typology
+  file: instruments/circumvention-typology.md
+  name: Circumvention Typology
+  status: complete
+  layers:
+  - thought_narrative
+  - economic
+  - legal_regulatory
+  - institutional
+  - surveillance_information
+  - physical_coercive
+  derived_from:
+  - Cross-extraction synthesis (Church Committee, Scott, Fanon, Graeber, Scheidel, Snyder, Alley, Pikett
+- id: control-hierarchy
+  file: instruments/control-hierarchy.md
+  name: Hierarchy of Control Ambition
+  status: complete
+  layers:
+  - thought_narrative
+  - economic
+  - legal_regulatory
+  - institutional
+  - surveillance_information
+  - physical_coercive
+  derived_from:
+  - principles/orwell-1984.md
+- id: institutional-capture-playbook
+  file: instruments/institutional-capture-playbook.md
+  name: Institutional Capture Playbook
+  status: complete
+  layers:
+  - economic
+  - legal_regulatory
+  - institutional
+  derived_from:
+  - |-
+    Cross-referencing six documented capture domains in the
+    > framework corpus. No single source documen
+- id: logical-fallacies
+  file: instruments/logical-fallacies.md
+  name: Logical Fallacies as Power Mechanisms
+  status: complete
+  layers:
+  - thought_narrative
+  - institutional
+  derived_from:
+  - |-
+    Wikipedia, "List of fallacies"; standard Western logic
+    > and rhetoric canon
+- id: newspeak-checklist
+  file: instruments/newspeak-checklist.md
+  name: Newspeak Checklist
+  status: complete
+  layers:
+  - thought_narrative
+  - legal_regulatory
+  derived_from:
+  - |-
+    principles/orwell-1984.md (P1: Language reduction as
+    > thought elimination)
+- id: positional-lens
+  file: instruments/positional-lens.md
+  name: Positional Lens Diagnostic
+  status: complete
+  layers:
+  - thought_narrative
+  - economic
+  - legal_regulatory
+  - institutional
+  - surveillance_information
+  - physical_coercive
+  derived_from:
+  - |-
+    Synthesis of Machiavelli (*The Prince*), Scott (*Weapons
+    > of the Weak*), and Fanon (*The Wretched o
+- id: propaganda-typology
+  file: instruments/propaganda-typology.md
+  name: Propaganda Typology
+  status: complete
+  layers:
+  - thought_narrative
+  - institutional
+  derived_from:
+  - |-
+    Jacques Ellul, *Propaganda: The Formation of Men's
+    > Attitudes* (1962); Jason Stanley, *How Propagan

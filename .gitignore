@@ -1,1 +1,5 @@
 __pycache__/
+
+# Generated viewer output (rebuild with: python3 tools/build-viewer.py)
+viewer.html
+viewer-data.js

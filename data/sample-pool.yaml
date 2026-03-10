@@ -1,0 +1,586 @@
+# Source pool for SAMPLE mode randomization.
+#
+# Entries are categorized by outlet type and tagged on five axes to enable
+# coverage tracking. The pool includes sources likely to exhibit power
+# dynamics alongside sources where power dynamics may be absent
+# (null-case-likely), ensuring the framework's calibration sample space
+# produces genuine null cases.
+#
+# This file replaces sources/sample-pool.md as the source of truth.
+# sources/sample-pool.md is now generated from this file.
+#
+# Maintenance: Add entries when the pool's axis coverage has gaps. Remove
+# entries only if an outlet ceases to exist. Do not curate for "relevance"
+# -- the point is randomness.
+
+axis_definitions:
+  institution: [corporate, independent, wire, government, trade, local, nonprofit, academic]
+  domain: [politics, economics, technology, culture, science, local-gov, sports, lifestyle, health, environment, military, legal]
+  geo: [us-national, us-local, uk, eu, global-south, asia, middle-east, africa, non-anglophone]
+  audience: [general, professional, investor, policymaker, academic]
+  position: [1, 2, 3, 4, 5]
+
+categories:
+  - name: "Corporate media — US national"
+    entries:
+      - outlet: "Associated Press"
+        url: "apnews.com"
+        tags:
+          institution: wire
+          domain: [politics, economics]
+          geo: us-national
+          audience: general
+          position: 4
+      - outlet: "Reuters US"
+        url: "reuters.com"
+        tags:
+          institution: wire
+          domain: [politics, economics]
+          geo: us-national
+          audience: [general, investor]
+          position: 4
+      - outlet: "New York Times"
+        url: "nytimes.com"
+        tags:
+          institution: corporate
+          domain: [politics, culture]
+          geo: us-national
+          audience: general
+          position: 5
+      - outlet: "Washington Post"
+        url: "washingtonpost.com"
+        tags:
+          institution: corporate
+          domain: [politics, legal]
+          geo: us-national
+          audience: general
+          position: 5
+      - outlet: "Wall Street Journal"
+        url: "wsj.com"
+        tags:
+          institution: corporate
+          domain: [economics, politics]
+          geo: us-national
+          audience: [investor, professional]
+          position: 5
+      - outlet: "NPR"
+        url: "npr.org"
+        tags:
+          institution: nonprofit
+          domain: [politics, culture]
+          geo: us-national
+          audience: general
+          position: 5
+      - outlet: "USA Today"
+        url: "usatoday.com"
+        tags:
+          institution: corporate
+          domain: [politics, lifestyle]
+          geo: us-national
+          audience: general
+          position: 4
+      - outlet: "CBS News"
+        url: "cbsnews.com"
+        tags:
+          institution: corporate
+          domain: [politics, economics]
+          geo: us-national
+          audience: general
+          position: 4
+
+  - name: "Corporate media — international"
+    entries:
+      - outlet: "BBC News"
+        url: "bbc.com/news"
+        tags:
+          institution: corporate
+          domain: [politics, economics]
+          geo: uk
+          audience: general
+          position: 4
+      - outlet: "The Guardian"
+        url: "theguardian.com"
+        tags:
+          institution: corporate
+          domain: [politics, culture]
+          geo: uk
+          audience: general
+          position: 5
+      - outlet: "Financial Times"
+        url: "ft.com"
+        tags:
+          institution: corporate
+          domain: [economics, politics]
+          geo: eu
+          audience: [investor, professional]
+          position: 5
+      - outlet: "The Economist"
+        url: "economist.com"
+        tags:
+          institution: corporate
+          domain: [economics, politics]
+          geo: eu
+          audience: professional
+          position: 5
+      - outlet: "Al Jazeera English"
+        url: "aljazeera.com"
+        tags:
+          institution: corporate
+          domain: [politics, military]
+          geo: middle-east
+          audience: general
+          position: 4
+      - outlet: "South China Morning Post"
+        url: "scmp.com"
+        tags:
+          institution: corporate
+          domain: [politics, economics]
+          geo: asia
+          audience: general
+          position: 4
+      - outlet: "Sydney Morning Herald"
+        url: "smh.com.au"
+        tags:
+          institution: corporate
+          domain: [politics, economics]
+          geo: asia
+          audience: general
+          position: 4
+      - outlet: "France 24 English"
+        url: "france24.com/en"
+        tags:
+          institution: corporate
+          domain: [politics, culture]
+          geo: [eu, non-anglophone]
+          audience: general
+          position: 4
+
+  - name: "Independent / investigative"
+    entries:
+      - outlet: "ProPublica"
+        url: "propublica.org"
+        tags:
+          institution: independent
+          domain: [politics, legal]
+          geo: us-national
+          audience: general
+          position: 5
+      - outlet: "The Intercept"
+        url: "theintercept.com"
+        tags:
+          institution: independent
+          domain: [politics, military]
+          geo: us-national
+          audience: general
+          position: 5
+      - outlet: "Bellingcat"
+        url: "bellingcat.com"
+        tags:
+          institution: independent
+          domain: [military, politics]
+          geo: eu
+          audience: [general, professional]
+          position: 5
+      - outlet: "The Bureau of Investigative Journalism"
+        url: "thebureauinvestigates.com"
+        tags:
+          institution: independent
+          domain: [politics, economics]
+          geo: uk
+          audience: general
+          position: 5
+      - outlet: "Rest of World"
+        url: "restofworld.org"
+        tags:
+          institution: independent
+          domain: [technology, economics]
+          geo: global-south
+          audience: general
+          position: 5
+      - outlet: "Organized Crime and Corruption Reporting Project"
+        url: "occrp.org"
+        tags:
+          institution: independent
+          domain: [economics, legal]
+          geo: eu
+          audience: [general, professional]
+          position: 5
+
+  - name: "Wire services"
+    entries:
+      - outlet: "Agence France-Presse"
+        url: "france24.com/en/afp"
+        tags:
+          institution: wire
+          domain: [politics, economics]
+          geo: [eu, non-anglophone]
+          audience: general
+          position: 4
+      - outlet: "Xinhua English"
+        url: "english.news.cn"
+        tags:
+          institution: wire
+          domain: [politics, economics]
+          geo: asia
+          audience: general
+          position: 1
+      - outlet: "TASS English"
+        url: "tass.com"
+        tags:
+          institution: wire
+          domain: [politics, military]
+          geo: non-anglophone
+          audience: general
+          position: 1
+
+  - name: "Government / institutional"
+    entries:
+      - outlet: "Congressional Research Service"
+        url: "crsreports.congress.gov"
+        tags:
+          institution: government
+          domain: [politics, legal]
+          geo: us-national
+          audience: policymaker
+          position: 4
+      - outlet: "Government Accountability Office"
+        url: "gao.gov"
+        tags:
+          institution: government
+          domain: [economics, legal]
+          geo: us-national
+          audience: policymaker
+          position: 4
+      - outlet: "Federal Register"
+        url: "federalregister.gov"
+        tags:
+          institution: government
+          domain: [legal, politics]
+          geo: us-national
+          audience: [policymaker, professional]
+          position: 1
+      - outlet: "European Parliament News"
+        url: "europarl.europa.eu/news"
+        tags:
+          institution: government
+          domain: [politics, legal]
+          geo: eu
+          audience: policymaker
+          position: 4
+      - outlet: "World Health Organization"
+        url: "who.int/news"
+        tags:
+          institution: government
+          domain: [health, politics]
+          geo: global-south
+          audience: [policymaker, professional]
+          position: 4
+      - outlet: "United Nations News"
+        url: "news.un.org"
+        tags:
+          institution: government
+          domain: [politics, environment]
+          geo: global-south
+          audience: policymaker
+          position: 4
+
+  - name: "Trade / professional press"
+    entries:
+      - outlet: "Ars Technica"
+        url: "arstechnica.com"
+        tags:
+          institution: trade
+          domain: technology
+          geo: us-national
+          audience: professional
+          position: 5
+      - outlet: "TechCrunch"
+        url: "techcrunch.com"
+        tags:
+          institution: trade
+          domain: [technology, economics]
+          geo: us-national
+          audience: [professional, investor]
+          position: 4
+      - outlet: "Defense One"
+        url: "defenseone.com"
+        tags:
+          institution: trade
+          domain: [military, politics]
+          geo: us-national
+          audience: [professional, policymaker]
+          position: 4
+      - outlet: "Law360"
+        url: "law360.com"
+        tags:
+          institution: trade
+          domain: legal
+          geo: us-national
+          audience: professional
+          position: 4
+      - outlet: "STAT News"
+        url: "statnews.com"
+        tags:
+          institution: trade
+          domain: [health, science]
+          geo: us-national
+          audience: professional
+          position: 5
+      - outlet: "The Trade"
+        url: "thetradenews.com"
+        tags:
+          institution: trade
+          domain: economics
+          geo: uk
+          audience: [investor, professional]
+          position: 4
+      - outlet: "Hacker News"
+        url: "news.ycombinator.com"
+        tags:
+          institution: trade
+          domain: technology
+          geo: us-national
+          audience: professional
+          position: 5
+      - outlet: "Politico"
+        url: "politico.com"
+        tags:
+          institution: trade
+          domain: politics
+          geo: us-national
+          audience: [policymaker, professional]
+          position: 4
+
+  - name: "Local news"
+    entries:
+      - outlet: "Chicago Tribune"
+        url: "chicagotribune.com"
+        tags:
+          institution: local
+          domain: [local-gov, politics]
+          geo: us-local
+          audience: general
+          position: 4
+      - outlet: "Houston Chronicle"
+        url: "houstonchronicle.com"
+        tags:
+          institution: local
+          domain: [local-gov, economics]
+          geo: us-local
+          audience: general
+          position: 4
+      - outlet: "Minneapolis Star Tribune"
+        url: "startribune.com"
+        tags:
+          institution: local
+          domain: [local-gov, politics]
+          geo: us-local
+          audience: general
+          position: 4
+      - outlet: "The Arizona Republic"
+        url: "azcentral.com"
+        tags:
+          institution: local
+          domain: [local-gov, politics]
+          geo: us-local
+          audience: general
+          position: 4
+      - outlet: "The Seattle Times"
+        url: "seattletimes.com"
+        tags:
+          institution: local
+          domain: [local-gov, technology]
+          geo: us-local
+          audience: general
+          position: 4
+      - outlet: "Manchester Evening News"
+        url: "manchestereveningnews.co.uk"
+        tags:
+          institution: local
+          domain: [local-gov, culture]
+          geo: uk
+          audience: general
+          position: 4
+
+  - name: "Null-case-likely: Sports"
+    entries:
+      - outlet: "ESPN"
+        url: "espn.com"
+        tags:
+          institution: corporate
+          domain: sports
+          geo: us-national
+          audience: general
+          position: 4
+      - outlet: "The Athletic"
+        url: "theathletic.com"
+        tags:
+          institution: corporate
+          domain: sports
+          geo: us-national
+          audience: general
+          position: 5
+      - outlet: "BBC Sport"
+        url: "bbc.com/sport"
+        tags:
+          institution: corporate
+          domain: sports
+          geo: uk
+          audience: general
+          position: 4
+      - outlet: "Cricinfo"
+        url: "espncricinfo.com"
+        tags:
+          institution: corporate
+          domain: sports
+          geo: asia
+          audience: general
+          position: 4
+
+  - name: "Null-case-likely: Lifestyle / food"
+    entries:
+      - outlet: "Bon Appetit"
+        url: "bonappetit.com"
+        tags:
+          institution: corporate
+          domain: lifestyle
+          geo: us-national
+          audience: general
+          position: 4
+      - outlet: "Serious Eats"
+        url: "seriouseats.com"
+        tags:
+          institution: independent
+          domain: lifestyle
+          geo: us-national
+          audience: general
+          position: 5
+      - outlet: "Lonely Planet"
+        url: "lonelyplanet.com"
+        tags:
+          institution: corporate
+          domain: lifestyle
+          geo: eu
+          audience: general
+          position: 4
+      - outlet: "Apartment Therapy"
+        url: "apartmenttherapy.com"
+        tags:
+          institution: independent
+          domain: lifestyle
+          geo: us-national
+          audience: general
+          position: 4
+      - outlet: "Allrecipes"
+        url: "allrecipes.com"
+        tags:
+          institution: corporate
+          domain: lifestyle
+          geo: us-national
+          audience: general
+          position: 4
+
+  - name: "Null-case-likely: Science / nature"
+    entries:
+      - outlet: "Quanta Magazine"
+        url: "quantamagazine.org"
+        tags:
+          institution: nonprofit
+          domain: science
+          geo: us-national
+          audience: [general, academic]
+          position: 5
+      - outlet: "Nature News"
+        url: "nature.com/news"
+        tags:
+          institution: academic
+          domain: science
+          geo: uk
+          audience: [academic, professional]
+          position: 5
+      - outlet: "Phys.org"
+        url: "phys.org"
+        tags:
+          institution: independent
+          domain: [science, technology]
+          geo: us-national
+          audience: general
+          position: 5
+
+  - name: "Academic / research"
+    entries:
+      - outlet: "Brookings Institution"
+        url: "brookings.edu"
+        tags:
+          institution: academic
+          domain: [politics, economics]
+          geo: us-national
+          audience: [policymaker, academic]
+          position: 5
+      - outlet: "RAND Corporation"
+        url: "rand.org"
+        tags:
+          institution: academic
+          domain: [military, politics]
+          geo: us-national
+          audience: [policymaker, academic]
+          position: 5
+      - outlet: "Council on Foreign Relations"
+        url: "cfr.org"
+        tags:
+          institution: academic
+          domain: [politics, military]
+          geo: us-national
+          audience: [policymaker, academic]
+          position: 5
+
+  - name: "Non-anglophone (English editions)"
+    entries:
+      - outlet: "Deutsche Welle"
+        url: "dw.com/en"
+        tags:
+          institution: corporate
+          domain: [politics, culture]
+          geo: [eu, non-anglophone]
+          audience: general
+          position: 4
+      - outlet: "NHK World"
+        url: "www3.nhk.or.jp/nhkworld"
+        tags:
+          institution: corporate
+          domain: [politics, culture]
+          geo: [asia, non-anglophone]
+          audience: general
+          position: 4
+      - outlet: "The Times of India"
+        url: "timesofindia.indiatimes.com"
+        tags:
+          institution: corporate
+          domain: [politics, economics]
+          geo: asia
+          audience: general
+          position: 4
+      - outlet: "Daily Maverick"
+        url: "dailymaverick.co.za"
+        tags:
+          institution: independent
+          domain: [politics, economics]
+          geo: africa
+          audience: general
+          position: 5
+      - outlet: "Rappler"
+        url: "rappler.com"
+        tags:
+          institution: independent
+          domain: [politics, technology]
+          geo: asia
+          audience: general
+          position: 5
+      - outlet: "Haaretz English"
+        url: "haaretz.com"
+        tags:
+          institution: corporate
+          domain: [politics, military]
+          geo: middle-east
+          audience: general
+          position: 5

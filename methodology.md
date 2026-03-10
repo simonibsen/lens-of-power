@@ -64,14 +64,14 @@ updates. Does not write to file unless the user asks.
 
 **Procedure**:
 
-1. Load the framework context: `constitution.md`, `taxonomy.md`, `patterns.md`,
+1. Load the framework context: `constitution.md`, `taxonomy.md`, `patterns/INDEX.md`,
    `circumventions.md`, `principles/INDEX.md`. Load instruments only if they
    become relevant during the reading — do not load all instruments by default.
 
 2. Read the material. Produce a prose analysis that:
 
    - Identifies which layers of power are active and how they interact
-   - Names which patterns from `patterns.md` appear and why
+   - Names which patterns from `patterns/INDEX.md` appear and why
    - Draws on principles from `principles/INDEX.md` where they illuminate
      the material
    - Notes what is absent — missing voices, unasked questions, layers that
@@ -131,7 +131,7 @@ becomes subject to the branching check only if the user requests file output.
 After writing analysis or extraction files, rebuild and open the viewer:
 
 ```
-python3 tools/build-viewer.py && open viewer.html
+python3 tools/build-all.py && open viewer.html
 ```
 
 This is not optional — always run it after any file write. The viewer
@@ -374,7 +374,7 @@ Position this material relative to existing knowledge in the framework.
 
 **Do this**:
 - Does this confirm, contradict, or extend existing principles in `principles/`?
-- Does this match known patterns in `patterns.md`?
+- Does this match known patterns in `patterns/INDEX.md`?
 - Which layers from `taxonomy.md` are active in the material?
 - Which layers are *structurally relevant but absent from the source*?
   A layer is "active but absent" when the analyst can identify its
@@ -416,7 +416,7 @@ Find non-obvious connections to other domains, eras, or works.
 **Output format**:
 ```
 ECHOES: [connections to other domains, historical parallels]
-PATTERN MATCH: [which known patterns from patterns.md appear here]
+PATTERN MATCH: [which known patterns from patterns/INDEX.md appear here]
 NEW PATTERN: [any new cross-cutting pattern this suggests]
 ```
 
@@ -519,7 +519,7 @@ Determine the implications and next actions.
 IMPLICATIONS: [what follows from this analysis]
 WATCH: [what to monitor going forward]
 INVESTIGATE: [threads worth pulling]
-FRAMEWORK UPDATE: [any additions to patterns.md or refinements to suggest]
+FRAMEWORK UPDATE: [any additions to patterns/ or refinements to suggest]
 CIRCUMVENTIONS: [any circumvention types observed — type, outcome, failure modes]
 MADE VISIBLE: [what this analysis reveals that was previously hidden]
 ```
@@ -646,7 +646,7 @@ PRINCIPLES REFERENCED:
 - [principle ID and title] (principles/[filename].md) — [how it applies]
 
 PATTERNS MATCHED:
-- [pattern name] (patterns.md) — [corroboration level] — [how it appears here]
+- [pattern name] (patterns/INDEX.md) — [corroboration level] — [how it appears here]
 
 PATTERNS NOT MATCHED:
 - [any patterns explicitly considered and found inapplicable — optional
@@ -663,16 +663,16 @@ explanation fits the evidence as well as the power explanation, say so.
 After writing an analysis file, update these framework files:
 
 1. **`analyses/INDEX.md`** — add an entry for the new analysis
-2. **`patterns.md`** — update corroboration counts for confirmed patterns
-3. **`patterns-detail.md`** — add OBSERVED IN entries with analytical notes
-4. **Counter-evidence filing check** — scan the analysis and any
-   patterns-detail.md notes written during this session for IC-1 flags,
+2. **`patterns/*.md`** — add OBSERVED IN entries with analytical notes to the
+   relevant pattern files; corroboration counts are computed by tooling
+3. **Counter-evidence filing check** — scan the analysis and any
+   pattern file notes written during this session for IC-1 flags,
    counter-perspectives, or axiom challenges. If any exist, file them as
    evidence entries in `evidence/` with the appropriate RELATIONSHIP tag
    (`challenges` or `complicates`). Counter-evidence noted but not filed
    is an IC-1 violation — the framework claims falsifiability but hides
    disconfirming data in prose rather than recording it formally.
-5. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+5. **Rebuild viewer** — run `python3 tools/build-all.py && open viewer.html`
 
 This checklist is not optional. An analysis that updates patterns but
 does not file counter-evidence leaves the framework in an inconsistent
@@ -760,7 +760,7 @@ STATUS: observed / inferred / speculative
 Look for patterns that recur within the work or connect to existing patterns.
 
 **Do this**:
-- Cross-reference with `patterns.md` — does this work illustrate known patterns?
+- Cross-reference with `patterns/INDEX.md` — does this work illustrate known patterns?
 - Does it reveal new cross-layer patterns not yet documented?
 - What mechanisms does the work show operating across multiple layers?
 - If the source describes resistance or counterforce mechanisms, check
@@ -917,18 +917,18 @@ working notes to be discarded.
 After writing extraction outputs, update these framework files:
 
 1. **`principles/INDEX.md`** — add or update the source entry
-2. **`patterns.md`** — update corroboration counts for confirmed patterns
-3. **`patterns-detail.md`** — add OBSERVED IN entries with analytical notes
-4. **`sources/*.md`** — if a source record exists, update its Related files
+2. **`patterns/*.md`** — add OBSERVED IN entries with analytical notes to the
+   relevant pattern files; corroboration counts are computed by tooling
+3. **`sources/*.md`** — if a source record exists, update its Related files
    section and change extraction status from `(pending)` to complete
-5. **`sources/INDEX.md`** — update extraction status if changed
-6. **Counter-evidence filing check** — scan the extraction outputs and
-   any patterns-detail.md notes for IC-1 flags, counter-perspectives,
+4. **`sources/INDEX.md`** — update extraction status if changed
+5. **Counter-evidence filing check** — scan the extraction outputs and
+   any pattern file notes for IC-1 flags, counter-perspectives,
    or axiom challenges. If any exist, file them as evidence entries in
    `evidence/` with the appropriate RELATIONSHIP tag (`challenges` or
    `complicates`). Counter-evidence noted but not filed is an IC-1
    violation.
-7. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+7. **Rebuild viewer** — run `python3 tools/build-all.py && open viewer.html`
 
 This checklist is not optional. An extraction that writes a principles
 file but does not update the framework's cross-referencing files leaves
@@ -1020,7 +1020,7 @@ Review `analyses/INDEX.md` for selection bias:
 - Are there types of material the analyst instinctively avoids
   (corporate governance, functioning democracies, successful reforms)?
   That avoidance is a signal.
-- If `calibration/sample-log.md` exists, compare the calibration null
+- If `data/calibration.yaml` exists, compare the calibration null
   case rate against the analysis diet null case rate. A large delta
   confirms that the analysis diet has systematic positive selection
   bias. Report the delta and assess whether SAMPLE mode is being run
@@ -1125,7 +1125,7 @@ ADVERSARIAL RATIO: [n]/[total] ([percentage])
 BLIND SPOTS: [domains or material types never analyzed]
 ```
 
-**Calibration data**: If `calibration/sample-log.md` exists and contains
+**Calibration data**: If `data/calibration.yaml` exists and contains
 5 or more entries, compute the calibration null case rate and compare it
 with the analysis index null case rate from above.
 
@@ -1145,7 +1145,7 @@ The delta between calibration and analysis rates is diagnostic:
   warrants investigation — it could indicate the analysis diet includes
   material that genuinely lacks power dynamics.
 
-**Unacted escalations**: Scan `calibration/sample-log.md` for entries
+**Unacted escalations**: Scan `data/calibration.yaml` for entries
 where the Escalation column is `analyze` or `extract` but no
 corresponding analysis or extraction exists in `analyses/INDEX.md` or
 `principles/INDEX.md`. List these as pending opportunities — material
@@ -1183,10 +1183,10 @@ UNFILED COUNTER-EVIDENCE: [any noted but not recorded]
 Identify patterns needing corroboration or challenge.
 
 **Do this**:
-- Read `patterns.md` for PRELIMINARY patterns
+- Read `patterns/INDEX.md` for PRELIMINARY patterns
 - For each, identify what material types or domains would corroborate
   or challenge it
-- Check whether counter-evidence is noted in `patterns-detail.md` but
+- Check whether counter-evidence is noted in individual pattern files but
   not filed in `evidence/`
 
 **Output format**:
@@ -1320,7 +1320,7 @@ reveal power dynamics. SAMPLE mode introduces randomness to measure the
 framework's false positive rate.
 
 No analysis files are written. The only file write is appending to the
-calibration tracking log (`calibration/sample-log.md`). Exempt from
+calibration tracking log (`data/calibration.yaml`). Exempt from
 branching check.
 
 **Input**: None — the mode selects its own material.
@@ -1393,7 +1393,7 @@ tracking entry.
    - `analyze` — material warrants full ANALYZE mode treatment
    - `extract` — material warrants EXTRACT mode treatment
    - `none` — no further action needed
-3. Append a row to `calibration/sample-log.md`:
+3. Append a row to `data/calibration.yaml`:
    ```
    | [YYYY-MM-DD] | [outlet] | [article title, max 60 chars] | [category] | [accepted/plausible/rejected] | [analyze/extract/none] | [axis tags from pool entry] |
    ```
@@ -1408,7 +1408,7 @@ tracking entry.
 
 ### Step 4: REPORT CALIBRATION STATS
 
-Compute calibration statistics from the full `calibration/sample-log.md`.
+Compute calibration statistics from the full `data/calibration.yaml`.
 
 **Do this**:
 1. Read the full log
@@ -1568,7 +1568,7 @@ been verified against a physical copy.
     with a hyperlink to its definition in the repository. Example:
     ```
     **Framework references**
-    - Compliance Gradient: [patterns.md](https://github.com/simonibsen/lens-of-power/blob/main/patterns.md#the-compliance-gradient)
+    - Compliance Gradient: [patterns/compliance-gradient.md](https://github.com/simonibsen/lens-of-power/blob/main/patterns/compliance-gradient.md)
     - Axiom 9: [constitution.md](https://github.com/simonibsen/lens-of-power/blob/main/constitution.md#9-compliance-can-be-manufactured-without-explicit-coercion)
     ```
   - This applies to patterns, axioms, principles, instruments, and
@@ -1612,8 +1612,9 @@ been verified against a physical copy.
   corpus AND no unresolved counter-evidence). The relevant corpus is
   sources sharing at least one taxonomy layer with the pattern.
   Corroboration levels are computed by the build script
-  (`tools/build-viewer.py`) and written back to `patterns.md` and
-  `patterns-detail.md`. The analyst does not need to compute levels
+  (`tools/build-all.py`) and written back to `data/patterns.yaml`,
+  then regenerated into `patterns/INDEX.md` by `generate-indexes.py`.
+  The analyst does not need to compute levels
   manually — the build script handles it after each commit.
 - **Circumvention register**: When documenting circumventions or
   resistance, use observational language: "has been observed to" (not
