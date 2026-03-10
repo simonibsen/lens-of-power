@@ -84,6 +84,10 @@ entries:
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: All six
+  key_patterns_display: Inversion of Stated Purpose, Layered Redundancy, Temporal Control, Manufactured Scarcity
+  source_display: George Orwell, *Nineteen Eighty-Four* (1949)
+  position_display: 5 (fiction as analytical model)
 - id: machiavelli-the-prince
   file: principles/machiavelli-the-prince.md
   source_name: Niccolò Machiavelli
@@ -111,41 +115,49 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      appearance as the primary operating
-      terrain — the prince must appear virtuous while acting otherwise
+    note: 'appearance as the primary operating
+
+      terrain — the prince must appear virtuous while acting otherwise'
   - pattern: layered_redundancy_of_control
     variant: null
-    note: |-
-      arms as prerequisite for all other
+    note: 'arms as prerequisite for all other
+
       authority — Machiavelli treats all six layers as active, with Physical &
-      Coercive as the foundation the others depend on
+
+      Coercive as the foundation the others depend on'
   - pattern: middle_stratum_trap
     variant: null
-    note: |-
-      ally with the many against the
-      few — the nobles are the dangerous middle stratum; the people's moderate
-      demands make them the safer ally
+    note: 'ally with the many against the
+
+      few — the nobles are the dangerous middle stratum; the people''s moderate
+
+      demands make them the safer ally'
   - pattern: economy_of_violence
     variant: null
-    note: |-
-      cruelties "well used"
-      vs. "badly used" — Agathocles of Syracuse
+    note: 'cruelties "well used"
+
+      vs. "badly used" — Agathocles of Syracuse'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      the prince must appear
+    note: 'the prince must appear
+
       merciful, faithful, humane, religious, and honest while being prepared to act
-      otherwise
+
+      otherwise'
   - pattern: double_performance
     variant: null
-    note: |-
-      the prince manages
+    note: 'the prince manages
+
       appearances — "everyone sees what you appear to be, few experience what you
-      really are"
+
+      really are"'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: All six (Physical as foundation)
+  key_patterns_display: Appearance as Structural Terrain, Middle Stratum Trap, Economy of Violence, Double Performance
+  source_display: Niccolò Machiavelli, *The Prince* (1513)
+  position_display: 4 (intermediary — advisor to rulers)
 - id: scott-weapons-of-the-weak
   file: principles/scott-weapons-of-the-weak.md
   source_name: James C. Scott
@@ -175,51 +187,65 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      the Green Revolution's development
+    note: 'the Green Revolution''s development
+
       programs claim to benefit the poor while enriching the already-wealthy — the
-      inversion is visible to the poor, who name it through gossip and moral critique
+
+      inversion is visible to the poor, who name it through gossip and moral critique'
   - pattern: manufactured_scarcity_as_control
     variant: null
-    note: |-
-      the Green Revolution increases total
-      production while reducing the poor's share — scarcity is manufactured through
-      upward redistribution of gains, not through decline in output
+    note: 'the Green Revolution increases total
+
+      production while reducing the poor''s share — scarcity is manufactured through
+
+      upward redistribution of gains, not through decline in output'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      Scott provides the view from
+    note: 'Scott provides the view from
+
       the other side of the terrain — the peasant also operates in the gap between
-      appearance and reality, holding the prince's appearance against his reality;
+
+      appearance and reality, holding the prince''s appearance against his reality;
+
       the public transcript is a jointly produced performance both sides maintain
-      for different reasons
+
+      for different reasons'
   - pattern: hidden_transcript
     variant: null
-    note: |-
-      Sedaka
+    note: 'Sedaka
+
       villagers maintain a hidden transcript of gossip, moral critique, and
-      alternative interpretation behind the public performance of deference
+
+      alternative interpretation behind the public performance of deference'
   - pattern: compliance_gradient
     variant: null
-    note: |-
-      everyday resistance in Sedaka operates through a spectrum of partial
-      compliance, not through a binary of obedience or revolt
+    note: 'everyday resistance in Sedaka operates through a spectrum of partial
+
+      compliance, not through a binary of obedience or revolt'
   - pattern: ideological_judo
     variant: null
-    note: |-
-      poor
+    note: 'poor
+
       Sedaka villagers hold wealthy farmers to Islamic charity norms the
+
       wealthy themselves endorse — the critique operates entirely within
-      the dominant moral framework
+
+      the dominant moral framework'
   - pattern: double_performance
     variant: null
-    note: |-
-      the peasants
+    note: 'the peasants
+
       see through the performance but maintain their own counter-performance of
-      deference; the public transcript is a joint production
+
+      deference; the public transcript is a joint production'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Thought & Narrative, Economic, Surveillance & Information
+  key_patterns_display: Hidden Transcript, Compliance Gradient, Ideological Judo, Double Performance, Appearance as Structural
+    Terrain
+  source_display: James C. Scott, *Weapons of the Weak* (1985)
+  position_display: 5 (ethnographer)
 - id: fanon-wretched-of-the-earth
   file: principles/fanon-wretched-of-the-earth.md
   source_name: Frantz Fanon
@@ -249,61 +275,71 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      national consciousness without
+    note: 'national consciousness without
+
       political education — the national party, created to liberate, becomes an
-      instrument of control
+
+      instrument of control'
   - pattern: middle_stratum_trap
     variant: null
-    note: |-
-      the national bourgeoisie as
+    note: 'the national bourgeoisie as
+
       relay — the indigenous middle class replaces the colonizer as intermediary
-      of extraction; its relative privilege prevents solidarity with the masses
+
+      of extraction; its relative privilege prevents solidarity with the masses'
   - pattern: middle_stratum_trap
     variant: null
-    note: |-
-      the lumpenproletariat — inverts
+    note: 'the lumpenproletariat — inverts
+
       the pattern: those completely excluded have no stake in the existing order,
-      making them either the most revolutionary or the most co-optable force
+
+      making them either the most revolutionary or the most co-optable force'
   - pattern: economy_of_violence
     variant: null
-    note: |-
-      challenges this pattern
+    note: 'challenges this pattern
+
       from the subjected perspective: colonial violence is total and constitutive,
-      not calibrated. The pattern describes the ruler's optimal strategy but Fanon
+
+      not calibrated. The pattern describes the ruler''s optimal strategy but Fanon
+
       argues that from below, there is no "well-used" foundational violence — all
-      constitutive violence delegitimizes the sys...
+
+      constitutive violence delegitimizes the sys...'
   - pattern: relay_class
     variant: null
-    note: |-
-      the national
-      bourgeoisie as intermediary
+    note: 'the national
+
+      bourgeoisie as intermediary'
   - pattern: relay_class
     variant: null
     note: national consciousness without political education
   - pattern: constitutive_violence
     variant: null
-    note: |-
-      violence as
-      constitutive
+    note: 'violence as
+
+      constitutive'
   - pattern: constitutive_violence
     variant: null
-    note: |-
-      the Manichean
-      structure
+    note: 'the Manichean
+
+      structure'
   - pattern: three_phases_of_cultural_resistance
     variant: null
-    note: |-
-      psychological
-      reconstruction
+    note: 'psychological
+
+      reconstruction'
   - pattern: three_phases_of_cultural_resistance
     variant: null
-    note: |-
-      culture as
-      control and resistance
+    note: 'culture as
+
+      control and resistance'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: All six
+  key_patterns_display: Constitutive Violence, Relay Class, Middle Stratum Trap, Three Phases of Cultural Resistance
+  source_display: Frantz Fanon, *The Wretched of the Earth* (1961)
+  position_display: 3 (revolutionary — participant in Algerian revolution)
 - id: zuboff-age-of-surveillance-capitalism
   file: principles/zuboff-age-of-surveillance-capitalism.md
   source_name: Shoshana Zuboff
@@ -331,66 +367,89 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      Google's "Don't be
-      evil," Facebook's "connecting the world" — stated purpose of user service conceals
+    note: 'Google''s "Don''t be
+
+      evil," Facebook''s "connecting the world" — stated purpose of user service conceals
+
       function of behavioral extraction; inevitabilist ideology frames corporate
-      decisions as technological necessity
+
+      decisions as technological necessity'
   - pattern: manufactured_scarcity_as_control
     variant: null
-    note: |-
-      presents an
+    note: 'presents an
+
       inversion — surveillance capitalism manufactures scarcity of *knowledge* rather
+
       than goods. The Division of Learning creates structural information scarcity
+
       where one side can see and the other cannot.
 
-      NOTE:
+
+      NOTE:'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      the Two Texts — every
+    note: 'the Two Texts — every
+
       interaction with a surveillance capitalist system produces a visible text (the
+
       service) and a shadow text (the behavioral data); the user interface is the
-      appearance, data extraction is the reality
+
+      appearance, data extraction is the reality'
   - pattern: double_performance
     variant: null
-    note: |-
-      users perform as
+    note: 'users perform as
+
       customers, companies perform as service providers, while the actual transaction
+
       occurs in the shadow text — the behavioral surplus extraction neither side
-      acknowledges openly
+
+      acknowledges openly'
   - pattern: constitutive_violence
     variant: null
-    note: |-
-      unilateral declaration
-      as dispossession — Google's seizure of behavioral data as a non-physical
+    note: 'unilateral declaration
+
+      as dispossession — Google''s seizure of behavioral data as a non-physical
+
       instantiation of constitutive violence; the act of taking establishes the
-      precedent that legitimizes the taking, paralleling enclosure of the commons
+
+      precedent that legitimizes the taking, paralleling enclosure of the commons'
   - pattern: unprecedented_as_sanctuary
     variant: null
-    note: |-
-      Google's
+    note: 'Google''s
+
       behavioral data extraction operated for years before regulators or public
-      discourse developed frameworks to describe or contest it; the FTC's inability
-      to categorize the harm; the EU's delayed GDPR response
+
+      discourse developed frameworks to describe or contest it; the FTC''s inability
+
+      to categorize the harm; the EU''s delayed GDPR response'
   - pattern: dispossession_cycle
     variant: null
-    note: |-
-      the cycle
-      repeated across Google's expansion from search to email to location to home
-      devices; Facebook's privacy scandals follow the same cycle; Cambridge Analytica
-      produced massive outrage that resulted in no structural change to Facebook's
-      data extraction
+    note: 'the cycle
+
+      repeated across Google''s expansion from search to email to location to home
+
+      devices; Facebook''s privacy scandals follow the same cycle; Cambridge Analytica
+
+      produced massive outrage that resulted in no structural change to Facebook''s
+
+      data extraction'
   - pattern: division_of_learning
     variant: null
-    note: |-
-      Google's
-      refusal to disclose search ranking algorithms; Facebook's opacity about news
+    note: 'Google''s
+
+      refusal to disclose search ranking algorithms; Facebook''s opacity about news
+
       feed curation; the impossibility of an individual auditing their own
-      advertising profile
+
+      advertising profile'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Surveillance & Information (primary), Economic, Thought & Narrative
+  key_patterns_display: Unprecedented as Sanctuary, Dispossession Cycle, Division of Learning, Constitutive Violence, Inversion
+    of Stated Purpose
+  source_display: Shoshana Zuboff, *The Age of Surveillance Capitalism* (2019)
+  position_display: 5 (academic)
 - id: snyder-on-tyranny
   file: principles/snyder-on-tyranny.md
   source_name: Timothy Snyder
@@ -415,43 +474,58 @@ entries:
   key_patterns:
   - pattern: temporal_control
     variant: null
-    note: |-
-      the two temporal myths — the politics of
+    note: 'the two temporal myths — the politics of
+
       inevitability controls the future by presenting progress as automatic, the politics
+
       of eternity controls the past by mythologizing national victimization; the
-      transition between the two is the moment of maximum danger for democratic order
+
+      transition between the two is the moment of maximum danger for democratic order'
   - pattern: compliance_gradient
     variant: null
-    note: |-
-      anticipatory obedience is a specific
+    note: 'anticipatory obedience is a specific
+
       mechanism within the gradient — describes how the gradient shifts toward
+
       compliance without external pressure, through self-generated pre-compliance
-      that cascades across the population
+
+      that cascades across the population'
   - pattern: unprecedented_as_sanctuary
     variant: null
-    note: |-
-      Snyder's "be calm when the unthinkable
-      arrives" confirms from the citizen's perspective — authoritarian consolidation
-      exploits the unprecedented to paralyze response; the population's inability to
-      categorize what is happening delays resistance past the point of effectiveness
+    note: 'Snyder''s "be calm when the unthinkable
+
+      arrives" confirms from the citizen''s perspective — authoritarian consolidation
+
+      exploits the unprecedented to paralyze response; the population''s inability to
+
+      categorize what is happening delays resistance past the point of effectiveness'
   - pattern: anticipatory_obedience
     variant: null
-    note: |-
-      in 1930s Germany and
+    note: 'in 1930s Germany and
+
       Austria, citizens, businesses, and institutions implemented anti-Jewish
+
       measures before they were legally required — and often went further than
-      anything the regime had demanded
+
+      anything the regime had demanded'
   - pattern: institutional_abdication
     variant: null
-    note: |-
-      the Weimar Republic's
+    note: 'the Weimar Republic''s
+
       institutions were formally intact when Hitler became chancellor; they were
+
       hollowed out through Gleichschaltung — the self-coordination of professional
+
       associations, universities, and media organizations; many cooperated in their
-      own neutralization
+
+      own neutralization'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Institutional, Thought & Narrative, Legal & Regulatory
+  key_patterns_display: Anticipatory Obedience, Institutional Abdication, Temporal Control
+  source_display: Timothy Snyder, *On Tyranny* (2017)
+  position_display: 5 (historian addressing position 2)
 - id: piketty-capital-in-the-twenty-first-century
   file: principles/piketty-capital-in-the-twenty-first-century.md
   source_name: Thomas Piketty
@@ -477,49 +551,65 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      meritocratic
+    note: 'meritocratic
+
       narrative claims wealth reflects talent and effort while functioning to legitimize
+
       structurally determined outcomes — the "supermanager" phenomenon demonstrates the
-      disconnect between stated merit and actual institutional capture
+
+      disconnect between stated merit and actual institutional capture'
   - pattern: layered_redundancy_of_control
     variant: null
-    note: |-
-      the political
+    note: 'the political
+
       capture feedback loop — concentrated wealth provides simultaneous leverage across
+
       economic, institutional, legal, and narrative layers; lobbying, campaign finance,
-      think tanks, and revolving doors operate as redundant control channels
+
+      think tanks, and revolving doors operate as redundant control channels'
   - pattern: manufactured_scarcity_as_control
     variant: null
-    note: |-
-      adds a
+    note: 'adds a
+
       structural variant — the distribution of abundance creates functional scarcity;
-      overall growth occurs while the majority's share declines. Scarcity need not be
-      actively manufactured when the default distribution of surplus produces it.
+
+      overall growth occurs while the majority''s share declines. Scarcity need not be
+
+      actively manufactured when the default distribution of surplus produces it.'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      meritocracy is the
+    note: 'meritocracy is the
+
       appearance; r > g is the structural reality — the population evaluates the
+
       economic system through the meritocratic narrative while having no access to the
-      structural mechanisms that actually determine outcomes
+
+      structural mechanisms that actually determine outcomes'
   - pattern: division_of_learning
     variant: null
-    note: |-
-      financial opacity
+    note: 'financial opacity
+
       as structural enabler of concentration — tax havens, shell companies, opaque trusts
+
       prevent democratic accountability; the "missing wealth" problem demonstrates
+
       trillions hidden from national statistics; extends the division from digital to
-      financial domains
+
+      financial domains'
   - pattern: peacetime_ratchet
     variant: null
-    note: |-
-      r > g as the mathematical expression of the ratchet; the post-WWII compression
+    note: 'r > g as the mathematical expression of the ratchet; the post-WWII compression
+
       unwinding from the 1980s as the ratchet reasserting; progressive taxation as the
-      maintenance mechanism that erodes
+
+      maintenance mechanism that erodes'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Economic (primary), Institutional, Thought & Narrative
+  key_patterns_display: Peacetime Ratchet, Appearance as Structural Terrain, Division of Learning, Manufactured Scarcity
+  source_display: Thomas Piketty, *Capital in the Twenty-First Century* (2013)
+  position_display: 5 (economist)
 - id: scheidel-the-great-leveler
   file: principles/scheidel-the-great-leveler.md
   source_name: Walter Scheidel
@@ -542,28 +632,37 @@ entries:
   key_patterns:
   - pattern: manufactured_scarcity_as_control
     variant: null
-    note: |-
-      confirms across civilizations.
+    note: 'confirms across civilizations.
 
-      NOTE:
+
+      NOTE:'
   - pattern: peacetime_ratchet
     variant: null
-    note: |-
-      the peacetime default confirmed
+    note: 'the peacetime default confirmed
+
       across all known civilizations — Rome, China, Mesoamerica, medieval and modern
-      Europe; the impermanence of equality as the ratchet's temporal dimension — every
-      historical compression has been followed by return to concentration
+
+      Europe; the impermanence of equality as the ratchet''s temporal dimension — every
+
+      historical compression has been followed by return to concentration'
   - pattern: compression_through_destruction
     variant: null
-    note: |-
-      the Four Horsemen
+    note: 'the Four Horsemen
+
       of Leveling — mass mobilization warfare, transformative revolution, state collapse,
-      and lethal pandemics; post-WWII Europe's "economic miracle" was built on a base
+
+      and lethal pandemics; post-WWII Europe''s "economic miracle" was built on a base
+
       compressed by wartime capital destruction; the Black Death raised wages 50-100%
-      by killing laborers, not by creatin...
+
+      by killing laborers, not by creatin...'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Physical & Coercive, Economic, Institutional
+  key_patterns_display: Compression Through Destruction, Peacetime Ratchet
+  source_display: Walter Scheidel, *The Great Leveler* (2017)
+  position_display: 5 (historian)
 - id: winters-oligarchy
   file: principles/winters-oligarchy.md
   source_name: Jeffrey A. Winters
@@ -586,52 +685,66 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      the legal system states equal protection while
+    note: 'the legal system states equal protection while
+
       functioning as wealth defense — formal legal neutrality conceals substantive service
-      to concentrated wealth
+
+      to concentrated wealth'
   - pattern: layered_redundancy_of_control
     variant: null
-    note: |-
-      the wealth defense industry operates across
-      Economic, Legal, and Institutional layers simultaneously as the civil oligarchy's
-      defense-in-depth system
+    note: 'the wealth defense industry operates across
+
+      Economic, Legal, and Institutional layers simultaneously as the civil oligarchy''s
+
+      defense-in-depth system'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      democracy is the appearance; civil oligarchy
+    note: 'democracy is the appearance; civil oligarchy
+
       is the operational reality — electoral politics handles issues oligarchs are
+
       indifferent to, while the wealth defense apparatus handles matters affecting
-      concentrated wealth
+
+      concentrated wealth'
   - pattern: division_of_learning
     variant: null
-    note: |-
-      the wealth defense industry maintains and
+    note: 'the wealth defense industry maintains and
+
       produces opacity as a professional function — the complexity of trust structures,
-      offshore vehicles, and legal instruments is itself a form of information asymmetry
+
+      offshore vehicles, and legal instruments is itself a form of information asymmetry'
   - pattern: peacetime_ratchet
     variant: null
-    note: |-
-      civil oligarchy is the institutional form
+    note: 'civil oligarchy is the institutional form
+
       the ratchet takes in democracies — the wealth defense industry is the institutional
-      apparatus that executes concentration during stability through legal channels
+
+      apparatus that executes concentration during stability through legal channels'
   - pattern: wealth_defense_industry
     variant: null
-    note: |-
-      the US wealth defense industry
+    note: 'the US wealth defense industry
+
       employs more professionals than the IRS; the "tax gap" of hundreds of billions
+
       is enabled by the complexity that wealth defense professionals create and exploit;
+
       comparative evidence from Singapore and Indonesia shows different forms of the
-      same function
+
+      same function'
   - pattern: democracy_oligarchy_coexistence
     variant: null
-    note: |-
-      the US simultaneously maintains
+    note: 'the US simultaneously maintains
+
       democratic elections and extreme wealth concentration; policy outcomes correlate
-      with preferences of the wealthy, not the median voter — Gilens and Page 2014
+
+      with preferences of the wealthy, not the median voter — Gilens and Page 2014'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Economic, Legal & Regulatory, Institutional
+  key_patterns_display: Wealth Defense Industry, Democracy-Oligarchy Coexistence, Layered Redundancy, Division of Learning
+  source_display: Jeffrey A. Winters, *Oligarchy* (2011)
+  position_display: 5 (political scientist)
 - id: hartmann-hidden-history-american-oligarchy
   file: principles/hartmann-hidden-history-american-oligarchy.md
   source_name: Thom Hartmann
@@ -654,48 +767,63 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      Citizens United frames
+    note: 'Citizens United frames
+
       corporate political spending as "free speech" protection; corporate personhood frames
-      wealth defense as "equal protection"
+
+      wealth defense as "equal protection"'
   - pattern: layered_redundancy_of_control
     variant: null
-    note: |-
-      the Powell Memo
+    note: 'the Powell Memo
+
       demonstrates layered redundancy as a *deliberate strategy* — targeting universities,
-      media, courts, and legislature simultaneously by design
+
+      media, courts, and legislature simultaneously by design'
   - pattern: dispossession_cycle
     variant: null
-    note: |-
-      the corporate rights
+    note: 'the corporate rights
+
       escalation follows the same ratcheting normalization in the legal domain — each
+
       extension of corporate constitutional protections becomes the baseline for the next,
+
       from corporate personhood to commercial speech to political speech to religious
-      freedom
+
+      freedom'
   - pattern: institutional_abdication
     variant: null
-    note: |-
-      courts and
+    note: 'courts and
+
       regulatory agencies progressively abandoned their counterforce roles — not through
+
       sudden collapse but through incremental doctrinal shifts (corporate rights
+
       escalation) and deliberate funding cuts; the Powell Memo campaign targeted judicial
-      selection to produce this abdication through...
+
+      selection to produce this abdication through...'
   - pattern: peacetime_ratchet
     variant: null
-    note: |-
-      the American cyclical
+    note: 'the American cyclical
+
       history — Gilded Age → Progressive Era → New Deal → neoliberal era — is a
-      periodized instantiation; each post-compression period erodes within decades
+
+      periodized instantiation; each post-compression period erodes within decades'
   - pattern: democracy_oligarchy_coexistence
     variant: null
-    note: |-
-      the American cyclical
+    note: 'the American cyclical
+
       history shows democracy and oligarchy as recurring structural opponents, but
-      Hartmann's analysis implies they have been coexisting continuously — the "cycles"
-      are shifts in the balance, not alternations between pure types
+
+      Hartmann''s analysis implies they have been coexisting continuously — the "cycles"
+
+      are shifts in the balance, not alternations between pure types'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Legal & Regulatory, Institutional, Economic
+  key_patterns_display: Dispossession Cycle, Institutional Abdication, Peacetime Ratchet, Layered Redundancy
+  source_display: Thom Hartmann, *The Hidden History of American Oligarchy* (2020)
+  position_display: Hybrid (2/4 — citizen/media intermediary)
 - id: graeber-debt-the-first-5000-years
   file: principles/graeber-debt-the-first-5000-years.md
   source_name: David Graeber
@@ -720,59 +848,81 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      the barter myth — the economic
+    note: 'the barter myth — the economic
+
       origin story claims to describe how money naturally emerged while functioning to
+
       naturalize market relations and conceal the role of violence and state power in
-      creating monetary systems
+
+      creating monetary systems'
   - pattern: manufactured_scarcity_as_control
     variant: null
-    note: |-
-      adds a debt-based
+    note: 'adds a debt-based
+
       variant — debt-dependent economies manufacture scarcity structurally; when most
+
       of the population must work to service debts, their labor is channeled into debt
+
       service rather than autonomous production. Scarcity is produced not by restricting
-      supply but by capturing future labo...
+
+      supply but by capturing future labo...'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      the moral language of debt
+    note: 'the moral language of debt
+
       creates an appearance — the debtor has a moral obligation — that conceals the
+
       structural reality — the creditor has power; the moral framework IS the terrain
-      the debt relationship operates on
+
+      the debt relationship operates on'
   - pattern: constitutive_violence
     variant: null
-    note: |-
-      the violence-money-debt
+    note: 'the violence-money-debt
+
       nexus — coined money was created by and for military states; monetary systems
+
       are constituted through violence; the contemporary separation of money from
-      violence is historically anomalous and structurally fragile
+
+      violence is historically anomalous and structurally fragile'
   - pattern: peacetime_ratchet
     variant: null
-    note: |-
-      debt accumulation during
+    note: 'debt accumulation during
+
       stability is a specific mechanism of the ratchet — interest compounds, debts grow,
+
       without counterforce the endpoint is universal debt bondage; historical societies
-      recognized this and created jubilee mechanisms to reset
+
+      recognized this and created jubilee mechanisms to reset'
   - pattern: compression_through_destruction
     variant: null
-    note: |-
-      provides significant
+    note: 'provides significant
+
       counter-evidence to the *exclusivity* of catastrophic compression. The Mesopotamian/
+
       biblical debt jubilee tradition demonstrates that non-catastrophic structural
+
       counterforces to concentration existed and functioned for millennia. Combined with
-      Hartmann's Progressive Era/New...
+
+      Hartmann''s Progressive Era/New...'
   - pattern: moral_infrastructure_of_economic_power
     variant: null
-    note: |-
-      the moral
-      language of debt — "one must pay one's debts" — across 5,000 years of civilization;
-      Mesopotamian debt bondage justified by moral obligation; the IMF's structural
+    note: 'the moral
+
+      language of debt — "one must pay one''s debts" — across 5,000 years of civilization;
+
+      Mesopotamian debt bondage justified by moral obligation; the IMF''s structural
+
       adjustment programs imposed under the moral imperative that sovereign debts must be
-      honored regardless of how they were incur...
+
+      honored regardless of how they were incur...'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Economic (primary), Thought & Narrative, Physical & Coercive
+  key_patterns_display: Inversion of Stated Purpose, Moral Infrastructure of Economic Power, Constitutive Violence, Appearance
+    as Structural Terrain
+  source_display: 'David Graeber, *Debt: The First 5,000 Years* (2011)'
+  position_display: Hybrid (5/activist)
 - id: powell-memo
   file: principles/powell-memo.md
   source_name: Lewis F. Powell Jr.
@@ -796,37 +946,53 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      the memo states defense against attack, proposes
+    note: 'the memo states defense against attack, proposes
+
       coordinated offensive to expand corporate institutional power — primary-source
-      evidence of the inversion, documented by its own author
+
+      evidence of the inversion, documented by its own author'
   - pattern: layered_redundancy_of_control
     variant: null
-    note: |-
-      primary-source evidence — the memo explicitly argues
+    note: 'primary-source evidence — the memo explicitly argues
+
       that each institutional front must reinforce the others and that no single front is
+
       sufficient without the others; written by a Position 1 (ruler) actor explaining why
-      layers must be coordinated simultaneously
+
+      layers must be coordinated simultaneously'
   - pattern: wealth_defense_industry
     variant: null
-    note: |-
-      the documented strategic origin — Powell's proposal
+    note: 'the documented strategic origin — Powell''s proposal
+
       for permanent institutional infrastructure (think tanks, legal organizations,
+
       endowed chairs) that would generate favorable research, litigation, and narrative
+
       autonomously for decades; the subsequent construction of the Heritage Foundation,
-      Cat...
+
+      Cat...'
   - pattern: capture_pipeline
     variant: null
-    note: |-
-      the strategic blueprint — Powell proposed the
-      pipeline's construction: multi-front institutional campaign, courts as priority target,
+    note: 'the strategic blueprint — Powell proposed the
+
+      pipeline''s construction: multi-front institutional campaign, courts as priority target,
+
       permanent infrastructure investment; the subsequent construction of the Federalist
+
       Society, Heritage Foundation, and legal organizations followed this design),
-      ana...
+
+      ana...'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced:
   - institutional-capture-playbook
+  layers_text: All non-Physical
+  key_patterns_display: Inversion of Stated Purpose, Layered Redundancy (primary-source evidence for deliberate design), Wealth
+    Defense Industry (documented origin)
+  source_display: Lewis F. Powell Jr., confidential memorandum (1971)
+  position_display: 1 (ruler — corporate lawyer, future Supreme Court Justice)
+  instruments_produced_display:
+  - instruments/institutional-capture-playbook.md (co-derived with Whitehouse, Ziklag, Project 2025, Variety/Ellison, Guriev-Rachinsky)
 - id: whitehouse-the-scheme
   file: principles/whitehouse-the-scheme.md
   source_name: Senator Sheldon Whitehouse
@@ -849,60 +1015,82 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      the judicial selection process states
+    note: 'the judicial selection process states
+
       presidential judgment, functions as a Federalist Society pipeline; amicus briefs
+
       state public input, function as orchestrated coordination between dark money
-      organizations and sympathetic justices
+
+      organizations and sympathetic justices'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      the formal judicial process —
+    note: 'the formal judicial process —
+
       presidential nomination, Senate confirmation, organic case-or-controversy
+
       requirement, public amicus input — IS the appearance that judicial capture operates
+
       through; the capture does not bypass these processes but uses them as structural
-      terrain
+
+      terrain'
   - pattern: dispossession_cycle
     variant: null
-    note: |-
-      case manufacturing produces ratcheting
+    note: 'case manufacturing produces ratcheting
+
       judicial precedents — each manufactured ruling creates the legal baseline for the
+
       next expansion; Janus v. AFSCME illustrates the cycle: a manufactured case overturns
-      mandatory union fees, establishing a new baseline that weakens labor's capacity to
-      resist t...
+
+      mandatory union fees, establishing a new baseline that weakens labor''s capacity to
+
+      resist t...'
   - pattern: division_of_learning
     variant: null
-    note: |-
-      the dark money pipeline — Donors Trust,
+    note: 'the dark money pipeline — Donors Trust,
+
       Donors Capital Fund, and cascading intermediary organizations — is architectural
+
       opacity: deliberately designed to sever traceable connections between donors and
+
       outcomes through multiple anonymous transfer layers enabled by 501(c)(3)/(c)(4)
-      legal structures
+
+      legal structures'
   - pattern: wealth_defense_industry
     variant: null
-    note: |-
-      the dark money pipeline — Donors Trust,
+    note: 'the dark money pipeline — Donors Trust,
+
       Donors Capital Fund, and operational organizations — is the judicial branch of the
+
       wealth defense industry; it provides the funding infrastructure for judicial
-      selection, confirmation campaigns, amicus coordination, and case manufacturing
+
+      selection, confirmation campaigns, amicus coordination, and case manufacturing'
   - pattern: democracy_oligarchy_coexistence
     variant: null
-    note: |-
-      the formal judicial process
+    note: 'the formal judicial process
+
       operates — nominations, confirmations, organic cases, public amicus briefs — while
+
       the substantive selection, signaling, and case manufacturing is controlled by dark
-      money; the judicial domain demonstrates the coexistence at the institutional level
+
+      money; the judicial domain demonstrates the coexistence at the institutional level'
   - pattern: capture_pipeline
     variant: null
-    note: |-
-      the complete
+    note: 'the complete
+
       five-part apparatus for judicial capture: the Federalist Society selection pipeline,
+
       dark money-funded confirmation campaigns, coordinated amicus brief filings, case
+
       manufacturing through shell organizations, and speaking engagement/travel rewards
-      for compliant justices
+
+      for compliant justices'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Legal & Regulatory, Institutional, Economic, Surveillance & Information
+  key_patterns_display: Capture Pipeline, Division of Learning, Inversion of Stated Purpose, Appearance as Structural Terrain
+  source_display: Senator Sheldon Whitehouse, *The Scheme* (2022)
+  position_display: 4 (intermediary — sitting Senator on Judiciary Committee)
 - id: cobb-most-southern-place-on-earth
   file: principles/cobb-most-southern-place-on-earth.md
   source_name: James C. Cobb
@@ -929,109 +1117,151 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      New Deal programs stated as
+    note: 'New Deal programs stated as
+
       redistribution for the poorest, captured by planters and functioning as
+
       reinforcement of existing concentration — AAA payments enriching landowners while
-      displacing tenants
+
+      displacing tenants'
   - pattern: middle_stratum_trap
     variant: null
-    note: |-
-      poor whites in the Mississippi
+    note: 'poor whites in the Mississippi
+
       Delta as middle stratum — given a "racial wage" of status superiority over Black
+
       people that substituted for material benefit and prevented cross-racial class
+
       solidarity; recruited as *enforcers* of the racial order through delegated violence,
-      making them complicit ...
+
+      making them complicit ...'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      "the Southern way of life" as
+    note: '"the Southern way of life" as
+
       the mythological appearance — a narrative of genteel civilization, reciprocal
+
       obligation, and cultural tradition that concealed a system of racialized extraction;
-      the mythology was the structural terrain the planter class operated on
+
+      the mythology was the structural terrain the planter class operated on'
   - pattern: hidden_transcript
     variant: null
-    note: |-
-      the Mississippi Delta
+    note: 'the Mississippi Delta
+
       blues tradition as vernacular counter-knowledge — encoding mechanisms of
+
       control (debt, displacement, police violence, sexual exploitation) in musical
+
       form that was audible to the Black community and partially opaque to the white
-      power structure; different medium (music vs. ...
+
+      power structure; different medium (music vs. ...'
   - pattern: compliance_gradient
     variant: null
-    note: |-
-      the Delta compliance
+    note: 'the Delta compliance
+
       gradient spans the full spectrum — from accommodation and public deference,
+
       through everyday resistance (foot-dragging, work slowdowns, crop theft,
+
       sabotage), to cultural counter-knowledge (blues), to geographic escape
-      (the Great Migration), to organized protest (civil rights...
+
+      (the Great Migration), to organized protest (civil rights...'
   - pattern: ideological_judo
     variant: null
-    note: |-
-      the civil rights movement
+    note: 'the civil rights movement
+
       in the Delta and nationally held America to its own stated democratic values —
+
       using the Constitution, the Declaration of Independence, and the rhetoric of
+
       freedom and equality against the system the Constitution accommodated; the
-      critique operated entirely within the do...
+
+      critique operated entirely within the do...'
   - pattern: double_performance
     variant: null
-    note: |-
-      racial deference in
+    note: 'racial deference in
+
       the Delta as jointly maintained public transcript — Black residents performed
+
       compliance and gratitude, planters performed paternalism and benevolence, both
+
       knew the performance was strategic; the blues (P5) documented the gap between
-      public transcript and private knowledge; t...
+
+      public transcript and private knowledge; t...'
   - pattern: relay_class
     variant: null
-    note: |-
-      poor whites in the Delta
+    note: 'poor whites in the Delta
+
       as an unwitting relay class — mediating the planter-Black labor relationship
-      through racial enforcement; the mechanism differs from Fanon's national
+
+      through racial enforcement; the mechanism differs from Fanon''s national
+
       bourgeoisie in that the relay function is compensated with *status* rather
-      than material benefit, and the relay class does ...
+
+      than material benefit, and the relay class does ...'
   - pattern: constitutive_violence
     variant: null
-    note: |-
-      slavery as constitutive
+    note: 'slavery as constitutive
+
       violence converted into property, law, and custom; the ongoing coercive
+
       infrastructure — lynching, police violence, structural threat — maintained
+
       the original violent distribution as operational infrastructure long after the
-      founding act receded into history; adds the *ma...
+
+      founding act receded into history; adds the *ma...'
   - pattern: institutional_abdication
     variant: null
-    note: |-
-      federal agencies — USDA, WPA,
+    note: 'federal agencies — USDA, WPA,
+
       and others — abdicated their redistributive function under local political pressure
+
       because their implementation depended on planter-controlled local institutions;
+
       the agencies cooperated with planter interests not through corruption but through
-      structural dependency...
+
+      structural dependency...'
   - pattern: peacetime_ratchet
     variant: null
-    note: |-
-      the post-Civil War and post-
+    note: 'the post-Civil War and post-
+
       civil rights reconcentration in the Delta both follow the ratchet — each period of
+
       imposed equality is followed by reconcentration through undisrupted layers; the
+
       Delta adds a specific observation: the ratchet operates not just through economic
-      mechanisms but through ...
+
+      mechanisms but through ...'
   - pattern: moral_infrastructure_of_economic_power
     variant: null
-    note: |-
-      sharecropper debt framed as
+    note: 'sharecropper debt framed as
+
       moral obligation — the tenant who "owed" the planter was morally enlisted into
+
       compliance with an extractive relationship; the crop lien system created perpetual
+
       indebtedness justified by the moral language of obligation and honor, reproducing
-      the extraction relationsh...
+
+      the extraction relationsh...'
   - pattern: formal_transformation_structural_continuity
     variant: null
-    note: |-
-      the Mississippi
-      Delta's planter elite surviving five major regime changes — abolition, Reconstruction,
+    note: 'the Mississippi
+
+      Delta''s planter elite surviving five major regime changes — abolition, Reconstruction,
+
       populism, the New Deal, civil rights — over 150 years; the same families controlling
+
       Delta land before and after each "revolution"; at each transition, control migrated
-      from disrupted layers to ...
+
+      from disrupted layers to ...'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: All six
+  key_patterns_display: Formal Transformation/Structural Continuity (new), Hidden Transcript (PRELIMINARY → SUPPORTED), Moral
+    Infrastructure (PRELIMINARY → SUPPORTED)
+  source_display: James C. Cobb, *The Most Southern Place on Earth* (1992)
+  position_display: 5 (historian)
 - id: stanley-how-propaganda-works
   file: principles/stanley-how-propaganda-works.md
   source_name: Jason Stanley
@@ -1054,32 +1284,40 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      undermining propaganda — the
+    note: 'undermining propaganda — the
+
       philosophical mechanism: ideals invoked sincerely to destroy the conditions those
+
       ideals require; "free speech" invoked to defend Citizens United, "equal opportunity"
-      invoked to block affirmative action
+
+      invoked to block affirmative action'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      flawed ideology as epistemic closure
+    note: 'flawed ideology as epistemic closure
+
       — the cognitive condition that makes appearance credible; the population cannot
-      perceive the gap because the ideology prevents recognition of the evidence
+
+      perceive the gap because the ideology prevents recognition of the evidence'
   - pattern: ideological_judo
     variant: null
-    note: |-
-      Stanley provides the *inverse*
+    note: 'Stanley provides the *inverse*
+
       mechanism — where Scott and Cobb describe the subordinate using dominant ideology
+
       against the dominant, Stanley describes the dominant using dominant ideology to
+
       reinforce dominance; "free speech" and "equal opportunity" deployed to protect the
-      structures they nomin...
+
+      structures they nomin...'
   - pattern: division_of_learning
     variant: null
-    note: |-
-      material inequality produces epistemic
+    note: 'material inequality produces epistemic
+
       inequality — the wealthy fund the conceptual infrastructure that defines what counts
+
       as reasonable discourse, shaping the epistemic environment through research funding,
-      media control, and term-setting
+
+      media control, and term-setting'
   ic1_flags:
   - axiom: 3
     note: epistemic closure mechanism
@@ -1088,6 +1326,13 @@ entries:
   instruments_proposed: []
   instruments_produced:
   - propaganda-typology
+  layers_text: Thought & Narrative (primary), Economic, Institutional
+  key_patterns_display: Inversion of Stated Purpose, Appearance as Structural Terrain, Division of Learning, Ideological Judo
+    (inverse)
+  source_display: Jason Stanley, *How Propaganda Works* (2015)
+  position_display: 5 (philosopher)
+  instruments_produced_display:
+  - 'instruments/propaganda-typology.md (co-derived with Ellul — Stanley provides Axis 5: undermining/supporting)'
 - id: hooks-aint-i-a-woman
   file: principles/hooks-aint-i-a-woman.md
   source_name: bell hooks
@@ -1115,13 +1360,21 @@ entries:
   key_patterns:
   - pattern: categorical_blindness
     variant: null
-    note: |-
-      Black women invisible to both
+    note: 'Black women invisible to both
+
       feminism and Black liberation movements because each uses its most privileged member
-      as the default subject
+
+      as the default subject'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: All six (Thought & Narrative and Economic primary)
+  key_patterns_display: Middle Stratum Trap (extended to intersectional axis), Relay Class (extended to categorical relay),
+    Inversion of Stated Purpose, Appearance as Structural Terrain, Moral Infrastructure of Economic Power
+  new_pattern_candidates:
+  - Categorical Blindness (PRELIMINARY)
+  source_display: 'bell hooks, *Ain''t I a Woman?: Black Women and Feminism* (1981)'
+  position_display: Hybrid (3/5 — Black feminist intellectual writing from lived experience and academic analysis)
 - id: arendt-origins-of-totalitarianism
   file: principles/arendt-origins-of-totalitarianism.md
   source_name: Hannah Arendt
@@ -1150,15 +1403,16 @@ entries:
   key_patterns:
   - pattern: anticipatory_obedience
     variant: null
-    note: |-
-      atomization as the structural
-      prerequisite that makes anticipatory compliance the individually rational response
+    note: 'atomization as the structural
+
+      prerequisite that makes anticipatory compliance the individually rational response'
   - pattern: boomerang
     variant: null
-    note: |-
-      the Boomerang Thesis
+    note: 'the Boomerang Thesis
+
       — techniques of colonial domination returned to Europe; the camps and racial
-      classification systems of imperialism became the raw material for totalitarianism
+
+      classification systems of imperialism became the raw material for totalitarianism'
   ic1_flags:
   - axiom: 9
     note: terror beyond manufactured compliance — destruction of agency
@@ -1166,6 +1420,13 @@ entries:
     note: ideology as closed system captures "understanding"
   instruments_proposed: []
   instruments_produced: []
+  layers_text: All six (Thought & Narrative, Physical & Coercive, Institutional, Legal & Regulatory all primary)
+  key_patterns_display: Appearance as Structural Terrain, Institutional Abdication, Anticipatory Obedience, Peacetime Ratchet,
+    Division of Learning, Constitutive Violence, Structural Demand for Propaganda
+  new_pattern_candidates:
+  - The Boomerang (PRELIMINARY)
+  source_display: Hannah Arendt, *The Origins of Totalitarianism* (1951)
+  position_display: Hybrid (2/5 — stateless refugee turned political theorist)
 - id: mishra-western-model-broken
   file: principles/mishra-western-model-broken.md
   source_name: Pankaj Mishra
@@ -1190,31 +1451,45 @@ entries:
   key_patterns:
   - pattern: manufactured_scarcity_as_control
     variant: null
-    note: |-
-      M2 adds an enabling-condition-
-      consumption variant — the material conditions that enabled the western model's
+    note: 'M2 adds an enabling-condition-
+
+      consumption variant — the material conditions that enabled the western model''s
+
       success (colonial extraction, surplus population export, frontier abundance) were
+
       partly consumed by that success. The model is self-consuming: it works once and
-      removes the conditions fo...
+
+      removes the conditions fo...'
   - pattern: relay_class
     variant: null
-    note: |-
-      M4 adds a legitimation lock-in
+    note: 'M4 adds a legitimation lock-in
+
       mechanism — postcolonial ruling elites derive their legitimacy from the promise
+
       of "catching up" with the west. This founding commitment traps them in the relay
+
       role: they cannot abandon the western development model without destroying the
-      basis of their authority. ...
+
+      basis of their authority. ...'
   - pattern: constitutive_violence
     variant: null
-    note: |-
-      M2 adds a consumptive dimension
+    note: 'M2 adds a consumptive dimension
+
       — the foundational colonial violence not only established the current distribution
+
       but consumed the material conditions that would allow others to follow the same
+
       path. The violence is doubly constitutive: it creates the order AND prevents
-      alternatives by depleting...
+
+      alternatives by depleting...'
   ic1_flags: []
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Thought & Narrative (primary), Economic, Institutional, Physical & Coercive, Legal & Regulatory
+  key_patterns_display: Inversion of Stated Purpose, Constitutive Violence, Manufactured Scarcity, Relay Class, Appearance
+    as Structural Terrain, Temporal Control
+  source_display: Pankaj Mishra, "The western model is broken," *The Guardian* (2014)
+  position_display: Hybrid (2/5 — non-western intellectual writing from within western institutional channels)
 - id: ellul-propaganda
   file: principles/ellul-propaganda.md
   source_name: Jacques Ellul
@@ -1238,31 +1513,38 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      integration propaganda — democratic participation
+    note: 'integration propaganda — democratic participation
+
       presented as freedom, functioning as conformity; the inversion operates at the system
-      level: the act of participating is the mechanism of integration
+
+      level: the act of participating is the mechanism of integration'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      sociological propaganda extends the pattern to
+    note: 'sociological propaganda extends the pattern to
+
       its limit — when the propaganda IS the environment, the gap between appearance and
+
       reality dissolves because there is no external vantage point from which to perceive
-      it; the terrain is total
+
+      it; the terrain is total'
   - pattern: real_time_narrative_saturation
     variant: null
-    note: |-
-      Ellul describes the identical mechanism in 1962:
+    note: 'Ellul describes the identical mechanism in 1962:
+
       the modern individual is bombarded with more information than can be processed, producing
+
       an informed but analytically paralyzed subject; the "education paradox" — the educated
-      consume more information and are therefore more susceptible to informat...
+
+      consume more information and are therefore more susceptible to informat...'
   - pattern: structural_demand_for_propaganda
     variant: null
-    note: |-
-      the propagandee's need — the governed
+    note: 'the propagandee''s need — the governed
+
       actively seek propaganda to cope with the anxiety and complexity of technological society;
+
       the demand side drives the supply side; the intellectual who reads five newspapers is more
-      propagandized than the peasant who reads nothing
+
+      propagandized than the peasant who reads nothing'
   ic1_flags:
   - axiom: 3
     note: fourth mode — absence of vantage point
@@ -1271,6 +1553,13 @@ entries:
   instruments_proposed: []
   instruments_produced:
   - propaganda-typology
+  layers_text: Thought & Narrative (primary), Surveillance & Information, Institutional, Economic
+  key_patterns_display: Inversion of Stated Purpose, Appearance as Structural Terrain, Real-Time Narrative Saturation, Structural
+    Demand for Propaganda (new)
+  source_display: 'Jacques Ellul, *Propaganda: The Formation of Men''s Attitudes* (1962)'
+  position_display: 5 (sociologist/theologian)
+  instruments_produced_display:
+  - instruments/propaganda-typology.md (co-derived with Stanley — Ellul provides Axes 1-4)
 - id: guriev-rachinsky-role-of-oligarchs
   file: principles/guriev-rachinsky-role-of-oligarchs.md
   source_name: Sergei Guriev and Andrei Rachinsky
@@ -1294,52 +1583,70 @@ entries:
   key_patterns:
   - pattern: constitutive_violence
     variant: null
-    note: |-
-      loans-for-shares as founding
+    note: 'loans-for-shares as founding
+
       act — "the government appointed a commercial banker to run an auction... the
+
       auctioneer always awarded the stake to himself for a nominal bid by excluding
-      all outside bidders. The scheme was designed to consolidate the bankers' support
-      for Yeltsin's re-election campai...
+
+      all outside bidders. The scheme was designed to consolidate the bankers'' support
+
+      for Yeltsin''s re-election campai...'
   - pattern: peacetime_ratchet
     variant: null
-    note: |-
-      Putin-era stability as the ratchet
+    note: 'Putin-era stability as the ratchet
+
       operating in a post-transition economy — "ownership concentration in modern Russia...
-      is likely to increase further as Russia's natural monopolies are reformed and
+
+      is likely to increase further as Russia''s natural monopolies are reformed and
+
       privatized"; the selective reform trap ensures the ratchet continues — reforms that
-      would create c...
+
+      would create c...'
   - pattern: wealth_defense_industry
     variant: null
-    note: |-
-      RSPP as the Russian instantiation
-      — oligarchs captured the pre-existing employers' association in 2000, created
+    note: 'RSPP as the Russian instantiation
+
+      — oligarchs captured the pre-existing employers'' association in 2000, created
+
       taskforces that drafted legislation, secured regular presidential meetings, and
+
       provided "advice" to government and parliament on legislative changes; the RSPP
-      functioned as the institu...
+
+      functioned as the institu...'
   - pattern: democracy_oligarchy_coexistence
     variant: null
-    note: |-
-      the most extreme empirical
-      case documented — top 10 families control 60.2% of Russian stock market; Putin's pact
+    note: 'the most extreme empirical
+
+      case documented — top 10 families control 60.2% of Russian stock market; Putin''s pact
+
       explicitly partitions the space: oligarchs stay out of politics, state stays out of
+
       business; RSPP lobbies selectively for reforms that benefit incumbents while blocking
-      competition-en...
+
+      competition-en...'
   - pattern: capture_pipeline
     variant: null
-    note: |-
-      RSPP capture as fifth documented
+    note: 'RSPP capture as fifth documented
+
       domain: oligarchs captured RSPP governance → created taskforces → drafted legislation →
+
       secured regular presidential meetings → provided "advice" on legislative changes.
+
       The pipeline operates through a legitimate business association. Fifth domain: economic
-      policy...
+
+      policy...'
   - pattern: formal_transformation_structural_continuity
     variant: null
-    note: |-
-      Soviet nomenklatura converting de
+    note: 'Soviet nomenklatura converting de
+
       facto control to formal ownership through privatization — "the older oligarchs have
+
       typically come from Soviet-era nomenklatura... they converted their de facto control
+
       into ownership rights." The formal political transformation (Soviet Union → Russian
-      Federation...
+
+      Federation...'
   ic1_flags:
   - axiom: 3
     note: mediated agency — population sees illegitimacy but acts through state
@@ -1347,6 +1654,13 @@ entries:
     note: efficiency-concentration paradox complicates the normative case for counteraction
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Economic (primary), Institutional, Legal & Regulatory, Thought & Narrative, Physical & Coercive
+  key_patterns_display: Democracy-Oligarchy Coexistence, Constitutive Violence, Peacetime Ratchet, Wealth Defense Industry,
+    Capture Pipeline, Appearance as Structural Terrain, Formal Transformation/Structural Continuity, Inversion of Stated Purpose,
+    Middle Stratum Trap
+  source_display: Sergei Guriev and Andrei Rachinsky, "The Role of Oligarchs in Russian Capitalism," *Journal of Economic
+    Perspectives* (2005)
+  position_display: 5 (academic economists with World Bank dataset access, writing from within Russian economics community)
 - id: alley-very-bad-people
   file: principles/alley-very-bad-people.md
   source_name: Patrick Alley
@@ -1372,18 +1686,30 @@ entries:
   key_patterns:
   - pattern: wealth_defense_industry
     variant: null
-    note: |-
-      A1 extends the pattern from domestic
+    note: 'A1 extends the pattern from domestic
+
       wealth defense to transnational kleptocratic enablement. The same professional
+
       class (lawyers, bankers, accountants, trust officers) serves both domestic
+
       oligarchs and foreign kleptocrats. The enabler architecture operates legally —
-      shell companies, nominee di...
+
+      shell companies, nominee di...'
   ic1_flags:
   - axiom: 10
     note: Kimberley Process — naming captured and converted into new appearance of accountability
   instruments_proposed:
   - kleptocratic_infrastructure_detection
   instruments_produced: []
+  layers_text: Economic (primary), Institutional, Legal & Regulatory, Surveillance & Information, Thought & Narrative, Physical
+    & Coercive
+  key_patterns_display: Wealth Defense Industry, Inversion of Stated Purpose, Division of Learning, Appearance as Structural
+    Terrain, Democracy-Oligarchy Coexistence, Manufactured Scarcity
+  source_display: 'Patrick Alley, *Very Bad People: The Inside Story of the Fight Against the World''s Network of Corruption*
+    (2022)'
+  position_display: Hybrid (5/activist — co-founder of Global Witness, investigator turned memoirist)
+  instruments_proposed_display:
+  - Kleptocratic Infrastructure Detection (partial — needs additional sources)
 - id: schimpfossl-oligarch-moralities-of-wealth
   file: principles/schimpfossl-oligarch-moralities-of-wealth.md
   source_name: Elisabeth Schimpfössl
@@ -1409,44 +1735,59 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      philanthropy
+    note: 'philanthropy
+
       states generosity, functions as governance substitution and wealth legitimation —
+
       "the core aim is to eventually supplant state provision of social care by creating a
-      controlled form of 'activism' that is instigated and administered from above."
-      Neoliberal doctrine "outsources crisis...
+
+      controlled form of ''activism'' that is instigated and administered from above."
+
+      Neoliberal doctrine "outsources crisis...'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      the
+    note: 'the
+
       entire paper documents the gap between oligarchic self-presentation —
+
       meritocratic, deserving, philanthropic — and the structural conditions of
+
       wealth acquisition. P1: biological superiority claims are the appearance;
-      privatization windfalls and intelligentsia networks are the reality. P2: So...
+
+      privatization windfalls and intelligentsia networks are the reality. P2: So...'
   - pattern: hidden_transcript
     variant: null
-    note: |-
-      EXTENDS the pattern
-      from the subordinate to the ruler. Schimpfössl documents the RULER's hidden
+    note: 'EXTENDS the pattern
+
+      from the subordinate to the ruler. Schimpfössl documents the RULER''s hidden
+
       transcript: beliefs the powerful hold privately — biological superiority, anti-
+
       democratic preferences, Pinochet admiration — that cannot be expressed publicly
-      without undermining their legitimating na...
+
+      without undermining their legitimating na...'
   - pattern: moral_infrastructure_of_economic_power
     variant: null
-    note: |-
-      the
+    note: 'the
+
       Soviet intelligentsia identity provides the moral vocabulary for the oligarchic
+
       position — "inner strength," "work ethic," "discipline," "culture" — converting
+
       the structural relationship of wealth concentration into a narrative of deserved
-      moral standing. P3: the "good"/"bad" wealth distinct...
+
+      moral standing. P3: the "good"/"bad" wealth distinct...'
   - pattern: formal_transformation_structural_continuity
     variant: null
-    note: |-
-      Soviet
+    note: 'Soviet
+
       intelligentsia → oligarch: the formal system changed from socialism to capitalism,
+
       but social elites maintained continuity through cultural capital conversion. "Almost
+
       all of them emphasize the legacy of their Soviet intelligentsia upbringing."
-      Intelligentsia backgrounds provided "cultural...
+
+      Intelligentsia backgrounds provided "cultural...'
   ic1_flags:
   - axiom: 3
     note: biological naturalization re-naturalizes contingency even when stated openly
@@ -1454,6 +1795,13 @@ entries:
     note: sincerity problem — belief is genuine, not strategic
   instruments_proposed: []
   instruments_produced: []
+  layers_text: Thought & Narrative (primary), Economic, Institutional, Legal & Regulatory
+  key_patterns_display: Appearance as Structural Terrain, Inversion of Stated Purpose, Democracy-Oligarchy Coexistence, Moral
+    Infrastructure of Economic Power, Formal Transformation/Structural Continuity, Double Performance, Hidden Transcript (extended
+    to ruler)
+  source_display: 'Elisabeth Schimpfössl, "Oligarch Moralities of Wealth: The Russian Case," *East European Politics and Societies
+    and Cultures* (2024)'
+  position_display: Hybrid (5/1-data — sociologist, but evidentiary base is 80 interviews with ultra-wealthy Russians)
 - id: project-2025-mandate-for-leadership
   file: principles/project-2025-mandate-for-leadership.md
   source_name: Heritage Foundation
@@ -1482,52 +1830,70 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      enforcement
+    note: 'enforcement
+
       nullification framed as preventing "weaponized" enforcement; power consolidation
+
       framed as "returning power to the American people"; elimination of oversight framed
+
       as "accountability"; the constitutional originalism argument converts institutional
-      seizure into constitutional restorat...
+
+      seizure into constitutional restorat...'
   - pattern: layered_redundancy_of_control
     variant: null
-    note: |-
-      inverse confirmation —
+    note: 'inverse confirmation —
+
       the document identifies and systematically targets each layer of institutional
+
       self-defense: personnel protections, oversight offices, independent legal counsel,
+
       civil rights review, ombudsmen, union rights, inspector-general functions. The
-      inverse is analytically significa...
+
+      inverse is analytically significa...'
   - pattern: appearance_as_structural_terrain
     variant: null
-    note: |-
-      the entire
+    note: 'the entire
+
       document operates in the gap between appearance and reality. The FEC appears
+
       to enforce campaign finance law; enforcement is structurally impossible. The
-      DOJ appears to serve justice; it is directed to serve the President's agenda.
-      Independent agencies appear to remain independent; the...
+
+      DOJ appears to serve justice; it is directed to serve the President''s agenda.
+
+      Independent agencies appear to remain independent; the...'
   - pattern: anticipatory_obedience
     variant: null
-    note: |-
-      the personnel mechanisms
+    note: 'the personnel mechanisms
+
       — Schedule F at-will reclassification, loyalty vetting, union elimination, political
+
       appointee saturation — create the structural conditions for anticipatory obedience.
+
       Career employees who know they can be terminated at will for policy disagreement
-      will self-censor befor...
+
+      will self-censor befor...'
   - pattern: peacetime_ratchet
     variant: null
-    note: |-
-      the asymmetric ratchet:
+    note: 'the asymmetric ratchet:
+
       consolidation mechanisms are concrete, specific, and immediately actionable while
+
       dispersal promises are aspirational and structurally unenforceable. Once Schedule F
+
       reclassifies tens of thousands of positions, restoring protections requires new
-      legislation. Once oversight...
+
+      legislation. Once oversight...'
   - pattern: capture_pipeline
     variant: null
-    note: |-
-      the document IS
+    note: 'the document IS
+
       a capture pipeline specification — the most operationally detailed in the corpus. It
+
       describes every stage: personnel selection (Schedule F reclassification, PPO centralized
+
       vetting, loyalty screening), installation (Day One executive orders, political appointee
-      saturation at ever...
+
+      saturation at ever...'
   ic1_flags:
   - axiom: 3
     note: visibility without recognition — proposals are public but framing prevents recognition as power consolidation
@@ -1536,6 +1902,18 @@ entries:
   instruments_proposed: []
   instruments_produced:
   - institutional-capture-playbook
+  layers_text: All six (Institutional and Legal & Regulatory primary)
+  key_patterns_display: Capture Pipeline, Institutional Abdication, Inversion of Stated Purpose, Appearance as Structural
+    Terrain, Democracy-Oligarchy Coexistence, Anticipatory Obedience, Formal Transformation/Structural Continuity, Peacetime
+    Ratchet, Layered Redundancy (inverse), Ideological Judo (inverse), Division of Learning, Manufactured Scarcity, Temporal
+    Control, Wealth Defense Industry, Compliance Gradient
+  provenance_display: primary_document (see `sources/project-2025.md`)
+  source_display: 'Heritage Foundation, *Mandate for Leadership 2025: The Conservative Promise* (2023)'
+  position_display: 1 (ruler — former/prospective executive-branch officials writing a governing blueprint)
+  instruments_produced_display:
+  - instruments/institutional-capture-playbook.md (co-derived with Powell Memo, Whitehouse, Ziklag, Variety/Ellison, Guriev-Rachinsky)
+  source_type_display: primary_document (see `sources/project-2025.md`)
+  chapters_scanned: Foreword, 1-8, 11, 13-14, 17-18, 22, 24, 27-30 (20 of 30 chapters)
 - id: huxley-brave-new-world
   file: principles/huxley-brave-new-world.md
   source_name: Aldous Huxley
@@ -1594,6 +1972,12 @@ entries:
       or audience
   instruments_proposed: []
   instruments_produced: []
+  layers_text: All six (Thought & Narrative, Economic primary)
+  key_patterns_display: Inversion of Stated Purpose, Layered Redundancy, Manufactured Scarcity (inverted variant), Real-Time
+    Narrative Saturation, Appearance as Structural Terrain
+  source_display: Aldous Huxley, *Brave New World* (1932)
+  position_display: 5 (fiction as analytical model)
+  source_type_display: training_data
 - id: church-committee-cointelpro
   file: principles/church-committee-cointelpro.md
   source_name: Church Committee
@@ -1622,20 +2006,26 @@ entries:
   key_patterns:
   - pattern: inversion_of_stated_purpose
     variant: null
-    note: |-
-      "Counterintelligence program":
+    note: '"Counterintelligence program":
+
       a misnomer for domestic covert action against American citizens. The stated purposes —
+
       "protecting national security" and "preventing violence" — do not explain the
+
       operational record. The Committee identifies the "unexpressed major premise": the Bureau
-      had a role i...
+
+      had a role i...'
   - pattern: layered_redundancy_of_control
     variant: null
-    note: |-
-      COINTELPRO operated propaganda,
+    note: 'COINTELPRO operated propaganda,
+
       infiltration, disruption, economic harassment, legal harassment, and physical threat
+
       simultaneously against the same targets — failure at one technique was caught by
-      others; the Bureau's "no holds were barred" approach was structurally redundant
-      by design
+
+      others; the Bureau''s "no holds were barred" approach was structurally redundant
+
+      by design'
   ic1_flags:
   - axiom: 10
     note: understanding-as-resistance tested — Church Committee naming led to formal termination but structural conditions
@@ -1643,6 +2033,17 @@ entries:
   instruments_proposed:
   - domestic_covert_action_technique_taxonomy
   instruments_produced: []
+  layers_text: All six (Physical & Coercive, Surveillance & Information, Institutional primary)
+  key_patterns_display: Inversion of Stated Purpose, The Boomerang, Institutional Abdication, Appearance as Structural Terrain,
+    Formal Transformation/Structural Continuity, Division of Learning, Layered Redundancy, Perpetual Threat, Anticipatory
+    Obedience, Capture Pipeline
+  provenance_display: primary_document (see `sources/church-committee-cointelpro.md`)
+  source_display: 'Church Committee, *Book III: COINTELPRO — The FBI''s Covert Action Programs Against American Citizens*
+    (1976)'
+  position_display: Hybrid (4/5 — Congressional investigation with subpoena power, systematic documentary analysis)
+  instruments_proposed_display:
+  - Domestic Covert Action Technique Taxonomy (partial — needs post-1971 sources)
+  source_type_display: primary_document (see `sources/church-committee-cointelpro.md`)
 - id: browne-dark-matters
   file: principles/browne-dark-matters.md
   source_name: Simone Browne
@@ -1672,44 +2073,59 @@ entries:
   key_patterns:
   - pattern: hidden_transcript
     variant: null
-    note: |-
-      B5 (dark sousveillance is the
+    note: 'B5 (dark sousveillance is the
+
       operationalized hidden transcript applied to surveillance systems — coded
+
       communication of enslaved communities, counter-knowledge generated by the
+
       surveilled position, performance practices that name what surveillance
-      conceals. Dark sousveillance extends the hidden ...
+
+      conceals. Dark sousveillance extends the hidden ...'
   - pattern: constitutive_violence
     variant: null
-    note: |-
-      adds a surveillance dimension —
+    note: 'adds a surveillance dimension —
+
       the surveillance apparatus was constituted through slavery, not added to it. Branding
+
       was simultaneously an act of violence and an act of identification; the Book of
+
       Negroes was simultaneously a property ledger and a biometric archive. The constitutive
-      violence is ...
+
+      violence is ...'
   - pattern: formal_transformation_structural_continuity
     variant: null
-    note: |-
-      B1, B3 (the entire book organized
+    note: 'B1, B3 (the entire book organized
+
       around this pattern — branding → biometrics, slave patrol → police, pass → passport,
+
       no-sail list → no-fly list, lantern law → racial profiling; each transformation changes
+
       form while the structural function of identifying, documenting, and controlling
-      racialized...
+
+      racialized...'
   - pattern: categorical_blindness
     variant: null
-    note: |-
-      B3, B4 (biometric systems
+    note: 'B3, B4 (biometric systems
+
       designed around single-axis defaults produce technical failure at intersections —
+
       gender-nonconforming bodies processed by gender classifiers, natural Black hairstyles
+
       flagged by body scanners calibrated to straight hair, the HP webcam that could not
-      detect Black faces. ...
+
+      detect Black faces. ...'
   - pattern: boomerang
     variant: null
-    note: |-
-      B1, B3 extend with a domestic
+    note: 'B1, B3 extend with a domestic
+
       variant: surveillance technologies developed for enslaved populations were generalized
+
       to all populations. The slave patrol became the police force. Pass systems became
+
       passports. Branding became biometric identification. The no-sail list became the
-      no-fly list. The ...
+
+      no-fly list. The ...'
   ic1_flags:
   - axiom: 3
     note: 'black luminosity — fifth mode of invisible power: forced visibility of the surveilled'
@@ -1723,3 +2139,14 @@ entries:
   - noble
   - critical_biometric_consciousness_checklist
   instruments_produced: []
+  layers_text: All six (Surveillance & Information, Thought & Narrative, Physical & Coercive primary)
+  key_patterns_display: Constitutive Violence, Formal Transformation/Structural Continuity, The Boomerang, The Division of
+    Learning, Categorical Blindness, The Hidden Transcript, The Compliance Gradient, Appearance as Structural Terrain, Inversion
+    of Stated Purpose
+  source_display: 'Simone Browne, *Dark Matters: On the Surveillance of Blackness* (2015)'
+  position_display: Hybrid (5/2 — surveillance studies scholar writing from Black diasporic intellectual tradition and lived
+    experience of racialized surveillance)
+  instruments_proposed_display:
+  - Racializing Surveillance Detection Protocol (partial — needs Benjamin, Eubanks, Noble), Critical Biometric Consciousness
+    Checklist (partial — needs engineering sources)
+  source_type_display: training_data

@@ -64,9 +64,9 @@
 entries:
 - id: 2026-03-01-guardian-liveblog-us-israel-iran-war
   file: analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md
-  date: "2026-03-01"
-  time: "~15:00 UTC (content snapshot — live blog continues to update)"
-  source_date: "2026-03-01"
+  date: '2026-03-01'
+  time: ~15:00 UTC (content snapshot — live blog continues to update)
+  source_date: '2026-03-01'
   title: US-Israeli war on Iran (Guardian live blog)
   source_name: 'Guardian live blog, "US-Israel war on Iran live: death tolls rise'
   source_type: live_blog
@@ -91,36 +91,41 @@ entries:
   - pattern: inversion_of_stated_purpose
     status: observed
     variant: null
-    note: |-
-      "Operation Epic Fury" as heroic
-      branding for regime change war; CENTCOM's "looking into" civilian harm as
-      accountability language performing deflection
+    note: '"Operation Epic Fury" as heroic
+
+      branding for regime change war; CENTCOM''s "looking into" civilian harm as
+
+      accountability language performing deflection'
   - pattern: perpetual_threat_as_perpetual_justification
     status: observed
     variant: null
-    note: |-
-      Trump's "47 years" framing of
+    note: 'Trump''s "47 years" framing of
+
       Iran as eternal enemy, justifying regime change as inevitable resolution
-      rather than a policy choice
+
+      rather than a policy choice'
   - pattern: real_time_narrative_saturation
     status: observed
     variant: null
-    note: |-
-      Guardian live blog
-      format during opening phase of US-Israeli war on Iran
+    note: 'Guardian live blog
+
+      format during opening phase of US-Israeli war on Iran'
   - pattern: serial_regime_change
     status: observed
     variant: null
-    note: |-
-      Iran 2026, with
-      structural parallels to Iraq 2003, Libya 2011, Afghanistan 2001
+    note: 'Iran 2026, with
+
+      structural parallels to Iraq 2003, Libya 2011, Afghanistan 2001'
   findings_count: 4
   commit: null
+  domain_text: US foreign policy / military
+  layers_text: Physical & Coercive, Thought & Narrative
+  null_case_text: rejected (LOW for operation; MEDIUM for school strike)
 - id: 2026-03-01-meta-policy-meta-three-policies
   file: analyses/2026-03-01-meta-policy-meta-three-policies.md
-  date: "2026-03-01"
-  time: "~18:00 UTC"
-  source_date: "2026-03-01"
+  date: '2026-03-01'
+  time: ~18:00 UTC
+  source_date: '2026-03-01'
   title: Meta's three governing policies (ToS, Privacy, Community Standards)
   source_name: unknown
   source_type: news_article
@@ -148,64 +153,85 @@ entries:
   - pattern: inversion_of_stated_purpose
     status: observed
     variant: null
-    note: |-
-      all three policy documents
+    note: 'all three policy documents
+
       exhibit the pattern: "agreement" that eliminates negotiation, "privacy" policy that
+
       authorizes surveillance, "community standards" that consolidate corporate control,
+
       and "more speech" reframing that reduces accountability infrastructure; the January
-      2025 announcement i...
+
+      2025 announcement i...'
   - pattern: layered_redundancy_of_control
     status: observed
     variant: null
-    note: |-
-      Meta's three policies
+    note: 'Meta''s three policies
+
       operate across all five non-physical layers simultaneously with mutual reinforcement:
+
       Thought & Narrative legitimizes Surveillance, Surveillance enables Economic extraction,
+
       Economic incentives drive Narrative framing, Legal authorizes Surveillance, Institutional
-      scale natur...
+
+      scale natur...'
   - pattern: manufactured_scarcity_as_control
     status: observed
     variant: null
-    note: |-
-      adds a network-effect
-      variant — Meta's dominance creates artificial scarcity of alternatives for social
+    note: 'adds a network-effect
+
+      variant — Meta''s dominance creates artificial scarcity of alternatives for social
+
       communication; network effects mean the value of an alternative platform is near-zero
+
       until it achieves critical mass; the "accept or leave" binary in the Terms of Service
-      depends on this struc...
+
+      depends on this struc...'
   - pattern: appearance_as_structural_terrain
     status: observed
     variant: null
-    note: |-
-      Zuboff's Two Texts precisely
+    note: 'Zuboff''s Two Texts precisely
+
       instantiated: the user interface is the appearance ("personalized experience," "your
+
       privacy matters," "community standards"); the behavioral data extraction is the
+
       reality; the Privacy Policy describes surveillance in the language of empowerment;
-      the gap between pres...
+
+      the gap between pres...'
   - pattern: dispossession_cycle
     status: observed
     variant: null
-    note: |-
-      (each policy update ratchets
+    note: '(each policy update ratchets
+
       extraction outward: the January 2025 Terms of Service extend content licensing to
+
       private messages and AI training with opt-out denial; previously posted content
+
       retroactively subject to new terms; non-users bound through shared links; each cycle
-      provokes brief resist...
+
+      provokes brief resist...'
   - pattern: division_of_learning
     status: observed
     variant: null
-    note: |-
-      the information asymmetry IS
+    note: 'the information asymmetry IS
+
       the business model — Meta knows everything about users (cross-platform, cross-web
+
       pixel on 30% of sites, offline data, AI conversations); users know almost nothing about
+
       how their data is used, how algorithms affect them, or what their behavioral profile
-      contains; the...
+
+      contains; the...'
   findings_count: 6
   commit: null
+  domain_text: Platform governance / surveillance capitalism
+  layers_text: All non-Physical (5 layers)
+  null_case_text: rejected (LOW overall; MEDIUM for generic ToS provisions)
 - id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
   file: analyses/2026-03-01-foxnews-liveblog-us-israel-iran-war.md
-  date: "2026-03-01"
-  time: "~23:00 UTC (content snapshot — last update 2026-03-02 01:46 ET)"
-  source_date: "2026-03-01"
+  date: '2026-03-01'
+  time: ~23:00 UTC (content snapshot — last update 2026-03-02 01:46 ET)
+  source_date: '2026-03-01'
   title: Fox News live blog (US-Israeli war on Iran, Day 2)
   source_name: Fox News Digital live blog, "Israel expands offensive with new wave
   source_type: live_blog
@@ -231,64 +257,85 @@ entries:
   - pattern: inversion_of_stated_purpose
     status: observed
     variant: null
-    note: |-
-      "defensive" UK operations
+    note: '"defensive" UK operations
+
       that are offensive; "self-defense" in a seven-nation joint statement describing a
+
       preemptive attack; "eliminating threats" as framing for regime change; the joint
-      statement condemns Iran's "indiscriminate attacks" while the US/Israel initiated the
-      military operation — th...
+
+      statement condemns Iran''s "indiscriminate attacks" while the US/Israel initiated the
+
+      military operation — th...'
   - pattern: layered_redundancy_of_control
     status: observed
     variant: null
-    note: |-
-      all layers except Legal &
+    note: 'all layers except Legal &
+
       Regulatory operating in coordinated reinforcement: Physical & Coercive narrated through
+
       Thought & Narrative as competent and justified; Institutional voices — CENTCOM, IDF, GCC,
+
       DHS, Congress — all reinforcing the same narrative with no institutional dissent;
-      Surveillanc...
+
+      Surveillanc...'
   - pattern: perpetual_threat_as_perpetual_justification
     status: observed
     variant: null
-    note: |-
-      domestic threat narrative
+    note: 'domestic threat narrative
+
       woven into foreign war coverage — the Austin shooting (Senegalese-born man with Iranian
+
       flag imagery), former DHS chief warning of "sleeper cells" and "lone actors sympathetic
+
       to Tehran," Capitol security enhancement, all placed inside the Iran war live blog
-      despite no e...
+
+      despite no e...'
   - pattern: appearance_as_structural_terrain
     status: observed
     variant: null
-    note: |-
-      the seven-nation joint
-      statement condemning Iran's "indiscriminate attacks" constructs an appearance of
+    note: 'the seven-nation joint
+
+      statement condemning Iran''s "indiscriminate attacks" constructs an appearance of
+
       multilateral consensus for what is structurally a US-Israeli offensive — seven nations
+
       condemning the attacked party frames the coalition as defending against aggression;
-      the appearance of broa...
+
+      the appearance of broa...'
   - pattern: real_time_narrative_saturation
     status: observed
     variant: null
-    note: |-
-      VARIANT — selective
+    note: 'VARIANT — selective
+
       construction rather than comprehensive saturation. Fox operates through the inverse
+
       mechanism: rather than reporting all facts and preventing synthesis, Fox selects facts
+
       that compose a coherent narrative and omits those that would disrupt it. The analytical
-      outcome is the sam...
+
+      outcome is the sam...'
   - pattern: serial_regime_change
     status: observed
     variant: null
-    note: |-
-      Fox's own senior
+    note: 'Fox''s own senior
+
       correspondent notes structural parallels to previous operations without drawing the
+
       structural conclusion — the pattern is visible even from within the supportive editorial
+
       framework; the coverage follows the identical template: threat narrative → coalition →
-      aerial bombardment →...
+
+      aerial bombardment →...'
   findings_count: 6
   commit: null
+  domain_text: US foreign policy / military / media
+  layers_text: Physical & Coercive, Thought & Narrative
+  null_case_text: rejected (LOW for school omission and architecture; MEDIUM for individual content choices)
 - id: 2026-01-20-whitehouse-pressrelease-365-wins
   file: analyses/2026-01-20-whitehouse-pressrelease-365-wins.md
-  date: "2026-03-02"
+  date: '2026-03-02'
   time: null
-  source_date: "2026-03-02"
+  source_date: '2026-03-02'
   title: White House "365 Wins in 365 Days" anniversary press release
   source_name: unknown
   source_type: news_article
@@ -333,11 +380,14 @@ entries:
     note: ''
   findings_count: 5
   commit: null
+  domain_text: Domestic policy / government self-assessment
+  layers_text: Thought & Narrative, Physical & Coercive, Economic, Institutional
+  null_case_text: plausible (MEDIUM — genre is conventional; specific choices analytically significant)
 - id: 2026-03-02-reuters-wirestory-israel-lebanon-hezbollah
   file: analyses/2026-03-02-reuters-wirestory-israel-lebanon-hezbollah.md
-  date: "2026-03-02"
+  date: '2026-03-02'
   time: null
-  source_date: "2026-03-02"
+  source_date: '2026-03-02'
   title: 'Reuters wire: Israel strikes Lebanon, widening Iran conflict (+ Al Jazeera comparative)'
   source_name: unknown
   source_type: news_article
@@ -387,11 +437,14 @@ entries:
     note: ''
   findings_count: 6
   commit: null
+  domain_text: US foreign policy / military / media
+  layers_text: Physical & Coercive, Thought & Narrative, Economic
+  null_case_text: rejected (MEDIUM-LOW — conventions real but absences patterned)
 - id: 2026-03-02-guardian-article-doe-charlie-kirk-banner
   file: analyses/2026-03-02-guardian-article-doe-charlie-kirk-banner.md
-  date: "2026-03-02"
-  time: "~14:00 UTC (article publication)"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~14:00 UTC (article publication)
+  source_date: '2026-03-02'
   title: DoE hangs Charlie Kirk banner alongside Beecher and Washington
   source_name: The Guardian, "US Department of Education hangs Charlie Kirk
   source_type: news_article
@@ -432,11 +485,14 @@ entries:
     note: ''
   findings_count: 4
   commit: null
+  domain_text: Domestic policy / institutional capture / education
+  layers_text: Thought & Narrative, Institutional
+  null_case_text: rejected (LOW — pairing and framing too deliberate; MEDIUM for coordination level)
 - id: 2026-03-02-guardian-liveblog-iran-war-powers-domestic
   file: analyses/2026-03-02-guardian-liveblog-iran-war-powers-domestic.md
-  date: "2026-03-02"
-  time: "~20:00 UTC (content snapshot — live blog continues to update)"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~20:00 UTC (content snapshot — live blog continues to update)
+  source_date: '2026-03-02'
   title: 'US-Israeli war on Iran: domestic political response (Day 3 Guardian live blog)'
   source_name: Guardian live blog, "Rubio says US 'preemptively' attacked Iran
   source_type: live_blog
@@ -487,11 +543,14 @@ entries:
     note: ''
   findings_count: 6
   commit: null
+  domain_text: US foreign policy / military / domestic politics / civil liberties
+  layers_text: Thought & Narrative, Institutional, Legal & Regulatory, Physical & Coercive
+  null_case_text: rejected (LOW for strategic operation and student deportations; MEDIUM for tactical preemptive decision)
 - id: 2026-03-02-bbc-article-oil-gas-prices-iran-war
   file: analyses/2026-03-02-bbc-article-oil-gas-prices-iran-war.md
-  date: "2026-03-02"
-  time: "~18:00 UTC (article reflects Monday trading close)"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~18:00 UTC (article reflects Monday trading close)
+  source_date: '2026-03-02'
   title: Oil and gas prices jump as Iran conflict escalates (BBC)
   source_name: BBC News, "Oil and gas prices jump and shares fall as conflict
   source_type: news_article
@@ -527,11 +586,14 @@ entries:
     note: ''
   findings_count: 3
   commit: null
+  domain_text: Economics / energy / global markets
+  layers_text: Economic (primary), Physical & Coercive, Institutional
+  null_case_text: plausible (MEDIUM — market responses are mechanical; structural beneficiary pattern warrants scrutiny)
 - id: 2026-03-02-wikipedia-article-operation-metro-surge
   file: analyses/2026-03-02-wikipedia-article-operation-metro-surge.md
-  date: "2026-03-02"
-  time: "~22:00 UTC (analysis of Wikipedia article as of this date)"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~22:00 UTC (analysis of Wikipedia article as of this date)
+  source_date: '2026-03-02'
   title: Operation Metro Surge (Wikipedia + 10 source links)
   source_name: Wikipedia, "Operation Metro Surge"
   source_type: news_article
@@ -559,18 +621,23 @@ entries:
   - pattern: boomerang
     status: observed
     variant: null
-    note: |-
-      warrantless home entry,
+    note: 'warrantless home entry,
+
       drones, overwhelming force, denial of access — methods documented in foreign military
+
       operations applied domestically in Minneapolis; participants explicitly cited the
-      pattern; Trump compared the operation to the Venezuela intervention
+
+      pattern; Trump compared the operation to the Venezuela intervention'
   findings_count: 1
   commit: null
+  domain_text: Domestic policy / immigration / civil liberties / federal-state relations
+  layers_text: All six (all primary — first analysis where every layer is documented as primary)
+  null_case_text: rejected (LOW for operation overall and killings; MEDIUM for economic damage as unintended)
 - id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
   file: analyses/2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md
-  date: "2026-03-02"
-  time: "~22:00 UTC"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~22:00 UTC
+  source_date: '2026-03-02'
   title: 'Inside Ziklag: secret Christian nationalist donor network (ProPublica)'
   source_name: ProPublica and Documented, "Inside Ziklag, the Secret Organization
   source_type: investigation
@@ -633,11 +700,16 @@ entries:
     note: ''
   findings_count: 9
   commit: null
+  domain_text: Institutional capture / election interference / religion-state / dark money
+  layers_text: Five primary (Thought & Narrative, Economic, Legal & Regulatory, Institutional, Surveillance & Information),
+    Physical & Coercive active but absent
+  null_case_text: rejected (LOW for overall operation; MEDIUM for individual components — sincerity genuine but structure
+    is electoral)
 - id: 2026-03-02-datasociety-policybrief-big-ai-state
   file: analyses/2026-03-02-datasociety-policybrief-big-ai-state.md
-  date: "2026-03-02"
-  time: "~21:00 UTC"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~21:00 UTC
+  source_date: '2026-03-02'
   title: '"The Big AI State": Trump admin AI industrial policy (Data & Society)'
   source_name: 'Brian J. Chen, "The Big AI State: How the Trump Administration Is Shaping US Industrial Policy Toward ''Global
     Technological Dominance''," Data & Society Research Institute, January 2026'
@@ -709,11 +781,15 @@ entries:
     note: ''
   findings_count: 11
   commit: null
+  domain_text: Technology policy / industrial policy / state-corporate relations / geopolitics
+  layers_text: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Physical &
+    Coercive, Surveillance & Information
+  null_case_text: plausible (MEDIUM — national security argument genuine; governance gap not explained by it)
 - id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
   file: analyses/2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees.md
-  date: "2026-03-02"
-  time: "~22:00 UTC"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~22:00 UTC
+  source_date: '2026-03-02'
   title: 'Russia''s ghost detainees: Viktoriia Roshchyna investigation (Forbidden Stories)'
   source_name: 'Forbidden Stories, "Russia''s ''Ghost Detainees'': The Investigation'
   source_type: investigation
@@ -772,11 +848,14 @@ entries:
     note: ''
   findings_count: 8
   commit: null
+  domain_text: Press freedom / extrajudicial detention / military occupation / war crimes
+  layers_text: Physical & Coercive (primary), Surveillance & Information (primary), Thought & Narrative, Institutional
+  null_case_text: rejected (LOW for system; MEDIUM for specific death circumstances)
 - id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
   file: analyses/2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md
-  date: "2026-03-02"
-  time: "~23:00 UTC"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~23:00 UTC
+  source_date: '2026-03-02'
   title: West Bank settler violence and settlement expansion (Forbidden Stories/Gaza Project)
   source_name: 'Forbidden Stories (Gaza Project), "If I see you, I will kill you:'
   source_type: investigation
@@ -833,11 +912,14 @@ entries:
     note: ''
   findings_count: 7
   commit: null
+  domain_text: Military occupation / settlement / press freedom / international commerce
+  layers_text: All six (Physical & Coercive, Economic, Legal & Regulatory primary)
+  null_case_text: rejected (LOW for eviction-expansion pipeline; MEDIUM for individual journalist incidents)
 - id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
   file: analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md
-  date: "2026-03-02"
-  time: "~23:30 UTC"
-  source_date: "2026-03-02"
+  date: '2026-03-02'
+  time: ~23:30 UTC
+  source_date: '2026-03-02'
   title: 'PRISONBREAK: AI-enabled influence operation against Iran (Citizen Lab)'
   source_name: The Citizen Lab (University of Toronto), "We Say You Want
   source_type: investigation
@@ -906,11 +988,15 @@ entries:
     note: ''
   findings_count: 10
   commit: null
+  domain_text: Information warfare / AI fabrication / military-intelligence / platform governance
+  layers_text: Thought & Narrative (primary), Surveillance & Information (primary), Physical & Coercive, Institutional, Economic
+  null_case_text: rejected (LOW for coordination and state involvement; MEDIUM for operation's significance given limited
+    engagement)
 - id: 2026-03-01-guardian-article-israel-embracing-militarism-iran
   file: analyses/2026-03-01-guardian-article-israel-embracing-militarism-iran.md
-  date: "2026-03-01"
-  time: "~22:00 UTC (estimated publication)"
-  source_date: "2026-03-01"
+  date: '2026-03-01'
+  time: ~22:00 UTC (estimated publication)
+  source_date: '2026-03-01'
   title: 'Israel embracing militarism: domestic consensus for permanent war (Guardian)'
   source_name: The Guardian
   source_type: news_article
@@ -938,19 +1024,26 @@ entries:
   - pattern: anticipatory_obedience
     status: observed
     variant: null
-    note: |-
-      institutional-
-      political variant: Israeli political opposition — including Netanyahu's "bitter
+    note: 'institutional-
+
+      political variant: Israeli political opposition — including Netanyahu''s "bitter
+
       rivals" — instantly set aside fierce domestic debate about October 7 responsibility
+
       to join the war consensus. Not individual pre-compliance but institutional-political
-      pre-compliance: an entire opposit...
+
+      pre-compliance: an entire opposit...'
   findings_count: 1
   commit: null
+  domain_text: Israeli domestic politics / military-economic feedback / permanent war
+  layers_text: Thought & Narrative (primary), Physical & Coercive (primary), Economic (primary), Institutional, Legal & Regulatory
+  null_case_text: rejected (MEDIUM-LOW — genuine threat at individual level; structural absence of strategic questioning not
+    explained by it)
 - id: 2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering
   file: analyses/2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering.md
-  date: "2026-01-14"
-  time: "~24:00 UTC"
-  source_date: "2026-01-14"
+  date: '2026-01-14'
+  time: ~24:00 UTC
+  source_date: '2026-01-14'
   title: 'Portland Communications: paid Wikipedia editing for governments and billionaires (TBIJ)'
   source_name: The Bureau of Investigative Journalism (TBIJ), "London PR
   source_type: investigation
@@ -978,18 +1071,25 @@ entries:
   - pattern: wealth_defense_industry
     status: observed
     variant: null
-    note: |-
-      extends the pattern to the information layer. Portland Communications operates as
+    note: 'extends the pattern to the information layer. Portland Communications operates as
+
       reputation defence infrastructure at the Thought & Narrative layer — PR firms
-      performing the same structural function as Winters's lawyers and accountants but
-      operating through controlled information platforms (Wiki...
+
+      performing the same structural function as Winters''s lawyers and accountants but
+
+      operating through controlled information platforms (Wiki...'
   findings_count: 1
   commit: null
+  domain_text: Reputation management / information integrity / platform governance / human rights concealment
+  layers_text: Thought & Narrative (primary), Surveillance & Information (primary), Economic (primary), Institutional, Legal
+    & Regulatory
+  null_case_text: rejected (LOW for overall operation and specific edits; MEDIUM for broader framing — Portland is instance
+    of industry practice)
 - id: 2026-02-26-variety-article-paramount-warner-bros-deal
   file: analyses/2026-02-26-variety-article-paramount-warner-bros-deal.md
-  date: "2026-02-26"
-  time: "~18:00 UTC (post-market announcement coverage)"
-  source_date: "2026-02-26"
+  date: '2026-02-26'
+  time: ~18:00 UTC (post-market announcement coverage)
+  source_date: '2026-02-26'
   title: 'Paramount-WBD acquisition: political-media infrastructure consolidation (Variety + supplementary)'
   source_name: unknown
   source_type: news_article
@@ -1041,11 +1141,16 @@ entries:
     note: ''
   findings_count: 6
   commit: null
+  domain_text: Media consolidation / editorial capture / political-regulatory / information environment
+  layers_text: Economic (primary), Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Surveillance
+    & Information
+  null_case_text: plausible at component level (MEDIUM); less plausible at sequence level (MEDIUM-LOW — reinforcement chain
+    across components)
 - id: 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
   file: analyses/2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md
-  date: "2026-03-04"
-  time: "~19:00 UTC"
-  source_date: "2026-03-04"
+  date: '2026-03-04'
+  time: ~19:00 UTC
+  source_date: '2026-03-04'
   title: 'Leaked embassy cable: Israel flagged Hezbollah threat before launching strikes (Guardian)'
   source_name: The Guardian, reporting on a leaked US embassy cable dated 27 February 2026
   source_type: news_article
@@ -1093,11 +1198,15 @@ entries:
     note: ''
   findings_count: 5
   commit: null
+  domain_text: US foreign policy / military / diplomacy / intelligence
+  layers_text: Thought & Narrative, Physical & Coercive, Institutional, Surveillance & Information (Economic and Legal & Regulatory
+    active but absent)
+  null_case_text: plausible for cable in isolation (MEDIUM); less plausible for cable-strike-retaliation-escalation sequence
 - id: 2026-03-04-guardian-article-datacenter-politics-nc-primary
   file: analyses/2026-03-04-guardian-article-datacenter-politics-nc-primary.md
-  date: "2026-03-04"
-  time: "~20:30 UTC"
-  source_date: "2026-03-04"
+  date: '2026-03-04'
+  time: ~20:30 UTC
+  source_date: '2026-03-04'
   title: 'AI industry PAC spending in NC-04 primary: datacenter politics (Guardian)'
   source_name: The Guardian
   source_type: news_article
@@ -1145,6 +1254,9 @@ entries:
     note: ''
   findings_count: 5
   commit: null
+  domain_text: AI industry / campaign finance / datacenter infrastructure / regulatory capture
+  layers_text: All six (Economic, Thought & Narrative, Institutional, Legal & Regulatory primary)
+  null_case_text: plausible at component level (MEDIUM); less plausible at configuration level (MEDIUM-LOW)
 - id: 2013-vasudeva-orgscience-norwegian-swf-responsible-investment
   file: analyses/2013-vasudeva-orgscience-norwegian-swf-responsible-investment.md
   date: '2013'
@@ -1178,19 +1290,26 @@ entries:
   - pattern: appearance_as_structural_terrain
     status: observed
     variant: null
-    note: |-
-      the Norwegian SWF
+    note: 'the Norwegian SWF
+
       presents as an ethical investor; the academic paper studies "responsible investment"
+
       without examining the power embedded in the framing; the appearance is genuine — the
+
       SWF really is an ethical investor — but the genuineness of the appearance is precisely
-      what makes the structu...
+
+      what makes the structu...'
   findings_count: 1
   commit: null
+  domain_text: Sovereign wealth funds / institutional theory / state normative influence / corporate governance
+  layers_text: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory
+  null_case_text: plausible (MEDIUM — genuine values, genuine mechanism, genuine positive outcomes; structural power dimensions
+    invisible in academic framing)
 - id: 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
   file: analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md
-  date: "2026-03-04"
-  time: "~22:25 UTC"
-  source_date: "2026-03-04"
+  date: '2026-03-04'
+  time: ~22:25 UTC
+  source_date: '2026-03-04'
   title: Senate war powers vote on Operation Epic Fury (Fox News)
   source_name: Alex Miller and Morgan Phillips, Fox News
   source_type: news_article
@@ -1219,28 +1338,38 @@ entries:
   - pattern: inversion_of_stated_purpose
     status: observed
     variant: null
-    note: |-
-      the War
+    note: 'the War
+
       Powers Act — designed as a Congressional check on executive war-making — is called
+
       "an unconstitutional shift of authority from the president" by the senators whose
+
       institutional role it protects. The mechanism created to limit executive military action
-      is characterized by the legislature...
+
+      is characterized by the legislature...'
   - pattern: appearance_as_structural_terrain
     status: observed
     variant: null
-    note: |-
-      the
+    note: 'the
+
       Senate vote creates the appearance of Congressional deliberation — floor speeches,
+
       constitutional arguments, a recorded vote — while the substance was predetermined
+
       by a private Republican huddle and administration lobbying. The vote IS the
-      appearance; it is the structural terrain on which co...
+
+      appearance; it is the structural terrain on which co...'
   findings_count: 2
   commit: null
+  domain_text: US foreign policy / military / war powers / institutional abdication
+  layers_text: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative (primary), Physical & Coercive,
+    Surveillance & Information
+  null_case_text: rejected (MEDIUM-LOW — constitutional debate genuine but arguments dismantle the mechanism itself)
 - id: 2026-02-27-cppa-enforcement-playon-sports-privacy
   file: analyses/2026-02-27-cppa-enforcement-playon-sports-privacy.md
-  date: "2026-02-27"
-  time: "~20:00 UTC (order dated February 27, 2026)"
-  source_date: "2026-02-27"
+  date: '2026-02-27'
+  time: ~20:00 UTC (order dated February 27, 2026)
+  source_date: '2026-02-27'
   title: 'CPPA enforcement order against PlayOn Sports: routine privacy regulation (CPPA)'
   source_name: California Privacy Protection Agency, Enforcement Division
   source_type: news_article
@@ -1268,11 +1397,16 @@ entries:
     note: ''
   findings_count: 1
   commit: null
+  domain_text: Privacy regulation / enforcement / youth data / ticketing platforms
+  layers_text: Legal & Regulatory (primary), Surveillance & Information, Economic
+  null_case_text: accepted (HIGH — routine enforcement of compliance failure; power-dynamics explanation does not surpass
+    null case)
+  adversarial_note: selected to test whether framework can produce null-case-accepted result
 - id: 2026-03-04-army-mil-fort-drum-aer-campaign
   file: analyses/2026-03-04-army-mil-fort-drum-aer-campaign.md
-  date: "2026-03-04"
-  time: "~22:50 UTC"
-  source_date: "2026-03-04"
+  date: '2026-03-04'
+  time: ~22:50 UTC
+  source_date: '2026-03-04'
   title: 'Fort Drum AER campaign: routine military charitable giving (army.mil)'
   source_name: Mike Strasser, Fort Drum Garrison Public Affairs
   source_type: news_article
@@ -1295,11 +1429,15 @@ entries:
   patterns_matched: []
   findings_count: 0
   commit: null
+  domain_text: Military community support / charitable giving
+  layers_text: Institutional (primary), Economic
+  null_case_text: accepted (HIGH — routine annual charitable campaign; power-dynamics readings dissolve on examination)
+  adversarial_note: selected to test null-case-accepted result for military institutional material
 - id: 2023-nypd-report-discipline
   file: analyses/2023-nypd-report-discipline.md
-  date: "2026-03-04"
-  time: "~23:30 UTC"
-  source_date: "2026-03-04"
+  date: '2026-03-04'
+  time: ~23:30 UTC
+  source_date: '2026-03-04'
   title: 'NYPD 2023 Discipline Report: institutional self-assessment of police accountability'
   source_name: New York City Police Department
   source_type: report
@@ -1362,11 +1500,16 @@ entries:
     note: ''
   findings_count: 9
   commit: null
+  domain_text: Policing / civilian oversight / institutional discipline / racial equity
+  layers_text: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative (primary), Surveillance & Information,
+    Physical & Coercive
+  null_case_text: rejected (LOW-MEDIUM — component-level explanations genuine; configuration-level consistency not explained
+    by null case)
 - id: 2018-sbca-govminutes-city-council-minutes
   file: analyses/2018-sbca-govminutes-city-council-minutes.md
-  date: "2026-03-05"
-  time: "~19:00 UTC"
-  source_date: "2026-03-05"
+  date: '2026-03-05'
+  time: ~19:00 UTC
+  source_date: '2026-03-05'
   title: 'Santa Barbara City Council minutes: routine municipal governance (2018)'
   source_name: City of Santa Barbara, City Clerk Services
   source_type: government_document
@@ -1391,11 +1534,16 @@ entries:
   patterns_matched: []
   findings_count: 0
   commit: null
+  domain_text: Local government / municipal administration
+  layers_text: Institutional (primary), Legal & Regulatory, Economic
+  null_case_text: accepted (HIGH — routine democratic governance through established procedures; power explanation does not
+    surpass null case)
+  adversarial_note: selected to test null-case-accepted result for routine democratic governance
 - id: 2026-03-05-reuters-wirestory-indian-refiners-russian-oil
   file: analyses/2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md
-  date: "2026-03-05"
-  time: "~10:00 UTC"
-  source_date: "2026-03-05"
+  date: '2026-03-05'
+  time: ~10:00 UTC
+  source_date: '2026-03-05'
   title: Indian refiners buying prompt Russian oil as Iran war hits supplies (Reuters)
   source_name: Reuters, "Indian refiners buying prompt Russian oil as Iran war
   source_type: wire_story
@@ -1425,11 +1573,14 @@ entries:
     note: ''
   findings_count: 1
   commit: null
+  domain_text: Energy trade / sanctions effectiveness / geopolitics / war funding
+  layers_text: Economic (primary), Physical & Coercive, Institutional, Legal & Regulatory
+  null_case_text: plausible (MEDIUM-HIGH — commercial decisions rational; systemic consequence is the analytical finding)
 - id: 2026-03-06-propublica-database-trump-financial-disclosures
   file: analyses/2026-03-06-propublica-database-trump-financial-disclosures.md
-  date: "2026-03-06"
-  time: "~08:00 UTC"
-  source_date: "2026-03-06"
+  date: '2026-03-06'
+  time: ~08:00 UTC
+  source_date: '2026-03-06'
   title: Trump administration financial disclosures database (ProPublica)
   source_name: ProPublica, "Explore Financial Disclosures From President Trump
   source_type: investigation
@@ -1471,11 +1622,16 @@ entries:
     note: ''
   findings_count: 4
   commit: null
+  domain_text: Regulatory capture / ethics enforcement / wealth-in-government / conflicts of interest
+  layers_text: Economic (primary), Institutional (primary), Legal & Regulatory (primary), Surveillance & Information, Thought
+    & Narrative
+  null_case_text: rejected (MEDIUM-LOW — component-level explanations genuine; configurational character not explained by
+    null case)
 - id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
   file: analyses/2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd.md
-  date: "2026-03-05"
-  time: "~12:00 UTC (PDF publication date; analysis conducted 2026-03-06)"
-  source_date: "2026-03-05"
+  date: '2026-03-05'
+  time: ~12:00 UTC (PDF publication date; analysis conducted 2026-03-06)
+  source_date: '2026-03-05'
   title: 'The Oracle Layer: infrastructure position across American government and media (The Drey Dossier)'
   source_name: unknown
   source_type: policy_brief
@@ -1500,6 +1656,8 @@ entries:
   ic5_flag: Analytical instrument (Claude) produced by Anthropic, which is described in the source material
   cross_references:
   - 2026-02-26-variety-article-paramount-warner-bros-deal
+  cross_references_notes:
+    2026-02-26-variety-article-paramount-warner-bros-deal: complementary media dimension analysis
   patterns_matched:
   - pattern: unprecedented_as_sanctuary
     status: observed
@@ -1539,11 +1697,16 @@ entries:
     note: ''
   findings_count: 9
   commit: null
+  domain_text: Infrastructure monopoly / regulatory capture / media consolidation / surveillance / defense
+  layers_text: All non-Physical (Economic, Institutional, Surveillance & Information, Legal & Regulatory, Thought & Narrative
+    — all primary)
+  null_case_text: rejected (MEDIUM at component level; LOW-MEDIUM at configurational level — governance asymmetry, guarantee
+    carve-out, regulatory absence, and circular financial dependency not explained by null case)
 - id: 2026-03-06-dsa-article-thaad-radar-strike-jordan
   file: analyses/2026-03-06-dsa-article-thaad-radar-strike-jordan.md
-  date: "2026-03-06"
-  time: "~19:00 UTC"
-  source_date: "2026-03-06"
+  date: '2026-03-06'
+  time: ~19:00 UTC
+  source_date: '2026-03-06'
   title: Iranian missile strike destroys US THAAD radar in Jordan (Defence Security Asia)
   source_name: Defence Security Asia
   source_type: news_article
@@ -1585,11 +1748,15 @@ entries:
     note: ''
   findings_count: 4
   commit: null
+  domain_text: Military / missile defence / defence economics / forward deployment
+  layers_text: Physical & Coercive (primary), Economic, Thought & Narrative, Institutional, Legal & Regulatory (active but
+    absent)
+  null_case_text: plausible (MEDIUM-HIGH for genre conventions at source level; MEDIUM for structural genre-as-normalisation)
 - id: 2026-03-08-guardian-article-africa-reparative-justice
   file: analyses/2026-03-08-guardian-article-africa-reparative-justice.md
-  date: "2026-03-08"
-  time: "~22:00 UTC"
-  source_date: "2026-03-08"
+  date: '2026-03-08'
+  time: ~22:00 UTC
+  source_date: '2026-03-08'
   title: Africa's campaign for reparative justice (Guardian)
   source_name: The Guardian
   source_type: news_article
@@ -1617,17 +1784,24 @@ entries:
   - pattern: three_phases_of_cultural_resistance
     status: observed
     variant: null
-    note: |-
-      Owuor's
+    note: 'Owuor''s
+
       call for "moral autopsy before moral exorcism" and warning against "unseemly rush"
+
       into restitution — the reparations movement operating in the synthesis phase,
-      creating new frameworks rather than inverting colonial categories
+
+      creating new frameworks rather than inverting colonial categories'
   findings_count: 1
   commit: null
+  domain_text: Postcolonial justice / reparations / international law / cultural politics
+  layers_text: Thought & Narrative (primary), Legal & Regulatory (primary), Economic (primary), Institutional, Surveillance
+    & Information (active but absent)
+  null_case_text: plausible (MEDIUM — partially weakened for legal strategy and Germany's word-avoidance; retained for aspirational
+    elements)
 - id: 2026-02-rand-research-medicaid-obbba-state-impacts
   file: analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md
-  date: "2026-02"
-  time: "~23:30 UTC"
+  date: "2026-03-08"
+  time: ~23:30 UTC
   source_date: "2026-02"
   title: 'OBBBA Medicaid provisions: procedural scarcity and distributive transfer (RAND/CBO)'
   source_name: RAND Corporation (research report RRA4098-1); CBO/JCT (distributional analysis, Publication 61387); supplementary
@@ -1668,19 +1842,26 @@ entries:
   - pattern: peacetime_ratchet
     status: observed
     variant: null
-    note: |-
-      the OBBBA reconciliation
+    note: 'the OBBBA reconciliation
+
       as the ratchet operating through legislative process — $664B removed from Medicaid,
+
       $4.5T in tax cuts ($2.3T to the top 10%), within a single vehicle. The reconciliation
+
       procedure is the institutional mechanism: budget constraints prevent filibuster, enabling
-      directional ...
+
+      directional ...'
   findings_count: 3
   commit: null
+  domain_text: Healthcare policy / fiscal policy / distributive politics / legislative process
+  layers_text: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance
+    & Information
+  null_case_text: plausible (MEDIUM — individual provisions conventional; distributive configuration asymmetric)
 - id: 2026-03-atlantic-essay-cynical-gullible-american-man
   file: analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md
-  date: "2026-03"
-  time: "~00:15 UTC"
-  source_date: "2026-03"
+  date: 2026-03
+  time: ~00:15 UTC
+  source_date: 2026-03
   title: '"The Cynical, Gullible American Man": institutional media''s epistemic crisis diagnosis (The Atlantic)'
   source_name: The Atlantic
   source_type: essay
@@ -1708,28 +1889,38 @@ entries:
   - pattern: dispossession_cycle
     status: inferred
     variant: null
-    note: |-
-      identifies a
+    note: 'identifies a
+
       commercial epistemic variant: distrust of institutions creates demand for alternative
+
       products (supplements, crypto, sports betting) → vendors deepen distrust to sustain
+
       demand → deeper distrust creates further demand. The ratcheting structure is identical
-      to the data-extraction cycl...
+
+      to the data-extraction cycl...'
   - pattern: structural_demand_for_propaganda
     status: observed
     variant: null
-    note: |-
-      the demand side documented
+    note: 'the demand side documented
+
       in real time: "gullicists" actively seek conspiracy narratives for certainty, identity,
-      self-esteem, and "the feeling that consumers can prove they're smarter than those snooty
+
+      self-esteem, and "the feeling that consumers can prove they''re smarter than those snooty
+
       experts." The "One True Reason" syndrome — autism → vaccines, no housing → immigrants — is
-      th...
+
+      th...'
   findings_count: 2
   commit: null
+  domain_text: Epistemic crisis / misinformation / commercial exploitation / institutional media / public health
+  layers_text: Thought & Narrative (primary), Economic (primary), Institutional (primary), Surveillance & Information, Legal
+    & Regulatory (active but absent), Physical & Coercive (active but absent)
+  null_case_text: plausible (MEDIUM — article is good cultural commentary; framework adds structural dimension the genre excludes)
 - id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
   file: analyses/2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md
-  date: "2026-02"
-  time: "~00:45 UTC"
-  source_date: "2026-02"
+  date: 2026-02
+  time: ~00:45 UTC
+  source_date: 2026-02
   title: '"The AI-fication of K Street": lobbying channel of the AI-defence-industrial complex (OpenSecrets)'
   source_name: OpenSecrets
   source_type: investigation
@@ -1788,3 +1979,8 @@ entries:
     note: ''
   findings_count: 7
   commit: null
+  domain_text: AI policy / lobbying / defence procurement / regulatory capture / campaign finance
+  layers_text: Economic (primary), Institutional (primary), Legal & Regulatory (primary), Thought & Narrative, Surveillance
+    & Information, Physical & Coercive (active but absent)
+  null_case_text: plausible (MEDIUM-HIGH at component level; MEDIUM at configuration level when combined with Data & Society
+    and NC-04 analyses)

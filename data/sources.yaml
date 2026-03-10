@@ -16,6 +16,8 @@ entries:
   - https://archive.org/details/2025_MandateForLeadership_FULL
   extraction_status: 10 chapters extracted (institutional reshaping focus), 10 future candidates, 11 not selected
   quote_status: verbatim with page references
+  archive_labels:
+    https://archive.org/details/2025_MandateForLeadership_FULL: Internet Archive
 - id: church-committee-cointelpro
   file: sources/church-committee-cointelpro.md
   source: 'Church Committee, *Book III: COINTELPRO — The FBI''s Covert Action Programs Against American Citizens* (1976)'
@@ -25,3 +27,5 @@ entries:
   - https://www.aarclibrary.org/publib/church/reports/book3/pdf/ChurchB3_3_COINTELPRO.pdf
   extraction_status: Full chapter extracted (Sections I-VI), 7 principles, 10 patterns confirmed
   quote_status: verbatim with page references (OCR quality variable)
+  archive_labels:
+    https://www.aarclibrary.org/publib/church/reports/book3/pdf/ChurchB3_3_COINTELPRO.pdf: AARC Library

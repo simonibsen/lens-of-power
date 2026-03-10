@@ -47,6 +47,7 @@
 # name: string (required) — display name including articles
 # file: string|null (optional) — path to pattern markdown file, null until split
 # layers: list[string] (required) — from config.yaml layers
+# statement: string (required) — one-line pattern statement from patterns/INDEX.md
 # circumventions: list[string] (optional) — circumvention IDs that counteract this
 # originated_by: string|null (optional) — principle ID that first proposed this pattern
 # observed_in: list[object] (COMPUTED) — see subfields below
@@ -65,6 +66,7 @@ entries:
   layers:
   - thought_narrative
   - institutional
+  statement: Systems of control are frequently named for or justified by the opposite of their actual function.
   circumventions:
   - transparency_naming
   originated_by: null
@@ -76,160 +78,197 @@ entries:
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
-    note: |-
-      appearance as the primary operating
-      terrain — the prince must appear virtuous while acting otherwise
+    note: 'appearance as the primary operating
+
+      terrain — the prince must appear virtuous while acting otherwise'
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      national consciousness without
+    note: 'national consciousness without
+
       political education — the national party, created to liberate, becomes an
-      instrument of control
+
+      instrument of control'
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
-    note: |-
-      the Green Revolution's development
+    note: 'the Green Revolution''s development
+
       programs claim to benefit the poor while enriching the already-wealthy — the
-      inversion is visible to the poor, who name it through gossip and moral critique
+
+      inversion is visible to the poor, who name it through gossip and moral critique'
   - source_id: 2026-03-01-guardian-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      "Operation Epic Fury" as heroic
-      branding for regime change war; CENTCOM's "looking into" civilian harm as
-      accountability language performing deflection
+    note: '"Operation Epic Fury" as heroic
+
+      branding for regime change war; CENTCOM''s "looking into" civilian harm as
+
+      accountability language performing deflection'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
-    note: |-
-      Google's "Don't be
-      evil," Facebook's "connecting the world" — stated purpose of user service conceals
+    note: 'Google''s "Don''t be
+
+      evil," Facebook''s "connecting the world" — stated purpose of user service conceals
+
       function of behavioral extraction; inevitabilist ideology frames corporate
-      decisions as technological necessity
+
+      decisions as technological necessity'
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
-    note: |-
-      meritocratic
+    note: 'meritocratic
+
       narrative claims wealth reflects talent and effort while functioning to legitimize
+
       structurally determined outcomes — the "supermanager" phenomenon demonstrates the
-      disconnect between stated merit and actual institutional capture
+
+      disconnect between stated merit and actual institutional capture'
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the legal system states equal protection while
+    note: 'the legal system states equal protection while
+
       functioning as wealth defense — formal legal neutrality conceals substantive service
-      to concentrated wealth
+
+      to concentrated wealth'
   - source_id: hartmann-hidden-history-american-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      Citizens United frames
+    note: 'Citizens United frames
+
       corporate political spending as "free speech" protection; corporate personhood frames
-      wealth defense as "equal protection"
+
+      wealth defense as "equal protection"'
   - source_id: graeber-debt-the-first-5000-years
     source_type: principle
     variant: null
-    note: |-
-      the barter myth — the economic
+    note: 'the barter myth — the economic
+
       origin story claims to describe how money naturally emerged while functioning to
+
       naturalize market relations and conceal the role of violence and state power in
-      creating monetary systems
+
+      creating monetary systems'
   - source_id: powell-memo
     source_type: principle
     variant: null
-    note: |-
-      the memo states defense against attack, proposes
+    note: 'the memo states defense against attack, proposes
+
       coordinated offensive to expand corporate institutional power — primary-source
-      evidence of the inversion, documented by its own author
+
+      evidence of the inversion, documented by its own author'
   - source_id: whitehouse-the-scheme
     source_type: principle
     variant: null
-    note: |-
-      the judicial selection process states
+    note: 'the judicial selection process states
+
       presidential judgment, functions as a Federalist Society pipeline; amicus briefs
+
       state public input, function as orchestrated coordination between dark money
-      organizations and sympathetic justices
+
+      organizations and sympathetic justices'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      New Deal programs stated as
+    note: 'New Deal programs stated as
+
       redistribution for the poorest, captured by planters and functioning as
+
       reinforcement of existing concentration — AAA payments enriching landowners while
-      displacing tenants
+
+      displacing tenants'
   - source_id: stanley-how-propaganda-works
     source_type: principle
     variant: null
-    note: |-
-      undermining propaganda — the
+    note: 'undermining propaganda — the
+
       philosophical mechanism: ideals invoked sincerely to destroy the conditions those
+
       ideals require; "free speech" invoked to defend Citizens United, "equal opportunity"
-      invoked to block affirmative action
+
+      invoked to block affirmative action'
   - source_id: ellul-propaganda
     source_type: principle
     variant: null
-    note: |-
-      integration propaganda — democratic participation
+    note: 'integration propaganda — democratic participation
+
       presented as freedom, functioning as conformity; the inversion operates at the system
-      level: the act of participating is the mechanism of integration
+
+      level: the act of participating is the mechanism of integration'
   - source_id: 2026-03-01-meta-policy-meta-three-policies
     source_type: analysis
     variant: null
-    note: |-
-      all three policy documents
+    note: 'all three policy documents
+
       exhibit the pattern: "agreement" that eliminates negotiation, "privacy" policy that
+
       authorizes surveillance, "community standards" that consolidate corporate control,
+
       and "more speech" reframing that reduces accountability infrastructure; the January
-      2025 announcement i...
+
+      2025 announcement i...'
   - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      "defensive" UK operations
+    note: '"defensive" UK operations
+
       that are offensive; "self-defense" in a seven-nation joint statement describing a
+
       preemptive attack; "eliminating threats" as framing for regime change; the joint
-      statement condemns Iran's "indiscriminate attacks" while the US/Israel initiated the
-      military operation — th...
+
+      statement condemns Iran''s "indiscriminate attacks" while the US/Israel initiated the
+
+      military operation — th...'
   - source_id: schimpfossl-oligarch-moralities-of-wealth
     source_type: principle
     variant: null
-    note: |-
-      philanthropy
+    note: 'philanthropy
+
       states generosity, functions as governance substitution and wealth legitimation —
+
       "the core aim is to eventually supplant state provision of social care by creating a
-      controlled form of 'activism' that is instigated and administered from above."
-      Neoliberal doctrine "outsources crisis...
+
+      controlled form of ''activism'' that is instigated and administered from above."
+
+      Neoliberal doctrine "outsources crisis...'
   - source_id: project-2025-mandate-for-leadership
     source_type: principle
     variant: null
-    note: |-
-      enforcement
+    note: 'enforcement
+
       nullification framed as preventing "weaponized" enforcement; power consolidation
+
       framed as "returning power to the American people"; elimination of oversight framed
+
       as "accountability"; the constitutional originalism argument converts institutional
-      seizure into constitutional restorat...
+
+      seizure into constitutional restorat...'
   - source_id: 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
     source_type: analysis
     variant: null
-    note: |-
-      the War
+    note: 'the War
+
       Powers Act — designed as a Congressional check on executive war-making — is called
+
       "an unconstitutional shift of authority from the president" by the senators whose
+
       institutional role it protects. The mechanism created to limit executive military action
-      is characterized by the legislature...
+
+      is characterized by the legislature...'
   - source_id: church-committee-cointelpro
     source_type: principle
     variant: null
-    note: |-
-      "Counterintelligence program":
+    note: '"Counterintelligence program":
+
       a misnomer for domestic covert action against American citizens. The stated purposes —
+
       "protecting national security" and "preventing violence" — do not explain the
+
       operational record. The Committee identifies the "unexpressed major premise": the Bureau
-      had a role i...
+
+      had a role i...'
   - source_id: huxley-brave-new-world
     source_type: principle
     variant: null
@@ -244,9 +283,10 @@ entries:
       describes the opposite of the function (disenrollment...'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.5
+  confidence_ratio: 0.69
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 46
+  relevant_corpus_size: 58
+  corr_count: 40
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -257,6 +297,8 @@ entries:
   - institutional
   - surveillance_information
   - physical_coercive
+  statement: Durable power structures operate multiple control mechanisms simultaneously so that failure at one layer is caught
+    by another.
   circumventions: []
   originated_by: null
   observed_in:
@@ -267,76 +309,95 @@ entries:
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
-    note: |-
-      arms as prerequisite for all other
+    note: 'arms as prerequisite for all other
+
       authority — Machiavelli treats all six layers as active, with Physical &
-      Coercive as the foundation the others depend on
+
+      Coercive as the foundation the others depend on'
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
-    note: |-
-      the political
+    note: 'the political
+
       capture feedback loop — concentrated wealth provides simultaneous leverage across
+
       economic, institutional, legal, and narrative layers; lobbying, campaign finance,
-      think tanks, and revolving doors operate as redundant control channels
+
+      think tanks, and revolving doors operate as redundant control channels'
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the wealth defense industry operates across
-      Economic, Legal, and Institutional layers simultaneously as the civil oligarchy's
-      defense-in-depth system
+    note: 'the wealth defense industry operates across
+
+      Economic, Legal, and Institutional layers simultaneously as the civil oligarchy''s
+
+      defense-in-depth system'
   - source_id: hartmann-hidden-history-american-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the Powell Memo
+    note: 'the Powell Memo
+
       demonstrates layered redundancy as a *deliberate strategy* — targeting universities,
-      media, courts, and legislature simultaneously by design
+
+      media, courts, and legislature simultaneously by design'
   - source_id: powell-memo
     source_type: principle
     variant: null
-    note: |-
-      primary-source evidence — the memo explicitly argues
+    note: 'primary-source evidence — the memo explicitly argues
+
       that each institutional front must reinforce the others and that no single front is
+
       sufficient without the others; written by a Position 1 (ruler) actor explaining why
-      layers must be coordinated simultaneously
+
+      layers must be coordinated simultaneously'
   - source_id: 2026-03-01-meta-policy-meta-three-policies
     source_type: analysis
     variant: null
-    note: |-
-      Meta's three policies
+    note: 'Meta''s three policies
+
       operate across all five non-physical layers simultaneously with mutual reinforcement:
+
       Thought & Narrative legitimizes Surveillance, Surveillance enables Economic extraction,
+
       Economic incentives drive Narrative framing, Legal authorizes Surveillance, Institutional
-      scale natur...
+
+      scale natur...'
   - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      all layers except Legal &
+    note: 'all layers except Legal &
+
       Regulatory operating in coordinated reinforcement: Physical & Coercive narrated through
+
       Thought & Narrative as competent and justified; Institutional voices — CENTCOM, IDF, GCC,
+
       DHS, Congress — all reinforcing the same narrative with no institutional dissent;
-      Surveillanc...
+
+      Surveillanc...'
   - source_id: project-2025-mandate-for-leadership
     source_type: principle
     variant: null
-    note: |-
-      inverse confirmation —
+    note: 'inverse confirmation —
+
       the document identifies and systematically targets each layer of institutional
+
       self-defense: personnel protections, oversight offices, independent legal counsel,
+
       civil rights review, ombudsmen, union rights, inspector-general functions. The
-      inverse is analytically significa...
+
+      inverse is analytically significa...'
   - source_id: church-committee-cointelpro
     source_type: principle
     variant: null
-    note: |-
-      COINTELPRO operated propaganda,
+    note: 'COINTELPRO operated propaganda,
+
       infiltration, disruption, economic harassment, legal harassment, and physical threat
+
       simultaneously against the same targets — failure at one technique was caught by
-      others; the Bureau's "no holds were barred" approach was structurally redundant
-      by design
+
+      others; the Bureau''s "no holds were barred" approach was structurally redundant
+
+      by design'
   - source_id: huxley-brave-new-world
     source_type: principle
     variant: null
@@ -345,9 +406,10 @@ entries:
       at any layer is caught by the others.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.2292
+  confidence_ratio: 0.288
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 48
+  relevant_corpus_size: 59
+  corr_count: 17
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
   file: patterns/perpetual-threat-as-perpetual-justification.md
@@ -355,6 +417,8 @@ entries:
   - thought_narrative
   - economic
   - physical_coercive
+  statement: A permanent external threat justifies permanent internal control, because a population at war accepts restrictions
+    it would otherwise resist.
   circumventions: []
   originated_by: null
   observed_in:
@@ -365,29 +429,35 @@ entries:
   - source_id: 2026-03-01-guardian-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      Trump's "47 years" framing of
+    note: 'Trump''s "47 years" framing of
+
       Iran as eternal enemy, justifying regime change as inevitable resolution
-      rather than a policy choice
+
+      rather than a policy choice'
   - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      domestic threat narrative
+    note: 'domestic threat narrative
+
       woven into foreign war coverage — the Austin shooting (Senegalese-born man with Iranian
+
       flag imagery), former DHS chief warning of "sleeper cells" and "lone actors sympathetic
+
       to Tehran," Capitol security enhancement, all placed inside the Iran war live blog
-      despite no e...
+
+      despite no e...'
   counter_evidence: []
-  confidence_ratio: 0.0625
+  confidence_ratio: 0.153
   confidence_level: SUPPORTED
-  relevant_corpus_size: 48
+  relevant_corpus_size: 59
+  corr_count: 9
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
   file: patterns/manufactured-scarcity-as-control.md
   layers:
   - thought_narrative
   - economic
+  statement: Abundance is deliberately prevented or destroyed because material security reduces dependency and enables independence.
   circumventions:
   - economic_alternative
   - collective_action
@@ -400,10 +470,11 @@ entries:
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
-    note: |-
-      the Green Revolution increases total
-      production while reducing the poor's share — scarcity is manufactured through
-      upward redistribution of gains, not through decline in output
+    note: 'the Green Revolution increases total
+
+      production while reducing the poor''s share — scarcity is manufactured through
+
+      upward redistribution of gains, not through decline in output'
   - source_id: huxley-brave-new-world
     source_type: principle
     variant: null
@@ -419,59 +490,74 @@ entries:
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
-    note: |-
-      presents an
+    note: 'presents an
+
       inversion — surveillance capitalism manufactures scarcity of *knowledge* rather
+
       than goods. The Division of Learning creates structural information scarcity
+
       where one side can see and the other cannot.
 
-      NOTE:
+
+      NOTE:'
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
-    note: |-
-      adds a
+    note: 'adds a
+
       structural variant — the distribution of abundance creates functional scarcity;
-      overall growth occurs while the majority's share declines. Scarcity need not be
-      actively manufactured when the default distribution of surplus produces it.
+
+      overall growth occurs while the majority''s share declines. Scarcity need not be
+
+      actively manufactured when the default distribution of surplus produces it.'
   - source_id: scheidel-the-great-leveler
     source_type: principle
     variant: null
-    note: |-
-      confirms across civilizations.
+    note: 'confirms across civilizations.
 
-      NOTE:
+
+      NOTE:'
   - source_id: graeber-debt-the-first-5000-years
     source_type: principle
     variant: null
-    note: |-
-      adds a debt-based
+    note: 'adds a debt-based
+
       variant — debt-dependent economies manufacture scarcity structurally; when most
+
       of the population must work to service debts, their labor is channeled into debt
+
       service rather than autonomous production. Scarcity is produced not by restricting
-      supply but by capturing future labo...
+
+      supply but by capturing future labo...'
   - source_id: 2026-03-01-meta-policy-meta-three-policies
     source_type: analysis
     variant: null
-    note: |-
-      adds a network-effect
-      variant — Meta's dominance creates artificial scarcity of alternatives for social
+    note: 'adds a network-effect
+
+      variant — Meta''s dominance creates artificial scarcity of alternatives for social
+
       communication; network effects mean the value of an alternative platform is near-zero
+
       until it achieves critical mass; the "accept or leave" binary in the Terms of Service
-      depends on this struc...
+
+      depends on this struc...'
   - source_id: mishra-western-model-broken
     source_type: principle
     variant: null
-    note: |-
-      M2 adds an enabling-condition-
-      consumption variant — the material conditions that enabled the western model's
+    note: 'M2 adds an enabling-condition-
+
+      consumption variant — the material conditions that enabled the western model''s
+
       success (colonial extraction, surplus population export, frontier abundance) were
+
       partly consumed by that success. The model is self-consuming: it works once and
-      removes the conditions fo...
+
+      removes the conditions fo...'
   counter_evidence: []
-  confidence_ratio: 0.2083
-  confidence_level: SUPPORTED
-  relevant_corpus_size: 48
+  confidence_ratio: 0.22
+  confidence_level: ESTABLISHED
+  relevant_corpus_size: 59
+  corr_count: 13
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -479,6 +565,8 @@ entries:
   - thought_narrative
   - institutional
   - surveillance_information
+  statement: Total control requires simultaneous control of the past (historical record), the present (surveillance and enforcement),
+    and the future (shaping what is thinkable).
   circumventions: []
   originated_by: null
   observed_in:
@@ -489,15 +577,18 @@ entries:
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
-    note: |-
-      the two temporal myths — the politics of
+    note: 'the two temporal myths — the politics of
+
       inevitability controls the future by presenting progress as automatic, the politics
+
       of eternity controls the past by mythologizing national victimization; the
-      transition between the two is the moment of maximum danger for democratic order
+
+      transition between the two is the moment of maximum danger for democratic order'
   counter_evidence: []
-  confidence_ratio: 0.0426
+  confidence_ratio: 0.051
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 47
+  relevant_corpus_size: 59
+  corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
   file: patterns/middle-stratum-trap.md
@@ -505,6 +596,8 @@ entries:
   - thought_narrative
   - economic
   - institutional
+  statement: The middle tier of a power hierarchy is the most heavily controlled because it is the most capable of organizing
+    resistance, and its marginal privilege relative to the bottom prevents downward solidarity.
   circumventions: []
   originated_by: null
   observed_in:
@@ -515,72 +608,87 @@ entries:
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
-    note: |-
-      ally with the many against the
-      few — the nobles are the dangerous middle stratum; the people's moderate
-      demands make them the safer ally
+    note: 'ally with the many against the
+
+      few — the nobles are the dangerous middle stratum; the people''s moderate
+
+      demands make them the safer ally'
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      the national bourgeoisie as
+    note: 'the national bourgeoisie as
+
       relay — the indigenous middle class replaces the colonizer as intermediary
-      of extraction; its relative privilege prevents solidarity with the masses
+
+      of extraction; its relative privilege prevents solidarity with the masses'
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      the lumpenproletariat — inverts
+    note: 'the lumpenproletariat — inverts
+
       the pattern: those completely excluded have no stake in the existing order,
-      making them either the most revolutionary or the most co-optable force
+
+      making them either the most revolutionary or the most co-optable force'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      poor whites in the Mississippi
+    note: 'poor whites in the Mississippi
+
       Delta as middle stratum — given a "racial wage" of status superiority over Black
+
       people that substituted for material benefit and prevented cross-racial class
+
       solidarity; recruited as *enforcers* of the racial order through delegated violence,
-      making them complicit ...
+
+      making them complicit ...'
   counter_evidence: []
-  confidence_ratio: 0.1042
+  confidence_ratio: 0.068
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 48
+  relevant_corpus_size: 59
+  corr_count: 4
 - id: economy_of_violence
   name: The Economy of Violence
   file: patterns/economy-of-violence.md
   layers:
   - thought_narrative
   - physical_coercive
+  statement: Violence is most effective when concentrated at the moment of acquisition and absent thereafter. The temporal
+    calibration of coercion determines whether it produces stability or resistance.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
-    note: |-
-      cruelties "well used"
-      vs. "badly used" — Agathocles of Syracuse
+    note: 'cruelties "well used"
+
+      vs. "badly used" — Agathocles of Syracuse'
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      challenges this pattern
+    note: 'challenges this pattern
+
       from the subjected perspective: colonial violence is total and constitutive,
-      not calibrated. The pattern describes the ruler's optimal strategy but Fanon
+
+      not calibrated. The pattern describes the ruler''s optimal strategy but Fanon
+
       argues that from below, there is no "well-used" foundational violence — all
-      constitutive violence delegitimizes the sys...
+
+      constitutive violence delegitimizes the sys...'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.0476
+  confidence_ratio: 0.038
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 42
+  relevant_corpus_size: 53
+  corr_count: 2
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
   file: patterns/appearance-as-structural-terrain.md
   layers:
   - thought_narrative
   - institutional
+  statement: The gap between how a system presents itself and how it operates is not incidental — it is the operating environment
+    power depends on. Power works through the management of perception, not the management of reality.
   circumventions:
   - transparency_naming
   originated_by: null
@@ -588,137 +696,175 @@ entries:
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
-    note: |-
-      the prince must appear
+    note: 'the prince must appear
+
       merciful, faithful, humane, religious, and honest while being prepared to act
-      otherwise
+
+      otherwise'
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
-    note: |-
-      Scott provides the view from
+    note: 'Scott provides the view from
+
       the other side of the terrain — the peasant also operates in the gap between
-      appearance and reality, holding the prince's appearance against his reality;
+
+      appearance and reality, holding the prince''s appearance against his reality;
+
       the public transcript is a jointly produced performance both sides maintain
-      for different reasons
+
+      for different reasons'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
-    note: |-
-      the Two Texts — every
+    note: 'the Two Texts — every
+
       interaction with a surveillance capitalist system produces a visible text (the
+
       service) and a shadow text (the behavioral data); the user interface is the
-      appearance, data extraction is the reality
+
+      appearance, data extraction is the reality'
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
-    note: |-
-      meritocracy is the
+    note: 'meritocracy is the
+
       appearance; r > g is the structural reality — the population evaluates the
+
       economic system through the meritocratic narrative while having no access to the
-      structural mechanisms that actually determine outcomes
+
+      structural mechanisms that actually determine outcomes'
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      democracy is the appearance; civil oligarchy
+    note: 'democracy is the appearance; civil oligarchy
+
       is the operational reality — electoral politics handles issues oligarchs are
+
       indifferent to, while the wealth defense apparatus handles matters affecting
-      concentrated wealth
+
+      concentrated wealth'
   - source_id: graeber-debt-the-first-5000-years
     source_type: principle
     variant: null
-    note: |-
-      the moral language of debt
+    note: 'the moral language of debt
+
       creates an appearance — the debtor has a moral obligation — that conceals the
+
       structural reality — the creditor has power; the moral framework IS the terrain
-      the debt relationship operates on
+
+      the debt relationship operates on'
   - source_id: whitehouse-the-scheme
     source_type: principle
     variant: null
-    note: |-
-      the formal judicial process —
+    note: 'the formal judicial process —
+
       presidential nomination, Senate confirmation, organic case-or-controversy
+
       requirement, public amicus input — IS the appearance that judicial capture operates
+
       through; the capture does not bypass these processes but uses them as structural
-      terrain
+
+      terrain'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      "the Southern way of life" as
+    note: '"the Southern way of life" as
+
       the mythological appearance — a narrative of genteel civilization, reciprocal
+
       obligation, and cultural tradition that concealed a system of racialized extraction;
-      the mythology was the structural terrain the planter class operated on
+
+      the mythology was the structural terrain the planter class operated on'
   - source_id: stanley-how-propaganda-works
     source_type: principle
     variant: null
-    note: |-
-      flawed ideology as epistemic closure
+    note: 'flawed ideology as epistemic closure
+
       — the cognitive condition that makes appearance credible; the population cannot
-      perceive the gap because the ideology prevents recognition of the evidence
+
+      perceive the gap because the ideology prevents recognition of the evidence'
   - source_id: ellul-propaganda
     source_type: principle
     variant: null
-    note: |-
-      sociological propaganda extends the pattern to
+    note: 'sociological propaganda extends the pattern to
+
       its limit — when the propaganda IS the environment, the gap between appearance and
+
       reality dissolves because there is no external vantage point from which to perceive
-      it; the terrain is total
+
+      it; the terrain is total'
   - source_id: 2026-03-01-meta-policy-meta-three-policies
     source_type: analysis
     variant: null
-    note: |-
-      Zuboff's Two Texts precisely
+    note: 'Zuboff''s Two Texts precisely
+
       instantiated: the user interface is the appearance ("personalized experience," "your
+
       privacy matters," "community standards"); the behavioral data extraction is the
+
       reality; the Privacy Policy describes surveillance in the language of empowerment;
-      the gap between pres...
+
+      the gap between pres...'
   - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      the seven-nation joint
-      statement condemning Iran's "indiscriminate attacks" constructs an appearance of
+    note: 'the seven-nation joint
+
+      statement condemning Iran''s "indiscriminate attacks" constructs an appearance of
+
       multilateral consensus for what is structurally a US-Israeli offensive — seven nations
+
       condemning the attacked party frames the coalition as defending against aggression;
-      the appearance of broa...
+
+      the appearance of broa...'
   - source_id: schimpfossl-oligarch-moralities-of-wealth
     source_type: principle
     variant: null
-    note: |-
-      the
+    note: 'the
+
       entire paper documents the gap between oligarchic self-presentation —
+
       meritocratic, deserving, philanthropic — and the structural conditions of
+
       wealth acquisition. P1: biological superiority claims are the appearance;
-      privatization windfalls and intelligentsia networks are the reality. P2: So...
+
+      privatization windfalls and intelligentsia networks are the reality. P2: So...'
   - source_id: project-2025-mandate-for-leadership
     source_type: principle
     variant: null
-    note: |-
-      the entire
+    note: 'the entire
+
       document operates in the gap between appearance and reality. The FEC appears
+
       to enforce campaign finance law; enforcement is structurally impossible. The
-      DOJ appears to serve justice; it is directed to serve the President's agenda.
-      Independent agencies appear to remain independent; the...
+
+      DOJ appears to serve justice; it is directed to serve the President''s agenda.
+
+      Independent agencies appear to remain independent; the...'
   - source_id: 2013-vasudeva-orgscience-norwegian-swf-responsible-investment
     source_type: analysis
     variant: null
-    note: |-
-      the Norwegian SWF
+    note: 'the Norwegian SWF
+
       presents as an ethical investor; the academic paper studies "responsible investment"
+
       without examining the power embedded in the framing; the appearance is genuine — the
+
       SWF really is an ethical investor — but the genuineness of the appearance is precisely
-      what makes the structu...
+
+      what makes the structu...'
   - source_id: 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
     source_type: analysis
     variant: null
-    note: |-
-      the
+    note: 'the
+
       Senate vote creates the appearance of Congressional deliberation — floor speeches,
+
       constitutional arguments, a recorded vote — while the substance was predetermined
+
       by a private Republican huddle and administration lobbying. The vote IS the
-      appearance; it is the structural terrain on which co...
+
+      appearance; it is the structural terrain on which co...'
   - source_id: huxley-brave-new-world
     source_type: principle
     variant: null
@@ -729,15 +875,19 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.3696
+  confidence_ratio: 0.569
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 46
+  relevant_corpus_size: 58
+  corr_count: 33
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
   layers:
   - thought_narrative
   - surveillance_information
+  statement: Every relationship of domination generates a hidden counter-narrative among the subordinate — expressed offstage
+    through gossip, jokes, songs, anonymous acts, and coded language — that preserves an alternative moral account of the
+    social order and provides the ideological raw material for open resistance when conditions permit.
   circumventions:
   - cultural_production
   - everyday_resistance
@@ -746,41 +896,52 @@ entries:
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
-    note: |-
-      Sedaka
+    note: 'Sedaka
+
       villagers maintain a hidden transcript of gossip, moral critique, and
-      alternative interpretation behind the public performance of deference
+
+      alternative interpretation behind the public performance of deference'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      the Mississippi Delta
+    note: 'the Mississippi Delta
+
       blues tradition as vernacular counter-knowledge — encoding mechanisms of
+
       control (debt, displacement, police violence, sexual exploitation) in musical
+
       form that was audible to the Black community and partially opaque to the white
-      power structure; different medium (music vs. ...
+
+      power structure; different medium (music vs. ...'
   - source_id: schimpfossl-oligarch-moralities-of-wealth
     source_type: principle
     variant: null
-    note: |-
-      EXTENDS the pattern
-      from the subordinate to the ruler. Schimpfössl documents the RULER's hidden
+    note: 'EXTENDS the pattern
+
+      from the subordinate to the ruler. Schimpfössl documents the RULER''s hidden
+
       transcript: beliefs the powerful hold privately — biological superiority, anti-
+
       democratic preferences, Pinochet admiration — that cannot be expressed publicly
-      without undermining their legitimating na...
+
+      without undermining their legitimating na...'
   - source_id: browne-dark-matters
     source_type: principle
     variant: null
-    note: |-
-      B5 (dark sousveillance is the
+    note: 'B5 (dark sousveillance is the
+
       operationalized hidden transcript applied to surveillance systems — coded
+
       communication of enslaved communities, counter-knowledge generated by the
+
       surveilled position, performance practices that name what surveillance
-      conceals. Dark sousveillance extends the hidden ...
+
+      conceals. Dark sousveillance extends the hidden ...'
   counter_evidence: []
-  confidence_ratio: 0.0952
+  confidence_ratio: 0.115
   confidence_level: SUPPORTED
-  relevant_corpus_size: 42
+  relevant_corpus_size: 52
+  corr_count: 6
 - id: compliance_gradient
   name: The Compliance Gradient
   file: patterns/compliance-gradient.md
@@ -791,6 +952,8 @@ entries:
   - institutional
   - surveillance_information
   - physical_coercive
+  statement: Between full compliance and open rebellion exists a continuous spectrum of partial, selective, delayed, malicious,
+    and performative compliance that constitutes the primary terrain of power negotiation in most social orders.
   circumventions:
   - collective_action
   - everyday_resistance
@@ -799,30 +962,36 @@ entries:
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
-    note: |-
-      everyday resistance in Sedaka operates through a spectrum of partial
-      compliance, not through a binary of obedience or revolt
+    note: 'everyday resistance in Sedaka operates through a spectrum of partial
+
+      compliance, not through a binary of obedience or revolt'
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
-    note: |-
-      anticipatory obedience is a specific
+    note: 'anticipatory obedience is a specific
+
       mechanism within the gradient — describes how the gradient shifts toward
+
       compliance without external pressure, through self-generated pre-compliance
-      that cascades across the population
+
+      that cascades across the population'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      the Delta compliance
+    note: 'the Delta compliance
+
       gradient spans the full spectrum — from accommodation and public deference,
+
       through everyday resistance (foot-dragging, work slowdowns, crop theft,
+
       sabotage), to cultural counter-knowledge (blues), to geographic escape
-      (the Great Migration), to organized protest (civil rights...
+
+      (the Great Migration), to organized protest (civil rights...'
   counter_evidence: []
-  confidence_ratio: 0.0625
-  confidence_level: SUPPORTED
-  relevant_corpus_size: 48
+  confidence_ratio: 0.068
+  confidence_level: PRELIMINARY
+  relevant_corpus_size: 59
+  corr_count: 4
 - id: ideological_judo
   name: Ideological Judo
   file: patterns/ideological-judo.md
@@ -830,39 +999,50 @@ entries:
   - thought_narrative
   - economic
   - institutional
+  statement: The weak exploit the gap between the powerful's legitimating ideology and their actual practice by holding the
+    powerful to their own stated standards — turning the dominant ideology into a constraint on the dominant class.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
-    note: |-
-      poor
+    note: 'poor
+
       Sedaka villagers hold wealthy farmers to Islamic charity norms the
+
       wealthy themselves endorse — the critique operates entirely within
-      the dominant moral framework
+
+      the dominant moral framework'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      the civil rights movement
+    note: 'the civil rights movement
+
       in the Delta and nationally held America to its own stated democratic values —
+
       using the Constitution, the Declaration of Independence, and the rhetoric of
+
       freedom and equality against the system the Constitution accommodated; the
-      critique operated entirely within the do...
+
+      critique operated entirely within the do...'
   - source_id: stanley-how-propaganda-works
     source_type: principle
     variant: null
-    note: |-
-      Stanley provides the *inverse*
+    note: 'Stanley provides the *inverse*
+
       mechanism — where Scott and Cobb describe the subordinate using dominant ideology
+
       against the dominant, Stanley describes the dominant using dominant ideology to
+
       reinforce dominance; "free speech" and "equal opportunity" deployed to protect the
-      structures they nomin...
+
+      structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.0625
-  confidence_level: SUPPORTED
-  relevant_corpus_size: 48
+  confidence_ratio: 0.085
+  confidence_level: PRELIMINARY
+  relevant_corpus_size: 59
+  corr_count: 5
 - id: double_performance
   name: The Double Performance
   file: patterns/double-performance.md
@@ -870,44 +1050,55 @@ entries:
   - thought_narrative
   - institutional
   - surveillance_information
+  statement: In most stable power relationships, both the dominant and the subordinate perform for each other — the ruler
+    performing legitimacy, the subordinate performing compliance — and both sides are aware the other is performing, yet maintain
+    the mutual fiction because the cost of breaking it is asymmetric.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
-    note: |-
-      the prince manages
+    note: 'the prince manages
+
       appearances — "everyone sees what you appear to be, few experience what you
-      really are"
+
+      really are"'
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
-    note: |-
-      the peasants
+    note: 'the peasants
+
       see through the performance but maintain their own counter-performance of
-      deference; the public transcript is a joint production
+
+      deference; the public transcript is a joint production'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
-    note: |-
-      users perform as
+    note: 'users perform as
+
       customers, companies perform as service providers, while the actual transaction
+
       occurs in the shadow text — the behavioral surplus extraction neither side
-      acknowledges openly
+
+      acknowledges openly'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      racial deference in
+    note: 'racial deference in
+
       the Delta as jointly maintained public transcript — Black residents performed
+
       compliance and gratitude, planters performed paternalism and benevolence, both
+
       knew the performance was strategic; the blues (P5) documented the gap between
-      public transcript and private knowledge; t...
+
+      public transcript and private knowledge; t...'
   counter_evidence: []
-  confidence_ratio: 0.0851
-  confidence_level: SUPPORTED
-  relevant_corpus_size: 47
+  confidence_ratio: 0.085
+  confidence_level: PRELIMINARY
+  relevant_corpus_size: 59
+  corr_count: 5
 - id: relay_class
   name: The Relay Class
   file: patterns/relay-class.md
@@ -915,15 +1106,18 @@ entries:
   - thought_narrative
   - economic
   - institutional
+  statement: When a system of domination is formally dismantled, an indigenous class positioned as intermediary between the
+    dominant power and the dominated population steps into the role of the departed power, reproducing the structure of extraction
+    under a new flag.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      the national
-      bourgeoisie as intermediary
+    note: 'the national
+
+      bourgeoisie as intermediary'
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
@@ -931,25 +1125,32 @@ entries:
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      poor whites in the Delta
+    note: 'poor whites in the Delta
+
       as an unwitting relay class — mediating the planter-Black labor relationship
-      through racial enforcement; the mechanism differs from Fanon's national
+
+      through racial enforcement; the mechanism differs from Fanon''s national
+
       bourgeoisie in that the relay function is compensated with *status* rather
-      than material benefit, and the relay class does ...
+
+      than material benefit, and the relay class does ...'
   - source_id: mishra-western-model-broken
     source_type: principle
     variant: null
-    note: |-
-      M4 adds a legitimation lock-in
+    note: 'M4 adds a legitimation lock-in
+
       mechanism — postcolonial ruling elites derive their legitimacy from the promise
+
       of "catching up" with the west. This founding commitment traps them in the relay
+
       role: they cannot abandon the western development model without destroying the
-      basis of their authority. ...
+
+      basis of their authority. ...'
   counter_evidence: []
-  confidence_ratio: 0.0833
+  confidence_ratio: 0.051
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 48
+  relevant_corpus_size: 59
+  corr_count: 3
 - id: constitutive_violence
   name: Constitutive Violence
   file: patterns/constitutive-violence.md
@@ -958,83 +1159,106 @@ entries:
   - economic
   - legal_regulatory
   - physical_coercive
+  statement: Some systems of control are not merely maintained by violence but constituted through it — the initial distribution
+    of power, property, and legitimacy was established by force, and the system's ongoing operation depends on the continuing
+    implicit threat of that foundational violence.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      violence as
-      constitutive
+    note: 'violence as
+
+      constitutive'
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      the Manichean
-      structure
+    note: 'the Manichean
+
+      structure'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
-    note: |-
-      unilateral declaration
-      as dispossession — Google's seizure of behavioral data as a non-physical
+    note: 'unilateral declaration
+
+      as dispossession — Google''s seizure of behavioral data as a non-physical
+
       instantiation of constitutive violence; the act of taking establishes the
-      precedent that legitimizes the taking, paralleling enclosure of the commons
+
+      precedent that legitimizes the taking, paralleling enclosure of the commons'
   - source_id: graeber-debt-the-first-5000-years
     source_type: principle
     variant: null
-    note: |-
-      the violence-money-debt
+    note: 'the violence-money-debt
+
       nexus — coined money was created by and for military states; monetary systems
+
       are constituted through violence; the contemporary separation of money from
-      violence is historically anomalous and structurally fragile
+
+      violence is historically anomalous and structurally fragile'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      slavery as constitutive
+    note: 'slavery as constitutive
+
       violence converted into property, law, and custom; the ongoing coercive
+
       infrastructure — lynching, police violence, structural threat — maintained
+
       the original violent distribution as operational infrastructure long after the
-      founding act receded into history; adds the *ma...
+
+      founding act receded into history; adds the *ma...'
   - source_id: guriev-rachinsky-role-of-oligarchs
     source_type: principle
     variant: null
-    note: |-
-      loans-for-shares as founding
+    note: 'loans-for-shares as founding
+
       act — "the government appointed a commercial banker to run an auction... the
+
       auctioneer always awarded the stake to himself for a nominal bid by excluding
-      all outside bidders. The scheme was designed to consolidate the bankers' support
-      for Yeltsin's re-election campai...
+
+      all outside bidders. The scheme was designed to consolidate the bankers'' support
+
+      for Yeltsin''s re-election campai...'
   - source_id: mishra-western-model-broken
     source_type: principle
     variant: null
-    note: |-
-      M2 adds a consumptive dimension
+    note: 'M2 adds a consumptive dimension
+
       — the foundational colonial violence not only established the current distribution
+
       but consumed the material conditions that would allow others to follow the same
+
       path. The violence is doubly constitutive: it creates the order AND prevents
-      alternatives by depleting...
+
+      alternatives by depleting...'
   - source_id: browne-dark-matters
     source_type: principle
     variant: null
-    note: |-
-      adds a surveillance dimension —
+    note: 'adds a surveillance dimension —
+
       the surveillance apparatus was constituted through slavery, not added to it. Branding
+
       was simultaneously an act of violence and an act of identification; the Book of
+
       Negroes was simultaneously a property ledger and a biometric archive. The constitutive
-      violence is ...
+
+      violence is ...'
   counter_evidence: []
-  confidence_ratio: 0.1667
-  confidence_level: ESTABLISHED
-  relevant_corpus_size: 48
+  confidence_ratio: 0.153
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 59
+  corr_count: 9
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
   file: patterns/three-phases-of-cultural-resistance.md
   layers:
   - thought_narrative
   - institutional
+  statement: 'The dominated subject''s cultural response to domination follows a predictable sequence: assimilation (adopting
+    the dominator''s values), essentialism (nostalgic return to pre-domination identity), and finally synthesis (a forward-looking
+    culture forged in struggle). Only the third phase is genuinely liberatory.'
   circumventions:
   - cultural_production
   originated_by: null
@@ -1042,59 +1266,69 @@ entries:
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      psychological
-      reconstruction
+    note: 'psychological
+
+      reconstruction'
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
-    note: |-
-      culture as
-      control and resistance
+    note: 'culture as
+
+      control and resistance'
   - source_id: 2026-03-08-guardian-article-africa-reparative-justice
     source_type: analysis
     variant: null
-    note: |-
-      Owuor's
+    note: 'Owuor''s
+
       call for "moral autopsy before moral exorcism" and warning against "unseemly rush"
+
       into restitution — the reparations movement operating in the synthesis phase,
-      creating new frameworks rather than inverting colonial categories
+
+      creating new frameworks rather than inverting colonial categories'
   counter_evidence: []
-  confidence_ratio: 0.0652
+  confidence_ratio: 0.034
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 46
+  relevant_corpus_size: 58
+  corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
   file: patterns/real-time-narrative-saturation.md
   layers:
   - thought_narrative
   - surveillance_information
+  statement: Continuous live coverage that reports all facts but prevents synthesis functions as a narrative control mechanism
+    — not by suppressing information but by overwhelming the capacity to process it.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: 2026-03-01-guardian-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      Guardian live blog
-      format during opening phase of US-Israeli war on Iran
+    note: 'Guardian live blog
+
+      format during opening phase of US-Israeli war on Iran'
   - source_id: ellul-propaganda
     source_type: principle
     variant: null
-    note: |-
-      Ellul describes the identical mechanism in 1962:
+    note: 'Ellul describes the identical mechanism in 1962:
+
       the modern individual is bombarded with more information than can be processed, producing
+
       an informed but analytically paralyzed subject; the "education paradox" — the educated
-      consume more information and are therefore more susceptible to informat...
+
+      consume more information and are therefore more susceptible to informat...'
   - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      VARIANT — selective
+    note: 'VARIANT — selective
+
       construction rather than comprehensive saturation. Fox operates through the inverse
+
       mechanism: rather than reporting all facts and preventing synthesis, Fox selects facts
+
       that compose a coherent narrative and omits those that would disrupt it. The analytical
-      outcome is the sam...
+
+      outcome is the sam...'
   - source_id: huxley-brave-new-world
     source_type: principle
     variant: null
@@ -1102,9 +1336,10 @@ entries:
       soma — every moment filled with stimulation. Helmholtz Watson senses something is wrong but cannot articulate it because
       the cognitive space for articulation has been filled. Not info...'
   counter_evidence: []
-  confidence_ratio: 0.0952
-  confidence_level: ESTABLISHED
-  relevant_corpus_size: 42
+  confidence_ratio: 0.192
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 52
+  corr_count: 10
 - id: serial_regime_change
   name: Serial Regime Change
   file: patterns/serial-regime-change.md
@@ -1112,28 +1347,34 @@ entries:
   - thought_narrative
   - institutional
   - physical_coercive
+  statement: A state repeatedly applies the same military intervention template across different targets, each time presenting
+    the operation as unique and necessary while following an identical structural pattern.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: 2026-03-01-guardian-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      Iran 2026, with
-      structural parallels to Iraq 2003, Libya 2011, Afghanistan 2001
+    note: 'Iran 2026, with
+
+      structural parallels to Iraq 2003, Libya 2011, Afghanistan 2001'
   - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
-    note: |-
-      Fox's own senior
+    note: 'Fox''s own senior
+
       correspondent notes structural parallels to previous operations without drawing the
+
       structural conclusion — the pattern is visible even from within the supportive editorial
+
       framework; the coverage follows the identical template: threat narrative → coalition →
-      aerial bombardment →...
+
+      aerial bombardment →...'
   counter_evidence: []
-  confidence_ratio: 0.0426
+  confidence_ratio: 0.155
   confidence_level: SUPPORTED
-  relevant_corpus_size: 47
+  relevant_corpus_size: 58
+  corr_count: 9
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
   file: patterns/unprecedented-as-sanctuary.md
@@ -1141,29 +1382,37 @@ entries:
   - thought_narrative
   - legal_regulatory
   - institutional
+  statement: New forms of power establish themselves by operating in conceptual, legal, and regulatory voids where existing
+    frameworks have not yet developed categories of understanding or response. The unprecedented nature of the operation is
+    not merely descriptive — it is a strategic advantage.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
-    note: |-
-      Google's
+    note: 'Google''s
+
       behavioral data extraction operated for years before regulators or public
-      discourse developed frameworks to describe or contest it; the FTC's inability
-      to categorize the harm; the EU's delayed GDPR response
+
+      discourse developed frameworks to describe or contest it; the FTC''s inability
+
+      to categorize the harm; the EU''s delayed GDPR response'
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
-    note: |-
-      Snyder's "be calm when the unthinkable
-      arrives" confirms from the citizen's perspective — authoritarian consolidation
-      exploits the unprecedented to paralyze response; the population's inability to
-      categorize what is happening delays resistance past the point of effectiveness
+    note: 'Snyder''s "be calm when the unthinkable
+
+      arrives" confirms from the citizen''s perspective — authoritarian consolidation
+
+      exploits the unprecedented to paralyze response; the population''s inability to
+
+      categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.0426
+  confidence_ratio: 0.119
   confidence_level: SUPPORTED
-  relevant_corpus_size: 47
+  relevant_corpus_size: 59
+  corr_count: 7
 - id: dispossession_cycle
   name: The Dispossession Cycle
   file: patterns/dispossession-cycle.md
@@ -1171,58 +1420,76 @@ entries:
   - thought_narrative
   - institutional
   - surveillance_information
+  statement: Surveillance capitalism advances through a repeating four-stage normalization cycle — incursion, habituation,
+    adaptation, redirection — that ratchets the boundary of acceptable extraction outward with each completion.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
-    note: |-
-      the cycle
-      repeated across Google's expansion from search to email to location to home
-      devices; Facebook's privacy scandals follow the same cycle; Cambridge Analytica
-      produced massive outrage that resulted in no structural change to Facebook's
-      data extraction
+    note: 'the cycle
+
+      repeated across Google''s expansion from search to email to location to home
+
+      devices; Facebook''s privacy scandals follow the same cycle; Cambridge Analytica
+
+      produced massive outrage that resulted in no structural change to Facebook''s
+
+      data extraction'
   - source_id: hartmann-hidden-history-american-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the corporate rights
+    note: 'the corporate rights
+
       escalation follows the same ratcheting normalization in the legal domain — each
+
       extension of corporate constitutional protections becomes the baseline for the next,
+
       from corporate personhood to commercial speech to political speech to religious
-      freedom
+
+      freedom'
   - source_id: whitehouse-the-scheme
     source_type: principle
     variant: null
-    note: |-
-      case manufacturing produces ratcheting
+    note: 'case manufacturing produces ratcheting
+
       judicial precedents — each manufactured ruling creates the legal baseline for the
+
       next expansion; Janus v. AFSCME illustrates the cycle: a manufactured case overturns
-      mandatory union fees, establishing a new baseline that weakens labor's capacity to
-      resist t...
+
+      mandatory union fees, establishing a new baseline that weakens labor''s capacity to
+
+      resist t...'
   - source_id: 2026-03-01-meta-policy-meta-three-policies
     source_type: analysis
     variant: null
-    note: |-
-      (each policy update ratchets
+    note: '(each policy update ratchets
+
       extraction outward: the January 2025 Terms of Service extend content licensing to
+
       private messages and AI training with opt-out denial; previously posted content
+
       retroactively subject to new terms; non-users bound through shared links; each cycle
-      provokes brief resist...
+
+      provokes brief resist...'
   - source_id: 2026-03-atlantic-essay-cynical-gullible-american-man
     source_type: analysis
     variant: null
-    note: |-
-      identifies a
+    note: 'identifies a
+
       commercial epistemic variant: distrust of institutions creates demand for alternative
+
       products (supplements, crypto, sports betting) → vendors deepen distrust to sustain
+
       demand → deeper distrust creates further demand. The ratcheting structure is identical
-      to the data-extraction cycl...
+
+      to the data-extraction cycl...'
   counter_evidence: []
-  confidence_ratio: 0.1064
+  confidence_ratio: 0.085
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 47
+  relevant_corpus_size: 59
+  corr_count: 5
 - id: division_of_learning
   name: The Division of Learning
   file: patterns/division-of-learning.md
@@ -1230,6 +1497,10 @@ entries:
   - economic
   - institutional
   - surveillance_information
+  statement: Surveillance capitalism creates a structural asymmetry of knowledge where one party can learn about, predict,
+    and shape another who cannot access the data, the predictions, or the modifications applied to them. This asymmetry is
+    self-reinforcing — more data produces better predictions, which produces more effective modification, which generates
+    more data.
   circumventions:
   - transparency_naming
   originated_by: null
@@ -1237,109 +1508,141 @@ entries:
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
-    note: |-
-      Google's
-      refusal to disclose search ranking algorithms; Facebook's opacity about news
+    note: 'Google''s
+
+      refusal to disclose search ranking algorithms; Facebook''s opacity about news
+
       feed curation; the impossibility of an individual auditing their own
-      advertising profile
+
+      advertising profile'
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
-    note: |-
-      financial opacity
+    note: 'financial opacity
+
       as structural enabler of concentration — tax havens, shell companies, opaque trusts
+
       prevent democratic accountability; the "missing wealth" problem demonstrates
+
       trillions hidden from national statistics; extends the division from digital to
-      financial domains
+
+      financial domains'
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the wealth defense industry maintains and
+    note: 'the wealth defense industry maintains and
+
       produces opacity as a professional function — the complexity of trust structures,
-      offshore vehicles, and legal instruments is itself a form of information asymmetry
+
+      offshore vehicles, and legal instruments is itself a form of information asymmetry'
   - source_id: whitehouse-the-scheme
     source_type: principle
     variant: null
-    note: |-
-      the dark money pipeline — Donors Trust,
+    note: 'the dark money pipeline — Donors Trust,
+
       Donors Capital Fund, and cascading intermediary organizations — is architectural
+
       opacity: deliberately designed to sever traceable connections between donors and
+
       outcomes through multiple anonymous transfer layers enabled by 501(c)(3)/(c)(4)
-      legal structures
+
+      legal structures'
   - source_id: stanley-how-propaganda-works
     source_type: principle
     variant: null
-    note: |-
-      material inequality produces epistemic
+    note: 'material inequality produces epistemic
+
       inequality — the wealthy fund the conceptual infrastructure that defines what counts
+
       as reasonable discourse, shaping the epistemic environment through research funding,
-      media control, and term-setting
+
+      media control, and term-setting'
   - source_id: 2026-03-01-meta-policy-meta-three-policies
     source_type: analysis
     variant: null
-    note: |-
-      the information asymmetry IS
+    note: 'the information asymmetry IS
+
       the business model — Meta knows everything about users (cross-platform, cross-web
+
       pixel on 30% of sites, offline data, AI conversations); users know almost nothing about
+
       how their data is used, how algorithms affect them, or what their behavioral profile
-      contains; the...
+
+      contains; the...'
   counter_evidence: []
-  confidence_ratio: 0.125
+  confidence_ratio: 0.14
   confidence_level: SUPPORTED
-  relevant_corpus_size: 48
+  relevant_corpus_size: 57
+  corr_count: 8
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
   layers:
   - thought_narrative
   - institutional
+  statement: Populations under emerging authoritarianism self-adjust their behavior to what they anticipate power will demand,
+    before any demand is made. This pre-compliance is self-reinforcing — each act of anticipatory obedience shifts the baseline
+    of what is normal, making the next demand more extreme and more acceptable. The powerful never needed to ask for what
+    was freely given.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
-    note: |-
-      in 1930s Germany and
+    note: 'in 1930s Germany and
+
       Austria, citizens, businesses, and institutions implemented anti-Jewish
+
       measures before they were legally required — and often went further than
-      anything the regime had demanded
+
+      anything the regime had demanded'
   - source_id: arendt-origins-of-totalitarianism
     source_type: principle
     variant: null
-    note: |-
-      atomization as the structural
-      prerequisite that makes anticipatory compliance the individually rational response
+    note: 'atomization as the structural
+
+      prerequisite that makes anticipatory compliance the individually rational response'
   - source_id: 2026-03-01-guardian-article-israel-embracing-militarism-iran
     source_type: analysis
     variant: null
-    note: |-
-      institutional-
-      political variant: Israeli political opposition — including Netanyahu's "bitter
+    note: 'institutional-
+
+      political variant: Israeli political opposition — including Netanyahu''s "bitter
+
       rivals" — instantly set aside fierce domestic debate about October 7 responsibility
+
       to join the war consensus. Not individual pre-compliance but institutional-political
-      pre-compliance: an entire opposit...
+
+      pre-compliance: an entire opposit...'
   - source_id: project-2025-mandate-for-leadership
     source_type: principle
     variant: null
-    note: |-
-      the personnel mechanisms
+    note: 'the personnel mechanisms
+
       — Schedule F at-will reclassification, loyalty vetting, union elimination, political
+
       appointee saturation — create the structural conditions for anticipatory obedience.
+
       Career employees who know they can be terminated at will for policy disagreement
-      will self-censor befor...
+
+      will self-censor befor...'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.087
-  confidence_level: SUPPORTED
-  relevant_corpus_size: 46
+  confidence_ratio: 0.207
+  confidence_level: ESTABLISHED
+  relevant_corpus_size: 58
+  corr_count: 12
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
   layers:
   - legal_regulatory
   - institutional
+  statement: Institutions and professionals voluntarily abandon their structural roles under pressure or anticipation of pressure,
+    creating the vacuum that authoritarianism fills. Distinct from institutional capture (where the institution is actively
+    redirected by external actors) — here the institution simply stops functioning because its constituent professionals individually
+    calculate that compliance is safer than independence.
   circumventions:
   - institutional_reform
   originated_by: null
@@ -1347,34 +1650,44 @@ entries:
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
-    note: |-
-      the Weimar Republic's
+    note: 'the Weimar Republic''s
+
       institutions were formally intact when Hitler became chancellor; they were
+
       hollowed out through Gleichschaltung — the self-coordination of professional
+
       associations, universities, and media organizations; many cooperated in their
-      own neutralization
+
+      own neutralization'
   - source_id: hartmann-hidden-history-american-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      courts and
+    note: 'courts and
+
       regulatory agencies progressively abandoned their counterforce roles — not through
+
       sudden collapse but through incremental doctrinal shifts (corporate rights
+
       escalation) and deliberate funding cuts; the Powell Memo campaign targeted judicial
-      selection to produce this abdication through...
+
+      selection to produce this abdication through...'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      federal agencies — USDA, WPA,
+    note: 'federal agencies — USDA, WPA,
+
       and others — abdicated their redistributive function under local political pressure
+
       because their implementation depended on planter-controlled local institutions;
+
       the agencies cooperated with planter interests not through corruption but through
-      structural dependency...
+
+      structural dependency...'
   counter_evidence: []
-  confidence_ratio: 0.0682
-  confidence_level: ESTABLISHED
-  relevant_corpus_size: 44
+  confidence_ratio: 0.189
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 53
+  corr_count: 10
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -1382,6 +1695,9 @@ entries:
   - economic
   - legal_regulatory
   - institutional
+  statement: In the absence of catastrophic disruption, inequality increases as a structural default. The mechanisms of concentration
+    operate continuously during stability and are resisted only weakly by non-catastrophic counterforces. Extended stability
+    corresponds to increasing concentration across all known civilizations.
   circumventions:
   - economic_alternative
   - catastrophic_leveling
@@ -1390,82 +1706,102 @@ entries:
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
-    note: |-
-      r > g as the mathematical expression of the ratchet; the post-WWII compression
+    note: 'r > g as the mathematical expression of the ratchet; the post-WWII compression
+
       unwinding from the 1980s as the ratchet reasserting; progressive taxation as the
-      maintenance mechanism that erodes
+
+      maintenance mechanism that erodes'
   - source_id: scheidel-the-great-leveler
     source_type: principle
     variant: null
-    note: |-
-      the peacetime default confirmed
+    note: 'the peacetime default confirmed
+
       across all known civilizations — Rome, China, Mesoamerica, medieval and modern
-      Europe; the impermanence of equality as the ratchet's temporal dimension — every
-      historical compression has been followed by return to concentration
+
+      Europe; the impermanence of equality as the ratchet''s temporal dimension — every
+
+      historical compression has been followed by return to concentration'
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      civil oligarchy is the institutional form
+    note: 'civil oligarchy is the institutional form
+
       the ratchet takes in democracies — the wealth defense industry is the institutional
-      apparatus that executes concentration during stability through legal channels
+
+      apparatus that executes concentration during stability through legal channels'
   - source_id: hartmann-hidden-history-american-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the American cyclical
+    note: 'the American cyclical
+
       history — Gilded Age → Progressive Era → New Deal → neoliberal era — is a
-      periodized instantiation; each post-compression period erodes within decades
+
+      periodized instantiation; each post-compression period erodes within decades'
   - source_id: graeber-debt-the-first-5000-years
     source_type: principle
     variant: null
-    note: |-
-      debt accumulation during
+    note: 'debt accumulation during
+
       stability is a specific mechanism of the ratchet — interest compounds, debts grow,
+
       without counterforce the endpoint is universal debt bondage; historical societies
-      recognized this and created jubilee mechanisms to reset
+
+      recognized this and created jubilee mechanisms to reset'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      the post-Civil War and post-
+    note: 'the post-Civil War and post-
+
       civil rights reconcentration in the Delta both follow the ratchet — each period of
+
       imposed equality is followed by reconcentration through undisrupted layers; the
+
       Delta adds a specific observation: the ratchet operates not just through economic
-      mechanisms but through ...
+
+      mechanisms but through ...'
   - source_id: guriev-rachinsky-role-of-oligarchs
     source_type: principle
     variant: null
-    note: |-
-      Putin-era stability as the ratchet
+    note: 'Putin-era stability as the ratchet
+
       operating in a post-transition economy — "ownership concentration in modern Russia...
-      is likely to increase further as Russia's natural monopolies are reformed and
+
+      is likely to increase further as Russia''s natural monopolies are reformed and
+
       privatized"; the selective reform trap ensures the ratchet continues — reforms that
-      would create c...
+
+      would create c...'
   - source_id: project-2025-mandate-for-leadership
     source_type: principle
     variant: null
-    note: |-
-      the asymmetric ratchet:
+    note: 'the asymmetric ratchet:
+
       consolidation mechanisms are concrete, specific, and immediately actionable while
+
       dispersal promises are aspirational and structurally unenforceable. Once Schedule F
+
       reclassifies tens of thousands of positions, restoring protections requires new
-      legislation. Once oversight...
+
+      legislation. Once oversight...'
   - source_id: 2026-02-rand-research-medicaid-obbba-state-impacts
     source_type: analysis
     variant: null
-    note: |-
-      the OBBBA reconciliation
+    note: 'the OBBBA reconciliation
+
       as the ratchet operating through legislative process — $664B removed from Medicaid,
+
       $4.5T in tax cuts ($2.3T to the top 10%), within a single vehicle. The reconciliation
+
       procedure is the institutional mechanism: budget constraints prevent filibuster, enabling
-      directional ...
+
+      directional ...'
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.1875
-  confidence_level: ESTABLISHED
-  relevant_corpus_size: 48
+  confidence_ratio: 0.193
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 57
+  corr_count: 11
 - id: compression_through_destruction
   name: Compression Through Destruction
   file: patterns/compression-through-destruction.md
@@ -1473,32 +1809,42 @@ entries:
   - economic
   - institutional
   - physical_coercive
+  statement: Significant, lasting reductions in inequality have historically been achieved not through redistribution (lifting
+    the bottom) but through compression (destroying the top). The mechanism is the destruction of capital, elites, and institutional
+    structures that maintain concentration — not the creation of new structures that distribute wealth more equally.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: scheidel-the-great-leveler
     source_type: principle
     variant: null
-    note: |-
-      the Four Horsemen
+    note: 'the Four Horsemen
+
       of Leveling — mass mobilization warfare, transformative revolution, state collapse,
-      and lethal pandemics; post-WWII Europe's "economic miracle" was built on a base
+
+      and lethal pandemics; post-WWII Europe''s "economic miracle" was built on a base
+
       compressed by wartime capital destruction; the Black Death raised wages 50-100%
-      by killing laborers, not by creatin...
+
+      by killing laborers, not by creatin...'
   - source_id: graeber-debt-the-first-5000-years
     source_type: principle
     variant: null
-    note: |-
-      provides significant
+    note: 'provides significant
+
       counter-evidence to the *exclusivity* of catastrophic compression. The Mesopotamian/
+
       biblical debt jubilee tradition demonstrates that non-catastrophic structural
+
       counterforces to concentration existed and functioned for millennia. Combined with
-      Hartmann's Progressive Era/New...
+
+      Hartmann''s Progressive Era/New...'
   counter_evidence:
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.0417
+  confidence_ratio: 0.051
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 48
+  relevant_corpus_size: 59
+  corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
   file: patterns/wealth-defense-industry.md
@@ -1506,65 +1852,86 @@ entries:
   - economic
   - legal_regulatory
   - institutional
+  statement: Concentrated wealth generates a specialized professional class — lawyers, accountants, lobbyists, financial advisors,
+    trust officers, wealth managers — whose structural function is to defend and grow that wealth. This industry operates
+    with its own institutional momentum, expanding the scope of wealth defense regardless of any individual oligarch's instructions.
+    It is the civil oligarchy's functional equivalent of arms.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the US wealth defense industry
+    note: 'the US wealth defense industry
+
       employs more professionals than the IRS; the "tax gap" of hundreds of billions
+
       is enabled by the complexity that wealth defense professionals create and exploit;
+
       comparative evidence from Singapore and Indonesia shows different forms of the
-      same function
+
+      same function'
   - source_id: powell-memo
     source_type: principle
     variant: null
-    note: |-
-      the documented strategic origin — Powell's proposal
+    note: 'the documented strategic origin — Powell''s proposal
+
       for permanent institutional infrastructure (think tanks, legal organizations,
+
       endowed chairs) that would generate favorable research, litigation, and narrative
+
       autonomously for decades; the subsequent construction of the Heritage Foundation,
-      Cat...
+
+      Cat...'
   - source_id: whitehouse-the-scheme
     source_type: principle
     variant: null
-    note: |-
-      the dark money pipeline — Donors Trust,
+    note: 'the dark money pipeline — Donors Trust,
+
       Donors Capital Fund, and operational organizations — is the judicial branch of the
+
       wealth defense industry; it provides the funding infrastructure for judicial
-      selection, confirmation campaigns, amicus coordination, and case manufacturing
+
+      selection, confirmation campaigns, amicus coordination, and case manufacturing'
   - source_id: guriev-rachinsky-role-of-oligarchs
     source_type: principle
     variant: null
-    note: |-
-      RSPP as the Russian instantiation
-      — oligarchs captured the pre-existing employers' association in 2000, created
+    note: 'RSPP as the Russian instantiation
+
+      — oligarchs captured the pre-existing employers'' association in 2000, created
+
       taskforces that drafted legislation, secured regular presidential meetings, and
+
       provided "advice" to government and parliament on legislative changes; the RSPP
-      functioned as the institu...
+
+      functioned as the institu...'
   - source_id: alley-very-bad-people
     source_type: principle
     variant: null
-    note: |-
-      A1 extends the pattern from domestic
+    note: 'A1 extends the pattern from domestic
+
       wealth defense to transnational kleptocratic enablement. The same professional
+
       class (lawyers, bankers, accountants, trust officers) serves both domestic
+
       oligarchs and foreign kleptocrats. The enabler architecture operates legally —
-      shell companies, nominee di...
+
+      shell companies, nominee di...'
   - source_id: 2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering
     source_type: analysis
     variant: null
-    note: |-
-      extends the pattern to the information layer. Portland Communications operates as
+    note: 'extends the pattern to the information layer. Portland Communications operates as
+
       reputation defence infrastructure at the Thought & Narrative layer — PR firms
-      performing the same structural function as Winters's lawyers and accountants but
-      operating through controlled information platforms (Wiki...
+
+      performing the same structural function as Winters''s lawyers and accountants but
+
+      operating through controlled information platforms (Wiki...'
   counter_evidence: []
-  confidence_ratio: 0.125
-  confidence_level: PRELIMINARY
-  relevant_corpus_size: 48
+  confidence_ratio: 0.14
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 57
+  corr_count: 8
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
   file: patterns/democracy-oligarchy-coexistence.md
@@ -1573,6 +1940,9 @@ entries:
   - economic
   - legal_regulatory
   - institutional
+  statement: Formal democracy and substantive oligarchy can operate simultaneously within the same polity without visible
+    contradiction. Democratic institutions handle issues that don't affect wealth concentration; oligarchic mechanisms handle
+    those that do. The coexistence is not a contradiction but a structural configuration.
   circumventions:
   - electoral_democratic
   - legal_challenge
@@ -1581,40 +1951,49 @@ entries:
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the US simultaneously maintains
+    note: 'the US simultaneously maintains
+
       democratic elections and extreme wealth concentration; policy outcomes correlate
-      with preferences of the wealthy, not the median voter — Gilens and Page 2014
+
+      with preferences of the wealthy, not the median voter — Gilens and Page 2014'
   - source_id: hartmann-hidden-history-american-oligarchy
     source_type: principle
     variant: null
-    note: |-
-      the American cyclical
+    note: 'the American cyclical
+
       history shows democracy and oligarchy as recurring structural opponents, but
-      Hartmann's analysis implies they have been coexisting continuously — the "cycles"
-      are shifts in the balance, not alternations between pure types
+
+      Hartmann''s analysis implies they have been coexisting continuously — the "cycles"
+
+      are shifts in the balance, not alternations between pure types'
   - source_id: whitehouse-the-scheme
     source_type: principle
     variant: null
-    note: |-
-      the formal judicial process
+    note: 'the formal judicial process
+
       operates — nominations, confirmations, organic cases, public amicus briefs — while
+
       the substantive selection, signaling, and case manufacturing is controlled by dark
-      money; the judicial domain demonstrates the coexistence at the institutional level
+
+      money; the judicial domain demonstrates the coexistence at the institutional level'
   - source_id: guriev-rachinsky-role-of-oligarchs
     source_type: principle
     variant: null
-    note: |-
-      the most extreme empirical
-      case documented — top 10 families control 60.2% of Russian stock market; Putin's pact
+    note: 'the most extreme empirical
+
+      case documented — top 10 families control 60.2% of Russian stock market; Putin''s pact
+
       explicitly partitions the space: oligarchs stay out of politics, state stays out of
+
       business; RSPP lobbies selectively for reforms that benefit incumbents while blocking
-      competition-en...
+
+      competition-en...'
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.0833
+  confidence_ratio: 0.254
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 48
+  relevant_corpus_size: 59
+  corr_count: 15
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -1622,40 +2001,54 @@ entries:
   - thought_narrative
   - economic
   - legal_regulatory
+  statement: Economic power operates not primarily through material coercion but through a moral vocabulary that converts
+    economic relationships into moral obligations. The debtor who "must pay," the worker who "owes loyalty," the citizen who
+    has a "patriotic duty" — each is morally enlisted into compliance with a power relationship. Resistance to the economic
+    relationship appears as moral failure rather than structural critique.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: graeber-debt-the-first-5000-years
     source_type: principle
     variant: null
-    note: |-
-      the moral
-      language of debt — "one must pay one's debts" — across 5,000 years of civilization;
-      Mesopotamian debt bondage justified by moral obligation; the IMF's structural
+    note: 'the moral
+
+      language of debt — "one must pay one''s debts" — across 5,000 years of civilization;
+
+      Mesopotamian debt bondage justified by moral obligation; the IMF''s structural
+
       adjustment programs imposed under the moral imperative that sovereign debts must be
-      honored regardless of how they were incur...
+
+      honored regardless of how they were incur...'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      sharecropper debt framed as
+    note: 'sharecropper debt framed as
+
       moral obligation — the tenant who "owed" the planter was morally enlisted into
+
       compliance with an extractive relationship; the crop lien system created perpetual
+
       indebtedness justified by the moral language of obligation and honor, reproducing
-      the extraction relationsh...
+
+      the extraction relationsh...'
   - source_id: schimpfossl-oligarch-moralities-of-wealth
     source_type: principle
     variant: null
-    note: |-
-      the
+    note: 'the
+
       Soviet intelligentsia identity provides the moral vocabulary for the oligarchic
+
       position — "inner strength," "work ethic," "discipline," "culture" — converting
+
       the structural relationship of wealth concentration into a narrative of deserved
-      moral standing. P3: the "good"/"bad" wealth distinct...
+
+      moral standing. P3: the "good"/"bad" wealth distinct...'
   counter_evidence: []
-  confidence_ratio: 0.0625
+  confidence_ratio: 0.051
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 48
+  relevant_corpus_size: 59
+  corr_count: 3
 - id: capture_pipeline
   name: The Capture Pipeline
   file: patterns/capture-pipeline.md
@@ -1664,6 +2057,11 @@ entries:
   - legal_regulatory
   - institutional
   - surveillance_information
+  statement: 'Institutional capture operates through a multi-stage, infrastructure-based pipeline: (1) selection of personnel
+    through a privately controlled vetting process, (2) installation through funded campaigns, (3) signaling of desired outcomes
+    through formal channels repurposed for coordination, (4) manufacturing of inputs (cases, comments, testimony) designed
+    to produce specific outputs, (5) reward structures for compliant participants. The pipeline operates through formal institutional
+    processes, not around them — satisfying formal requirements while controlling substantive outcomes.'
   circumventions:
   - legal_challenge
   - institutional_reform
@@ -1672,43 +2070,56 @@ entries:
   - source_id: whitehouse-the-scheme
     source_type: principle
     variant: null
-    note: |-
-      the complete
+    note: 'the complete
+
       five-part apparatus for judicial capture: the Federalist Society selection pipeline,
+
       dark money-funded confirmation campaigns, coordinated amicus brief filings, case
+
       manufacturing through shell organizations, and speaking engagement/travel rewards
-      for compliant justices
+
+      for compliant justices'
   - source_id: powell-memo
     source_type: principle
     variant: null
-    note: |-
-      the strategic blueprint — Powell proposed the
-      pipeline's construction: multi-front institutional campaign, courts as priority target,
+    note: 'the strategic blueprint — Powell proposed the
+
+      pipeline''s construction: multi-front institutional campaign, courts as priority target,
+
       permanent infrastructure investment; the subsequent construction of the Federalist
+
       Society, Heritage Foundation, and legal organizations followed this design),
-      ana...
+
+      ana...'
   - source_id: guriev-rachinsky-role-of-oligarchs
     source_type: principle
     variant: null
-    note: |-
-      RSPP capture as fifth documented
+    note: 'RSPP capture as fifth documented
+
       domain: oligarchs captured RSPP governance → created taskforces → drafted legislation →
+
       secured regular presidential meetings → provided "advice" on legislative changes.
+
       The pipeline operates through a legitimate business association. Fifth domain: economic
-      policy...
+
+      policy...'
   - source_id: project-2025-mandate-for-leadership
     source_type: principle
     variant: null
-    note: |-
-      the document IS
+    note: 'the document IS
+
       a capture pipeline specification — the most operationally detailed in the corpus. It
+
       describes every stage: personnel selection (Schedule F reclassification, PPO centralized
+
       vetting, loyalty screening), installation (Day One executive orders, political appointee
-      saturation at ever...
+
+      saturation at ever...'
   counter_evidence: []
-  confidence_ratio: 0.0833
+  confidence_ratio: 0.158
   confidence_level: SUPPORTED
-  relevant_corpus_size: 48
+  relevant_corpus_size: 57
+  corr_count: 9
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -1719,49 +2130,65 @@ entries:
   - institutional
   - surveillance_information
   - physical_coercive
+  statement: A power structure that operates through multiple layers simultaneously can survive regime changes that disrupt
+    only some layers — by adapting the form of control at the disrupted layers while maintaining structural continuity through
+    the undisrupted layers. The forms change; the structure persists; the celebrations of progress occur; the extraction continues.
   circumventions: []
   originated_by: null
   observed_in:
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
-    note: |-
-      the Mississippi
-      Delta's planter elite surviving five major regime changes — abolition, Reconstruction,
+    note: 'the Mississippi
+
+      Delta''s planter elite surviving five major regime changes — abolition, Reconstruction,
+
       populism, the New Deal, civil rights — over 150 years; the same families controlling
+
       Delta land before and after each "revolution"; at each transition, control migrated
-      from disrupted layers to ...
+
+      from disrupted layers to ...'
   - source_id: guriev-rachinsky-role-of-oligarchs
     source_type: principle
     variant: null
-    note: |-
-      Soviet nomenklatura converting de
+    note: 'Soviet nomenklatura converting de
+
       facto control to formal ownership through privatization — "the older oligarchs have
+
       typically come from Soviet-era nomenklatura... they converted their de facto control
+
       into ownership rights." The formal political transformation (Soviet Union → Russian
-      Federation...
+
+      Federation...'
   - source_id: browne-dark-matters
     source_type: principle
     variant: null
-    note: |-
-      B1, B3 (the entire book organized
+    note: 'B1, B3 (the entire book organized
+
       around this pattern — branding → biometrics, slave patrol → police, pass → passport,
+
       no-sail list → no-fly list, lantern law → racial profiling; each transformation changes
+
       form while the structural function of identifying, documenting, and controlling
-      racialized...
+
+      racialized...'
   - source_id: schimpfossl-oligarch-moralities-of-wealth
     source_type: principle
     variant: null
-    note: |-
-      Soviet
+    note: 'Soviet
+
       intelligentsia → oligarch: the formal system changed from socialism to capitalism,
+
       but social elites maintained continuity through cultural capital conversion. "Almost
+
       all of them emphasize the legacy of their Soviet intelligentsia upbringing."
-      Intelligentsia backgrounds provided "cultural...
+
+      Intelligentsia backgrounds provided "cultural...'
   counter_evidence: []
-  confidence_ratio: 0.0833
+  confidence_ratio: 0.136
   confidence_level: SUPPORTED
-  relevant_corpus_size: 48
+  relevant_corpus_size: 59
+  corr_count: 8
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
@@ -1769,61 +2196,78 @@ entries:
   - thought_narrative
   - institutional
   - surveillance_information
+  statement: Propaganda persists not because it is imposed but because it is structurally needed — by those who exercise power
+    (to govern at scale without continuous coercion) and by those subject to it (to reduce anxiety, provide certainty, and
+    create belonging in an atomized society). The demand side stabilizes the supply.
   circumventions: []
   originated_by: ellul-propaganda
   observed_in:
   - source_id: ellul-propaganda
     source_type: principle
     variant: null
-    note: |-
-      the propagandee's need — the governed
+    note: 'the propagandee''s need — the governed
+
       actively seek propaganda to cope with the anxiety and complexity of technological society;
+
       the demand side drives the supply side; the intellectual who reads five newspapers is more
-      propagandized than the peasant who reads nothing
+
+      propagandized than the peasant who reads nothing'
   - source_id: 2026-03-atlantic-essay-cynical-gullible-american-man
     source_type: analysis
     variant: null
-    note: |-
-      the demand side documented
+    note: 'the demand side documented
+
       in real time: "gullicists" actively seek conspiracy narratives for certainty, identity,
-      self-esteem, and "the feeling that consumers can prove they're smarter than those snooty
+
+      self-esteem, and "the feeling that consumers can prove they''re smarter than those snooty
+
       experts." The "One True Reason" syndrome — autism → vaccines, no housing → immigrants — is
-      th...
+
+      th...'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.0426
+  confidence_ratio: 0.051
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 47
+  relevant_corpus_size: 59
+  corr_count: 3
 - id: categorical_blindness
   name: Categorical Blindness
   file: patterns/categorical-blindness.md
   layers:
   - thought_narrative
   - surveillance_information
+  statement: Systems of oppression organized along single axes produce structural invisibility at their intersections. Populations
+    at the intersection of multiple systems are invisible to analyses, movements, and institutions organized around any single
+    axis.
   circumventions: []
   originated_by: hooks-aint-i-a-woman
   observed_in:
   - source_id: hooks-aint-i-a-woman
     source_type: principle
     variant: null
-    note: |-
-      Black women invisible to both
+    note: 'Black women invisible to both
+
       feminism and Black liberation movements because each uses its most privileged member
-      as the default subject
+
+      as the default subject'
   - source_id: browne-dark-matters
     source_type: principle
     variant: null
-    note: |-
-      B3, B4 (biometric systems
+    note: 'B3, B4 (biometric systems
+
       designed around single-axis defaults produce technical failure at intersections —
+
       gender-nonconforming bodies processed by gender classifiers, natural Black hairstyles
+
       flagged by body scanners calibrated to straight hair, the HP webcam that could not
-      detect Black faces. ...
+
+      detect Black faces. ...'
   counter_evidence:
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.0476
+  confidence_ratio: 0.038
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 42
+  relevant_corpus_size: 52
+  corr_count: 2
 - id: boomerang
   name: The Boomerang
   file: patterns/boomerang.md
@@ -1831,6 +2275,8 @@ entries:
   - legal_regulatory
   - institutional
   - physical_coercive
+  statement: Methods of domination developed at the periphery of a political system — in colonies, zones of exception, or
+    territories where normal constraints do not apply — migrate to the center and are applied to domestic populations.
   circumventions:
   - international_pressure
   originated_by: arendt-origins-of-totalitarianism
@@ -1838,28 +2284,35 @@ entries:
   - source_id: arendt-origins-of-totalitarianism
     source_type: principle
     variant: null
-    note: |-
-      the Boomerang Thesis
+    note: 'the Boomerang Thesis
+
       — techniques of colonial domination returned to Europe; the camps and racial
-      classification systems of imperialism became the raw material for totalitarianism
+
+      classification systems of imperialism became the raw material for totalitarianism'
   - source_id: 2026-03-02-wikipedia-article-operation-metro-surge
     source_type: analysis
     variant: null
-    note: |-
-      warrantless home entry,
+    note: 'warrantless home entry,
+
       drones, overwhelming force, denial of access — methods documented in foreign military
+
       operations applied domestically in Minneapolis; participants explicitly cited the
-      pattern; Trump compared the operation to the Venezuela intervention
+
+      pattern; Trump compared the operation to the Venezuela intervention'
   - source_id: browne-dark-matters
     source_type: principle
     variant: null
-    note: |-
-      B1, B3 extend with a domestic
+    note: 'B1, B3 extend with a domestic
+
       variant: surveillance technologies developed for enslaved populations were generalized
+
       to all populations. The slave patrol became the police force. Pass systems became
+
       passports. Branding became biometric identification. The no-sail list became the
-      no-fly list. The ...
+
+      no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.0652
-  confidence_level: SUPPORTED
-  relevant_corpus_size: 46
+  confidence_ratio: 0.088
+  confidence_level: PRELIMINARY
+  relevant_corpus_size: 57
+  corr_count: 5

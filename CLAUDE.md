@@ -8,21 +8,30 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `constitution.md` — Foundational axioms about how power operates
 - `taxonomy.md` — The layers of power (thought, economic, legal, institutional, surveillance, physical)
 - `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM, SUGGEST, SAMPLE modes)
-- `patterns/INDEX.md` — Compact pattern lookup table (always loaded)
+- `patterns/INDEX.md` — Compact pattern lookup table (always loaded; generated from YAML)
 - `patterns/` — Individual pattern files with full evidence trails (loaded selectively)
 - `circumventions.md` — Observed responses to power concentration (always loaded)
 - `circumventions-detail.md` — Full evidence trails per circumvention (loaded for audits)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
-- `principles/INDEX.md` — Compact principles lookup table (always loaded)
+- `principles/INDEX.md` — Compact principles lookup table (always loaded; generated from YAML)
 - `principles/` — Full principles files (loaded selectively)
-- `sources/INDEX.md` — Source provenance lookup table
+- `sources/INDEX.md` — Source provenance lookup table (generated from YAML)
 - `sources/` — Full provenance records per source (hash, archive links, extraction status)
-- `sources/sample-pool.md` — Categorized source pool for SAMPLE mode randomization
-- `calibration/sample-log.md` — Append-only tracking log for SAMPLE mode calibration runs
+- `sources/sample-pool.md` — Categorized source pool for SAMPLE mode (generated from YAML)
+- `data/` — YAML data files (single source of truth for structured metadata)
+- `data/analyses.yaml` — Analysis registry (authoritative for analysis metadata)
+- `data/patterns.yaml` — Pattern corroboration data (observed_in is computed)
+- `data/principles.yaml` — Extracted principle sources
+- `data/calibration.yaml` — SAMPLE mode calibration tracking log
+- `data/sample-pool.yaml` — Source pool for SAMPLE mode randomization
+- `data/config.yaml` — Shared enumerations, thresholds, and domain definitions
 - `evidence/` — Concrete facts, data, cases that ground the framework
+- `analyses/INDEX.md` — Analysis registry (generated from YAML)
 - `analyses/` — Applied analyses of specific material
 - `BACKLOG.md` — Prioritized recommendations from SUGGEST mode diagnostics (living document)
-- `tools/build-viewer.py` — Generates `viewer.html` + `viewer-data.js` (both checked in)
+- `tools/build-viewer.py` — Generates `viewer.html` + `viewer-data.js`
+- `tools/generate-indexes.py` — Generates INDEX.md files from YAML data
+- `tools/build-all.py` — Orchestrator: runs build-viewer.py then generate-indexes.py
 - `tools/fetch-article.py` — URL content extraction fallback
 - `tests/` — Automated test suite (IC-6): unit tests, integration tests, YAML integrity checks
 
@@ -74,12 +83,17 @@ self-contained, traceable unit of work.
 
 ## Viewer
 
-`tools/build-viewer.py` generates a static viewer from all framework
-markdown files. Run `python3 tools/build-viewer.py` to rebuild. Output
-is `viewer.html` + `viewer-data.js` (gitignored — generated on demand).
+`tools/build-all.py` runs the full build pipeline:
+1. `build-viewer.py` — computes corroboration, generates viewer.html + viewer-data.js
+2. `generate-indexes.py` — generates INDEX.md files from YAML data
 
-After writing any analysis or extraction files, always run
-`python3 tools/build-viewer.py && open viewer.html` to verify.
+Run `python3 tools/build-all.py && open viewer.html` after writing any
+analysis or extraction files.
+
+INDEX.md files are generated from `data/*.yaml` and checked into git so
+the framework context is always available without a build step. The YAML
+files in `data/` are the single source of truth for structured metadata.
+Do not hand-edit INDEX.md files — edit the YAML and regenerate.
 
 The viewer has three top-level nav items: Dashboard (landing page with
 integrity bar, corpus stats, recent analyses, works studied, layer

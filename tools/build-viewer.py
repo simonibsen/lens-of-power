@@ -200,32 +200,57 @@ def compute_corroboration(nodes, edges):
         p["meta"]["corr_has_counter"] = has_counter
 
 
-def sync_corroboration_to_markdown(nodes):
-    """Write computed corroboration values back to patterns/INDEX.md."""
-    patterns = [n for n in nodes if n["type"] == "pattern"]
+def sync_corroboration_to_yaml(nodes):
+    """Write computed corroboration values back to data/patterns.yaml.
 
-    index_path = ROOT / "patterns" / "INDEX.md"
-    if not index_path.exists():
+    Updates confidence_level, confidence_ratio, and relevant_corpus_size
+    so that generate-indexes.py can produce accurate CONFIDENCE lines.
+    """
+    patterns = [n for n in nodes if n["type"] == "pattern"]
+    yaml_path = ROOT / "data" / "patterns.yaml"
+    if not yaml_path.exists():
         return
-    text = index_path.read_text(encoding="utf-8")
-    changed = False
+
+    original = yaml_path.read_text(encoding="utf-8")
+    data = yaml.safe_load(original)
+    if not data:
+        return
+
+    # Build pattern title → computed values mapping
+    computed = {}
     for p in patterns:
-        name = p["title"]
-        new_corr = p["meta"]["corroboration"]
-        pat = re.compile(
-            r"(## \[" + re.escape(name) + r"\].*?CONFIDENCE:\s*)"
-            r"(.+?)(?=\n\n|\n[A-Z][A-Z _]+:|\n## |\Z)",
-            re.DOTALL,
-        )
-        m = pat.search(text)
-        if m:
-            old_val = m.group(2).strip()
-            if old_val != new_corr:
-                text = text[:m.start(2)] + new_corr + text[m.end(2):]
-                changed = True
+        computed[p["title"]] = {
+            "confidence_level": p["meta"].get("corr_level", "PRELIMINARY"),
+            "confidence_ratio": p["meta"].get("corr_hit_rate", 0.0),
+            "relevant_corpus_size": p["meta"].get("corr_relevant", 0),
+            "corr_count": p["meta"].get("corr_count", 0),
+        }
+
+    entries = data.get("entries", [])
+    changed = False
+    for entry in entries:
+        name = entry.get("name", "")
+        if name in computed:
+            c = computed[name]
+            for key in ("confidence_level", "confidence_ratio", "relevant_corpus_size", "corr_count"):
+                if entry.get(key) != c[key]:
+                    entry[key] = c[key]
+                    changed = True
+
     if changed:
-        index_path.write_text(text, encoding="utf-8")
-        print(f"Updated corroboration in patterns/INDEX.md")
+        # Preserve header comment
+        marker = "\nentries:\n"
+        idx = original.find(marker)
+        header = original[:idx + 1] if idx != -1 else ""
+        dumped = yaml.dump(
+            {"entries": entries},
+            default_flow_style=False,
+            allow_unicode=True,
+            width=120,
+            sort_keys=False,
+        )
+        yaml_path.write_text(header + dumped, encoding="utf-8")
+        print("Updated corroboration in data/patterns.yaml")
 
 
 # ---------------------------------------------------------------------------
@@ -306,32 +331,34 @@ def compute_health_metrics(nodes):
             if make_timestamp(a) > last_red_team_ts
         )
 
-    # 4. Calibration stats from sample log
+    # 4. Calibration stats from data/calibration.yaml
     calibration = {"total": 0, "accepted": 0, "plausible": 0, "rejected": 0,
                    "unacted_escalations": 0}
-    sample_log = ROOT / "calibration" / "sample-log.md"
-    if sample_log.exists():
-        for line in sample_log.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line.startswith("|") or line.startswith("| Date") or line.startswith("|---"):
-                continue
-            cols = [c.strip() for c in line.split("|")]
-            # cols: ['', date, outlet, article, category, null_case, escalation, axis_tags, '']
-            if len(cols) >= 8:
-                calibration["total"] += 1
-                nc = cols[5].lower()
-                if nc in calibration:
-                    calibration[nc] += 1
-                esc = cols[6].lower()
-                if esc in ("analyze", "extract"):
-                    calibration["unacted_escalations"] += 1
+    cal_yaml_path = ROOT / "data" / "calibration.yaml"
+    if cal_yaml_path.exists():
+        cal_data = yaml.safe_load(cal_yaml_path.read_text(encoding="utf-8")) or {}
+        cal_stats = cal_data.get("stats", {})
+        calibration["total"] = cal_stats.get("total_samples", 0)
+        calibration["accepted"] = cal_stats.get("null_accepted", 0)
+        calibration["plausible"] = cal_stats.get("null_plausible", 0)
+        calibration["rejected"] = cal_stats.get("null_rejected", 0)
+        # Count unacted escalations from entries
+        for entry in cal_data.get("entries", []):
+            esc = (entry.get("escalation") or "").lower()
+            if esc in ("analyze", "extract"):
+                calibration["unacted_escalations"] += 1
 
-    # 5. Adversarial ratio — check both analysis content and INDEX.md
+    # 5. Adversarial ratio — from data/analyses.yaml
     adversarial_files = set()
+    analyses_yaml_data = load_yaml("analyses.yaml")
+    for a in analyses_yaml_data.get("entries", []):
+        if a.get("adversarial"):
+            adversarial_files.add(a["id"])
+    # Also scan analysis content for legacy entries
     for a in analyses:
         if re.search(r'Adversarial input:\s*yes', a.get("content", ""), re.IGNORECASE):
             adversarial_files.add(a["id"])
-    # Also scan INDEX.md for "Adversarial input: yes" entries
+    # Also scan INDEX.md for "Adversarial input: yes" entries (belt and suspenders)
     index_path = ROOT / "analyses" / "INDEX.md"
     if index_path.exists():
         index_text = index_path.read_text(encoding="utf-8")
@@ -694,7 +721,7 @@ def build():
 
     # --- Compute dynamic corroboration (updates pattern nodes) ---
     compute_corroboration(nodes, valid_edges)
-    sync_corroboration_to_markdown(nodes)
+    sync_corroboration_to_yaml(nodes)
 
     # --- Compute framework health metrics ---
     health = compute_health_metrics(nodes)

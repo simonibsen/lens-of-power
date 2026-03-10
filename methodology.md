@@ -131,7 +131,7 @@ becomes subject to the branching check only if the user requests file output.
 After writing analysis or extraction files, rebuild and open the viewer:
 
 ```
-python3 tools/build-viewer.py && open viewer.html
+python3 tools/build-all.py && open viewer.html
 ```
 
 This is not optional — always run it after any file write. The viewer
@@ -672,7 +672,7 @@ After writing an analysis file, update these framework files:
    (`challenges` or `complicates`). Counter-evidence noted but not filed
    is an IC-1 violation — the framework claims falsifiability but hides
    disconfirming data in prose rather than recording it formally.
-5. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+5. **Rebuild viewer** — run `python3 tools/build-all.py && open viewer.html`
 
 This checklist is not optional. An analysis that updates patterns but
 does not file counter-evidence leaves the framework in an inconsistent
@@ -928,7 +928,7 @@ After writing extraction outputs, update these framework files:
    `evidence/` with the appropriate RELATIONSHIP tag (`challenges` or
    `complicates`). Counter-evidence noted but not filed is an IC-1
    violation.
-7. **Rebuild viewer** — run `python3 tools/build-viewer.py && open viewer.html`
+7. **Rebuild viewer** — run `python3 tools/build-all.py && open viewer.html`
 
 This checklist is not optional. An extraction that writes a principles
 file but does not update the framework's cross-referencing files leaves
@@ -1020,7 +1020,7 @@ Review `analyses/INDEX.md` for selection bias:
 - Are there types of material the analyst instinctively avoids
   (corporate governance, functioning democracies, successful reforms)?
   That avoidance is a signal.
-- If `calibration/sample-log.md` exists, compare the calibration null
+- If `data/calibration.yaml` exists, compare the calibration null
   case rate against the analysis diet null case rate. A large delta
   confirms that the analysis diet has systematic positive selection
   bias. Report the delta and assess whether SAMPLE mode is being run
@@ -1125,7 +1125,7 @@ ADVERSARIAL RATIO: [n]/[total] ([percentage])
 BLIND SPOTS: [domains or material types never analyzed]
 ```
 
-**Calibration data**: If `calibration/sample-log.md` exists and contains
+**Calibration data**: If `data/calibration.yaml` exists and contains
 5 or more entries, compute the calibration null case rate and compare it
 with the analysis index null case rate from above.
 
@@ -1145,7 +1145,7 @@ The delta between calibration and analysis rates is diagnostic:
   warrants investigation — it could indicate the analysis diet includes
   material that genuinely lacks power dynamics.
 
-**Unacted escalations**: Scan `calibration/sample-log.md` for entries
+**Unacted escalations**: Scan `data/calibration.yaml` for entries
 where the Escalation column is `analyze` or `extract` but no
 corresponding analysis or extraction exists in `analyses/INDEX.md` or
 `principles/INDEX.md`. List these as pending opportunities — material
@@ -1320,7 +1320,7 @@ reveal power dynamics. SAMPLE mode introduces randomness to measure the
 framework's false positive rate.
 
 No analysis files are written. The only file write is appending to the
-calibration tracking log (`calibration/sample-log.md`). Exempt from
+calibration tracking log (`data/calibration.yaml`). Exempt from
 branching check.
 
 **Input**: None — the mode selects its own material.
@@ -1393,7 +1393,7 @@ tracking entry.
    - `analyze` — material warrants full ANALYZE mode treatment
    - `extract` — material warrants EXTRACT mode treatment
    - `none` — no further action needed
-3. Append a row to `calibration/sample-log.md`:
+3. Append a row to `data/calibration.yaml`:
    ```
    | [YYYY-MM-DD] | [outlet] | [article title, max 60 chars] | [category] | [accepted/plausible/rejected] | [analyze/extract/none] | [axis tags from pool entry] |
    ```
@@ -1408,7 +1408,7 @@ tracking entry.
 
 ### Step 4: REPORT CALIBRATION STATS
 
-Compute calibration statistics from the full `calibration/sample-log.md`.
+Compute calibration statistics from the full `data/calibration.yaml`.
 
 **Do this**:
 1. Read the full log
@@ -1612,7 +1612,8 @@ been verified against a physical copy.
   corpus AND no unresolved counter-evidence). The relevant corpus is
   sources sharing at least one taxonomy layer with the pattern.
   Corroboration levels are computed by the build script
-  (`tools/build-viewer.py`) and written back to `patterns/INDEX.md`.
+  (`tools/build-all.py`) and written back to `data/patterns.yaml`,
+  then regenerated into `patterns/INDEX.md` by `generate-indexes.py`.
   The analyst does not need to compute levels
   manually — the build script handles it after each commit.
 - **Circumvention register**: When documenting circumventions or

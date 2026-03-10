@@ -68,7 +68,7 @@ determining the mode, but before triage or any analytical steps. The
 user should not receive a full analysis and then be asked about branches.
 
 READ mode, SUGGEST mode, and SAMPLE mode are exempt (SAMPLE writes only
-to the diagnostic log `calibration/sample-log.md`).
+to the diagnostic log `data/calibration.yaml`).
 
 ## Execute
 
@@ -163,7 +163,7 @@ recommendations. Use WebSearch for source availability checks when needed.
 Follow the SAMPLE mode procedure in methodology.md. Randomly select an
 outlet from `sources/sample-pool.md`, fetch an article, run READ mode on
 it, classify the null case outcome, append the result to
-`calibration/sample-log.md`, and report calibration statistics. No analysis
+`data/calibration.yaml`, and report calibration statistics. No analysis
 files are written. The user may re-roll the selection but may not substitute
 their own source. If the material warrants escalation (analyze or extract),
 offer to proceed immediately — the resulting work follows standard branching

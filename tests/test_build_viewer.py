@@ -22,7 +22,7 @@ spec.loader.exec_module(build_viewer)
 extract_title = build_viewer.extract_title
 layer_ids_to_names = build_viewer.layer_ids_to_names
 compute_corroboration = build_viewer.compute_corroboration
-sync_corroboration_to_markdown = build_viewer.sync_corroboration_to_markdown
+sync_corroboration_to_yaml = build_viewer.sync_corroboration_to_yaml
 
 
 # ════════════════════════════════════════════════════════════════════
@@ -164,24 +164,32 @@ class TestComputeCorroboration:
 
 
 # ════════════════════════════════════════════════════════════════════
-# sync_corroboration_to_markdown
+# sync_corroboration_to_yaml
 # ════════════════════════════════════════════════════════════════════
 
 
-class TestSyncCorroborationToMarkdown:
-    """Tests for sync_corroboration_to_markdown()."""
+class TestSyncCorroborationToYaml:
+    """Tests for sync_corroboration_to_yaml()."""
 
-    def test_updates_confidence_in_index(self, tmp_path, monkeypatch):
-        """Verify it writes updated confidence to patterns/INDEX.md."""
-        # Create patterns/INDEX.md
-        patterns_dir = tmp_path / "patterns"
-        patterns_dir.mkdir()
-        index = patterns_dir / "INDEX.md"
-        index.write_text(
-            "# Patterns Index\n\n"
-            "## [Test Pattern](test-pattern.md)\n"
-            "LAYERS: Thought & Narrative\n"
-            "CONFIDENCE: PRELIMINARY (1 of 10 relevant sources, 10%)\n\n"
+    def test_updates_confidence_in_yaml(self, tmp_path, monkeypatch):
+        """Verify it writes updated confidence to data/patterns.yaml."""
+        import yaml
+
+        # Create data/patterns.yaml
+        data_dir = tmp_path / "data"
+        data_dir.mkdir()
+        yaml_file = data_dir / "patterns.yaml"
+        yaml_file.write_text(
+            "# Header comment\n"
+            "entries:\n"
+            + yaml.dump({"entries": [{
+                "id": "test_pattern",
+                "name": "Test Pattern",
+                "confidence_level": "PRELIMINARY",
+                "confidence_ratio": 0.1,
+                "relevant_corpus_size": 10,
+                "corr_count": 1,
+            }]}, default_flow_style=False)
         )
 
         # Monkeypatch ROOT
@@ -191,14 +199,22 @@ class TestSyncCorroborationToMarkdown:
             "id": "pattern:Test Pattern",
             "type": "pattern",
             "title": "Test Pattern",
-            "meta": {"corroboration": "ESTABLISHED (8 of 10 relevant sources, 80%)"},
+            "meta": {
+                "corr_level": "ESTABLISHED",
+                "corr_hit_rate": 0.8,
+                "corr_relevant": 10,
+                "corr_count": 8,
+            },
         }]
 
-        sync_corroboration_to_markdown(nodes)
+        sync_corroboration_to_yaml(nodes)
 
-        content = index.read_text()
-        assert "ESTABLISHED (8 of 10 relevant sources, 80%)" in content
-        assert "PRELIMINARY" not in content
+        with open(yaml_file) as f:
+            data = yaml.safe_load(f)
+        entry = data["entries"][0]
+        assert entry["confidence_level"] == "ESTABLISHED"
+        assert entry["confidence_ratio"] == 0.8
+        assert entry["corr_count"] == 8
 
 
 # ════════════════════════════════════════════════════════════════════
