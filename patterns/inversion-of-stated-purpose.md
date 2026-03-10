@@ -105,4 +105,10 @@ and a rabbi who supported the Vietnam war),
 [principles/huxley-brave-new-world.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/huxley-brave-new-world.md): "Community, Identity, Stability" — the World State's motto names the opposite of its function. Genuine community replaced with conditioned social reflexes, genuine identity replaced with manufactured caste identity, "stability" achieved through elimination of everything that makes stability worth having.
 [analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md) ("program integrity" framing characterises coverage reduction as fraud prevention — enrollees who fail work requirements or redetermination deadlines are positioned as integrity problems rather than beneficiaries; the stated purpose (integrity) describes the opposite of the function (disenrollment of 7.6 million people))
 
+OBSERVED IN: [analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md) (regime-level
+instantiation: the nonproliferation regime, designed to prevent nuclear weapons
+acquisition, produces the rational incentive for it — military enforcement against
+non-nuclear states demonstrates that nuclear possession prevents attack while
+non-possession enables it. The system produces the condition it claims to prevent.)
+
 EVIDENCE: evidence/2026-03-01-minab-school-strike.md

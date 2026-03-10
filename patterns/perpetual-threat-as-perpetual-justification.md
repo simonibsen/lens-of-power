@@ -46,4 +46,10 @@ the war is profitable. Analyst Zonszein identifies only external circuit-breaker
 economic cost to Israelis, mass Israeli casualties, or international intervention.
 The perpetual threat frame is reinforced by prosperity, not just fear.)
 
+OBSERVED IN: [analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md) (Trump claimed
+Iran "only weeks away" from nuclear weapon "without offering evidence" —
+unsubstantiated threat claim justifying military action, structural parallel
+to Iraq 2003 WMD claims. The pattern operates at the international level:
+the evidence-free WMD claim as a recurring precursor to military action.)
+
 EVIDENCE: evidence/2026-03-01-iran-fm-diplomacy-during-attacks.md

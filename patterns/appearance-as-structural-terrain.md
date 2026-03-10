@@ -135,3 +135,13 @@ vs. Congressional war powers — adds a second layer of appearance: the debate a
 to be about constitutional principle when it is structurally about whether the
 legislature will exercise or abdicate its role),
 [principles/huxley-brave-new-world.md](https://github.com/simonibsen/lens-of-power/blob/main/principles/huxley-brave-new-world.md): The entire World State operates through appearance — the appearance of freedom (sexual freedom without emotional depth), the appearance of choice (consumer goods within manufactured preferences), the appearance of community (solidarity services without genuine connection). The gap between appearance and reality is total, yet invisible to subjects because they have no comparative framework.
+
+OBSERVED IN: [analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md) (diplomatic
+variant: NK condemns strikes as "illegal act of aggression" while calibrating
+the statement to preserve negotiating space by omitting Trump's name. Kim's
+party congress statement — "if the United States withdraws its policy of
+confrontation... there is no reason why we cannot get along" — is public
+transcript calibrated for its audience. The article's own framing also operates
+as terrain: by treating the NPT regime as the natural baseline, it normalizes
+the asymmetry that permits some states nuclear weapons while others are attacked
+for pursuing them.)

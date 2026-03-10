@@ -48,6 +48,12 @@ billionaires are "mindful of the chasm between their own political views and pub
 opinion" and therefore "act behind the scenes." The performance is conscious and
 strategic on the ruler's side, not just the subordinate's.)
 
+OBSERVED IN: [analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md) (diplomatic
+variant: NK condemning strikes while leaving door open to talks; Trump
+threatening force while signaling openness to meeting Kim — both sides
+performing for multiple audiences. NK's calibrated omission of Trump's
+name from the condemnation is the performance made explicit.)
+
 EVIDENCE: [analyses/2026-03-01-meta-policy-meta-three-policies.md](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-01-meta-policy-meta-three-policies.md) (users perform acceptance of
 terms they haven't read; Meta performs governance it selectively enforces; the ToS
 click-through is the public transcript — both sides know the "agreement" is a fiction,

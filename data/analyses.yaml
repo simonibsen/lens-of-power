@@ -1984,3 +1984,61 @@ entries:
     & Information, Physical & Coercive (active but absent)
   null_case_text: plausible (MEDIUM-HIGH at component level; MEDIUM at configuration level when combined with Data & Society
     and NC-04 analyses)
+- id: 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+  file: analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md
+  date: '2026-03-10'
+  time: ~09:00 UTC
+  source_date: '2026-03-10'
+  title: "North Korea's nuclear calculus and the Iran war — the nonproliferation paradox (Guardian)"
+  source_name: The Guardian
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/world/2026/mar/10/north-korea-nuclear-weapons-trump-iran-war
+  domain:
+  - us_foreign_policy
+  - military
+  layers_primary:
+  - physical_coercive
+  - thought_narrative
+  layers_secondary:
+  - institutional
+  layers_absent:
+  - legal_regulatory
+  - economic
+  - surveillance_information
+  null_case: plausible
+  null_case_level: MEDIUM — article captures surface logic; framework reveals structural patterns (Serial Regime Change, Inversion, absent layers) not visible in reporting alone
+  adversarial: false
+  origin: null
+  ic5_flag: null
+  cross_references:
+  - 2026-03-01-guardian-liveblog-us-israel-iran-war
+  - 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
+  - 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+  patterns_matched:
+  - pattern: serial_regime_change
+    status: observed
+    variant: null
+    note: 'Iraq, Libya, Venezuela, Iran named explicitly as sequential targets with NK drawing the lesson — the article states the sequence without labeling it as a recurring template'
+  - pattern: inversion_of_stated_purpose
+    status: inferred
+    variant: null
+    note: 'nonproliferation enforcement incentivizes proliferation — regime-level instantiation where the system designed to prevent nuclear weapons produces the rational incentive for acquiring them'
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: 'Trump claimed Iran "only weeks away" from nuclear weapon "without offering evidence" — unsubstantiated threat claim justifying military action, structural parallel to Iraq 2003 WMD claims'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: 'NK condemns strikes as "illegal act of aggression" while stopping short of naming Trump — calibrated diplomatic performance preserving negotiating space; Kim''s "if you respect our current status" is public transcript calibrated for audience'
+  - pattern: double_performance
+    status: observed
+    variant: null
+    note: 'NK condemning strikes while leaving door open to talks; Trump threatening force while saying he would meet Kim — both sides performing for multiple audiences simultaneously'
+  findings_count: 6
+  commit: null
+  domain_text: US foreign policy / military / nuclear proliferation / geopolitics
+  layers_text: Physical & Coercive (primary), Thought & Narrative (primary), Institutional (Legal & Regulatory, Economic, Surveillance & Information active but absent)
+  null_case_text: plausible (MEDIUM — article captures surface logic; framework adds structural patterns not visible in reporting)
