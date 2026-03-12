@@ -85,6 +85,72 @@ def parse_constitution(path: Path):
     return axioms
 
 
+def parse_axiom_definitions(path: Path) -> list:
+    """Extract axiom ID, title, and first paragraph from constitution.md."""
+    content = read_file(path)
+    defs = []
+    parts = re.split(r"^### (\d+\.\s+.+)$", content, flags=re.MULTILINE)
+    # parts: [preamble, heading1, body1, heading2, body2, ...]
+    for i in range(1, len(parts) - 1, 2):
+        heading = parts[i].strip()
+        body = parts[i + 1].strip()
+        m = re.match(r"(\d+)\.\s+(.+)", heading)
+        if not m:
+            continue
+        num, title = m.group(1), m.group(2)
+        # First paragraph: text before first blank line or > block
+        para_lines = []
+        for line in body.split("\n"):
+            if not line.strip():
+                if para_lines:
+                    break
+                continue
+            if line.strip().startswith(">"):
+                break
+            para_lines.append(line.strip())
+        short = " ".join(para_lines)
+        if len(short) > 200:
+            short = short[:197] + "..."
+        defs.append({"id": f"Axiom {num}", "title": title, "short": short})
+    return defs
+
+
+def parse_ic_definitions(path: Path) -> list:
+    """Extract IC constraint ID, title, and first paragraph from constitution.md."""
+    content = read_file(path)
+    defs = []
+    for m in re.finditer(
+        r"^### (IC-\d+):\s+(.+?)\n\n(.+?)(?=\n\n>|\n\n###|\n\n\||\Z)",
+        content,
+        re.MULTILINE | re.DOTALL,
+    ):
+        ic_id, title, body = m.group(1), m.group(2), m.group(3).strip()
+        short = body.split("\n")[0].strip()
+        if len(short) > 200:
+            short = short[:197] + "..."
+        defs.append({"id": ic_id, "title": title, "short": short})
+    return defs
+
+
+def parse_position_definitions(path: Path) -> list:
+    """Extract position ID, title, and description from positional-lens.md."""
+    content = read_file(path)
+    defs = []
+    for m in re.finditer(
+        r"^### Position (\d+):\s+(.+?)$\n.*?- \*\*Description\*\*:\s*(.+?)(?=\n- \*\*)",
+        content,
+        re.MULTILINE | re.DOTALL,
+    ):
+        num, title = m.group(1), m.group(2)
+        desc = m.group(3).strip().replace("\n  ", " ").replace("\n", " ")
+        # Take first sentence
+        first_sent = re.split(r"(?<=[.!?])\s", desc)[0]
+        if len(first_sent) > 200:
+            first_sent = first_sent[:197] + "..."
+        defs.append({"id": f"Position {num}", "title": title, "short": first_sent})
+    return defs
+
+
 def parse_taxonomy(path: Path):
     """Extract layer names from taxonomy.md."""
     content = read_file(path)
@@ -432,15 +498,20 @@ def build():
         corr_str = f"{level} ({obs_count} of {corpus} relevant sources, {ratio:.0%})" if corpus else level
         counter_ev = entry.get("counter_evidence", [])
 
+        # Extract STATEMENT from pattern markdown content
+        pcontent = pattern_content_map.get(entry["name"], "")
+        stmt_match = re.search(r"STATEMENT:\s*(.+?)(?:\n\n|\nMECHANISM:)", pcontent, re.DOTALL)
+        statement = stmt_match.group(1).strip().replace("\n", " ") if stmt_match else ""
+
         add_node({
             "id": pid,
             "type": "pattern",
             "title": entry["name"],
-            "content": pattern_content_map.get(entry["name"], ""),
+            "content": pcontent,
             "meta": {
                 "layers": ", ".join(layer_names),
                 "layer_list": layer_names,
-                "statement": "",  # In markdown content
+                "statement": statement,
                 "mechanism": "",
                 "corroboration": corr_str,
                 "corr_level": level,
@@ -498,17 +569,24 @@ def build():
         cid = "circumvention:" + entry["name"]
         layer_names = layer_ids_to_names(entry.get("layers", []))
 
+        # Extract STATEMENT and OUTCOME RANGE from circumvention content
+        ccontent = circ_content_map.get(entry["name"], "")
+        c_stmt_match = re.search(r"STATEMENT:\s*(.+?)(?:\n\n|\nCOUNTERACTS:|\nMECHANISM:|\nOUTCOME)", ccontent, re.DOTALL)
+        c_statement = c_stmt_match.group(1).strip().replace("\n", " ") if c_stmt_match else ""
+        c_or_match = re.search(r"OUTCOME RANGE:\s*(.+?)(?:\n\n|\nMECHANISM:|\nFAILURE|\nOBSERVED|\Z)", ccontent, re.DOTALL)
+        c_outcome = c_or_match.group(1).strip().replace("\n", " ") if c_or_match else ""
+
         add_node({
             "id": cid,
             "type": "circumvention",
             "title": entry["name"],
-            "content": circ_content_map.get(entry["name"], ""),
+            "content": ccontent,
             "meta": {
                 "layers": ", ".join(layer_names),
                 "layer_list": layer_names,
                 "counteracts": ", ".join(entry.get("counteracts", [])),
-                "statement": "",
-                "outcome_range": "",
+                "statement": c_statement,
+                "outcome_range": c_outcome,
                 "mechanism": "",
                 "failure_modes": "",
                 "power_response": "",
@@ -710,6 +788,18 @@ def build():
     if taxonomy_path.exists():
         layer_descriptions = extract_layer_descriptions(taxonomy_path)
 
+    # --- Glossary data: axiom defs, IC defs, position defs ---
+    axiom_definitions = []
+    ic_definitions = []
+    if constitution_path.exists():
+        axiom_definitions = parse_axiom_definitions(constitution_path)
+        ic_definitions = parse_ic_definitions(constitution_path)
+
+    position_definitions = []
+    positional_lens_path = ROOT / "instruments" / "positional-lens.md"
+    if positional_lens_path.exists():
+        position_definitions = parse_position_definitions(positional_lens_path)
+
     # --- Deduplicate and validate edges ---
     valid_edges = []
     seen = set()
@@ -734,6 +824,9 @@ def build():
             "layers": layer_list,
             "readme_sections": readme_sections,
             "layer_descriptions": layer_descriptions,
+            "axiom_definitions": axiom_definitions,
+            "ic_definitions": ic_definitions,
+            "position_definitions": position_definitions,
             "health": health,
         },
     }
@@ -1132,6 +1225,42 @@ body {
   cursor: pointer;
 }
 .back-to-top:hover { color: var(--text-link); }
+
+/* Glossary tooltips */
+.glossary-term { position: relative; cursor: help; }
+.glossary-term.glossary-nav { cursor: pointer; color: var(--text-link); }
+.glossary-term.glossary-nav:hover { text-decoration: underline; }
+.glossary-first { border-bottom: 1px dotted var(--text-muted); }
+#glossary-tooltip {
+  position: fixed; z-index: 1000;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 12px 16px;
+  max-width: 340px; font-size: 13px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+  pointer-events: none; display: none;
+}
+#glossary-tooltip .gt-title {
+  font-weight: 600; font-size: 13px; margin-bottom: 2px; color: var(--text);
+}
+#glossary-tooltip .gt-type {
+  font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px;
+  color: var(--text-muted); margin-bottom: 6px;
+}
+#glossary-tooltip .gt-def {
+  font-size: 12px; color: var(--text-muted); line-height: 1.5;
+}
+
+/* Collapsible sections */
+.collapsible-h2 { cursor: pointer; user-select: none; }
+.collapsible-h2:hover { color: var(--text-link); }
+.section-chevron {
+  font-size: 10px; margin-right: 8px; display: inline-block;
+  transition: transform 0.15s; color: var(--text-muted);
+}
+.collapsible-section { /* visible by default */ }
+.collapsible-section.collapsed { display: none; }
+.toc-link.toc-collapsed { color: var(--text-muted); font-style: italic; }
+.toc-link.toc-collapsed::after { content: ' (collapsed)'; font-size: 10px; }
 
 /* Connected items panel */
 #connected-panel {
@@ -2126,7 +2255,9 @@ body {
 }
 .health-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
 .health-card { background: var(--bg-card); border-radius: 8px; padding: 16px; }
-.health-card h4 { margin: 0 0 8px 0; font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.health-card h4[title] { margin: 0 0 8px 0; font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; cursor: help; border-bottom: 1px dotted var(--text-muted); display: inline-block; }
+.health-card h4:not([title]) { margin: 0 0 8px 0; font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.gaps-section > h3[title] { cursor: help; border-bottom: 1px dotted var(--text-muted); display: inline-block; }
 .health-metric { font-size: 24px; font-weight: 600; margin-bottom: 8px; }
 .health-detail { font-size: 12px; color: var(--text-muted); }
 .health-status-ok { color: var(--green); }
@@ -2462,6 +2593,139 @@ DATA.edges.forEach(e => {
   if (adjacency[e.source]) { adjacency[e.source].outgoing.push(e); nodeDegree[e.source]++; }
   if (adjacency[e.target]) { adjacency[e.target].incoming.push(e); nodeDegree[e.target]++; }
 });
+
+// ---------------------------------------------------------------------------
+// Glossary for tooltips
+// ---------------------------------------------------------------------------
+const GLOSSARY = {};
+// Patterns: "serial regime change" -> {term, type, def, nodeId}
+DATA.nodes.filter(n => n.type === 'pattern').forEach(n => {
+  const key = n.title.replace(/^The\s+/i, '').toLowerCase();
+  const stmt = (n.meta && n.meta.statement) || '';
+  GLOSSARY[key] = { term: n.title, type: 'pattern', def: stmt, nodeId: n.id };
+});
+// Circumventions
+DATA.nodes.filter(n => n.type === 'circumvention').forEach(n => {
+  GLOSSARY[n.title.toLowerCase()] = { term: n.title, type: 'circumvention', def: (n.meta && n.meta.statement) || '', nodeId: n.id };
+});
+// Axioms: "axiom 6" -> short def
+(DATA.meta.axiom_definitions || []).forEach(a => {
+  GLOSSARY[a.id.toLowerCase()] = { term: a.id + ': ' + a.title, type: 'axiom', def: a.short };
+});
+// ICs: "ic-2" -> short def
+(DATA.meta.ic_definitions || []).forEach(ic => {
+  GLOSSARY[ic.id.toLowerCase()] = { term: ic.id + ': ' + ic.title, type: 'integrity constraint', def: ic.short };
+});
+// Positions: "position 4" -> short def
+(DATA.meta.position_definitions || []).forEach(p => {
+  GLOSSARY[p.id.toLowerCase()] = { term: p.id + ': ' + p.title, type: 'position', def: p.short };
+});
+// Layers: match display names
+(DATA.meta.layer_descriptions || []).forEach(l => {
+  GLOSSARY[l.name.toLowerCase()] = { term: l.name, type: 'layer', def: l.description };
+});
+
+// Build sorted keys for regex (longest first to avoid partial matches)
+const GLOSSARY_KEYS = Object.keys(GLOSSARY).sort((a, b) => b.length - a.length);
+const GLOSSARY_RE = GLOSSARY_KEYS.length > 0
+  ? new RegExp('\\b(' + GLOSSARY_KEYS.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')\\b', 'gi')
+  : null;
+
+function addGlossaryTooltips(container) {
+  if (!GLOSSARY_RE) return;
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+    acceptNode: function(node) {
+      const p = node.parentElement;
+      if (!p) return NodeFilter.FILTER_REJECT;
+      if (p.closest('code, pre, h1, h2, h3, .cross-ref, .glossary-term, .meta-bar, nav, .analysis-toc'))
+        return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+  const seen = new Set();
+  textNodes.forEach(function(node) {
+    GLOSSARY_RE.lastIndex = 0;
+    if (!GLOSSARY_RE.test(node.textContent)) return;
+    GLOSSARY_RE.lastIndex = 0;
+    const frag = document.createDocumentFragment();
+    let lastIdx = 0;
+    const text = node.textContent;
+    let match;
+    while ((match = GLOSSARY_RE.exec(text)) !== null) {
+      const key = match[1].toLowerCase();
+      const entry = GLOSSARY[key];
+      if (!entry) continue;
+      if (match.index > lastIdx)
+        frag.appendChild(document.createTextNode(text.slice(lastIdx, match.index)));
+      const span = document.createElement('span');
+      span.className = 'glossary-term';
+      if (entry.nodeId) {
+        span.classList.add('glossary-nav');
+        span.addEventListener('click', (function(nid) {
+          return function() {
+            var tip = document.getElementById('glossary-tooltip');
+            if (tip) tip.style.display = 'none';
+            selectNode(nid, { forceDetail: true });
+          };
+        })(entry.nodeId));
+      }
+      if (!seen.has(key)) {
+        span.classList.add('glossary-first');
+        seen.add(key);
+      }
+      span.dataset.term = key;
+      span.textContent = match[0];
+      frag.appendChild(span);
+      lastIdx = match.index + match[0].length;
+    }
+    if (lastIdx < text.length)
+      frag.appendChild(document.createTextNode(text.slice(lastIdx)));
+    if (lastIdx > 0) node.parentNode.replaceChild(frag, node);
+  });
+}
+
+// Tooltip element (single shared instance)
+(function() {
+  const tip = document.createElement('div');
+  tip.id = 'glossary-tooltip';
+  tip.innerHTML = '<div class="gt-title"></div><div class="gt-type"></div><div class="gt-def"></div>';
+  document.body.appendChild(tip);
+
+  document.getElementById('detail-view').addEventListener('mouseover', function(e) {
+    const el = e.target.closest('.glossary-term');
+    if (!el) return;
+    const entry = GLOSSARY[el.dataset.term];
+    if (!entry) return;
+    tip.querySelector('.gt-title').textContent = entry.term;
+    tip.querySelector('.gt-type').textContent = entry.type;
+    tip.querySelector('.gt-def').textContent = entry.def;
+    tip.style.display = 'block';
+    const rect = el.getBoundingClientRect();
+    let left = rect.left;
+    let top = rect.bottom + 6;
+    if (left + 340 > window.innerWidth) left = window.innerWidth - 350;
+    if (top + 120 > window.innerHeight) top = rect.top - 6 - tip.offsetHeight;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  });
+  document.getElementById('detail-view').addEventListener('mouseout', function(e) {
+    const el = e.target.closest('.glossary-term');
+    if (!el) return;
+    tip.style.display = 'none';
+  });
+  document.getElementById('detail-view').addEventListener('click', function(e) {
+    const el = e.target.closest('.glossary-term');
+    if (!el) return;
+    const entry = GLOSSARY[el.dataset.term];
+    if (entry && entry.nodeId && nodeMap[entry.nodeId]) {
+      tip.style.display = 'none';
+      selectNode(entry.nodeId, { forceDetail: true });
+    }
+  });
+})();
 
 // Graph state (persistent across rebuilds for focus mode)
 let graphSvg = null;
@@ -2937,7 +3201,7 @@ function showDetail(nodeId) {
   view.innerHTML = metaHtml + outcomeHtml + '<div id="detail-content">' + rendered + '</div>' + connectedHtml;
   view.scrollTop = 0;
 
-  // For analyses: generate TOC and move briefing to top
+  // For analyses: reorder sections, build TOC, add collapsible controls
   if (node.type === 'analysis') {
     const content = view.querySelector('#detail-content');
     if (content) {
@@ -2945,7 +3209,6 @@ function showDetail(nodeId) {
       const allH2s = content.querySelectorAll('h2');
       allH2s.forEach(h => {
         if (h.textContent.trim().toLowerCase() === 'contents') {
-          // Remove everything between this H2 and the next H2
           let sib = h.nextElementSibling;
           while (sib && sib.tagName !== 'H2') {
             const next = sib.nextElementSibling;
@@ -2956,40 +3219,120 @@ function showDetail(nodeId) {
         }
       });
 
-      // Collect H2 headings for TOC
-      const h2s = content.querySelectorAll('h2');
+      // --- Section reordering ---
+      // Collect each H2 and its content as a group
+      const h2s = Array.from(content.querySelectorAll('h2'));
       if (h2s.length > 1) {
-        // Add IDs to headings
-        h2s.forEach((h, i) => { h.id = 'section-' + i; });
-
-        // Find the briefing/summary section and move it before the first H2
-        let briefingH2 = null;
-        h2s.forEach(h => {
-          const ht = h.textContent.toLowerCase().trim();
-          if (ht.includes('briefing') || ht === 'summary') briefingH2 = h;
-        });
-        if (briefingH2 && h2s.length > 2) {
-          // Collect all nodes belonging to the briefing section
-          const briefingNodes = [briefingH2];
-          let sib = briefingH2.nextElementSibling;
+        const sectionGroups = [];
+        let afterHr = false;
+        h2s.forEach(function(h) {
+          const nodes = [h];
+          let sib = h.nextElementSibling;
           while (sib && sib.tagName !== 'H2') {
-            briefingNodes.push(sib);
+            if (sib.tagName === 'HR') afterHr = true;
+            nodes.push(sib);
             sib = sib.nextElementSibling;
           }
-          // Insert before the first H2 (Narrative)
-          const firstH2 = h2s[0];
-          briefingNodes.forEach(n => content.insertBefore(n, firstH2));
+          const text = h.textContent.toLowerCase().trim();
+          sectionGroups.push({ heading: h, nodes: nodes, text: text, afterHr: afterHr });
+        });
+
+        // Priority order for reordering (index = priority, lower = earlier)
+        const priorityPatterns = [
+          /^briefing|^summary$/,
+          /^narrative/,
+          /^so what|^implications/,
+          /^circumvention/,
+          /^finding/,
+          /^watch/,
+          /^null case/,
+        ];
+        function getPriority(text) {
+          for (var i = 0; i < priorityPatterns.length; i++) {
+            if (priorityPatterns[i].test(text)) return i;
+          }
+          return 100; // unprioritized
         }
 
-        // Build TOC (re-query since DOM changed)
-        const updatedH2s = content.querySelectorAll('h2');
+        // Separate into above-HR (human-readable) and below-HR (working/apparatus)
+        const aboveHr = sectionGroups.filter(function(s) { return !s.afterHr; });
+        const belowHr = sectionGroups.filter(function(s) { return s.afterHr; });
+
+        // Sort above-HR sections by priority
+        aboveHr.sort(function(a, b) { return getPriority(a.text) - getPriority(b.text); });
+
+        // Remove all H2 sections from DOM, then re-insert in order
+        // First, find the HR element
+        const hrEl = content.querySelector('hr');
+        sectionGroups.forEach(function(s) {
+          s.nodes.forEach(function(n) { if (n.parentNode) n.parentNode.removeChild(n); });
+        });
+
+        // Re-insert: above-HR sections, then HR, then below-HR sections
+        const insertBefore = hrEl || null;
+        aboveHr.forEach(function(s) {
+          s.nodes.forEach(function(n) {
+            if (insertBefore) content.insertBefore(n, insertBefore);
+            else content.appendChild(n);
+          });
+        });
+        // Below-HR sections stay in original order (after the HR)
+        belowHr.forEach(function(s) {
+          s.nodes.forEach(function(n) { content.appendChild(n); });
+        });
+
+        // --- Collapsible sections ---
+        const defaultCollapsedRe = /^analytical working|^analytical apparatus|^apparatus|^material summary|^step \d/;
+        const reorderedH2s = Array.from(content.querySelectorAll('h2'));
+        let hitHr = false;
+        reorderedH2s.forEach(function(h) {
+          // Check if this H2 follows an HR (below the delimiter = working)
+          let prev = h.previousElementSibling;
+          while (prev && prev.tagName !== 'H2' && prev.tagName !== 'HR') prev = prev.previousElementSibling;
+          if (prev && prev.tagName === 'HR') hitHr = true;
+
+          const text = h.textContent.toLowerCase().trim();
+          const shouldCollapse = hitHr || defaultCollapsedRe.test(text);
+
+          // Wrap section content in collapsible div
+          const wrapper = document.createElement('div');
+          wrapper.className = 'collapsible-section' + (shouldCollapse ? ' collapsed' : '');
+          let sib = h.nextElementSibling;
+          while (sib && sib.tagName !== 'H2' && sib.tagName !== 'HR') {
+            const next = sib.nextElementSibling;
+            wrapper.appendChild(sib);
+            sib = next;
+          }
+          h.after(wrapper);
+
+          // Add chevron toggle
+          const chevron = document.createElement('span');
+          chevron.className = 'section-chevron';
+          chevron.innerHTML = shouldCollapse ? '&#9654;' : '&#9660;';
+          h.prepend(chevron);
+          h.classList.add('collapsible-h2');
+          h.addEventListener('click', function(e) {
+            if (e.target.classList.contains('back-to-top')) return;
+            wrapper.classList.toggle('collapsed');
+            chevron.innerHTML = wrapper.classList.contains('collapsed') ? '&#9654;' : '&#9660;';
+            // Update TOC link style
+            var tocLink = content.querySelector('.toc-link[href="#' + h.id + '"]');
+            if (tocLink) {
+              if (wrapper.classList.contains('collapsed')) tocLink.classList.add('toc-collapsed');
+              else tocLink.classList.remove('toc-collapsed');
+            }
+          });
+        });
+
+        // --- Build TOC ---
+        const finalH2s = content.querySelectorAll('h2');
         let tocHtml = '<nav class="analysis-toc"><div class="toc-title">Contents</div>';
         // Add metadata entry if there's content before the first H2
-        const firstUpdH2 = updatedH2s[0];
-        if (firstUpdH2) {
+        const firstH2 = finalH2s[0];
+        if (firstH2) {
           let hasPreContent = false;
           let sib = content.firstElementChild;
-          while (sib && sib !== firstUpdH2) {
+          while (sib && sib !== firstH2) {
             if (sib.tagName !== 'NAV' && sib.textContent.trim()) { hasPreContent = true; break; }
             sib = sib.nextElementSibling;
           }
@@ -3000,18 +3343,26 @@ function showDetail(nodeId) {
             tocHtml += '<a class="toc-link" href="#section-meta">Metadata</a>';
           }
         }
-        updatedH2s.forEach((h, i) => {
+        finalH2s.forEach(function(h, i) {
           h.id = 'section-' + i;
-          let text = h.textContent;
+          let text = h.textContent.replace(/[\u25B6\u25BC]/g, '').trim(); // Remove chevron chars
           const hText = text.toLowerCase().trim();
           const isBriefing = hText.includes('briefing') || hText === 'summary';
+          const isSoWhat = /^so what|^implications/.test(hText);
           // Format step headings: "Step 3: LOCATE" -> "3. Locate"
           const stepMatch = text.match(/^Step (\d+):\s*(.+)/);
           if (stepMatch) {
             const name = stepMatch[2].toLowerCase().replace(/(^|[-])(\w)/g, function(m, sep, c) { return sep + c.toUpperCase(); });
             text = stepMatch[1] + '. ' + name;
           }
-          tocHtml += '<a class="toc-link' + (isBriefing ? ' toc-briefing' : '') + '" href="#section-' + i + '">' + escapeHtml(text) + '</a>';
+          // Check if this section is collapsed
+          const wrapper = h.nextElementSibling;
+          const isCollapsed = wrapper && wrapper.classList && wrapper.classList.contains('collapsed');
+          let cls = 'toc-link';
+          if (isBriefing) cls += ' toc-briefing';
+          if (isSoWhat) cls += ' toc-briefing'; // Highlight So What too
+          if (isCollapsed) cls += ' toc-collapsed';
+          tocHtml += '<a class="' + cls + '" href="#section-' + i + '">' + escapeHtml(text) + '</a>';
         });
         tocHtml += '</nav>';
         content.insertAdjacentHTML('afterbegin', tocHtml);
@@ -3025,7 +3376,6 @@ function showDetail(nodeId) {
           h.appendChild(topLink);
         });
 
-        // Give the TOC nav an ID for back-to-top links
         const tocNav = content.querySelector('.analysis-toc');
         if (tocNav) tocNav.id = 'analysis-toc';
 
@@ -3034,10 +3384,23 @@ function showDetail(nodeId) {
           a.addEventListener('click', (e) => {
             e.preventDefault();
             const target = content.querySelector(a.getAttribute('href'));
-            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            if (target) {
+              // If clicking a TOC link for a collapsed section, expand it first
+              const h2 = target;
+              if (h2.classList && h2.classList.contains('collapsible-h2')) {
+                const wrapper = h2.nextElementSibling;
+                if (wrapper && wrapper.classList.contains('collapsed')) {
+                  h2.click();
+                }
+              }
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
           });
         });
       }
+
+      // --- Add glossary tooltips to analysis content ---
+      addGlossaryTooltips(content);
     }
   }
 
@@ -3092,6 +3455,12 @@ function showDetail(nodeId) {
         }
       }
     }
+  }
+
+  // Add glossary tooltips to all non-analysis node types too
+  if (node.type !== 'analysis') {
+    const detailContent = view.querySelector('#detail-content');
+    if (detailContent) addGlossaryTooltips(detailContent);
   }
 
   // Attach click handlers for cross-refs
@@ -3990,14 +4359,14 @@ function buildGaps() {
 
   // 0. Framework Health
   const health = DATA.meta.health || {};
-  html += '<div class="gaps-section"><h3>Framework Health</h3>';
+  html += '<div class="gaps-section"><h3 title="Structural health metrics for the integrity constraints. Green means the constraint is functioning; red means it may be failing or untested.">Framework Health</h3>';
   html += '<div class="health-cards">';
 
   // Evidence balance card
   const eb = health.evidence_balance || {};
   const totalEv = Object.values(eb).reduce((a,b) => a+b, 0) || 1;
   html += '<div class="health-card">';
-  html += '<h4>Evidence Balance</h4>';
+  html += '<h4 title="Ratio of evidence entries that support vs. challenge vs. complicate axioms. A healthy framework has challenging evidence — if every entry supports the axioms, IC-1 (falsifiability) may not be functioning.">Evidence Balance</h4>';
   html += '<div class="health-stacked-bar">';
   const evColors = { supports: 'var(--green)', challenges: 'var(--red)', complicates: 'var(--orange)', 'self-examination': 'var(--purple)' };
   ['supports','challenges','complicates','self-examination'].forEach(r => {
@@ -4025,7 +4394,7 @@ function buildGaps() {
   const nc = health.null_cases || {};
   const totalNC = (nc.rejected||0) + (nc.plausible||0) + (nc.accepted||0) || 1;
   html += '<div class="health-card">';
-  html += '<h4>Null Case Distribution</h4>';
+  html += '<h4 title="How often analyses conclude that power dynamics are NOT the best explanation. Rejected means the power reading is stronger; accepted means the non-power explanation wins. IC-2 requires every analysis to consider the null case — if none are ever accepted, the framework may be confirming itself.">Null Case Distribution</h4>';
   html += '<div class="health-stacked-bar">';
   const ncColors = { rejected: '#e74c3c', plausible: 'var(--orange)', accepted: 'var(--green)' };
   ['rejected','plausible','accepted'].forEach(r => {
@@ -4045,7 +4414,7 @@ function buildGaps() {
 
   // Red team status card
   html += '<div class="health-card">';
-  html += '<h4>Red Team Status (IC-3)</h4>';
+  html += '<h4 title="IC-3 requires the framework to periodically examine itself for confirmation bias and unfalsifiability. A red team turns its own analytical tools on itself. Overdue if more than 10 analyses have passed since the last one.">Red Team Status (IC-3)</h4>';
   const lrt = health.last_red_team;
   const lrtId = health.last_red_team_id;
   const asrt = health.analyses_since_red_team || 0;
@@ -4060,7 +4429,7 @@ function buildGaps() {
 
   // Adversarial ratio card
   html += '<div class="health-card">';
-  html += '<h4>Adversarial Input</h4>';
+  html += '<h4 title="Analyses deliberately chosen because the non-power explanation is likely to win. Tests whether IC-2 (null case) actually functions or is decorative. Target: at least 1 in 10 analyses should be adversarial.">Adversarial Input</h4>';
   const advCount = health.adversarial_count || 0;
   const advTotal = health.total_analyses || 0;
   const advRatio = advTotal > 0 ? advCount / advTotal : 0;
@@ -4073,7 +4442,7 @@ function buildGaps() {
   const cal = health.calibration || {};
   const calTotal = cal.total || 0;
   html += '<div class="health-card">';
-  html += '<h4>Calibration (SAMPLE)</h4>';
+  html += '<h4 title="SAMPLE mode randomly selects material (including sports, recipes, science) and runs a READ analysis. The null case rate measures the false positive rate — how often it finds power dynamics in material where they may be absent. Target: 30-60%.">Calibration (SAMPLE)</h4>';
   if (calTotal === 0) {
     html += '<div class="health-metric health-status-critical">No samples</div>';
     html += '<div class="health-detail">Run /lop sample to begin calibration</div>';
@@ -4108,7 +4477,7 @@ function buildGaps() {
   const patterns = DATA.nodes.filter(n => n.type === 'pattern').slice();
   patterns.sort((a, b) => (a.meta.corr_hit_rate || 0) - (b.meta.corr_hit_rate || 0));
 
-  html += '<div class="gaps-section"><h3>Under-corroborated Patterns</h3>';
+  html += '<div class="gaps-section"><h3 title="Patterns sorted by corroboration strength. PRELIMINARY patterns have been observed in fewer than 3 independent sources. SUPPORTED and ESTABLISHED patterns have stronger evidence bases. Weak patterns need either more corroborating analyses or deliberate challenge.">Under-corroborated Patterns</h3>';
   patterns.forEach(p => {
     const hitRate = p.meta.corr_hit_rate || 0;
     const level = p.meta.corr_level || 'PRELIMINARY';
@@ -4137,7 +4506,7 @@ function buildGaps() {
   const maxLayer = Math.max(1, ...Object.values(layerCounts));
   const layersSorted = LAYER_NAMES.slice().sort((a, b) => layerCounts[a] - layerCounts[b]);
 
-  html += '<div class="gaps-section"><h3>Under-studied Layers</h3>';
+  html += '<div class="gaps-section"><h3 title="The six taxonomy layers ranked by how many framework items (analyses, patterns, principles) reference them. Layers with fewer items represent blind spots — the framework may be under-examining those dimensions of power.">Under-studied Layers</h3>';
   layersSorted.forEach(l => {
     const count = layerCounts[l];
     const pct = Math.round((count / maxLayer) * 100);
@@ -4171,7 +4540,7 @@ function buildGaps() {
     }
   }
 
-  html += '<div class="gaps-section"><h3>Missing Layer Corridors</h3>';
+  html += '<div class="gaps-section"><h3 title="Layer pairs that have no framework item spanning both. These are unexplored interactions — for example, if no analysis examines how Economic and Surveillance layers reinforce each other, that corridor is missing.">Missing Layer Corridors</h3>';
   if (missing.length === 0) {
     html += '<p style="color:var(--text-muted);font-size:13px">All layer pairs have at least one shared item.</p>';
   } else {
@@ -4230,6 +4599,28 @@ function buildGaps() {
   });
   view.querySelectorAll('.health-link[data-id]').forEach(el => {
     el.addEventListener('click', (e) => { e.preventDefault(); selectNode(el.dataset.id, { forceDetail: true }); });
+  });
+  // Styled tooltips for titled elements in gap analysis
+  var tip = document.getElementById('glossary-tooltip');
+  view.querySelectorAll('[title]').forEach(function(el) {
+    var titleText = el.getAttribute('title');
+    el.removeAttribute('title'); // Remove native tooltip so it doesn't double-show
+    el.addEventListener('mouseover', function() {
+      tip.querySelector('.gt-title').textContent = el.textContent.trim();
+      tip.querySelector('.gt-type').textContent = 'metric';
+      tip.querySelector('.gt-def').textContent = titleText;
+      tip.style.display = 'block';
+      var rect = el.getBoundingClientRect();
+      var left = rect.left;
+      var top = rect.bottom + 6;
+      if (left + 340 > window.innerWidth) left = window.innerWidth - 350;
+      if (top + 120 > window.innerHeight) top = rect.top - 6 - tip.offsetHeight;
+      tip.style.left = left + 'px';
+      tip.style.top = top + 'px';
+    });
+    el.addEventListener('mouseout', function() {
+      tip.style.display = 'none';
+    });
   });
 }
 

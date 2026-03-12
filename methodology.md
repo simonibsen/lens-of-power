@@ -557,31 +557,58 @@ FRAMEWORK STATE: [N patterns, N principles, N instruments (commit SHORT_HASH)]
 
 [3-6 paragraphs. Prose summary of what the structural analysis found.
 The opening paragraph should convey the single most important insight.
-Narrative register rules apply — describe, do not evaluate.]
+Narrative register rules apply — describe, do not evaluate.
+
+CONTRACT: This section states the argument once. It contains no layer
+tags, no STATUS labels, no finding numbers. It is analytical prose for
+a human reader. DO NOT repeat material that will appear in Findings —
+the narrative makes the case; findings decompose it into tagged units.
+DO NOT repeat material that will appear in So What — the narrative
+describes what was found; So What describes what follows from it.]
+
+## So What
+
+[Forward-looking implications. If this analysis is correct, what follows?
+What should be monitored? What policy questions does this raise? What
+does this make visible that was hidden?
+
+CONTRACT: Forward-looking only. DO NOT restate findings or summarize
+the narrative. Those sections exist. This section looks ahead, not back.
+Include specific, monitorable watch items — each should be falsifiable
+(an event that either will or will not happen).]
+
+## Circumventions
+
+[Which circumvention types from circumventions.md are relevant to the
+patterns identified in this analysis? For each: the circumvention type,
+how it applies to this specific case, and the outcome range (what has
+been observed to succeed, fail, or be captured). Use observational
+language per the circumvention register convention.
+
+If no circumventions are relevant, state "None identified" rather than
+omitting the section. An analysis that identifies patterns of power
+concentration but does not consider what counterforces exist or have
+been tried is incomplete.]
 
 ## Findings
 
-[Numbered list. Each finding is a discrete, tagged, cross-referenceable
-unit. Include a "who benefits / who bears cost" table after the findings
-list.]
+[Discrete, tagged, cross-referenceable facts. Each finding adds what
+the narrative does not — layer classification, evidentiary status,
+and specific citations.
 
-## Implications
-
-[What follows from this analysis. Conclusions and evaluative judgments
-belong here, not in the narrative. Include threads worth investigating.]
-
-## Watch
-
-[What to monitor going forward.]
-
-## Analytical apparatus
-
-[Provenance: instruments, principles, and patterns that shaped the
-analysis.]
+CONTRACT: DO NOT restate the narrative's argument. If a finding merely
+rephrases a narrative paragraph, delete it — the narrative already said
+it. Findings decompose the analysis into queryable units; they do not
+summarize it.]
 
 ## Null case
 
 [IC-2 assessment of the non-power explanation.]
+
+## Analytical apparatus
+
+[Provenance: instruments, principles, and patterns that shaped the
+analysis. This is a reference listing, not prose analysis.]
 
 ---
 
@@ -600,19 +627,24 @@ analysis.]
 [...through Step 7: SO-WHAT]
 ```
 
-### Findings list
+### Findings table
 
-Each finding is a discrete, tagged, cross-referenceable unit. Each
-finding stands alone.
+Findings are discrete, tagged, cross-referenceable facts presented
+in a compact table. Each finding stands alone. The table format
+eliminates boilerplate and makes findings scannable.
 
 ```
-1. **[Finding title]**
-   LAYER: [taxonomy layer(s)]
-   STATUS: observed / inferred / speculative
-   [2-3 sentences. Professional register. Specific.]
+| # | Finding | Layer | Status | Evidence |
+|---|---------|-------|--------|----------|
+| 1 | [concise finding — one sentence] | [taxonomy layer(s)] | observed/inferred/speculative | [specific citation or reference] |
+| 2 | ... | ... | ... | ... |
 ```
 
-After the findings list, include a benefits/cost table:
+If a finding requires more than one sentence of explanation beyond
+what appears in the Narrative, that explanation belongs in the
+Narrative, not in the findings table.
+
+After the findings table, include a benefits/cost table:
 
 ```
 | Actor | Gains | At whose expense |
@@ -1555,11 +1587,14 @@ been verified against a physical copy.
 
 - Be specific. Name the mechanism, name the layer, name the actor.
 - Distinguish between what is observed and what is inferred.
-- **Framework term references**: In all human-readable output (READ mode
-  prose, ANALYZE mode narrative and briefing, EXTRACT mode synthesis),
-  reference framework-defined terms as follows:
+- **Framework term references (mandatory)**: In all human-readable
+  output (READ mode prose, ANALYZE mode narrative/so-what/circumventions/
+  findings, EXTRACT mode synthesis), every framework-defined term MUST
+  be referenced as follows. Omission is a formatting defect.
   - **First occurrence**: Bold the term and follow with a parenthetical
-    gloss (a few words describing what it is). Example:
+    gloss (a few words describing what it is). The gloss must be
+    sufficient for a reader unfamiliar with the framework to understand
+    the term in context. Example:
     `the **Compliance Gradient** (partial compliance as power negotiation)`
   - **Subsequent occurrences**: Bold the term, no gloss. Example:
     `the **Compliance Gradient**`
@@ -1571,9 +1606,10 @@ been verified against a physical copy.
     - Compliance Gradient: [patterns/compliance-gradient.md](https://github.com/simonibsen/lens-of-power/blob/main/patterns/compliance-gradient.md)
     - Axiom 9: [constitution.md](https://github.com/simonibsen/lens-of-power/blob/main/constitution.md#9-compliance-can-be-manufactured-without-explicit-coercion)
     ```
-  - This applies to patterns, axioms, principles, instruments, and
-    integrity constraints when referenced by name. The base URL is
-    `https://github.com/simonibsen/lens-of-power/blob/main/`.
+  - This applies to: patterns, axioms (by number or name), principles,
+    instruments, integrity constraints (IC-1 through IC-5), positional
+    lens positions (Position 1-5), and taxonomy layer names. The base
+    URL is `https://github.com/simonibsen/lens-of-power/blob/main/`.
   - The purpose is twofold: the gloss makes the output legible to
     readers unfamiliar with the framework; the reference list connects
     every term to its definition for readers who want depth.
