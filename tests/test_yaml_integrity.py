@@ -197,11 +197,17 @@ class TestIdUniqueness:
 
 class TestComputedFields:
     def test_findings_count_matches(self, analyses):
-        """findings_count should equal len(patterns_matched)."""
+        """findings_count should be >= len(patterns_matched).
+
+        An analysis can have more findings than patterns matched (e.g.,
+        findings about absent layers or structural observations that don't
+        correspond to a named pattern).
+        """
         for a in analyses["entries"]:
-            expected = len(a.get("patterns_matched") or [])
-            assert a.get("findings_count") == expected, \
-                f"Analysis {a['id']}: findings_count={a.get('findings_count')} != {expected}"
+            patterns = len(a.get("patterns_matched") or [])
+            findings = a.get("findings_count") or 0
+            assert findings >= patterns, \
+                f"Analysis {a['id']}: findings_count={findings} < patterns_matched={patterns}"
 
     def test_confidence_levels_valid(self, patterns):
         valid = {"ESTABLISHED", "SUPPORTED", "PRELIMINARY", None}

@@ -434,6 +434,46 @@ Instruments ──applied during──> Analyses ──produce──> Findings
                                    └──listed in──> Analytical Apparatus
 ```
 
+The full entity-relationship diagram — including junction entities, computed
+fields, and the corroboration pipeline — is in
+[`docs/data-model.md`](docs/data-model.md) (Mermaid format).
+
+#### The data layer
+
+Structured metadata lives in YAML files under `data/`. These are the
+**single source of truth** for all registry and corroboration data:
+
+```
+data/*.yaml ──build-all.py──> generated INDEX.md files + viewer
+                                        │
+                                        ▼
+                              patterns/INDEX.md
+                              principles/INDEX.md
+                              analyses/INDEX.md
+                              sources/INDEX.md
+                              sources/sample-pool.md
+```
+
+The relationship between YAML and content files:
+
+| YAML file | Generated files | Content files (hand-authored) |
+|-----------|----------------|-------------------------------|
+| `data/analyses.yaml` | `analyses/INDEX.md` | `analyses/*.md` — full analysis prose |
+| `data/patterns.yaml` | `patterns/INDEX.md` | `patterns/*.md` — evidence trails |
+| `data/principles.yaml` | `principles/INDEX.md` | `principles/*.md` — extracted principles |
+| `data/sample-pool.yaml` | `sources/sample-pool.md` | — |
+| `data/calibration.yaml` | `calibration/sample-log.md` | — |
+| `data/config.yaml` | — | — (shared enumerations and thresholds) |
+
+**Content files** contain the prose — analysis briefings, pattern evidence
+trails, extracted principles. **YAML files** contain structured metadata —
+domains, layers, cross-references, corroboration counts. The build pipeline
+connects them: `python3 tools/build-all.py` reads the YAML, computes
+derived fields (pattern corroboration, confidence levels), and generates
+the INDEX.md files and viewer.
+
+Do not hand-edit generated INDEX.md files — edit the YAML and regenerate.
+
 ## Working with Claude
 
 The `/lop` skill invokes structured modes, but the invocation itself is
@@ -790,18 +830,30 @@ lens-of-power/
 │   ├── alley-very-bad-people.md  5 principles from Very Bad People
 │   ├── schimpfossl-oligarch-moralities-of-wealth.md  5 principles (EEPSC 2024)
 │   └── project-2025-mandate-for-leadership.md  6 principles from Mandate for Leadership
+├── data/                    YAML data files (single source of truth)
+│   ├── analyses.yaml          Analysis registry metadata
+│   ├── patterns.yaml          Pattern corroboration data (observed_in is computed)
+│   ├── principles.yaml        Extracted principle sources
+│   ├── calibration.yaml       SAMPLE mode calibration tracking log
+│   ├── sample-pool.yaml       Source pool for SAMPLE mode randomization
+│   └── config.yaml            Shared enumerations, thresholds, and domain definitions
 ├── sources/                 Source provenance records
-│   ├── INDEX.md               Compact lookup table
-│   └── sample-pool.md        Source pool for SAMPLE mode randomization
+│   ├── INDEX.md               Compact lookup table (generated from YAML)
+│   └── sample-pool.md        Source pool for SAMPLE mode (generated from YAML)
 ├── calibration/             SAMPLE mode calibration tracking
-│   └── sample-log.md         Append-only log of calibration runs
+│   └── sample-log.md         Append-only log of calibration runs (generated from YAML)
 ├── evidence/                Concrete facts, data, cases (16 entries)
 │   └── README.md              Entry format specification
-├── analyses/                Applied analyses of current material (24 analyses)
-│   └── INDEX.md               Analysis registry (selection bias tracking)
-├── tools/                   Utility scripts
-│   ├── build-viewer.py        Static viewer generator (produces viewer.html + viewer-data.js)
+├── analyses/                Applied analyses of current material (34 analyses)
+│   └── INDEX.md               Analysis registry (generated from YAML)
+├── docs/                    Documentation
+│   └── data-model.md         Entity-relationship diagram (Mermaid)
+├── tools/                   Build pipeline and utilities
+│   ├── build-all.py           Orchestrator: runs build-viewer.py then generate-indexes.py
+│   ├── build-viewer.py        Computes corroboration, generates viewer.html + viewer-data.js
+│   ├── generate-indexes.py    Generates INDEX.md files from YAML data
 │   └── fetch-article.py       URL content extraction (fallback for WebFetch)
+├── tests/                   Automated test suite (IC-6)
 ├── .claude/                 Claude Code configuration (auto-discovered)
 │   ├── skills/lop/SKILL.md   The /lop skill definition
 │   └── settings.local.json   Permissions for URL fetching and PDF extraction
@@ -1014,6 +1066,38 @@ evolution.
 | IC-4 living document | Continuous integration / maintenance |
 | IC-5 LLM bias disclosure | Dependency vulnerability scanning |
 | Git history with rationale | Database migrations / changelog |
+
+### Data layer and build pipeline
+
+The framework uses a two-tier data architecture:
+
+- **Content tier** (`analyses/*.md`, `patterns/*.md`, `principles/*.md`) —
+  hand-authored prose: analysis briefings, pattern evidence trails, extracted
+  principles. These are the framework's intellectual output.
+- **Metadata tier** (`data/*.yaml`) — structured registries: which patterns
+  an analysis matched, which layers a principle covers, corroboration counts,
+  axis tags. These are the single source of truth for all cross-referencing
+  and computed fields.
+
+The build pipeline (`tools/build-all.py`) bridges the two tiers:
+
+1. `build-viewer.py` reads the YAML, computes derived fields (pattern
+   corroboration from the union of analysis matches and principle key
+   patterns, confidence levels from config thresholds), syncs computed
+   fields back to `data/patterns.yaml`, and generates `viewer.html` +
+   `viewer-data.js`.
+2. `generate-indexes.py` reads the YAML and generates human-readable
+   INDEX.md files for `analyses/`, `patterns/`, `principles/`, and
+   `sources/`.
+
+This is analogous to a database-backed application: the YAML files are
+the database, the content files are the application's documents, and the
+build pipeline is the query layer that computes views and indexes. The
+generated INDEX.md files are checked into git so the framework context
+is always available without a build step — they are materialized views.
+
+The full entity-relationship model is documented in
+[`docs/data-model.md`](docs/data-model.md).
 
 ### Design principles
 

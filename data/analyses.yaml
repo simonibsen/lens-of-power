@@ -2042,3 +2042,127 @@ entries:
   domain_text: US foreign policy / military / nuclear proliferation / geopolitics
   layers_text: Physical & Coercive (primary), Thought & Narrative (primary), Institutional (Legal & Regulatory, Economic, Surveillance & Information active but absent)
   null_case_text: plausible (MEDIUM — article captures surface logic; framework adds structural patterns not visible in reporting)
+- id: 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+  file: analyses/2026-03-11-zeteo-speech-roy-iran-india-running-dog.md
+  date: '2026-03-12'
+  time: ~01:00 UTC
+  source_date: '2026-03-11'
+  title: "Arundhati Roy's \"Iran Is Not Gaza\" speech — anticipatory obedience at sovereign scale"
+  source_name: 'Arundhati Roy, speech at New Delhi book event, published on Zeteo'
+  source_type: speech_transcript
+  position:
+  - 3
+  url: https://zeteo.com/p/iran-is-not-gaza-read-arundhati-roys
+  domain:
+  - us_foreign_policy
+  - geopolitics
+  - postcolonial
+  layers_primary:
+  - thought_narrative
+  - institutional
+  layers_secondary:
+  - physical_coercive
+  - economic
+  layers_absent:
+  - surveillance_information
+  - legal_regulatory
+  null_case: plausible
+  null_case_level: MEDIUM at component level; MEDIUM-LOW at configurational level
+  adversarial: false
+  origin: null
+  ic5_flag: 'Training data likely overrepresents "rising power" / "strategic autonomy" framing of India; Roy''s subordination thesis challenges dominant narrative'
+  cross_references:
+  - 2026-03-01-guardian-liveblog-us-israel-iran-war
+  - 2026-03-05-reuters-wirestory-indian-refiners-russian-oil
+  - 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+  patterns_matched:
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: inter-state
+    note: 'Sequence of Indian voluntary concessions — PM visit, trade deal, worker dispatch, mockery absorption — constitutes pre-compliance before demands are made, extending pattern from domestic to inter-state relations'
+  - pattern: serial_regime_change
+    status: observed
+    variant: null
+    note: 'Roy identifies identical operational template across Gaza and Iran — bombing hospitals, carpet bombing, victim framing — as "same old playbook"'
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: null
+    note: 'India''s cinematic sovereignty narrative (Bollywood war films) functions as appearance sustaining structural foreign policy subordination'
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: 'US-Israel "playing the victim" while conducting bombing; India''s national pride narrative while enacting subordination'
+  - pattern: relay_class
+    status: inferred
+    variant: voluntary-alliance
+    note: 'India''s governing class as voluntary relay for imperial power — extends pattern from post-colonial succession to active alliance subordination'
+  - pattern: hidden_transcript
+    status: observed
+    variant: null
+    note: 'Roy surfaces suppressed Indian collective shame about subordination on public stage at literary event; "Running Dog" label names what domestic vocabulary cannot'
+  findings_count: 8
+  commit: null
+  domain_text: US foreign policy / geopolitics / postcolonial
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive, Economic (Surveillance & Information, Legal & Regulatory active but absent)
+  null_case_text: plausible (MEDIUM at component level; MEDIUM-LOW at configurational level — humiliation-plus-compliance pattern not explained by pragmatic calculation)
+- id: 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
+  file: analyses/2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md
+  date: '2026-03-12'
+  time: ~02:00 UTC
+  source_date: '2026-03-11'
+  title: 'US intelligence assessment vs. stated war objectives — the regime change gap'
+  source_name: 'Reuters (Erin Banco, Jonathan Landay), via Haaretz English'
+  source_type: wire_story
+  position:
+  - 5
+  url: https://www.haaretz.com/middle-east-news/iran/2026-03-12/ty-article/u-s-intelligence-reportedly-sees-no-imminent-collapse-of-irans-regime/0000019c-e0b4-dc10-abdc-f2f498090000
+  domain:
+  - us_foreign_policy
+  - military
+  - geopolitics
+  layers_primary:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  layers_secondary:
+  - economic
+  - surveillance_information
+  layers_absent:
+  - legal_regulatory
+  null_case: plausible
+  null_case_level: MEDIUM — competent wire reporting; framework adds structural pattern recognition the wire format does not provide
+  adversarial: false
+  origin: sample
+  ic5_flag: 'Training data overrepresents US institutional perspective on intelligence assessments; Iranian civilian experience and government perspective absent'
+  cross_references:
+  - 2026-03-01-guardian-liveblog-us-israel-iran-war
+  - 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
+  - 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+  - 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+  - 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+  patterns_matched:
+  - pattern: serial_regime_change
+    status: observed
+    variant: null
+    note: '"Biggest US military operation since 2003" with identical structural features: intelligence-executive divergence, shifting stated purposes, proxy force instrumentalisation'
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: 'War purpose shifted from "take over your government" to "top aides denied regime change" — neither aligns with intelligence assessment of achievability'
+  - pattern: real_time_narrative_saturation
+    status: observed
+    variant: null
+    note: 'Wire format reports all facts (intelligence divergence, shifting rationale, proxy channel) but structural synthesis left to reader'
+  - pattern: relay_class
+    status: inferred
+    variant: ethnic-proxy
+    note: 'Iranian Kurdish groups positioned as potential proxy/relay for post-regime-change governance; intelligence assesses them as insufficient; Trump rules out their use'
+  - pattern: institutional_abdication
+    status: observed
+    variant: inverse
+    note: 'Intelligence community asserting analytical independence via press leaks — opposite of congressional abdication documented in prior analysis; institution asserts rather than abdicates structural role'
+  findings_count: 9
+  commit: null
+  domain_text: US foreign policy / military / geopolitics
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Economic, Surveillance & Information (Legal & Regulatory active but absent)
+  null_case_text: plausible (MEDIUM — competent wire reporting; framework adds structural pattern recognition)
