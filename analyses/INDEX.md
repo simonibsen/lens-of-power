@@ -222,3 +222,20 @@
   Null case: plausible (MEDIUM — article captures surface logic; framework adds structural patterns not visible in reporting)
   Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`
   File: `2026-03-10-guardian-article-north-korea-nuclear-iran-war.md`
+
+### 2026-03-11 — Arundhati Roy's "Iran Is Not Gaza" speech — anticipatory obedience at sovereign scale
+  Domain: US foreign policy / geopolitics / postcolonial
+  Layers: Thought & Narrative (primary), Institutional (primary), Physical & Coercive, Economic (Surveillance & Information, Legal & Regulatory active but absent)
+  Null case: plausible (MEDIUM at component level; MEDIUM-LOW at configurational level — humiliation-plus-compliance pattern not explained by pragmatic calculation)
+  IC-5 flag: Training data likely overrepresents "rising power" / "strategic autonomy" framing of India; Roy's subordination thesis challenges dominant narrative
+  Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`, `2026-03-10-guardian-article-north-korea-nuclear-iran-war.md`
+  File: `2026-03-11-zeteo-speech-roy-iran-india-running-dog.md`
+
+### 2026-03-11 — US intelligence assessment vs. stated war objectives — the regime change gap
+  Domain: US foreign policy / military / geopolitics
+  Layers: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Economic, Surveillance & Information (Legal & Regulatory active but absent)
+  Null case: plausible (MEDIUM — competent wire reporting; framework adds structural pattern recognition)
+  Origin: SAMPLE mode (2026-03-12)
+  IC-5 flag: Training data overrepresents US institutional perspective on intelligence assessments; Iranian civilian experience and government perspective absent
+  Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`, `2026-03-10-guardian-article-north-korea-nuclear-iran-war.md`, `2026-03-11-zeteo-speech-roy-iran-india-running-dog.md`
+  File: `2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md`
