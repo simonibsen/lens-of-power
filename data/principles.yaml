@@ -2150,3 +2150,117 @@ entries:
   - Racializing Surveillance Detection Protocol (partial — needs Benjamin, Eubanks, Noble), Critical Biometric Consciousness
     Checklist (partial — needs engineering sources)
   source_type_display: training_data
+- id: terkel-working
+  file: principles/terkel-working.md
+  source_name: Studs Terkel
+  source_title: "Working: People Talk About What They Do All Day and How They Feel About What They Do"
+  source_year: 1974
+  position:
+  - 2
+  position_note: "the governed — 133 American workers speaking in their own voices"
+  provenance_tier: training_data
+  layers:
+  - thought_narrative
+  - economic
+  - institutional
+  - physical_coercive
+  - surveillance_information
+  - legal_regulatory
+  principles_list:
+  - "The Worker's Structural Consciousness (workers develop accurate structural understanding through daily experience, expressed in vernacular language)"
+  - "Dignity as the Primary Terrain of Workplace Struggle (central conflict is recognition as human, not wages)"
+  - "The Body as Site of Extraction (physical toll is the most direct form of economic extraction)"
+  - "The Cost of Refusal (compliance is rational response to structurally constrained choice set, not consent)"
+  - "Vernacular Resistance and the Workplace Hidden Transcript (slowdowns, humor, sabotage, gossip, craft pride)"
+  - "Surveillance from Below (workers develop counter-surveillance knowledge of monitoring apparatus)"
+  - "The Alienation Architecture (task fragmentation as control mechanism producing meaning-scarcity)"
+  - "Self-Narration as Counter-Knowledge (telling one's own story as resistance against institutional narrative)"
+  key_patterns:
+  - pattern: hidden_transcript
+    variant: null
+    note: 'P5: workplace hidden transcript documented from Position 2 — humor, sabotage, gossip, craft pride, self-narration. First direct governed-perspective corroboration.'
+  - pattern: compliance_gradient
+    variant: null
+    note: 'P4, P5: workers operating within the spectrum between full compliance and open refusal. Lordstown rebellion illustrates the threshold where the gradient breaks down.'
+  - pattern: double_performance
+    variant: null
+    note: 'P2, P5: workers performing compliance while maintaining private account of the relationship. Performance is conscious and strategic, not internalized.'
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: 'P2, P4: "loyalty," "work ethic," "team player" convert economic dependency into moral obligation. Workers see through the moral framing but comply because the cost is structural.'
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: 'P4, P7: scarcity of alternatives and scarcity of meaning both function as control. Employer controls not just wages but availability of meaningful work.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'P6: surveillance asymmetry is real but governed develop counter-knowledge. Asymmetry is contested terrain, not absolute.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Visible throughout from the other side: workers see through the appearance (mission statements, performance rhetoric, "we are a family") while navigating it as terrain.'
+  ic1_flags:
+  - axiom: 9
+    note: 'Workers are not unaware of mechanisms producing conformity. They see dependency, name it, comply because cost of refusal is prohibitive. Coercion is visible — operates through economic dependency not concealment. Axiom 9 may overstate invisibility in workplace compliance.'
+  - axiom: 10
+    note: 'Workers understand with precision but understanding does not liberate. Takes effect only when reaching audience (Terkel) or organized collectively (Lordstown). Position 2 understanding often structurally complete but operationally inert.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: All six (Economic, Thought & Narrative primary)
+  key_patterns_display: Hidden Transcript, Compliance Gradient, Double Performance, Moral Infrastructure of Economic Power, Manufactured Scarcity, Division of Learning, Appearance as Structural Terrain
+  source_display: "Studs Terkel, *Working: People Talk About What They Do All Day and How They Feel About What They Do* (1974)"
+  position_display: "2 (the governed — 133 American workers speaking in their own voices)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+- id: desmond-evicted
+  file: principles/desmond-evicted.md
+  source: 'Matthew Desmond, *Evicted: Poverty and Profit in the American City* (2016)'
+  position:
+  - 2
+  provenance_tier: training_data
+  layers:
+  - economic
+  - legal_regulatory
+  - institutional
+  - thought_narrative
+  - physical_coercive
+  - surveillance_information
+  principles_count: 7
+  principles_list:
+  - Profit Extraction from Poverty
+  - Eviction as Cascading Structural Failure
+  - The Tenant Screening Database as Structural Memory
+  - Exploitation of the Obligation to Shelter
+  - Stigma as Structural Enforcement
+  - The Landlord as Position 1 Actor
+  - The Court as Ratification Mechanism
+  key_patterns:
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: 'Affordable housing scarcity is structural, not accidental. Federal housing assistance reaches one in four eligible families. Policy choices (zoning, funding, subsidy design) maintain the scarcity that enables extraction.'
+  - pattern: compliance_gradient
+    variant: null
+    note: 'Tenants calibrate compliance to landlord power — tolerate substandard conditions, refrain from calling code enforcement, perform deference to maintain tenancy. Extends workplace compliance gradient to housing.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'Tenant screening databases create structural information asymmetry — landlords access full histories, tenants cannot see how information is used. Low-tech division of learning.'
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: 'Landlord-tenant relationship moralized by both parties. Non-payment framed as moral failure. Tenants internalize blame for structural conditions. Moral vocabulary prevents structural critique.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Eviction court presents appearance of due process while operating as ratification mechanism. Gap between stated function (adjudication) and actual function (volume processing) is the operating terrain.'
+  - pattern: democracy_oligarchy_coexistence
+    variant: null
+    note: 'Housing market operates within formal democratic/legal framework producing systematically one-sided outcomes. Formal equality of landlord and tenant coexists with substantive inequality.'
+  ic1_flags:
+  - axiom: 9
+    note: 'Tenants comply not because coercion is invisible but because alternative (homelessness) is prohibitive. Eviction threat is explicit. Power asymmetry is visible. Extends Terkel Axiom 9 complication from workplace to housing.'
+  - axiom: 10
+    note: 'Tenants understand structural position — see exploitation, name landlord incentives, recognize court function. Understanding does not produce resistance because they lack leverage. Extends Terkel Axiom 10 complication to housing.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: All six (Economic, Legal & Regulatory primary)
+  key_patterns_display: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence
+  source_display: "Matthew Desmond, *Evicted: Poverty and Profit in the American City* (2016)"
+  position_display: "2 (the governed — tenants facing eviction in Milwaukee, mediated by ethnographer)"
+  instruments_proposed_display: []
+  source_type_display: training_data

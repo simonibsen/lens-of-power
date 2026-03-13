@@ -239,3 +239,28 @@
   IC-5 flag: Training data overrepresents US institutional perspective on intelligence assessments; Iranian civilian experience and government perspective absent
   Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`, `2026-03-10-guardian-article-north-korea-nuclear-iran-war.md`, `2026-03-11-zeteo-speech-roy-iran-india-running-dog.md`
   File: `2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md`
+
+### 2026-01 — NTSB DCA investigation: where stated purpose matches actual function — an Axiom 7 test
+  Domain: Aviation safety / institutional oversight / political narrative
+  Layers: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative, Surveillance & Information, Physical & Coercive, Economic
+  Null case: accepted (MEDIUM-HIGH at investigation level; MEDIUM at institutional-political level — first organic null-case-accepted)
+  Adversarial input: yes
+  IC-5 flag: Training data likely overrepresents technocratic perspective on aviation safety institutions; victim families (position 2) absent
+  Cross-references: `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`
+  File: `2026-01-ntsb-report-dca-midair-collision-potomac.md`
+
+### 2025-10-28 — Oak Park Public Library board meeting: routine library governance (October 2025)
+  Domain: Local library governance / municipal budgeting
+  Layers: Institutional (primary), Economic, Legal & Regulatory
+  Null case: accepted (HIGH — routine library governance through established democratic procedures)
+  Adversarial input: yes
+  IC-5 flag: Training data heavily represents institutional documentation; procedural format may bias toward accepting self-documentation at face value
+  File: `2025-oppl-govminutes-library-board-meeting.md`
+
+### 2024-01 — AI deepfakes in elections: an Axiom 4 test — is the mechanism novel?
+  Domain: AI / elections / political disinformation (US and Slovakia)
+  Layers: Thought & Narrative (primary), Surveillance & Information (primary), Institutional, Legal & Regulatory
+  Null case: plausible (MEDIUM — individual bad actors viable; structural pattern recognition adds value)
+  Adversarial input: yes
+  IC-5 flag: Training data likely overrepresents Western liberal-democratic framing of election integrity; may underweight how synthetic media interacts with non-Western information environments
+  File: `2024-multi-article-ai-deepfake-election-interference.md`

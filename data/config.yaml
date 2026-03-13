@@ -186,6 +186,7 @@ analysis_source_types:
   - military_press_release
   - research
   - speech_transcript
+  - multi_source
 
 # Source types for evidence entries (what kind of evidence it is)
 evidence_source_types:

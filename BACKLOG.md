@@ -5,62 +5,43 @@
 > when completed or superseded. Dates track when each recommendation was
 > first surfaced.
 
-Last diagnostic: 2026-03-12 (36 analyses, 32 patterns, 26 principles, 7 instruments)
+Last diagnostic: 2026-03-12 (39 analyses, 32 patterns, 27 principles, 7 instruments)
 
 ---
 
 ## Immediate priority
 
-### 1. Red team (OVERDUE) (2026-03-09, updated 2026-03-12)
-SOURCE: Red team timing (Step 1)
-20 analyses since last self-examination (threshold: 10). Focus areas:
-- Axiom 7's perfect corroboration record (8 supports, 0 challenges)
-- Whether new pattern extensions are sound (Anticipatory Obedience to
-  inter-state, Relay Class to voluntary alliance subordination)
-- Position 2 absence (still zero governed-perspective sources)
-- Anglophone monoculture (~80% US-focused)
-- Whether YAML migration and viewer overhaul introduced analytical distortions
-
-### 2. Test Axiom 7 with adversarial input (2026-03-09, updated 2026-03-12)
-SOURCE: Evidence balance (Step 3)
-Axiom 4 (mechanisms consistent) has zero evidence — never tested. Axiom 7
-(stated vs. actual purpose) has 8 supports, 0 challenges. Simultaneously
-addresses adversarial input deficit (currently 3/36 = 8%, target 20%).
-- For Axiom 7: analyse material where stated purpose and actual function
-  genuinely align (successful public vaccination campaign, building code
-  enforcement that caught fraud, routine financial audit)
-- For Axiom 4: analyse a case where individual leadership change genuinely
-  transformed a system (post-apartheid South Africa, post-Franco Spain)
-
-### 3. Source Position 2 testimony (2026-03-06)
+### 1. Source additional Position 2 testimony (2026-03-06, updated 2026-03-12)
 SOURCE: Coverage gaps (Step 7)
-Zero Position 2 (governed) sources in 36 analyses and 26 extractions. The
-framework's most critical structural blind spot. Priority candidate: Studs
-Terkel, *Working* — covers Position 2, labour domain gap, and Economic
-layer from below. Also: Desmond (*Evicted* — housing + poverty + legal
-from Position 2), Ehrenreich (*Nickel and Dimed*), Ai Weiwei memoir.
+Two Position 2 sources extracted: Terkel *Working* (workplace, 8 principles)
+and Desmond *Evicted* (housing, 7 principles). Both produced IC-1 flags for
+Axioms 9 and 10 from below. Continue expanding. Candidates: Ehrenreich
+(*Nickel and Dimed* — low-wage service work), Ai Weiwei memoir (Position 2/3,
+non-Western), Desmond *Poverty, by America* (structural analysis).
 
 ---
 
 ## Short-term
 
-### 4. Increase adversarial input rate to 20% (2026-03-09, updated 2026-03-12)
+### 2. Increase adversarial input rate to 20% (2026-03-09, updated 2026-03-12)
 SOURCE: Selection bias (Step 2)
-3/36 (8%) is below the 20% threshold. Next 5 analyses should include at
-least 2 deliberate null-case-likely inputs. Candidates: municipal utility
-rate filing, scientific instrument calibration paper, routine corporate
-earnings call, community sports league governance, library board minutes.
+6/39 (15%) is approaching the 20% threshold. Continue including null-case-
+likely inputs in future analyses. Candidates: municipal utility rate filing,
+scientific instrument calibration paper, routine corporate earnings call,
+community sports league governance.
 
-### 5. Analyse DW Swiss broadcasting SAMPLE escalation (2026-03-09)
+### 3. Analyse DW Swiss broadcasting SAMPLE escalation (2026-03-09)
 SOURCE: Unacted escalations (Step 2)
 Flagged 2026-03-08 and still pending. Would simultaneously address three
 coverage gaps: non-anglophone source, direct democracy mechanism, and
 public media funding domain. Tests Democracy-Oligarchy Coexistence in a
 context where democratic mechanisms may have genuinely worked.
 
-### 6. Corroborate weakest PRELIMINARY patterns (2026-03-06, updated 2026-03-12)
-SOURCE: Pattern gaps (Step 4)
-14 patterns at PRELIMINARY (44% of all patterns). Three weakest (2 obs):
+### 4. Review PRELIMINARY patterns — prune or corroborate (2026-03-06, updated 2026-03-12)
+SOURCE: Pattern gaps (Step 4), Red team 2 (2026-03-12)
+14 patterns at PRELIMINARY (44% of all patterns). Red team recommends:
+patterns with <3 sources after 36 analyses should be flagged for potential
+retirement. Three weakest (2 obs):
 - **Temporal Control** — analyse memory law cases (Russia, Poland)
 - **Economy of Violence** — extract Kalyvas, *Logic of Violence in Civil War*
 - **Compression Through Destruction** — extract post-WWII reconstruction data
@@ -69,7 +50,7 @@ Low (3 obs): Compliance Gradient, Ideological Judo, Moral Infrastructure,
 Three Phases, Boomerang. Recently extended but still PRELIMINARY: Relay
 Class (4 obs), Double Performance (4 obs).
 
-### 7. Non-anglophone extraction — Achille Mbembe *Necropolitics* (2026-03-06, updated 2026-03-12)
+### 5. Non-anglophone extraction — Achille Mbembe *Necropolitics* (2026-03-06, updated 2026-03-12)
 SOURCE: Coverage gaps (Step 7)
 ~80% US-focused corpus. Mbembe addresses: non-anglophone gap, Africa gap,
 Physical & Coercive layer from below, Position 3 perspective. Likely
@@ -78,7 +59,7 @@ Alternative: Samir Amin (dependency theory, Economic layer, Global South).
 Also: analyse material from Le Monde Diplomatique, The Wire India, or
 Al Jazeera Arabic edition.
 
-### 8. Build Surveillance layer instrument (2026-03-09, updated 2026-03-12)
+### 6. Build Surveillance layer instrument (2026-03-09, updated 2026-03-12)
 SOURCE: Instrument gaps (Step 6), Layer coverage (Step 7)
 Surveillance & Information is least-represented primary layer (10/36).
 Four proposed instruments remain partial:
@@ -89,7 +70,7 @@ Four proposed instruments remain partial:
 Extracting Benjamin (*Race After Technology*) advances the first AND
 addresses the Surveillance layer gap.
 
-### 9. Rebalance SAMPLE pool (2026-03-12)
+### 7. Rebalance SAMPLE pool (2026-03-12)
 SOURCE: Calibration (Step 2)
 Calibration null case rate (80%) is above the 70% upper target. The pool
 may be overweighted toward null-case-likely categories. Add 3-4 entries
@@ -97,7 +78,16 @@ in categories where power dynamics are more likely (government press
 releases, corporate announcements, think tank policy papers) to bring
 the expected null rate closer to 50%.
 
-### 10. Church Committee broader extraction (2026-03-09)
+### 8. Extension discipline for pattern variants (2026-03-12)
+SOURCE: Red team 2 (2026-03-12)
+New pattern extensions (Anticipatory Obedience to inter-state, Relay Class
+to voluntary alliance subordination) must include explicit falsification
+conditions specific to the extension. Without answering "what would
+demonstrate this extension doesn't apply?", the extension is assertion
+not analysis. Consider adding a `falsification_condition` field to pattern
+variant records in patterns.yaml.
+
+### 9. Church Committee broader extraction (2026-03-09)
 SOURCE: Extract gaps (Step 5)
 CIA domestic activities chapters would test The Boomerang in a second
 institutional context (currently only FBI). Domestic intelligence chapter
@@ -107,6 +97,12 @@ AVAILABILITY: AARC Library (permanent link).
 ---
 
 ## Longer-term
+
+### 10. YAML migration integrity check (2026-03-12)
+SOURCE: Red team 2 (2026-03-12)
+Verify that pattern notes and variant annotations survived the markdown-to-YAML
+migration intact. Confirm no analytical nuance was lost in computed fields.
+Spot-check 5 patterns' observed_in entries against original analysis files.
 
 ### 11. Contemporary circumvention successes (2026-03-06)
 SOURCE: Circumventions audit
@@ -143,6 +139,25 @@ the demand side; supply side still needs independent corroboration.
 ---
 
 ## Completed
+
+### Axioms 4 and 7 adversarial tests — completed 2026-03-12
+Axiom 7 tested via NTSB DCA investigation (first challenge — stated purpose
+matches actual function at institution level). Axiom 4 tested via AI
+deepfakes in elections (first evidence — mechanism has clear structural
+parallels; supported). Both adversarial inputs. See analyses.
+
+### Position 2 testimony (Terkel) — completed 2026-03-12
+Extracted Terkel *Working* — first Position 2 source, 8 principles, 7
+pattern corroborations from the governed perspective, 2 IC-1 flags (Axiom 9:
+workplace coercion visible; Axiom 10: understanding inert without leverage).
+
+### Red team #2 — completed 2026-03-12
+Second self-examination (IC-3). Confirmation bias risk downgraded HIGH →
+MEDIUM. Key findings: null case never won organically, Axiom 4 untested,
+Axiom 7 unchallenged, position 2 still absent, pattern extensions risk
+unfalsifiability. Six recommendations produced (test Axioms 4/7, prune
+patterns, extension discipline, position 2 acquisition, YAML migration
+check). See `evidence/2026-03-12-red-team-second-self-examination.md`.
 
 ### Backlog #3: Reach SAMPLE calibration threshold — completed 2026-03-12
 5 samples reached. Calibration null case rate: 80% (above 70% target —

@@ -283,9 +283,9 @@ entries:
       describes the opposite of the function (disenrollment...'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.705
+  confidence_ratio: 0.652
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 61
+  relevant_corpus_size: 66
   corr_count: 43
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
@@ -406,9 +406,9 @@ entries:
       at any layer is caught by the others.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.274
+  confidence_ratio: 0.254
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 17
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
@@ -447,9 +447,9 @@ entries:
 
       despite no e...'
   counter_evidence: []
-  confidence_ratio: 0.161
+  confidence_ratio: 0.149
   confidence_level: SUPPORTED
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 10
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
@@ -554,10 +554,10 @@ entries:
 
       removes the conditions fo...'
   counter_evidence: []
-  confidence_ratio: 0.21
+  confidence_ratio: 0.224
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 62
-  corr_count: 13
+  relevant_corpus_size: 67
+  corr_count: 15
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -585,9 +585,9 @@ entries:
 
       transition between the two is the moment of maximum danger for democratic order'
   counter_evidence: []
-  confidence_ratio: 0.048
+  confidence_ratio: 0.045
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
@@ -642,9 +642,9 @@ entries:
 
       making them complicit ...'
   counter_evidence: []
-  confidence_ratio: 0.065
+  confidence_ratio: 0.06
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 4
 - id: economy_of_violence
   name: The Economy of Violence
@@ -677,9 +677,9 @@ entries:
       constitutive violence delegitimizes the sys...'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.036
+  confidence_ratio: 0.033
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 56
+  relevant_corpus_size: 60
   corr_count: 2
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
@@ -875,10 +875,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.574
+  confidence_ratio: 0.591
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 61
-  corr_count: 35
+  relevant_corpus_size: 66
+  corr_count: 39
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -938,10 +938,10 @@ entries:
 
       conceals. Dark sousveillance extends the hidden ...'
   counter_evidence: []
-  confidence_ratio: 0.127
+  confidence_ratio: 0.136
   confidence_level: SUPPORTED
-  relevant_corpus_size: 55
-  corr_count: 7
+  relevant_corpus_size: 59
+  corr_count: 8
 - id: compliance_gradient
   name: The Compliance Gradient
   file: patterns/compliance-gradient.md
@@ -988,10 +988,10 @@ entries:
 
       (the Great Migration), to organized protest (civil rights...'
   counter_evidence: []
-  confidence_ratio: 0.065
+  confidence_ratio: 0.09
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 4
+  relevant_corpus_size: 67
+  corr_count: 6
 - id: ideological_judo
   name: Ideological Judo
   file: patterns/ideological-judo.md
@@ -1039,9 +1039,9 @@ entries:
 
       structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.081
+  confidence_ratio: 0.075
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 5
 - id: double_performance
   name: The Double Performance
@@ -1095,10 +1095,10 @@ entries:
 
       public transcript and private knowledge; t...'
   counter_evidence: []
-  confidence_ratio: 0.097
-  confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 6
+  confidence_ratio: 0.104
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 67
+  corr_count: 7
 - id: relay_class
   name: The Relay Class
   file: patterns/relay-class.md
@@ -1147,9 +1147,9 @@ entries:
 
       basis of their authority. ...'
   counter_evidence: []
-  confidence_ratio: 0.081
+  confidence_ratio: 0.075
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 5
 - id: constitutive_violence
   name: Constitutive Violence
@@ -1246,9 +1246,9 @@ entries:
 
       violence is ...'
   counter_evidence: []
-  confidence_ratio: 0.145
+  confidence_ratio: 0.134
   confidence_level: SUPPORTED
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 9
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
@@ -1286,9 +1286,9 @@ entries:
 
       creating new frameworks rather than inverting colonial categories'
   counter_evidence: []
-  confidence_ratio: 0.033
+  confidence_ratio: 0.03
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 61
+  relevant_corpus_size: 66
   corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
@@ -1336,10 +1336,10 @@ entries:
       soma — every moment filled with stimulation. Helmholtz Watson senses something is wrong but cannot articulate it because
       the cognitive space for articulation has been filled. Not info...'
   counter_evidence: []
-  confidence_ratio: 0.2
+  confidence_ratio: 0.22
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 55
-  corr_count: 11
+  relevant_corpus_size: 59
+  corr_count: 13
 - id: serial_regime_change
   name: Serial Regime Change
   file: patterns/serial-regime-change.md
@@ -1371,9 +1371,9 @@ entries:
 
       aerial bombardment →...'
   counter_evidence: []
-  confidence_ratio: 0.197
+  confidence_ratio: 0.182
   confidence_level: SUPPORTED
-  relevant_corpus_size: 61
+  relevant_corpus_size: 66
   corr_count: 12
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
@@ -1409,10 +1409,10 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.113
+  confidence_ratio: 0.119
   confidence_level: SUPPORTED
-  relevant_corpus_size: 62
-  corr_count: 7
+  relevant_corpus_size: 67
+  corr_count: 8
 - id: dispossession_cycle
   name: The Dispossession Cycle
   file: patterns/dispossession-cycle.md
@@ -1486,9 +1486,9 @@ entries:
 
       to the data-extraction cycl...'
   counter_evidence: []
-  confidence_ratio: 0.081
+  confidence_ratio: 0.075
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 5
 - id: division_of_learning
   name: The Division of Learning
@@ -1570,10 +1570,10 @@ entries:
 
       contains; the...'
   counter_evidence: []
-  confidence_ratio: 0.133
+  confidence_ratio: 0.169
   confidence_level: SUPPORTED
-  relevant_corpus_size: 60
-  corr_count: 8
+  relevant_corpus_size: 65
+  corr_count: 11
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -1629,9 +1629,9 @@ entries:
       will self-censor befor...'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.213
-  confidence_level: ESTABLISHED
-  relevant_corpus_size: 61
+  confidence_ratio: 0.197
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 66
   corr_count: 13
 - id: institutional_abdication
   name: Institutional Abdication
@@ -1684,10 +1684,10 @@ entries:
 
       structural dependency...'
   counter_evidence: []
-  confidence_ratio: 0.196
+  confidence_ratio: 0.197
   confidence_level: SUPPORTED
-  relevant_corpus_size: 56
-  corr_count: 11
+  relevant_corpus_size: 61
+  corr_count: 12
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -1798,9 +1798,9 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.183
+  confidence_ratio: 0.169
   confidence_level: SUPPORTED
-  relevant_corpus_size: 60
+  relevant_corpus_size: 65
   corr_count: 11
 - id: compression_through_destruction
   name: Compression Through Destruction
@@ -1841,9 +1841,9 @@ entries:
       Hartmann''s Progressive Era/New...'
   counter_evidence:
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.048
+  confidence_ratio: 0.045
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
@@ -1928,9 +1928,9 @@ entries:
 
       operating through controlled information platforms (Wiki...'
   counter_evidence: []
-  confidence_ratio: 0.133
+  confidence_ratio: 0.123
   confidence_level: SUPPORTED
-  relevant_corpus_size: 60
+  relevant_corpus_size: 65
   corr_count: 8
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
@@ -1990,10 +1990,10 @@ entries:
       competition-en...'
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.242
+  confidence_ratio: 0.239
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 62
-  corr_count: 15
+  relevant_corpus_size: 67
+  corr_count: 16
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -2045,10 +2045,10 @@ entries:
 
       moral standing. P3: the "good"/"bad" wealth distinct...'
   counter_evidence: []
-  confidence_ratio: 0.048
+  confidence_ratio: 0.075
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 3
+  relevant_corpus_size: 67
+  corr_count: 5
 - id: capture_pipeline
   name: The Capture Pipeline
   file: patterns/capture-pipeline.md
@@ -2116,9 +2116,9 @@ entries:
 
       saturation at ever...'
   counter_evidence: []
-  confidence_ratio: 0.15
+  confidence_ratio: 0.138
   confidence_level: SUPPORTED
-  relevant_corpus_size: 60
+  relevant_corpus_size: 65
   corr_count: 9
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
@@ -2185,9 +2185,9 @@ entries:
 
       Intelligentsia backgrounds provided "cultural...'
   counter_evidence: []
-  confidence_ratio: 0.129
+  confidence_ratio: 0.119
   confidence_level: SUPPORTED
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 8
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
@@ -2226,9 +2226,9 @@ entries:
       th...'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.048
+  confidence_ratio: 0.045
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 67
   corr_count: 3
 - id: categorical_blindness
   name: Categorical Blindness
@@ -2264,9 +2264,9 @@ entries:
       detect Black faces. ...'
   counter_evidence:
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.036
+  confidence_ratio: 0.034
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 55
+  relevant_corpus_size: 59
   corr_count: 2
 - id: boomerang
   name: The Boomerang
@@ -2312,7 +2312,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.083
+  confidence_ratio: 0.077
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 60
+  relevant_corpus_size: 65
   corr_count: 5

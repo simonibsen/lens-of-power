@@ -211,3 +211,21 @@ LAYERS: All six (Surveillance & Information, Thought & Narrative, Physical & Coe
 KEY PATTERNS: Constitutive Violence, Formal Transformation/Structural Continuity, The Boomerang, The Division of Learning, Categorical Blindness, The Hidden Transcript, The Compliance Gradient, Appearance as Structural Terrain, Inversion of Stated Purpose
 IC-1 FLAGS: Axiom 3 (black luminosity — fifth mode of invisible power: forced visibility of the surveilled), Axiom 8 (absented presence — absence as constitutive, not merely significant), Axiom 10 (dark sousveillance confirms understanding-as-resistance as conditional)
 INSTRUMENT PROPOSED: Racializing Surveillance Detection Protocol (partial — needs Benjamin, Eubanks, Noble), Critical Biometric Consciousness Checklist (partial — needs engineering sources)
+
+## terkel-working.md
+SOURCE: Studs Terkel, *Working: People Talk About What They Do All Day and How They Feel About What They Do* (1974)
+POSITION: 2 (the governed — 133 American workers speaking in their own voices)
+SOURCE TYPE: training_data
+PRINCIPLES: 8 — The Worker's Structural Consciousness (workers develop accurate structural understanding through daily experience, expressed in vernacular language), Dignity as the Primary Terrain of Workplace Struggle (central conflict is recognition as human, not wages), The Body as Site of Extraction (physical toll is the most direct form of economic extraction), The Cost of Refusal (compliance is rational response to structurally constrained choice set, not consent), Vernacular Resistance and the Workplace Hidden Transcript (slowdowns, humor, sabotage, gossip, craft pride), Surveillance from Below (workers develop counter-surveillance knowledge of monitoring apparatus), The Alienation Architecture (task fragmentation as control mechanism producing meaning-scarcity), Self-Narration as Counter-Knowledge (telling one's own story as resistance against institutional narrative)
+LAYERS: All six (Economic, Thought & Narrative primary)
+KEY PATTERNS: Hidden Transcript, Compliance Gradient, Double Performance, Moral Infrastructure of Economic Power, Manufactured Scarcity, Division of Learning, Appearance as Structural Terrain
+IC-1 FLAGS: Axiom 9 (Workers are not unaware of mechanisms producing conformity. They see dependency, name it, comply because cost of refusal is prohibitive. Coercion is visible — operates through economic dependency not concealment. Axiom 9 may overstate invisibility in workplace compliance.), Axiom 10 (Workers understand with precision but understanding does not liberate. Takes effect only when reaching audience (Terkel) or organized collectively (Lordstown). Position 2 understanding often structurally complete but operationally inert.)
+
+## desmond-evicted.md
+SOURCE: Matthew Desmond, *Evicted: Poverty and Profit in the American City* (2016)
+POSITION: 2 (the governed — tenants facing eviction in Milwaukee, mediated by ethnographer)
+SOURCE TYPE: training_data
+PRINCIPLES: 7 — Profit Extraction from Poverty, Eviction as Cascading Structural Failure, The Tenant Screening Database as Structural Memory, Exploitation of the Obligation to Shelter, Stigma as Structural Enforcement, The Landlord as Position 1 Actor, The Court as Ratification Mechanism
+LAYERS: All six (Economic, Legal & Regulatory primary)
+KEY PATTERNS: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence
+IC-1 FLAGS: Axiom 9 (Tenants comply not because coercion is invisible but because alternative (homelessness) is prohibitive. Eviction threat is explicit. Power asymmetry is visible. Extends Terkel Axiom 9 complication from workplace to housing.), Axiom 10 (Tenants understand structural position — see exploitation, name landlord incentives, recognize court function. Understanding does not produce resistance because they lack leverage. Extends Terkel Axiom 10 complication to housing.)

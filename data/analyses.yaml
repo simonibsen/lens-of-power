@@ -2166,3 +2166,134 @@ entries:
   domain_text: US foreign policy / military / geopolitics
   layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Economic, Surveillance & Information (Legal & Regulatory active but absent)
   null_case_text: plausible (MEDIUM — competent wire reporting; framework adds structural pattern recognition)
+- id: 2026-01-ntsb-report-dca-midair-collision-potomac
+  file: analyses/2026-01-ntsb-report-dca-midair-collision-potomac.md
+  date: '2026-03-12'
+  time: ~02:30 UTC
+  source_date: '2026-01'
+  title: 'NTSB DCA investigation: where stated purpose matches actual function — an Axiom 7 test'
+  source_name: 'NTSB, Midair Collision over the Potomac River (AIR-26-02), January 27, 2026'
+  source_type: report
+  position:
+  - 4
+  url: https://www.ntsb.gov/investigations/Pages/DCA25MA108.aspx
+  domain:
+  - military
+  - domestic_policy
+  layers_primary:
+  - institutional
+  - legal_regulatory
+  layers_secondary:
+  - thought_narrative
+  - surveillance_information
+  - physical_coercive
+  - economic
+  layers_absent: []
+  null_case: accepted
+  null_case_level: MEDIUM-HIGH at investigation level (report is what it says it is); MEDIUM at broader institutional-political level
+  adversarial: true
+  origin: null
+  ic5_flag: 'Training data likely overrepresents technocratic perspective on aviation safety institutions; victim families (position 2) absent'
+  cross_references:
+  - 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
+  patterns_matched:
+  - pattern: institutional_abdication
+    status: observed
+    variant: null
+    note: "FAA's 14-year failure to act on 80+ close calls in own data; understaffing (single controller managing both helicopter and fixed-wing)"
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: 'Trump DEI attribution — factually baseless narrative redirecting from systemic failures'
+  - pattern: division_of_learning
+    status: observed
+    variant: intra-institutional
+    note: 'Intra-institutional variant — FAA data existed, decisions did not follow'
+  - pattern: real_time_narrative_saturation
+    status: observed
+    variant: null
+    note: 'Immediate DEI framing before any investigation could produce findings'
+  findings_count: 8
+  commit: null
+  domain_text: Aviation safety / institutional oversight / political narrative
+  layers_text: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative, Surveillance & Information, Physical & Coercive, Economic
+  null_case_text: accepted (MEDIUM-HIGH at investigation level; MEDIUM at institutional-political level — first organic null-case-accepted)
+- id: 2025-oppl-govminutes-library-board-meeting
+  file: analyses/2025-oppl-govminutes-library-board-meeting.md
+  date: '2026-03-12'
+  time: ~05:00 UTC
+  source_date: '2025-10-28'
+  title: 'Oak Park Public Library board meeting: routine library governance (October 2025)'
+  source_name: Oak Park Public Library, Board of Library Trustees
+  source_type: government_document
+  position:
+  - 1
+  url: https://www.oppl.org/wp-content/uploads/2025/10/OCTOBER-28-2025-OAK-PARK-PUBLIC-LIBRARY-REGULAR-BOARD-MEETING-MATERIALSw.pdf
+  domain:
+  - local_governance
+  layers_primary:
+  - institutional
+  layers_secondary:
+  - economic
+  - legal_regulatory
+  layers_absent: []
+  null_case: accepted
+  null_case_level: HIGH — routine democratic governance of a public library through established procedures; power explanation does not surpass null case
+  adversarial: true
+  origin: null
+  ic5_flag: 'Training data heavily represents institutional documentation; procedural format may bias toward accepting self-documentation at face value'
+  cross_references: []
+  patterns_matched: []
+  findings_count: 4
+  commit: null
+  domain_text: Local library governance / municipal budgeting
+  layers_text: Institutional (primary), Economic, Legal & Regulatory
+  null_case_text: accepted (HIGH — routine library governance through established democratic procedures)
+- id: 2024-multi-article-ai-deepfake-election-interference
+  file: analyses/2024-multi-article-ai-deepfake-election-interference.md
+  date: '2026-03-12'
+  time: ~06:00 UTC
+  source_date: '2024-01'
+  title: 'AI deepfakes in elections: an Axiom 4 test — is the mechanism novel?'
+  source_name: Multiple (NPR, PBS, Harvard Kennedy School Misinformation Review, CNN)
+  source_type: multi_source
+  position:
+  - 4
+  - 5
+  url: https://misinforeview.hks.harvard.edu/article/beyond-the-deepfake-hype-ai-democracy-and-the-slovak-case/
+  domain:
+  - technology
+  - elections
+  layers_primary:
+  - thought_narrative
+  - surveillance_information
+  layers_secondary:
+  - institutional
+  - legal_regulatory
+  layers_absent:
+  - economic
+  - physical_coercive
+  null_case: plausible
+  null_case_level: MEDIUM — individual bad actors exploiting new technology; structural pattern explanation adds value but isolated-actor explanation is viable
+  adversarial: true
+  origin: null
+  ic5_flag: 'Training data likely overrepresents Western liberal-democratic framing of election integrity; may underweight how synthetic media interacts with non-Western information environments'
+  cross_references: []
+  patterns_matched:
+  - pattern: unprecedented_as_sanctuary
+    status: observed
+    variant: null
+    note: 'AI deepfakes operated in regulatory void — FCC ruled AI voices in robocalls illegal only after the NH incident; Slovakia had no legal framework for synthetic media'
+  - pattern: real_time_narrative_saturation
+    status: observed
+    variant: null
+    note: 'Slovakia deepfakes released during media moratorium, spread through encrypted channels faster than debunking capacity'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: 'Deepfakes exploit the general expectation that audio recordings are authentic evidence; the gap between appearance and reality is the operating terrain'
+  findings_count: 6
+  commit: null
+  domain_text: AI / elections / political disinformation (US and Slovakia)
+  layers_text: Thought & Narrative (primary), Surveillance & Information (primary), Institutional, Legal & Regulatory
+  null_case_text: plausible (MEDIUM — individual bad actors viable; structural pattern recognition adds value)
