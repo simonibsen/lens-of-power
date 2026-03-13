@@ -2297,3 +2297,56 @@ entries:
   domain_text: AI / elections / political disinformation (US and Slovakia)
   layers_text: Thought & Narrative (primary), Surveillance & Information (primary), Institutional, Legal & Regulatory
   null_case_text: plausible (MEDIUM — individual bad actors viable; structural pattern recognition adds value)
+- id: 2026-03-multi-article-swiss-broadcasting-referendum
+  file: analyses/2026-03-multi-article-swiss-broadcasting-referendum.md
+  date: '2026-03-13'
+  time: ~00:30 UTC
+  source_date: '2026-03-08'
+  title: 'Swiss broadcasting referendum: direct democracy defends public media — but the ratchet operates anyway'
+  source_name: Multiple (swissinfo.ch, eurotopics.net, heise.de, EBU, EFJ, C21Media)
+  source_type: multi_source
+  position:
+  - 4
+  - 5
+  url: https://www.swissinfo.ch/eng/swiss-politics/six-takeaways-from-switzerlands-licence-fee-battle/91060244
+  domain:
+  - media
+  - elections
+  - domestic_policy
+  layers_primary:
+  - thought_narrative
+  - institutional
+  layers_secondary:
+  - economic
+  - legal_regulatory
+  layers_absent:
+  - surveillance_information
+  - physical_coercive
+  null_case: plausible
+  null_case_level: MEDIUM — direct democracy working as designed is viable; framework adds structural pattern recognition
+  adversarial: false
+  origin: sample_escalation
+  ic5_flag: 'Training data likely overrepresents Western liberal consensus that public broadcasting is a democratic good; may underweight libertarian or market-fundamentalist critiques of state-funded media'
+  cross_references: []
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: 'inverse — democracy constraining economic pressure'
+    note: 'Referendum defeated initiative but fee has dropped 35% since 2007 through mechanisms outside the referendum. Democratic process wins individual battles while structural trend continues.'
+  - pattern: peacetime_ratchet
+    status: observed
+    variant: null
+    note: 'Six initiatives failed; fee still dropped from CHF 462 to planned CHF 300. Each defeated challenge contributes to incremental reduction through concessions, counter-proposals, and administrative decisions.'
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: 'Initiative framed as financial relief; Amnesty International assessed actual purpose as political pressure on public media.'
+  - pattern: ideological_judo
+    status: observed
+    variant: null
+    note: 'Opponents held initiative to its own framing — CHF 0.92/day is less than a coffee. Cost argument turned against itself.'
+  findings_count: 7
+  commit: null
+  domain_text: Swiss media policy / direct democracy / public broadcasting funding
+  layers_text: Thought & Narrative (primary), Institutional (primary), Economic, Legal & Regulatory
+  null_case_text: plausible (MEDIUM — democratic deliberation viable; structural pattern recognition adds depth)

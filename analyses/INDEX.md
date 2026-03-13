@@ -264,3 +264,10 @@
   Adversarial input: yes
   IC-5 flag: Training data likely overrepresents Western liberal-democratic framing of election integrity; may underweight how synthetic media interacts with non-Western information environments
   File: `2024-multi-article-ai-deepfake-election-interference.md`
+
+### 2026-03-08 — Swiss broadcasting referendum: direct democracy defends public media — but the ratchet operates anyway
+  Domain: Swiss media policy / direct democracy / public broadcasting funding
+  Layers: Thought & Narrative (primary), Institutional (primary), Economic, Legal & Regulatory
+  Null case: plausible (MEDIUM — democratic deliberation viable; structural pattern recognition adds depth)
+  IC-5 flag: Training data likely overrepresents Western liberal consensus that public broadcasting is a democratic good; may underweight libertarian or market-fundamentalist critiques of state-funded media
+  File: `2026-03-multi-article-swiss-broadcasting-referendum.md`

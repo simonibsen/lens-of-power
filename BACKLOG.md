@@ -5,7 +5,7 @@
 > when completed or superseded. Dates track when each recommendation was
 > first surfaced.
 
-Last diagnostic: 2026-03-12 (39 analyses, 32 patterns, 27 principles, 7 instruments)
+Last diagnostic: 2026-03-12 (40 analyses, 32 patterns, 28 principles, 7 instruments)
 
 ---
 
@@ -30,12 +30,13 @@ likely inputs in future analyses. Candidates: municipal utility rate filing,
 scientific instrument calibration paper, routine corporate earnings call,
 community sports league governance.
 
-### 3. Analyse DW Swiss broadcasting SAMPLE escalation (2026-03-09)
+### 3. Analyse remaining SAMPLE escalations (2026-03-09, updated 2026-03-13)
 SOURCE: Unacted escalations (Step 2)
-Flagged 2026-03-08 and still pending. Would simultaneously address three
-coverage gaps: non-anglophone source, direct democracy mechanism, and
-public media funding domain. Tests Democracy-Oligarchy Coexistence in a
-context where democratic mechanisms may have genuinely worked.
+DW Swiss broadcasting escalation completed — Democracy-Oligarchy
+Coexistence tested in inverse (democracy constraining power), Peacetime
+Ratchet extended (operates through repeated defeated challenges). One
+unacted escalation remains: Haaretz/Iran (already acted on via Reuters
+wire story analysis).
 
 ### 4. Review PRELIMINARY patterns — prune or corroborate (2026-03-06, updated 2026-03-12)
 SOURCE: Pattern gaps (Step 4), Red team 2 (2026-03-12)
