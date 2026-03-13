@@ -404,10 +404,10 @@ def compute_health_metrics(nodes):
     if cal_yaml_path.exists():
         cal_data = yaml.safe_load(cal_yaml_path.read_text(encoding="utf-8")) or {}
         cal_stats = cal_data.get("stats", {})
-        calibration["total"] = cal_stats.get("total_samples", 0)
-        calibration["accepted"] = cal_stats.get("null_accepted", 0)
-        calibration["plausible"] = cal_stats.get("null_plausible", 0)
-        calibration["rejected"] = cal_stats.get("null_rejected", 0)
+        calibration["total"] = cal_stats.get("total_runs", 0) or cal_stats.get("total_samples", 0)
+        calibration["accepted"] = cal_stats.get("accepted", 0) or cal_stats.get("null_accepted", 0)
+        calibration["plausible"] = cal_stats.get("plausible", 0) or cal_stats.get("null_plausible", 0)
+        calibration["rejected"] = cal_stats.get("rejected", 0) or cal_stats.get("null_rejected", 0)
         # Count unacted escalations from entries
         for entry in cal_data.get("entries", []):
             esc = (entry.get("escalation") or "").lower()
