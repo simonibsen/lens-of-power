@@ -17,6 +17,8 @@ constitutive violence delegitimizes the system it establishes. The pattern
 holds as an empirical description of the ruler's calculus but carries no
 normative weight.
 
+REVIEW (2026-03-13): After 41 analyses and 29 principle sources, this pattern has only 2 observations (Machiavelli alone as source, with Fanon challenging it) — the weakest in the framework. The pattern describes a ruler's optimal violence calibration strategy, which is narrow and specific to regime establishment contexts. Unless a third independent source (Kalyvas *Logic of Violence in Civil War* is the strongest candidate) corroborates it in the next 10 analyses or extractions, recommend retirement. The Machiavelli insight is preserved in the principles file regardless.
+
 ---
 
 ## Evidence trail

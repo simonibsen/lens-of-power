@@ -2350,3 +2350,36 @@ entries:
   domain_text: Swiss media policy / direct democracy / public broadcasting funding
   layers_text: Thought & Narrative (primary), Institutional (primary), Economic, Legal & Regulatory
   null_case_text: plausible (MEDIUM — democratic deliberation viable; structural pattern recognition adds depth)
+- id: 2021-ncsl-boardminutes-youth-soccer-league
+  file: analyses/2021-ncsl-boardminutes-youth-soccer-league.md
+  title: 'NCSL youth soccer board meeting: routine voluntary governance'
+  source_name: National Capital Soccer League
+  source_type: organizational
+  position:
+  - 2
+  url: https://ncsl-soccer.com/bod-meeting-minutes-amp-locations/ncsl-bod-meeting-minutes-11-15-21/
+  domain:
+  - sports
+  - local_gov
+  layers_primary:
+  - institutional
+  layers_secondary: []
+  layers_absent:
+  - thought_narrative
+  - economic
+  - legal_regulatory
+  - surveillance_information
+  - physical_coercive
+  null_case: accepted
+  null_case_level: HIGH — voluntary civic governance operating as designed, no power dynamics
+  adversarial: true
+  adversarial_note: Deliberately selected as null-case-likely material to test adversarial input rate (target 20%)
+  origin: adversarial
+  ic5_flag: No IC-5 concerns
+  cross_references: []
+  patterns_matched: []
+  findings_count: 4
+  commit: null
+  domain_text: Youth sports governance
+  layers_text: Institutional
+  null_case_text: accepted (HIGH — routine voluntary civic governance)

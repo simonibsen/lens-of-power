@@ -5,51 +5,49 @@
 > when completed or superseded. Dates track when each recommendation was
 > first surfaced.
 
-Last diagnostic: 2026-03-12 (40 analyses, 32 patterns, 28 principles, 7 instruments)
+Last diagnostic: 2026-03-12 (41 analyses, 32 patterns, 29 principles, 7 instruments)
 
 ---
 
 ## Immediate priority
 
-### 1. Source additional Position 2 testimony (2026-03-06, updated 2026-03-12)
+### 1. Source additional Position 2 testimony (2026-03-06, updated 2026-03-13)
 SOURCE: Coverage gaps (Step 7)
-Two Position 2 sources extracted: Terkel *Working* (workplace, 8 principles)
-and Desmond *Evicted* (housing, 7 principles). Both produced IC-1 flags for
-Axioms 9 and 10 from below. Continue expanding. Candidates: Ehrenreich
-(*Nickel and Dimed* — low-wage service work), Ai Weiwei memoir (Position 2/3,
+Three Position 2 sources extracted: Terkel *Working* (workplace, 8 principles),
+Desmond *Evicted* (housing, 7 principles), and Ehrenreich *Nickel and Dimed*
+(low-wage service work, 6 principles). All three produced IC-1 flags for
+Axioms 9 and 10 from below — three independent domains now confirm the
+complication. Continue expanding. Candidates: Ai Weiwei memoir (Position 2/3,
 non-Western), Desmond *Poverty, by America* (structural analysis).
 
 ---
 
 ## Short-term
 
-### 2. Increase adversarial input rate to 20% (2026-03-09, updated 2026-03-12)
+### 2. Increase adversarial input rate to 20% (2026-03-09, updated 2026-03-13)
 SOURCE: Selection bias (Step 2)
-6/39 (15%) is approaching the 20% threshold. Continue including null-case-
-likely inputs in future analyses. Candidates: municipal utility rate filing,
-scientific instrument calibration paper, routine corporate earnings call,
-community sports league governance.
+7/41 (17%) approaching the 20% threshold. NCSL youth soccer board meeting
+added (null case accepted at HIGH). Continue including null-case-likely
+inputs in future analyses. Candidates: municipal utility rate filing,
+scientific instrument calibration paper, routine corporate earnings call.
 
-### 3. Analyse remaining SAMPLE escalations (2026-03-09, updated 2026-03-13)
-SOURCE: Unacted escalations (Step 2)
-DW Swiss broadcasting escalation completed — Democracy-Oligarchy
-Coexistence tested in inverse (democracy constraining power), Peacetime
-Ratchet extended (operates through repeated defeated challenges). One
-unacted escalation remains: Haaretz/Iran (already acted on via Reuters
-wire story analysis).
-
-### 4. Review PRELIMINARY patterns — prune or corroborate (2026-03-06, updated 2026-03-12)
-SOURCE: Pattern gaps (Step 4), Red team 2 (2026-03-12)
-14 patterns at PRELIMINARY (44% of all patterns). Red team recommends:
-patterns with <3 sources after 36 analyses should be flagged for potential
-retirement. Three weakest (2 obs):
-- **Temporal Control** — analyse memory law cases (Russia, Poland)
-- **Economy of Violence** — extract Kalyvas, *Logic of Violence in Civil War*
-- **Compression Through Destruction** — extract post-WWII reconstruction data
-- **Structural Demand for Propaganda** — extract Bernays or PR industry history
-Low (3 obs): Compliance Gradient, Ideological Judo, Moral Infrastructure,
-Three Phases, Boomerang. Recently extended but still PRELIMINARY: Relay
-Class (4 obs), Double Performance (4 obs).
+### 3. Review PRELIMINARY patterns — prune or corroborate (2026-03-06, updated 2026-03-13)
+SOURCE: Pattern gaps (Step 4), Red team 2 (2026-03-12), Pattern review (2026-03-13)
+12 patterns at PRELIMINARY (38% of all patterns). Build pipeline bug fixed —
+observed_in was not including analysis corroborations (+165 edges recovered).
+Review completed 2026-03-13:
+- **Flagged for retirement**: Economy of Violence (2 obs + counter-evidence,
+  only Machiavelli; needs Kalyvas or retire after 10 more analyses)
+- **Flagged for merger**: Categorical Blindness (2 obs + counter-evidence,
+  self-identified as possible Axiom 8 + Division of Learning extension)
+- **Near SUPPORTED threshold**: Ideological Judo (6 obs, 8.6%), Moral
+  Infrastructure (6 obs, 8.7%) — both need ratio above 10%
+- **Well-observed but ratio-limited**: Relay Class (6), Boomerang (5),
+  Middle Stratum Trap (5), Dispossession Cycle (5) — broad layers make
+  the 10% ratio threshold hard to reach
+- **Threshold scaling issue noted**: the min_ratio=10% threshold penalizes
+  broad-layer patterns where nearly all sources are "relevant." Consider
+  adjusting thresholds when corpus exceeds 80 sources.
 
 ### 5. Non-anglophone extraction — Achille Mbembe *Necropolitics* (2026-03-06, updated 2026-03-12)
 SOURCE: Coverage gaps (Step 7)
@@ -140,6 +138,11 @@ the demand side; supply side still needs independent corroboration.
 ---
 
 ## Completed
+
+### SAMPLE escalations — completed 2026-03-13
+Both escalations acted on: DW Swiss broadcasting (Democracy-Oligarchy
+Coexistence inverse variant, Peacetime Ratchet extension); Haaretz/Iran
+(acted on via Reuters wire story analysis as Roy Iran speech analysis).
 
 ### Axioms 4 and 7 adversarial tests — completed 2026-03-12
 Axiom 7 tested via NTSB DCA investigation (first challenge — stated purpose

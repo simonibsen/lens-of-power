@@ -2264,3 +2264,53 @@ entries:
   position_display: "2 (the governed — tenants facing eviction in Milwaukee, mediated by ethnographer)"
   instruments_proposed_display: []
   source_type_display: training_data
+- id: ehrenreich-nickel-and-dimed
+  file: principles/ehrenreich-nickel-and-dimed.md
+  source: 'Barbara Ehrenreich, *Nickel and Dimed: On (Not) Getting By in America* (2001)'
+  position:
+  - 2
+  - 5
+  provenance_tier: training_data
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  - physical_coercive
+  - surveillance_information
+  principles_count: 6
+  principles_list:
+  - The Arithmetic of Structural Impossibility
+  - Entry Conditions as Pre-Defeat
+  - Workplace Surveillance as Class-Specific
+  - The Mythology of Meritocracy as Structural Enforcement
+  - Physical Degradation as Normal Operating Cost
+  - The Anti-Union Architecture
+  key_patterns:
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: 'Housing scarcity is the binding constraint in all three experiments. The scarcity is in the wage-to-cost ratio itself — manufactured at the level of compensation policy, not housing supply alone. Third Position 2 corroboration.'
+  - pattern: compliance_gradient
+    variant: null
+    note: 'Workers calibrate behavior to avoid termination. Gradient is narrower than in industrial work — low-wage service workers have less room for partial compliance because the employment relationship is more precarious. Third Position 2 corroboration.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'Drug testing, personality testing, and workplace monitoring create structural information asymmetry. Pre-employment screening is the hiring-stage equivalent of tenant screening databases. Class-specific surveillance as division of learning. Third Position 2 corroboration.'
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: 'The meritocracy narrative converts structural poverty into personal failure. Workers blame themselves rather than the arithmetic of their wages. Specific moral vocabulary: work ethic, personal responsibility, bootstraps. Third Position 2 corroboration.'
+  - pattern: anticipatory_obedience
+    variant: institutional
+    note: 'Anti-union architecture preempts organizing before it begins. Workers self-censor because employment structure makes collective expression prohibitive. Extends pattern from political authoritarianism to workplace architecture.'
+  ic1_flags:
+  - axiom: 9
+    note: 'Low-wage workers see the coercion clearly — insufficient wages, surveillance, power asymmetry. They comply because the cost of refusal (unemployment, homelessness) is prohibitive, not because coercion is concealed. Third independent Position 2 confirmation across third domain (low-wage service work).'
+  - axiom: 10
+    note: 'Workers understand their structural position but cannot act on that understanding. They lack leverage. The anti-union architecture specifically prevents formation of collective leverage. Third independent Position 2 confirmation across third domain.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Economic, Institutional, Thought & Narrative, Physical & Coercive, Surveillance & Information
+  key_patterns_display: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Anticipatory Obedience
+  source_display: "Barbara Ehrenreich, *Nickel and Dimed* (2001)"
+  position_display: "2/5 (hybrid — journalist living as low-wage worker, with exit option that actual workers lack)"
+  instruments_proposed_display: []
+  source_type_display: training_data

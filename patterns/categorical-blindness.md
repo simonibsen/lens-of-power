@@ -16,6 +16,8 @@ social-categorical argument.
 
 NOTE: May be an extension of Axiom 8 (absence as significant) + the Division of Learning rather than a fully distinct pattern. Monitor for independent confirmation.
 
+REVIEW (2026-03-13): After 41 analyses and 29 principle sources, this pattern has only 2 observations (hooks, Browne) plus 1 counter-evidence entry. Both sources identify intersectional invisibility as a mechanism but the question remains whether this is a distinct pattern or an application of Axiom 8 (absence as significant) operating through Division of Learning (systems designed around single-axis defaults). Consider merging into Division of Learning as a variant ("categorical variant — single-axis design produces intersectional invisibility") if no independent third source corroborates it as a standalone mechanism in the next 10 analyses or extractions.
+
 ---
 
 ## Evidence trail

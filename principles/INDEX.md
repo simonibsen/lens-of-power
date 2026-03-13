@@ -229,3 +229,12 @@ PRINCIPLES: 7 — Profit Extraction from Poverty, Eviction as Cascading Structur
 LAYERS: All six (Economic, Legal & Regulatory primary)
 KEY PATTERNS: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence
 IC-1 FLAGS: Axiom 9 (Tenants comply not because coercion is invisible but because alternative (homelessness) is prohibitive. Eviction threat is explicit. Power asymmetry is visible. Extends Terkel Axiom 9 complication from workplace to housing.), Axiom 10 (Tenants understand structural position — see exploitation, name landlord incentives, recognize court function. Understanding does not produce resistance because they lack leverage. Extends Terkel Axiom 10 complication to housing.)
+
+## ehrenreich-nickel-and-dimed.md
+SOURCE: Barbara Ehrenreich, *Nickel and Dimed* (2001)
+POSITION: 2/5 (hybrid — journalist living as low-wage worker, with exit option that actual workers lack)
+SOURCE TYPE: training_data
+PRINCIPLES: 6 — The Arithmetic of Structural Impossibility, Entry Conditions as Pre-Defeat, Workplace Surveillance as Class-Specific, The Mythology of Meritocracy as Structural Enforcement, Physical Degradation as Normal Operating Cost, The Anti-Union Architecture
+LAYERS: Economic, Institutional, Thought & Narrative, Physical & Coercive, Surveillance & Information
+KEY PATTERNS: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Anticipatory Obedience
+IC-1 FLAGS: Axiom 9 (Low-wage workers see the coercion clearly — insufficient wages, surveillance, power asymmetry. They comply because the cost of refusal (unemployment, homelessness) is prohibitive, not because coercion is concealed. Third independent Position 2 confirmation across third domain (low-wage service work).), Axiom 10 (Workers understand their structural position but cannot act on that understanding. They lack leverage. The anti-union architecture specifically prevents formation of collective leverage. Third independent Position 2 confirmation across third domain.)

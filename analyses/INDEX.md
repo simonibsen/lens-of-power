@@ -271,3 +271,11 @@
   Null case: plausible (MEDIUM — democratic deliberation viable; structural pattern recognition adds depth)
   IC-5 flag: Training data likely overrepresents Western liberal consensus that public broadcasting is a democratic good; may underweight libertarian or market-fundamentalist critiques of state-funded media
   File: `2026-03-multi-article-swiss-broadcasting-referendum.md`
+
+###  — NCSL youth soccer board meeting: routine voluntary governance
+  Domain: Youth sports governance
+  Layers: Institutional
+  Null case: accepted (HIGH — routine voluntary civic governance)
+  Adversarial input: yes — Deliberately selected as null-case-likely material to test adversarial input rate (target 20%)
+  IC-5 flag: No IC-5 concerns
+  File: `2021-ncsl-boardminutes-youth-soccer-league.md`

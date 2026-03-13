@@ -448,3 +448,37 @@ entries:
   - legal_regulatory
   - thought_narrative
   relationship: complicates
+- id: 2026-03-13-axiom-9-low-wage-service-compliance-visible
+  file: evidence/2026-03-13-axiom-9-low-wage-service-compliance-visible.md
+  title: 'Axiom 9 complication: low-wage service work compliance with visible coercion (third Position 2 domain)'
+  date_recorded: "2026-03-13"
+  source: Barbara Ehrenreich, *Nickel and Dimed* (2001)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  layers:
+  - economic
+  - institutional
+  - surveillance_information
+  relationship: complicates
+- id: 2026-03-13-axiom-10-low-wage-service-understanding-inert
+  file: evidence/2026-03-13-axiom-10-low-wage-service-understanding-inert.md
+  title: 'Axiom 10 complication: low-wage service work understanding inert without leverage (third Position 2 domain)'
+  date_recorded: "2026-03-13"
+  source: Barbara Ehrenreich, *Nickel and Dimed* (2001)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 10
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  relationship: complicates
