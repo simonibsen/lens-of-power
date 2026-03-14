@@ -214,3 +214,51 @@ entries:
     note: Counter-evidence from jubilee tradition (Graeber) and Scandinavian social democracy (Piketty) suggests non-catastrophic
       alternatives may exist, though at smaller scale and with uncertain durability. The IC-1 flag on Compression Through
       Destruction applies here as well.
+- id: counter_hegemonic_construction
+  name: Counter-Hegemonic Construction
+  layers:
+  - thought_narrative
+  - institutional
+  - economic
+  counteracts:
+  - hegemonic_naturalisation
+  observed_in:
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    note: 'Gramsci''s war of position — the slow, deliberate construction of alternative institutions, alternative intellectual
+      personnel, and alternative common sense within the existing order. Operates at the civilisational timescale through molecular
+      changes in institutional practice, educational content, and cultural production. The counter-hegemonic project builds the
+      institutional infrastructure required for understanding to take effect (Axiom 10 condition).'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    note: 'Fisher identifies the precondition: capitalist realism forecloses the imagination of alternatives. Counter-hegemonic
+      construction must first re-open the thinkable before it can build alternative institutions. Fisher''s analysis of the
+      failure of existing oppositional forms (interpassivity, gestural anti-capitalism) specifies what counter-hegemonic
+      construction must avoid.'
+  - source_id: fanon-wretched-of-the-earth
+    source_type: principle
+    note: 'Fanon''s third phase of cultural resistance (synthesis) is the cultural dimension of counter-hegemonic construction
+      — a forward-looking culture forged in struggle rather than nostalgic return or imitation. National consciousness requires
+      education and institutional elaboration to avoid collapsing into chauvinism.'
+- id: hegemonic_rupture
+  name: Hegemonic Rupture
+  layers:
+  - thought_narrative
+  - economic
+  - institutional
+  - physical_coercive
+  counteracts:
+  - hegemonic_naturalisation
+  observed_in:
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    note: 'Gramsci''s organic crisis — when the ruling group fails in a major undertaking or huge masses pass suddenly from
+      passivity to activity. The crisis of hegemony creates an opening, but the ruling class''s asymmetry of institutional
+      response time means it typically reabsorbs control faster than challengers organise. Rupture without pre-existing
+      counter-hegemonic infrastructure produces Caesarism, not transformation.'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    note: 'Fisher identifies the "intrusions of the Real" — moments when capitalist realism''s suppressed contradictions
+      (environmental catastrophe, mental health crisis) break through the system''s capacity to contain them. The 2008
+      financial crisis briefly suspended "there is no alternative" but the system reconstructed itself through narrative
+      management and institutional response.'
