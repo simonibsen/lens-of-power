@@ -618,6 +618,20 @@ def build():
                 "type": "observed_in",
             })
 
+    # --- Hegemonic Contexts (from config.yaml) ---
+    hc_list = config.get("hegemonic_contexts", [])
+    hc_id_to_name = {}
+    for ctx in hc_list:
+        hc_node_id = "hegemonic:" + ctx["id"]
+        hc_id_to_name[ctx["id"]] = ctx["name"]
+        add_node({
+            "id": hc_node_id,
+            "type": "hegemonic_context",
+            "title": ctx["name"],
+            "content": ctx.get("description", ""),
+            "meta": {},
+        })
+
     # --- Analyses (from YAML + analysis file content) ---
     # Build pattern ID -> display name map
     pattern_id_to_name = {p["id"]: p["name"] for p in patterns_yaml.get("entries", [])}
@@ -629,6 +643,11 @@ def build():
             entry.get("layers_primary", []) +
             entry.get("layers_secondary", [])
         )
+
+        # Hegemonic contexts for this analysis
+        analysis_hc_ids = entry.get("hegemonic_contexts", []) or []
+        analysis_hc_names = [hc_id_to_name[hid] for hid in analysis_hc_ids if hid in hc_id_to_name]
+        hc_names_str = ", ".join(analysis_hc_names)
 
         add_node({
             "id": entry["file"],
@@ -642,9 +661,20 @@ def build():
                 "mode": "",
                 "source": entry.get("source_name", ""),
                 "hegemonic_context": entry.get("hegemonic_context", ""),
+                "hegemonic_contexts_list": hc_names_str,
                 "layer_list": layer_names,
             },
         })
+
+        # Edges: analysis -> hegemonic contexts
+        for hid in analysis_hc_ids:
+            hc_node_id = "hegemonic:" + hid
+            if hc_node_id in node_ids:
+                edges.append({
+                    "source": entry["file"],
+                    "target": hc_node_id,
+                    "type": "operates_within",
+                })
 
         # Edges: analysis -> patterns matched
         for pm in entry.get("patterns_matched", []):
@@ -833,7 +863,7 @@ def build():
     }
 
     print(f"Nodes: {len(nodes)}")
-    for t in ["analysis", "principle", "instrument", "pattern", "circumvention", "evidence"]:
+    for t in ["analysis", "principle", "instrument", "pattern", "circumvention", "hegemonic_context", "evidence"]:
         count = sum(1 for n in nodes if n["type"] == t)
         print(f"  {t}: {count}")
     print(f"Edges: {len(valid_edges)}")
@@ -937,6 +967,7 @@ body {
 .filter-btn[data-type="instrument"].active { color: var(--orange); background: rgba(210,153,34,0.1); }
 .filter-btn[data-type="pattern"].active { color: var(--purple); background: rgba(163,113,247,0.1); }
 .filter-btn[data-type="circumvention"].active { color: #1abc9c; background: rgba(26,188,156,0.1); }
+.filter-btn[data-type="hegemonic_context"].active { color: #da7756; background: rgba(218,119,86,0.1); }
 .filter-btn[data-type="evidence"].active { color: var(--gray); background: rgba(139,148,158,0.1); }
 .filter-btn[data-type="redteam"].active { color: var(--red); background: rgba(248,81,73,0.1); }
 
@@ -1589,6 +1620,51 @@ body {
   border-radius: 8px;
   background: rgba(163,113,247,0.1);
   color: var(--purple);
+}
+.hegemonic-context-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+.hegemonic-context-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.hegemonic-context-card:hover {
+  border-color: #da7756;
+  background: rgba(218,119,86,0.04);
+}
+.hc-card-name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #da7756;
+}
+.hc-card-desc {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.hc-card-bar {
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 2px;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+.hc-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+.hc-card-count {
+  font-size: 11px;
+  color: var(--text-muted);
 }
 .works-grid {
   display: grid;
@@ -2466,6 +2542,7 @@ body {
         <button class="filter-btn active" data-type="instrument">Instruments</button>
         <button class="filter-btn active" data-type="pattern">Patterns</button>
         <button class="filter-btn active" data-type="circumvention">Circumventions</button>
+        <button class="filter-btn active" data-type="hegemonic_context">Contexts</button>
         <button class="filter-btn active" data-type="evidence">Evidence</button>
         <button class="filter-btn active" data-type="redteam" id="redteam-nav-btn">Red Team</button>
       </div>
@@ -2525,6 +2602,7 @@ const TYPE_COLORS = {
   instrument: '#d29922',
   pattern: '#a371f7',
   circumvention: '#1abc9c',
+  hegemonic_context: '#da7756',
   evidence: '#8b949e',
 };
 
@@ -2534,10 +2612,11 @@ const TYPE_LABELS = {
   instrument: 'Instruments',
   pattern: 'Patterns',
   circumvention: 'Circumventions',
+  hegemonic_context: 'Hegemonic Contexts',
   evidence: 'Evidence',
 };
 
-const TYPE_ORDER = ['analysis', 'principle', 'instrument', 'pattern', 'circumvention', 'evidence'];
+const TYPE_ORDER = ['analysis', 'principle', 'instrument', 'pattern', 'circumvention', 'hegemonic_context', 'evidence'];
 
 const LAYER_NAMES = [
   'Thought & Narrative',
@@ -2570,6 +2649,7 @@ const EDGE_LABELS = {
   references: 'references',
   applies_instrument: 'applies instrument',
   produces_instrument: 'produces instrument',
+  operates_within: 'operates within',
 };
 
 // State
@@ -3014,6 +3094,40 @@ function buildDashboard() {
     html += '</div></div>';
   }
 
+  // --- Hegemonic Contexts (IC-7) ---
+  const hcNodes = DATA.nodes.filter(n => n.type === 'hegemonic_context');
+  if (hcNodes.length > 0) {
+    // Count analyses per context via edges
+    const hcAnalysisCounts = {};
+    hcNodes.forEach(hc => { hcAnalysisCounts[hc.id] = 0; });
+    const totalAnalyses = DATA.nodes.filter(n => n.type === 'analysis').length;
+    DATA.edges.forEach(e => {
+      if (e.type === 'operates_within' && hcAnalysisCounts.hasOwnProperty(e.target)) {
+        hcAnalysisCounts[e.target]++;
+      }
+    });
+    const hcSorted = hcNodes.slice().sort((a, b) => (hcAnalysisCounts[b.id] || 0) - (hcAnalysisCounts[a.id] || 0));
+    const maxHC = Math.max(1, ...Object.values(hcAnalysisCounts));
+
+    html += '<div class="dashboard-section"><h2>Hegemonic Contexts (IC-7)</h2>' +
+      '<p style="color:var(--text-muted);font-size:13px;margin-bottom:14px">Background assumptions shared by analyses and analyst. See IC-7.</p>' +
+      '<div class="hegemonic-context-cards">';
+    hcSorted.forEach(hc => {
+      const count = hcAnalysisCounts[hc.id] || 0;
+      const pct = Math.round((count / maxHC) * 100);
+      const muted = count === 0 ? ' style="opacity:0.5"' : '';
+      html += '<div class="hegemonic-context-card" data-id="' + hc.id + '"' + muted + '>' +
+        '<div class="hc-card-name">' + escapeHtml(hc.title) + '</div>' +
+        '<div class="hc-card-desc">' + escapeHtml(hc.content) + '</div>' +
+        '<div class="hc-card-bar">' +
+          '<div class="hc-bar-fill" style="width:' + pct + '%;background:#da7756"></div>' +
+        '</div>' +
+        '<div class="hc-card-count">' + count + ' of ' + totalAnalyses + ' analyses</div>' +
+      '</div>';
+    });
+    html += '</div></div>';
+  }
+
   // --- Documentation sections (collapsible) ---
   const sections = DATA.meta.readme_sections || {};
   if (sections.core_concepts) {
@@ -3062,6 +3176,14 @@ function buildDashboard() {
 
   // Circumvention card click handlers
   view.querySelectorAll('.circumvention-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const id = card.dataset.id;
+      if (id && nodeMap[id]) selectNode(id, { forceDetail: true });
+    });
+  });
+
+  // Hegemonic context card click handlers
+  view.querySelectorAll('.hegemonic-context-card').forEach(card => {
     card.addEventListener('click', () => {
       const id = card.dataset.id;
       if (id && nodeMap[id]) selectNode(id, { forceDetail: true });
@@ -3197,6 +3319,48 @@ function showDetail(nodeId) {
       '<div class="outcome-range-label">Outcome range</div>' +
       '<div class="outcome-range-text">' + escapeHtml(node.meta.outcome_range) + '</div>' +
     '</div>';
+  }
+
+  // For hegemonic contexts: custom detail rendering
+  if (node.type === 'hegemonic_context') {
+    // Find all analyses that operate within this context
+    const hcAnalyses = [];
+    DATA.edges.forEach(e => {
+      if (e.type === 'operates_within' && e.target === node.id) {
+        const an = nodeMap[e.source];
+        if (an) hcAnalyses.push(an);
+      }
+    });
+    const totalAnalyses = DATA.nodes.filter(n => n.type === 'analysis').length;
+
+    let hcHtml = metaHtml;
+    hcHtml += '<div id="detail-content">';
+    hcHtml += '<h1>' + escapeHtml(node.title) + '</h1>';
+    hcHtml += '<p style="font-size:14px;line-height:1.7;margin:16px 0 24px 0">' + escapeHtml(node.content) + '</p>';
+    hcHtml += '<div style="font-size:13px;color:var(--text-muted);margin-bottom:16px"><strong>' + hcAnalyses.length + '</strong> of <strong>' + totalAnalyses + '</strong> analyses operate within this background</div>';
+
+    if (hcAnalyses.length > 0) {
+      hcHtml += '<h3 style="margin-bottom:12px">Tagged Analyses</h3>';
+      hcAnalyses.sort((a, b) => (b.meta.date || '').localeCompare(a.meta.date || ''));
+      hcAnalyses.forEach(a => {
+        const color = TYPE_COLORS.analysis;
+        hcHtml += '<span class="connected-item" data-target="' + a.id + '" style="border-color:' + color + '40">' +
+          '<span class="type-dot" style="background:' + color + '"></span>' +
+          escapeHtml(getDisplayTitle(a)) +
+          '<span style="color:var(--text-muted);font-size:11px;margin-left:4px">' + (a.meta.date || '') + '</span>' +
+        '</span>';
+      });
+    }
+
+    hcHtml += '</div>';
+    view.innerHTML = hcHtml;
+    view.scrollTop = 0;
+
+    // Wire up click handlers for linked analyses
+    view.querySelectorAll('.connected-item[data-target]').forEach(el => {
+      el.addEventListener('click', () => selectNode(el.dataset.target, { forceDetail: true }));
+    });
+    return;
   }
 
   view.innerHTML = metaHtml + outcomeHtml + '<div id="detail-content">' + rendered + '</div>' + connectedHtml;
@@ -4470,6 +4634,40 @@ function buildGaps() {
     }
   }
   html += '</div>';
+
+  // Hegemonic Context Distribution card (IC-7)
+  const hcGapNodes = DATA.nodes.filter(n => n.type === 'hegemonic_context');
+  if (hcGapNodes.length > 0) {
+    const hcGapCounts = {};
+    hcGapNodes.forEach(hc => { hcGapCounts[hc.id] = 0; });
+    const gapTotalAnalyses = DATA.nodes.filter(n => n.type === 'analysis').length;
+    DATA.edges.forEach(e => {
+      if (e.type === 'operates_within' && hcGapCounts.hasOwnProperty(e.target)) {
+        hcGapCounts[e.target]++;
+      }
+    });
+    const hcGapSorted = hcGapNodes.slice().sort((a, b) => (hcGapCounts[b.id] || 0) - (hcGapCounts[a.id] || 0));
+    const maxHCGap = Math.max(1, ...Object.values(hcGapCounts));
+    const taggedCount = DATA.nodes.filter(n => n.type === 'analysis' && (adjacency[n.id] || {outgoing:[]}).outgoing.some(e => e.type === 'operates_within')).length;
+
+    html += '<div class="health-card" style="grid-column: 1 / -1">';
+    html += '<h4 title="IC-7 requires naming the background assumptions (hegemonic contexts) within which analyses operate. Untagged analyses have not yet identified their hegemonic context. Contexts with zero analyses may represent blind spots.">Hegemonic Context (IC-7)</h4>';
+    html += '<div class="health-detail" style="margin-bottom:8px">' + taggedCount + ' of ' + gapTotalAnalyses + ' analyses tagged</div>';
+    hcGapSorted.forEach(hc => {
+      const count = hcGapCounts[hc.id] || 0;
+      const pct = maxHCGap > 0 ? Math.round((count / maxHCGap) * 100) : 0;
+      const fillColor = count === 0 ? 'var(--text-muted)' : '#da7756';
+      html += '<div class="gaps-row" data-id="' + hc.id + '" style="margin-bottom:2px">' +
+        '<span class="gaps-label">' + escapeHtml(hc.title) + '</span>' +
+        '<div class="gaps-bar"><div class="gaps-fill" style="width:' + pct + '%;background:' + fillColor + '"></div></div>' +
+        '<span class="gaps-meta">' + count + '</span>' +
+      '</div>';
+    });
+    if (taggedCount === 0) {
+      html += '<div class="health-warning">No analyses tagged with hegemonic contexts yet</div>';
+    }
+    html += '</div>';
+  }
 
   html += '</div>'; // close health-cards
   html += '</div>'; // close gaps-section

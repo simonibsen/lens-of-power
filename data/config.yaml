@@ -236,6 +236,44 @@ escalation_types:
   - analyze
   - extract
 
+# --- Hegemonic contexts ---
+# Background assumptions within which analyses and their material operate.
+# Each analysis may tag one or more. This list is extensible — add new
+# contexts when an analysis identifies a background not yet named.
+# See IC-7 (hegemonic complicity) and Step 0: CONTEXT in methodology.md.
+
+hegemonic_contexts:
+  - id: national_security_state
+    name: "National security state"
+    description: "US military/intelligence apparatus as natural and legitimate; global force projection as normal statecraft"
+  - id: market_capitalism
+    name: "Market capitalism"
+    description: "Market-based resource allocation as the natural economic order; profit motive as default; alternatives as utopian"
+  - id: nation_state_sovereignty
+    name: "Nation-state sovereignty"
+    description: "The nation-state as the natural unit of political organisation; borders as given rather than constructed"
+  - id: property_rights
+    name: "Property rights"
+    description: "Property as foundational right preceding and constraining political rights; ownership as natural category"
+  - id: rule_of_law
+    name: "Rule of law"
+    description: "Legal systems as neutral arbiters rather than codifications of power arrangements; law as constraint on power rather than instrument of it"
+  - id: meritocracy
+    name: "Meritocracy"
+    description: "Outcomes reflect individual capability and effort; structural position is earned rather than inherited or constructed"
+  - id: growth_imperative
+    name: "Growth imperative"
+    description: "GDP growth as the measure of economic health; expansion as default; degrowth or steady-state as unrealistic"
+  - id: western_liberal_democracy
+    name: "Western liberal democracy"
+    description: "Liberal democratic governance as the universal standard; electoral competition as the legitimate mode of political contest"
+  - id: wage_labour
+    name: "Wage labour"
+    description: "Selling time for money as the natural mode of sustaining life; employment as default relationship to production"
+  - id: technological_progress
+    name: "Technological progress"
+    description: "Technology as inherently progressive; innovation as value-neutral; disruption as improvement"
+
 # --- Pattern ID rules ---
 # Pattern IDs are snake_case with leading articles stripped.
 # "The Capture Pipeline" -> capture_pipeline
