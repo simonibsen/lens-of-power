@@ -641,6 +641,7 @@ def build():
                 "source_type": entry.get("source_type", ""),
                 "mode": "",
                 "source": entry.get("source_name", ""),
+                "hegemonic_context": entry.get("hegemonic_context", ""),
                 "layer_list": layer_names,
             },
         })

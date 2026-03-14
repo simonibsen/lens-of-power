@@ -60,13 +60,14 @@ files when detailed evidence trails or deep source comparison is needed.
 - Patterns use the format defined in `patterns/INDEX.md` and individual `patterns/*.md` files
 - Instruments use the format defined in the EXTRACT mode Step 4 of `methodology.md`
 - Sources use the provenance format defined in the Source provenance section of `methodology.md`
-- Maintain integrity constraints (IC-1, IC-2, IC-3, IC-4) as defined in `constitution.md`
+- Maintain integrity constraints (IC-1 through IC-7) as defined in `constitution.md`
 - IC-1: Every axiom must be falsifiable. Flag contradicting evidence, do not suppress it.
 - IC-2: Every analysis must consider the null case (non-power explanation).
 - IC-3: Periodically red-team the framework itself.
 - IC-4: Keep the framework up to date. Update patterns, evidence, taxonomy, README after each analysis.
 - IC-5: The LLM is a biased instrument. Flag when training data likely overrepresents a perspective. Name blind spots. Do not hedge to appear balanced when evidence is not balanced.
 - IC-6: All tooling must have automated tests. Write tests before or alongside code, never after. Run with `python3 -m pytest tests/ -v`.
+- IC-7: Hegemonic complicity. The framework operates within the hegemonic order it studies. Name the framework's position rather than implying it stands outside it. Every analysis includes a hegemonic context (Step 0: CONTEXT) naming the background assumptions shared by the material and the analyst, and the forces that maintain them.
 
 ## Branching
 
