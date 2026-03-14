@@ -70,6 +70,10 @@ updates. Does not write to file unless the user asks.
 
 2. Read the material. Produce a prose analysis that:
 
+   - Names the hegemonic context: what background assumptions does this
+     material operate within, and does the analyst share them? (IC-7;
+     1-2 sentences, integrated into the prose rather than as a separate
+     field. Name maintaining forces briefly where identifiable.)
    - Identifies which layers of power are active and how they interact
    - Names which patterns from `patterns/INDEX.md` appear and why
    - Draws on principles from `principles/INDEX.md` where they illuminate
@@ -306,6 +310,53 @@ The analysis index makes this trackable — if the "null case outcome"
 column never reads "accepted" or "plausible," that is itself a finding
 about the framework's health. The ratio should be tightened if the
 accepted count drops back to zero over any 10-analysis window.
+
+### Step 0: CONTEXT
+
+Name the hegemonic background within which this material and this
+analysis operate. This step is not analytical — it is positional. It
+tells the reader where the analysis stands, not what the analysis found.
+It exists because IC-7 requires the framework to name its own position
+within the hegemonic order rather than implying it stands outside it.
+
+**Do this**:
+- What does this material treat as natural, inevitable, or outside the
+  scope of debate? Name the background assumptions — economic system,
+  political form, property regime, knowledge framework — that both the
+  source and the analyst share without stating.
+- Who or what actively maintains this background? Identify three types
+  of maintaining forces:
+  - **Architects**: Actors who consciously construct and defend the
+    hegemonic arrangement across generational timescales. Name specific
+    documented projects where the framework's corpus provides them
+    (e.g., Powell Memo, Project 2025, Mont Pelerin Society).
+  - **Structural reproducers**: Institutions that maintain the
+    background through their normal operation, without any individual
+    intending to maintain a power arrangement. Name the specific
+    institutional mechanisms (education, professional training, media
+    norms, financial criteria, legal precedent).
+  - **Feedback mechanisms**: How the hegemonic frame actively resists
+    challenge. Cross-reference the framework's existing patterns where
+    applicable (Passive Revolution, Precorporation, Wealth Defense
+    Industry, Asymmetry of Institutional Response Time).
+- What timescale does this background operate on? Name the generational
+  depth — how long has this arrangement been sedimented as common sense?
+
+**Output format**:
+```
+HEGEMONIC CONTEXT: [1-3 sentences naming the background assumptions
+  shared by the material and the analyst]
+MAINTAINING FORCES:
+  Architects: [named actors or projects, if identifiable]
+  Structural reproducers: [institutions operating normally]
+  Feedback mechanisms: [how challenges are absorbed — name patterns]
+```
+
+This step precedes DECOMPOSE because the hegemonic context shapes what
+the analyst can see in the decomposition. Naming the context first does
+not solve the problem — the analysis still operates within it — but it
+makes the context visible to the reader, which is what the framework
+exists to do.
 
 ### Step 1: DECOMPOSE
 
@@ -553,6 +604,16 @@ FRAMEWORK STATE: [N patterns, N principles, N instruments (commit SHORT_HASH)]
 
 ---
 
+## Hegemonic context
+
+[1-3 sentences naming the background assumptions shared by the material
+and the analyst — what is treated as natural, inevitable, or outside
+the scope of debate. Then name the maintaining forces: architects
+(deliberate multi-generational projects), structural reproducers
+(institutions operating normally), and feedback mechanisms (how
+challenges are absorbed). Cross-reference framework patterns where
+applicable. See IC-7 and Step 0: CONTEXT.]
+
 ## Narrative
 
 [3-6 paragraphs. Prose summary of what the structural analysis found.
@@ -617,6 +678,9 @@ analysis. This is a reference listing, not prose analysis.]
 > The structured steps below are the production process that produced
 > the analysis above. They exist for auditability and review (IC-3).
 > They are not intended for primary reading.
+
+### Step 0: CONTEXT
+[...]
 
 ### Step 1: DECOMPOSE
 [...]
