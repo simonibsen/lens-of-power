@@ -18,7 +18,7 @@
 
 ---
 
-## Tier 1: Structural circumventions
+## Structural circumventions
 
 > These contest specific power arrangements within the existing hegemonic
 > frame. They use the tools the system provides — law, elections,
@@ -202,7 +202,7 @@ POWER RESPONSE: Post-catastrophe institutional capture, new concentration via (R
 
 ---
 
-## Tier 2: Hegemonic circumventions
+## Hegemonic circumventions
 
 > These contest the frame itself — the background assumptions that
 > determine what counts as natural, realistic, or thinkable. They do not

@@ -2850,7 +2850,7 @@ function getSubtitle(node) {
     return node.meta.source || '';
   }
   if (node.type === 'circumvention') {
-    return node.meta.tier === 'hegemonic' ? 'Tier 2: Hegemonic' : 'Tier 1: Structural';
+    return node.meta.tier === 'hegemonic' ? 'hegemonic' : 'structural';
   }
   return '';
 }
@@ -2869,12 +2869,22 @@ function buildSidebar() {
 
   TYPE_ORDER.forEach(type => {
     if (!activeFilters.has(type)) return;
-    const items = DATA.nodes
+    let items = DATA.nodes
       .filter(n => n.type === type)
-      .filter(n => !q || n.title.toLowerCase().includes(q) || n.content.toLowerCase().includes(q))
-      .sort((a, b) => type === 'analysis'
-        ? (b.meta.date || '').localeCompare(a.meta.date || '')
-        : a.title.localeCompare(b.title));
+      .filter(n => !q || n.title.toLowerCase().includes(q) || n.content.toLowerCase().includes(q));
+    if (type === 'analysis') {
+      items.sort((a, b) => (b.meta.date || '').localeCompare(a.meta.date || ''));
+    } else if (type === 'circumvention') {
+      // Sort hegemonic circumventions first, then alphabetical within each tier
+      items.sort((a, b) => {
+        const ta = a.meta.tier === 'hegemonic' ? 0 : 1;
+        const tb = b.meta.tier === 'hegemonic' ? 0 : 1;
+        if (ta !== tb) return ta - tb;
+        return a.title.localeCompare(b.title);
+      });
+    } else {
+      items.sort((a, b) => a.title.localeCompare(b.title));
+    }
 
     if (items.length === 0) return;
 
@@ -2913,8 +2923,9 @@ function buildSidebar() {
         badges = '<span class="item-badges"><span class="badge badge-degree">' + degree + '</span></span>';
       }
 
+      const dotColor = (type === 'circumvention' && n.meta.tier === 'hegemonic') ? '#da7756' : TYPE_COLORS[type];
       let html = badges +
-        '<span class="type-dot" style="background:' + TYPE_COLORS[type] + '"></span>' + escapeHtml(displayTitle);
+        '<span class="type-dot" style="background:' + dotColor + '"></span>' + escapeHtml(displayTitle);
       if (subtitle) {
         html += '<span class="item-subtitle">' + escapeHtml(subtitle) + '</span>';
       }
@@ -3085,7 +3096,7 @@ function buildDashboard() {
       '<p style="color:var(--text-muted);font-size:13px;margin-bottom:14px">Observed responses to power concentration at two tiers. <strong>Structural</strong> circumventions contest specific power arrangements within the existing hegemonic frame. <strong>Hegemonic</strong> circumventions contest the frame itself.</p>';
 
     // Tier 1: Structural
-    html += '<h3 style="color:var(--text-secondary);font-size:14px;margin:16px 0 8px;border-bottom:1px solid var(--border);padding-bottom:4px">Tier 1: Structural <span style="color:var(--text-muted);font-weight:normal">(' + structural.length + ')</span></h3>' +
+    html += '<h3 style="color:var(--text-secondary);font-size:14px;margin:16px 0 8px;border-bottom:1px solid var(--border);padding-bottom:4px">Structural <span style="color:var(--text-muted);font-weight:normal">(' + structural.length + ')</span></h3>' +
       '<div class="circumvention-cards">';
     structural.forEach(c => {
       const counteracts = (c.meta.counteracts || '').split(',').map(s => s.trim()).filter(Boolean);
@@ -3105,7 +3116,7 @@ function buildDashboard() {
 
     // Tier 2: Hegemonic
     if (hegemonic.length > 0) {
-      html += '<h3 style="color:#da7756;font-size:14px;margin:20px 0 8px;border-bottom:1px solid rgba(218,119,86,0.3);padding-bottom:4px">Tier 2: Hegemonic <span style="color:var(--text-muted);font-weight:normal">(' + hegemonic.length + ')</span></h3>' +
+      html += '<h3 style="color:#da7756;font-size:14px;margin:20px 0 8px;border-bottom:1px solid rgba(218,119,86,0.3);padding-bottom:4px">Hegemonic <span style="color:var(--text-muted);font-weight:normal">(' + hegemonic.length + ')</span></h3>' +
         '<div class="circumvention-cards">';
       hegemonic.forEach(c => {
         const counteracts = (c.meta.counteracts || '').split(',').map(s => s.trim()).filter(Boolean);
