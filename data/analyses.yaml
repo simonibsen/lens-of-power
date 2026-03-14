@@ -2383,3 +2383,287 @@ entries:
   domain_text: Youth sports governance
   layers_text: Institutional
   null_case_text: accepted (HIGH — routine voluntary civic governance)
+- id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+  file: analyses/2026-03-13-guardian-article-iran-war-no-clear-goal.md
+  date: '2026-03-13'
+  time: ~03:00 UTC
+  source_date: '2026-03-13'
+  title: '"No clear goal" — lack of Iran war plan unleashes chaos (Guardian)'
+  source_name: The Guardian
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/us-news/2026/mar/13/goal-plan-iran-war-military
+  domain:
+  - us_foreign_policy
+  - military
+  - institutional_capture
+  layers_primary:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  layers_secondary:
+  - economic
+  layers_absent:
+  - legal_regulatory
+  - surveillance_information
+  null_case: plausible
+  null_case_level: MEDIUM at component level; MEDIUM-LOW at configurational level
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents US institutional perspective on war planning; all five sources from DC foreign policy establishment (Brookings, AEI, Washington Institute, former Pentagon/NSC, Defense Priorities); Iranian civilian/government perspective absent
+  cross_references:
+  - 2026-03-01-guardian-liveblog-us-israel-iran-war
+  - 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+  - 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
+  - 2026-03-06-dsa-article-thaad-radar-strike-jordan
+  - 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+  - 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+  - 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
+  patterns_matched:
+  - pattern: serial_regime_change
+    status: observed
+    variant: null
+    note: 'Venezuela template explicitly referenced as model for Iran; serial goal-shifting documented — four stated aims (protesters, nuclear, missiles, Strait) each replacing the previous without acknowledgment.'
+  - pattern: institutional_abdication
+    status: observed
+    variant: 'forced variant — dismantlement by executive action'
+    note: 'NSC gutted, State Department layoffs, career officials excluded from war planning by design. Mara Karlin: "you have also got to set certain pieces in place." Downstream operational consequences documented at strategic scale.'
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: 'serial inversion — compound goal-shifting'
+    note: 'Each stated war aim diverges from operational reality: regime change while killing own preferred successors; Strait reopening without leverage to compel it.'
+  - pattern: real_time_narrative_saturation
+    status: observed
+    variant: 'policy-level variant — goal-shifting as saturation'
+    note: 'Serial goal-shifting prevents evaluation of any single aim before it is replaced by the next. The rapid succession substitutes for the strategic planning that was eliminated.'
+  - pattern: capture_pipeline
+    status: observed
+    variant: null
+    note: 'Closed decision circle as captured executive decision-making. "Rigidly closed circle of advisers" excluded career officials from pre-war planning. Stage 1 (deep state legitimation framing) and Stage 3 (personnel elimination) documented.'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: 'Gap between stated war aims and actual military operations is the operating environment. Each stated goal creates the appearance of strategic direction while operations follow their own logic.'
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: 'State Department complied with exclusion from war planning without documented resistance. At-risk embassies remained staffed despite telegraphed intention to go to war. Inferred — no evidence of internal protest or resignation.'
+  - pattern: division_of_learning
+    status: observed
+    variant: null
+    note: 'Pentagon briefed Congress $11.3bn for six days but scope ambiguous — "wasn''t clear if those numbers included the cost of the buildup or the US missile defenses." Congress receives a number it cannot evaluate.'
+  findings_count: 13
+  commit: null
+  domain_text: US foreign policy / military / institutional dismantlement / war planning
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Economic, Legal & Regulatory (active but absent), Surveillance & Information (active but absent)
+  null_case_text: plausible (MEDIUM at component level; MEDIUM-LOW at configurational level — specific sequence of institutional dismantlement → closed circle → serial goal-shifting → cascading consequences not explained by war's inherent unpredictability)
+- id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+  file: analyses/2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters.md
+  date: '2026-03-13'
+  time: ~04:00 UTC
+  source_date: '2026-03-13'
+  title: 'Anti-ICE protesters convicted of terrorism support — first "antifa terror cell" prosecution'
+  source_name: The Guardian
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/us-news/2026/mar/13/texas-terrorism-trial
+  domain:
+  - civil_liberties
+  - legal
+  - politics
+  layers_primary:
+  - legal_regulatory
+  - thought_narrative
+  - institutional
+  layers_secondary:
+  - surveillance_information
+  - physical_coercive
+  layers_absent:
+  - economic
+  null_case: plausible
+  null_case_level: MEDIUM for Song; LOW-MEDIUM for non-shooter defendants
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents institutional-legal perspective treating terrorism statutes as neutral instruments; defendants' direct voices absent; detained population at Prairieland entirely absent
+  cross_references:
+  - 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+  - 2026-03-02-wikipedia-article-operation-metro-surge
+  - 2026-03-02-guardian-liveblog-iran-war-powers-domestic
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: 'statutory inversion — anti-terrorism statute applied to political protest'
+    note: 'Material support for terrorism statute applied to nine anti-ICE protesters. Statute designed for international terrorism organisations (al-Qaeda, ISIS) applied to people who met through a book club. Judge identified the gap: "Whether it''s antifa or the Methodist Women''s Auxiliary of Weatherford, why does it matter?"'
+  - pattern: boomerang
+    status: observed
+    variant: 'legal instrument migration — international to domestic'
+    note: 'Material support statute developed for international terrorism (legal periphery) now applied to domestic political protesters. Legal instruments migrating from periphery to centre. First domestic application of the "antifa terror cell" theory.'
+  - pattern: layered_redundancy_of_control
+    status: observed
+    variant: 'jurisdictional redundancy — pardon-proof prosecution'
+    note: 'Dual federal-state prosecution creates pardon-proof architecture. Federal terrorism convictions can be pardoned; state charges cannot. Even political reversal at the federal level cannot undo state-level consequences.'
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: 'prospective chilling effect on protest'
+    note: 'Prosecution establishes that presence at a protest where violence occurs, combined with encryption use and defensive equipment, creates terrorism liability. Rational response: avoid protests where any participant might act unpredictably.'
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: 'Domestic terrorism designation creates permanent internal threat category justifying national security instruments against domestic political activity. Bondi: "will not be the last."'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: 'Gap between legal charges (material support, no org connection required) and political presentation (antifa terror cell) is the operating environment. Political frame shaped jury context; legal mechanism produced conviction. Judge identified the gap; conviction happened anyway.'
+  - pattern: division_of_learning
+    status: inferred
+    variant: null
+    note: 'Jury received political frame (antifa, zines, stickers) and legal mechanism (material support statute) as combined package. Structural gap identified by judge not legible to jurors lacking legal training to separate atmosphere from legal element.'
+  - pattern: constitutive_violence
+    status: inferred
+    variant: null
+    note: 'Terrorism label constitutes defendants as terrorists through the act of prosecution. The designation "antifa terrorist cell" was applied without legal authority; the prosecution then treated it as established fact. Label precedes and produces the legal reality it claims to describe.'
+  findings_count: 13
+  commit: null
+  domain_text: Civil liberties / domestic terrorism prosecution / First Amendment / political dissent
+  layers_text: Legal & Regulatory (primary), Thought & Narrative (primary), Institutional (primary), Surveillance & Information, Physical & Coercive, Economic (active but absent)
+  null_case_text: plausible (MEDIUM for Song's individual prosecution; LOW-MEDIUM for non-shooter defendants' terrorism convictions — gap between legal mechanism and political framing not explained by null case)
+- id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+  file: analyses/2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md
+  date: '2026-03-14'
+  time: ~00:30 UTC
+  source_date: '2026-03-13'
+  title: 'Kushner solicits $5 billion for Affinity Partners while serving as Middle East envoy'
+  source_name: New York Times
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.nytimes.com/2026/03/13/business/jared-kushner-affinity-mideast-funds.html
+  domain:
+  - economics
+  - us_foreign_policy
+  - corruption
+  layers_primary:
+  - economic
+  - institutional
+  layers_secondary:
+  - thought_narrative
+  - surveillance_information
+  layers_absent:
+  - legal_regulatory
+  - physical_coercive
+  null_case: plausible
+  null_case_level: LOW-MEDIUM — commercial-merit explanation undermined by Wyden investigation findings
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents normalisation of revolving door; populations affected by Kushner's negotiations (Palestinians, Iranians, Yemenis, Saudi citizens) absent
+  cross_references:
+  - 2026-03-06-propublica-database-trump-financial-disclosures
+  - 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: null
+    note: 'Government appointment and private capital extraction operating simultaneously with same counterparties. Kushner negotiates US Middle East policy while soliciting $5 billion from the same sovereign wealth funds.'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: '"Donating his time for world peace" framing coexists with $5 billion fundraising from diplomatic counterparties. The appearance of public service and the function of private capital accumulation provide mutual cover.'
+  - pattern: wealth_defense_industry
+    status: observed
+    variant: 'access-monetisation vehicle'
+    note: 'Affinity Partners collects $157 million in fees ($87 million from Saudi PIF) at above-market rates with zero investment returns. The firm functions as a mechanism for converting political access into capital flows, not as an investment vehicle.'
+  - pattern: capture_pipeline
+    status: inferred
+    variant: 'collapsed variant — no temporal separation'
+    note: 'Conventional revolving door involves temporal gap between government and private sector. Kushner eliminates the gap: government role and capital-raising role operate concurrently with the same counterparties. All pipeline stages collapsed into a single concurrent role.'
+  - pattern: division_of_learning
+    status: inferred
+    variant: null
+    note: 'Kushner possesses classified diplomatic intelligence and commercial knowledge simultaneously. No oversight mechanism monitors the boundary between what he knows as envoy and what he discusses as fund manager. The dual role makes the distinction unenforceable.'
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: 'Affinity''s stated purpose is investment management. Documented function: zero returns, above-market fees ($157 million), screening panel overridden, first-refusal clause granting Saudi gatekeeper role. Investment firm that does not invest; fee-collection vehicle for access payments.'
+  - pattern: formal_transformation_structural_continuity
+    status: inferred
+    variant: null
+    note: 'The revolving door (a form requiring temporal separation) has been formally eliminated. The structural function (converting government access into capital) continues and intensifies — the extraction is more direct without the temporal gap.'
+  findings_count: 11
+  commit: null
+  domain_text: Conflicts of interest / sovereign wealth / diplomatic capture / Middle East policy
+  layers_text: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory (active but absent), Physical & Coercive (active but absent)
+  null_case_text: plausible (LOW-MEDIUM — commercial-merit explanation undermined by zero returns, above-market fees, screening panel override, $157M in fees from diplomatic counterparties)
+- id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+  file: analyses/2026-03-14-cra-policybrief-great-replacement-theory-practice.md
+  date: '2026-03-14'
+  time: ~01:30 UTC
+  source_date: null
+  title: '"The Great Replacement in Theory and Practice" — ideological policy production (CRA)'
+  source_name: Center for Renewing America
+  source_type: policy_brief
+  position:
+  - 1
+  position_note: "ruler/operator — former Trump OMB Director's organisation producing governing blueprints"
+  url: https://americarenewing.com/issues/policy-brief-the-great-replacement-in-theory-and-practice/
+  domain:
+  - politics
+  - immigration
+  - ideology
+  layers_primary:
+  - thought_narrative
+  layers_secondary:
+  - legal_regulatory
+  - institutional
+  - economic
+  - surveillance_information
+  layers_absent:
+  - physical_coercive
+  null_case: plausible
+  null_case_level: MEDIUM for policy recommendations; LOW for analytical apparatus (celebration parallax, Marxism connection, threat framing, racial re-encoding)
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents institutional-centre "conspiracy theory" framing which accurately describes white-nationalist version but may obscure the policy-laundering mechanism. May also underweight genuine anxieties about demographic change in affected communities.
+  cross_references:
+  - 2026-03-02-wikipedia-article-operation-metro-surge
+  - 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+  - 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: 'Immigration reframed from administrative regulation to civilisational attack on the republic. Enforcement thereby inverted from administration to defence. The brief converts a policy question into an existential-threat assessment.'
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: 'Immigration constructed as permanent existential threat to the republic. The threat is structurally permanent because the demographic trends the brief cites are ongoing and the legal architecture continuously produces unauthorized status.'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: 'formal deracialisation as operating environment'
+    note: 'Brief substitutes "citizenship" for race — "tethered to the American founding" vs. "from faraway countries." Creates formally race-neutral surface that functions as operating environment for racially differential policy advocacy.'
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: 'Explicit transformation of Great Replacement from racial conspiracy theory to civic/cultural concern. The racial category is formally eliminated; the structural claim (demographic change as threat, immigration as weapon) persists unchanged.'
+  - pattern: structural_demand_for_propaganda
+    status: inferred
+    variant: null
+    note: 'The brief demonstrates the demand side: a population anxious about demographic change needs a framework making their anxiety legitimate and actionable. The brief supplies the policy-ready version. Demand precedes supply.'
+  - pattern: real_time_narrative_saturation
+    status: inferred
+    variant: null
+    note: 'The brief contributes to a narrative environment where the replacement frame is continuously present — 1,411 Congressional social media posts per search data, plus media coverage, plus policy briefs. Saturation normalises the frame.'
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: 'If the replacement frame normalises within policy institutions, enforcement personnel will anticipate the direction and self-adjust before explicit orders. The narrative creates conditions for anticipatory enforcement escalation.'
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: null
+    note: 'Brief advocates restricting legal immigration pathways. García Hernández documents how pathway scarcity produces unauthorized status by design. The brief advocates the scarcity that produces the "illegal" population it then cites as evidence of replacement — a self-reinforcing cycle.'
+  findings_count: 10
+  commit: null
+  domain_text: Ideological policy production / Great Replacement theory / immigration / demographic politics
+  layers_text: Thought & Narrative (primary), Legal & Regulatory, Institutional, Economic, Surveillance & Information, Physical & Coercive (active but absent)
+  null_case_text: plausible (MEDIUM for policy recommendations in isolation; LOW for analytical apparatus — celebration parallax, Marxism connection, existential-threat framing, and racial re-encoding are a specific laundering technique, not conventional policy argument)

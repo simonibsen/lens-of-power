@@ -2267,6 +2267,7 @@ entries:
 - id: ehrenreich-nickel-and-dimed
   file: principles/ehrenreich-nickel-and-dimed.md
   source: 'Barbara Ehrenreich, *Nickel and Dimed: On (Not) Getting By in America* (2001)'
+  source_display: 'Barbara Ehrenreich, *Nickel and Dimed: On (Not) Getting By in America* (2001)'
   position:
   - 2
   - 5
@@ -2312,5 +2313,136 @@ entries:
   key_patterns_display: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Anticipatory Obedience
   source_display: "Barbara Ehrenreich, *Nickel and Dimed* (2001)"
   position_display: "2/5 (hybrid — journalist living as low-wage worker, with exit option that actual workers lack)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+- id: deleon-land-of-open-graves
+  file: principles/deleon-land-of-open-graves.md
+  source_name: Jason De León
+  source_title: "The Land of Open Graves: Living and Dying on the Migrant Trail"
+  source_year: 2015
+  position:
+  - 2
+  - 5
+  position_note: "hybrid — anthropologist who walked migrant trails, ethnographer with participant-observer proximity to Position 2"
+  provenance_tier: training_data
+  layers:
+  - physical_coercive
+  - thought_narrative
+  - surveillance_information
+  - legal_regulatory
+  - economic
+  - institutional
+  principles_count: 6
+  principles_list:
+  - Prevention Through Deterrence as Structural Violence
+  - Necroviolence
+  - Hostile Terrain as Delegated Violence
+  - "The Spectacle of Enforcement vs. the Architecture of Death"
+  - The Body as Evidence and Its Erasure
+  - Migrant Agency Within Lethal Constraint
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: 'PTD is the strongest Axiom 7 case in the corpus — "border security" policy whose structural function is producing death through environmental delegation. Policy architects acknowledged the death toll as an expected outcome.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Visible border enforcement (walls, patrols, checkpoints) coexists with invisible funneling architecture that channels migrants into lethal terrain. The spectacle serves domestic politics; the architecture serves enforcement through death.'
+  - pattern: constitutive_violence
+    variant: null
+    note: 'The border enforcement regime is constituted through violence — not incidental but structurally necessary. The desert crossing is not a side effect of enforcement but its primary mechanism.'
+  - pattern: economy_of_violence
+    variant: 'environmental delegation — violence concentrated at crossing, absent for survivors'
+    note: 'Violence concentrated at the moment of crossing, performed by environment rather than agents. Survivors face exploitation but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
+  - pattern: hidden_transcript
+    variant: null
+    note: 'Migrant route knowledge, survival strategies, mutual aid networks, and shared intelligence about terrain constitute a hidden transcript of the border — counter-knowledge developed by those subjected to the system.'
+  - pattern: compliance_gradient
+    variant: 'lethal conditions — migration as navigating the gradient under mortal threat'
+    note: 'Migrants navigate the compliance gradient under lethal conditions. The choice set is cross/stay, where both options carry severe consequences. Fourth Position 2/hybrid corroboration extending the gradient to lethal conditions.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'The state knows terrain lethality (used to design funneling corridors) while migrants learn routes through attrition. Border Patrol sensor arrays coexist with deliberate absence of search-and-rescue in killing zones.'
+  - pattern: layered_redundancy_of_control
+    variant: null
+    note: 'PTD operates multiple control mechanisms simultaneously: legal prohibition, physical barriers, surveillance technology, environmental lethality, economic barriers (smuggling costs), and narrative framing. Failure at any one is caught by others.'
+  ic1_flags:
+  - axiom: 7
+    note: 'Strongest corroboration in corpus — PTD is a policy whose stated purpose (deterrence/border security) diverges definitionally from its structural function (producing death through environmental delegation).'
+  - axiom: 8
+    note: 'Extends from "absence is significant" to "absence is actively manufactured." Necroviolence destroys evidence (bodies) connecting policy to death. Physical complement to Browne''s constitutive absence.'
+  - axiom: 9
+    note: 'Migrants see coercion clearly and cross anyway because the alternative is worse. Fourth independent Position 2/hybrid confirmation across fourth domain (border crossing).'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Physical & Coercive (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory, Economic, Institutional
+  key_patterns_display: Inversion of Stated Purpose, Appearance as Structural Terrain, Constitutive Violence, Economy of Violence, Hidden Transcript, Compliance Gradient, Division of Learning, Layered Redundancy of Control
+  source_display: "Jason De León, *The Land of Open Graves* (2015)"
+  position_display: "2/5 (hybrid — anthropologist/ethnographer with participant-observer proximity)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+- id: garcia-hernandez-migrating-to-prison
+  file: principles/garcia-hernandez-migrating-to-prison.md
+  source_name: César Cuauhtémoc García Hernández
+  source_title: "Migrating to Prison: America's Obsession with Locking Up Immigrants"
+  source_year: 2019
+  position:
+  - 5
+  position_note: "legal scholar, Chicano scholar with personal connection to immigrant community"
+  provenance_tier: training_data
+  layers:
+  - legal_regulatory
+  - economic
+  - institutional
+  - physical_coercive
+  - thought_narrative
+  principles_count: 6
+  principles_list:
+  - The Historical Contingency of Immigration Crime
+  - "Crimmigration: The Hybrid Legal Architecture"
+  - The Detention-Industrial Complex
+  - The Impossibility of Compliance
+  - Detention as Default
+  - The Racial Architecture of Immigration Law
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: 'Immigration law''s stated purpose is managing migration for national benefit. Its documented function is producing a category of rightless people whose precarity serves economic and political interests.'
+  - pattern: manufactured_scarcity_as_control
+    variant: 'scarcity of legal pathways as control mechanism'
+    note: 'Legal immigration pathways are structurally scarce — limited visa categories, decades-long wait times. The scarcity is a policy choice that produces unauthorized status by design.'
+  - pattern: perpetual_threat_as_perpetual_justification
+    variant: null
+    note: 'The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture. The threat is structurally permanent because the legal architecture continuously produces unauthorized status.'
+  - pattern: constitutive_violence
+    variant: null
+    note: 'The immigration enforcement system — detention, deportation, family separation — is constituted through violence. Imprisonment of immigrants is not a response to a problem but the production of a category of people subjected to state violence.'
+  - pattern: compliance_gradient
+    variant: 'impossible compliance — system produces violations by design'
+    note: 'Immigration law positions all undocumented people on the compliance gradient under conditions where full compliance is structurally impossible. The system produces "illegal" status through structural design, not individual choice.'
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: 'Racial exclusion formally eliminated in 1965. Racially differential enforcement persisted through geographic targeting, category construction, and enforcement priorities. Form changed; racial function continued.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: '"Rule of law" framing presents enforcement as neutral application of law. The structural finding: the law produces the law-breaking by making compliance impossible for many.'
+  - pattern: capture_pipeline
+    variant: null
+    note: 'Private prison companies lobby for enforcement that produces detainees, fund supportive candidates, build facilities in advance of demand. The detention-industrial complex captures immigration policy.'
+  - pattern: wealth_defense_industry
+    variant: 'detention-industrial complex as extraction mechanism'
+    note: 'Private prison industry extracts profit from immigration enforcement architecture. "Bed quotas" ensure the industry''s revenue stream.'
+  ic1_flags:
+  - axiom: 6
+    note: 'The term "illegal alien" preceded and enabled the enforcement architecture. Linguistic shift from "immigrant" to "illegal" was the first step in criminalization. Language created the category; law followed.'
+  - axiom: 7
+    note: 'Immigration law''s stated purpose (managing migration) diverges from function (producing rightless people). Criminalization of border crossing is a policy choice, not a natural law.'
+  - axiom: 4
+    note: 'Criminalization of migration parallels vagrancy laws, pass laws, fugitive slave laws — all criminalized movement by specific populations to maintain labor control. Mechanism consistent; target population changes.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Legal & Regulatory (primary), Economic, Institutional, Physical & Coercive, Thought & Narrative
+  key_patterns_display: Inversion of Stated Purpose, Manufactured Scarcity as Control, Perpetual Threat as Perpetual Justification, Constitutive Violence, Compliance Gradient, Formal Transformation/Structural Continuity, Appearance as Structural Terrain, Capture Pipeline, Wealth Defense Industry
+  source_display: "César Cuauhtémoc García Hernández, *Migrating to Prison* (2019)"
+  position_display: "5 (legal scholar with community proximity)"
   instruments_proposed_display: []
   source_type_display: training_data

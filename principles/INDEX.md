@@ -238,3 +238,21 @@ PRINCIPLES: 6 — The Arithmetic of Structural Impossibility, Entry Conditions a
 LAYERS: Economic, Institutional, Thought & Narrative, Physical & Coercive, Surveillance & Information
 KEY PATTERNS: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Anticipatory Obedience
 IC-1 FLAGS: Axiom 9 (Low-wage workers see the coercion clearly — insufficient wages, surveillance, power asymmetry. They comply because the cost of refusal (unemployment, homelessness) is prohibitive, not because coercion is concealed. Third independent Position 2 confirmation across third domain (low-wage service work).), Axiom 10 (Workers understand their structural position but cannot act on that understanding. They lack leverage. The anti-union architecture specifically prevents formation of collective leverage. Third independent Position 2 confirmation across third domain.)
+
+## deleon-land-of-open-graves.md
+SOURCE: Jason De León, *The Land of Open Graves* (2015)
+POSITION: 2/5 (hybrid — anthropologist/ethnographer with participant-observer proximity)
+SOURCE TYPE: training_data
+PRINCIPLES: 6 — Prevention Through Deterrence as Structural Violence, Necroviolence, Hostile Terrain as Delegated Violence, The Spectacle of Enforcement vs. the Architecture of Death, The Body as Evidence and Its Erasure, Migrant Agency Within Lethal Constraint
+LAYERS: Physical & Coercive (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory, Economic, Institutional
+KEY PATTERNS: Inversion of Stated Purpose, Appearance as Structural Terrain, Constitutive Violence, Economy of Violence, Hidden Transcript, Compliance Gradient, Division of Learning, Layered Redundancy of Control
+IC-1 FLAGS: Axiom 7 (Strongest corroboration in corpus — PTD is a policy whose stated purpose (deterrence/border security) diverges definitionally from its structural function (producing death through environmental delegation).), Axiom 8 (Extends from "absence is significant" to "absence is actively manufactured." Necroviolence destroys evidence (bodies) connecting policy to death. Physical complement to Browne's constitutive absence.), Axiom 9 (Migrants see coercion clearly and cross anyway because the alternative is worse. Fourth independent Position 2/hybrid confirmation across fourth domain (border crossing).)
+
+## garcia-hernandez-migrating-to-prison.md
+SOURCE: César Cuauhtémoc García Hernández, *Migrating to Prison* (2019)
+POSITION: 5 (legal scholar with community proximity)
+SOURCE TYPE: training_data
+PRINCIPLES: 6 — The Historical Contingency of Immigration Crime, Crimmigration: The Hybrid Legal Architecture, The Detention-Industrial Complex, The Impossibility of Compliance, Detention as Default, The Racial Architecture of Immigration Law
+LAYERS: Legal & Regulatory (primary), Economic, Institutional, Physical & Coercive, Thought & Narrative
+KEY PATTERNS: Inversion of Stated Purpose, Manufactured Scarcity as Control, Perpetual Threat as Perpetual Justification, Constitutive Violence, Compliance Gradient, Formal Transformation/Structural Continuity, Appearance as Structural Terrain, Capture Pipeline, Wealth Defense Industry
+IC-1 FLAGS: Axiom 6 (The term "illegal alien" preceded and enabled the enforcement architecture. Linguistic shift from "immigrant" to "illegal" was the first step in criminalization. Language created the category; law followed.), Axiom 7 (Immigration law's stated purpose (managing migration) diverges from function (producing rightless people). Criminalization of border crossing is a policy choice, not a natural law.), Axiom 4 (Criminalization of migration parallels vagrancy laws, pass laws, fugitive slave laws — all criminalized movement by specific populations to maintain labor control. Mechanism consistent; target population changes.)

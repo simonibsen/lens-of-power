@@ -683,10 +683,10 @@ def build():
         add_node({
             "id": entry["file"],
             "type": "principle",
-            "title": extract_title(content) if content else f"Principles: {entry.get('source_name', '')}",
+            "title": extract_title(content) if content else f"Principles: {entry.get('source_display', entry.get('source_name', ''))}",
             "content": content,
             "meta": {
-                "source": f"{entry.get('source_name', '')}, *{entry.get('source_title', '')}* ({entry.get('source_year', '')})",
+                "source": entry.get("source_display") or f"{entry.get('source_name', '')}, *{entry.get('source_title', '')}* ({entry.get('source_year', '')})",
                 "type": "",
                 "layers": ", ".join(layer_names),
                 "layer_list": layer_names,
