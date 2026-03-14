@@ -2888,3 +2888,73 @@ entries:
   domain_text: AI policy / transhumanism / technological determinism / inequality / regulatory capture
   layers_text: Thought & Narrative (primary), Economic (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent), Physical & Coercive (active but absent)
   null_case_text: plausible (MEDIUM for transhumanism as philosophy; LOW-MEDIUM for tech industry's deployment of transhumanist narrative — incentive structure and regulatory capture documented across multiple independent sources)
+- id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+  file: analyses/2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich.md
+  date: '2026-03-14'
+  time: ~10:00 UTC
+  source_date: '2022'
+  title: 'Luxury doomsday bunkers — when the architects of the system price in its collapse'
+  source_name: Business Insider (supplemented by CBC, Rushkoff, Garrett)
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.businessinsider.com/photos-inside-luxury-bunkers-ultra-rich-prepare-for-doomsday-2022-9
+  domain:
+  - economics
+  - corruption
+  layers_primary:
+  - economic
+  - physical_coercive
+  - thought_narrative
+  layers_secondary:
+  - institutional
+  - surveillance_information
+  layers_absent:
+  - legal_regulatory
+  null_case: plausible
+  null_case_level: MEDIUM for individual purchases; LOW-MEDIUM at scale
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents aspirational wealth framing (lifestyle journalism); perspective of billions outside the bunker absent
+  hegemonic_contexts:
+  - market_capitalism
+  - property_rights
+  - meritocracy
+  cross_references:
+  - 2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement
+  - 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+  - 2026-03-06-propublica-database-trump-financial-disclosures
+  patterns_matched:
+  - pattern: wealth_defense_industry
+    status: observed
+    variant: 'post-civilisational — extended past the system boundary'
+    note: 'Bunker industry is the Wealth Defense Industry extended to post-social-contract survival. Bunker builders are post-civilisational wealth managers. The professional class has expanded from defending wealth within the system to defending the wealthy after the system.'
+  - pattern: peacetime_ratchet
+    status: inferred
+    variant: 'terminal logic — concentration extended to survival itself'
+    note: 'The ratchet has concentrated wealth to the point where beneficiaries can afford to exit the system entirely. The bunker is the final stage: not accumulating more than others but accumulating survival as a private good.'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: 'The gap between the ultra-wealthy''s public confidence in the system (investing, operating, promoting) and their private preparation for its collapse (bunker construction) is the operating environment. Both positions serve their interests simultaneously.'
+  - pattern: double_performance
+    status: inferred
+    variant: null
+    note: 'The ultra-wealthy perform system confidence (continued investment, public optimism, institutional participation) while preparing for system failure (bunker construction, tactical vehicles, security planning). Both sides know the other is performing.'
+  - pattern: division_of_learning
+    status: inferred
+    variant: null
+    note: 'The ultra-wealthy have access to intelligence, modelling, and expertise about systemic risks that ordinary populations do not. The bunker is a product of knowing more about the system''s trajectory — an information asymmetry materialised as physical infrastructure.'
+  - pattern: structural_demand_for_propaganda
+    status: inferred
+    variant: '"dread merchants" — cultivating the fear the industry serves'
+    note: 'Garrett characterises bunker companies as "dread merchants." The industry does not merely respond to fear; it cultivates it. The narrative of imminent collapse serves commercial interests. But the dread is not manufactured from nothing — the instability is real.'
+  - pattern: democracy_oligarchy_coexistence
+    status: inferred
+    variant: null
+    note: 'The bunker phenomenon operates entirely in the private sphere within a democratic system that does not constrain it. No electoral or democratic mechanism addresses the exit of the wealthy from the social contract. The exit is not illegal — it is legally and conceptually unremarkable.'
+  findings_count: 10
+  commit: null
+  domain_text: Ultra-wealthy survival infrastructure / Wealth Defense Industry / system-exit / consent-to-coercion transition
+  layers_text: Economic (primary), Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent)
+  null_case_text: plausible (MEDIUM for individual purchases as rational hedging; LOW-MEDIUM at scale — collective exit preparation by system architects reveals private assessment of systemic trajectory)

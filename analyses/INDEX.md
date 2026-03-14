@@ -319,3 +319,11 @@
   IC-5 flag: Analysis produced by Anthropic AI system — one of the companies named in the article as racing toward AGI. The analytical instrument is a product of the power arrangement under analysis. Training may overweight "responsible AI" framing that the article identifies as regulatory capture.
   Cross-references: `2026-03-02-datasociety-policybrief-big-ai-state.md`, `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`, `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`
   File: `2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md`
+
+### 2022 — Luxury doomsday bunkers — when the architects of the system price in its collapse
+  Domain: Ultra-wealthy survival infrastructure / Wealth Defense Industry / system-exit / consent-to-coercion transition
+  Layers: Economic (primary), Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent)
+  Null case: plausible (MEDIUM for individual purchases as rational hedging; LOW-MEDIUM at scale — collective exit preparation by system architects reveals private assessment of systemic trajectory)
+  IC-5 flag: Training data overrepresents aspirational wealth framing (lifestyle journalism); perspective of billions outside the bunker absent
+  Cross-references: `2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md`, `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`, `2026-03-06-propublica-database-trump-financial-disclosures.md`
+  File: `2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich.md`

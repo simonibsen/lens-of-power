@@ -412,9 +412,9 @@ entries:
       as mechanisms of control. Audit becomes anti-production — more effort demonstrating function than functioning.'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.667
+  confidence_ratio: 0.658
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 78
+  relevant_corpus_size: 79
   corr_count: 52
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
@@ -576,9 +576,9 @@ entries:
       is the outer ditch; civil society is the fortresses and earthworks.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.253
+  confidence_ratio: 0.25
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 20
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
@@ -661,9 +661,9 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.167
+  confidence_ratio: 0.165
   confidence_level: SUPPORTED
-  relevant_corpus_size: 78
+  relevant_corpus_size: 79
   corr_count: 13
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
@@ -821,9 +821,9 @@ entries:
   - 2026-03-12-axiom-10-housing-understanding-inert
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
-  confidence_ratio: 0.256
+  confidence_ratio: 0.253
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 78
+  relevant_corpus_size: 79
   corr_count: 20
 - id: temporal_control
   name: Temporal Control
@@ -856,9 +856,9 @@ entries:
 
       transition between the two is the moment of maximum danger for democratic order'
   counter_evidence: []
-  confidence_ratio: 0.038
+  confidence_ratio: 0.037
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
@@ -919,9 +919,9 @@ entries:
       capable individuals from subordinate groups are absorbed into the dominant intellectual stratum, preventing subaltern
       autonomous intellectual leadership.
   counter_evidence: []
-  confidence_ratio: 0.063
+  confidence_ratio: 0.062
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 5
 - id: economy_of_violence
   name: The Economy of Violence
@@ -961,7 +961,7 @@ entries:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
   confidence_ratio: 0.042
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 71
+  relevant_corpus_size: 72
   corr_count: 3
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
@@ -1133,6 +1133,12 @@ entries:
     variant: null
     note: The gap between the transhumanist promise (enhancement for all, ending suffering) and the structural reality (market-distributed
       access, private ownership, VC-funded development) is the operating environment.
+  - source_id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+    source_type: analysis
+    variant: null
+    note: The gap between the ultra-wealthy's public confidence in the system (investing, operating, promoting) and their
+      private preparation for its collapse (bunker construction) is the operating environment. Both positions serve their
+      interests simultaneously.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1298,10 +1304,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.615
+  confidence_ratio: 0.62
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 78
-  corr_count: 48
+  relevant_corpus_size: 79
+  corr_count: 49
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -1384,9 +1390,9 @@ entries:
     note: Migrant route knowledge, survival strategies, mutual aid networks, and shared intelligence about terrain constitute
       a hidden transcript of the border — counter-knowledge developed by those subjected to the system.
   counter_evidence: []
-  confidence_ratio: 0.129
+  confidence_ratio: 0.127
   confidence_level: SUPPORTED
-  relevant_corpus_size: 70
+  relevant_corpus_size: 71
   corr_count: 9
 - id: compliance_gradient
   name: The Compliance Gradient
@@ -1475,9 +1481,9 @@ entries:
   - 2026-03-12-axiom-10-housing-understanding-inert
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
-  confidence_ratio: 0.127
+  confidence_ratio: 0.125
   confidence_level: SUPPORTED
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 10
 - id: ideological_judo
   name: Ideological Judo
@@ -1539,9 +1545,9 @@ entries:
 
       structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.076
+  confidence_ratio: 0.075
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 6
 - id: double_performance
   name: The Double Performance
@@ -1565,6 +1571,12 @@ entries:
     variant: null
     note: NK condemning strikes while leaving door open to talks; Trump threatening force while saying he would meet Kim —
       both sides performing for multiple audiences simultaneously
+  - source_id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+    source_type: analysis
+    variant: null
+    note: The ultra-wealthy perform system confidence (continued investment, public optimism, institutional participation)
+      while preparing for system failure (bunker construction, tactical vehicles, security planning). Both sides know the
+      other is performing.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1620,10 +1632,10 @@ entries:
       consent while maintaining awareness of the arrangement. The performance is mutual and both sides participate in maintaining
       it.
   counter_evidence: []
-  confidence_ratio: 0.114
+  confidence_ratio: 0.125
   confidence_level: SUPPORTED
-  relevant_corpus_size: 79
-  corr_count: 9
+  relevant_corpus_size: 80
+  corr_count: 10
 - id: relay_class
   name: The Relay Class
   file: patterns/relay-class.md
@@ -1682,9 +1694,9 @@ entries:
 
       basis of their authority. ...'
   counter_evidence: []
-  confidence_ratio: 0.063
+  confidence_ratio: 0.062
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 5
 - id: constitutive_violence
   name: Constitutive Violence
@@ -1806,9 +1818,9 @@ entries:
       Imprisonment of immigrants is not a response to a problem but the production of a category of people subjected to state
       violence.
   counter_evidence: []
-  confidence_ratio: 0.154
+  confidence_ratio: 0.152
   confidence_level: SUPPORTED
-  relevant_corpus_size: 78
+  relevant_corpus_size: 79
   corr_count: 12
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
@@ -1846,9 +1858,9 @@ entries:
 
       control and resistance'
   counter_evidence: []
-  confidence_ratio: 0.026
+  confidence_ratio: 0.025
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 78
+  relevant_corpus_size: 79
   corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
@@ -1948,9 +1960,9 @@ entries:
     note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites
       its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
   counter_evidence: []
-  confidence_ratio: 0.229
+  confidence_ratio: 0.225
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 70
+  relevant_corpus_size: 71
   corr_count: 16
 - id: serial_regime_change
   name: Serial Regime Change
@@ -2031,9 +2043,9 @@ entries:
     note: Venezuela template explicitly referenced as model for Iran; serial goal-shifting documented — four stated aims (protesters,
       nuclear, missiles, Strait) each replacing the previous without acknowledgment.
   counter_evidence: []
-  confidence_ratio: 0.167
+  confidence_ratio: 0.165
   confidence_level: SUPPORTED
-  relevant_corpus_size: 78
+  relevant_corpus_size: 79
   corr_count: 13
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
@@ -2099,9 +2111,9 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.114
+  confidence_ratio: 0.113
   confidence_level: SUPPORTED
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 9
 - id: dispossession_cycle
   name: The Dispossession Cycle
@@ -2176,9 +2188,9 @@ entries:
 
       resist t...'
   counter_evidence: []
-  confidence_ratio: 0.063
+  confidence_ratio: 0.062
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 5
 - id: division_of_learning
   name: The Division of Learning
@@ -2236,6 +2248,12 @@ entries:
     note: Kushner possesses classified diplomatic intelligence and commercial knowledge simultaneously. No oversight mechanism
       monitors the boundary between what he knows as envoy and what he discusses as fund manager. The dual role makes the
       distinction unenforceable.
+  - source_id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+    source_type: analysis
+    variant: null
+    note: The ultra-wealthy have access to intelligence, modelling, and expertise about systemic risks that ordinary populations
+      do not. The bunker is a product of knowing more about the system's trajectory — an information asymmetry materialised
+      as physical infrastructure.
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -2315,10 +2333,10 @@ entries:
     note: The Big Other creates structural asymmetry between official knowledge and private knowledge. Everyone knows the
       system is dysfunctional; the official record does not register this knowledge.
   counter_evidence: []
-  confidence_ratio: 0.221
+  confidence_ratio: 0.231
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 77
-  corr_count: 17
+  relevant_corpus_size: 78
+  corr_count: 18
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -2442,9 +2460,9 @@ entries:
       common sense absorbed during professional formation.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.244
+  confidence_ratio: 0.241
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 78
+  relevant_corpus_size: 79
   corr_count: 19
 - id: institutional_abdication
   name: Institutional Abdication
@@ -2547,9 +2565,9 @@ entries:
       than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.192
+  confidence_ratio: 0.189
   confidence_level: SUPPORTED
-  relevant_corpus_size: 73
+  relevant_corpus_size: 74
   corr_count: 14
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
@@ -2596,6 +2614,11 @@ entries:
     variant: biological dimension — enhancement as capital investment in the body
     note: Enhancement technologies as a new dimension of inequality accumulation. When the body becomes a site of capital
       investment, r > g extends from property to personhood. Returns compound for those with initial capital access.
+  - source_id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+    source_type: analysis
+    variant: terminal logic — concentration extended to survival itself
+    note: 'The ratchet has concentrated wealth to the point where beneficiaries can afford to exit the system entirely. The
+      bunker is the final stage: not accumulating more than others but accumulating survival as a private good.'
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
@@ -2679,10 +2702,10 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.169
+  confidence_ratio: 0.179
   confidence_level: SUPPORTED
-  relevant_corpus_size: 77
-  corr_count: 13
+  relevant_corpus_size: 78
+  corr_count: 14
 - id: compression_through_destruction
   name: Compression Through Destruction
   file: patterns/compression-through-destruction.md
@@ -2726,9 +2749,9 @@ entries:
       Hartmann''s Progressive Era/New...'
   counter_evidence:
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.038
+  confidence_ratio: 0.037
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
@@ -2768,6 +2791,12 @@ entries:
     note: Affinity Partners collects $157 million in fees ($87 million from Saudi PIF) at above-market rates with zero investment
       returns. The firm functions as a mechanism for converting political access into capital flows, not as an investment
       vehicle.
+  - source_id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+    source_type: analysis
+    variant: post-civilisational — extended past the system boundary
+    note: Bunker industry is the Wealth Defense Industry extended to post-social-contract survival. Bunker builders are post-civilisational
+      wealth managers. The professional class has expanded from defending wealth within the system to defending the wealthy
+      after the system.
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
@@ -2832,10 +2861,10 @@ entries:
     note: Private prison industry extracts profit from immigration enforcement architecture. "Bed quotas" ensure the industry's
       revenue stream.
   counter_evidence: []
-  confidence_ratio: 0.13
+  confidence_ratio: 0.141
   confidence_level: SUPPORTED
-  relevant_corpus_size: 77
-  corr_count: 10
+  relevant_corpus_size: 78
+  corr_count: 11
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
   file: patterns/democracy-oligarchy-coexistence.md
@@ -2906,6 +2935,12 @@ entries:
     variant: null
     note: Government appointment and private capital extraction operating simultaneously with same counterparties. Kushner
       negotiates US Middle East policy while soliciting $5 billion from the same sovereign wealth funds.
+  - source_id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+    source_type: analysis
+    variant: null
+    note: The bunker phenomenon operates entirely in the private sphere within a democratic system that does not constrain
+      it. No electoral or democratic mechanism addresses the exit of the wealthy from the social contract. The exit is not
+      illegal — it is legally and conceptually unremarkable.
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
@@ -2953,10 +2988,10 @@ entries:
       equality of landlord and tenant coexists with substantive inequality.
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.228
+  confidence_ratio: 0.237
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 79
-  corr_count: 18
+  relevant_corpus_size: 80
+  corr_count: 19
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -3024,9 +3059,9 @@ entries:
       the arithmetic of their wages. Specific moral vocabulary: work ethic, personal responsibility, bootstraps. Third Position
       2 corroboration.'
   counter_evidence: []
-  confidence_ratio: 0.077
+  confidence_ratio: 0.076
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 78
+  relevant_corpus_size: 79
   corr_count: 6
 - id: capture_pipeline
   name: The Capture Pipeline
@@ -3136,9 +3171,9 @@ entries:
     note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
       captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.169
+  confidence_ratio: 0.167
   confidence_level: SUPPORTED
-  relevant_corpus_size: 77
+  relevant_corpus_size: 78
   corr_count: 13
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
@@ -3244,9 +3279,9 @@ entries:
       — co-optation of oppositional personnel, partial adoption of rhetoric, strategic concessions — while fundamental power
       arrangements persist.'
   counter_evidence: []
-  confidence_ratio: 0.152
+  confidence_ratio: 0.15
   confidence_level: SUPPORTED
-  relevant_corpus_size: 79
+  relevant_corpus_size: 80
   corr_count: 12
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
@@ -3287,6 +3322,12 @@ entries:
     variant: null
     note: Transhumanist narrative meets the demand for a coherent story about the future. Populations anxious about technological
       change need a framework that makes the trajectory appear meaningful and beneficial. The demand precedes the supply.
+  - source_id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+    source_type: analysis
+    variant: '"dread merchants" — cultivating the fear the industry serves'
+    note: Garrett characterises bunker companies as "dread merchants." The industry does not merely respond to fear; it cultivates
+      it. The narrative of imminent collapse serves commercial interests. But the dread is not manufactured from nothing —
+      the instability is real.
   - source_id: ellul-propaganda
     source_type: principle
     variant: null
@@ -3304,10 +3345,10 @@ entries:
       The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.076
+  confidence_ratio: 0.087
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 79
-  corr_count: 6
+  relevant_corpus_size: 80
+  corr_count: 7
 - id: categorical_blindness
   name: Categorical Blindness
   file: patterns/categorical-blindness.md
@@ -3342,9 +3383,9 @@ entries:
       detect Black faces. ...'
   counter_evidence:
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.029
+  confidence_ratio: 0.028
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 70
+  relevant_corpus_size: 71
   corr_count: 2
 - id: boomerang
   name: The Boomerang
@@ -3404,7 +3445,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.078
+  confidence_ratio: 0.077
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 77
+  relevant_corpus_size: 78
   corr_count: 6

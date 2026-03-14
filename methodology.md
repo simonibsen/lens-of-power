@@ -201,6 +201,13 @@ When writing an analysis to `analyses/`, include:
   in Step 2 (SOURCE), not here.
 - A **SOURCE POSITION** field from the positional lens (Position 1-5).
   See `instruments/positional-lens.md`.
+- A **SUPPLEMENTARY SOURCES** field listing any additional sources
+  consulted to fill gaps in the primary material. When the primary URL
+  returns thin content (photo galleries, paywalled articles, fragments),
+  the analyst may supplement with additional fetches, web searches, or
+  related articles. Each supplementary source must be named with its
+  URL or citation so the reader knows the full evidentiary basis.
+  Omit the field if the primary source was sufficient.
 - A **FRAMEWORK STATE** field recording the framework's size at the time
   of analysis: pattern count, principle count, instrument count, and the
   git commit hash. This makes it immediately visible whether an analysis
@@ -619,6 +626,9 @@ SOURCE: [who produced it]
 SOURCE TYPE: [e.g., live blog, investigative journalism, press release]
 SOURCE POSITION: [from positional-lens.md — Position 1-5]
 URL: [if applicable]
+SUPPLEMENTARY SOURCES: [any additional sources consulted to fill gaps
+  in the primary material — name each with URL or citation. Omit if
+  the primary source was sufficient.]
 FRAMEWORK STATE: [N patterns, N principles, N instruments (commit SHORT_HASH)]
 
 ---
