@@ -61,6 +61,37 @@ modes:
   through biological metaphor). The subject sees the apparatus and may
   even see that it could be otherwise, but cannot operationalize that
   perception.
+- **Hegemonic naturalisation**: The mechanism is not hidden; it is the
+  visible, mundane operation of institutions experienced as neutral
+  procedure. Its contingency is not hidden; it could in principle be
+  stated. Perception is not degraded; the subject reasons competently.
+  But the *framework within which mechanism, contingency, and perception
+  operate* is itself a product of the power structure. The subject thinks
+  clearly — within categories the system provided. The analyst analyses
+  competently — using tools the system shaped. The arrangement is not
+  concealed, denied, or made costly to challenge. It is *prior to
+  challenge* — it constitutes the background against which all challenges
+  are formulated, assessed, and found unrealistic.
+
+  This mode operates at the civilisational timescale. It is the product
+  not of a single act of concealment but of generational sedimentation:
+  what one generation constructs deliberately (Gramsci: organic
+  intellectuals building institutional capacity), the next generation
+  inherits as professional competence, and the third generation
+  experiences as the nature of things (Gramsci: "common sense"). The
+  temporal sequence — construction → inheritance → naturalisation — is
+  the mechanism by which contingent arrangements become the unquestioned
+  substrate of reality (Fisher: "it is easier to imagine the end of the
+  world than the end of the system").
+
+  The enforcers of a hegemonically naturalised system are not cynical
+  operators. They are competent professionals applying reasonable
+  procedures within a framework they did not choose, were not asked to
+  consent to, and have never articulated as a framework. The teacher
+  teaches the curriculum. The economist measures GDP. The judge applies
+  precedent. Each reproduces the system through sincere professional
+  practice. The system's deepest achievement is that its reproduction
+  requires no awareness of what is being reproduced.
 
 Visibility is the precondition of accountability, but visibility alone is
 insufficient without both the structural capacity and the epistemic
@@ -72,8 +103,15 @@ capacity to act on what is seen.
 > If contingency is visible, do they have the structural capacity to act
 > on that knowledge? Has their capacity to perceive contingency been
 > degraded — by epistemic closure, ideological encapsulation, or absence
-> of an external reference point?" Flag any framing that discourages
-> questioning, and any mechanism that degrades the capacity to question.
+> of an external reference point? Is the framework within which this
+> material operates — the background assumptions about what is natural,
+> what is realistic, what is thinkable — itself a product of a power
+> arrangement? Are the analyst's own categories (including this framework's
+> layers, patterns, and axioms) shaped by the hegemonic order being
+> studied? What would this analysis look like if the background assumptions
+> were different?" Flag any framing that discourages questioning, any
+> mechanism that degrades the capacity to question, and any background
+> framework that constitutes the boundaries of the thinkable.
 
 ### 4. Mechanisms are consistent; manifestations vary
 
@@ -179,7 +217,7 @@ a falsification condition, the axiom MUST be flagged for review.
 |-------|-----------------|
 | 1. Layers simultaneous | A durable system of control is found that genuinely operates through only one layer with no dependence on others |
 | 2. Layers reinforce | Control at one layer is found to consistently *undermine* control at another, structurally rather than incidentally |
-| 3. Contingency invisible | A system of control is found where mechanism, contingency, and capacity to act are all fully visible to the subjected population, epistemic capacity is intact, yet the system remains durably stable without escalating coercion |
+| 3. Contingency invisible | A system of control is found where mechanism, contingency, and capacity to act are all fully visible to the subjected population, epistemic capacity is intact, the background framework within which all three are assessed is not itself a product of the power structure, yet the system remains durably stable without escalating coercion |
 | 4. Consistent mechanisms | A mechanism of power is found that has no structural parallel in any other era or context |
 | 5. Power concentrates | A system is found where power distributed itself without active structural effort to prevent concentration |
 | 6. Language first | A significant shift in power is found that occurred without any preceding change in language or framing |
@@ -361,3 +399,75 @@ corrupt data, or break the analytical pipeline without anyone noticing.
 > test coverage. If modifying existing behavior, update the affected
 > tests to match. A tool without tests is a tool the framework cannot
 > trust.
+
+### IC-7: Hegemonic complicity
+
+This framework operates within the hegemonic order it studies. Its
+categories — layers, patterns, axioms, integrity constraints — are
+products of institutional knowledge production shaped by the same
+forces the framework examines. This is not a flaw to be fixed. It is
+a structural condition to be named and compensated for. A framework
+that claims to stand outside the hegemonic order is performing exactly
+the kind of naturalisation it is designed to detect.
+
+**The framework's hegemonic position**:
+- The six layers of the taxonomy assume that power operates through
+  identifiable domains (thought, economics, law, institutions,
+  surveillance, force). This is an analytical choice, not a neutral
+  description. A different framework might identify different domains,
+  or might not organise power by domain at all.
+- The axioms assume that power is the primary analytical category —
+  that social arrangements are best understood through the lens of
+  who benefits, who controls, who is constrained. This is productive
+  but not neutral. It makes some features of social life visible and
+  others invisible.
+- The framework's notion of "evidence" privileges the written record,
+  institutional documentation, and published analysis — all products
+  of the hegemonic order's knowledge-production apparatus. Oral
+  tradition, embodied knowledge, and non-institutional sense-making
+  are structurally underrepresented.
+
+**The recursive problem**:
+- When the framework asks "what is presented as natural?" (Axiom 3),
+  the framework itself presents its own analytical categories as
+  natural — as the correct way to decompose power. The question the
+  framework cannot easily ask is: "What does the framework's own
+  structure present as natural?"
+- When the framework asks "what is absent?" (Axiom 8), it can identify
+  absences within its analytical frame. It has structural difficulty
+  identifying absences *of* the frame — perspectives, epistemologies,
+  or ways of knowing that the framework's own architecture makes
+  invisible.
+- When the framework finds power dynamics in every analysis, the
+  question IC-2 poses (is there a non-power explanation?) operates
+  within the assumption that "power" and "non-power" are the relevant
+  categories. A hegemonic analysis might ask whether this binary itself
+  serves a function.
+
+**The generational dimension**:
+- The framework analyses events at the timescale of articles, speeches,
+  and policies. Hegemonic systems operate at the timescale of
+  generations — the slow sedimentation of common sense, the
+  reproduction of intellectual personnel, the molecular absorption of
+  challenges. The framework can name this timescale (it now has
+  principles from Gramsci and Fisher that describe it) but it cannot
+  operate at it. Each analysis is a snapshot; hegemony is a process.
+- The framework should acknowledge this limitation explicitly rather
+  than implying that snapshot analysis captures the full operation of
+  power. The most consequential forms of power may be precisely those
+  that operate below the framework's temporal resolution.
+
+> DIRECTIVE: During every analysis, ask: "What does this analysis
+> assume without stating? What background conditions — economic system,
+> political form, property regime, knowledge framework — does the
+> material operate within, and does the analysis share those
+> assumptions?" When the framework and the material share the same
+> hegemonic background, name it. The shared background is not neutral
+> ground; it is the deepest layer of the power arrangement, and the
+> hardest to see precisely because both analyst and material stand
+> on it.
+>
+> This constraint does not require the framework to escape the
+> hegemonic order — that may not be possible. It requires the framework
+> to name its own position within it, so that the reader can assess
+> what the framework can and cannot see from where it stands.

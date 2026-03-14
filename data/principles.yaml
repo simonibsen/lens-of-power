@@ -2446,3 +2446,137 @@ entries:
   position_display: "5 (legal scholar with community proximity)"
   instruments_proposed_display: []
   source_type_display: training_data
+- id: fisher-capitalist-realism
+  file: principles/fisher-capitalist-realism.md
+  source_name: Mark Fisher
+  source_title: "Capitalist Realism: Is There No Alternative?"
+  source_year: 2009
+  position:
+  - 3
+  - 5
+  position_note: "hybrid — cultural theorist as structural critic; FE lecturer with Position 2 proximity to effects on students/workers"
+  provenance_tier: primary_document
+  layers:
+  - thought_narrative
+  - institutional
+  - economic
+  - surveillance_information
+  principles_count: 8
+  principles_list:
+  - Hegemonic Realism (The Atmosphere Principle)
+  - Precorporation (Pre-Emptive Absorption of Dissent)
+  - Reflexive Impotence (Knowledge as Paralysis)
+  - The Privatisation of Systemic Costs
+  - Market Stalinism (Representation Displacing Reality)
+  - The Big Other (Constitutive Ignorance)
+  - Centerlessness (Impersonal Structure as Accountability Shield)
+  - Hegemonic Dreamwork (Confabulation as Systemic Maintenance)
+  key_patterns:
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Market Stalinism and the Big Other: the gap between official representations and operational reality is not a failure but the operating environment. Audit data performs for a symbolic order nobody believes in.'
+  - pattern: structural_demand_for_propaganda
+    variant: 'demand-side — reflexive impotence as need for framework'
+    note: 'Reflexive impotence demonstrates the demand side: subjects need a framework that makes their acquiescence bearable. The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
+  - pattern: real_time_narrative_saturation
+    variant: null
+    note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: 'Market Stalinism: metrics designed to measure performance instead displace it. "Freedom" and "choice" function as mechanisms of control. Audit becomes anti-production — more effort demonstrating function than functioning.'
+  - pattern: anticipatory_obedience
+    variant: 'internalised — devolved surveillance as self-assessment'
+    note: 'Workers become their own panopticon through internalised audit. Self-assessment replaces external inspection but intensifies control — the subject anticipates requirements before they are imposed.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'The Big Other creates structural asymmetry between official knowledge and private knowledge. Everyone knows the system is dysfunctional; the official record does not register this knowledge.'
+  - pattern: compliance_gradient
+    variant: 'ontological — compliance through foreclosure of alternatives'
+    note: 'Reflexive impotence positions subjects on the gradient not through coercion but through the elimination of the imaginative space for non-compliance. They comply because they cannot conceive of a viable alternative.'
+  - pattern: manufactured_scarcity_as_control
+    variant: 'scarcity of the thinkable'
+    note: 'The system manufactures scarcity of alternatives — not material scarcity but ontological scarcity. The foreclosure of the imagination is a form of manufactured scarcity operating at the level of what can be thought.'
+  - pattern: double_performance
+    variant: null
+    note: 'The Big Other requires a performance of belief nobody believes. Both the system and its subjects perform for an audience (the symbolic order) that both know is fictional, yet maintaining the fiction is structurally necessary.'
+  ic1_flags:
+  - axiom: 3
+    note: 'Hegemonic realism as potential fifth mode: contingency not merely invisible but ontologically excluded. The system does not conceal alternatives; it makes the concept of "alternative" incoherent. Beyond hidden mechanism, hidden contingency, prohibitive cost, or degraded perception.'
+  - axiom: 9
+    note: 'Reflexive impotence: compliance manufactured through foreclosure of effective action, distinct from prohibitive cost (Terkel/Desmond/Ehrenreich) or concealed coercion (axiom''s current framing). Subjects see the coercion, understand it, comply because the imaginative space for non-compliance has been closed.'
+  - axiom: 10
+    note: 'Strongest challenge in the corpus. Understanding does not resist under conditions of hegemonic realism; it produces acquiescence. Knowledge of injustice becomes the mechanism of compliance. Goes beyond existing complications (Arendt, Ellul, Stanley, Browne) to argue understanding is structurally impotent under mature hegemonic conditions.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Thought & Narrative (primary), Institutional, Economic, Surveillance & Information
+  key_patterns_display: Appearance as Structural Terrain, Structural Demand for Propaganda, Real-Time Narrative Saturation, Inversion of Stated Purpose, Anticipatory Obedience, Division of Learning, Compliance Gradient, Manufactured Scarcity, Double Performance
+  source_display: "Mark Fisher, *Capitalist Realism* (2009)"
+  position_display: "3/5 (hybrid — cultural theorist/structural critic with institutional Position 2 proximity)"
+  instruments_proposed_display: []
+  source_type_display: primary_document
+- id: gramsci-prison-notebooks
+  file: principles/gramsci-prison-notebooks.md
+  source_name: Antonio Gramsci
+  source_title: "Selections from the Prison Notebooks"
+  source_year: 1971
+  position:
+  - 3
+  position_note: "revolutionary — imprisoned Communist Party leader theorising how dominant formations maintain power"
+  provenance_tier: primary_document
+  layers:
+  - thought_narrative
+  - institutional
+  - economic
+  - legal_regulatory
+  - physical_coercive
+  - surveillance_information
+  principles_count: 8
+  principles_list:
+  - "The Dual Architecture of Dominance: Consent + Coercion"
+  - Common Sense as Invisible Infrastructure
+  - The Organic Intellectual Personnel System
+  - "Passive Revolution: The Absorption of Challenges"
+  - The Asymmetry of Institutional Response Time
+  - "Civil Society as Deep Defence: The Fortresses-and-Earthworks Principle"
+  - The Three-Level Analysis of Force Relations
+  - The Generational Timescale of Hegemonic Construction
+  key_patterns:
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Common sense is the terrain. The gap between the hegemonic system''s self-presentation (universal interest) and its operation (dominant group interest with genuine but asymmetric concessions to subordinate groups) is the environment in which hegemony operates.'
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: 'Passive revolution: the form of change without the content. Challenges are metabolised through molecular incorporation — co-optation of oppositional personnel, partial adoption of rhetoric, strategic concessions — while fundamental power arrangements persist.'
+  - pattern: institutional_abdication
+    variant: 'crisis of hegemony — parties detach from class base'
+    note: 'The crisis of hegemony: social classes detach from their traditional parties, institutions cease to represent their constituency. The field opens to charismatic leaders and violent solutions. The ruling class reabsorbs control faster than challengers organise.'
+  - pattern: anticipatory_obedience
+    variant: null
+    note: 'The organic intellectual system produces individuals who anticipate and advance the hegemonic programme through sincere professional practice. The teacher, journalist, administrator enforce hegemony not through orders but through common sense absorbed during professional formation.'
+  - pattern: middle_stratum_trap
+    variant: null
+    note: 'Organic intellectuals of the subaltern classes are systematically assimilated by the dominant formation. The most capable individuals from subordinate groups are absorbed into the dominant intellectual stratum, preventing subaltern autonomous intellectual leadership.'
+  - pattern: layered_redundancy_of_control
+    variant: null
+    note: 'Civil society as deep defence: school, church, media, professional associations, cultural norms, moral standards each independently reproduce the hegemonic framework. Failure of any one mechanism is caught by the others. The State is the outer ditch; civil society is the fortresses and earthworks.'
+  - pattern: capture_pipeline
+    variant: 'hegemonic — assimilation of traditional intellectuals and passive revolution'
+    note: 'Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.'
+  - pattern: double_performance
+    variant: null
+    note: 'The hegemonic group performs universal interest while pursuing corporate interest. The subordinate group performs consent while maintaining awareness of the arrangement. The performance is mutual and both sides participate in maintaining it.'
+  ic1_flags:
+  - axiom: 3
+    note: 'Common sense as a fifth mode of invisible power: the background ontology that determines the thinkable. Not a hidden mechanism (the institutions are visible), not degraded perception (the subjects perceive accurately within the frame), but a frame so deeply sedimented across generations that it is experienced as reality itself.'
+  - axiom: 5
+    note: 'Complicates: durable power concentration requires genuine concession to subordinate groups. The hegemonic group''s interests prevail but only up to a certain point — real coordination with subordinate interests is necessary. The axiom''s directive ("at whose expense?") may miss cases where expense is distributed across society while accumulation benefits the dominant disproportionately but not exclusively.'
+  - axiom: 10
+    note: 'Specifies the conditions: understanding resists only when organised through institutional infrastructure (alternative personnel system) and sustained across generational timescales (war of position). Understanding without institutional organisation is structurally impotent. This defines when Axiom 10 holds and when it fails.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: All six (Thought & Narrative and Institutional primary)
+  key_patterns_display: Appearance as Structural Terrain, Formal Transformation/Structural Continuity, Institutional Abdication, Anticipatory Obedience, Middle Stratum Trap, Layered Redundancy of Control, Capture Pipeline, Double Performance
+  source_display: "Antonio Gramsci, *Selections from the Prison Notebooks* (1971; written 1929-1935)"
+  position_display: "3 (revolutionary — imprisoned Communist Party leader)"
+  instruments_proposed_display: []
+  source_type_display: primary_document

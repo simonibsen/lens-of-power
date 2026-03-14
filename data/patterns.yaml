@@ -400,12 +400,17 @@ entries:
     variant: null
     note: Immigration law's stated purpose is managing migration for national benefit. Its documented function is producing
       a category of rightless people whose precarity serves economic and political interests.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: 'Market Stalinism: metrics designed to measure performance instead displace it. "Freedom" and "choice" function
+      as mechanisms of control. Audit becomes anti-production — more effort demonstrating function than functioning.'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.667
+  confidence_ratio: 0.662
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 75
-  corr_count: 50
+  relevant_corpus_size: 77
+  corr_count: 51
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -558,12 +563,18 @@ entries:
     note: 'PTD operates multiple control mechanisms simultaneously: legal prohibition, physical barriers, surveillance technology,
       environmental lethality, economic barriers (smuggling costs), and narrative framing. Failure at any one is caught by
       others.'
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: 'Civil society as deep defence: school, church, media, professional associations, cultural norms, moral standards
+      each independently reproduce the hegemonic framework. Failure of any one mechanism is caught by the others. The State
+      is the outer ditch; civil society is the fortresses and earthworks.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.25
+  confidence_ratio: 0.256
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 76
-  corr_count: 19
+  relevant_corpus_size: 78
+  corr_count: 20
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
   file: patterns/perpetual-threat-as-perpetual-justification.md
@@ -645,9 +656,9 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.173
+  confidence_ratio: 0.169
   confidence_level: SUPPORTED
-  relevant_corpus_size: 75
+  relevant_corpus_size: 77
   corr_count: 13
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
@@ -789,16 +800,21 @@ entries:
     variant: scarcity of legal pathways as control mechanism
     note: Legal immigration pathways are structurally scarce — limited visa categories, decades-long wait times. The scarcity
       is a policy choice that produces unauthorized status by design.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: scarcity of the thinkable
+    note: The system manufactures scarcity of alternatives — not material scarcity but ontological scarcity. The foreclosure
+      of the imagination is a form of manufactured scarcity operating at the level of what can be thought.
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-9-housing-compliance-visible
   - 2026-03-12-axiom-10-housing-understanding-inert
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
-  confidence_ratio: 0.24
+  confidence_ratio: 0.247
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 75
-  corr_count: 18
+  relevant_corpus_size: 77
+  corr_count: 19
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -830,9 +846,9 @@ entries:
 
       transition between the two is the moment of maximum danger for democratic order'
   counter_evidence: []
-  confidence_ratio: 0.039
+  confidence_ratio: 0.038
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
@@ -886,11 +902,17 @@ entries:
       solidarity; recruited as *enforcers* of the racial order through delegated violence,
 
       making them complicit ...'
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: Organic intellectuals of the subaltern classes are systematically assimilated by the dominant formation. The most
+      capable individuals from subordinate groups are absorbed into the dominant intellectual stratum, preventing subaltern
+      autonomous intellectual leadership.
   counter_evidence: []
-  confidence_ratio: 0.053
+  confidence_ratio: 0.064
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
-  corr_count: 4
+  relevant_corpus_size: 78
+  corr_count: 5
 - id: economy_of_violence
   name: The Economy of Violence
   file: patterns/economy-of-violence.md
@@ -927,9 +949,9 @@ entries:
       but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.044
+  confidence_ratio: 0.043
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 68
+  relevant_corpus_size: 70
   corr_count: 3
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
@@ -1246,14 +1268,25 @@ entries:
     variant: null
     note: '"Rule of law" framing presents enforcement as neutral application of law. The structural finding: the law produces
       the law-breaking by making compliance impossible for many.'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: 'Market Stalinism and the Big Other: the gap between official representations and operational reality is not a failure
+      but the operating environment. Audit data performs for a symbolic order nobody believes in.'
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: Common sense is the terrain. The gap between the hegemonic system's self-presentation (universal interest) and its
+      operation (dominant group interest with genuine but asymmetric concessions to subordinate groups) is the environment
+      in which hegemony operates.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.6
+  confidence_ratio: 0.61
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 75
-  corr_count: 45
+  relevant_corpus_size: 77
+  corr_count: 47
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -1336,9 +1369,9 @@ entries:
     note: Migrant route knowledge, survival strategies, mutual aid networks, and shared intelligence about terrain constitute
       a hidden transcript of the border — counter-knowledge developed by those subjected to the system.
   counter_evidence: []
-  confidence_ratio: 0.134
+  confidence_ratio: 0.13
   confidence_level: SUPPORTED
-  relevant_corpus_size: 67
+  relevant_corpus_size: 69
   corr_count: 9
 - id: compliance_gradient
   name: The Compliance Gradient
@@ -1415,6 +1448,11 @@ entries:
     variant: impossible compliance — system produces violations by design
     note: Immigration law positions all undocumented people on the compliance gradient under conditions where full compliance
       is structurally impossible. The system produces "illegal" status through structural design, not individual choice.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: ontological — compliance through foreclosure of alternatives
+    note: Reflexive impotence positions subjects on the gradient not through coercion but through the elimination of the imaginative
+      space for non-compliance. They comply because they cannot conceive of a viable alternative.
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-10-position-2-understanding-inert
@@ -1422,10 +1460,10 @@ entries:
   - 2026-03-12-axiom-10-housing-understanding-inert
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
-  confidence_ratio: 0.118
+  confidence_ratio: 0.128
   confidence_level: SUPPORTED
-  relevant_corpus_size: 76
-  corr_count: 9
+  relevant_corpus_size: 78
+  corr_count: 10
 - id: ideological_judo
   name: Ideological Judo
   file: patterns/ideological-judo.md
@@ -1486,9 +1524,9 @@ entries:
 
       structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.079
+  confidence_ratio: 0.077
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 6
 - id: double_performance
   name: The Double Performance
@@ -1555,11 +1593,22 @@ entries:
     variant: null
     note: 'P2, P5: workers performing compliance while maintaining private account of the relationship. Performance is conscious
       and strategic, not internalized.'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: The Big Other requires a performance of belief nobody believes. Both the system and its subjects perform for an
+      audience (the symbolic order) that both know is fictional, yet maintaining the fiction is structurally necessary.
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: The hegemonic group performs universal interest while pursuing corporate interest. The subordinate group performs
+      consent while maintaining awareness of the arrangement. The performance is mutual and both sides participate in maintaining
+      it.
   counter_evidence: []
-  confidence_ratio: 0.092
-  confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
-  corr_count: 7
+  confidence_ratio: 0.115
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 78
+  corr_count: 9
 - id: relay_class
   name: The Relay Class
   file: patterns/relay-class.md
@@ -1618,9 +1667,9 @@ entries:
 
       basis of their authority. ...'
   counter_evidence: []
-  confidence_ratio: 0.066
+  confidence_ratio: 0.064
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 5
 - id: constitutive_violence
   name: Constitutive Violence
@@ -1742,9 +1791,9 @@ entries:
       Imprisonment of immigrants is not a response to a problem but the production of a category of people subjected to state
       violence.
   counter_evidence: []
-  confidence_ratio: 0.16
+  confidence_ratio: 0.156
   confidence_level: SUPPORTED
-  relevant_corpus_size: 75
+  relevant_corpus_size: 77
   corr_count: 12
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
@@ -1782,9 +1831,9 @@ entries:
 
       control and resistance'
   counter_evidence: []
-  confidence_ratio: 0.027
+  confidence_ratio: 0.026
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 75
+  relevant_corpus_size: 77
   corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
@@ -1878,11 +1927,16 @@ entries:
     note: ': Extended from information saturation to total experiential saturation. Feelies, Obstacle Golf, promiscuous sex,
       soma — every moment filled with stimulation. Helmholtz Watson senses something is wrong but cannot articulate it because
       the cognitive space for articulation has been filled. Not info...'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites
+      its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
   counter_evidence: []
-  confidence_ratio: 0.224
+  confidence_ratio: 0.232
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 67
-  corr_count: 15
+  relevant_corpus_size: 69
+  corr_count: 16
 - id: serial_regime_change
   name: Serial Regime Change
   file: patterns/serial-regime-change.md
@@ -1962,9 +2016,9 @@ entries:
     note: Venezuela template explicitly referenced as model for Iran; serial goal-shifting documented — four stated aims (protesters,
       nuclear, missiles, Strait) each replacing the previous without acknowledgment.
   counter_evidence: []
-  confidence_ratio: 0.173
+  confidence_ratio: 0.169
   confidence_level: SUPPORTED
-  relevant_corpus_size: 75
+  relevant_corpus_size: 77
   corr_count: 13
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
@@ -2025,9 +2079,9 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.105
+  confidence_ratio: 0.103
   confidence_level: SUPPORTED
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 8
 - id: dispossession_cycle
   name: The Dispossession Cycle
@@ -2102,9 +2156,9 @@ entries:
 
       resist t...'
   counter_evidence: []
-  confidence_ratio: 0.066
+  confidence_ratio: 0.064
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 5
 - id: division_of_learning
   name: The Division of Learning
@@ -2235,11 +2289,16 @@ entries:
     variant: null
     note: The state knows terrain lethality (used to design funneling corridors) while migrants learn routes through attrition.
       Border Patrol sensor arrays coexist with deliberate absence of search-and-rescue in killing zones.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: The Big Other creates structural asymmetry between official knowledge and private knowledge. Everyone knows the
+      system is dysfunctional; the official record does not register this knowledge.
   counter_evidence: []
-  confidence_ratio: 0.216
+  confidence_ratio: 0.224
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 74
-  corr_count: 16
+  relevant_corpus_size: 76
+  corr_count: 17
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -2350,12 +2409,23 @@ entries:
     variant: institutional
     note: Anti-union architecture preempts organizing before it begins. Workers self-censor because employment structure makes
       collective expression prohibitive. Extends pattern from political authoritarianism to workplace architecture.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: internalised — devolved surveillance as self-assessment
+    note: Workers become their own panopticon through internalised audit. Self-assessment replaces external inspection but
+      intensifies control — the subject anticipates requirements before they are imposed.
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: The organic intellectual system produces individuals who anticipate and advance the hegemonic programme through
+      sincere professional practice. The teacher, journalist, administrator enforce hegemony not through orders but through
+      common sense absorbed during professional formation.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.227
+  confidence_ratio: 0.247
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 75
-  corr_count: 17
+  relevant_corpus_size: 77
+  corr_count: 19
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -2449,12 +2519,18 @@ entries:
       the agencies cooperated with planter interests not through corruption but through
 
       structural dependency...'
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: crisis of hegemony — parties detach from class base
+    note: 'The crisis of hegemony: social classes detach from their traditional parties, institutions cease to represent their
+      constituency. The field opens to charismatic leaders and violent solutions. The ruling class reabsorbs control faster
+      than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.186
+  confidence_ratio: 0.194
   confidence_level: SUPPORTED
-  relevant_corpus_size: 70
-  corr_count: 13
+  relevant_corpus_size: 72
+  corr_count: 14
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -2578,9 +2654,9 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.162
+  confidence_ratio: 0.158
   confidence_level: SUPPORTED
-  relevant_corpus_size: 74
+  relevant_corpus_size: 76
   corr_count: 12
 - id: compression_through_destruction
   name: Compression Through Destruction
@@ -2625,9 +2701,9 @@ entries:
       Hartmann''s Progressive Era/New...'
   counter_evidence:
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.039
+  confidence_ratio: 0.038
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
@@ -2731,9 +2807,9 @@ entries:
     note: Private prison industry extracts profit from immigration enforcement architecture. "Bed quotas" ensure the industry's
       revenue stream.
   counter_evidence: []
-  confidence_ratio: 0.135
+  confidence_ratio: 0.132
   confidence_level: SUPPORTED
-  relevant_corpus_size: 74
+  relevant_corpus_size: 76
   corr_count: 10
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
@@ -2852,9 +2928,9 @@ entries:
       equality of landlord and tenant coexists with substantive inequality.
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.237
+  confidence_ratio: 0.231
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 18
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
@@ -2923,9 +2999,9 @@ entries:
       the arithmetic of their wages. Specific moral vocabulary: work ethic, personal responsibility, bootstraps. Third Position
       2 corroboration.'
   counter_evidence: []
-  confidence_ratio: 0.08
+  confidence_ratio: 0.078
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 75
+  relevant_corpus_size: 77
   corr_count: 6
 - id: capture_pipeline
   name: The Capture Pipeline
@@ -3029,11 +3105,16 @@ entries:
     variant: null
     note: Private prison companies lobby for enforcement that produces detainees, fund supportive candidates, build facilities
       in advance of demand. The detention-industrial complex captures immigration policy.
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: hegemonic — assimilation of traditional intellectuals and passive revolution
+    note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
+      captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.162
+  confidence_ratio: 0.171
   confidence_level: SUPPORTED
-  relevant_corpus_size: 74
-  corr_count: 12
+  relevant_corpus_size: 76
+  corr_count: 13
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -3131,11 +3212,17 @@ entries:
     variant: null
     note: Racial exclusion formally eliminated in 1965. Racially differential enforcement persisted through geographic targeting,
       category construction, and enforcement priorities. Form changed; racial function continued.
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: 'Passive revolution: the form of change without the content. Challenges are metabolised through molecular incorporation
+      — co-optation of oppositional personnel, partial adoption of rhetoric, strategic concessions — while fundamental power
+      arrangements persist.'
   counter_evidence: []
-  confidence_ratio: 0.145
+  confidence_ratio: 0.154
   confidence_level: SUPPORTED
-  relevant_corpus_size: 76
-  corr_count: 11
+  relevant_corpus_size: 78
+  corr_count: 12
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
@@ -3180,12 +3267,17 @@ entries:
       the demand side drives the supply side; the intellectual who reads five newspapers is more
 
       propagandized than the peasant who reads nothing'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: demand-side — reflexive impotence as need for framework
+    note: 'Reflexive impotence demonstrates the demand side: subjects need a framework that makes their acquiescence bearable.
+      The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.053
+  confidence_ratio: 0.064
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
-  corr_count: 4
+  relevant_corpus_size: 78
+  corr_count: 5
 - id: categorical_blindness
   name: Categorical Blindness
   file: patterns/categorical-blindness.md
@@ -3220,9 +3312,9 @@ entries:
       detect Black faces. ...'
   counter_evidence:
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.03
+  confidence_ratio: 0.029
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 67
+  relevant_corpus_size: 69
   corr_count: 2
 - id: boomerang
   name: The Boomerang
@@ -3282,7 +3374,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.081
+  confidence_ratio: 0.079
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 74
+  relevant_corpus_size: 76
   corr_count: 6
