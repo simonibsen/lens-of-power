@@ -571,7 +571,9 @@ IMPLICATIONS: [what follows from this analysis]
 WATCH: [what to monitor going forward]
 INVESTIGATE: [threads worth pulling]
 FRAMEWORK UPDATE: [any additions to patterns/ or refinements to suggest]
-CIRCUMVENTIONS: [any circumvention types observed — type, outcome, failure modes]
+CIRCUMVENTIONS:
+  Structural: [circumvention types operating within the hegemonic frame — type, outcome, failure modes]
+  Hegemonic: [circumventions contesting the frame itself — what alternative institutions or common sense would be needed]
 MADE VISIBLE: [what this analysis reveals that was previously hidden]
 ```
 
@@ -640,16 +642,40 @@ Include specific, monitorable watch items — each should be falsifiable
 
 ## Circumventions
 
-[Which circumvention types from circumventions.md are relevant to the
-patterns identified in this analysis? For each: the circumvention type,
-how it applies to this specific case, and the outcome range (what has
-been observed to succeed, fail, or be captured). Use observational
-language per the circumvention register convention.
+Two subsections, corresponding to the two levels at which power operates
+and can be contested. Both are required.
 
-If no circumventions are relevant, state "None identified" rather than
-omitting the section. An analysis that identifies patterns of power
-concentration but does not consider what counterforces exist or have
-been tried is incomplete.]
+### Structural
+
+[Which structural circumvention types from circumventions.md are relevant
+to the patterns identified in this analysis? These operate within the
+existing hegemonic frame — using the system's own tools (law, elections,
+journalism, collective action) to contest specific outcomes. For each:
+the circumvention type, how it applies to this specific case, and the
+outcome range (what has been observed to succeed, fail, or be captured).
+Use observational language per the circumvention register convention.
+
+If no structural circumventions are relevant, state "None identified."]
+
+### Hegemonic
+
+[Which hegemonic circumventions from circumventions.md are relevant?
+These contest the frame itself — the background assumptions named in
+Step 0 (CONTEXT). For each: how it would operate at the civilisational
+level for the hegemonic context this analysis operates within. What
+alternative institutions, alternative common sense, or alternative
+intellectual personnel would be needed to contest the background
+assumptions? Has a hegemonic rupture occurred or is one foreseeable?
+
+This subsection connects directly to Step 0: the hegemonic context
+named there is what the hegemonic circumventions would address. The
+structural circumventions above contest what happens within the frame;
+this subsection considers what it would take to contest the frame itself.
+
+If the analysis operates within a background so naturalised that no
+hegemonic circumvention is identifiable, state that explicitly — the
+absence is itself a finding about the depth of the hegemonic
+arrangement.]
 
 ## Findings
 
