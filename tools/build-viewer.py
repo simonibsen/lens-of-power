@@ -2944,8 +2944,10 @@ function buildSidebar() {
   });
 
   // Red Team section — show self-examination evidence items
+  // Only show when all filters are active or when in redteam view
+  const allFiltersOn = activeFilters.size === TYPE_ORDER.length;
   const rtIds = (DATA.meta.health || {}).red_team_ids || [];
-  if (rtIds.length > 0) {
+  if (rtIds.length > 0 && (allFiltersOn || currentView === 'redteam')) {
     const rtGroup = document.createElement('div');
     rtGroup.className = 'sidebar-group sidebar-redteam';
     rtGroup.dataset.type = 'redteam';
