@@ -2821,3 +2821,70 @@ entries:
   hegemonic_contexts:
   - nation_state_sovereignty
   - western_liberal_democracy
+- id: 2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement
+  file: analyses/2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md
+  date: '2026-03-14'
+  time: ~09:00 UTC
+  source_date: '2024'
+  title: 'Transhumanism: billionaires, tech enhancement, and the foreclosure of alternative futures'
+  source_name: The Conversation (Alexander Thomas)
+  source_type: essay
+  position:
+  - 5
+  url: https://theconversation.com/transhumanism-billionaires-want-to-use-tech-to-enhance-our-abilities-the-outcomes-could-change-what-it-means-to-be-human-220549
+  domain:
+  - ai_policy
+  - economics
+  - ethics_disclosure
+  layers_primary:
+  - thought_narrative
+  - economic
+  layers_secondary:
+  - institutional
+  - surveillance_information
+  layers_absent:
+  - legal_regulatory
+  - physical_coercive
+  null_case: plausible
+  null_case_level: MEDIUM for philosophy; LOW-MEDIUM for commercial deployment
+  adversarial: false
+  origin: null
+  ic5_flag: 'Analysis produced by Anthropic AI system — one of the companies named in the article as racing toward AGI. The analytical instrument is a product of the power arrangement under analysis. Training may overweight "responsible AI" framing that the article identifies as regulatory capture.'
+  hegemonic_contexts:
+  - technological_progress
+  - market_capitalism
+  cross_references:
+  - 2026-03-02-datasociety-policybrief-big-ai-state
+  - 2026-03-04-guardian-article-datacenter-politics-nc-primary
+  - 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+  - 2026-03-14-cra-policybrief-great-replacement-theory-practice
+  patterns_matched:
+  - pattern: manufactured_scarcity_as_control
+    status: inferred
+    variant: 'scarcity of acceptable futures'
+    note: 'Non-technological futures excluded from the thinkable. "Merge with AI or be left behind" eliminates the option of not pursuing the trajectory. Scarcity operates at the level of the imagination, not material resources.'
+  - pattern: unprecedented_as_sanctuary
+    status: observed
+    variant: null
+    note: 'AGI and transhumanist enhancement technologies establish themselves in conceptual and regulatory voids. The "existential risk" framing defines the terms of regulation before regulatory frameworks can develop categories of response.'
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: null
+    note: 'The gap between the transhumanist promise (enhancement for all, ending suffering) and the structural reality (market-distributed access, private ownership, VC-funded development) is the operating environment.'
+  - pattern: peacetime_ratchet
+    status: inferred
+    variant: 'biological dimension — enhancement as capital investment in the body'
+    note: 'Enhancement technologies as a new dimension of inequality accumulation. When the body becomes a site of capital investment, r > g extends from property to personhood. Returns compound for those with initial capital access.'
+  - pattern: inversion_of_stated_purpose
+    status: inferred
+    variant: null
+    note: 'AI safety discourse: stated purpose is protecting humanity from AI risk; function is protecting AI companies from present-harms regulation. Regulatory attention directed toward hypothetical future rather than documented present.'
+  - pattern: structural_demand_for_propaganda
+    status: inferred
+    variant: null
+    note: 'Transhumanist narrative meets the demand for a coherent story about the future. Populations anxious about technological change need a framework that makes the trajectory appear meaningful and beneficial. The demand precedes the supply.'
+  findings_count: 8
+  commit: null
+  domain_text: AI policy / transhumanism / technological determinism / inequality / regulatory capture
+  layers_text: Thought & Narrative (primary), Economic (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent), Physical & Coercive (active but absent)
+  null_case_text: plausible (MEDIUM for transhumanism as philosophy; LOW-MEDIUM for tech industry's deployment of transhumanist narrative — incentive structure and regulatory capture documented across multiple independent sources)

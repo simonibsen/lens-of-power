@@ -311,3 +311,11 @@
   IC-5 flag: Training data overrepresents institutional-centre "conspiracy theory" framing which accurately describes white-nationalist version but may obscure the policy-laundering mechanism. May also underweight genuine anxieties about demographic change in affected communities.
   Cross-references: `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
   File: `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`
+
+### 2024 — Transhumanism: billionaires, tech enhancement, and the foreclosure of alternative futures
+  Domain: AI policy / transhumanism / technological determinism / inequality / regulatory capture
+  Layers: Thought & Narrative (primary), Economic (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent), Physical & Coercive (active but absent)
+  Null case: plausible (MEDIUM for transhumanism as philosophy; LOW-MEDIUM for tech industry's deployment of transhumanist narrative — incentive structure and regulatory capture documented across multiple independent sources)
+  IC-5 flag: Analysis produced by Anthropic AI system — one of the companies named in the article as racing toward AGI. The analytical instrument is a product of the power arrangement under analysis. Training may overweight "responsible AI" framing that the article identifies as regulatory capture.
+  Cross-references: `2026-03-02-datasociety-policybrief-big-ai-state.md`, `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`, `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`
+  File: `2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md`
