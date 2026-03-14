@@ -2542,7 +2542,7 @@ body {
         <button class="filter-btn active" data-type="instrument">Instruments</button>
         <button class="filter-btn active" data-type="pattern">Patterns</button>
         <button class="filter-btn active" data-type="circumvention">Circumventions</button>
-        <button class="filter-btn active" data-type="hegemonic_context">Contexts</button>
+        <button class="filter-btn active" data-type="hegemonic_context">Hegemony</button>
         <button class="filter-btn active" data-type="evidence">Evidence</button>
         <button class="filter-btn active" data-type="redteam" id="redteam-nav-btn">Red Team</button>
       </div>
