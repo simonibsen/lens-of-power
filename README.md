@@ -34,10 +34,13 @@ open viewer.html
 ```
 
 The viewer has three top-level nav items: **Dashboard** (landing page with
-recent analyses, works studied, layer coverage), **Gap Analysis** (framework
-health metrics and blind spots), and a **Visualizations** dropdown (Force
-Graph, Layer Deep Dive, Corroboration Matrix, Timeline, Layer Flow,
-Principle Lineage). Clicking any item in the sidebar opens a detail view.
+recent analyses, works studied, layer coverage, circumventions by tier,
+hegemonic context distribution), **Gap Analysis** (framework health metrics,
+blind spots, hegemonic context coverage), and a **Visualizations** dropdown
+(Force Graph, Layer Deep Dive, Corroboration Matrix, Timeline, Layer Flow,
+Principle Lineage). The sidebar groups items by type, with circumventions
+visually distinguished by tier (structural in teal, hegemonic in amber).
+Clicking any item opens a detail view.
 
 ## Table of contents
 
@@ -54,7 +57,7 @@ Principle Lineage). Clicking any item in the sidebar opens a detail view.
   - [Suggest](#lop-suggest--framework-health-diagnostic) — framework health diagnostic
 - [How the framework grows](#how-the-framework-grows)
 - [Structure](#structure) — directory layout
-- [Integrity constraints](#integrity-constraints) — IC-1 through IC-5
+- [Integrity constraints](#integrity-constraints) — IC-1 through IC-7
 - [Architecture and design patterns](#architecture-and-design-patterns)
 
 ## Getting started
@@ -342,10 +345,20 @@ Circumventions use observational language throughout: "has been observed to,"
 "may," "appeared to." They are descriptive, not prescriptive — the framework
 records what has happened, not what should be pursued.
 
+Circumventions operate at two levels. **Structural circumventions** (10
+types) contest specific power arrangements within the existing hegemonic
+frame — using the system's own tools (law, elections, journalism, collective
+action). **Hegemonic circumventions** (2 types) contest the frame itself —
+the background assumptions that determine what counts as natural, realistic,
+or thinkable. They operate at generational timescales and require
+institutional infrastructure. The accessibility gap between structural and
+hegemonic circumventions is itself a structural feature of hegemonic power.
+
 Each circumvention type has fields for which layers it operates on, which
 patterns it counteracts, its mechanism, failure modes, outcome range, and
 documented power responses. They live in `circumventions.md` (compact
-reference) and `circumventions-detail.md` (full evidence trails).
+reference), `circumventions-detail.md` (full evidence trails), and
+`data/circumventions.yaml` (structured data for the viewer).
 
 *Example*: Everyday Resistance — "Foot-dragging, feigned ignorance,
 pilfering, false compliance, gossip, anonymous sabotage, and other 'weapons
@@ -789,13 +802,13 @@ own source — that would defeat the purpose of randomization.
 
 ```
 lens-of-power/
-├── constitution.md          Foundational axioms (10) and integrity constraints (IC-1 through IC-5)
+├── constitution.md          Foundational axioms (10) and integrity constraints (IC-1 through IC-7)
 ├── taxonomy.md              The six layers of power and their mechanisms
 ├── methodology.md           Analytical procedures and output formats (6 modes)
 ├── patterns/
 │   ├── INDEX.md             Compact pattern lookup table (always loaded)
 │   └── *.md                 Individual pattern files with evidence trails
-├── circumventions.md        Observed responses to power concentration (always loaded)
+├── circumventions.md        Observed responses: structural (10) + hegemonic (2) (always loaded)
 ├── circumventions-detail.md Full evidence trails per circumvention (loaded for audits)
 ├── instruments/             Imported analytical tools (7 instruments)
 │   ├── circumvention-typology.md  Detection guide for observed responses to power
@@ -829,14 +842,25 @@ lens-of-power/
 │   ├── guriev-rachinsky-role-of-oligarchs.md  4 principles (JEP 2005)
 │   ├── alley-very-bad-people.md  5 principles from Very Bad People
 │   ├── schimpfossl-oligarch-moralities-of-wealth.md  5 principles (EEPSC 2024)
-│   └── project-2025-mandate-for-leadership.md  6 principles from Mandate for Leadership
+│   ├── project-2025-mandate-for-leadership.md  8 principles from Mandate for Leadership
+│   ├── huxley-brave-new-world.md  9 principles from Brave New World
+│   ├── church-committee-cointelpro.md  7 principles from Church Committee
+│   ├── browne-dark-matters.md  7 principles from Dark Matters
+│   ├── terkel-working.md       8 principles from Working
+│   ├── desmond-evicted.md      7 principles from Evicted
+│   ├── ehrenreich-nickel-and-dimed.md  6 principles from Nickel and Dimed
+│   ├── deleon-land-of-open-graves.md  6 principles from Land of Open Graves
+│   ├── garcia-hernandez-migrating-to-prison.md  6 principles from Migrating to Prison
+│   ├── fisher-capitalist-realism.md  8 principles from Capitalist Realism
+│   └── gramsci-prison-notebooks.md  8 principles from Prison Notebooks
 ├── data/                    YAML data files (single source of truth)
 │   ├── analyses.yaml          Analysis registry metadata
 │   ├── patterns.yaml          Pattern corroboration data (observed_in is computed)
 │   ├── principles.yaml        Extracted principle sources
 │   ├── calibration.yaml       SAMPLE mode calibration tracking log
+│   ├── circumventions.yaml     Circumvention types (structural + hegemonic)
 │   ├── sample-pool.yaml       Source pool for SAMPLE mode randomization
-│   └── config.yaml            Shared enumerations, thresholds, and domain definitions
+│   └── config.yaml            Enumerations, thresholds, domains, hegemonic contexts
 ├── sources/                 Source provenance records
 │   ├── INDEX.md               Compact lookup table (generated from YAML)
 │   └── sample-pool.md        Source pool for SAMPLE mode (generated from YAML)
@@ -863,7 +887,7 @@ lens-of-power/
 ## Integrity constraints
 
 > [!IMPORTANT]
-> The framework includes five structural safeguards against becoming a
+> The framework includes seven structural safeguards against becoming a
 > closed ideological system. These are non-negotiable — a framework for
 > studying power that cannot examine its own power over the analyst is a
 > failed instrument.
@@ -881,6 +905,14 @@ lens-of-power/
   the LLM's own training biases as a structural limitation. The LLM is
   a biased instrument — powerful but shaped by the same forces the
   framework examines.
+- **IC-6: Test discipline** — All tooling must have automated tests.
+  Untested code is untrustworthy code.
+- **IC-7: Hegemonic complicity** — The framework operates within the
+  hegemonic order it studies. Every analysis names the background
+  assumptions shared by the material and the analyst (Step 0: CONTEXT),
+  identifies the forces that maintain them, and considers whether
+  new hegemonic structures are emerging. The framework cannot escape
+  the hegemonic order — but it can name its position within it.
 
 ## Architecture and design patterns
 

@@ -352,6 +352,23 @@ MAINTAINING FORCES:
   Feedback mechanisms: [how challenges are absorbed — name patterns]
 ```
 
+**Emergence detection**: After naming the background from the existing
+list in `data/config.yaml`, ask: "Is this material operating within a
+hegemonic context not yet named in the framework?" Signs of an unnamed
+context include:
+- The material treats something as natural that the framework has no
+  existing context for (e.g., "AI deployment is inevitable" may signal
+  an emerging "AI inevitability" context)
+- The material uses a vocabulary that forecloses alternatives in a domain
+  the existing contexts do not cover
+- The analyst notices that every recent analysis shares an assumption
+  that has never been articulated as a hegemonic context
+
+If a new context is identified, propose it for addition to `config.yaml`
+with an ID, name, and description following the existing format. New
+contexts are how the framework evolves — what is doxic (unquestioned)
+changes over time, and the framework must track those changes.
+
 This step precedes DECOMPOSE because the hegemonic context shapes what
 the analyst can see in the decomposition. Naming the context first does
 not solve the problem — the analysis still operates within it — but it
@@ -1393,7 +1410,40 @@ SOURCE TYPE DISTRIBUTION:
   DOMINANT: [type, if one exceeds 50%]
 ```
 
-### Step 8: PRIORITIZED RECOMMENDATIONS
+### Step 8: HEGEMONIC CONTEXT GAPS
+
+Identify blind spots in the framework's hegemonic self-awareness (IC-7).
+
+**Do this**:
+- Read `data/config.yaml` for the hegemonic contexts list
+- Read `data/analyses.yaml` for each analysis's `hegemonic_contexts` tags
+- **Context distribution**: Count how many analyses tag each hegemonic
+  context. Identify contexts with zero analyses — these are the deepest
+  blind spots, backgrounds so naturalised that no material has brought
+  them into view.
+- **Context concentration**: If one context dominates (>50% of analyses),
+  the framework may be stuck in a single hegemonic frame. Flag it.
+- **Emergence detection**: Review the last 10 analyses for background
+  assumptions that are not captured by any existing context. If the
+  same unnamed assumption appears across multiple analyses, propose
+  a new hegemonic context for `config.yaml`.
+- **Untagged analyses**: Count analyses with no hegemonic context tags.
+  These predate IC-7 or were not tagged — they represent gaps in the
+  framework's self-awareness.
+
+**Output format**:
+```
+HEGEMONIC CONTEXT DISTRIBUTION:
+  [context name]: [count] analyses
+  ...
+ZERO-ANALYSIS CONTEXTS: [list — deepest blind spots]
+DOMINANT CONTEXT: [name, if >50% of analyses]
+UNTAGGED ANALYSES: [count]
+EMERGENCE CANDIDATES: [any unnamed assumption appearing across
+  multiple recent analyses — propose new context if identified]
+```
+
+### Step 9: PRIORITIZED RECOMMENDATIONS
 
 Synthesize all findings into an ordered list of actions.
 
@@ -1406,6 +1456,7 @@ Synthesize all findings into an ordered list of actions.
 6. Extract gaps (known material unextracted → knowledge left on table)
 7. Instrument gaps (proposed tools unbuilt → analytical capability missing)
 8. Coverage gaps (layer/perspective/type imbalance → blind spots)
+9. Hegemonic context gaps (zero-analysis contexts → deepest blind spots; concentration → stuck in one frame)
 
 **Each recommendation must be actionable**: name a specific source,
 material type, domain, or action — not a generic suggestion. Where
