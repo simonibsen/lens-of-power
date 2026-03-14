@@ -71,6 +71,165 @@ entries:
   - transparency_naming
   originated_by: null
   observed_in:
+  - source_id: 2026-03-01-guardian-liveblog-us-israel-iran-war
+    source_type: analysis
+    variant: null
+    note: '"Operation Epic Fury" as heroic
+
+      branding for regime change war; CENTCOM''s "looking into" civilian harm as
+
+      accountability language performing deflection'
+  - source_id: 2026-03-01-meta-policy-meta-three-policies
+    source_type: analysis
+    variant: null
+    note: 'all three policy documents
+
+      exhibit the pattern: "agreement" that eliminates negotiation, "privacy" policy that
+
+      authorizes surveillance, "community standards" that consolidate corporate control,
+
+      and "more speech" reframing that reduces accountability infrastructure; the January
+
+      2025 announcement i...'
+  - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
+    source_type: analysis
+    variant: null
+    note: '"defensive" UK operations
+
+      that are offensive; "self-defense" in a seven-nation joint statement describing a
+
+      preemptive attack; "eliminating threats" as framing for regime change; the joint
+
+      statement condemns Iran''s "indiscriminate attacks" while the US/Israel initiated the
+
+      military operation — th...'
+  - source_id: 2026-01-20-whitehouse-pressrelease-365-wins
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-reuters-wirestory-israel-lebanon-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-article-doe-charlie-kirk-banner
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-liveblog-iran-war-powers-domestic
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-bbc-article-oil-gas-prices-iran-war
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-26-variety-article-paramount-warner-bros-deal
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-datacenter-politics-nc-primary
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
+    source_type: analysis
+    variant: null
+    note: 'the War
+
+      Powers Act — designed as a Congressional check on executive war-making — is called
+
+      "an unconstitutional shift of authority from the president" by the senators whose
+
+      institutional role it protects. The mechanism created to limit executive military action
+
+      is characterized by the legislature...'
+  - source_id: 2026-02-27-cppa-enforcement-playon-sports-privacy
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-06-propublica-database-trump-financial-disclosures
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-06-dsa-article-thaad-radar-strike-jordan
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-rand-research-medicaid-obbba-state-impacts
+    source_type: analysis
+    variant: null
+    note: '"program integrity" framing characterises coverage reduction as fraud prevention — enrollees who fail work requirements
+      or redetermination deadlines are positioned as integrity problems rather than beneficiaries; the stated purpose (integrity)
+      describes the opposite of the function (disenrollment...'
+  - source_id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+    source_type: analysis
+    variant: null
+    note: nonproliferation enforcement incentivizes proliferation — regime-level instantiation where the system designed to
+      prevent nuclear weapons produces the rational incentive for acquiring them
+  - source_id: 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+    source_type: analysis
+    variant: null
+    note: US-Israel "playing the victim" while conducting bombing; India's national pride narrative while enacting subordination
+  - source_id: 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
+    source_type: analysis
+    variant: null
+    note: War purpose shifted from "take over your government" to "top aides denied regime change" — neither aligns with intelligence
+      assessment of achievability
+  - source_id: 2026-03-multi-article-swiss-broadcasting-referendum
+    source_type: analysis
+    variant: null
+    note: Initiative framed as financial relief; Amnesty International assessed actual purpose as political pressure on public
+      media.
+  - source_id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+    source_type: analysis
+    variant: serial inversion — compound goal-shifting
+    note: 'Each stated war aim diverges from operational reality: regime change while killing own preferred successors; Strait
+      reopening without leverage to compel it.'
+  - source_id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+    source_type: analysis
+    variant: statutory inversion — anti-terrorism statute applied to political protest
+    note: 'Material support for terrorism statute applied to nine anti-ICE protesters. Statute designed for international
+      terrorism organisations (al-Qaeda, ISIS) applied to people who met through a book club. Judge identified the gap: "Whether
+      it''s antifa or the Methodist Women''s Auxiliary of Weatherford, why does it matter?"'
+  - source_id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+    source_type: analysis
+    variant: null
+    note: 'Affinity''s stated purpose is investment management. Documented function: zero returns, above-market fees ($157
+      million), screening panel overridden, first-refusal clause granting Saudi gatekeeper role. Investment firm that does
+      not invest; fee-collection vehicle for access payments.'
+  - source_id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+    source_type: analysis
+    variant: null
+    note: Immigration reframed from administrative regulation to civilisational attack on the republic. Enforcement thereby
+      inverted from administration to defence. The brief converts a policy question into an existential-threat assessment.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -81,14 +240,6 @@ entries:
     note: 'appearance as the primary operating
 
       terrain — the prince must appear virtuous while acting otherwise'
-  - source_id: fanon-wretched-of-the-earth
-    source_type: principle
-    variant: null
-    note: 'national consciousness without
-
-      political education — the national party, created to liberate, becomes an
-
-      instrument of control'
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -97,14 +248,14 @@ entries:
       programs claim to benefit the poor while enriching the already-wealthy — the
 
       inversion is visible to the poor, who name it through gossip and moral critique'
-  - source_id: 2026-03-01-guardian-liveblog-us-israel-iran-war
-    source_type: analysis
+  - source_id: fanon-wretched-of-the-earth
+    source_type: principle
     variant: null
-    note: '"Operation Epic Fury" as heroic
+    note: 'national consciousness without
 
-      branding for regime change war; CENTCOM''s "looking into" civilian harm as
+      political education — the national party, created to liberate, becomes an
 
-      accountability language performing deflection'
+      instrument of control'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -197,30 +348,6 @@ entries:
       presented as freedom, functioning as conformity; the inversion operates at the system
 
       level: the act of participating is the mechanism of integration'
-  - source_id: 2026-03-01-meta-policy-meta-three-policies
-    source_type: analysis
-    variant: null
-    note: 'all three policy documents
-
-      exhibit the pattern: "agreement" that eliminates negotiation, "privacy" policy that
-
-      authorizes surveillance, "community standards" that consolidate corporate control,
-
-      and "more speech" reframing that reduces accountability infrastructure; the January
-
-      2025 announcement i...'
-  - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
-    source_type: analysis
-    variant: null
-    note: '"defensive" UK operations
-
-      that are offensive; "self-defense" in a seven-nation joint statement describing a
-
-      preemptive attack; "eliminating threats" as framing for regime change; the joint
-
-      statement condemns Iran''s "indiscriminate attacks" while the US/Israel initiated the
-
-      military operation — th...'
   - source_id: schimpfossl-oligarch-moralities-of-wealth
     source_type: principle
     variant: null
@@ -245,18 +372,12 @@ entries:
       as "accountability"; the constitutional originalism argument converts institutional
 
       seizure into constitutional restorat...'
-  - source_id: 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
-    source_type: analysis
+  - source_id: huxley-brave-new-world
+    source_type: principle
     variant: null
-    note: 'the War
-
-      Powers Act — designed as a Congressional check on executive war-making — is called
-
-      "an unconstitutional shift of authority from the president" by the senators whose
-
-      institutional role it protects. The mechanism created to limit executive military action
-
-      is characterized by the legislature...'
+    note: ': "Community, Identity, Stability" — the World State''s motto names the opposite of its function. Genuine community
+      replaced with conditioned social reflexes, genuine identity replaced with manufactured caste identity, "stability" achieved
+      through elimination of everything that makes stability wor...'
   - source_id: church-committee-cointelpro
     source_type: principle
     variant: null
@@ -269,24 +390,27 @@ entries:
       operational record. The Committee identifies the "unexpressed major premise": the Bureau
 
       had a role i...'
-  - source_id: huxley-brave-new-world
+  - source_id: deleon-land-of-open-graves
     source_type: principle
     variant: null
-    note: ': "Community, Identity, Stability" — the World State''s motto names the opposite of its function. Genuine community
-      replaced with conditioned social reflexes, genuine identity replaced with manufactured caste identity, "stability" achieved
-      through elimination of everything that makes stability wor...'
-  - source_id: 2026-02-rand-research-medicaid-obbba-state-impacts
-    source_type: analysis
+    note: PTD is the strongest Axiom 7 case in the corpus — "border security" policy whose structural function is producing
+      death through environmental delegation. Policy architects acknowledged the death toll as an expected outcome.
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
     variant: null
-    note: '"program integrity" framing characterises coverage reduction as fraud prevention — enrollees who fail work requirements
-      or redetermination deadlines are positioned as integrity problems rather than beneficiaries; the stated purpose (integrity)
-      describes the opposite of the function (disenrollment...'
+    note: Immigration law's stated purpose is managing migration for national benefit. Its documented function is producing
+      a category of rightless people whose precarity serves economic and political interests.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: 'Market Stalinism: metrics designed to measure performance instead displace it. "Freedom" and "choice" function
+      as mechanisms of control. Audit becomes anti-production — more effort demonstrating function than functioning.'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.705
+  confidence_ratio: 0.662
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 61
-  corr_count: 43
+  relevant_corpus_size: 77
+  corr_count: 51
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -302,6 +426,59 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-01-meta-policy-meta-three-policies
+    source_type: analysis
+    variant: null
+    note: 'Meta''s three policies
+
+      operate across all five non-physical layers simultaneously with mutual reinforcement:
+
+      Thought & Narrative legitimizes Surveillance, Surveillance enables Economic extraction,
+
+      Economic incentives drive Narrative framing, Legal authorizes Surveillance, Institutional
+
+      scale natur...'
+  - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
+    source_type: analysis
+    variant: null
+    note: 'all layers except Legal &
+
+      Regulatory operating in coordinated reinforcement: Physical & Coercive narrated through
+
+      Thought & Narrative as competent and justified; Institutional voices — CENTCOM, IDF, GCC,
+
+      DHS, Congress — all reinforcing the same narrative with no institutional dissent;
+
+      Surveillanc...'
+  - source_id: 2026-03-02-bbc-article-oil-gas-prices-iran-war
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+    source_type: analysis
+    variant: jurisdictional redundancy — pardon-proof prosecution
+    note: Dual federal-state prosecution creates pardon-proof architecture. Federal terrorism convictions can be pardoned;
+      state charges cannot. Even political reversal at the federal level cannot undo state-level consequences.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -350,30 +527,6 @@ entries:
       sufficient without the others; written by a Position 1 (ruler) actor explaining why
 
       layers must be coordinated simultaneously'
-  - source_id: 2026-03-01-meta-policy-meta-three-policies
-    source_type: analysis
-    variant: null
-    note: 'Meta''s three policies
-
-      operate across all five non-physical layers simultaneously with mutual reinforcement:
-
-      Thought & Narrative legitimizes Surveillance, Surveillance enables Economic extraction,
-
-      Economic incentives drive Narrative framing, Legal authorizes Surveillance, Institutional
-
-      scale natur...'
-  - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
-    source_type: analysis
-    variant: null
-    note: 'all layers except Legal &
-
-      Regulatory operating in coordinated reinforcement: Physical & Coercive narrated through
-
-      Thought & Narrative as competent and justified; Institutional voices — CENTCOM, IDF, GCC,
-
-      DHS, Congress — all reinforcing the same narrative with no institutional dissent;
-
-      Surveillanc...'
   - source_id: project-2025-mandate-for-leadership
     source_type: principle
     variant: null
@@ -386,6 +539,12 @@ entries:
       civil rights review, ombudsmen, union rights, inspector-general functions. The
 
       inverse is analytically significa...'
+  - source_id: huxley-brave-new-world
+    source_type: principle
+    variant: null
+    note: ': Five independent control mechanisms operating simultaneously — biological (Bokanovsky Process), chemical (soma),
+      psychological (hypnopaedic conditioning), social (promiscuity, entertainment), institutional (World Controllers). Failure
+      at any layer is caught by the others.'
   - source_id: church-committee-cointelpro
     source_type: principle
     variant: null
@@ -398,18 +557,24 @@ entries:
       others; the Bureau''s "no holds were barred" approach was structurally redundant
 
       by design'
-  - source_id: huxley-brave-new-world
+  - source_id: deleon-land-of-open-graves
     source_type: principle
     variant: null
-    note: ': Five independent control mechanisms operating simultaneously — biological (Bokanovsky Process), chemical (soma),
-      psychological (hypnopaedic conditioning), social (promiscuity, entertainment), institutional (World Controllers). Failure
-      at any layer is caught by the others.'
+    note: 'PTD operates multiple control mechanisms simultaneously: legal prohibition, physical barriers, surveillance technology,
+      environmental lethality, economic barriers (smuggling costs), and narrative framing. Failure at any one is caught by
+      others.'
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: 'Civil society as deep defence: school, church, media, professional associations, cultural norms, moral standards
+      each independently reproduce the hegemonic framework. Failure of any one mechanism is caught by the others. The State
+      is the outer ditch; civil society is the fortresses and earthworks.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.274
+  confidence_ratio: 0.256
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 62
-  corr_count: 17
+  relevant_corpus_size: 78
+  corr_count: 20
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
   file: patterns/perpetual-threat-as-perpetual-justification.md
@@ -422,10 +587,6 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
-  - source_id: orwell-1984
-    source_type: principle
-    variant: null
-    note: perpetual war with Eurasia/Eastasia
   - source_id: 2026-03-01-guardian-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
@@ -446,11 +607,59 @@ entries:
       to Tehran," Capitol security enhancement, all placed inside the Iran war live blog
 
       despite no e...'
+  - source_id: 2026-01-20-whitehouse-pressrelease-365-wins
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-liveblog-iran-war-powers-domestic
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-06-dsa-article-thaad-radar-strike-jordan
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+    source_type: analysis
+    variant: null
+    note: Trump claimed Iran "only weeks away" from nuclear weapon "without offering evidence" — unsubstantiated threat claim
+      justifying military action, structural parallel to Iraq 2003 WMD claims
+  - source_id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+    source_type: analysis
+    variant: null
+    note: 'Domestic terrorism designation creates permanent internal threat category justifying national security instruments
+      against domestic political activity. Bondi: "will not be the last."'
+  - source_id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+    source_type: analysis
+    variant: null
+    note: Immigration constructed as permanent existential threat to the republic. The threat is structurally permanent because
+      the demographic trends the brief cites are ongoing and the legal architecture continuously produces unauthorized status.
+  - source_id: orwell-1984
+    source_type: principle
+    variant: null
+    note: perpetual war with Eurasia/Eastasia
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
+    variant: null
+    note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
+      The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.161
+  confidence_ratio: 0.169
   confidence_level: SUPPORTED
-  relevant_corpus_size: 62
-  corr_count: 10
+  relevant_corpus_size: 77
+  corr_count: 13
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
   file: patterns/manufactured-scarcity-as-control.md
@@ -463,6 +672,42 @@ entries:
   - collective_action
   originated_by: null
   observed_in:
+  - source_id: 2026-03-01-meta-policy-meta-three-policies
+    source_type: analysis
+    variant: null
+    note: 'adds a network-effect
+
+      variant — Meta''s dominance creates artificial scarcity of alternatives for social
+
+      communication; network effects mean the value of an alternative platform is near-zero
+
+      until it achieves critical mass; the "accept or leave" binary in the Terms of Service
+
+      depends on this struc...'
+  - source_id: 2026-03-02-bbc-article-oil-gas-prices-iran-war
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-reuters-wirestory-indian-refiners-russian-oil
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-rand-research-medicaid-obbba-state-impacts
+    source_type: analysis
+    variant: null
+    note: 'procedural scarcity variant: the OBBBA does not repeal Medicaid coverage — it creates bureaucratic friction (work
+      requirements, frequent redetermination, documentation demands) that produces disenrollment through compliance failure.
+      Coverage formally exists; the pathway to it is obstructed. Scarc...'
+  - source_id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+    source_type: analysis
+    variant: null
+    note: Brief advocates restricting legal immigration pathways. García Hernández documents how pathway scarcity produces
+      unauthorized status by design. The brief advocates the scarcity that produces the "illegal" population it then cites
+      as evidence of replacement — a self-reinforcing cycle.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -475,18 +720,6 @@ entries:
       production while reducing the poor''s share — scarcity is manufactured through
 
       upward redistribution of gains, not through decline in output'
-  - source_id: huxley-brave-new-world
-    source_type: principle
-    variant: null
-    note: ': Inverted variant — manufactured abundance rather than scarcity. The World State provides material comfort, sexual
-      freedom, chemical happiness, and constant entertainment. The structural principle is identical (management of material
-      conditions to produce dependency) but the mechanism is opposit...'
-  - source_id: 2026-02-rand-research-medicaid-obbba-state-impacts
-    source_type: analysis
-    variant: null
-    note: 'procedural scarcity variant: the OBBBA does not repeal Medicaid coverage — it creates bureaucratic friction (work
-      requirements, frequent redetermination, documentation demands) that produces disenrollment through compliance failure.
-      Coverage formally exists; the pathway to it is obstructed. Scarc...'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -529,18 +762,6 @@ entries:
       service rather than autonomous production. Scarcity is produced not by restricting
 
       supply but by capturing future labo...'
-  - source_id: 2026-03-01-meta-policy-meta-three-policies
-    source_type: analysis
-    variant: null
-    note: 'adds a network-effect
-
-      variant — Meta''s dominance creates artificial scarcity of alternatives for social
-
-      communication; network effects mean the value of an alternative platform is near-zero
-
-      until it achieves critical mass; the "accept or leave" binary in the Terms of Service
-
-      depends on this struc...'
   - source_id: mishra-western-model-broken
     source_type: principle
     variant: null
@@ -553,11 +774,47 @@ entries:
       partly consumed by that success. The model is self-consuming: it works once and
 
       removes the conditions fo...'
-  counter_evidence: []
-  confidence_ratio: 0.21
+  - source_id: huxley-brave-new-world
+    source_type: principle
+    variant: null
+    note: ': Inverted variant — manufactured abundance rather than scarcity. The World State provides material comfort, sexual
+      freedom, chemical happiness, and constant entertainment. The structural principle is identical (management of material
+      conditions to produce dependency) but the mechanism is opposit...'
+  - source_id: terkel-working
+    source_type: principle
+    variant: null
+    note: 'P4, P7: scarcity of alternatives and scarcity of meaning both function as control. Employer controls not just wages
+      but availability of meaningful work.'
+  - source_id: desmond-evicted
+    source_type: principle
+    variant: null
+    note: Affordable housing scarcity is structural, not accidental. Federal housing assistance reaches one in four eligible
+      families. Policy choices (zoning, funding, subsidy design) maintain the scarcity that enables extraction.
+  - source_id: ehrenreich-nickel-and-dimed
+    source_type: principle
+    variant: null
+    note: Housing scarcity is the binding constraint in all three experiments. The scarcity is in the wage-to-cost ratio itself
+      — manufactured at the level of compensation policy, not housing supply alone. Third Position 2 corroboration.
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
+    variant: scarcity of legal pathways as control mechanism
+    note: Legal immigration pathways are structurally scarce — limited visa categories, decades-long wait times. The scarcity
+      is a policy choice that produces unauthorized status by design.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: scarcity of the thinkable
+    note: The system manufactures scarcity of alternatives — not material scarcity but ontological scarcity. The foreclosure
+      of the imagination is a form of manufactured scarcity operating at the level of what can be thought.
+  counter_evidence:
+  - 2026-03-12-axiom-9-workplace-compliance-visible
+  - 2026-03-12-axiom-9-housing-compliance-visible
+  - 2026-03-12-axiom-10-housing-understanding-inert
+  - 2026-03-13-axiom-9-low-wage-service-compliance-visible
+  - 2026-03-13-axiom-10-low-wage-service-understanding-inert
+  confidence_ratio: 0.247
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 62
-  corr_count: 13
+  relevant_corpus_size: 77
+  corr_count: 19
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -570,6 +827,10 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
+    source_type: analysis
+    variant: null
+    note: ''
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -585,9 +846,9 @@ entries:
 
       transition between the two is the moment of maximum danger for democratic order'
   counter_evidence: []
-  confidence_ratio: 0.048
+  confidence_ratio: 0.038
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 78
   corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
@@ -641,11 +902,17 @@ entries:
       solidarity; recruited as *enforcers* of the racial order through delegated violence,
 
       making them complicit ...'
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: Organic intellectuals of the subaltern classes are systematically assimilated by the dominant formation. The most
+      capable individuals from subordinate groups are absorbed into the dominant intellectual stratum, preventing subaltern
+      autonomous intellectual leadership.
   counter_evidence: []
-  confidence_ratio: 0.065
+  confidence_ratio: 0.064
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 4
+  relevant_corpus_size: 78
+  corr_count: 5
 - id: economy_of_violence
   name: The Economy of Violence
   file: patterns/economy-of-violence.md
@@ -675,12 +942,17 @@ entries:
       argues that from below, there is no "well-used" foundational violence — all
 
       constitutive violence delegitimizes the sys...'
+  - source_id: deleon-land-of-open-graves
+    source_type: principle
+    variant: environmental delegation — violence concentrated at crossing, absent for survivors
+    note: 'Violence concentrated at the moment of crossing, performed by environment rather than agents. Survivors face exploitation
+      but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.036
+  confidence_ratio: 0.043
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 56
-  corr_count: 2
+  relevant_corpus_size: 70
+  corr_count: 3
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
   file: patterns/appearance-as-structural-terrain.md
@@ -693,6 +965,159 @@ entries:
   - transparency_naming
   originated_by: null
   observed_in:
+  - source_id: 2026-03-01-meta-policy-meta-three-policies
+    source_type: analysis
+    variant: null
+    note: 'Zuboff''s Two Texts precisely
+
+      instantiated: the user interface is the appearance ("personalized experience," "your
+
+      privacy matters," "community standards"); the behavioral data extraction is the
+
+      reality; the Privacy Policy describes surveillance in the language of empowerment;
+
+      the gap between pres...'
+  - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
+    source_type: analysis
+    variant: null
+    note: 'the seven-nation joint
+
+      statement condemning Iran''s "indiscriminate attacks" constructs an appearance of
+
+      multilateral consensus for what is structurally a US-Israeli offensive — seven nations
+
+      condemning the attacked party frames the coalition as defending against aggression;
+
+      the appearance of broa...'
+  - source_id: 2026-01-20-whitehouse-pressrelease-365-wins
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-reuters-wirestory-israel-lebanon-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-article-doe-charlie-kirk-banner
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-liveblog-iran-war-powers-domestic
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-26-variety-article-paramount-warner-bros-deal
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-datacenter-politics-nc-primary
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2013-vasudeva-orgscience-norwegian-swf-responsible-investment
+    source_type: analysis
+    variant: null
+    note: 'the Norwegian SWF
+
+      presents as an ethical investor; the academic paper studies "responsible investment"
+
+      without examining the power embedded in the framing; the appearance is genuine — the
+
+      SWF really is an ethical investor — but the genuineness of the appearance is precisely
+
+      what makes the structu...'
+  - source_id: 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
+    source_type: analysis
+    variant: null
+    note: 'the
+
+      Senate vote creates the appearance of Congressional deliberation — floor speeches,
+
+      constitutional arguments, a recorded vote — while the substance was predetermined
+
+      by a private Republican huddle and administration lobbying. The vote IS the
+
+      appearance; it is the structural terrain on which co...'
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-06-propublica-database-trump-financial-disclosures
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+    source_type: analysis
+    variant: null
+    note: NK condemns strikes as "illegal act of aggression" while stopping short of naming Trump — calibrated diplomatic
+      performance preserving negotiating space; Kim's "if you respect our current status" is public transcript calibrated
+      for audience
+  - source_id: 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+    source_type: analysis
+    variant: null
+    note: India's cinematic sovereignty narrative (Bollywood war films) functions as appearance sustaining structural foreign
+      policy subordination
+  - source_id: 2026-01-ntsb-report-dca-midair-collision-potomac
+    source_type: analysis
+    variant: null
+    note: Trump DEI attribution — factually baseless narrative redirecting from systemic failures
+  - source_id: 2024-multi-article-ai-deepfake-election-interference
+    source_type: analysis
+    variant: null
+    note: Deepfakes exploit the general expectation that audio recordings are authentic evidence; the gap between appearance
+      and reality is the operating terrain
+  - source_id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+    source_type: analysis
+    variant: null
+    note: Gap between stated war aims and actual military operations is the operating environment. Each stated goal creates
+      the appearance of strategic direction while operations follow their own logic.
+  - source_id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+    source_type: analysis
+    variant: null
+    note: Gap between legal charges (material support, no org connection required) and political presentation (antifa terror
+      cell) is the operating environment. Political frame shaped jury context; legal mechanism produced conviction. Judge
+      identified the gap; conviction happened anyway.
+  - source_id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+    source_type: analysis
+    variant: null
+    note: '"Donating his time for world peace" framing coexists with $5 billion fundraising from diplomatic counterparties.
+      The appearance of public service and the function of private capital accumulation provide mutual cover.'
+  - source_id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+    source_type: analysis
+    variant: formal deracialisation as operating environment
+    note: Brief substitutes "citizenship" for race — "tethered to the American founding" vs. "from faraway countries." Creates
+      formally race-neutral surface that functions as operating environment for racially differential policy advocacy.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -793,30 +1218,6 @@ entries:
       reality dissolves because there is no external vantage point from which to perceive
 
       it; the terrain is total'
-  - source_id: 2026-03-01-meta-policy-meta-three-policies
-    source_type: analysis
-    variant: null
-    note: 'Zuboff''s Two Texts precisely
-
-      instantiated: the user interface is the appearance ("personalized experience," "your
-
-      privacy matters," "community standards"); the behavioral data extraction is the
-
-      reality; the Privacy Policy describes surveillance in the language of empowerment;
-
-      the gap between pres...'
-  - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
-    source_type: analysis
-    variant: null
-    note: 'the seven-nation joint
-
-      statement condemning Iran''s "indiscriminate attacks" constructs an appearance of
-
-      multilateral consensus for what is structurally a US-Israeli offensive — seven nations
-
-      condemning the attacked party frames the coalition as defending against aggression;
-
-      the appearance of broa...'
   - source_id: schimpfossl-oligarch-moralities-of-wealth
     source_type: principle
     variant: null
@@ -841,44 +1242,51 @@ entries:
       DOJ appears to serve justice; it is directed to serve the President''s agenda.
 
       Independent agencies appear to remain independent; the...'
-  - source_id: 2013-vasudeva-orgscience-norwegian-swf-responsible-investment
-    source_type: analysis
-    variant: null
-    note: 'the Norwegian SWF
-
-      presents as an ethical investor; the academic paper studies "responsible investment"
-
-      without examining the power embedded in the framing; the appearance is genuine — the
-
-      SWF really is an ethical investor — but the genuineness of the appearance is precisely
-
-      what makes the structu...'
-  - source_id: 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
-    source_type: analysis
-    variant: null
-    note: 'the
-
-      Senate vote creates the appearance of Congressional deliberation — floor speeches,
-
-      constitutional arguments, a recorded vote — while the substance was predetermined
-
-      by a private Republican huddle and administration lobbying. The vote IS the
-
-      appearance; it is the structural terrain on which co...'
   - source_id: huxley-brave-new-world
     source_type: principle
     variant: null
     note: ': The entire World State operates through appearance — the appearance of freedom (sexual freedom without emotional
       depth), the appearance of choice (consumer goods within manufactured preferences), the appearance of community (solidarity
       services without genuine connection). The gap between appea...'
+  - source_id: terkel-working
+    source_type: principle
+    variant: null
+    note: 'Visible throughout from the other side: workers see through the appearance (mission statements, performance rhetoric,
+      "we are a family") while navigating it as terrain.'
+  - source_id: desmond-evicted
+    source_type: principle
+    variant: null
+    note: Eviction court presents appearance of due process while operating as ratification mechanism. Gap between stated
+      function (adjudication) and actual function (volume processing) is the operating terrain.
+  - source_id: deleon-land-of-open-graves
+    source_type: principle
+    variant: null
+    note: Visible border enforcement (walls, patrols, checkpoints) coexists with invisible funneling architecture that channels
+      migrants into lethal terrain. The spectacle serves domestic politics; the architecture serves enforcement through death.
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
+    variant: null
+    note: '"Rule of law" framing presents enforcement as neutral application of law. The structural finding: the law produces
+      the law-breaking by making compliance impossible for many.'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: 'Market Stalinism and the Big Other: the gap between official representations and operational reality is not a failure
+      but the operating environment. Audit data performs for a symbolic order nobody believes in.'
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: Common sense is the terrain. The gap between the hegemonic system's self-presentation (universal interest) and its
+      operation (dominant group interest with genuine but asymmetric concessions to subordinate groups) is the environment
+      in which hegemony operates.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.574
+  confidence_ratio: 0.61
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 61
-  corr_count: 35
+  relevant_corpus_size: 77
+  corr_count: 47
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -893,6 +1301,19 @@ entries:
   - everyday_resistance
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+    source_type: analysis
+    variant: null
+    note: Roy surfaces suppressed Indian collective shame about subordination on public stage at literary event; "Running
+      Dog" label names what domestic vocabulary cannot
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -937,11 +1358,21 @@ entries:
       surveilled position, performance practices that name what surveillance
 
       conceals. Dark sousveillance extends the hidden ...'
+  - source_id: terkel-working
+    source_type: principle
+    variant: null
+    note: 'P5: workplace hidden transcript documented from Position 2 — humor, sabotage, gossip, craft pride, self-narration.
+      First direct governed-perspective corroboration.'
+  - source_id: deleon-land-of-open-graves
+    source_type: principle
+    variant: null
+    note: Migrant route knowledge, survival strategies, mutual aid networks, and shared intelligence about terrain constitute
+      a hidden transcript of the border — counter-knowledge developed by those subjected to the system.
   counter_evidence: []
-  confidence_ratio: 0.127
+  confidence_ratio: 0.13
   confidence_level: SUPPORTED
-  relevant_corpus_size: 55
-  corr_count: 7
+  relevant_corpus_size: 69
+  corr_count: 9
 - id: compliance_gradient
   name: The Compliance Gradient
   file: patterns/compliance-gradient.md
@@ -959,6 +1390,10 @@ entries:
   - everyday_resistance
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-reuters-wirestory-israel-lebanon-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -987,11 +1422,48 @@ entries:
       sabotage), to cultural counter-knowledge (blues), to geographic escape
 
       (the Great Migration), to organized protest (civil rights...'
-  counter_evidence: []
-  confidence_ratio: 0.065
-  confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 4
+  - source_id: terkel-working
+    source_type: principle
+    variant: null
+    note: 'P4, P5: workers operating within the spectrum between full compliance and open refusal. Lordstown rebellion illustrates
+      the threshold where the gradient breaks down.'
+  - source_id: desmond-evicted
+    source_type: principle
+    variant: null
+    note: Tenants calibrate compliance to landlord power — tolerate substandard conditions, refrain from calling code enforcement,
+      perform deference to maintain tenancy. Extends workplace compliance gradient to housing.
+  - source_id: ehrenreich-nickel-and-dimed
+    source_type: principle
+    variant: null
+    note: Workers calibrate behavior to avoid termination. Gradient is narrower than in industrial work — low-wage service
+      workers have less room for partial compliance because the employment relationship is more precarious. Third Position
+      2 corroboration.
+  - source_id: deleon-land-of-open-graves
+    source_type: principle
+    variant: lethal conditions — migration as navigating the gradient under mortal threat
+    note: Migrants navigate the compliance gradient under lethal conditions. The choice set is cross/stay, where both options
+      carry severe consequences. Fourth Position 2/hybrid corroboration extending the gradient to lethal conditions.
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
+    variant: impossible compliance — system produces violations by design
+    note: Immigration law positions all undocumented people on the compliance gradient under conditions where full compliance
+      is structurally impossible. The system produces "illegal" status through structural design, not individual choice.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: ontological — compliance through foreclosure of alternatives
+    note: Reflexive impotence positions subjects on the gradient not through coercion but through the elimination of the imaginative
+      space for non-compliance. They comply because they cannot conceive of a viable alternative.
+  counter_evidence:
+  - 2026-03-12-axiom-9-workplace-compliance-visible
+  - 2026-03-12-axiom-10-position-2-understanding-inert
+  - 2026-03-12-axiom-9-housing-compliance-visible
+  - 2026-03-12-axiom-10-housing-understanding-inert
+  - 2026-03-13-axiom-9-low-wage-service-compliance-visible
+  - 2026-03-13-axiom-10-low-wage-service-understanding-inert
+  confidence_ratio: 0.128
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 78
+  corr_count: 10
 - id: ideological_judo
   name: Ideological Judo
   file: patterns/ideological-judo.md
@@ -1004,6 +1476,19 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-multi-article-swiss-broadcasting-referendum
+    source_type: analysis
+    variant: null
+    note: Opponents held initiative to its own framing — CHF 0.92/day is less than a coffee. Cost argument turned against
+      itself.
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -1039,10 +1524,10 @@ entries:
 
       structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.081
+  confidence_ratio: 0.077
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 5
+  relevant_corpus_size: 78
+  corr_count: 6
 - id: double_performance
   name: The Double Performance
   file: patterns/double-performance.md
@@ -1056,6 +1541,15 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+    source_type: analysis
+    variant: null
+    note: NK condemning strikes while leaving door open to talks; Trump threatening force while saying he would meet Kim —
+      both sides performing for multiple audiences simultaneously
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1094,11 +1588,27 @@ entries:
       knew the performance was strategic; the blues (P5) documented the gap between
 
       public transcript and private knowledge; t...'
+  - source_id: terkel-working
+    source_type: principle
+    variant: null
+    note: 'P2, P5: workers performing compliance while maintaining private account of the relationship. Performance is conscious
+      and strategic, not internalized.'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: The Big Other requires a performance of belief nobody believes. Both the system and its subjects perform for an
+      audience (the symbolic order) that both know is fictional, yet maintaining the fiction is structurally necessary.
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: The hegemonic group performs universal interest while pursuing corporate interest. The subordinate group performs
+      consent while maintaining awareness of the arrangement. The performance is mutual and both sides participate in maintaining
+      it.
   counter_evidence: []
-  confidence_ratio: 0.097
-  confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 6
+  confidence_ratio: 0.115
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 78
+  corr_count: 9
 - id: relay_class
   name: The Relay Class
   file: patterns/relay-class.md
@@ -1112,6 +1622,16 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+    source_type: analysis
+    variant: voluntary-alliance
+    note: India's governing class as voluntary relay for imperial power — extends pattern from post-colonial succession to
+      active alliance subordination
+  - source_id: 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
+    source_type: analysis
+    variant: ethnic-proxy
+    note: Iranian Kurdish groups positioned as potential proxy/relay for post-regime-change governance; intelligence assesses
+      them as insufficient; Trump rules out their use
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
@@ -1147,9 +1667,9 @@ entries:
 
       basis of their authority. ...'
   counter_evidence: []
-  confidence_ratio: 0.081
+  confidence_ratio: 0.064
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 78
   corr_count: 5
 - id: constitutive_violence
   name: Constitutive Violence
@@ -1165,6 +1685,20 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-26-variety-article-paramount-warner-bros-deal
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+    source_type: analysis
+    variant: null
+    note: Terrorism label constitutes defendants as terrorists through the act of prosecution. The designation "antifa terrorist
+      cell" was applied without legal authority; the prosecution then treated it as established fact. Label precedes and produces
+      the legal reality it claims to describe.
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
@@ -1209,18 +1743,6 @@ entries:
       the original violent distribution as operational infrastructure long after the
 
       founding act receded into history; adds the *ma...'
-  - source_id: guriev-rachinsky-role-of-oligarchs
-    source_type: principle
-    variant: null
-    note: 'loans-for-shares as founding
-
-      act — "the government appointed a commercial banker to run an auction... the
-
-      auctioneer always awarded the stake to himself for a nominal bid by excluding
-
-      all outside bidders. The scheme was designed to consolidate the bankers'' support
-
-      for Yeltsin''s re-election campai...'
   - source_id: mishra-western-model-broken
     source_type: principle
     variant: null
@@ -1233,6 +1755,18 @@ entries:
       path. The violence is doubly constitutive: it creates the order AND prevents
 
       alternatives by depleting...'
+  - source_id: guriev-rachinsky-role-of-oligarchs
+    source_type: principle
+    variant: null
+    note: 'loans-for-shares as founding
+
+      act — "the government appointed a commercial banker to run an auction... the
+
+      auctioneer always awarded the stake to himself for a nominal bid by excluding
+
+      all outside bidders. The scheme was designed to consolidate the bankers'' support
+
+      for Yeltsin''s re-election campai...'
   - source_id: browne-dark-matters
     source_type: principle
     variant: null
@@ -1245,11 +1779,22 @@ entries:
       Negroes was simultaneously a property ledger and a biometric archive. The constitutive
 
       violence is ...'
+  - source_id: deleon-land-of-open-graves
+    source_type: principle
+    variant: null
+    note: The border enforcement regime is constituted through violence — not incidental but structurally necessary. The desert
+      crossing is not a side effect of enforcement but its primary mechanism.
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
+    variant: null
+    note: The immigration enforcement system — detention, deportation, family separation — is constituted through violence.
+      Imprisonment of immigrants is not a response to a problem but the production of a category of people subjected to state
+      violence.
   counter_evidence: []
-  confidence_ratio: 0.145
+  confidence_ratio: 0.156
   confidence_level: SUPPORTED
-  relevant_corpus_size: 62
-  corr_count: 9
+  relevant_corpus_size: 77
+  corr_count: 12
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
   file: patterns/three-phases-of-cultural-resistance.md
@@ -1263,6 +1808,16 @@ entries:
   - cultural_production
   originated_by: null
   observed_in:
+  - source_id: 2026-03-08-guardian-article-africa-reparative-justice
+    source_type: analysis
+    variant: null
+    note: 'Owuor''s
+
+      call for "moral autopsy before moral exorcism" and warning against "unseemly rush"
+
+      into restitution — the reparations movement operating in the synthesis phase,
+
+      creating new frameworks rather than inverting colonial categories'
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
@@ -1275,20 +1830,10 @@ entries:
     note: 'culture as
 
       control and resistance'
-  - source_id: 2026-03-08-guardian-article-africa-reparative-justice
-    source_type: analysis
-    variant: null
-    note: 'Owuor''s
-
-      call for "moral autopsy before moral exorcism" and warning against "unseemly rush"
-
-      into restitution — the reparations movement operating in the synthesis phase,
-
-      creating new frameworks rather than inverting colonial categories'
   counter_evidence: []
-  confidence_ratio: 0.033
+  confidence_ratio: 0.026
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 61
+  relevant_corpus_size: 77
   corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
@@ -1307,16 +1852,6 @@ entries:
     note: 'Guardian live blog
 
       format during opening phase of US-Israeli war on Iran'
-  - source_id: ellul-propaganda
-    source_type: principle
-    variant: null
-    note: 'Ellul describes the identical mechanism in 1962:
-
-      the modern individual is bombarded with more information than can be processed, producing
-
-      an informed but analytically paralyzed subject; the "education paradox" — the educated
-
-      consume more information and are therefore more susceptible to informat...'
   - source_id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
     source_type: analysis
     variant: null
@@ -1329,17 +1864,79 @@ entries:
       that compose a coherent narrative and omits those that would disrupt it. The analytical
 
       outcome is the sam...'
+  - source_id: 2026-01-20-whitehouse-pressrelease-365-wins
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-reuters-wirestory-israel-lebanon-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-liveblog-iran-war-powers-domestic
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-06-dsa-article-thaad-radar-strike-jordan
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
+    source_type: analysis
+    variant: null
+    note: Wire format reports all facts (intelligence divergence, shifting rationale, proxy channel) but structural synthesis
+      left to reader
+  - source_id: 2026-01-ntsb-report-dca-midair-collision-potomac
+    source_type: analysis
+    variant: null
+    note: Immediate DEI framing before any investigation could produce findings
+  - source_id: 2024-multi-article-ai-deepfake-election-interference
+    source_type: analysis
+    variant: null
+    note: Slovakia deepfakes released during media moratorium, spread through encrypted channels faster than debunking capacity
+  - source_id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+    source_type: analysis
+    variant: policy-level variant — goal-shifting as saturation
+    note: Serial goal-shifting prevents evaluation of any single aim before it is replaced by the next. The rapid succession
+      substitutes for the strategic planning that was eliminated.
+  - source_id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+    source_type: analysis
+    variant: null
+    note: The brief contributes to a narrative environment where the replacement frame is continuously present — 1,411 Congressional
+      social media posts per search data, plus media coverage, plus policy briefs. Saturation normalises the frame.
+  - source_id: ellul-propaganda
+    source_type: principle
+    variant: null
+    note: 'Ellul describes the identical mechanism in 1962:
+
+      the modern individual is bombarded with more information than can be processed, producing
+
+      an informed but analytically paralyzed subject; the "education paradox" — the educated
+
+      consume more information and are therefore more susceptible to informat...'
   - source_id: huxley-brave-new-world
     source_type: principle
     variant: null
     note: ': Extended from information saturation to total experiential saturation. Feelies, Obstacle Golf, promiscuous sex,
       soma — every moment filled with stimulation. Helmholtz Watson senses something is wrong but cannot articulate it because
       the cognitive space for articulation has been filled. Not info...'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites
+      its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
   counter_evidence: []
-  confidence_ratio: 0.2
+  confidence_ratio: 0.232
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 55
-  corr_count: 11
+  relevant_corpus_size: 69
+  corr_count: 16
 - id: serial_regime_change
   name: Serial Regime Change
   file: patterns/serial-regime-change.md
@@ -1370,11 +1967,59 @@ entries:
       framework; the coverage follows the identical template: threat narrative → coalition →
 
       aerial bombardment →...'
+  - source_id: 2026-03-02-reuters-wirestory-israel-lebanon-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-liveblog-iran-war-powers-domestic
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-26-variety-article-paramount-warner-bros-deal
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-06-dsa-article-thaad-radar-strike-jordan
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+    source_type: analysis
+    variant: null
+    note: Iraq, Libya, Venezuela, Iran named explicitly as sequential targets with NK drawing the lesson — the article states
+      the sequence without labeling it as a recurring template
+  - source_id: 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+    source_type: analysis
+    variant: null
+    note: Roy identifies identical operational template across Gaza and Iran — bombing hospitals, carpet bombing, victim framing
+      — as "same old playbook"
+  - source_id: 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
+    source_type: analysis
+    variant: null
+    note: '"Biggest US military operation since 2003" with identical structural features: intelligence-executive divergence,
+      shifting stated purposes, proxy force instrumentalisation'
+  - source_id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+    source_type: analysis
+    variant: null
+    note: Venezuela template explicitly referenced as model for Iran; serial goal-shifting documented — four stated aims (protesters,
+      nuclear, missiles, Strait) each replacing the previous without acknowledgment.
   counter_evidence: []
-  confidence_ratio: 0.197
+  confidence_ratio: 0.169
   confidence_level: SUPPORTED
-  relevant_corpus_size: 61
-  corr_count: 12
+  relevant_corpus_size: 77
+  corr_count: 13
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
   file: patterns/unprecedented-as-sanctuary.md
@@ -1388,6 +2033,31 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-datacenter-politics-nc-primary
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2024-multi-article-ai-deepfake-election-interference
+    source_type: analysis
+    variant: null
+    note: AI deepfakes operated in regulatory void — FCC ruled AI voices in robocalls illegal only after the NH incident;
+      Slovakia had no legal framework for synthetic media
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -1409,10 +2079,10 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.113
+  confidence_ratio: 0.103
   confidence_level: SUPPORTED
-  relevant_corpus_size: 62
-  corr_count: 7
+  relevant_corpus_size: 78
+  corr_count: 8
 - id: dispossession_cycle
   name: The Dispossession Cycle
   file: patterns/dispossession-cycle.md
@@ -1425,6 +2095,30 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-01-meta-policy-meta-three-policies
+    source_type: analysis
+    variant: null
+    note: '(each policy update ratchets
+
+      extraction outward: the January 2025 Terms of Service extend content licensing to
+
+      private messages and AI training with opt-out denial; previously posted content
+
+      retroactively subject to new terms; non-users bound through shared links; each cycle
+
+      provokes brief resist...'
+  - source_id: 2026-03-atlantic-essay-cynical-gullible-american-man
+    source_type: analysis
+    variant: null
+    note: 'identifies a
+
+      commercial epistemic variant: distrust of institutions creates demand for alternative
+
+      products (supplements, crypto, sports betting) → vendors deepen distrust to sustain
+
+      demand → deeper distrust creates further demand. The ratcheting structure is identical
+
+      to the data-extraction cycl...'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -1461,34 +2155,10 @@ entries:
       mandatory union fees, establishing a new baseline that weakens labor''s capacity to
 
       resist t...'
-  - source_id: 2026-03-01-meta-policy-meta-three-policies
-    source_type: analysis
-    variant: null
-    note: '(each policy update ratchets
-
-      extraction outward: the January 2025 Terms of Service extend content licensing to
-
-      private messages and AI training with opt-out denial; previously posted content
-
-      retroactively subject to new terms; non-users bound through shared links; each cycle
-
-      provokes brief resist...'
-  - source_id: 2026-03-atlantic-essay-cynical-gullible-american-man
-    source_type: analysis
-    variant: null
-    note: 'identifies a
-
-      commercial epistemic variant: distrust of institutions creates demand for alternative
-
-      products (supplements, crypto, sports betting) → vendors deepen distrust to sustain
-
-      demand → deeper distrust creates further demand. The ratcheting structure is identical
-
-      to the data-extraction cycl...'
   counter_evidence: []
-  confidence_ratio: 0.081
+  confidence_ratio: 0.064
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 78
   corr_count: 5
 - id: division_of_learning
   name: The Division of Learning
@@ -1505,6 +2175,47 @@ entries:
   - transparency_naming
   originated_by: null
   observed_in:
+  - source_id: 2026-03-01-meta-policy-meta-three-policies
+    source_type: analysis
+    variant: null
+    note: 'the information asymmetry IS
+
+      the business model — Meta knows everything about users (cross-platform, cross-web
+
+      pixel on 30% of sites, offline data, AI conversations); users know almost nothing about
+
+      how their data is used, how algorithms affect them, or what their behavioral profile
+
+      contains; the...'
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-01-ntsb-report-dca-midair-collision-potomac
+    source_type: analysis
+    variant: intra-institutional
+    note: Intra-institutional variant — FAA data existed, decisions did not follow
+  - source_id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+    source_type: analysis
+    variant: null
+    note: Pentagon briefed Congress $11.3bn for six days but scope ambiguous — "wasn't clear if those numbers included the
+      cost of the buildup or the US missile defenses." Congress receives a number it cannot evaluate.
+  - source_id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+    source_type: analysis
+    variant: null
+    note: Jury received political frame (antifa, zines, stickers) and legal mechanism (material support statute) as combined
+      package. Structural gap identified by judge not legible to jurors lacking legal training to separate atmosphere from
+      legal element.
+  - source_id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+    source_type: analysis
+    variant: null
+    note: Kushner possesses classified diplomatic intelligence and commercial knowledge simultaneously. No oversight mechanism
+      monitors the boundary between what he knows as envoy and what he discusses as fund manager. The dual role makes the
+      distinction unenforceable.
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -1557,23 +2268,37 @@ entries:
       as reasonable discourse, shaping the epistemic environment through research funding,
 
       media control, and term-setting'
-  - source_id: 2026-03-01-meta-policy-meta-three-policies
-    source_type: analysis
+  - source_id: terkel-working
+    source_type: principle
     variant: null
-    note: 'the information asymmetry IS
-
-      the business model — Meta knows everything about users (cross-platform, cross-web
-
-      pixel on 30% of sites, offline data, AI conversations); users know almost nothing about
-
-      how their data is used, how algorithms affect them, or what their behavioral profile
-
-      contains; the...'
+    note: 'P6: surveillance asymmetry is real but governed develop counter-knowledge. Asymmetry is contested terrain, not
+      absolute.'
+  - source_id: desmond-evicted
+    source_type: principle
+    variant: null
+    note: Tenant screening databases create structural information asymmetry — landlords access full histories, tenants cannot
+      see how information is used. Low-tech division of learning.
+  - source_id: ehrenreich-nickel-and-dimed
+    source_type: principle
+    variant: null
+    note: Drug testing, personality testing, and workplace monitoring create structural information asymmetry. Pre-employment
+      screening is the hiring-stage equivalent of tenant screening databases. Class-specific surveillance as division of learning.
+      Third Position 2 corroboration.
+  - source_id: deleon-land-of-open-graves
+    source_type: principle
+    variant: null
+    note: The state knows terrain lethality (used to design funneling corridors) while migrants learn routes through attrition.
+      Border Patrol sensor arrays coexist with deliberate absence of search-and-rescue in killing zones.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: null
+    note: The Big Other creates structural asymmetry between official knowledge and private knowledge. Everyone knows the
+      system is dysfunctional; the official record does not register this knowledge.
   counter_evidence: []
-  confidence_ratio: 0.133
-  confidence_level: SUPPORTED
-  relevant_corpus_size: 60
-  corr_count: 8
+  confidence_ratio: 0.224
+  confidence_level: ESTABLISHED
+  relevant_corpus_size: 76
+  corr_count: 17
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -1587,6 +2312,70 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-01-20-whitehouse-pressrelease-365-wins
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-reuters-wirestory-israel-lebanon-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-article-doe-charlie-kirk-banner
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-01-guardian-article-israel-embracing-militarism-iran
+    source_type: analysis
+    variant: null
+    note: 'institutional-
+
+      political variant: Israeli political opposition — including Netanyahu''s "bitter
+
+      rivals" — instantly set aside fierce domestic debate about October 7 responsibility
+
+      to join the war consensus. Not individual pre-compliance but institutional-political
+
+      pre-compliance: an entire opposit...'
+  - source_id: 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+    source_type: analysis
+    variant: inter-state
+    note: Sequence of Indian voluntary concessions — PM visit, trade deal, worker dispatch, mockery absorption — constitutes
+      pre-compliance before demands are made, extending pattern from domestic to inter-state relations
+  - source_id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+    source_type: analysis
+    variant: null
+    note: State Department complied with exclusion from war planning without documented resistance. At-risk embassies remained
+      staffed despite telegraphed intention to go to war. Inferred — no evidence of internal protest or resignation.
+  - source_id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+    source_type: analysis
+    variant: prospective chilling effect on protest
+    note: 'Prosecution establishes that presence at a protest where violence occurs, combined with encryption use and defensive
+      equipment, creates terrorism liability. Rational response: avoid protests where any participant might act unpredictably.'
+  - source_id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+    source_type: analysis
+    variant: null
+    note: If the replacement frame normalises within policy institutions, enforcement personnel will anticipate the direction
+      and self-adjust before explicit orders. The narrative creates conditions for anticipatory enforcement escalation.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -1603,18 +2392,6 @@ entries:
     note: 'atomization as the structural
 
       prerequisite that makes anticipatory compliance the individually rational response'
-  - source_id: 2026-03-01-guardian-article-israel-embracing-militarism-iran
-    source_type: analysis
-    variant: null
-    note: 'institutional-
-
-      political variant: Israeli political opposition — including Netanyahu''s "bitter
-
-      rivals" — instantly set aside fierce domestic debate about October 7 responsibility
-
-      to join the war consensus. Not individual pre-compliance but institutional-political
-
-      pre-compliance: an entire opposit...'
   - source_id: project-2025-mandate-for-leadership
     source_type: principle
     variant: null
@@ -1627,12 +2404,28 @@ entries:
       Career employees who know they can be terminated at will for policy disagreement
 
       will self-censor befor...'
+  - source_id: ehrenreich-nickel-and-dimed
+    source_type: principle
+    variant: institutional
+    note: Anti-union architecture preempts organizing before it begins. Workers self-censor because employment structure makes
+      collective expression prohibitive. Extends pattern from political authoritarianism to workplace architecture.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: internalised — devolved surveillance as self-assessment
+    note: Workers become their own panopticon through internalised audit. Self-assessment replaces external inspection but
+      intensifies control — the subject anticipates requirements before they are imposed.
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: The organic intellectual system produces individuals who anticipate and advance the hegemonic programme through
+      sincere professional practice. The teacher, journalist, administrator enforce hegemony not through orders but through
+      common sense absorbed during professional formation.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.213
+  confidence_ratio: 0.247
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 61
-  corr_count: 13
+  relevant_corpus_size: 77
+  corr_count: 19
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -1647,6 +2440,49 @@ entries:
   - institutional_reform
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-guardian-article-doe-charlie-kirk-banner
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-guardian-liveblog-iran-war-powers-domestic
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
+    source_type: analysis
+    variant: inverse
+    note: Intelligence community asserting analytical independence via press leaks — opposite of congressional abdication
+      documented in prior analysis; institution asserts rather than abdicates structural role
+  - source_id: 2026-01-ntsb-report-dca-midair-collision-potomac
+    source_type: analysis
+    variant: null
+    note: FAA's 14-year failure to act on 80+ close calls in own data; understaffing (single controller managing both helicopter
+      and fixed-wing)
+  - source_id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+    source_type: analysis
+    variant: forced variant — dismantlement by executive action
+    note: 'NSC gutted, State Department layoffs, career officials excluded from war planning by design. Mara Karlin: "you
+      have also got to set certain pieces in place." Downstream operational consequences documented at strategic scale.'
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -1683,11 +2519,18 @@ entries:
       the agencies cooperated with planter interests not through corruption but through
 
       structural dependency...'
-  counter_evidence: []
-  confidence_ratio: 0.196
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: crisis of hegemony — parties detach from class base
+    note: 'The crisis of hegemony: social classes detach from their traditional parties, institutions cease to represent their
+      constituency. The field opens to charismatic leaders and violent solutions. The ruling class reabsorbs control faster
+      than challengers organise.'
+  counter_evidence:
+  - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
+  confidence_ratio: 0.194
   confidence_level: SUPPORTED
-  relevant_corpus_size: 56
-  corr_count: 11
+  relevant_corpus_size: 72
+  corr_count: 14
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -1703,6 +2546,31 @@ entries:
   - catastrophic_leveling
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-rand-research-medicaid-obbba-state-impacts
+    source_type: analysis
+    variant: null
+    note: 'the OBBBA reconciliation
+
+      as the ratchet operating through legislative process — $664B removed from Medicaid,
+
+      $4.5T in tax cuts ($2.3T to the top 10%), within a single vehicle. The reconciliation
+
+      procedure is the institutional mechanism: budget constraints prevent filibuster, enabling
+
+      directional ...'
+  - source_id: 2026-03-multi-article-swiss-broadcasting-referendum
+    source_type: analysis
+    variant: null
+    note: Six initiatives failed; fee still dropped from CHF 462 to planned CHF 300. Each defeated challenge contributes to
+      incremental reduction through concessions, counter-proposals, and administrative decisions.
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
@@ -1783,25 +2651,13 @@ entries:
       reclassifies tens of thousands of positions, restoring protections requires new
 
       legislation. Once oversight...'
-  - source_id: 2026-02-rand-research-medicaid-obbba-state-impacts
-    source_type: analysis
-    variant: null
-    note: 'the OBBBA reconciliation
-
-      as the ratchet operating through legislative process — $664B removed from Medicaid,
-
-      $4.5T in tax cuts ($2.3T to the top 10%), within a single vehicle. The reconciliation
-
-      procedure is the institutional mechanism: budget constraints prevent filibuster, enabling
-
-      directional ...'
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.183
+  confidence_ratio: 0.158
   confidence_level: SUPPORTED
-  relevant_corpus_size: 60
-  corr_count: 11
+  relevant_corpus_size: 76
+  corr_count: 12
 - id: compression_through_destruction
   name: Compression Through Destruction
   file: patterns/compression-through-destruction.md
@@ -1815,6 +2671,10 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
+    variant: null
+    note: ''
   - source_id: scheidel-the-great-leveler
     source_type: principle
     variant: null
@@ -1841,9 +2701,9 @@ entries:
       Hartmann''s Progressive Era/New...'
   counter_evidence:
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.048
+  confidence_ratio: 0.038
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
+  relevant_corpus_size: 78
   corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
@@ -1859,6 +2719,30 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering
+    source_type: analysis
+    variant: null
+    note: 'extends the pattern to the information layer. Portland Communications operates as
+
+      reputation defence infrastructure at the Thought & Narrative layer — PR firms
+
+      performing the same structural function as Winters''s lawyers and accountants but
+
+      operating through controlled information platforms (Wiki...'
+  - source_id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+    source_type: analysis
+    variant: access-monetisation vehicle
+    note: Affinity Partners collects $157 million in fees ($87 million from Saudi PIF) at above-market rates with zero investment
+      returns. The firm functions as a mechanism for converting political access into capital flows, not as an investment
+      vehicle.
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
@@ -1917,21 +2801,16 @@ entries:
       oligarchs and foreign kleptocrats. The enabler architecture operates legally —
 
       shell companies, nominee di...'
-  - source_id: 2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering
-    source_type: analysis
-    variant: null
-    note: 'extends the pattern to the information layer. Portland Communications operates as
-
-      reputation defence infrastructure at the Thought & Narrative layer — PR firms
-
-      performing the same structural function as Winters''s lawyers and accountants but
-
-      operating through controlled information platforms (Wiki...'
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
+    variant: detention-industrial complex as extraction mechanism
+    note: Private prison industry extracts profit from immigration enforcement architecture. "Bed quotas" ensure the industry's
+      revenue stream.
   counter_evidence: []
-  confidence_ratio: 0.133
+  confidence_ratio: 0.132
   confidence_level: SUPPORTED
-  relevant_corpus_size: 60
-  corr_count: 8
+  relevant_corpus_size: 76
+  corr_count: 10
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
   file: patterns/democracy-oligarchy-coexistence.md
@@ -1948,6 +2827,60 @@ entries:
   - legal_challenge
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-datasociety-policybrief-big-ai-state
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-26-variety-article-paramount-warner-bros-deal
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-datacenter-politics-nc-primary
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-06-propublica-database-trump-financial-disclosures
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-multi-article-swiss-broadcasting-referendum
+    source_type: analysis
+    variant: inverse — democracy constraining economic pressure
+    note: Referendum defeated initiative but fee has dropped 35% since 2007 through mechanisms outside the referendum. Democratic
+      process wins individual battles while structural trend continues.
+  - source_id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+    source_type: analysis
+    variant: null
+    note: Government appointment and private capital extraction operating simultaneously with same counterparties. Kushner
+      negotiates US Middle East policy while soliciting $5 billion from the same sovereign wealth funds.
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
@@ -1988,12 +2921,17 @@ entries:
       business; RSPP lobbies selectively for reforms that benefit incumbents while blocking
 
       competition-en...'
+  - source_id: desmond-evicted
+    source_type: principle
+    variant: null
+    note: Housing market operates within formal democratic/legal framework producing systematically one-sided outcomes. Formal
+      equality of landlord and tenant coexists with substantive inequality.
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.242
+  confidence_ratio: 0.231
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 62
-  corr_count: 15
+  relevant_corpus_size: 78
+  corr_count: 18
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -2044,11 +2982,27 @@ entries:
       the structural relationship of wealth concentration into a narrative of deserved
 
       moral standing. P3: the "good"/"bad" wealth distinct...'
+  - source_id: terkel-working
+    source_type: principle
+    variant: null
+    note: 'P2, P4: "loyalty," "work ethic," "team player" convert economic dependency into moral obligation. Workers see through
+      the moral framing but comply because the cost is structural.'
+  - source_id: desmond-evicted
+    source_type: principle
+    variant: null
+    note: Landlord-tenant relationship moralized by both parties. Non-payment framed as moral failure. Tenants internalize
+      blame for structural conditions. Moral vocabulary prevents structural critique.
+  - source_id: ehrenreich-nickel-and-dimed
+    source_type: principle
+    variant: null
+    note: 'The meritocracy narrative converts structural poverty into personal failure. Workers blame themselves rather than
+      the arithmetic of their wages. Specific moral vocabulary: work ethic, personal responsibility, bootstraps. Third Position
+      2 corroboration.'
   counter_evidence: []
-  confidence_ratio: 0.048
+  confidence_ratio: 0.078
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 3
+  relevant_corpus_size: 77
+  corr_count: 6
 - id: capture_pipeline
   name: The Capture Pipeline
   file: patterns/capture-pipeline.md
@@ -2067,18 +3021,37 @@ entries:
   - institutional_reform
   originated_by: null
   observed_in:
-  - source_id: whitehouse-the-scheme
-    source_type: principle
+  - source_id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+    source_type: analysis
     variant: null
-    note: 'the complete
-
-      five-part apparatus for judicial capture: the Federalist Society selection pipeline,
-
-      dark money-funded confirmation campaigns, coordinated amicus brief filings, case
-
-      manufacturing through shell organizations, and speaking engagement/travel rewards
-
-      for compliant justices'
+    note: ''
+  - source_id: 2026-02-26-variety-article-paramount-warner-bros-deal
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-06-propublica-database-trump-financial-disclosures
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+    source_type: analysis
+    variant: null
+    note: Closed decision circle as captured executive decision-making. "Rigidly closed circle of advisers" excluded career
+      officials from pre-war planning. Stage 1 (deep state legitimation framing) and Stage 3 (personnel elimination) documented.
+  - source_id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+    source_type: analysis
+    variant: collapsed variant — no temporal separation
+    note: 'Conventional revolving door involves temporal gap between government and private sector. Kushner eliminates the
+      gap: government role and capital-raising role operate concurrently with the same counterparties. All pipeline stages
+      collapsed into a single concurrent role.'
   - source_id: powell-memo
     source_type: principle
     variant: null
@@ -2091,6 +3064,18 @@ entries:
       Society, Heritage Foundation, and legal organizations followed this design),
 
       ana...'
+  - source_id: whitehouse-the-scheme
+    source_type: principle
+    variant: null
+    note: 'the complete
+
+      five-part apparatus for judicial capture: the Federalist Society selection pipeline,
+
+      dark money-funded confirmation campaigns, coordinated amicus brief filings, case
+
+      manufacturing through shell organizations, and speaking engagement/travel rewards
+
+      for compliant justices'
   - source_id: guriev-rachinsky-role-of-oligarchs
     source_type: principle
     variant: null
@@ -2115,11 +3100,21 @@ entries:
       vetting, loyalty screening), installation (Day One executive orders, political appointee
 
       saturation at ever...'
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
+    variant: null
+    note: Private prison companies lobby for enforcement that produces detainees, fund supportive candidates, build facilities
+      in advance of demand. The detention-industrial complex captures immigration policy.
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: hegemonic — assimilation of traditional intellectuals and passive revolution
+    note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
+      captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.15
+  confidence_ratio: 0.171
   confidence_level: SUPPORTED
-  relevant_corpus_size: 60
-  corr_count: 9
+  relevant_corpus_size: 76
+  corr_count: 13
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -2136,6 +3131,34 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-04-guardian-article-datacenter-politics-nc-primary
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2023-nypd-report-discipline
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+    source_type: analysis
+    variant: null
+    note: The revolving door (a form requiring temporal separation) has been formally eliminated. The structural function
+      (converting government access into capital) continues and intensifies — the extraction is more direct without the temporal
+      gap.
+  - source_id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+    source_type: analysis
+    variant: null
+    note: Explicit transformation of Great Replacement from racial conspiracy theory to civic/cultural concern. The racial
+      category is formally eliminated; the structural claim (demographic change as threat, immigration as weapon) persists
+      unchanged.
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -2160,18 +3183,6 @@ entries:
       into ownership rights." The formal political transformation (Soviet Union → Russian
 
       Federation...'
-  - source_id: browne-dark-matters
-    source_type: principle
-    variant: null
-    note: 'B1, B3 (the entire book organized
-
-      around this pattern — branding → biometrics, slave patrol → police, pass → passport,
-
-      no-sail list → no-fly list, lantern law → racial profiling; each transformation changes
-
-      form while the structural function of identifying, documenting, and controlling
-
-      racialized...'
   - source_id: schimpfossl-oligarch-moralities-of-wealth
     source_type: principle
     variant: null
@@ -2184,11 +3195,34 @@ entries:
       all of them emphasize the legacy of their Soviet intelligentsia upbringing."
 
       Intelligentsia backgrounds provided "cultural...'
+  - source_id: browne-dark-matters
+    source_type: principle
+    variant: null
+    note: 'B1, B3 (the entire book organized
+
+      around this pattern — branding → biometrics, slave patrol → police, pass → passport,
+
+      no-sail list → no-fly list, lantern law → racial profiling; each transformation changes
+
+      form while the structural function of identifying, documenting, and controlling
+
+      racialized...'
+  - source_id: garcia-hernandez-migrating-to-prison
+    source_type: principle
+    variant: null
+    note: Racial exclusion formally eliminated in 1965. Racially differential enforcement persisted through geographic targeting,
+      category construction, and enforcement priorities. Form changed; racial function continued.
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    variant: null
+    note: 'Passive revolution: the form of change without the content. Challenges are metabolised through molecular incorporation
+      — co-optation of oppositional personnel, partial adoption of rhetoric, strategic concessions — while fundamental power
+      arrangements persist.'
   counter_evidence: []
-  confidence_ratio: 0.129
+  confidence_ratio: 0.154
   confidence_level: SUPPORTED
-  relevant_corpus_size: 62
-  corr_count: 8
+  relevant_corpus_size: 78
+  corr_count: 12
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
@@ -2202,16 +3236,10 @@ entries:
   circumventions: []
   originated_by: ellul-propaganda
   observed_in:
-  - source_id: ellul-propaganda
-    source_type: principle
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
     variant: null
-    note: 'the propagandee''s need — the governed
-
-      actively seek propaganda to cope with the anxiety and complexity of technological society;
-
-      the demand side drives the supply side; the intellectual who reads five newspapers is more
-
-      propagandized than the peasant who reads nothing'
+    note: ''
   - source_id: 2026-03-atlantic-essay-cynical-gullible-american-man
     source_type: analysis
     variant: null
@@ -2224,12 +3252,32 @@ entries:
       experts." The "One True Reason" syndrome — autism → vaccines, no housing → immigrants — is
 
       th...'
+  - source_id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+    source_type: analysis
+    variant: null
+    note: 'The brief demonstrates the demand side: a population anxious about demographic change needs a framework making
+      their anxiety legitimate and actionable. The brief supplies the policy-ready version. Demand precedes supply.'
+  - source_id: ellul-propaganda
+    source_type: principle
+    variant: null
+    note: 'the propagandee''s need — the governed
+
+      actively seek propaganda to cope with the anxiety and complexity of technological society;
+
+      the demand side drives the supply side; the intellectual who reads five newspapers is more
+
+      propagandized than the peasant who reads nothing'
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    variant: demand-side — reflexive impotence as need for framework
+    note: 'Reflexive impotence demonstrates the demand side: subjects need a framework that makes their acquiescence bearable.
+      The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.048
+  confidence_ratio: 0.064
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 62
-  corr_count: 3
+  relevant_corpus_size: 78
+  corr_count: 5
 - id: categorical_blindness
   name: Categorical Blindness
   file: patterns/categorical-blindness.md
@@ -2264,9 +3312,9 @@ entries:
       detect Black faces. ...'
   counter_evidence:
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.036
+  confidence_ratio: 0.029
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 55
+  relevant_corpus_size: 69
   corr_count: 2
 - id: boomerang
   name: The Boomerang
@@ -2281,14 +3329,6 @@ entries:
   - international_pressure
   originated_by: arendt-origins-of-totalitarianism
   observed_in:
-  - source_id: arendt-origins-of-totalitarianism
-    source_type: principle
-    variant: null
-    note: 'the Boomerang Thesis
-
-      — techniques of colonial domination returned to Europe; the camps and racial
-
-      classification systems of imperialism became the raw material for totalitarianism'
   - source_id: 2026-03-02-wikipedia-article-operation-metro-surge
     source_type: analysis
     variant: null
@@ -2299,6 +3339,28 @@ entries:
       operations applied domestically in Minneapolis; participants explicitly cited the
 
       pattern; Trump compared the operation to the Venezuela intervention'
+  - source_id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
+    source_type: analysis
+    variant: null
+    note: ''
+  - source_id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+    source_type: analysis
+    variant: legal instrument migration — international to domestic
+    note: Material support statute developed for international terrorism (legal periphery) now applied to domestic political
+      protesters. Legal instruments migrating from periphery to centre. First domestic application of the "antifa terror cell"
+      theory.
+  - source_id: arendt-origins-of-totalitarianism
+    source_type: principle
+    variant: null
+    note: 'the Boomerang Thesis
+
+      — techniques of colonial domination returned to Europe; the camps and racial
+
+      classification systems of imperialism became the raw material for totalitarianism'
   - source_id: browne-dark-matters
     source_type: principle
     variant: null
@@ -2312,7 +3374,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.083
+  confidence_ratio: 0.079
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 60
-  corr_count: 5
+  relevant_corpus_size: 76
+  corr_count: 6

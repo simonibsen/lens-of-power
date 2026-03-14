@@ -1,66 +1,3 @@
-# ============================================================================
-# analyses.yaml — Analysis registry
-# ============================================================================
-#
-# Each entry corresponds to one analysis file in analyses/.
-# The prose lives in the markdown file; the structured metadata lives here.
-#
-# This is the fastest-growing file. Each analysis adds one entry here plus
-# updates to patterns.yaml (observed_in). The migration script populates
-# this from existing analyses/INDEX.md and analysis file headers.
-#
-# --- Relationship to patterns.yaml ---
-#
-# analyses.yaml patterns_matched is AUTHORITATIVE for which patterns an
-# analysis observed. patterns.yaml observed_in is a COMPUTED materialized
-# view built from analyses.yaml patterns_matched + principles.yaml
-# key_patterns. Tooling regenerates observed_in; do not hand-edit it.
-#
-# --- Frontmatter contract ---
-#
-# After migration, new analysis markdown files include YAML frontmatter.
-# post-analysis.py reads the frontmatter, adds an entry here, updates
-# patterns.yaml observed_in, recomputes confidence, and rebuilds viewer.
-#
-# Frontmatter fields (analyst provides in markdown):
-#   id, title, source_name, source_type, position, url, domain,
-#   layers_primary, layers_secondary, layers_absent, null_case,
-#   null_case_level, adversarial, origin, ic5_flag, cross_references,
-#   patterns_matched (including variant and note)
-#
-# Computed fields (tooling adds to this YAML only, not frontmatter):
-#   file, date, source_date, findings_count, commit, time
-#
-# --- Field reference ---
-#
-# id: string (required) — unique identifier, matches filename stem
-# file: string (computed) — path to analysis markdown file
-# date: string (computed) — "YYYY-MM-DD" when analysis was performed
-# time: string (computed) — "~HH:MM UTC" approximate time
-# source_date: string (computed) — "YYYY-MM-DD" or "YYYY-MM" of source material
-# title: string (required) — short title for display
-# source_name: string (required) — who produced the source material
-# source_type: string (required) — from config.yaml analysis_source_types
-# position: list[int] (required) — source's positional lens, e.g. [5] or [2, 5]
-# url: string|null (optional) — URL of source material
-# domain: list[string] (required) — from config.yaml domains
-# layers_primary: list[string] (required) — from config.yaml layers
-# layers_secondary: list[string] (optional) — layers active but not primary
-# layers_absent: list[string] (optional) — layers active but absent from source
-# null_case: string (required) — from config.yaml null_case_outcomes
-# null_case_level: string (required) — free-text assessment (e.g. "MEDIUM-HIGH")
-# adversarial: bool (required) — was this deliberately selected to challenge framework?
-# origin: null|"sample" — null = user-selected; "sample" = SAMPLE mode escalation
-# ic5_flag: string|null (optional) — IC-5 self-reference note, if any
-# cross_references: list[string] (optional) — IDs of related analyses
-# patterns_matched: list[object] (required) — see subfield reference below
-#   .pattern: string — pattern ID (from config pattern ID rules)
-#   .status: string — from config.yaml finding_statuses
-#   .variant: string|null — named variant, or null for base pattern
-#   .note: string — brief description of how pattern manifests
-# findings_count: int (computed) — number of findings in the analysis
-# commit: string|null (computed) — git commit hash when committed
-
 entries:
 - id: 2026-03-01-guardian-liveblog-us-israel-iran-war
   file: analyses/2026-03-01-guardian-liveblog-us-israel-iran-war.md
@@ -121,6 +58,8 @@ entries:
   domain_text: US foreign policy / military
   layers_text: Physical & Coercive, Thought & Narrative
   null_case_text: rejected (LOW for operation; MEDIUM for school strike)
+  hegemonic_contexts:
+  - national_security_state
 - id: 2026-03-01-meta-policy-meta-three-policies
   file: analyses/2026-03-01-meta-policy-meta-three-policies.md
   date: '2026-03-01'
@@ -227,6 +166,9 @@ entries:
   domain_text: Platform governance / surveillance capitalism
   layers_text: All non-Physical (5 layers)
   null_case_text: rejected (LOW overall; MEDIUM for generic ToS provisions)
+  hegemonic_contexts:
+  - market_capitalism
+  - technological_progress
 - id: 2026-03-01-foxnews-liveblog-us-israel-iran-war
   file: analyses/2026-03-01-foxnews-liveblog-us-israel-iran-war.md
   date: '2026-03-01'
@@ -331,6 +273,8 @@ entries:
   domain_text: US foreign policy / military / media
   layers_text: Physical & Coercive, Thought & Narrative
   null_case_text: rejected (LOW for school omission and architecture; MEDIUM for individual content choices)
+  hegemonic_contexts:
+  - national_security_state
 - id: 2026-01-20-whitehouse-pressrelease-365-wins
   file: analyses/2026-01-20-whitehouse-pressrelease-365-wins.md
   date: '2026-03-02'
@@ -383,6 +327,9 @@ entries:
   domain_text: Domestic policy / government self-assessment
   layers_text: Thought & Narrative, Physical & Coercive, Economic, Institutional
   null_case_text: plausible (MEDIUM — genre is conventional; specific choices analytically significant)
+  hegemonic_contexts:
+  - national_security_state
+  - western_liberal_democracy
 - id: 2026-03-02-reuters-wirestory-israel-lebanon-hezbollah
   file: analyses/2026-03-02-reuters-wirestory-israel-lebanon-hezbollah.md
   date: '2026-03-02'
@@ -440,6 +387,8 @@ entries:
   domain_text: US foreign policy / military / media
   layers_text: Physical & Coercive, Thought & Narrative, Economic
   null_case_text: rejected (MEDIUM-LOW — conventions real but absences patterned)
+  hegemonic_contexts:
+  - national_security_state
 - id: 2026-03-02-guardian-article-doe-charlie-kirk-banner
   file: analyses/2026-03-02-guardian-article-doe-charlie-kirk-banner.md
   date: '2026-03-02'
@@ -488,6 +437,8 @@ entries:
   domain_text: Domestic policy / institutional capture / education
   layers_text: Thought & Narrative, Institutional
   null_case_text: rejected (LOW — pairing and framing too deliberate; MEDIUM for coordination level)
+  hegemonic_contexts:
+  - western_liberal_democracy
 - id: 2026-03-02-guardian-liveblog-iran-war-powers-domestic
   file: analyses/2026-03-02-guardian-liveblog-iran-war-powers-domestic.md
   date: '2026-03-02'
@@ -546,6 +497,9 @@ entries:
   domain_text: US foreign policy / military / domestic politics / civil liberties
   layers_text: Thought & Narrative, Institutional, Legal & Regulatory, Physical & Coercive
   null_case_text: rejected (LOW for strategic operation and student deportations; MEDIUM for tactical preemptive decision)
+  hegemonic_contexts:
+  - national_security_state
+  - rule_of_law
 - id: 2026-03-02-bbc-article-oil-gas-prices-iran-war
   file: analyses/2026-03-02-bbc-article-oil-gas-prices-iran-war.md
   date: '2026-03-02'
@@ -589,6 +543,9 @@ entries:
   domain_text: Economics / energy / global markets
   layers_text: Economic (primary), Physical & Coercive, Institutional
   null_case_text: plausible (MEDIUM — market responses are mechanical; structural beneficiary pattern warrants scrutiny)
+  hegemonic_contexts:
+  - market_capitalism
+  - national_security_state
 - id: 2026-03-02-wikipedia-article-operation-metro-surge
   file: analyses/2026-03-02-wikipedia-article-operation-metro-surge.md
   date: '2026-03-02'
@@ -633,6 +590,10 @@ entries:
   domain_text: Domestic policy / immigration / civil liberties / federal-state relations
   layers_text: All six (all primary — first analysis where every layer is documented as primary)
   null_case_text: rejected (LOW for operation overall and killings; MEDIUM for economic damage as unintended)
+  hegemonic_contexts:
+  - national_security_state
+  - nation_state_sovereignty
+  - rule_of_law
 - id: 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
   file: analyses/2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md
   date: '2026-03-02'
@@ -705,6 +666,8 @@ entries:
     Physical & Coercive active but absent
   null_case_text: rejected (LOW for overall operation; MEDIUM for individual components — sincerity genuine but structure
     is electoral)
+  hegemonic_contexts:
+  - western_liberal_democracy
 - id: 2026-03-02-datasociety-policybrief-big-ai-state
   file: analyses/2026-03-02-datasociety-policybrief-big-ai-state.md
   date: '2026-03-02'
@@ -785,6 +748,10 @@ entries:
   layers_text: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Physical &
     Coercive, Surveillance & Information
   null_case_text: plausible (MEDIUM — national security argument genuine; governance gap not explained by it)
+  hegemonic_contexts:
+  - market_capitalism
+  - national_security_state
+  - technological_progress
 - id: 2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees
   file: analyses/2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees.md
   date: '2026-03-02'
@@ -851,6 +818,9 @@ entries:
   domain_text: Press freedom / extrajudicial detention / military occupation / war crimes
   layers_text: Physical & Coercive (primary), Surveillance & Information (primary), Thought & Narrative, Institutional
   null_case_text: rejected (LOW for system; MEDIUM for specific death circumstances)
+  hegemonic_contexts:
+  - national_security_state
+  - nation_state_sovereignty
 - id: 2026-03-02-forbiddenstories-investigation-settler-violence-west-bank
   file: analyses/2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md
   date: '2026-03-02'
@@ -915,6 +885,9 @@ entries:
   domain_text: Military occupation / settlement / press freedom / international commerce
   layers_text: All six (Physical & Coercive, Economic, Legal & Regulatory primary)
   null_case_text: rejected (LOW for eviction-expansion pipeline; MEDIUM for individual journalist incidents)
+  hegemonic_contexts:
+  - national_security_state
+  - nation_state_sovereignty
 - id: 2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran
   file: analyses/2026-03-02-citizenlab-report-prisonbreak-ai-influence-iran.md
   date: '2026-03-02'
@@ -992,6 +965,9 @@ entries:
   layers_text: Thought & Narrative (primary), Surveillance & Information (primary), Physical & Coercive, Institutional, Economic
   null_case_text: rejected (LOW for coordination and state involvement; MEDIUM for operation's significance given limited
     engagement)
+  hegemonic_contexts:
+  - national_security_state
+  - technological_progress
 - id: 2026-03-01-guardian-article-israel-embracing-militarism-iran
   file: analyses/2026-03-01-guardian-article-israel-embracing-militarism-iran.md
   date: '2026-03-01'
@@ -1039,6 +1015,8 @@ entries:
   layers_text: Thought & Narrative (primary), Physical & Coercive (primary), Economic (primary), Institutional, Legal & Regulatory
   null_case_text: rejected (MEDIUM-LOW — genuine threat at individual level; structural absence of strategic questioning not
     explained by it)
+  hegemonic_contexts:
+  - national_security_state
 - id: 2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering
   file: analyses/2026-01-14-tbij-investigation-portland-wikipedia-wikilaundering.md
   date: '2026-01-14'
@@ -1085,6 +1063,8 @@ entries:
     & Regulatory
   null_case_text: rejected (LOW for overall operation and specific edits; MEDIUM for broader framing — Portland is instance
     of industry practice)
+  hegemonic_contexts:
+  - market_capitalism
 - id: 2026-02-26-variety-article-paramount-warner-bros-deal
   file: analyses/2026-02-26-variety-article-paramount-warner-bros-deal.md
   date: '2026-02-26'
@@ -1146,6 +1126,9 @@ entries:
     & Information
   null_case_text: plausible at component level (MEDIUM); less plausible at sequence level (MEDIUM-LOW — reinforcement chain
     across components)
+  hegemonic_contexts:
+  - market_capitalism
+  - property_rights
 - id: 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
   file: analyses/2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md
   date: '2026-03-04'
@@ -1202,6 +1185,8 @@ entries:
   layers_text: Thought & Narrative, Physical & Coercive, Institutional, Surveillance & Information (Economic and Legal & Regulatory
     active but absent)
   null_case_text: plausible for cable in isolation (MEDIUM); less plausible for cable-strike-retaliation-escalation sequence
+  hegemonic_contexts:
+  - national_security_state
 - id: 2026-03-04-guardian-article-datacenter-politics-nc-primary
   file: analyses/2026-03-04-guardian-article-datacenter-politics-nc-primary.md
   date: '2026-03-04'
@@ -1257,6 +1242,10 @@ entries:
   domain_text: AI industry / campaign finance / datacenter infrastructure / regulatory capture
   layers_text: All six (Economic, Thought & Narrative, Institutional, Legal & Regulatory primary)
   null_case_text: plausible at component level (MEDIUM); less plausible at configuration level (MEDIUM-LOW)
+  hegemonic_contexts:
+  - market_capitalism
+  - western_liberal_democracy
+  - technological_progress
 - id: 2013-vasudeva-orgscience-norwegian-swf-responsible-investment
   file: analyses/2013-vasudeva-orgscience-norwegian-swf-responsible-investment.md
   date: '2013'
@@ -1305,6 +1294,8 @@ entries:
   layers_text: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory
   null_case_text: plausible (MEDIUM — genuine values, genuine mechanism, genuine positive outcomes; structural power dimensions
     invisible in academic framing)
+  hegemonic_contexts:
+  - market_capitalism
 - id: 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
   file: analyses/2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md
   date: '2026-03-04'
@@ -1365,6 +1356,9 @@ entries:
   layers_text: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative (primary), Physical & Coercive,
     Surveillance & Information
   null_case_text: rejected (MEDIUM-LOW — constitutional debate genuine but arguments dismantle the mechanism itself)
+  hegemonic_contexts:
+  - national_security_state
+  - rule_of_law
 - id: 2026-02-27-cppa-enforcement-playon-sports-privacy
   file: analyses/2026-02-27-cppa-enforcement-playon-sports-privacy.md
   date: '2026-02-27'
@@ -1402,6 +1396,8 @@ entries:
   null_case_text: accepted (HIGH — routine enforcement of compliance failure; power-dynamics explanation does not surpass
     null case)
   adversarial_note: selected to test whether framework can produce null-case-accepted result
+  hegemonic_contexts:
+  - rule_of_law
 - id: 2026-03-04-army-mil-fort-drum-aer-campaign
   file: analyses/2026-03-04-army-mil-fort-drum-aer-campaign.md
   date: '2026-03-04'
@@ -1433,6 +1429,8 @@ entries:
   layers_text: Institutional (primary), Economic
   null_case_text: accepted (HIGH — routine annual charitable campaign; power-dynamics readings dissolve on examination)
   adversarial_note: selected to test null-case-accepted result for military institutional material
+  hegemonic_contexts:
+  - national_security_state
 - id: 2023-nypd-report-discipline
   file: analyses/2023-nypd-report-discipline.md
   date: '2026-03-04'
@@ -1505,6 +1503,8 @@ entries:
     Physical & Coercive
   null_case_text: rejected (LOW-MEDIUM — component-level explanations genuine; configuration-level consistency not explained
     by null case)
+  hegemonic_contexts:
+  - rule_of_law
 - id: 2018-sbca-govminutes-city-council-minutes
   file: analyses/2018-sbca-govminutes-city-council-minutes.md
   date: '2026-03-05'
@@ -1539,6 +1539,8 @@ entries:
   null_case_text: accepted (HIGH — routine democratic governance through established procedures; power explanation does not
     surpass null case)
   adversarial_note: selected to test null-case-accepted result for routine democratic governance
+  hegemonic_contexts:
+  - western_liberal_democracy
 - id: 2026-03-05-reuters-wirestory-indian-refiners-russian-oil
   file: analyses/2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md
   date: '2026-03-05'
@@ -1576,6 +1578,9 @@ entries:
   domain_text: Energy trade / sanctions effectiveness / geopolitics / war funding
   layers_text: Economic (primary), Physical & Coercive, Institutional, Legal & Regulatory
   null_case_text: plausible (MEDIUM-HIGH — commercial decisions rational; systemic consequence is the analytical finding)
+  hegemonic_contexts:
+  - market_capitalism
+  - nation_state_sovereignty
 - id: 2026-03-06-propublica-database-trump-financial-disclosures
   file: analyses/2026-03-06-propublica-database-trump-financial-disclosures.md
   date: '2026-03-06'
@@ -1627,6 +1632,9 @@ entries:
     & Narrative
   null_case_text: rejected (MEDIUM-LOW — component-level explanations genuine; configurational character not explained by
     null case)
+  hegemonic_contexts:
+  - market_capitalism
+  - western_liberal_democracy
 - id: 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
   file: analyses/2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd.md
   date: '2026-03-05'
@@ -1702,6 +1710,9 @@ entries:
     — all primary)
   null_case_text: rejected (MEDIUM at component level; LOW-MEDIUM at configurational level — governance asymmetry, guarantee
     carve-out, regulatory absence, and circular financial dependency not explained by null case)
+  hegemonic_contexts:
+  - market_capitalism
+  - national_security_state
 - id: 2026-03-06-dsa-article-thaad-radar-strike-jordan
   file: analyses/2026-03-06-dsa-article-thaad-radar-strike-jordan.md
   date: '2026-03-06'
@@ -1752,6 +1763,8 @@ entries:
   layers_text: Physical & Coercive (primary), Economic, Thought & Narrative, Institutional, Legal & Regulatory (active but
     absent)
   null_case_text: plausible (MEDIUM-HIGH for genre conventions at source level; MEDIUM for structural genre-as-normalisation)
+  hegemonic_contexts:
+  - national_security_state
 - id: 2026-03-08-guardian-article-africa-reparative-justice
   file: analyses/2026-03-08-guardian-article-africa-reparative-justice.md
   date: '2026-03-08'
@@ -1798,11 +1811,14 @@ entries:
     & Information (active but absent)
   null_case_text: plausible (MEDIUM — partially weakened for legal strategy and Germany's word-avoidance; retained for aspirational
     elements)
+  hegemonic_contexts:
+  - nation_state_sovereignty
+  - western_liberal_democracy
 - id: 2026-02-rand-research-medicaid-obbba-state-impacts
   file: analyses/2026-02-rand-research-medicaid-obbba-state-impacts.md
-  date: "2026-03-08"
+  date: '2026-03-08'
   time: ~23:30 UTC
-  source_date: "2026-02"
+  source_date: 2026-02
   title: 'OBBBA Medicaid provisions: procedural scarcity and distributive transfer (RAND/CBO)'
   source_name: RAND Corporation (research report RRA4098-1); CBO/JCT (distributional analysis, Publication 61387); supplementary
     coverage from Yale Budget Lab, Tax Foundation
@@ -1857,6 +1873,9 @@ entries:
   layers_text: Economic (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance
     & Information
   null_case_text: plausible (MEDIUM — individual provisions conventional; distributive configuration asymmetric)
+  hegemonic_contexts:
+  - market_capitalism
+  - western_liberal_democracy
 - id: 2026-03-atlantic-essay-cynical-gullible-american-man
   file: analyses/2026-03-atlantic-essay-cynical-gullible-american-man.md
   date: 2026-03
@@ -1916,6 +1935,9 @@ entries:
   layers_text: Thought & Narrative (primary), Economic (primary), Institutional (primary), Surveillance & Information, Legal
     & Regulatory (active but absent), Physical & Coercive (active but absent)
   null_case_text: plausible (MEDIUM — article is good cultural commentary; framework adds structural dimension the genre excludes)
+  hegemonic_contexts:
+  - market_capitalism
+  - western_liberal_democracy
 - id: 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
   file: analyses/2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md
   date: 2026-02
@@ -1984,12 +2006,16 @@ entries:
     & Information, Physical & Coercive (active but absent)
   null_case_text: plausible (MEDIUM-HIGH at component level; MEDIUM at configuration level when combined with Data & Society
     and NC-04 analyses)
+  hegemonic_contexts:
+  - market_capitalism
+  - national_security_state
+  - technological_progress
 - id: 2026-03-10-guardian-article-north-korea-nuclear-iran-war
   file: analyses/2026-03-10-guardian-article-north-korea-nuclear-iran-war.md
   date: '2026-03-10'
   time: ~09:00 UTC
   source_date: '2026-03-10'
-  title: "North Korea's nuclear calculus and the Iran war — the nonproliferation paradox (Guardian)"
+  title: North Korea's nuclear calculus and the Iran war — the nonproliferation paradox (Guardian)
   source_name: The Guardian
   source_type: news_article
   position:
@@ -2008,7 +2034,8 @@ entries:
   - economic
   - surveillance_information
   null_case: plausible
-  null_case_level: MEDIUM — article captures surface logic; framework reveals structural patterns (Serial Regime Change, Inversion, absent layers) not visible in reporting alone
+  null_case_level: MEDIUM — article captures surface logic; framework reveals structural patterns (Serial Regime Change, Inversion,
+    absent layers) not visible in reporting alone
   adversarial: false
   origin: null
   ic5_flag: null
@@ -2020,35 +2047,44 @@ entries:
   - pattern: serial_regime_change
     status: observed
     variant: null
-    note: 'Iraq, Libya, Venezuela, Iran named explicitly as sequential targets with NK drawing the lesson — the article states the sequence without labeling it as a recurring template'
+    note: Iraq, Libya, Venezuela, Iran named explicitly as sequential targets with NK drawing the lesson — the article states
+      the sequence without labeling it as a recurring template
   - pattern: inversion_of_stated_purpose
     status: inferred
     variant: null
-    note: 'nonproliferation enforcement incentivizes proliferation — regime-level instantiation where the system designed to prevent nuclear weapons produces the rational incentive for acquiring them'
+    note: nonproliferation enforcement incentivizes proliferation — regime-level instantiation where the system designed to
+      prevent nuclear weapons produces the rational incentive for acquiring them
   - pattern: perpetual_threat_as_perpetual_justification
     status: observed
     variant: null
-    note: 'Trump claimed Iran "only weeks away" from nuclear weapon "without offering evidence" — unsubstantiated threat claim justifying military action, structural parallel to Iraq 2003 WMD claims'
+    note: Trump claimed Iran "only weeks away" from nuclear weapon "without offering evidence" — unsubstantiated threat claim
+      justifying military action, structural parallel to Iraq 2003 WMD claims
   - pattern: appearance_as_structural_terrain
     status: observed
     variant: null
-    note: 'NK condemns strikes as "illegal act of aggression" while stopping short of naming Trump — calibrated diplomatic performance preserving negotiating space; Kim''s "if you respect our current status" is public transcript calibrated for audience'
+    note: NK condemns strikes as "illegal act of aggression" while stopping short of naming Trump — calibrated diplomatic
+      performance preserving negotiating space; Kim's "if you respect our current status" is public transcript calibrated
+      for audience
   - pattern: double_performance
     status: observed
     variant: null
-    note: 'NK condemning strikes while leaving door open to talks; Trump threatening force while saying he would meet Kim — both sides performing for multiple audiences simultaneously'
+    note: NK condemning strikes while leaving door open to talks; Trump threatening force while saying he would meet Kim —
+      both sides performing for multiple audiences simultaneously
   findings_count: 6
   commit: null
   domain_text: US foreign policy / military / nuclear proliferation / geopolitics
-  layers_text: Physical & Coercive (primary), Thought & Narrative (primary), Institutional (Legal & Regulatory, Economic, Surveillance & Information active but absent)
+  layers_text: Physical & Coercive (primary), Thought & Narrative (primary), Institutional (Legal & Regulatory, Economic,
+    Surveillance & Information active but absent)
   null_case_text: plausible (MEDIUM — article captures surface logic; framework adds structural patterns not visible in reporting)
+  hegemonic_contexts:
+  - national_security_state
 - id: 2026-03-11-zeteo-speech-roy-iran-india-running-dog
   file: analyses/2026-03-11-zeteo-speech-roy-iran-india-running-dog.md
   date: '2026-03-12'
   time: ~01:00 UTC
   source_date: '2026-03-11'
-  title: "Arundhati Roy's \"Iran Is Not Gaza\" speech — anticipatory obedience at sovereign scale"
-  source_name: 'Arundhati Roy, speech at New Delhi book event, published on Zeteo'
+  title: Arundhati Roy's "Iran Is Not Gaza" speech — anticipatory obedience at sovereign scale
+  source_name: Arundhati Roy, speech at New Delhi book event, published on Zeteo
   source_type: speech_transcript
   position:
   - 3
@@ -2070,7 +2106,8 @@ entries:
   null_case_level: MEDIUM at component level; MEDIUM-LOW at configurational level
   adversarial: false
   origin: null
-  ic5_flag: 'Training data likely overrepresents "rising power" / "strategic autonomy" framing of India; Roy''s subordination thesis challenges dominant narrative'
+  ic5_flag: Training data likely overrepresents "rising power" / "strategic autonomy" framing of India; Roy's subordination
+    thesis challenges dominant narrative
   cross_references:
   - 2026-03-01-guardian-liveblog-us-israel-iran-war
   - 2026-03-05-reuters-wirestory-indian-refiners-russian-oil
@@ -2079,39 +2116,49 @@ entries:
   - pattern: anticipatory_obedience
     status: inferred
     variant: inter-state
-    note: 'Sequence of Indian voluntary concessions — PM visit, trade deal, worker dispatch, mockery absorption — constitutes pre-compliance before demands are made, extending pattern from domestic to inter-state relations'
+    note: Sequence of Indian voluntary concessions — PM visit, trade deal, worker dispatch, mockery absorption — constitutes
+      pre-compliance before demands are made, extending pattern from domestic to inter-state relations
   - pattern: serial_regime_change
     status: observed
     variant: null
-    note: 'Roy identifies identical operational template across Gaza and Iran — bombing hospitals, carpet bombing, victim framing — as "same old playbook"'
+    note: Roy identifies identical operational template across Gaza and Iran — bombing hospitals, carpet bombing, victim framing
+      — as "same old playbook"
   - pattern: appearance_as_structural_terrain
     status: inferred
     variant: null
-    note: 'India''s cinematic sovereignty narrative (Bollywood war films) functions as appearance sustaining structural foreign policy subordination'
+    note: India's cinematic sovereignty narrative (Bollywood war films) functions as appearance sustaining structural foreign
+      policy subordination
   - pattern: inversion_of_stated_purpose
     status: observed
     variant: null
-    note: 'US-Israel "playing the victim" while conducting bombing; India''s national pride narrative while enacting subordination'
+    note: US-Israel "playing the victim" while conducting bombing; India's national pride narrative while enacting subordination
   - pattern: relay_class
     status: inferred
     variant: voluntary-alliance
-    note: 'India''s governing class as voluntary relay for imperial power — extends pattern from post-colonial succession to active alliance subordination'
+    note: India's governing class as voluntary relay for imperial power — extends pattern from post-colonial succession to
+      active alliance subordination
   - pattern: hidden_transcript
     status: observed
     variant: null
-    note: 'Roy surfaces suppressed Indian collective shame about subordination on public stage at literary event; "Running Dog" label names what domestic vocabulary cannot'
+    note: Roy surfaces suppressed Indian collective shame about subordination on public stage at literary event; "Running
+      Dog" label names what domestic vocabulary cannot
   findings_count: 8
   commit: null
   domain_text: US foreign policy / geopolitics / postcolonial
-  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive, Economic (Surveillance & Information, Legal & Regulatory active but absent)
-  null_case_text: plausible (MEDIUM at component level; MEDIUM-LOW at configurational level — humiliation-plus-compliance pattern not explained by pragmatic calculation)
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive, Economic (Surveillance & Information,
+    Legal & Regulatory active but absent)
+  null_case_text: plausible (MEDIUM at component level; MEDIUM-LOW at configurational level — humiliation-plus-compliance
+    pattern not explained by pragmatic calculation)
+  hegemonic_contexts:
+  - national_security_state
+  - nation_state_sovereignty
 - id: 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
   file: analyses/2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md
   date: '2026-03-12'
   time: ~02:00 UTC
   source_date: '2026-03-11'
-  title: 'US intelligence assessment vs. stated war objectives — the regime change gap'
-  source_name: 'Reuters (Erin Banco, Jonathan Landay), via Haaretz English'
+  title: US intelligence assessment vs. stated war objectives — the regime change gap
+  source_name: Reuters (Erin Banco, Jonathan Landay), via Haaretz English
   source_type: wire_story
   position:
   - 5
@@ -2130,10 +2177,12 @@ entries:
   layers_absent:
   - legal_regulatory
   null_case: plausible
-  null_case_level: MEDIUM — competent wire reporting; framework adds structural pattern recognition the wire format does not provide
+  null_case_level: MEDIUM — competent wire reporting; framework adds structural pattern recognition the wire format does not
+    provide
   adversarial: false
   origin: sample
-  ic5_flag: 'Training data overrepresents US institutional perspective on intelligence assessments; Iranian civilian experience and government perspective absent'
+  ic5_flag: Training data overrepresents US institutional perspective on intelligence assessments; Iranian civilian experience
+    and government perspective absent
   cross_references:
   - 2026-03-01-guardian-liveblog-us-israel-iran-war
   - 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
@@ -2144,25 +2193,631 @@ entries:
   - pattern: serial_regime_change
     status: observed
     variant: null
-    note: '"Biggest US military operation since 2003" with identical structural features: intelligence-executive divergence, shifting stated purposes, proxy force instrumentalisation'
+    note: '"Biggest US military operation since 2003" with identical structural features: intelligence-executive divergence,
+      shifting stated purposes, proxy force instrumentalisation'
   - pattern: inversion_of_stated_purpose
     status: observed
     variant: null
-    note: 'War purpose shifted from "take over your government" to "top aides denied regime change" — neither aligns with intelligence assessment of achievability'
+    note: War purpose shifted from "take over your government" to "top aides denied regime change" — neither aligns with intelligence
+      assessment of achievability
   - pattern: real_time_narrative_saturation
     status: observed
     variant: null
-    note: 'Wire format reports all facts (intelligence divergence, shifting rationale, proxy channel) but structural synthesis left to reader'
+    note: Wire format reports all facts (intelligence divergence, shifting rationale, proxy channel) but structural synthesis
+      left to reader
   - pattern: relay_class
     status: inferred
     variant: ethnic-proxy
-    note: 'Iranian Kurdish groups positioned as potential proxy/relay for post-regime-change governance; intelligence assesses them as insufficient; Trump rules out their use'
+    note: Iranian Kurdish groups positioned as potential proxy/relay for post-regime-change governance; intelligence assesses
+      them as insufficient; Trump rules out their use
   - pattern: institutional_abdication
     status: observed
     variant: inverse
-    note: 'Intelligence community asserting analytical independence via press leaks — opposite of congressional abdication documented in prior analysis; institution asserts rather than abdicates structural role'
+    note: Intelligence community asserting analytical independence via press leaks — opposite of congressional abdication
+      documented in prior analysis; institution asserts rather than abdicates structural role
   findings_count: 9
   commit: null
   domain_text: US foreign policy / military / geopolitics
-  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Economic, Surveillance & Information (Legal & Regulatory active but absent)
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Economic, Surveillance
+    & Information (Legal & Regulatory active but absent)
   null_case_text: plausible (MEDIUM — competent wire reporting; framework adds structural pattern recognition)
+  hegemonic_contexts:
+  - national_security_state
+- id: 2026-01-ntsb-report-dca-midair-collision-potomac
+  file: analyses/2026-01-ntsb-report-dca-midair-collision-potomac.md
+  date: '2026-03-12'
+  time: ~02:30 UTC
+  source_date: 2026-01
+  title: 'NTSB DCA investigation: where stated purpose matches actual function — an Axiom 7 test'
+  source_name: NTSB, Midair Collision over the Potomac River (AIR-26-02), January 27, 2026
+  source_type: report
+  position:
+  - 4
+  url: https://www.ntsb.gov/investigations/Pages/DCA25MA108.aspx
+  domain:
+  - military
+  - domestic_policy
+  layers_primary:
+  - institutional
+  - legal_regulatory
+  layers_secondary:
+  - thought_narrative
+  - surveillance_information
+  - physical_coercive
+  - economic
+  layers_absent: []
+  null_case: accepted
+  null_case_level: MEDIUM-HIGH at investigation level (report is what it says it is); MEDIUM at broader institutional-political
+    level
+  adversarial: true
+  origin: null
+  ic5_flag: Training data likely overrepresents technocratic perspective on aviation safety institutions; victim families
+    (position 2) absent
+  cross_references:
+  - 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
+  patterns_matched:
+  - pattern: institutional_abdication
+    status: observed
+    variant: null
+    note: FAA's 14-year failure to act on 80+ close calls in own data; understaffing (single controller managing both helicopter
+      and fixed-wing)
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: Trump DEI attribution — factually baseless narrative redirecting from systemic failures
+  - pattern: division_of_learning
+    status: observed
+    variant: intra-institutional
+    note: Intra-institutional variant — FAA data existed, decisions did not follow
+  - pattern: real_time_narrative_saturation
+    status: observed
+    variant: null
+    note: Immediate DEI framing before any investigation could produce findings
+  findings_count: 8
+  commit: null
+  domain_text: Aviation safety / institutional oversight / political narrative
+  layers_text: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative, Surveillance & Information, Physical
+    & Coercive, Economic
+  null_case_text: accepted (MEDIUM-HIGH at investigation level; MEDIUM at institutional-political level — first organic null-case-accepted)
+  hegemonic_contexts:
+  - rule_of_law
+- id: 2025-oppl-govminutes-library-board-meeting
+  file: analyses/2025-oppl-govminutes-library-board-meeting.md
+  date: '2026-03-12'
+  time: ~05:00 UTC
+  source_date: '2025-10-28'
+  title: 'Oak Park Public Library board meeting: routine library governance (October 2025)'
+  source_name: Oak Park Public Library, Board of Library Trustees
+  source_type: government_document
+  position:
+  - 1
+  url: https://www.oppl.org/wp-content/uploads/2025/10/OCTOBER-28-2025-OAK-PARK-PUBLIC-LIBRARY-REGULAR-BOARD-MEETING-MATERIALSw.pdf
+  domain:
+  - local_governance
+  layers_primary:
+  - institutional
+  layers_secondary:
+  - economic
+  - legal_regulatory
+  layers_absent: []
+  null_case: accepted
+  null_case_level: HIGH — routine democratic governance of a public library through established procedures; power explanation
+    does not surpass null case
+  adversarial: true
+  origin: null
+  ic5_flag: Training data heavily represents institutional documentation; procedural format may bias toward accepting self-documentation
+    at face value
+  cross_references: []
+  patterns_matched: []
+  findings_count: 4
+  commit: null
+  domain_text: Local library governance / municipal budgeting
+  layers_text: Institutional (primary), Economic, Legal & Regulatory
+  null_case_text: accepted (HIGH — routine library governance through established democratic procedures)
+  hegemonic_contexts:
+  - western_liberal_democracy
+- id: 2024-multi-article-ai-deepfake-election-interference
+  file: analyses/2024-multi-article-ai-deepfake-election-interference.md
+  date: '2026-03-12'
+  time: ~06:00 UTC
+  source_date: 2024-01
+  title: 'AI deepfakes in elections: an Axiom 4 test — is the mechanism novel?'
+  source_name: Multiple (NPR, PBS, Harvard Kennedy School Misinformation Review, CNN)
+  source_type: multi_source
+  position:
+  - 4
+  - 5
+  url: https://misinforeview.hks.harvard.edu/article/beyond-the-deepfake-hype-ai-democracy-and-the-slovak-case/
+  domain:
+  - technology
+  - elections
+  layers_primary:
+  - thought_narrative
+  - surveillance_information
+  layers_secondary:
+  - institutional
+  - legal_regulatory
+  layers_absent:
+  - economic
+  - physical_coercive
+  null_case: plausible
+  null_case_level: MEDIUM — individual bad actors exploiting new technology; structural pattern explanation adds value but
+    isolated-actor explanation is viable
+  adversarial: true
+  origin: null
+  ic5_flag: Training data likely overrepresents Western liberal-democratic framing of election integrity; may underweight
+    how synthetic media interacts with non-Western information environments
+  cross_references: []
+  patterns_matched:
+  - pattern: unprecedented_as_sanctuary
+    status: observed
+    variant: null
+    note: AI deepfakes operated in regulatory void — FCC ruled AI voices in robocalls illegal only after the NH incident;
+      Slovakia had no legal framework for synthetic media
+  - pattern: real_time_narrative_saturation
+    status: observed
+    variant: null
+    note: Slovakia deepfakes released during media moratorium, spread through encrypted channels faster than debunking capacity
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: Deepfakes exploit the general expectation that audio recordings are authentic evidence; the gap between appearance
+      and reality is the operating terrain
+  findings_count: 6
+  commit: null
+  domain_text: AI / elections / political disinformation (US and Slovakia)
+  layers_text: Thought & Narrative (primary), Surveillance & Information (primary), Institutional, Legal & Regulatory
+  null_case_text: plausible (MEDIUM — individual bad actors viable; structural pattern recognition adds value)
+  hegemonic_contexts:
+  - western_liberal_democracy
+  - technological_progress
+- id: 2026-03-multi-article-swiss-broadcasting-referendum
+  file: analyses/2026-03-multi-article-swiss-broadcasting-referendum.md
+  date: '2026-03-13'
+  time: ~00:30 UTC
+  source_date: '2026-03-08'
+  title: 'Swiss broadcasting referendum: direct democracy defends public media — but the ratchet operates anyway'
+  source_name: Multiple (swissinfo.ch, eurotopics.net, heise.de, EBU, EFJ, C21Media)
+  source_type: multi_source
+  position:
+  - 4
+  - 5
+  url: https://www.swissinfo.ch/eng/swiss-politics/six-takeaways-from-switzerlands-licence-fee-battle/91060244
+  domain:
+  - media
+  - elections
+  - domestic_policy
+  layers_primary:
+  - thought_narrative
+  - institutional
+  layers_secondary:
+  - economic
+  - legal_regulatory
+  layers_absent:
+  - surveillance_information
+  - physical_coercive
+  null_case: plausible
+  null_case_level: MEDIUM — direct democracy working as designed is viable; framework adds structural pattern recognition
+  adversarial: false
+  origin: sample_escalation
+  ic5_flag: Training data likely overrepresents Western liberal consensus that public broadcasting is a democratic good; may
+    underweight libertarian or market-fundamentalist critiques of state-funded media
+  cross_references: []
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: inverse — democracy constraining economic pressure
+    note: Referendum defeated initiative but fee has dropped 35% since 2007 through mechanisms outside the referendum. Democratic
+      process wins individual battles while structural trend continues.
+  - pattern: peacetime_ratchet
+    status: observed
+    variant: null
+    note: Six initiatives failed; fee still dropped from CHF 462 to planned CHF 300. Each defeated challenge contributes to
+      incremental reduction through concessions, counter-proposals, and administrative decisions.
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: Initiative framed as financial relief; Amnesty International assessed actual purpose as political pressure on public
+      media.
+  - pattern: ideological_judo
+    status: observed
+    variant: null
+    note: Opponents held initiative to its own framing — CHF 0.92/day is less than a coffee. Cost argument turned against
+      itself.
+  findings_count: 7
+  commit: null
+  domain_text: Swiss media policy / direct democracy / public broadcasting funding
+  layers_text: Thought & Narrative (primary), Institutional (primary), Economic, Legal & Regulatory
+  null_case_text: plausible (MEDIUM — democratic deliberation viable; structural pattern recognition adds depth)
+  hegemonic_contexts:
+  - western_liberal_democracy
+  - market_capitalism
+- id: 2021-ncsl-boardminutes-youth-soccer-league
+  file: analyses/2021-ncsl-boardminutes-youth-soccer-league.md
+  title: 'NCSL youth soccer board meeting: routine voluntary governance'
+  source_name: National Capital Soccer League
+  source_type: organizational
+  position:
+  - 2
+  url: https://ncsl-soccer.com/bod-meeting-minutes-amp-locations/ncsl-bod-meeting-minutes-11-15-21/
+  domain:
+  - sports
+  - local_gov
+  layers_primary:
+  - institutional
+  layers_secondary: []
+  layers_absent:
+  - thought_narrative
+  - economic
+  - legal_regulatory
+  - surveillance_information
+  - physical_coercive
+  null_case: accepted
+  null_case_level: HIGH — voluntary civic governance operating as designed, no power dynamics
+  adversarial: true
+  adversarial_note: Deliberately selected as null-case-likely material to test adversarial input rate (target 20%)
+  origin: adversarial
+  ic5_flag: No IC-5 concerns
+  cross_references: []
+  patterns_matched: []
+  findings_count: 4
+  commit: null
+  domain_text: Youth sports governance
+  layers_text: Institutional
+  null_case_text: accepted (HIGH — routine voluntary civic governance)
+  hegemonic_contexts: []
+- id: 2026-03-13-guardian-article-iran-war-no-clear-goal
+  file: analyses/2026-03-13-guardian-article-iran-war-no-clear-goal.md
+  date: '2026-03-13'
+  time: ~03:00 UTC
+  source_date: '2026-03-13'
+  title: '"No clear goal" — lack of Iran war plan unleashes chaos (Guardian)'
+  source_name: The Guardian
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/us-news/2026/mar/13/goal-plan-iran-war-military
+  domain:
+  - us_foreign_policy
+  - military
+  - institutional_capture
+  layers_primary:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  layers_secondary:
+  - economic
+  layers_absent:
+  - legal_regulatory
+  - surveillance_information
+  null_case: plausible
+  null_case_level: MEDIUM at component level; MEDIUM-LOW at configurational level
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents US institutional perspective on war planning; all five sources from DC foreign policy
+    establishment (Brookings, AEI, Washington Institute, former Pentagon/NSC, Defense Priorities); Iranian civilian/government
+    perspective absent
+  cross_references:
+  - 2026-03-01-guardian-liveblog-us-israel-iran-war
+  - 2026-03-04-guardian-article-leaked-cable-israel-hezbollah
+  - 2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers
+  - 2026-03-06-dsa-article-thaad-radar-strike-jordan
+  - 2026-03-10-guardian-article-north-korea-nuclear-iran-war
+  - 2026-03-11-zeteo-speech-roy-iran-india-running-dog
+  - 2026-03-11-reuters-wirestory-us-intel-iran-regime-stability
+  patterns_matched:
+  - pattern: serial_regime_change
+    status: observed
+    variant: null
+    note: Venezuela template explicitly referenced as model for Iran; serial goal-shifting documented — four stated aims (protesters,
+      nuclear, missiles, Strait) each replacing the previous without acknowledgment.
+  - pattern: institutional_abdication
+    status: observed
+    variant: forced variant — dismantlement by executive action
+    note: 'NSC gutted, State Department layoffs, career officials excluded from war planning by design. Mara Karlin: "you
+      have also got to set certain pieces in place." Downstream operational consequences documented at strategic scale.'
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: serial inversion — compound goal-shifting
+    note: 'Each stated war aim diverges from operational reality: regime change while killing own preferred successors; Strait
+      reopening without leverage to compel it.'
+  - pattern: real_time_narrative_saturation
+    status: observed
+    variant: policy-level variant — goal-shifting as saturation
+    note: Serial goal-shifting prevents evaluation of any single aim before it is replaced by the next. The rapid succession
+      substitutes for the strategic planning that was eliminated.
+  - pattern: capture_pipeline
+    status: observed
+    variant: null
+    note: Closed decision circle as captured executive decision-making. "Rigidly closed circle of advisers" excluded career
+      officials from pre-war planning. Stage 1 (deep state legitimation framing) and Stage 3 (personnel elimination) documented.
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: Gap between stated war aims and actual military operations is the operating environment. Each stated goal creates
+      the appearance of strategic direction while operations follow their own logic.
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: State Department complied with exclusion from war planning without documented resistance. At-risk embassies remained
+      staffed despite telegraphed intention to go to war. Inferred — no evidence of internal protest or resignation.
+  - pattern: division_of_learning
+    status: observed
+    variant: null
+    note: Pentagon briefed Congress $11.3bn for six days but scope ambiguous — "wasn't clear if those numbers included the
+      cost of the buildup or the US missile defenses." Congress receives a number it cannot evaluate.
+  findings_count: 13
+  commit: null
+  domain_text: US foreign policy / military / institutional dismantlement / war planning
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Economic, Legal & Regulatory
+    (active but absent), Surveillance & Information (active but absent)
+  null_case_text: plausible (MEDIUM at component level; MEDIUM-LOW at configurational level — specific sequence of institutional
+    dismantlement → closed circle → serial goal-shifting → cascading consequences not explained by war's inherent unpredictability)
+  hegemonic_contexts:
+  - national_security_state
+- id: 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+  file: analyses/2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters.md
+  date: '2026-03-13'
+  time: ~04:00 UTC
+  source_date: '2026-03-13'
+  title: Anti-ICE protesters convicted of terrorism support — first "antifa terror cell" prosecution
+  source_name: The Guardian
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/us-news/2026/mar/13/texas-terrorism-trial
+  domain:
+  - civil_liberties
+  - legal
+  - politics
+  layers_primary:
+  - legal_regulatory
+  - thought_narrative
+  - institutional
+  layers_secondary:
+  - surveillance_information
+  - physical_coercive
+  layers_absent:
+  - economic
+  null_case: plausible
+  null_case_level: MEDIUM for Song; LOW-MEDIUM for non-shooter defendants
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents institutional-legal perspective treating terrorism statutes as neutral instruments;
+    defendants' direct voices absent; detained population at Prairieland entirely absent
+  cross_references:
+  - 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+  - 2026-03-02-wikipedia-article-operation-metro-surge
+  - 2026-03-02-guardian-liveblog-iran-war-powers-domestic
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: statutory inversion — anti-terrorism statute applied to political protest
+    note: 'Material support for terrorism statute applied to nine anti-ICE protesters. Statute designed for international
+      terrorism organisations (al-Qaeda, ISIS) applied to people who met through a book club. Judge identified the gap: "Whether
+      it''s antifa or the Methodist Women''s Auxiliary of Weatherford, why does it matter?"'
+  - pattern: boomerang
+    status: observed
+    variant: legal instrument migration — international to domestic
+    note: Material support statute developed for international terrorism (legal periphery) now applied to domestic political
+      protesters. Legal instruments migrating from periphery to centre. First domestic application of the "antifa terror cell"
+      theory.
+  - pattern: layered_redundancy_of_control
+    status: observed
+    variant: jurisdictional redundancy — pardon-proof prosecution
+    note: Dual federal-state prosecution creates pardon-proof architecture. Federal terrorism convictions can be pardoned;
+      state charges cannot. Even political reversal at the federal level cannot undo state-level consequences.
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: prospective chilling effect on protest
+    note: 'Prosecution establishes that presence at a protest where violence occurs, combined with encryption use and defensive
+      equipment, creates terrorism liability. Rational response: avoid protests where any participant might act unpredictably.'
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: 'Domestic terrorism designation creates permanent internal threat category justifying national security instruments
+      against domestic political activity. Bondi: "will not be the last."'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: Gap between legal charges (material support, no org connection required) and political presentation (antifa terror
+      cell) is the operating environment. Political frame shaped jury context; legal mechanism produced conviction. Judge
+      identified the gap; conviction happened anyway.
+  - pattern: division_of_learning
+    status: inferred
+    variant: null
+    note: Jury received political frame (antifa, zines, stickers) and legal mechanism (material support statute) as combined
+      package. Structural gap identified by judge not legible to jurors lacking legal training to separate atmosphere from
+      legal element.
+  - pattern: constitutive_violence
+    status: inferred
+    variant: null
+    note: Terrorism label constitutes defendants as terrorists through the act of prosecution. The designation "antifa terrorist
+      cell" was applied without legal authority; the prosecution then treated it as established fact. Label precedes and produces
+      the legal reality it claims to describe.
+  findings_count: 13
+  commit: null
+  domain_text: Civil liberties / domestic terrorism prosecution / First Amendment / political dissent
+  layers_text: Legal & Regulatory (primary), Thought & Narrative (primary), Institutional (primary), Surveillance & Information,
+    Physical & Coercive, Economic (active but absent)
+  null_case_text: plausible (MEDIUM for Song's individual prosecution; LOW-MEDIUM for non-shooter defendants' terrorism convictions
+    — gap between legal mechanism and political framing not explained by null case)
+  hegemonic_contexts:
+  - rule_of_law
+  - national_security_state
+  - nation_state_sovereignty
+- id: 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+  file: analyses/2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md
+  date: '2026-03-14'
+  time: ~00:30 UTC
+  source_date: '2026-03-13'
+  title: Kushner solicits $5 billion for Affinity Partners while serving as Middle East envoy
+  source_name: New York Times
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.nytimes.com/2026/03/13/business/jared-kushner-affinity-mideast-funds.html
+  domain:
+  - economics
+  - us_foreign_policy
+  - corruption
+  layers_primary:
+  - economic
+  - institutional
+  layers_secondary:
+  - thought_narrative
+  - surveillance_information
+  layers_absent:
+  - legal_regulatory
+  - physical_coercive
+  null_case: plausible
+  null_case_level: LOW-MEDIUM — commercial-merit explanation undermined by Wyden investigation findings
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents normalisation of revolving door; populations affected by Kushner's negotiations (Palestinians,
+    Iranians, Yemenis, Saudi citizens) absent
+  cross_references:
+  - 2026-03-06-propublica-database-trump-financial-disclosures
+  - 2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: null
+    note: Government appointment and private capital extraction operating simultaneously with same counterparties. Kushner
+      negotiates US Middle East policy while soliciting $5 billion from the same sovereign wealth funds.
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: '"Donating his time for world peace" framing coexists with $5 billion fundraising from diplomatic counterparties.
+      The appearance of public service and the function of private capital accumulation provide mutual cover.'
+  - pattern: wealth_defense_industry
+    status: observed
+    variant: access-monetisation vehicle
+    note: Affinity Partners collects $157 million in fees ($87 million from Saudi PIF) at above-market rates with zero investment
+      returns. The firm functions as a mechanism for converting political access into capital flows, not as an investment
+      vehicle.
+  - pattern: capture_pipeline
+    status: inferred
+    variant: collapsed variant — no temporal separation
+    note: 'Conventional revolving door involves temporal gap between government and private sector. Kushner eliminates the
+      gap: government role and capital-raising role operate concurrently with the same counterparties. All pipeline stages
+      collapsed into a single concurrent role.'
+  - pattern: division_of_learning
+    status: inferred
+    variant: null
+    note: Kushner possesses classified diplomatic intelligence and commercial knowledge simultaneously. No oversight mechanism
+      monitors the boundary between what he knows as envoy and what he discusses as fund manager. The dual role makes the
+      distinction unenforceable.
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: 'Affinity''s stated purpose is investment management. Documented function: zero returns, above-market fees ($157
+      million), screening panel overridden, first-refusal clause granting Saudi gatekeeper role. Investment firm that does
+      not invest; fee-collection vehicle for access payments.'
+  - pattern: formal_transformation_structural_continuity
+    status: inferred
+    variant: null
+    note: The revolving door (a form requiring temporal separation) has been formally eliminated. The structural function
+      (converting government access into capital) continues and intensifies — the extraction is more direct without the temporal
+      gap.
+  findings_count: 11
+  commit: null
+  domain_text: Conflicts of interest / sovereign wealth / diplomatic capture / Middle East policy
+  layers_text: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory
+    (active but absent), Physical & Coercive (active but absent)
+  null_case_text: plausible (LOW-MEDIUM — commercial-merit explanation undermined by zero returns, above-market fees, screening
+    panel override, $157M in fees from diplomatic counterparties)
+  hegemonic_contexts:
+  - market_capitalism
+  - national_security_state
+- id: 2026-03-14-cra-policybrief-great-replacement-theory-practice
+  file: analyses/2026-03-14-cra-policybrief-great-replacement-theory-practice.md
+  date: '2026-03-14'
+  time: ~01:30 UTC
+  source_date: null
+  title: '"The Great Replacement in Theory and Practice" — ideological policy production (CRA)'
+  source_name: Center for Renewing America
+  source_type: policy_brief
+  position:
+  - 1
+  position_note: ruler/operator — former Trump OMB Director's organisation producing governing blueprints
+  url: https://americarenewing.com/issues/policy-brief-the-great-replacement-in-theory-and-practice/
+  domain:
+  - politics
+  - immigration
+  - ideology
+  layers_primary:
+  - thought_narrative
+  layers_secondary:
+  - legal_regulatory
+  - institutional
+  - economic
+  - surveillance_information
+  layers_absent:
+  - physical_coercive
+  null_case: plausible
+  null_case_level: MEDIUM for policy recommendations; LOW for analytical apparatus (celebration parallax, Marxism connection,
+    threat framing, racial re-encoding)
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents institutional-centre "conspiracy theory" framing which accurately describes white-nationalist
+    version but may obscure the policy-laundering mechanism. May also underweight genuine anxieties about demographic change
+    in affected communities.
+  cross_references:
+  - 2026-03-02-wikipedia-article-operation-metro-surge
+  - 2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters
+  - 2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: Immigration reframed from administrative regulation to civilisational attack on the republic. Enforcement thereby
+      inverted from administration to defence. The brief converts a policy question into an existential-threat assessment.
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: Immigration constructed as permanent existential threat to the republic. The threat is structurally permanent because
+      the demographic trends the brief cites are ongoing and the legal architecture continuously produces unauthorized status.
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: formal deracialisation as operating environment
+    note: Brief substitutes "citizenship" for race — "tethered to the American founding" vs. "from faraway countries." Creates
+      formally race-neutral surface that functions as operating environment for racially differential policy advocacy.
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: Explicit transformation of Great Replacement from racial conspiracy theory to civic/cultural concern. The racial
+      category is formally eliminated; the structural claim (demographic change as threat, immigration as weapon) persists
+      unchanged.
+  - pattern: structural_demand_for_propaganda
+    status: inferred
+    variant: null
+    note: 'The brief demonstrates the demand side: a population anxious about demographic change needs a framework making
+      their anxiety legitimate and actionable. The brief supplies the policy-ready version. Demand precedes supply.'
+  - pattern: real_time_narrative_saturation
+    status: inferred
+    variant: null
+    note: The brief contributes to a narrative environment where the replacement frame is continuously present — 1,411 Congressional
+      social media posts per search data, plus media coverage, plus policy briefs. Saturation normalises the frame.
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: If the replacement frame normalises within policy institutions, enforcement personnel will anticipate the direction
+      and self-adjust before explicit orders. The narrative creates conditions for anticipatory enforcement escalation.
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: null
+    note: Brief advocates restricting legal immigration pathways. García Hernández documents how pathway scarcity produces
+      unauthorized status by design. The brief advocates the scarcity that produces the "illegal" population it then cites
+      as evidence of replacement — a self-reinforcing cycle.
+  findings_count: 10
+  commit: null
+  domain_text: Ideological policy production / Great Replacement theory / immigration / demographic politics
+  layers_text: Thought & Narrative (primary), Legal & Regulatory, Institutional, Economic, Surveillance & Information, Physical
+    & Coercive (active but absent)
+  null_case_text: plausible (MEDIUM for policy recommendations in isolation; LOW for analytical apparatus — celebration parallax,
+    Marxism connection, existential-threat framing, and racial re-encoding are a specific laundering technique, not conventional
+    policy argument)
+  hegemonic_contexts:
+  - nation_state_sovereignty
+  - western_liberal_democracy

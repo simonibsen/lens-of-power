@@ -10,7 +10,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM, SUGGEST, SAMPLE modes)
 - `patterns/INDEX.md` — Compact pattern lookup table (always loaded; generated from YAML)
 - `patterns/` — Individual pattern files with full evidence trails (loaded selectively)
-- `circumventions.md` — Observed responses to power concentration (always loaded)
+- `circumventions.md` — Observed responses to power concentration at two levels: structural (within-frame) and hegemonic (frame-level) (always loaded)
 - `circumventions-detail.md` — Full evidence trails per circumvention (loaded for audits)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
 - `principles/INDEX.md` — Compact principles lookup table (always loaded; generated from YAML)
@@ -24,7 +24,8 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `data/principles.yaml` — Extracted principle sources
 - `data/calibration.yaml` — SAMPLE mode calibration tracking log
 - `data/sample-pool.yaml` — Source pool for SAMPLE mode randomization
-- `data/config.yaml` — Shared enumerations, thresholds, and domain definitions
+- `data/config.yaml` — Shared enumerations, thresholds, domain definitions, and hegemonic contexts
+- `data/circumventions.yaml` — Circumvention types (structural + hegemonic) with observed instances
 - `evidence/` — Concrete facts, data, cases that ground the framework
 - `analyses/INDEX.md` — Analysis registry (generated from YAML)
 - `analyses/` — Applied analyses of specific material
@@ -60,13 +61,14 @@ files when detailed evidence trails or deep source comparison is needed.
 - Patterns use the format defined in `patterns/INDEX.md` and individual `patterns/*.md` files
 - Instruments use the format defined in the EXTRACT mode Step 4 of `methodology.md`
 - Sources use the provenance format defined in the Source provenance section of `methodology.md`
-- Maintain integrity constraints (IC-1, IC-2, IC-3, IC-4) as defined in `constitution.md`
+- Maintain integrity constraints (IC-1 through IC-7) as defined in `constitution.md`
 - IC-1: Every axiom must be falsifiable. Flag contradicting evidence, do not suppress it.
 - IC-2: Every analysis must consider the null case (non-power explanation).
 - IC-3: Periodically red-team the framework itself.
 - IC-4: Keep the framework up to date. Update patterns, evidence, taxonomy, README after each analysis.
 - IC-5: The LLM is a biased instrument. Flag when training data likely overrepresents a perspective. Name blind spots. Do not hedge to appear balanced when evidence is not balanced.
 - IC-6: All tooling must have automated tests. Write tests before or alongside code, never after. Run with `python3 -m pytest tests/ -v`.
+- IC-7: Hegemonic complicity. The framework operates within the hegemonic order it studies. Name the framework's position rather than implying it stands outside it. Every analysis includes a hegemonic context (Step 0: CONTEXT) naming the background assumptions shared by the material and the analyst, and the forces that maintain them.
 
 ## Branching
 
@@ -97,7 +99,12 @@ Do not hand-edit INDEX.md files — edit the YAML and regenerate.
 
 The viewer has three top-level nav items: Dashboard (landing page with
 integrity bar, corpus stats, recent analyses, works studied, layer
-coverage), Gap Analysis (framework health metrics and blind spots),
-and a Visualizations dropdown (Force Graph, Layer Deep Dive,
+coverage, circumventions by tier, hegemonic context distribution),
+Gap Analysis (framework health metrics, blind spots, hegemonic context
+coverage), and a Visualizations dropdown (Force Graph, Layer Deep Dive,
 Corroboration Matrix, Timeline, Layer Flow, Principle Lineage).
-Clicking any item in the sidebar opens a detail view.
+
+The sidebar groups items by type: Analyses, Principles, Instruments,
+Patterns, Circumventions (structural in teal, hegemonic in amber),
+Hegemonic Contexts, Evidence, and Red Team. Clicking any item opens
+a detail view.

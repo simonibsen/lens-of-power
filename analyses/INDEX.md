@@ -239,3 +239,75 @@
   IC-5 flag: Training data overrepresents US institutional perspective on intelligence assessments; Iranian civilian experience and government perspective absent
   Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`, `2026-03-10-guardian-article-north-korea-nuclear-iran-war.md`, `2026-03-11-zeteo-speech-roy-iran-india-running-dog.md`
   File: `2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md`
+
+### 2026-01 — NTSB DCA investigation: where stated purpose matches actual function — an Axiom 7 test
+  Domain: Aviation safety / institutional oversight / political narrative
+  Layers: Institutional (primary), Legal & Regulatory (primary), Thought & Narrative, Surveillance & Information, Physical & Coercive, Economic
+  Null case: accepted (MEDIUM-HIGH at investigation level; MEDIUM at institutional-political level — first organic null-case-accepted)
+  Adversarial input: yes
+  IC-5 flag: Training data likely overrepresents technocratic perspective on aviation safety institutions; victim families (position 2) absent
+  Cross-references: `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`
+  File: `2026-01-ntsb-report-dca-midair-collision-potomac.md`
+
+### 2025-10-28 — Oak Park Public Library board meeting: routine library governance (October 2025)
+  Domain: Local library governance / municipal budgeting
+  Layers: Institutional (primary), Economic, Legal & Regulatory
+  Null case: accepted (HIGH — routine library governance through established democratic procedures)
+  Adversarial input: yes
+  IC-5 flag: Training data heavily represents institutional documentation; procedural format may bias toward accepting self-documentation at face value
+  File: `2025-oppl-govminutes-library-board-meeting.md`
+
+### 2024-01 — AI deepfakes in elections: an Axiom 4 test — is the mechanism novel?
+  Domain: AI / elections / political disinformation (US and Slovakia)
+  Layers: Thought & Narrative (primary), Surveillance & Information (primary), Institutional, Legal & Regulatory
+  Null case: plausible (MEDIUM — individual bad actors viable; structural pattern recognition adds value)
+  Adversarial input: yes
+  IC-5 flag: Training data likely overrepresents Western liberal-democratic framing of election integrity; may underweight how synthetic media interacts with non-Western information environments
+  File: `2024-multi-article-ai-deepfake-election-interference.md`
+
+### 2026-03-08 — Swiss broadcasting referendum: direct democracy defends public media — but the ratchet operates anyway
+  Domain: Swiss media policy / direct democracy / public broadcasting funding
+  Layers: Thought & Narrative (primary), Institutional (primary), Economic, Legal & Regulatory
+  Null case: plausible (MEDIUM — democratic deliberation viable; structural pattern recognition adds depth)
+  IC-5 flag: Training data likely overrepresents Western liberal consensus that public broadcasting is a democratic good; may underweight libertarian or market-fundamentalist critiques of state-funded media
+  File: `2026-03-multi-article-swiss-broadcasting-referendum.md`
+
+###  — NCSL youth soccer board meeting: routine voluntary governance
+  Domain: Youth sports governance
+  Layers: Institutional
+  Null case: accepted (HIGH — routine voluntary civic governance)
+  Adversarial input: yes — Deliberately selected as null-case-likely material to test adversarial input rate (target 20%)
+  IC-5 flag: No IC-5 concerns
+  File: `2021-ncsl-boardminutes-youth-soccer-league.md`
+
+### 2026-03-13 — "No clear goal" — lack of Iran war plan unleashes chaos (Guardian)
+  Domain: US foreign policy / military / institutional dismantlement / war planning
+  Layers: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Economic, Legal & Regulatory (active but absent), Surveillance & Information (active but absent)
+  Null case: plausible (MEDIUM at component level; MEDIUM-LOW at configurational level — specific sequence of institutional dismantlement → closed circle → serial goal-shifting → cascading consequences not explained by war's inherent unpredictability)
+  IC-5 flag: Training data overrepresents US institutional perspective on war planning; all five sources from DC foreign policy establishment (Brookings, AEI, Washington Institute, former Pentagon/NSC, Defense Priorities); Iranian civilian/government perspective absent
+  Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-06-dsa-article-thaad-radar-strike-jordan.md`, `2026-03-10-guardian-article-north-korea-nuclear-iran-war.md`, `2026-03-11-zeteo-speech-roy-iran-india-running-dog.md`, `2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md`
+  File: `2026-03-13-guardian-article-iran-war-no-clear-goal.md`
+
+### 2026-03-13 — Anti-ICE protesters convicted of terrorism support — first "antifa terror cell" prosecution
+  Domain: Civil liberties / domestic terrorism prosecution / First Amendment / political dissent
+  Layers: Legal & Regulatory (primary), Thought & Narrative (primary), Institutional (primary), Surveillance & Information, Physical & Coercive, Economic (active but absent)
+  Null case: plausible (MEDIUM for Song's individual prosecution; LOW-MEDIUM for non-shooter defendants' terrorism convictions — gap between legal mechanism and political framing not explained by null case)
+  IC-5 flag: Training data overrepresents institutional-legal perspective treating terrorism statutes as neutral instruments; defendants' direct voices absent; detained population at Prairieland entirely absent
+  Cross-references: `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`, `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-03-02-guardian-liveblog-iran-war-powers-domestic.md`
+  File: `2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters.md`
+
+### 2026-03-13 — Kushner solicits $5 billion for Affinity Partners while serving as Middle East envoy
+  Domain: Conflicts of interest / sovereign wealth / diplomatic capture / Middle East policy
+  Layers: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory (active but absent), Physical & Coercive (active but absent)
+  Null case: plausible (LOW-MEDIUM — commercial-merit explanation undermined by zero returns, above-market fees, screening panel override, $157M in fees from diplomatic counterparties)
+  IC-5 flag: Training data overrepresents normalisation of revolving door; populations affected by Kushner's negotiations (Palestinians, Iranians, Yemenis, Saudi citizens) absent
+  Cross-references: `2026-03-06-propublica-database-trump-financial-disclosures.md`, `2026-03-05-dreydossier-policybrief-oracle-layer-paramount-wbd.md`
+  File: `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`
+
+### 2026-03-14 — "The Great Replacement in Theory and Practice" — ideological policy production (CRA)
+  Domain: Ideological policy production / Great Replacement theory / immigration / demographic politics
+  Layers: Thought & Narrative (primary), Legal & Regulatory, Institutional, Economic, Surveillance & Information, Physical & Coercive (active but absent)
+  Null case: plausible (MEDIUM for policy recommendations in isolation; LOW for analytical apparatus — celebration parallax, Marxism connection, existential-threat framing, and racial re-encoding are a specific laundering technique, not conventional policy argument)
+  IC-5 flag: Training data overrepresents institutional-centre "conspiracy theory" framing which accurately describes white-nationalist version but may obscure the policy-laundering mechanism. May also underweight genuine anxieties about demographic change in affected communities.
+  Cross-references: `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
+  File: `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`

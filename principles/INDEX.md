@@ -211,3 +211,66 @@ LAYERS: All six (Surveillance & Information, Thought & Narrative, Physical & Coe
 KEY PATTERNS: Constitutive Violence, Formal Transformation/Structural Continuity, The Boomerang, The Division of Learning, Categorical Blindness, The Hidden Transcript, The Compliance Gradient, Appearance as Structural Terrain, Inversion of Stated Purpose
 IC-1 FLAGS: Axiom 3 (black luminosity — fifth mode of invisible power: forced visibility of the surveilled), Axiom 8 (absented presence — absence as constitutive, not merely significant), Axiom 10 (dark sousveillance confirms understanding-as-resistance as conditional)
 INSTRUMENT PROPOSED: Racializing Surveillance Detection Protocol (partial — needs Benjamin, Eubanks, Noble), Critical Biometric Consciousness Checklist (partial — needs engineering sources)
+
+## terkel-working.md
+SOURCE: Studs Terkel, *Working: People Talk About What They Do All Day and How They Feel About What They Do* (1974)
+POSITION: 2 (the governed — 133 American workers speaking in their own voices)
+SOURCE TYPE: training_data
+PRINCIPLES: 8 — The Worker's Structural Consciousness (workers develop accurate structural understanding through daily experience, expressed in vernacular language), Dignity as the Primary Terrain of Workplace Struggle (central conflict is recognition as human, not wages), The Body as Site of Extraction (physical toll is the most direct form of economic extraction), The Cost of Refusal (compliance is rational response to structurally constrained choice set, not consent), Vernacular Resistance and the Workplace Hidden Transcript (slowdowns, humor, sabotage, gossip, craft pride), Surveillance from Below (workers develop counter-surveillance knowledge of monitoring apparatus), The Alienation Architecture (task fragmentation as control mechanism producing meaning-scarcity), Self-Narration as Counter-Knowledge (telling one's own story as resistance against institutional narrative)
+LAYERS: All six (Economic, Thought & Narrative primary)
+KEY PATTERNS: Hidden Transcript, Compliance Gradient, Double Performance, Moral Infrastructure of Economic Power, Manufactured Scarcity, Division of Learning, Appearance as Structural Terrain
+IC-1 FLAGS: Axiom 9 (Workers are not unaware of mechanisms producing conformity. They see dependency, name it, comply because cost of refusal is prohibitive. Coercion is visible — operates through economic dependency not concealment. Axiom 9 may overstate invisibility in workplace compliance.), Axiom 10 (Workers understand with precision but understanding does not liberate. Takes effect only when reaching audience (Terkel) or organized collectively (Lordstown). Position 2 understanding often structurally complete but operationally inert.)
+
+## desmond-evicted.md
+SOURCE: Matthew Desmond, *Evicted: Poverty and Profit in the American City* (2016)
+POSITION: 2 (the governed — tenants facing eviction in Milwaukee, mediated by ethnographer)
+SOURCE TYPE: training_data
+PRINCIPLES: 7 — Profit Extraction from Poverty, Eviction as Cascading Structural Failure, The Tenant Screening Database as Structural Memory, Exploitation of the Obligation to Shelter, Stigma as Structural Enforcement, The Landlord as Position 1 Actor, The Court as Ratification Mechanism
+LAYERS: All six (Economic, Legal & Regulatory primary)
+KEY PATTERNS: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence
+IC-1 FLAGS: Axiom 9 (Tenants comply not because coercion is invisible but because alternative (homelessness) is prohibitive. Eviction threat is explicit. Power asymmetry is visible. Extends Terkel Axiom 9 complication from workplace to housing.), Axiom 10 (Tenants understand structural position — see exploitation, name landlord incentives, recognize court function. Understanding does not produce resistance because they lack leverage. Extends Terkel Axiom 10 complication to housing.)
+
+## ehrenreich-nickel-and-dimed.md
+SOURCE: Barbara Ehrenreich, *Nickel and Dimed* (2001)
+POSITION: 2/5 (hybrid — journalist living as low-wage worker, with exit option that actual workers lack)
+SOURCE TYPE: training_data
+PRINCIPLES: 6 — The Arithmetic of Structural Impossibility, Entry Conditions as Pre-Defeat, Workplace Surveillance as Class-Specific, The Mythology of Meritocracy as Structural Enforcement, Physical Degradation as Normal Operating Cost, The Anti-Union Architecture
+LAYERS: Economic, Institutional, Thought & Narrative, Physical & Coercive, Surveillance & Information
+KEY PATTERNS: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Anticipatory Obedience
+IC-1 FLAGS: Axiom 9 (Low-wage workers see the coercion clearly — insufficient wages, surveillance, power asymmetry. They comply because the cost of refusal (unemployment, homelessness) is prohibitive, not because coercion is concealed. Third independent Position 2 confirmation across third domain (low-wage service work).), Axiom 10 (Workers understand their structural position but cannot act on that understanding. They lack leverage. The anti-union architecture specifically prevents formation of collective leverage. Third independent Position 2 confirmation across third domain.)
+
+## deleon-land-of-open-graves.md
+SOURCE: Jason De León, *The Land of Open Graves* (2015)
+POSITION: 2/5 (hybrid — anthropologist/ethnographer with participant-observer proximity)
+SOURCE TYPE: training_data
+PRINCIPLES: 6 — Prevention Through Deterrence as Structural Violence, Necroviolence, Hostile Terrain as Delegated Violence, The Spectacle of Enforcement vs. the Architecture of Death, The Body as Evidence and Its Erasure, Migrant Agency Within Lethal Constraint
+LAYERS: Physical & Coercive (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory, Economic, Institutional
+KEY PATTERNS: Inversion of Stated Purpose, Appearance as Structural Terrain, Constitutive Violence, Economy of Violence, Hidden Transcript, Compliance Gradient, Division of Learning, Layered Redundancy of Control
+IC-1 FLAGS: Axiom 7 (Strongest corroboration in corpus — PTD is a policy whose stated purpose (deterrence/border security) diverges definitionally from its structural function (producing death through environmental delegation).), Axiom 8 (Extends from "absence is significant" to "absence is actively manufactured." Necroviolence destroys evidence (bodies) connecting policy to death. Physical complement to Browne's constitutive absence.), Axiom 9 (Migrants see coercion clearly and cross anyway because the alternative is worse. Fourth independent Position 2/hybrid confirmation across fourth domain (border crossing).)
+
+## garcia-hernandez-migrating-to-prison.md
+SOURCE: César Cuauhtémoc García Hernández, *Migrating to Prison* (2019)
+POSITION: 5 (legal scholar with community proximity)
+SOURCE TYPE: training_data
+PRINCIPLES: 6 — The Historical Contingency of Immigration Crime, Crimmigration: The Hybrid Legal Architecture, The Detention-Industrial Complex, The Impossibility of Compliance, Detention as Default, The Racial Architecture of Immigration Law
+LAYERS: Legal & Regulatory (primary), Economic, Institutional, Physical & Coercive, Thought & Narrative
+KEY PATTERNS: Inversion of Stated Purpose, Manufactured Scarcity as Control, Perpetual Threat as Perpetual Justification, Constitutive Violence, Compliance Gradient, Formal Transformation/Structural Continuity, Appearance as Structural Terrain, Capture Pipeline, Wealth Defense Industry
+IC-1 FLAGS: Axiom 6 (The term "illegal alien" preceded and enabled the enforcement architecture. Linguistic shift from "immigrant" to "illegal" was the first step in criminalization. Language created the category; law followed.), Axiom 7 (Immigration law's stated purpose (managing migration) diverges from function (producing rightless people). Criminalization of border crossing is a policy choice, not a natural law.), Axiom 4 (Criminalization of migration parallels vagrancy laws, pass laws, fugitive slave laws — all criminalized movement by specific populations to maintain labor control. Mechanism consistent; target population changes.)
+
+## fisher-capitalist-realism.md
+SOURCE: Mark Fisher, *Capitalist Realism* (2009)
+POSITION: 3/5 (hybrid — cultural theorist/structural critic with institutional Position 2 proximity)
+SOURCE TYPE: primary_document
+PRINCIPLES: 8 — Hegemonic Realism (The Atmosphere Principle), Precorporation (Pre-Emptive Absorption of Dissent), Reflexive Impotence (Knowledge as Paralysis), The Privatisation of Systemic Costs, Market Stalinism (Representation Displacing Reality), The Big Other (Constitutive Ignorance), Centerlessness (Impersonal Structure as Accountability Shield), Hegemonic Dreamwork (Confabulation as Systemic Maintenance)
+LAYERS: Thought & Narrative (primary), Institutional, Economic, Surveillance & Information
+KEY PATTERNS: Appearance as Structural Terrain, Structural Demand for Propaganda, Real-Time Narrative Saturation, Inversion of Stated Purpose, Anticipatory Obedience, Division of Learning, Compliance Gradient, Manufactured Scarcity, Double Performance
+IC-1 FLAGS: Axiom 3 (Hegemonic realism as potential fifth mode: contingency not merely invisible but ontologically excluded. The system does not conceal alternatives; it makes the concept of "alternative" incoherent. Beyond hidden mechanism, hidden contingency, prohibitive cost, or degraded perception.), Axiom 9 (Reflexive impotence: compliance manufactured through foreclosure of effective action, distinct from prohibitive cost (Terkel/Desmond/Ehrenreich) or concealed coercion (axiom's current framing). Subjects see the coercion, understand it, comply because the imaginative space for non-compliance has been closed.), Axiom 10 (Strongest challenge in the corpus. Understanding does not resist under conditions of hegemonic realism; it produces acquiescence. Knowledge of injustice becomes the mechanism of compliance. Goes beyond existing complications (Arendt, Ellul, Stanley, Browne) to argue understanding is structurally impotent under mature hegemonic conditions.)
+
+## gramsci-prison-notebooks.md
+SOURCE: Antonio Gramsci, *Selections from the Prison Notebooks* (1971; written 1929-1935)
+POSITION: 3 (revolutionary — imprisoned Communist Party leader)
+SOURCE TYPE: primary_document
+PRINCIPLES: 8 — The Dual Architecture of Dominance: Consent + Coercion, Common Sense as Invisible Infrastructure, The Organic Intellectual Personnel System, Passive Revolution: The Absorption of Challenges, The Asymmetry of Institutional Response Time, Civil Society as Deep Defence: The Fortresses-and-Earthworks Principle, The Three-Level Analysis of Force Relations, The Generational Timescale of Hegemonic Construction
+LAYERS: All six (Thought & Narrative and Institutional primary)
+KEY PATTERNS: Appearance as Structural Terrain, Formal Transformation/Structural Continuity, Institutional Abdication, Anticipatory Obedience, Middle Stratum Trap, Layered Redundancy of Control, Capture Pipeline, Double Performance
+IC-1 FLAGS: Axiom 3 (Common sense as a fifth mode of invisible power: the background ontology that determines the thinkable. Not a hidden mechanism (the institutions are visible), not degraded perception (the subjects perceive accurately within the frame), but a frame so deeply sedimented across generations that it is experienced as reality itself.), Axiom 5 (Complicates: durable power concentration requires genuine concession to subordinate groups. The hegemonic group's interests prevail but only up to a certain point — real coordination with subordinate interests is necessary. The axiom's directive ("at whose expense?") may miss cases where expense is distributed across society while accumulation benefits the dominant disproportionately but not exclusively.), Axiom 10 (Specifies the conditions: understanding resists only when organised through institutional infrastructure (alternative personnel system) and sustained across generational timescales (war of position). Understanding without institutional organisation is structurally impotent. This defines when Axiom 10 holds and when it fails.)

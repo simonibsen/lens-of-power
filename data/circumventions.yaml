@@ -1,15 +1,3 @@
-# ============================================================================
-# circumventions.yaml — Observed responses to power concentration
-# ============================================================================
-#
-# Each entry is a circumvention type. Prose (statement, mechanism, outcome
-# range, failure modes) stays in circumventions.md / circumventions-detail.md.
-# This YAML captures the structural relationships.
-#
-# observed_in uses source IDs (not file paths) for consistency with other
-# YAML files. source_type indicates whether the source is a principle or
-# analysis.
-
 entries:
 - id: transparency_naming
   name: Transparency / Naming
@@ -40,6 +28,7 @@ entries:
     note: 'TBIJ Portland investigation (2026): Naming PR firm''s Wikipedia manipulation disrupted the mechanism''s operation
       by making the concealed information campaign visible. AI amplification variant documented: the naming also exposed how
       manipulated Wikipedia entries propagated through AI training data.'
+  tier: structural
 - id: legal_challenge
   name: Legal Challenge
   layers:
@@ -58,6 +47,7 @@ entries:
     source_type: analysis
     note: 'Santa Barbara City Council analysis (2018): Crime Victims'' Rights Act (CVRA) invoked as statutory basis for legal
       challenge to prosecutorial discretion — formal legal mechanism applied to contest institutional power arrangement.'
+  tier: structural
 - id: collective_action
   name: Collective Action
   layers:
@@ -78,6 +68,7 @@ entries:
     note: 'COINTELPRO specifically targeted collective action — the program''s operational logic treated organized collective
       resistance as the primary threat requiring disruption. The inverse case documents the power response: infiltration,
       leadership discrediting, organizational fracturing.'
+  tier: structural
 - id: institutional_reform
   name: Institutional Reform
   layers:
@@ -97,6 +88,7 @@ entries:
     note: 'Snyder documents institutional resistance as the first line of defense — institutions must be actively defended
       by those within them. The inverse: institutional abdication occurs when individuals calculate that compliance is safer
       than institutional defense.'
+  tier: structural
 - id: cultural_production
   name: Cultural Production
   layers:
@@ -121,6 +113,7 @@ entries:
     note: Scott documents oral culture — gossip, songs, folktales, jokes — as the medium through which the hidden transcript
       is preserved and transmitted. Not "high" cultural production but everyday cultural practice serving the same structural
       function.
+  tier: structural
 - id: everyday_resistance
   name: Everyday Resistance
   layers:
@@ -144,6 +137,7 @@ entries:
     note: Mississippi Delta African Americans practiced everyday resistance under Jim Crow — work slowdowns, migration as
       resistance, maintenance of autonomous social institutions within the constraints of the system. The hidden transcript
       operated continuously beneath the public performance of compliance.
+  tier: structural
 - id: economic_alternative
   name: Economic Alternative
   layers:
@@ -163,6 +157,7 @@ entries:
     note: Piketty documents progressive taxation and social insurance as institutional economic alternatives to unchecked
       accumulation. The Scandinavian social democratic model represents the most sustained modern example of institutional
       constraint on the peacetime ratchet. Counter-evidence to pure catast...
+  tier: structural
 - id: electoral_democratic
   name: Electoral / Democratic
   layers:
@@ -182,6 +177,7 @@ entries:
     note: 'Santa Barbara City Council analysis (2018): Local democratic process applied to criminal justice accountability
       — city council as venue for democratic contestation of prosecutorial power. Null case accepted: non-power explanation
       (routine procedural matter) was plausible.'
+  tier: structural
 - id: international_pressure
   name: International Pressure
   layers:
@@ -196,6 +192,7 @@ entries:
     note: Alley documents international accountability mechanisms (sanctions, anti-money-laundering regimes, ICC proceedings)
       as contested terrain — formally designed to constrain transnational kleptocracy, but observed to be unevenly applied
       and frequently circumvented through the wealth defense industry....
+  tier: structural
 - id: catastrophic_leveling
   name: Catastrophic Leveling
   layers:
@@ -214,3 +211,54 @@ entries:
     note: Counter-evidence from jubilee tradition (Graeber) and Scandinavian social democracy (Piketty) suggests non-catastrophic
       alternatives may exist, though at smaller scale and with uncertain durability. The IC-1 flag on Compression Through
       Destruction applies here as well.
+  tier: structural
+- id: counter_hegemonic_construction
+  name: Counter-Hegemonic Construction
+  layers:
+  - thought_narrative
+  - institutional
+  - economic
+  counteracts:
+  - hegemonic_naturalisation
+  observed_in:
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    note: Gramsci's war of position — the slow, deliberate construction of alternative institutions, alternative intellectual
+      personnel, and alternative common sense within the existing order. Operates at the civilisational timescale through
+      molecular changes in institutional practice, educational content, and cultural production. The counter-hegemonic project
+      builds the institutional infrastructure required for understanding to take effect (Axiom 10 condition).
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    note: 'Fisher identifies the precondition: capitalist realism forecloses the imagination of alternatives. Counter-hegemonic
+      construction must first re-open the thinkable before it can build alternative institutions. Fisher''s analysis of the
+      failure of existing oppositional forms (interpassivity, gestural anti-capitalism) specifies what counter-hegemonic construction
+      must avoid.'
+  - source_id: fanon-wretched-of-the-earth
+    source_type: principle
+    note: Fanon's third phase of cultural resistance (synthesis) is the cultural dimension of counter-hegemonic construction
+      — a forward-looking culture forged in struggle rather than nostalgic return or imitation. National consciousness requires
+      education and institutional elaboration to avoid collapsing into chauvinism.
+  tier: hegemonic
+- id: hegemonic_rupture
+  name: Hegemonic Rupture
+  layers:
+  - thought_narrative
+  - economic
+  - institutional
+  - physical_coercive
+  counteracts:
+  - hegemonic_naturalisation
+  observed_in:
+  - source_id: gramsci-prison-notebooks
+    source_type: principle
+    note: Gramsci's organic crisis — when the ruling group fails in a major undertaking or huge masses pass suddenly from
+      passivity to activity. The crisis of hegemony creates an opening, but the ruling class's asymmetry of institutional
+      response time means it typically reabsorbs control faster than challengers organise. Rupture without pre-existing counter-hegemonic
+      infrastructure produces Caesarism, not transformation.
+  - source_id: fisher-capitalist-realism
+    source_type: principle
+    note: Fisher identifies the "intrusions of the Real" — moments when capitalist realism's suppressed contradictions (environmental
+      catastrophe, mental health crisis) break through the system's capacity to contain them. The 2008 financial crisis briefly
+      suspended "there is no alternative" but the system reconstructed itself through narrative management and institutional
+      response.
+  tier: hegemonic

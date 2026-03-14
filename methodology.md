@@ -70,6 +70,10 @@ updates. Does not write to file unless the user asks.
 
 2. Read the material. Produce a prose analysis that:
 
+   - Names the hegemonic context: what background assumptions does this
+     material operate within, and does the analyst share them? (IC-7;
+     1-2 sentences, integrated into the prose rather than as a separate
+     field. Name maintaining forces briefly where identifiable.)
    - Identifies which layers of power are active and how they interact
    - Names which patterns from `patterns/INDEX.md` appear and why
    - Draws on principles from `principles/INDEX.md` where they illuminate
@@ -307,6 +311,70 @@ column never reads "accepted" or "plausible," that is itself a finding
 about the framework's health. The ratio should be tightened if the
 accepted count drops back to zero over any 10-analysis window.
 
+### Step 0: CONTEXT
+
+Name the hegemonic background within which this material and this
+analysis operate. This step is not analytical — it is positional. It
+tells the reader where the analysis stands, not what the analysis found.
+It exists because IC-7 requires the framework to name its own position
+within the hegemonic order rather than implying it stands outside it.
+
+**Do this**:
+- What does this material treat as natural, inevitable, or outside the
+  scope of debate? Name the background assumptions — economic system,
+  political form, property regime, knowledge framework — that both the
+  source and the analyst share without stating.
+- Who or what actively maintains this background? Identify three types
+  of maintaining forces:
+  - **Architects**: Actors who consciously construct and defend the
+    hegemonic arrangement across generational timescales. Name specific
+    documented projects where the framework's corpus provides them
+    (e.g., Powell Memo, Project 2025, Mont Pelerin Society).
+  - **Structural reproducers**: Institutions that maintain the
+    background through their normal operation, without any individual
+    intending to maintain a power arrangement. Name the specific
+    institutional mechanisms (education, professional training, media
+    norms, financial criteria, legal precedent).
+  - **Feedback mechanisms**: How the hegemonic frame actively resists
+    challenge. Cross-reference the framework's existing patterns where
+    applicable (Passive Revolution, Precorporation, Wealth Defense
+    Industry, Asymmetry of Institutional Response Time).
+- What timescale does this background operate on? Name the generational
+  depth — how long has this arrangement been sedimented as common sense?
+
+**Output format**:
+```
+HEGEMONIC CONTEXT: [1-3 sentences naming the background assumptions
+  shared by the material and the analyst]
+MAINTAINING FORCES:
+  Architects: [named actors or projects, if identifiable]
+  Structural reproducers: [institutions operating normally]
+  Feedback mechanisms: [how challenges are absorbed — name patterns]
+```
+
+**Emergence detection**: After naming the background from the existing
+list in `data/config.yaml`, ask: "Is this material operating within a
+hegemonic context not yet named in the framework?" Signs of an unnamed
+context include:
+- The material treats something as natural that the framework has no
+  existing context for (e.g., "AI deployment is inevitable" may signal
+  an emerging "AI inevitability" context)
+- The material uses a vocabulary that forecloses alternatives in a domain
+  the existing contexts do not cover
+- The analyst notices that every recent analysis shares an assumption
+  that has never been articulated as a hegemonic context
+
+If a new context is identified, propose it for addition to `config.yaml`
+with an ID, name, and description following the existing format. New
+contexts are how the framework evolves — what is doxic (unquestioned)
+changes over time, and the framework must track those changes.
+
+This step precedes DECOMPOSE because the hegemonic context shapes what
+the analyst can see in the decomposition. Naming the context first does
+not solve the problem — the analysis still operates within it — but it
+makes the context visible to the reader, which is what the framework
+exists to do.
+
 ### Step 1: DECOMPOSE
 
 Strip the material to its bare claims. Remove rhetoric, emotional framing,
@@ -520,7 +588,9 @@ IMPLICATIONS: [what follows from this analysis]
 WATCH: [what to monitor going forward]
 INVESTIGATE: [threads worth pulling]
 FRAMEWORK UPDATE: [any additions to patterns/ or refinements to suggest]
-CIRCUMVENTIONS: [any circumvention types observed — type, outcome, failure modes]
+CIRCUMVENTIONS:
+  Structural: [circumvention types operating within the hegemonic frame — type, outcome, failure modes]
+  Hegemonic: [circumventions contesting the frame itself — what alternative institutions or common sense would be needed]
 MADE VISIBLE: [what this analysis reveals that was previously hidden]
 ```
 
@@ -553,6 +623,16 @@ FRAMEWORK STATE: [N patterns, N principles, N instruments (commit SHORT_HASH)]
 
 ---
 
+## Hegemonic context
+
+[1-3 sentences naming the background assumptions shared by the material
+and the analyst — what is treated as natural, inevitable, or outside
+the scope of debate. Then name the maintaining forces: architects
+(deliberate multi-generational projects), structural reproducers
+(institutions operating normally), and feedback mechanisms (how
+challenges are absorbed). Cross-reference framework patterns where
+applicable. See IC-7 and Step 0: CONTEXT.]
+
 ## Narrative
 
 [3-6 paragraphs. Prose summary of what the structural analysis found.
@@ -579,16 +659,40 @@ Include specific, monitorable watch items — each should be falsifiable
 
 ## Circumventions
 
-[Which circumvention types from circumventions.md are relevant to the
-patterns identified in this analysis? For each: the circumvention type,
-how it applies to this specific case, and the outcome range (what has
-been observed to succeed, fail, or be captured). Use observational
-language per the circumvention register convention.
+Two subsections, corresponding to the two levels at which power operates
+and can be contested. Both are required.
 
-If no circumventions are relevant, state "None identified" rather than
-omitting the section. An analysis that identifies patterns of power
-concentration but does not consider what counterforces exist or have
-been tried is incomplete.]
+### Structural
+
+[Which structural circumvention types from circumventions.md are relevant
+to the patterns identified in this analysis? These operate within the
+existing hegemonic frame — using the system's own tools (law, elections,
+journalism, collective action) to contest specific outcomes. For each:
+the circumvention type, how it applies to this specific case, and the
+outcome range (what has been observed to succeed, fail, or be captured).
+Use observational language per the circumvention register convention.
+
+If no structural circumventions are relevant, state "None identified."]
+
+### Hegemonic
+
+[Which hegemonic circumventions from circumventions.md are relevant?
+These contest the frame itself — the background assumptions named in
+Step 0 (CONTEXT). For each: how it would operate at the civilisational
+level for the hegemonic context this analysis operates within. What
+alternative institutions, alternative common sense, or alternative
+intellectual personnel would be needed to contest the background
+assumptions? Has a hegemonic rupture occurred or is one foreseeable?
+
+This subsection connects directly to Step 0: the hegemonic context
+named there is what the hegemonic circumventions would address. The
+structural circumventions above contest what happens within the frame;
+this subsection considers what it would take to contest the frame itself.
+
+If the analysis operates within a background so naturalised that no
+hegemonic circumvention is identifiable, state that explicitly — the
+absence is itself a finding about the depth of the hegemonic
+arrangement.]
 
 ## Findings
 
@@ -617,6 +721,9 @@ analysis. This is a reference listing, not prose analysis.]
 > The structured steps below are the production process that produced
 > the analysis above. They exist for auditability and review (IC-3).
 > They are not intended for primary reading.
+
+### Step 0: CONTEXT
+[...]
 
 ### Step 1: DECOMPOSE
 [...]
@@ -1303,7 +1410,40 @@ SOURCE TYPE DISTRIBUTION:
   DOMINANT: [type, if one exceeds 50%]
 ```
 
-### Step 8: PRIORITIZED RECOMMENDATIONS
+### Step 8: HEGEMONIC CONTEXT GAPS
+
+Identify blind spots in the framework's hegemonic self-awareness (IC-7).
+
+**Do this**:
+- Read `data/config.yaml` for the hegemonic contexts list
+- Read `data/analyses.yaml` for each analysis's `hegemonic_contexts` tags
+- **Context distribution**: Count how many analyses tag each hegemonic
+  context. Identify contexts with zero analyses — these are the deepest
+  blind spots, backgrounds so naturalised that no material has brought
+  them into view.
+- **Context concentration**: If one context dominates (>50% of analyses),
+  the framework may be stuck in a single hegemonic frame. Flag it.
+- **Emergence detection**: Review the last 10 analyses for background
+  assumptions that are not captured by any existing context. If the
+  same unnamed assumption appears across multiple analyses, propose
+  a new hegemonic context for `config.yaml`.
+- **Untagged analyses**: Count analyses with no hegemonic context tags.
+  These predate IC-7 or were not tagged — they represent gaps in the
+  framework's self-awareness.
+
+**Output format**:
+```
+HEGEMONIC CONTEXT DISTRIBUTION:
+  [context name]: [count] analyses
+  ...
+ZERO-ANALYSIS CONTEXTS: [list — deepest blind spots]
+DOMINANT CONTEXT: [name, if >50% of analyses]
+UNTAGGED ANALYSES: [count]
+EMERGENCE CANDIDATES: [any unnamed assumption appearing across
+  multiple recent analyses — propose new context if identified]
+```
+
+### Step 9: PRIORITIZED RECOMMENDATIONS
 
 Synthesize all findings into an ordered list of actions.
 
@@ -1316,6 +1456,7 @@ Synthesize all findings into an ordered list of actions.
 6. Extract gaps (known material unextracted → knowledge left on table)
 7. Instrument gaps (proposed tools unbuilt → analytical capability missing)
 8. Coverage gaps (layer/perspective/type imbalance → blind spots)
+9. Hegemonic context gaps (zero-analysis contexts → deepest blind spots; concentration → stuck in one frame)
 
 **Each recommendation must be actionable**: name a specific source,
 material type, domain, or action — not a generic suggestion. Where

@@ -339,3 +339,146 @@ entries:
   - thought_narrative
   - institutional
   relationship: complicates
+- id: 2026-03-12-red-team-second-self-examination
+  file: evidence/2026-03-12-red-team-second-self-examination.md
+  title: Second framework self-examination (IC-3)
+  date_recorded: "2026-03-12"
+  source: Framework self-analysis — 36 analyses, 26 extractions, 32 patterns
+  source_url: null
+  evidence_source_type: self_examination
+  axioms: []
+  patterns: []
+  layers: []
+  relationship: self-examination
+- id: 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
+  file: evidence/2026-03-12-axiom-7-ntsb-stated-purpose-matches-function.md
+  title: 'Axiom 7 challenge: NTSB stated purpose matches actual function'
+  date_recorded: "2026-03-12"
+  source: NTSB, Midair Collision over the Potomac River (AIR-26-02)
+  source_url: https://www.ntsb.gov/investigations/Pages/DCA25MA108.aspx
+  evidence_source_type: case_study
+  axioms:
+  - 7
+  patterns:
+  - institutional_abdication
+  layers:
+  - institutional
+  - legal_regulatory
+  relationship: challenges
+- id: 2026-03-12-axiom-4-ai-deepfakes-structural-parallels
+  file: evidence/2026-03-12-axiom-4-ai-deepfakes-structural-parallels.md
+  title: 'Axiom 4 support: AI deepfakes in elections have clear structural parallels'
+  date_recorded: "2026-03-12"
+  source: Multiple — NPR, PBS, Harvard Kennedy School Misinformation Review, CNN
+  source_url: https://misinforeview.hks.harvard.edu/article/beyond-the-deepfake-hype-ai-democracy-and-the-slovak-case/
+  evidence_source_type: case_study
+  axioms:
+  - 4
+  patterns:
+  - unprecedented_as_sanctuary
+  - real_time_narrative_saturation
+  - appearance_as_structural_terrain
+  layers:
+  - thought_narrative
+  - surveillance_information
+  relationship: supports
+- id: 2026-03-12-axiom-9-workplace-compliance-visible
+  file: evidence/2026-03-12-axiom-9-workplace-compliance-visible.md
+  title: 'Axiom 9 complication: workplace compliance with visible coercion'
+  date_recorded: "2026-03-12"
+  source: Studs Terkel, *Working* (1974)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  relationship: complicates
+- id: 2026-03-12-axiom-10-position-2-understanding-inert
+  file: evidence/2026-03-12-axiom-10-position-2-understanding-inert.md
+  title: 'Axiom 10 complication: Position 2 understanding is structurally complete but operationally inert'
+  date_recorded: "2026-03-12"
+  source: Studs Terkel, *Working* (1974)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 10
+  patterns:
+  - compliance_gradient
+  layers:
+  - thought_narrative
+  - economic
+  relationship: complicates
+- id: 2026-03-12-axiom-9-housing-compliance-visible
+  file: evidence/2026-03-12-axiom-9-housing-compliance-visible.md
+  title: 'Axiom 9 complication: housing compliance with visible coercion'
+  date_recorded: "2026-03-12"
+  source: Matthew Desmond, *Evicted* (2016)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  layers:
+  - economic
+  - legal_regulatory
+  - physical_coercive
+  relationship: complicates
+- id: 2026-03-12-axiom-10-housing-understanding-inert
+  file: evidence/2026-03-12-axiom-10-housing-understanding-inert.md
+  title: 'Axiom 10 complication: housing understanding is structurally complete but operationally inert'
+  date_recorded: "2026-03-12"
+  source: Matthew Desmond, *Evicted* (2016)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 10
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  layers:
+  - economic
+  - legal_regulatory
+  - thought_narrative
+  relationship: complicates
+- id: 2026-03-13-axiom-9-low-wage-service-compliance-visible
+  file: evidence/2026-03-13-axiom-9-low-wage-service-compliance-visible.md
+  title: 'Axiom 9 complication: low-wage service work compliance with visible coercion (third Position 2 domain)'
+  date_recorded: "2026-03-13"
+  source: Barbara Ehrenreich, *Nickel and Dimed* (2001)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  layers:
+  - economic
+  - institutional
+  - surveillance_information
+  relationship: complicates
+- id: 2026-03-13-axiom-10-low-wage-service-understanding-inert
+  file: evidence/2026-03-13-axiom-10-low-wage-service-understanding-inert.md
+  title: 'Axiom 10 complication: low-wage service work understanding inert without leverage (third Position 2 domain)'
+  date_recorded: "2026-03-13"
+  source: Barbara Ehrenreich, *Nickel and Dimed* (2001)
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 10
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  relationship: complicates

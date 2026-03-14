@@ -186,6 +186,8 @@ analysis_source_types:
   - military_press_release
   - research
   - speech_transcript
+  - multi_source
+  - organizational
 
 # Source types for evidence entries (what kind of evidence it is)
 evidence_source_types:
@@ -233,6 +235,282 @@ extraction_statuses:
 escalation_types:
   - analyze
   - extract
+
+# --- Hegemonic contexts ---
+# Background assumptions within which analyses and their material operate.
+# Each analysis may tag one or more. This list is extensible — add new
+# contexts when an analysis identifies a background not yet named.
+# See IC-7 (hegemonic complicity) and Step 0: CONTEXT in methodology.md.
+
+hegemonic_contexts:
+  - id: national_security_state
+    name: "National security state"
+    description: >
+      The post-WWII architecture of permanent military readiness, global force
+      projection, intelligence collection, and alliance management is treated as
+      a natural feature of governance rather than as a historically specific
+      arrangement constructed since 1947. The assumption operates at multiple
+      levels: that the US has legitimate global security interests requiring
+      forward-deployed military capacity; that "national security" is a coherent
+      category rather than a politically constructed boundary around what the
+      state may do without democratic constraint; that the intelligence community's
+      assessments constitute objective analysis rather than institutionally
+      positioned knowledge; and that the civilian-military relationship is a
+      constraint on military power rather than also a legitimation of it.
+      Maintaining forces include the defence industrial base (structural
+      reproducer), military professional education (generational transmission),
+      the classification system (information asymmetry between state and public),
+      and the revolving door between defence industry, military service, and
+      policy positions. The framework's own corpus is heavily shaped by this
+      background — 24 of 45 analyses operate within it. Sources: Church Committee
+      extraction (COINTELPRO as the security state's domestic application),
+      Project 2025 extraction (institutional capture of the security apparatus),
+      Gramsci (the state as outer ditch of the hegemonic system).
+
+  - id: market_capitalism
+    name: "Market capitalism"
+    description: >
+      Market-based resource allocation is treated as the natural economic order
+      — the default arrangement against which all alternatives must justify
+      themselves. The assumption operates through several interlocking beliefs:
+      that prices efficiently encode information (the market knows best), that
+      profit motive produces optimal outcomes (efficiency as the primary value),
+      that private ownership is the natural relationship between people and
+      productive resources, and that alternatives to market allocation are
+      utopian, inefficient, or authoritarian. Fisher's "capitalist realism"
+      names the deepest form: not merely that capitalism is the best system but
+      that it is easier to imagine the end of the world than the end of
+      capitalism. The system maintains itself not through argument but through
+      the foreclosure of alternatives from the thinkable. Maintaining forces
+      include economics education (which teaches market models as the discipline
+      rather than as one framework among others), financial media (which reports
+      market movements as weather — natural phenomena to be tracked rather than
+      arrangements to be questioned), corporate governance law (which encodes
+      shareholder primacy as fiduciary duty), and consumer culture (which
+      naturalises the commodity form). Sources: Fisher (capitalist realism,
+      precorporation, reflexive impotence), Piketty (r > g as structural
+      concentration), Graeber (debt as moral instrument), Gramsci (hegemony
+      as common sense).
+
+  - id: nation_state_sovereignty
+    name: "Nation-state sovereignty"
+    description: >
+      The nation-state is treated as the natural unit of political organisation
+      — borders as given rather than constructed, citizenship as a coherent
+      category rather than a historically contingent boundary-drawing mechanism,
+      and sovereignty as an inherent right rather than a claim enforced by the
+      capacity for violence. The assumption makes certain questions unaskable:
+      why this border and not another? Why should accident of birth determine
+      life chances? Who benefits from the category of "illegal" movement? The
+      nation-state system is approximately 400 years old (post-Westphalia) but
+      is naturalised as the permanent condition of political life. Maintaining
+      forces include the international system itself (states recognise each
+      other's sovereignty as a mutual arrangement), citizenship education
+      (which teaches national identity as primary identity), border enforcement
+      infrastructure (which materialises the abstraction), and immigration law
+      (which produces the category of "illegal" movement — see Garcia Hernandez).
+      The Great Replacement analysis documented how this background is actively
+      defended: demographic change within the nation-state is framed as an
+      existential threat precisely because the nation-state is naturalised as
+      the unit whose composition must be controlled. Sources: Garcia Hernandez
+      (historical contingency of immigration crime), De Leon (border as
+      instrument of delegated violence), Arendt (the right to have rights
+      depends on state membership), Gramsci (the state as the instrument of
+      hegemonic universalisation).
+
+  - id: property_rights
+    name: "Property rights"
+    description: >
+      Property is treated as a foundational right preceding and constraining
+      political rights — ownership as a natural category rather than as a legal
+      construction backed by state coercion. The assumption operates at the
+      constitutional level (property rights as prior to democratic governance),
+      the economic level (private ownership as the default relationship to
+      productive resources), and the moral level (property as earned, therefore
+      legitimate). What the assumption makes invisible: all existing property
+      distributions are the product of historical processes that include
+      conquest, enclosure, enslavement, and state-granted monopoly — the
+      Constitutive Violence pattern. The "sanctity" of property converts a
+      historically contingent distribution into a moral absolute. Maintaining
+      forces include the legal system (which enforces property claims through
+      state coercion while presenting enforcement as neutral protection of
+      rights), economics education (which treats existing distributions as
+      starting conditions rather than as outcomes of prior power arrangements),
+      and the Wealth Defense Industry (which specialises in preserving
+      concentrated property across generations). Sources: Graeber (debt and
+      property as violence-backed moral claims), Piketty (inheritance as the
+      primary mechanism of wealth concentration), Winters (oligarchy as wealth
+      defense), Gramsci (property relations as the material base of hegemony).
+
+  - id: rule_of_law
+    name: "Rule of law"
+    description: >
+      Legal systems are treated as neutral arbiters — law as a constraint on
+      power rather than as an instrument of it. The assumption operates through
+      the belief that law is applied equally regardless of position, that legal
+      processes produce just outcomes through procedural correctness, and that
+      the legitimacy of a legal system derives from its formal properties
+      (due process, equal protection) rather than from who designed it, who
+      benefits from it, and whose interests it structurally serves. What the
+      assumption makes invisible: the legal system is itself a product of
+      power arrangements — who writes the laws, who interprets them, who
+      enforces them, and who can afford to navigate them are all shaped by
+      the same power structures the law is supposed to constrain. The Texas
+      terrorism trial documented this precisely: the terrorism statute's formal
+      properties were neutral (material support requires no organisational
+      connection), but the selection of who is prosecuted under it was political.
+      The judge identified the gap; the conviction happened anyway. Maintaining
+      forces include legal education (which teaches existing law as "the law"
+      rather than as a contingent arrangement), the judiciary (which applies
+      precedent that encodes prior power arrangements), and the legal profession
+      (which naturalises legal categories through daily practice). Sources:
+      Garcia Hernandez (crimmigration as hybrid legal architecture), Whitehouse
+      (judicial capture pipeline), Stanley (reasonableness as exclusion),
+      Gramsci (law as the state's instrument for producing social conformism).
+
+  - id: meritocracy
+    name: "Meritocracy"
+    description: >
+      Outcomes are treated as reflecting individual capability and effort —
+      structural position is earned rather than inherited or constructed. The
+      assumption converts structural inequality into individual moral
+      accounting: wealth signals competence, poverty signals failure, and the
+      distribution of resources is therefore just because it reflects merit.
+      What the assumption makes invisible: the starting conditions (inherited
+      wealth, social networks, educational access, racial and gender position)
+      that determine outcomes independently of individual capability; the
+      structural mechanisms (credentialing, gatekeeping, network effects) that
+      reproduce advantage across generations; and the definitional question of
+      what counts as "merit" (which is itself determined by the dominant
+      formation). Fisher's privatisation of systemic costs operates through
+      this background: when the system produces suffering, meritocratic
+      assumption attributes it to the individual rather than the structure.
+      Maintaining forces include education (which sorts and ranks, naturalising
+      the resulting hierarchy as "achievement"), employment systems (which use
+      credentials as proxies for capability, reproducing the credentialing
+      hierarchy), and popular culture (success narratives, self-help industry,
+      "hustle culture"). This context has 0 analyses in the corpus — the
+      deepest blind spot. Sources: Stanley (flawed ideology as epistemic
+      closure), Piketty (meritocratic myth), hooks (structural effects
+      inverted as blame), Ehrenreich (mythology of meritocracy as structural
+      enforcement), Fisher (privatisation of systemic costs), Gramsci (common
+      sense as accumulated residue of prior hegemonic arrangements).
+
+  - id: growth_imperative
+    name: "Growth imperative"
+    description: >
+      GDP growth is treated as the measure of economic health — expansion as
+      the default, contraction as crisis, and degrowth or steady-state
+      economics as unrealistic or irresponsible. The assumption operates at
+      every level of economic governance: central banks target growth rates,
+      politicians promise growth, media reports quarterly GDP as the primary
+      indicator of national well-being, and the entire financial system
+      (debt, interest, investment returns) structurally requires expansion to
+      function. What the assumption makes invisible: that perpetual growth on
+      a finite planet is physically impossible; that GDP measures activity
+      rather than well-being (a car crash increases GDP); that the growth
+      imperative distributes its benefits asymmetrically (Piketty: r > g means
+      capital grows faster than economies, concentrating wealth); and that the
+      growth framework was constructed in the mid-20th century as a specific
+      policy choice, not as a natural law. Maintaining forces include economics
+      education (growth models as the core curriculum), financial markets
+      (which price assets based on expected future growth), central banking
+      (which manages economies toward growth targets), and political discourse
+      (which treats growth as the primary measure of governing competence).
+      This context has 0 analyses in the corpus. Sources: Piketty (r > g),
+      Fisher (capitalist realism — growth as the unchallengeable value),
+      Gramsci (common sense naturalises the growth imperative as economic
+      reality).
+
+  - id: western_liberal_democracy
+    name: "Western liberal democracy"
+    description: >
+      Liberal democratic governance is treated as the universal standard —
+      electoral competition as the only legitimate mode of political contest,
+      representative institutions as the natural form of governance, and
+      individual rights as the foundational unit of political morality. The
+      assumption operates through several layers: that elections produce
+      legitimate authority, that separation of powers constrains executive
+      overreach, that a free press ensures accountability, and that the
+      liberal-democratic form is the endpoint of political development rather
+      than one historically specific arrangement among others. What the
+      assumption makes invisible: Democracy-Oligarchy Coexistence (democratic
+      forms handling issues that do not affect wealth concentration while
+      oligarchic mechanisms handle those that do); the structural conditions
+      required for democracy to function (an informed electorate, genuine
+      alternatives, media independence — all of which are themselves shaped by
+      power arrangements); and the possibility that democracy's formal
+      properties serve a legitimation function (Gramsci: the ethical state
+      "educates" consent through institutions that appear democratic).
+      Maintaining forces include civic education (which teaches democratic
+      forms as the natural expression of political freedom), electoral
+      infrastructure (which materialises the democratic form), and media
+      (which reports elections as the primary political event). Sources:
+      Winters (democracy-oligarchy compatibility), Gramsci (hegemony through
+      civil society), Mishra (the teleological screen — liberal democracy as
+      endpoint), Fisher (reflexive impotence within democratic forms).
+
+  - id: wage_labour
+    name: "Wage labour"
+    description: >
+      Selling time for money is treated as the natural mode of sustaining life
+      — employment as the default relationship between individuals and
+      production, and unemployment as a deviation to be corrected rather than
+      a structural feature of the arrangement. The assumption naturalises a
+      historically specific relationship: for most of human history, most
+      people did not sell their labour for wages. The wage relationship emerged
+      through enclosure (removing access to common land), industrialisation
+      (concentrating production in factories), and legal reform (making
+      alternatives to wage labour — subsistence farming, common grazing,
+      gleaning — illegal or unviable). What the assumption makes invisible:
+      that the wage relationship is a dependency relationship (Axiom 9 — the
+      worker complies because the alternative is destitution); that the
+      employer-employee relationship is a power relationship structured by
+      the asymmetry of need (the employer needs labour; the worker needs to
+      survive); and that the "freedom" of wage labour — the freedom to choose
+      one's employer — operates within a constraint set that the worker did
+      not choose and cannot alter individually. Maintaining forces include
+      education (which prepares people for employment as the natural goal),
+      social insurance systems (which tie healthcare, retirement, and identity
+      to employment status), and cultural norms ("What do you do?" as the
+      primary identity question). This context has 0 analyses in the corpus.
+      Sources: Terkel (workers' structural consciousness of the wage
+      relationship), Desmond (eviction as consequence of wage insufficiency),
+      Ehrenreich (arithmetic of structural impossibility), Graeber (the
+      historical contingency of wage labour), Fisher (the debtor-addict
+      replacing the worker-prisoner), Gramsci (the economic-corporate moment
+      as the first stage of political consciousness).
+
+  - id: technological_progress
+    name: "Technological progress"
+    description: >
+      Technology is treated as inherently progressive — innovation as
+      value-neutral, disruption as improvement, and technological development
+      as a natural force that cannot and should not be constrained. The
+      assumption operates through several beliefs: that new technology is
+      better by definition, that technological problems have technological
+      solutions, that the market efficiently directs innovation toward socially
+      beneficial outcomes, and that attempts to regulate or slow technological
+      development are Luddite obstructions of progress. What the assumption
+      makes invisible: that technological development is shaped by the
+      interests of those who fund it (Zuboff: surveillance capitalism's
+      technology serves extraction, not users); that "disruption" redistributes
+      power and wealth in specific directions (typically toward capital and
+      away from labour); that the "move fast and break things" ethos operates
+      in the Unprecedented as Sanctuary pattern (new technologies establish
+      themselves in regulatory voids); and that the framing of technology as
+      neutral conceals the values embedded in its design (Browne: prototypical
+      whiteness as design default). Maintaining forces include venture capital
+      (which funds technologies expected to produce returns, not social
+      benefit), tech media (which reports innovation as progress), STEM
+      education (which prioritises technical capability over critical analysis
+      of technology's social function), and the tech industry's lobbying
+      apparatus (documented in the AI-fication of K Street analysis).
+      Sources: Zuboff (surveillance capitalism, the unprecedented as
+      sanctuary), Browne (racialising surveillance, design defaults), Fisher
+      (technological determinism as a component of capitalist realism),
+      Gramsci (Americanism and Fordism — technology as the material basis of
+      hegemonic restructuring).
 
 # --- Pattern ID rules ---
 # Pattern IDs are snake_case with leading articles stripped.

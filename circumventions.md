@@ -1,6 +1,14 @@
 # Circumventions
 
-> Role: This document catalogs observed responses to power concentration.
+> Role: This document catalogs observed responses to power concentration
+> at two tiers. **Structural circumventions** contest specific power
+> arrangements within the existing hegemonic frame — using the system's
+> own tools (law, elections, journalism, collective action) to challenge
+> specific outcomes. **Hegemonic circumventions** contest the frame
+> itself — the background assumptions that determine what counts as
+> natural, realistic, or thinkable. The two tiers operate at different
+> levels, different timescales, and with different success conditions.
+>
 > Each type documents what has been seen, under what conditions, and how
 > power systems have responded. Uses observational register throughout —
 > "has been observed to," "may," "appeared to."
@@ -10,7 +18,15 @@
 
 ---
 
-## Circumventions
+## Structural circumventions
+
+> These contest specific power arrangements within the existing hegemonic
+> frame. They use the tools the system provides — law, elections,
+> journalism, collective action, cultural production — to challenge
+> specific outcomes, actors, or mechanisms. They can succeed on their own
+> terms (a lawsuit won, an election won, a mechanism named) but they do
+> not alter the background assumptions within which power operates. They
+> are accessible to individuals and groups within a political cycle.
 
 ### Transparency / Naming
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -183,3 +199,55 @@ NOTE: This type is descriptive, not prescriptive. It documents a structural obse
 OBSERVED IN: principles/scheidel-great-leveler.md
 
 POWER RESPONSE: Post-catastrophe institutional capture, new concentration via (Relay Class), restoration of prior arrangements through undisrupted layers
+
+---
+
+## Hegemonic circumventions
+
+> These contest the frame itself — the background assumptions that
+> determine what counts as natural, realistic, or thinkable. They do not
+> use the system's tools but build different tools, or exploit moments
+> when the system's own contradictions expose its contingency. They
+> operate at generational timescales rather than political cycles. They
+> require institutional infrastructure, sustained commitment, and the
+> kind of strategic self-awareness that Gramsci's organic intellectuals
+> provide. The accessibility gap between Tier 1 and Tier 2 circumventions
+> is itself a structural feature of hegemonic power — the frame is
+> hardest to contest precisely because the tools available to most people
+> are tools the frame provides.
+
+### Counter-Hegemonic Construction
+LAYERS: Thought & Narrative, Institutional, Economic
+
+COUNTERACTS: Hegemonic naturalisation (Axiom 3, fifth mode)
+
+STATEMENT: The slow, deliberate construction of alternative institutions, alternative intellectual personnel, alternative "common sense" — what Gramsci calls the war of position — has been observed to contest hegemonic arrangements at the civilisational timescale by building a parallel institutional and cultural infrastructure within the existing order.
+
+OUTCOME RANGE: Labour movement construction of cooperative institutions, mutual aid networks, and workers' education (19th-20th century) produced durable alternative infrastructure that survived repression. Feminist consciousness-raising (1960s-1970s) transformed common sense around gender across a generation. Decolonial intellectual projects shifted the background assumptions of international relations. All operated across generational timescales. None achieved full hegemonic displacement — partial shifts in common sense with structural arrangements largely intact.
+
+MECHANISM: Counter-hegemonic construction does not attack the existing order directly. It builds alternative institutions (schools, media, associations, cultural organisations) that produce alternative organic intellectuals, who elaborate alternative common sense, which over generational timescales shifts what the population considers natural, inevitable, or without alternative. The mechanism is molecular — it operates through thousands of small changes in institutional practice, educational content, and cultural production rather than through a single confrontation.
+
+FAILURE MODES: Counter-hegemonic construction may be absorbed through passive revolution — the dominant formation incorporates just enough of the alternative to neutralise the challenge while preserving structural arrangements. Alternative institutions may be co-opted, defunded, criminalised, or marginalised. The generational timescale means that counter-hegemonic projects are vulnerable to interruption — a single election, a funding crisis, or a leadership transition can set back decades of molecular work. The construction of alternative common sense may remain confined to intellectual strata without reaching the broader population.
+
+OBSERVED IN: principles/gramsci-prison-notebooks.md, principles/fisher-capitalist-realism.md, principles/fanon-wretched-of-the-earth.md
+
+POWER RESPONSE: Passive revolution (absorption of challenges through partial concession), co-optation of alternative intellectuals, defunding or criminalising alternative institutions, precorporation (pre-formatting oppositional impulses to be compatible with the system)
+
+### Hegemonic Rupture
+LAYERS: All layers
+
+COUNTERACTS: Hegemonic naturalisation (Axiom 3, fifth mode)
+
+STATEMENT: Moments when a hegemonic system's internal contradictions become visible because the system fails on its own terms — financial crises, ecological collapse, pandemics, institutional failures — have been observed to create openings in which the background assumptions of the order become temporarily visible as contingent rather than natural.
+
+OUTCOME RANGE: The 2008 financial crisis made market capitalism temporarily visible as a contingent arrangement rather than a natural law — "there is no alternative" was briefly suspended. The COVID-19 pandemic revealed the contingency of the wage-labour relationship and the possibility of state intervention at scales previously deemed unrealistic. In both cases, the rupture was temporary — the hegemonic order reasserted itself through a combination of institutional response, narrative reconstruction, and passive revolution. Durable structural change from rupture alone has not been observed without pre-existing counter-hegemonic infrastructure to exploit the opening (Gramsci: the permanently organised force that can be deployed when conditions become favourable).
+
+MECHANISM: Hegemonic rupture is not a strategy but a structural condition. When a system fails on its own terms — when markets that are supposed to be efficient produce catastrophic failure, when institutions that claim to protect produce harm, when arrangements presented as inevitable are suddenly disrupted — the contingency that is normally invisible becomes temporarily perceptible. The rupture does not by itself produce change; it creates a window during which counter-hegemonic forces, if they exist and are organised, can advance.
+
+FAILURE MODES: Ruptures are absorbed through the hegemonic system's asymmetry of institutional response time — the existing formation reorganises faster than challengers can organise. Narrative reconstruction (hegemonic dreamwork) smooths over contradictions without resolving them. The rupture may produce cynicism and reflexive impotence rather than mobilisation. Without pre-existing counter-hegemonic infrastructure, the opening closes before alternative arrangements can be consolidated.
+
+NOTE: Like Catastrophic Leveling, this type is descriptive. It documents a structural observation about when hegemonic systems become temporarily vulnerable. It is not a strategy — ruptures cannot be manufactured, and exploiting them requires the prior molecular work of counter-hegemonic construction.
+
+OBSERVED IN: principles/gramsci-prison-notebooks.md, principles/fisher-capitalist-realism.md
+
+POWER RESPONSE: Asymmetry of institutional response time (reorganise faster than challengers organise), narrative reconstruction (hegemonic dreamwork), passive revolution (partial concession to re-establish consent), state intervention to stabilise the existing arrangement while framing it as "reform"

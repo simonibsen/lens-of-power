@@ -2150,3 +2150,433 @@ entries:
   - Racializing Surveillance Detection Protocol (partial — needs Benjamin, Eubanks, Noble), Critical Biometric Consciousness
     Checklist (partial — needs engineering sources)
   source_type_display: training_data
+- id: terkel-working
+  file: principles/terkel-working.md
+  source_name: Studs Terkel
+  source_title: "Working: People Talk About What They Do All Day and How They Feel About What They Do"
+  source_year: 1974
+  position:
+  - 2
+  position_note: "the governed — 133 American workers speaking in their own voices"
+  provenance_tier: training_data
+  layers:
+  - thought_narrative
+  - economic
+  - institutional
+  - physical_coercive
+  - surveillance_information
+  - legal_regulatory
+  principles_list:
+  - "The Worker's Structural Consciousness (workers develop accurate structural understanding through daily experience, expressed in vernacular language)"
+  - "Dignity as the Primary Terrain of Workplace Struggle (central conflict is recognition as human, not wages)"
+  - "The Body as Site of Extraction (physical toll is the most direct form of economic extraction)"
+  - "The Cost of Refusal (compliance is rational response to structurally constrained choice set, not consent)"
+  - "Vernacular Resistance and the Workplace Hidden Transcript (slowdowns, humor, sabotage, gossip, craft pride)"
+  - "Surveillance from Below (workers develop counter-surveillance knowledge of monitoring apparatus)"
+  - "The Alienation Architecture (task fragmentation as control mechanism producing meaning-scarcity)"
+  - "Self-Narration as Counter-Knowledge (telling one's own story as resistance against institutional narrative)"
+  key_patterns:
+  - pattern: hidden_transcript
+    variant: null
+    note: 'P5: workplace hidden transcript documented from Position 2 — humor, sabotage, gossip, craft pride, self-narration. First direct governed-perspective corroboration.'
+  - pattern: compliance_gradient
+    variant: null
+    note: 'P4, P5: workers operating within the spectrum between full compliance and open refusal. Lordstown rebellion illustrates the threshold where the gradient breaks down.'
+  - pattern: double_performance
+    variant: null
+    note: 'P2, P5: workers performing compliance while maintaining private account of the relationship. Performance is conscious and strategic, not internalized.'
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: 'P2, P4: "loyalty," "work ethic," "team player" convert economic dependency into moral obligation. Workers see through the moral framing but comply because the cost is structural.'
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: 'P4, P7: scarcity of alternatives and scarcity of meaning both function as control. Employer controls not just wages but availability of meaningful work.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'P6: surveillance asymmetry is real but governed develop counter-knowledge. Asymmetry is contested terrain, not absolute.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Visible throughout from the other side: workers see through the appearance (mission statements, performance rhetoric, "we are a family") while navigating it as terrain.'
+  ic1_flags:
+  - axiom: 9
+    note: 'Workers are not unaware of mechanisms producing conformity. They see dependency, name it, comply because cost of refusal is prohibitive. Coercion is visible — operates through economic dependency not concealment. Axiom 9 may overstate invisibility in workplace compliance.'
+  - axiom: 10
+    note: 'Workers understand with precision but understanding does not liberate. Takes effect only when reaching audience (Terkel) or organized collectively (Lordstown). Position 2 understanding often structurally complete but operationally inert.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: All six (Economic, Thought & Narrative primary)
+  key_patterns_display: Hidden Transcript, Compliance Gradient, Double Performance, Moral Infrastructure of Economic Power, Manufactured Scarcity, Division of Learning, Appearance as Structural Terrain
+  source_display: "Studs Terkel, *Working: People Talk About What They Do All Day and How They Feel About What They Do* (1974)"
+  position_display: "2 (the governed — 133 American workers speaking in their own voices)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+- id: desmond-evicted
+  file: principles/desmond-evicted.md
+  source: 'Matthew Desmond, *Evicted: Poverty and Profit in the American City* (2016)'
+  position:
+  - 2
+  provenance_tier: training_data
+  layers:
+  - economic
+  - legal_regulatory
+  - institutional
+  - thought_narrative
+  - physical_coercive
+  - surveillance_information
+  principles_count: 7
+  principles_list:
+  - Profit Extraction from Poverty
+  - Eviction as Cascading Structural Failure
+  - The Tenant Screening Database as Structural Memory
+  - Exploitation of the Obligation to Shelter
+  - Stigma as Structural Enforcement
+  - The Landlord as Position 1 Actor
+  - The Court as Ratification Mechanism
+  key_patterns:
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: 'Affordable housing scarcity is structural, not accidental. Federal housing assistance reaches one in four eligible families. Policy choices (zoning, funding, subsidy design) maintain the scarcity that enables extraction.'
+  - pattern: compliance_gradient
+    variant: null
+    note: 'Tenants calibrate compliance to landlord power — tolerate substandard conditions, refrain from calling code enforcement, perform deference to maintain tenancy. Extends workplace compliance gradient to housing.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'Tenant screening databases create structural information asymmetry — landlords access full histories, tenants cannot see how information is used. Low-tech division of learning.'
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: 'Landlord-tenant relationship moralized by both parties. Non-payment framed as moral failure. Tenants internalize blame for structural conditions. Moral vocabulary prevents structural critique.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Eviction court presents appearance of due process while operating as ratification mechanism. Gap between stated function (adjudication) and actual function (volume processing) is the operating terrain.'
+  - pattern: democracy_oligarchy_coexistence
+    variant: null
+    note: 'Housing market operates within formal democratic/legal framework producing systematically one-sided outcomes. Formal equality of landlord and tenant coexists with substantive inequality.'
+  ic1_flags:
+  - axiom: 9
+    note: 'Tenants comply not because coercion is invisible but because alternative (homelessness) is prohibitive. Eviction threat is explicit. Power asymmetry is visible. Extends Terkel Axiom 9 complication from workplace to housing.'
+  - axiom: 10
+    note: 'Tenants understand structural position — see exploitation, name landlord incentives, recognize court function. Understanding does not produce resistance because they lack leverage. Extends Terkel Axiom 10 complication to housing.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: All six (Economic, Legal & Regulatory primary)
+  key_patterns_display: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Appearance as Structural Terrain, Democracy-Oligarchy Coexistence
+  source_display: "Matthew Desmond, *Evicted: Poverty and Profit in the American City* (2016)"
+  position_display: "2 (the governed — tenants facing eviction in Milwaukee, mediated by ethnographer)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+- id: ehrenreich-nickel-and-dimed
+  file: principles/ehrenreich-nickel-and-dimed.md
+  source: 'Barbara Ehrenreich, *Nickel and Dimed: On (Not) Getting By in America* (2001)'
+  source_display: 'Barbara Ehrenreich, *Nickel and Dimed: On (Not) Getting By in America* (2001)'
+  position:
+  - 2
+  - 5
+  provenance_tier: training_data
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  - physical_coercive
+  - surveillance_information
+  principles_count: 6
+  principles_list:
+  - The Arithmetic of Structural Impossibility
+  - Entry Conditions as Pre-Defeat
+  - Workplace Surveillance as Class-Specific
+  - The Mythology of Meritocracy as Structural Enforcement
+  - Physical Degradation as Normal Operating Cost
+  - The Anti-Union Architecture
+  key_patterns:
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: 'Housing scarcity is the binding constraint in all three experiments. The scarcity is in the wage-to-cost ratio itself — manufactured at the level of compensation policy, not housing supply alone. Third Position 2 corroboration.'
+  - pattern: compliance_gradient
+    variant: null
+    note: 'Workers calibrate behavior to avoid termination. Gradient is narrower than in industrial work — low-wage service workers have less room for partial compliance because the employment relationship is more precarious. Third Position 2 corroboration.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'Drug testing, personality testing, and workplace monitoring create structural information asymmetry. Pre-employment screening is the hiring-stage equivalent of tenant screening databases. Class-specific surveillance as division of learning. Third Position 2 corroboration.'
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: 'The meritocracy narrative converts structural poverty into personal failure. Workers blame themselves rather than the arithmetic of their wages. Specific moral vocabulary: work ethic, personal responsibility, bootstraps. Third Position 2 corroboration.'
+  - pattern: anticipatory_obedience
+    variant: institutional
+    note: 'Anti-union architecture preempts organizing before it begins. Workers self-censor because employment structure makes collective expression prohibitive. Extends pattern from political authoritarianism to workplace architecture.'
+  ic1_flags:
+  - axiom: 9
+    note: 'Low-wage workers see the coercion clearly — insufficient wages, surveillance, power asymmetry. They comply because the cost of refusal (unemployment, homelessness) is prohibitive, not because coercion is concealed. Third independent Position 2 confirmation across third domain (low-wage service work).'
+  - axiom: 10
+    note: 'Workers understand their structural position but cannot act on that understanding. They lack leverage. The anti-union architecture specifically prevents formation of collective leverage. Third independent Position 2 confirmation across third domain.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Economic, Institutional, Thought & Narrative, Physical & Coercive, Surveillance & Information
+  key_patterns_display: Manufactured Scarcity as Control, Compliance Gradient, Division of Learning, Moral Infrastructure of Economic Power, Anticipatory Obedience
+  source_display: "Barbara Ehrenreich, *Nickel and Dimed* (2001)"
+  position_display: "2/5 (hybrid — journalist living as low-wage worker, with exit option that actual workers lack)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+- id: deleon-land-of-open-graves
+  file: principles/deleon-land-of-open-graves.md
+  source_name: Jason De León
+  source_title: "The Land of Open Graves: Living and Dying on the Migrant Trail"
+  source_year: 2015
+  position:
+  - 2
+  - 5
+  position_note: "hybrid — anthropologist who walked migrant trails, ethnographer with participant-observer proximity to Position 2"
+  provenance_tier: training_data
+  layers:
+  - physical_coercive
+  - thought_narrative
+  - surveillance_information
+  - legal_regulatory
+  - economic
+  - institutional
+  principles_count: 6
+  principles_list:
+  - Prevention Through Deterrence as Structural Violence
+  - Necroviolence
+  - Hostile Terrain as Delegated Violence
+  - "The Spectacle of Enforcement vs. the Architecture of Death"
+  - The Body as Evidence and Its Erasure
+  - Migrant Agency Within Lethal Constraint
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: 'PTD is the strongest Axiom 7 case in the corpus — "border security" policy whose structural function is producing death through environmental delegation. Policy architects acknowledged the death toll as an expected outcome.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Visible border enforcement (walls, patrols, checkpoints) coexists with invisible funneling architecture that channels migrants into lethal terrain. The spectacle serves domestic politics; the architecture serves enforcement through death.'
+  - pattern: constitutive_violence
+    variant: null
+    note: 'The border enforcement regime is constituted through violence — not incidental but structurally necessary. The desert crossing is not a side effect of enforcement but its primary mechanism.'
+  - pattern: economy_of_violence
+    variant: 'environmental delegation — violence concentrated at crossing, absent for survivors'
+    note: 'Violence concentrated at the moment of crossing, performed by environment rather than agents. Survivors face exploitation but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
+  - pattern: hidden_transcript
+    variant: null
+    note: 'Migrant route knowledge, survival strategies, mutual aid networks, and shared intelligence about terrain constitute a hidden transcript of the border — counter-knowledge developed by those subjected to the system.'
+  - pattern: compliance_gradient
+    variant: 'lethal conditions — migration as navigating the gradient under mortal threat'
+    note: 'Migrants navigate the compliance gradient under lethal conditions. The choice set is cross/stay, where both options carry severe consequences. Fourth Position 2/hybrid corroboration extending the gradient to lethal conditions.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'The state knows terrain lethality (used to design funneling corridors) while migrants learn routes through attrition. Border Patrol sensor arrays coexist with deliberate absence of search-and-rescue in killing zones.'
+  - pattern: layered_redundancy_of_control
+    variant: null
+    note: 'PTD operates multiple control mechanisms simultaneously: legal prohibition, physical barriers, surveillance technology, environmental lethality, economic barriers (smuggling costs), and narrative framing. Failure at any one is caught by others.'
+  ic1_flags:
+  - axiom: 7
+    note: 'Strongest corroboration in corpus — PTD is a policy whose stated purpose (deterrence/border security) diverges definitionally from its structural function (producing death through environmental delegation).'
+  - axiom: 8
+    note: 'Extends from "absence is significant" to "absence is actively manufactured." Necroviolence destroys evidence (bodies) connecting policy to death. Physical complement to Browne''s constitutive absence.'
+  - axiom: 9
+    note: 'Migrants see coercion clearly and cross anyway because the alternative is worse. Fourth independent Position 2/hybrid confirmation across fourth domain (border crossing).'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Physical & Coercive (primary), Thought & Narrative, Surveillance & Information, Legal & Regulatory, Economic, Institutional
+  key_patterns_display: Inversion of Stated Purpose, Appearance as Structural Terrain, Constitutive Violence, Economy of Violence, Hidden Transcript, Compliance Gradient, Division of Learning, Layered Redundancy of Control
+  source_display: "Jason De León, *The Land of Open Graves* (2015)"
+  position_display: "2/5 (hybrid — anthropologist/ethnographer with participant-observer proximity)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+- id: garcia-hernandez-migrating-to-prison
+  file: principles/garcia-hernandez-migrating-to-prison.md
+  source_name: César Cuauhtémoc García Hernández
+  source_title: "Migrating to Prison: America's Obsession with Locking Up Immigrants"
+  source_year: 2019
+  position:
+  - 5
+  position_note: "legal scholar, Chicano scholar with personal connection to immigrant community"
+  provenance_tier: training_data
+  layers:
+  - legal_regulatory
+  - economic
+  - institutional
+  - physical_coercive
+  - thought_narrative
+  principles_count: 6
+  principles_list:
+  - The Historical Contingency of Immigration Crime
+  - "Crimmigration: The Hybrid Legal Architecture"
+  - The Detention-Industrial Complex
+  - The Impossibility of Compliance
+  - Detention as Default
+  - The Racial Architecture of Immigration Law
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: 'Immigration law''s stated purpose is managing migration for national benefit. Its documented function is producing a category of rightless people whose precarity serves economic and political interests.'
+  - pattern: manufactured_scarcity_as_control
+    variant: 'scarcity of legal pathways as control mechanism'
+    note: 'Legal immigration pathways are structurally scarce — limited visa categories, decades-long wait times. The scarcity is a policy choice that produces unauthorized status by design.'
+  - pattern: perpetual_threat_as_perpetual_justification
+    variant: null
+    note: 'The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture. The threat is structurally permanent because the legal architecture continuously produces unauthorized status.'
+  - pattern: constitutive_violence
+    variant: null
+    note: 'The immigration enforcement system — detention, deportation, family separation — is constituted through violence. Imprisonment of immigrants is not a response to a problem but the production of a category of people subjected to state violence.'
+  - pattern: compliance_gradient
+    variant: 'impossible compliance — system produces violations by design'
+    note: 'Immigration law positions all undocumented people on the compliance gradient under conditions where full compliance is structurally impossible. The system produces "illegal" status through structural design, not individual choice.'
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: 'Racial exclusion formally eliminated in 1965. Racially differential enforcement persisted through geographic targeting, category construction, and enforcement priorities. Form changed; racial function continued.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: '"Rule of law" framing presents enforcement as neutral application of law. The structural finding: the law produces the law-breaking by making compliance impossible for many.'
+  - pattern: capture_pipeline
+    variant: null
+    note: 'Private prison companies lobby for enforcement that produces detainees, fund supportive candidates, build facilities in advance of demand. The detention-industrial complex captures immigration policy.'
+  - pattern: wealth_defense_industry
+    variant: 'detention-industrial complex as extraction mechanism'
+    note: 'Private prison industry extracts profit from immigration enforcement architecture. "Bed quotas" ensure the industry''s revenue stream.'
+  ic1_flags:
+  - axiom: 6
+    note: 'The term "illegal alien" preceded and enabled the enforcement architecture. Linguistic shift from "immigrant" to "illegal" was the first step in criminalization. Language created the category; law followed.'
+  - axiom: 7
+    note: 'Immigration law''s stated purpose (managing migration) diverges from function (producing rightless people). Criminalization of border crossing is a policy choice, not a natural law.'
+  - axiom: 4
+    note: 'Criminalization of migration parallels vagrancy laws, pass laws, fugitive slave laws — all criminalized movement by specific populations to maintain labor control. Mechanism consistent; target population changes.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Legal & Regulatory (primary), Economic, Institutional, Physical & Coercive, Thought & Narrative
+  key_patterns_display: Inversion of Stated Purpose, Manufactured Scarcity as Control, Perpetual Threat as Perpetual Justification, Constitutive Violence, Compliance Gradient, Formal Transformation/Structural Continuity, Appearance as Structural Terrain, Capture Pipeline, Wealth Defense Industry
+  source_display: "César Cuauhtémoc García Hernández, *Migrating to Prison* (2019)"
+  position_display: "5 (legal scholar with community proximity)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+- id: fisher-capitalist-realism
+  file: principles/fisher-capitalist-realism.md
+  source_name: Mark Fisher
+  source_title: "Capitalist Realism: Is There No Alternative?"
+  source_year: 2009
+  position:
+  - 3
+  - 5
+  position_note: "hybrid — cultural theorist as structural critic; FE lecturer with Position 2 proximity to effects on students/workers"
+  provenance_tier: primary_document
+  layers:
+  - thought_narrative
+  - institutional
+  - economic
+  - surveillance_information
+  principles_count: 8
+  principles_list:
+  - Hegemonic Realism (The Atmosphere Principle)
+  - Precorporation (Pre-Emptive Absorption of Dissent)
+  - Reflexive Impotence (Knowledge as Paralysis)
+  - The Privatisation of Systemic Costs
+  - Market Stalinism (Representation Displacing Reality)
+  - The Big Other (Constitutive Ignorance)
+  - Centerlessness (Impersonal Structure as Accountability Shield)
+  - Hegemonic Dreamwork (Confabulation as Systemic Maintenance)
+  key_patterns:
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Market Stalinism and the Big Other: the gap between official representations and operational reality is not a failure but the operating environment. Audit data performs for a symbolic order nobody believes in.'
+  - pattern: structural_demand_for_propaganda
+    variant: 'demand-side — reflexive impotence as need for framework'
+    note: 'Reflexive impotence demonstrates the demand side: subjects need a framework that makes their acquiescence bearable. The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
+  - pattern: real_time_narrative_saturation
+    variant: null
+    note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: 'Market Stalinism: metrics designed to measure performance instead displace it. "Freedom" and "choice" function as mechanisms of control. Audit becomes anti-production — more effort demonstrating function than functioning.'
+  - pattern: anticipatory_obedience
+    variant: 'internalised — devolved surveillance as self-assessment'
+    note: 'Workers become their own panopticon through internalised audit. Self-assessment replaces external inspection but intensifies control — the subject anticipates requirements before they are imposed.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'The Big Other creates structural asymmetry between official knowledge and private knowledge. Everyone knows the system is dysfunctional; the official record does not register this knowledge.'
+  - pattern: compliance_gradient
+    variant: 'ontological — compliance through foreclosure of alternatives'
+    note: 'Reflexive impotence positions subjects on the gradient not through coercion but through the elimination of the imaginative space for non-compliance. They comply because they cannot conceive of a viable alternative.'
+  - pattern: manufactured_scarcity_as_control
+    variant: 'scarcity of the thinkable'
+    note: 'The system manufactures scarcity of alternatives — not material scarcity but ontological scarcity. The foreclosure of the imagination is a form of manufactured scarcity operating at the level of what can be thought.'
+  - pattern: double_performance
+    variant: null
+    note: 'The Big Other requires a performance of belief nobody believes. Both the system and its subjects perform for an audience (the symbolic order) that both know is fictional, yet maintaining the fiction is structurally necessary.'
+  ic1_flags:
+  - axiom: 3
+    note: 'Hegemonic realism as potential fifth mode: contingency not merely invisible but ontologically excluded. The system does not conceal alternatives; it makes the concept of "alternative" incoherent. Beyond hidden mechanism, hidden contingency, prohibitive cost, or degraded perception.'
+  - axiom: 9
+    note: 'Reflexive impotence: compliance manufactured through foreclosure of effective action, distinct from prohibitive cost (Terkel/Desmond/Ehrenreich) or concealed coercion (axiom''s current framing). Subjects see the coercion, understand it, comply because the imaginative space for non-compliance has been closed.'
+  - axiom: 10
+    note: 'Strongest challenge in the corpus. Understanding does not resist under conditions of hegemonic realism; it produces acquiescence. Knowledge of injustice becomes the mechanism of compliance. Goes beyond existing complications (Arendt, Ellul, Stanley, Browne) to argue understanding is structurally impotent under mature hegemonic conditions.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Thought & Narrative (primary), Institutional, Economic, Surveillance & Information
+  key_patterns_display: Appearance as Structural Terrain, Structural Demand for Propaganda, Real-Time Narrative Saturation, Inversion of Stated Purpose, Anticipatory Obedience, Division of Learning, Compliance Gradient, Manufactured Scarcity, Double Performance
+  source_display: "Mark Fisher, *Capitalist Realism* (2009)"
+  position_display: "3/5 (hybrid — cultural theorist/structural critic with institutional Position 2 proximity)"
+  instruments_proposed_display: []
+  source_type_display: primary_document
+- id: gramsci-prison-notebooks
+  file: principles/gramsci-prison-notebooks.md
+  source_name: Antonio Gramsci
+  source_title: "Selections from the Prison Notebooks"
+  source_year: 1971
+  position:
+  - 3
+  position_note: "revolutionary — imprisoned Communist Party leader theorising how dominant formations maintain power"
+  provenance_tier: primary_document
+  layers:
+  - thought_narrative
+  - institutional
+  - economic
+  - legal_regulatory
+  - physical_coercive
+  - surveillance_information
+  principles_count: 8
+  principles_list:
+  - "The Dual Architecture of Dominance: Consent + Coercion"
+  - Common Sense as Invisible Infrastructure
+  - The Organic Intellectual Personnel System
+  - "Passive Revolution: The Absorption of Challenges"
+  - The Asymmetry of Institutional Response Time
+  - "Civil Society as Deep Defence: The Fortresses-and-Earthworks Principle"
+  - The Three-Level Analysis of Force Relations
+  - The Generational Timescale of Hegemonic Construction
+  key_patterns:
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Common sense is the terrain. The gap between the hegemonic system''s self-presentation (universal interest) and its operation (dominant group interest with genuine but asymmetric concessions to subordinate groups) is the environment in which hegemony operates.'
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: 'Passive revolution: the form of change without the content. Challenges are metabolised through molecular incorporation — co-optation of oppositional personnel, partial adoption of rhetoric, strategic concessions — while fundamental power arrangements persist.'
+  - pattern: institutional_abdication
+    variant: 'crisis of hegemony — parties detach from class base'
+    note: 'The crisis of hegemony: social classes detach from their traditional parties, institutions cease to represent their constituency. The field opens to charismatic leaders and violent solutions. The ruling class reabsorbs control faster than challengers organise.'
+  - pattern: anticipatory_obedience
+    variant: null
+    note: 'The organic intellectual system produces individuals who anticipate and advance the hegemonic programme through sincere professional practice. The teacher, journalist, administrator enforce hegemony not through orders but through common sense absorbed during professional formation.'
+  - pattern: middle_stratum_trap
+    variant: null
+    note: 'Organic intellectuals of the subaltern classes are systematically assimilated by the dominant formation. The most capable individuals from subordinate groups are absorbed into the dominant intellectual stratum, preventing subaltern autonomous intellectual leadership.'
+  - pattern: layered_redundancy_of_control
+    variant: null
+    note: 'Civil society as deep defence: school, church, media, professional associations, cultural norms, moral standards each independently reproduce the hegemonic framework. Failure of any one mechanism is caught by the others. The State is the outer ditch; civil society is the fortresses and earthworks.'
+  - pattern: capture_pipeline
+    variant: 'hegemonic — assimilation of traditional intellectuals and passive revolution'
+    note: 'Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.'
+  - pattern: double_performance
+    variant: null
+    note: 'The hegemonic group performs universal interest while pursuing corporate interest. The subordinate group performs consent while maintaining awareness of the arrangement. The performance is mutual and both sides participate in maintaining it.'
+  ic1_flags:
+  - axiom: 3
+    note: 'Common sense as a fifth mode of invisible power: the background ontology that determines the thinkable. Not a hidden mechanism (the institutions are visible), not degraded perception (the subjects perceive accurately within the frame), but a frame so deeply sedimented across generations that it is experienced as reality itself.'
+  - axiom: 5
+    note: 'Complicates: durable power concentration requires genuine concession to subordinate groups. The hegemonic group''s interests prevail but only up to a certain point — real coordination with subordinate interests is necessary. The axiom''s directive ("at whose expense?") may miss cases where expense is distributed across society while accumulation benefits the dominant disproportionately but not exclusively.'
+  - axiom: 10
+    note: 'Specifies the conditions: understanding resists only when organised through institutional infrastructure (alternative personnel system) and sustained across generational timescales (war of position). Understanding without institutional organisation is structurally impotent. This defines when Axiom 10 holds and when it fails.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: All six (Thought & Narrative and Institutional primary)
+  key_patterns_display: Appearance as Structural Terrain, Formal Transformation/Structural Continuity, Institutional Abdication, Anticipatory Obedience, Middle Stratum Trap, Layered Redundancy of Control, Capture Pipeline, Double Performance
+  source_display: "Antonio Gramsci, *Selections from the Prison Notebooks* (1971; written 1929-1935)"
+  position_display: "3 (revolutionary — imprisoned Communist Party leader)"
+  instruments_proposed_display: []
+  source_type_display: primary_document
