@@ -590,6 +590,7 @@ def build():
                 "mechanism": "",
                 "failure_modes": "",
                 "power_response": "",
+                "tier": entry.get("tier", "structural"),
             },
         })
 
@@ -2848,6 +2849,9 @@ function getSubtitle(node) {
   if (node.type === 'principle') {
     return node.meta.source || '';
   }
+  if (node.type === 'circumvention') {
+    return node.meta.tier === 'hegemonic' ? 'Tier 2: Hegemonic' : 'Tier 1: Structural';
+  }
   return '';
 }
 
@@ -3071,13 +3075,19 @@ function buildDashboard() {
     html += '</div></div>';
   }
 
-  // --- Circumventions ---
+  // --- Circumventions (two tiers) ---
   const circumventions = DATA.nodes.filter(n => n.type === 'circumvention');
   if (circumventions.length > 0) {
+    const structural = circumventions.filter(c => (c.meta.tier || 'structural') === 'structural');
+    const hegemonic = circumventions.filter(c => c.meta.tier === 'hegemonic');
+
     html += '<div class="dashboard-section"><h2>Circumventions</h2>' +
-      '<p style="color:var(--text-muted);font-size:13px;margin-bottom:14px">Observed responses to power concentration — what has been seen to push back, under what conditions, and how power systems responded.</p>' +
+      '<p style="color:var(--text-muted);font-size:13px;margin-bottom:14px">Observed responses to power concentration at two tiers. <strong>Structural</strong> circumventions contest specific power arrangements within the existing hegemonic frame. <strong>Hegemonic</strong> circumventions contest the frame itself.</p>';
+
+    // Tier 1: Structural
+    html += '<h3 style="color:var(--text-secondary);font-size:14px;margin:16px 0 8px;border-bottom:1px solid var(--border);padding-bottom:4px">Tier 1: Structural <span style="color:var(--text-muted);font-weight:normal">(' + structural.length + ')</span></h3>' +
       '<div class="circumvention-cards">';
-    circumventions.forEach(c => {
+    structural.forEach(c => {
       const counteracts = (c.meta.counteracts || '').split(',').map(s => s.trim()).filter(Boolean);
       html += '<div class="circumvention-card" data-id="' + c.id + '">' +
         '<div class="circumvention-card-name">' + escapeHtml(c.title) + '</div>' +
@@ -3091,7 +3101,30 @@ function buildDashboard() {
       }
       html += '</div>';
     });
-    html += '</div></div>';
+    html += '</div>';
+
+    // Tier 2: Hegemonic
+    if (hegemonic.length > 0) {
+      html += '<h3 style="color:#da7756;font-size:14px;margin:20px 0 8px;border-bottom:1px solid rgba(218,119,86,0.3);padding-bottom:4px">Tier 2: Hegemonic <span style="color:var(--text-muted);font-weight:normal">(' + hegemonic.length + ')</span></h3>' +
+        '<div class="circumvention-cards">';
+      hegemonic.forEach(c => {
+        const counteracts = (c.meta.counteracts || '').split(',').map(s => s.trim()).filter(Boolean);
+        html += '<div class="circumvention-card" style="border-color:rgba(218,119,86,0.3)" data-id="' + c.id + '">' +
+          '<div class="circumvention-card-name" style="color:#da7756">' + escapeHtml(c.title) + '</div>' +
+          '<div class="circumvention-card-stmt">' + escapeHtml(c.meta.statement || '') + '</div>';
+        if (counteracts.length > 0) {
+          html += '<div class="circumvention-card-counteracts">';
+          counteracts.forEach(p => {
+            html += '<span class="circumvention-counteracts-tag" style="background:rgba(218,119,86,0.15);color:#da7756">' + escapeHtml(p) + '</span>';
+          });
+          html += '</div>';
+        }
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+
+    html += '</div>';
   }
 
   // --- Hegemonic Contexts (IC-7) ---

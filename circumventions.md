@@ -1,6 +1,14 @@
 # Circumventions
 
-> Role: This document catalogs observed responses to power concentration.
+> Role: This document catalogs observed responses to power concentration
+> at two tiers. **Structural circumventions** contest specific power
+> arrangements within the existing hegemonic frame — using the system's
+> own tools (law, elections, journalism, collective action) to challenge
+> specific outcomes. **Hegemonic circumventions** contest the frame
+> itself — the background assumptions that determine what counts as
+> natural, realistic, or thinkable. The two tiers operate at different
+> levels, different timescales, and with different success conditions.
+>
 > Each type documents what has been seen, under what conditions, and how
 > power systems have responded. Uses observational register throughout —
 > "has been observed to," "may," "appeared to."
@@ -10,7 +18,15 @@
 
 ---
 
-## Circumventions
+## Tier 1: Structural circumventions
+
+> These contest specific power arrangements within the existing hegemonic
+> frame. They use the tools the system provides — law, elections,
+> journalism, collective action, cultural production — to challenge
+> specific outcomes, actors, or mechanisms. They can succeed on their own
+> terms (a lawsuit won, an election won, a mechanism named) but they do
+> not alter the background assumptions within which power operates. They
+> are accessible to individuals and groups within a political cycle.
 
 ### Transparency / Naming
 LAYERS: Thought & Narrative, Surveillance & Information
@@ -183,6 +199,22 @@ NOTE: This type is descriptive, not prescriptive. It documents a structural obse
 OBSERVED IN: principles/scheidel-great-leveler.md
 
 POWER RESPONSE: Post-catastrophe institutional capture, new concentration via (Relay Class), restoration of prior arrangements through undisrupted layers
+
+---
+
+## Tier 2: Hegemonic circumventions
+
+> These contest the frame itself — the background assumptions that
+> determine what counts as natural, realistic, or thinkable. They do not
+> use the system's tools but build different tools, or exploit moments
+> when the system's own contradictions expose its contingency. They
+> operate at generational timescales rather than political cycles. They
+> require institutional infrastructure, sustained commitment, and the
+> kind of strategic self-awareness that Gramsci's organic intellectuals
+> provide. The accessibility gap between Tier 1 and Tier 2 circumventions
+> is itself a structural feature of hegemonic power — the frame is
+> hardest to contest precisely because the tools available to most people
+> are tools the frame provides.
 
 ### Counter-Hegemonic Construction
 LAYERS: Thought & Narrative, Institutional, Economic
