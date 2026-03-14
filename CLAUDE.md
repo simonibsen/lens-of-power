@@ -10,7 +10,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `methodology.md` — The analytical procedure (READ, ANALYZE, EXTRACT, RED TEAM, SUGGEST, SAMPLE modes)
 - `patterns/INDEX.md` — Compact pattern lookup table (always loaded; generated from YAML)
 - `patterns/` — Individual pattern files with full evidence trails (loaded selectively)
-- `circumventions.md` — Observed responses to power concentration (always loaded)
+- `circumventions.md` — Observed responses to power concentration at two levels: structural (within-frame) and hegemonic (frame-level) (always loaded)
 - `circumventions-detail.md` — Full evidence trails per circumvention (loaded for audits)
 - `instruments/` — Imported analytical tools (logical fallacies, cognitive biases, etc.)
 - `principles/INDEX.md` — Compact principles lookup table (always loaded; generated from YAML)
@@ -24,7 +24,8 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `data/principles.yaml` — Extracted principle sources
 - `data/calibration.yaml` — SAMPLE mode calibration tracking log
 - `data/sample-pool.yaml` — Source pool for SAMPLE mode randomization
-- `data/config.yaml` — Shared enumerations, thresholds, and domain definitions
+- `data/config.yaml` — Shared enumerations, thresholds, domain definitions, and hegemonic contexts
+- `data/circumventions.yaml` — Circumvention types (structural + hegemonic) with observed instances
 - `evidence/` — Concrete facts, data, cases that ground the framework
 - `analyses/INDEX.md` — Analysis registry (generated from YAML)
 - `analyses/` — Applied analyses of specific material
@@ -98,7 +99,12 @@ Do not hand-edit INDEX.md files — edit the YAML and regenerate.
 
 The viewer has three top-level nav items: Dashboard (landing page with
 integrity bar, corpus stats, recent analyses, works studied, layer
-coverage), Gap Analysis (framework health metrics and blind spots),
-and a Visualizations dropdown (Force Graph, Layer Deep Dive,
+coverage, circumventions by tier, hegemonic context distribution),
+Gap Analysis (framework health metrics, blind spots, hegemonic context
+coverage), and a Visualizations dropdown (Force Graph, Layer Deep Dive,
 Corroboration Matrix, Timeline, Layer Flow, Principle Lineage).
-Clicking any item in the sidebar opens a detail view.
+
+The sidebar groups items by type: Analyses, Principles, Instruments,
+Patterns, Circumventions (structural in teal, hegemonic in amber),
+Hegemonic Contexts, Evidence, and Red Team. Clicking any item opens
+a detail view.
