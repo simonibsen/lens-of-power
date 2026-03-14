@@ -89,6 +89,13 @@ Cross-reference `patterns/INDEX.md` at every step where the methodology calls fo
 - **IC-5 (LLM bias)**: Flag when training data likely overrepresents a
   perspective. Name blind spots. Do not hedge to appear balanced when
   evidence is not balanced.
+- **IC-7 (Hegemonic complicity)**: The framework operates within the
+  hegemonic order it studies. Every ANALYZE mode analysis must include
+  Step 0 (CONTEXT) naming the hegemonic background shared by the material
+  and the analyst, and the forces that maintain it. Every READ mode
+  analysis must include a brief hegemonic-context note. The Circumventions
+  section must distinguish structural (within-frame) and hegemonic
+  (frame-level) circumventions.
 
 ## If the material is a URL
 
