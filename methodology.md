@@ -1560,15 +1560,27 @@ tracking entry.
 **Null case classifications**:
 - **accepted**: The non-power explanation is more convincing than any
   power-dynamics reading. The material does not meaningfully exhibit
-  the framework's patterns. Example: a recipe, a sports score recap,
-  a pure-science methodology paper.
-- **plausible**: A non-power explanation exists and is roughly as
-  convincing as the power-dynamics reading. The framework sees something,
-  but a reasonable analyst could disagree. Example: a business merger
-  story where efficiency gains are as plausible as market consolidation.
+  the framework's patterns. Power dynamics may be visible at the
+  background or genre level (all media operates within economic and
+  narrative structures) but are not the article's subject and do not
+  make the power reading *competitive* with the null. Example: a recipe,
+  a sports score recap, a pure-science methodology paper, a regulatory
+  enforcement report where "regulators doing their job" is the simpler
+  account, a diplomatic speech performing the expected diplomatic function.
+- **plausible**: The power-dynamics reading is genuinely *competitive*
+  with the non-power explanation — a reasonable analyst could find either
+  more convincing. The framework sees something specific to this material
+  (not merely genre-level background dynamics), but the null case has
+  comparable explanatory power. Example: a business merger story where
+  efficiency gains are as plausible as market consolidation. The test:
+  would the power reading change how a reader understands the material,
+  or does it merely redescribe what is already obvious?
 - **rejected**: Power dynamics are clearly present and the framework's
   reading is substantially more convincing than the null case. Example:
   a lobbying disclosure, a surveillance policy debate, a labor dispute.
+  Note: if the material warrants escalation to ANALYZE mode, it is
+  almost certainly "rejected" — escalation and "plausible" should rarely
+  co-occur.
 
 **Do this**:
 1. Based on the READ analysis, assign one of the three classifications
