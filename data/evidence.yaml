@@ -482,3 +482,14 @@ entries:
   - institutional
   - thought_narrative
   relationship: complicates
+- id: 2026-03-15-red-team-third-self-examination
+  file: evidence/2026-03-15-red-team-third-self-examination.md
+  title: Third framework self-examination (IC-3)
+  date_recorded: "2026-03-15"
+  source: Framework self-analysis — 48 analyses, 34 principles, 7 instruments, 32 patterns, 28 evidence entries
+  source_url: null
+  evidence_source_type: self_examination
+  axioms: []
+  patterns: []
+  layers: []
+  relationship: self-examination
