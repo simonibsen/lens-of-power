@@ -2640,3 +2640,60 @@ entries:
   position_display: "5 (cultural critic with cross-positional access to Position 1 spaces)"
   instruments_proposed_display: []
   source_type_display: training_data
+
+- id: lumen-cultural-anthropology-economics
+  file: principles/lumen-cultural-anthropology-economics.md
+  source_name: Lumen Learning / SUNY ESC
+  source_title: "Cultural Anthropology — Economics (OER textbook chapter)"
+  source_year: 2020
+  position:
+  - 5
+  position_note: pedagogical — textbook synthesising multiple ethnographic sources
+  provenance_tier: training_data
+  layers:
+  - economic
+  - thought_narrative
+  - institutional
+  - legal_regulatory
+  - physical_coercive
+  principles_list:
+  - "The Commensurability Destruction (general-purpose money destroys moral exchange boundaries)"
+  - "Structural Violence as Institutional Production of Harm (institutions produce suffering through normal operation)"
+  - "The Aid Reproduction Cycle (aid channelled through intermediaries reproduces the dependency it claims to address)"
+  - "The Autonomy Floor (ownership of means of production buffers against full market dependency)"
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: 'Aid system (stated: relief; function: reproduction of dependency). Fair trade (stated: equity; function: market absorption of critique).'
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: 'Separation from means of production as capitalism''s defining feature. Removal of the autonomy floor. Destruction of Tiv exchange spheres by general-purpose money.'
+  - pattern: moral_infrastructure_of_economic_power
+    variant: 'inverse — moral infrastructure constraining economic power'
+    note: 'Tiv moral spheres prevented treating people as commensurable with cattle. General-purpose money destroyed these constraints. Haiti reparations as moral obligation.'
+  - pattern: relay_class
+    variant: null
+    note: 'NGOs as intermediaries replacing colonial administrators in Haiti. Schuller: "trickle-down imperialism."'
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
+  - pattern: constitutive_violence
+    variant: null
+    note: 'Haiti''s inequality traces to colonial slavery and the 1825 reparations demand. The violence is not historical but constitutive.'
+  - pattern: compliance_gradient
+    variant: null
+    note: 'The autonomy floor determines position on the gradient. Those who can feed themselves resist more than those who cannot.'
+  - pattern: democracy_oligarchy_coexistence
+    variant: null
+    note: 'Haiti: second-oldest republic in Western Hemisphere; richest 20% hold 64%+ of wealth.'
+  ic1_flags:
+  - axiom: 9
+    note: 'Haiti shows compliance manufactured not through concealment but through impossibility of alternatives. Fifth independent domain (after workplace, housing, low-wage service, border crossing) confirming Axiom 9 overemphasises invisibility.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Economic (primary), Thought & Narrative, Institutional, Legal & Regulatory, Physical & Coercive
+  key_patterns_display: Inversion of Stated Purpose, Manufactured Scarcity as Control, Moral Infrastructure of Economic Power, Relay Class, Formal Transformation/Structural Continuity, Constitutive Violence, Compliance Gradient, Democracy-Oligarchy Coexistence
+  source_display: "Lumen Learning / SUNY ESC, *Cultural Anthropology — Economics* (OER textbook chapter)"
+  position_display: "5 (pedagogical — textbook synthesising multiple ethnographic sources)"
+  instruments_proposed_display: []
+  source_type_display: training_data

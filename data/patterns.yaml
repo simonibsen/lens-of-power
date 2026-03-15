@@ -416,12 +416,17 @@ entries:
     variant: null
     note: 'Market Stalinism: metrics designed to measure performance instead displace it. "Freedom" and "choice" function
       as mechanisms of control. Audit becomes anti-production — more effort demonstrating function than functioning.'
+  - source_id: lumen-cultural-anthropology-economics
+    source_type: principle
+    variant: null
+    note: 'Aid system (stated: relief; function: reproduction of dependency). Fair trade (stated: equity; function: market
+      absorption of critique).'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.654
+  confidence_ratio: 0.659
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 81
-  corr_count: 53
+  relevant_corpus_size: 82
+  corr_count: 54
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -587,9 +592,9 @@ entries:
       is the outer ditch; civil society is the fortresses and earthworks.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.256
+  confidence_ratio: 0.253
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 21
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
@@ -672,9 +677,9 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.16
+  confidence_ratio: 0.159
   confidence_level: SUPPORTED
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 13
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
@@ -826,16 +831,22 @@ entries:
     variant: scarcity of the thinkable
     note: The system manufactures scarcity of alternatives — not material scarcity but ontological scarcity. The foreclosure
       of the imagination is a form of manufactured scarcity operating at the level of what can be thought.
+  - source_id: lumen-cultural-anthropology-economics
+    source_type: principle
+    variant: null
+    note: Separation from means of production as capitalism's defining feature. Removal of the autonomy floor. Destruction
+      of Tiv exchange spheres by general-purpose money.
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-9-housing-compliance-visible
   - 2026-03-12-axiom-10-housing-understanding-inert
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
-  confidence_ratio: 0.247
+  - 2026-03-15-axiom-9-structural-violence-compliance-visible
+  confidence_ratio: 0.256
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 81
-  corr_count: 20
+  relevant_corpus_size: 82
+  corr_count: 21
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -867,9 +878,9 @@ entries:
 
       transition between the two is the moment of maximum danger for democratic order'
   counter_evidence: []
-  confidence_ratio: 0.037
+  confidence_ratio: 0.036
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
@@ -930,9 +941,9 @@ entries:
       capable individuals from subordinate groups are absorbed into the dominant intellectual stratum, preventing subaltern
       autonomous intellectual leadership.
   counter_evidence: []
-  confidence_ratio: 0.061
+  confidence_ratio: 0.06
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 5
 - id: economy_of_violence
   name: The Economy of Violence
@@ -970,9 +981,9 @@ entries:
       but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.041
+  confidence_ratio: 0.04
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 74
+  relevant_corpus_size: 75
   corr_count: 3
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
@@ -1320,9 +1331,9 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.617
+  confidence_ratio: 0.61
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 50
 - id: hidden_transcript
   name: The Hidden Transcript
@@ -1406,9 +1417,9 @@ entries:
     note: Migrant route knowledge, survival strategies, mutual aid networks, and shared intelligence about terrain constitute
       a hidden transcript of the border — counter-knowledge developed by those subjected to the system.
   counter_evidence: []
-  confidence_ratio: 0.123
+  confidence_ratio: 0.122
   confidence_level: SUPPORTED
-  relevant_corpus_size: 73
+  relevant_corpus_size: 74
   corr_count: 9
 - id: compliance_gradient
   name: The Compliance Gradient
@@ -1490,6 +1501,11 @@ entries:
     variant: ontological — compliance through foreclosure of alternatives
     note: Reflexive impotence positions subjects on the gradient not through coercion but through the elimination of the imaginative
       space for non-compliance. They comply because they cannot conceive of a viable alternative.
+  - source_id: lumen-cultural-anthropology-economics
+    source_type: principle
+    variant: null
+    note: The autonomy floor determines position on the gradient. Those who can feed themselves resist more than those who
+      cannot.
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-10-position-2-understanding-inert
@@ -1497,10 +1513,11 @@ entries:
   - 2026-03-12-axiom-10-housing-understanding-inert
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
-  confidence_ratio: 0.122
+  - 2026-03-15-axiom-9-structural-violence-compliance-visible
+  confidence_ratio: 0.133
   confidence_level: SUPPORTED
-  relevant_corpus_size: 82
-  corr_count: 10
+  relevant_corpus_size: 83
+  corr_count: 11
 - id: ideological_judo
   name: Ideological Judo
   file: patterns/ideological-judo.md
@@ -1561,9 +1578,9 @@ entries:
 
       structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.073
+  confidence_ratio: 0.072
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 6
 - id: double_performance
   name: The Double Performance
@@ -1653,9 +1670,9 @@ entries:
     note: The tech elite perform system confidence (investing, building, promoting) while preparing for system failure (bunkers,
       escape). Rushkoff witnessed both performances from the same individuals in the same meeting.
   counter_evidence: []
-  confidence_ratio: 0.134
+  confidence_ratio: 0.133
   confidence_level: SUPPORTED
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 11
 - id: relay_class
   name: The Relay Class
@@ -1714,11 +1731,15 @@ entries:
       role: they cannot abandon the western development model without destroying the
 
       basis of their authority. ...'
+  - source_id: lumen-cultural-anthropology-economics
+    source_type: principle
+    variant: null
+    note: 'NGOs as intermediaries replacing colonial administrators in Haiti. Schuller: "trickle-down imperialism."'
   counter_evidence: []
-  confidence_ratio: 0.061
+  confidence_ratio: 0.072
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
-  corr_count: 5
+  relevant_corpus_size: 83
+  corr_count: 6
 - id: constitutive_violence
   name: Constitutive Violence
   file: patterns/constitutive-violence.md
@@ -1843,11 +1864,17 @@ entries:
     variant: pre-positioned — planned transition from consent to coercion
     note: The security-force problem reveals that post-collapse authority would depend on direct physical coercion. Shock
       collars, food-supply locks, robot guards — mechanisms of constitutive violence planned in advance of the system's failure.
-  counter_evidence: []
-  confidence_ratio: 0.16
+  - source_id: lumen-cultural-anthropology-economics
+    source_type: principle
+    variant: null
+    note: Haiti's inequality traces to colonial slavery and the 1825 reparations demand. The violence is not historical but
+      constitutive.
+  counter_evidence:
+  - 2026-03-15-axiom-9-structural-violence-compliance-visible
+  confidence_ratio: 0.171
   confidence_level: SUPPORTED
-  relevant_corpus_size: 81
-  corr_count: 13
+  relevant_corpus_size: 82
+  corr_count: 14
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
   file: patterns/three-phases-of-cultural-resistance.md
@@ -1884,9 +1911,9 @@ entries:
 
       control and resistance'
   counter_evidence: []
-  confidence_ratio: 0.025
+  confidence_ratio: 0.024
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
@@ -1986,9 +2013,9 @@ entries:
     note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites
       its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
   counter_evidence: []
-  confidence_ratio: 0.219
+  confidence_ratio: 0.216
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 73
+  relevant_corpus_size: 74
   corr_count: 16
 - id: serial_regime_change
   name: Serial Regime Change
@@ -2069,9 +2096,9 @@ entries:
     note: Venezuela template explicitly referenced as model for Iran; serial goal-shifting documented — four stated aims (protesters,
       nuclear, missiles, Strait) each replacing the previous without acknowledgment.
   counter_evidence: []
-  confidence_ratio: 0.16
+  confidence_ratio: 0.159
   confidence_level: SUPPORTED
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 13
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
@@ -2137,9 +2164,9 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.11
+  confidence_ratio: 0.108
   confidence_level: SUPPORTED
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 9
 - id: dispossession_cycle
   name: The Dispossession Cycle
@@ -2220,9 +2247,9 @@ entries:
 
       resist t...'
   counter_evidence: []
-  confidence_ratio: 0.073
+  confidence_ratio: 0.072
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 6
 - id: division_of_learning
   name: The Division of Learning
@@ -2375,9 +2402,9 @@ entries:
     note: The ultra-wealthy have better access to risk assessment and modelling. Their escape preparation is a product of
       information asymmetry — knowing more about the system's trajectory than the populations who bear its consequences.
   counter_evidence: []
-  confidence_ratio: 0.25
+  confidence_ratio: 0.247
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 80
+  relevant_corpus_size: 81
   corr_count: 20
 - id: anticipatory_obedience
   name: Anticipatory Obedience
@@ -2502,9 +2529,9 @@ entries:
       common sense absorbed during professional formation.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.235
+  confidence_ratio: 0.232
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 19
 - id: institutional_abdication
   name: Institutional Abdication
@@ -2607,9 +2634,9 @@ entries:
       than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.184
+  confidence_ratio: 0.182
   confidence_level: SUPPORTED
-  relevant_corpus_size: 76
+  relevant_corpus_size: 77
   corr_count: 14
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
@@ -2749,9 +2776,9 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.188
+  confidence_ratio: 0.185
   confidence_level: SUPPORTED
-  relevant_corpus_size: 80
+  relevant_corpus_size: 81
   corr_count: 15
 - id: compression_through_destruction
   name: Compression Through Destruction
@@ -2796,9 +2823,9 @@ entries:
       Hartmann''s Progressive Era/New...'
   counter_evidence:
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.037
+  confidence_ratio: 0.036
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
@@ -2913,9 +2940,9 @@ entries:
     note: The bunker industry is the Wealth Defense Industry for the post-social-contract world. Bunker builders, tactical
       vehicle manufacturers, and survival consultants are the post-civilisational wealth managers.
   counter_evidence: []
-  confidence_ratio: 0.15
+  confidence_ratio: 0.148
   confidence_level: SUPPORTED
-  relevant_corpus_size: 80
+  relevant_corpus_size: 81
   corr_count: 12
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
@@ -3043,12 +3070,16 @@ entries:
     variant: null
     note: The escape fantasy operates entirely in the private sphere, unconstrained by democratic mechanisms. No electoral
       process addresses elite exit from the social contract.
+  - source_id: lumen-cultural-anthropology-economics
+    source_type: principle
+    variant: null
+    note: 'Haiti: second-oldest republic in Western Hemisphere; richest 20% hold 64%+ of wealth.'
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.244
+  confidence_ratio: 0.253
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 82
-  corr_count: 20
+  relevant_corpus_size: 83
+  corr_count: 21
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -3115,11 +3146,16 @@ entries:
     note: 'The meritocracy narrative converts structural poverty into personal failure. Workers blame themselves rather than
       the arithmetic of their wages. Specific moral vocabulary: work ethic, personal responsibility, bootstraps. Third Position
       2 corroboration.'
+  - source_id: lumen-cultural-anthropology-economics
+    source_type: principle
+    variant: inverse — moral infrastructure constraining economic power
+    note: Tiv moral spheres prevented treating people as commensurable with cattle. General-purpose money destroyed these
+      constraints. Haiti reparations as moral obligation.
   counter_evidence: []
-  confidence_ratio: 0.074
+  confidence_ratio: 0.085
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 81
-  corr_count: 6
+  relevant_corpus_size: 82
+  corr_count: 7
 - id: capture_pipeline
   name: The Capture Pipeline
   file: patterns/capture-pipeline.md
@@ -3228,9 +3264,9 @@ entries:
     note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
       captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.163
+  confidence_ratio: 0.16
   confidence_level: SUPPORTED
-  relevant_corpus_size: 80
+  relevant_corpus_size: 81
   corr_count: 13
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
@@ -3340,11 +3376,15 @@ entries:
     note: 'Passive revolution: the form of change without the content. Challenges are metabolised through molecular incorporation
       — co-optation of oppositional personnel, partial adoption of rhetoric, strategic concessions — while fundamental power
       arrangements persist.'
+  - source_id: lumen-cultural-anthropology-economics
+    source_type: principle
+    variant: null
+    note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
   counter_evidence: []
-  confidence_ratio: 0.159
+  confidence_ratio: 0.169
   confidence_level: SUPPORTED
-  relevant_corpus_size: 82
-  corr_count: 13
+  relevant_corpus_size: 83
+  corr_count: 14
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
@@ -3407,9 +3447,9 @@ entries:
       The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.085
+  confidence_ratio: 0.084
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 7
 - id: categorical_blindness
   name: Categorical Blindness
@@ -3447,7 +3487,7 @@ entries:
   - 2026-03-06-axiom-8-constitutive-absence
   confidence_ratio: 0.027
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 73
+  relevant_corpus_size: 74
   corr_count: 2
 - id: boomerang
   name: The Boomerang
@@ -3512,7 +3552,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.087
+  confidence_ratio: 0.086
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 80
+  relevant_corpus_size: 81
   corr_count: 7
