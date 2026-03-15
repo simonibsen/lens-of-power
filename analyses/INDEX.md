@@ -327,3 +327,11 @@
   IC-5 flag: Training data overrepresents aspirational wealth framing (lifestyle journalism); perspective of billions outside the bunker absent
   Cross-references: `2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md`, `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`, `2026-03-06-propublica-database-trump-financial-disclosures.md`
   File: `2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich.md`
+
+### 2026-03-15 — Hacked DHS data reveals AI surveillance procurement pipeline
+  Domain: DHS surveillance procurement / AI surveillance / predictive policing / biometric technology / SBIR commercialisation
+  Layers: Surveillance & Information (primary), Economic (primary), Institutional (primary), Legal & Regulatory, Thought & Narrative, Physical & Coercive
+  Null case: plausible (MEDIUM at component level — individual contracts are routine SBIR; LOW-MEDIUM at configurational level — timing, clustering, commercialisation pipeline, and SPOT repetition form a pattern not explained by routine procurement)
+  IC-5 flag: Training data overrepresents both security-state justification and civil-liberties critique; perspective of populations subjected to surveillance (Somali communities in Columbus, profiled airport travellers, 911 callers) absent
+  Cross-references: `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-02-datasociety-policybrief-big-ai-state.md`
+  File: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`

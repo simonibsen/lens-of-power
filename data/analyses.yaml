@@ -2958,3 +2958,70 @@ entries:
   domain_text: Ultra-wealthy survival infrastructure / Wealth Defense Industry / system-exit / consent-to-coercion transition
   layers_text: Economic (primary), Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent)
   null_case_text: plausible (MEDIUM for individual purchases as rational hedging; LOW-MEDIUM at scale — collective exit preparation by system architects reveals private assessment of systemic trajectory)
+- id: 2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement
+  file: analyses/2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md
+  date: '2026-03-15'
+  time: ~14:00 UTC
+  source_date: '2026-03-15'
+  title: 'Hacked DHS data reveals AI surveillance procurement pipeline'
+  source_name: The Guardian (investigative data report, based on hacked DHS records provided by Distributed Denial of Secrets)
+  source_type: investigative_data
+  position:
+  - 5
+  url: https://www.theguardian.com/us-news/2026/mar/15/hacked-data-homeland-security
+  domain:
+  - surveillance_capitalism
+  - domestic_policy
+  - privacy_regulation
+  - ai_policy
+  layers_primary:
+  - surveillance_information
+  - economic
+  - institutional
+  layers_secondary:
+  - legal_regulatory
+  - thought_narrative
+  - physical_coercive
+  layers_absent: []
+  null_case: plausible
+  null_case_level: MEDIUM at component level; LOW-MEDIUM at configurational level
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents both security-state justification and civil-liberties critique; perspective of populations subjected to surveillance (Somali communities in Columbus, profiled airport travellers, 911 callers) absent
+  hegemonic_contexts:
+  - national_security_state
+  - technological_progress
+  cross_references:
+  - 2026-03-02-wikipedia-article-operation-metro-surge
+  - 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+  - 2026-03-02-datasociety-policybrief-big-ai-state
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: 'SBIR programme stated purpose is innovation support for small businesses; structural function includes commercialising surveillance technology for private-sector distribution. The commercialisation mandate is the mechanism — publicly funded R&D designed from inception to become commercial surveillance products.'
+  - pattern: division_of_learning
+    status: observed
+    variant: 'state surveillance variant'
+    note: 'Total information asymmetry: DHS/contractors know everything about the surveilled; surveilled populations know nothing about the apparatus. The leaked data is the only reason the public has visibility into the programme scope.'
+  - pattern: dispossession_cycle
+    status: inferred
+    variant: null
+    note: 'SPOT incursion into airport behavioural surveillance → decade of operation (habituation) → GAO/ACLU critique (adaptation) → AI-branded successors that present the same objective in new packaging (redirection). The four-stage normalisation ratchet operating in the state surveillance context.'
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: 'SPOT eliminated (2016-2017), FAST wound down, AI surveillance contracts awarded (2025) — the programme form changes; the surveillance objective persists; the new contracts do not reference the prior failures.'
+  - pattern: layered_redundancy_of_control
+    status: observed
+    variant: null
+    note: 'Three simultaneous surveillance expansions on a single date (7 May 2025): mobile biometric adapters, airport CCTV AI, 911 data analytics. Failure of one does not affect the others.'
+  - pattern: boomerang
+    status: inferred
+    variant: 'federal-to-commercial migration via statutory mandate'
+    note: 'Border/immigration enforcement biometric techniques migrating to domestic and commercial contexts through the SBIR commercialisation mandate. Extends the Boomerang from colonial-domestic migration to federal-commercial migration.'
+  findings_count: 12
+  commit: null
+  domain_text: DHS surveillance procurement / AI surveillance / predictive policing / biometric technology / SBIR commercialisation
+  layers_text: Surveillance & Information (primary), Economic (primary), Institutional (primary), Legal & Regulatory, Thought & Narrative, Physical & Coercive
+  null_case_text: plausible (MEDIUM at component level — individual contracts are routine SBIR; LOW-MEDIUM at configurational level — timing, clustering, commercialisation pipeline, and SPOT repetition form a pattern not explained by routine procurement)
