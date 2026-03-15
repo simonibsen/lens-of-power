@@ -3025,3 +3025,63 @@ entries:
   domain_text: DHS surveillance procurement / AI surveillance / predictive policing / biometric technology / SBIR commercialisation
   layers_text: Surveillance & Information (primary), Economic (primary), Institutional (primary), Legal & Regulatory, Thought & Narrative, Physical & Coercive
   null_case_text: plausible (MEDIUM at component level — individual contracts are routine SBIR; LOW-MEDIUM at configurational level — timing, clustering, commercialisation pipeline, and SPOT repetition form a pattern not explained by routine procurement)
+
+- id: "2026-03-15-opensecrets-profile-markwayne-mullin-dhs"
+  file: analyses/2026-03-15-opensecrets-profile-markwayne-mullin-dhs.md
+  title: "OpenSecrets profile — Markwayne Mullin, DHS Secretary nominee"
+  date: "2026-03-15"
+  time: "~17:00 UTC"
+  source_url: https://www.opensecrets.org/news/2026/03/trump-administration-profile-markwayne-mullin/
+  source_type: data_profile
+  source_position: 5
+  source_position_note: "observer — nonpartisan research organisation with campaign finance dataset access"
+  hegemonic_contexts:
+  - liberal_democracy
+  - national_security_state
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  - legal_regulatory
+  - physical_coercive
+  - surveillance_information
+  primary_layers:
+  - economic
+  - institutional
+  - thought_narrative
+  null_case: plausible
+  null_case_detail: "MEDIUM-HIGH at institutional level (cabinet appointments are inherently political); MEDIUM at configurational level (shooting defence + no DHS expertise + enforcement escalation signal not explained by routine political appointment)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-centre perspective on cabinet appointments; populations subject to DHS enforcement absent"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement"
+  - "2026-03-02-wikipedia-article-operation-metro-surge"
+  - "2026-03-06-propublica-database-trump-financial-disclosures"
+  patterns_matched:
+  - pattern: capture_pipeline
+    status: inferred
+    variant: 'personnel selection stage — political loyalty over domain expertise'
+    note: 'Appointment selects for alignment with enforcement posture rather than DHS domain expertise. No relevant committee experience. Consistent with the pipeline''s first stage: selection through vetting process controlled by the executive.'
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: 'Noem replaced by Mullin. The person changes; the enforcement posture intensifies. Minneapolis shootings produced a personnel change, not a policy change.'
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: 'Mullin''s public defence of the ICE shootings before being nominated is itself anticipatory obedience — demonstrating loyalty to the enforcement posture before being asked to lead it.'
+  - pattern: institutional_abdication
+    status: inferred
+    variant: 'acting-secretary mechanism'
+    note: 'Senate''s advise-and-consent function structurally weakened by the acting-secretary provision. The nominee serves before confirmation, reducing the hearing to ratification.'
+  - pattern: inversion_of_stated_purpose
+    status: inferred
+    variant: null
+    note: 'Replacement of a secretary fired for enforcement failures with a secretary who defends those same failures presents the personnel change as reform while intensifying the approach that produced the crisis.'
+  findings_count: 12
+  commit: null
+  domain_text: Cabinet appointment / DHS leadership / immigration enforcement / personnel selection / campaign finance
+  layers_text: Economic (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Physical & Coercive, Surveillance & Information (active but absent)
+  null_case_text: plausible (MEDIUM-HIGH at institutional level — cabinet appointments are inherently political; MEDIUM at configurational level — shooting defence + no DHS expertise + enforcement escalation signal not explained by routine political appointment)

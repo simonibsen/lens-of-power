@@ -335,3 +335,11 @@
   IC-5 flag: Training data overrepresents both security-state justification and civil-liberties critique; perspective of populations subjected to surveillance (Somali communities in Columbus, profiled airport travellers, 911 callers) absent
   Cross-references: `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-02-datasociety-policybrief-big-ai-state.md`
   File: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`
+
+### 2026-03-15 — OpenSecrets profile — Markwayne Mullin, DHS Secretary nominee
+  Domain: Cabinet appointment / DHS leadership / immigration enforcement / personnel selection / campaign finance
+  Layers: Economic (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Physical & Coercive, Surveillance & Information (active but absent)
+  Null case: plausible (MEDIUM-HIGH at institutional level — cabinet appointments are inherently political; MEDIUM at configurational level — shooting defence + no DHS expertise + enforcement escalation signal not explained by routine political appointment)
+  IC-5 flag: True
+  Cross-references: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`, `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-03-06-propublica-database-trump-financial-disclosures.md`
+  File: `2026-03-15-opensecrets-profile-markwayne-mullin-dhs.md`

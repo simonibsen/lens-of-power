@@ -241,6 +241,11 @@ entries:
     note: SBIR programme stated purpose is innovation support for small businesses; structural function includes commercialising
       surveillance technology for private-sector distribution. The commercialisation mandate is the mechanism — publicly funded
       R&D designed from inception to become commercial surveillance products.
+  - source_id: 2026-03-15-opensecrets-profile-markwayne-mullin-dhs
+    source_type: analysis
+    variant: null
+    note: Replacement of a secretary fired for enforcement failures with a secretary who defends those same failures presents
+      the personnel change as reform while intensifying the approach that produced the crisis.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -423,10 +428,10 @@ entries:
       absorption of critique).'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.659
+  confidence_ratio: 0.671
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 54
+  corr_count: 55
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -2483,6 +2488,11 @@ entries:
     variant: null
     note: If the replacement frame normalises within policy institutions, enforcement personnel will anticipate the direction
       and self-adjust before explicit orders. The narrative creates conditions for anticipatory enforcement escalation.
+  - source_id: 2026-03-15-opensecrets-profile-markwayne-mullin-dhs
+    source_type: analysis
+    variant: null
+    note: Mullin's public defence of the ICE shootings before being nominated is itself anticipatory obedience — demonstrating
+      loyalty to the enforcement posture before being asked to lead it.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2529,10 +2539,10 @@ entries:
       common sense absorbed during professional formation.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.232
+  confidence_ratio: 0.244
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 19
+  corr_count: 20
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -2590,6 +2600,11 @@ entries:
     variant: forced variant — dismantlement by executive action
     note: 'NSC gutted, State Department layoffs, career officials excluded from war planning by design. Mara Karlin: "you
       have also got to set certain pieces in place." Downstream operational consequences documented at strategic scale.'
+  - source_id: 2026-03-15-opensecrets-profile-markwayne-mullin-dhs
+    source_type: analysis
+    variant: acting-secretary mechanism
+    note: Senate's advise-and-consent function structurally weakened by the acting-secretary provision. The nominee serves
+      before confirmation, reducing the hearing to ratification.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2634,10 +2649,10 @@ entries:
       than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.182
+  confidence_ratio: 0.195
   confidence_level: SUPPORTED
   relevant_corpus_size: 77
-  corr_count: 14
+  corr_count: 15
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -3205,6 +3220,11 @@ entries:
     note: 'Conventional revolving door involves temporal gap between government and private sector. Kushner eliminates the
       gap: government role and capital-raising role operate concurrently with the same counterparties. All pipeline stages
       collapsed into a single concurrent role.'
+  - source_id: 2026-03-15-opensecrets-profile-markwayne-mullin-dhs
+    source_type: analysis
+    variant: personnel selection stage — political loyalty over domain expertise
+    note: 'Appointment selects for alignment with enforcement posture rather than DHS domain expertise. No relevant committee
+      experience. Consistent with the pipeline''s first stage: selection through vetting process controlled by the executive.'
   - source_id: powell-memo
     source_type: principle
     variant: null
@@ -3264,10 +3284,10 @@ entries:
     note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
       captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.16
+  confidence_ratio: 0.173
   confidence_level: SUPPORTED
   relevant_corpus_size: 81
-  corr_count: 13
+  corr_count: 14
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -3317,6 +3337,11 @@ entries:
     variant: null
     note: SPOT eliminated (2016-2017), FAST wound down, AI surveillance contracts awarded (2025) — the programme form changes;
       the surveillance objective persists; the new contracts do not reference the prior failures.
+  - source_id: 2026-03-15-opensecrets-profile-markwayne-mullin-dhs
+    source_type: analysis
+    variant: null
+    note: Noem replaced by Mullin. The person changes; the enforcement posture intensifies. Minneapolis shootings produced
+      a personnel change, not a policy change.
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -3381,10 +3406,10 @@ entries:
     variant: null
     note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
   counter_evidence: []
-  confidence_ratio: 0.169
+  confidence_ratio: 0.181
   confidence_level: SUPPORTED
   relevant_corpus_size: 83
-  corr_count: 14
+  corr_count: 15
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
