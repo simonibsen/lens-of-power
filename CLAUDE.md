@@ -92,6 +92,15 @@ self-contained, traceable unit of work.
 Run `python3 tools/build-all.py && open viewer.html` after writing any
 analysis or extraction files.
 
+A pre-commit hook (`tools/hooks/pre-commit`) runs `build-all.py`
+automatically when staged changes include data YAML, analysis/extraction
+markdown, or build tooling. It re-stages the generated files so they are
+included in the commit. The hook is configured via
+`git config core.hooksPath tools/hooks`. After a fresh clone, run:
+```
+git config core.hooksPath tools/hooks
+```
+
 INDEX.md files are generated from `data/*.yaml` and checked into git so
 the framework context is always available without a build step. The YAML
 files in `data/` are the single source of truth for structured metadata.

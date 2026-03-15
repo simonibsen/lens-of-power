@@ -1,0 +1,78 @@
+#!/usr/bin/env bash
+# Pre-commit hook: regenerate viewer + indexes when data files change.
+#
+# Runs build-all.py and re-stages generated files only when staged
+# changes include YAML data files, analysis/extraction markdown,
+# or the build tooling itself. Skips otherwise to keep fast commits fast.
+
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+
+# Files that, when changed, require a rebuild
+TRIGGER_PATTERNS=(
+    "data/*.yaml"
+    "analyses/*.md"
+    "patterns/*.md"
+    "principles/*.md"
+    "evidence/*.md"
+    "sources/*.md"
+    "instruments/*.md"
+    "circumventions.md"
+    "circumventions-detail.md"
+    "tools/build-viewer.py"
+    "tools/generate-indexes.py"
+    "tools/build-all.py"
+    "tools/post-analysis.py"
+)
+
+# Check if any staged files match trigger patterns
+needs_rebuild=false
+for pattern in "${TRIGGER_PATTERNS[@]}"; do
+    if git diff --cached --name-only | grep -qE "^${pattern//\*/[^/]+}$" 2>/dev/null; then
+        needs_rebuild=true
+        break
+    fi
+done
+
+# Also check with simpler glob matching as fallback
+if [ "$needs_rebuild" = false ]; then
+    staged_files=$(git diff --cached --name-only)
+    for pattern in "${TRIGGER_PATTERNS[@]}"; do
+        while IFS= read -r file; do
+            case "$file" in
+                $pattern) needs_rebuild=true; break 2 ;;
+            esac
+        done <<< "$staged_files"
+    done
+fi
+
+if [ "$needs_rebuild" = false ]; then
+    exit 0
+fi
+
+echo "pre-commit: data files changed, running build-all.py..."
+
+cd "$ROOT"
+if python3 tools/build-all.py; then
+    # Re-stage generated files that the build may have updated
+    generated_files=(
+        "viewer.html"
+        "viewer-data.js"
+        "data/patterns.yaml"
+        "analyses/INDEX.md"
+        "patterns/INDEX.md"
+        "principles/INDEX.md"
+        "sources/INDEX.md"
+        "sources/sample-pool.md"
+    )
+    for f in "${generated_files[@]}"; do
+        if [ -f "$ROOT/$f" ]; then
+            git add "$ROOT/$f" 2>/dev/null || true
+        fi
+    done
+    echo "pre-commit: build complete, generated files re-staged."
+else
+    echo "pre-commit: build-all.py failed. Commit aborted." >&2
+    exit 1
+fi
