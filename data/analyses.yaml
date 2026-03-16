@@ -3085,3 +3085,62 @@ entries:
   domain_text: Cabinet appointment / DHS leadership / immigration enforcement / personnel selection / campaign finance
   layers_text: Economic (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Physical & Coercive, Surveillance & Information (active but absent)
   null_case_text: plausible (MEDIUM-HIGH at institutional level — cabinet appointments are inherently political; MEDIUM at configurational level — shooting defence + no DHS expertise + enforcement escalation signal not explained by routine political appointment)
+
+- id: "2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank"
+  file: analyses/2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank.md
+  title: "Israeli police kill two young Palestinian boys and their parents in West Bank"
+  date: "2026-03-15"
+  time: "~18:00 UTC"
+  source_url: https://www.theguardian.com/world/2026/mar/15/israeli-police-kill-two-young-palestinian-boys-and-their-parents-in-west-bank
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — international journalism with institutional distance"
+  hegemonic_contexts:
+  - national_security_state
+  - liberal_democracy
+  layers:
+  - physical_coercive
+  - legal_regulatory
+  - institutional
+  - thought_narrative
+  - surveillance_information
+  primary_layers:
+  - physical_coercive
+  - legal_regulatory
+  - institutional
+  null_case: rejected
+  null_case_detail: "MEDIUM for individual incident in isolation (threat perception not verifiable); LOW at systemic level (impunity structure documented across two decades of longitudinal data — 1,400+ killings since last indictment, <1% indictment rate — not explained by individual incident assessments)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Israeli institutional and Western diplomatic perspectives; Palestinian civilian experience mediated through international journalism; 'conflict' framing naturalises power asymmetry"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-02-forbiddenstories-investigation-settler-violence-west-bank"
+  - "2026-03-01-guardian-article-israel-embracing-militarism-iran"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  patterns_matched:
+  - pattern: constitutive_violence
+    status: observed
+    variant: null
+    note: "The occupation's initial distribution of power (1967 military conquest) is maintained through continuing violence. The Bani Odeh killing is an expression of the system's constitutive logic, not an aberration within it."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "'Arrest wanted suspects' operation produced four civilian deaths and zero arrests. 'Perceived immediate threat' framing inverts the actual threat direction (armed undercover forces firing on a family car with children)."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Justice Ministry misconduct probe manages perception of accountability while Yesh Din data documents structural absence of accountability (<1% indictment rate). The probe is the appearance."
+  - pattern: formal_transformation_structural_continuity
+    status: inferred
+    variant: null
+    note: "The Justice Ministry probe, if it follows historical pattern (<1% indictment rate since 2005), will produce formal process (investigation) without structural change (indictment, conviction, reform)."
+  - pattern: division_of_learning
+    status: observed
+    variant: null
+    note: "Israeli forces operate with total information asymmetry: undercover unit with Palestinian plates, surveillance capacity, institutional impunity. The population knows nothing about the operation until lethal force is applied."
+  findings_count: 14
+  commit: null
+  domain_text: Military occupation / extrajudicial killing / institutional impunity / settler violence / West Bank
+  layers_text: Physical & Coercive (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  null_case_text: rejected (MEDIUM for individual incident in isolation; LOW at systemic level — 1,400+ killings since last indictment, <1% indictment rate, identical narrative templates across incidents, not explained by individual incident assessments)

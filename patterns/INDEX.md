@@ -10,7 +10,7 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (55 of 82 relevant sources, 67%)
+CONFIDENCE: ESTABLISHED (56 of 82 relevant sources, 68%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (50 of 82 relevant sources, 61%)
+CONFIDENCE: ESTABLISHED (51 of 82 relevant sources, 62%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -115,7 +115,7 @@ but constituted through it — the initial distribution of power,
 property, and legitimacy was established by force, and the system's
 ongoing operation depends on the continuing implicit threat of that
 foundational violence.
-CONFIDENCE: SUPPORTED (14 of 82 relevant sources, 17%)
+CONFIDENCE: SUPPORTED (15 of 82 relevant sources, 18%)
 
 ## [The Three Phases of Cultural Resistance](three-phases-of-cultural-resistance.md)
 LAYERS: Thought & Narrative, Institutional
@@ -166,7 +166,7 @@ who cannot access the data, the predictions, or the modifications
 applied to them. This asymmetry is self-reinforcing — more data produces
 better predictions, which produces more effective modification, which
 generates more data.
-CONFIDENCE: ESTABLISHED (20 of 81 relevant sources, 25%)
+CONFIDENCE: ESTABLISHED (21 of 81 relevant sources, 26%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Anticipatory Obedience](anticipatory-obedience.md)
@@ -265,7 +265,7 @@ simultaneously can survive regime changes that disrupt only some layers
 maintaining structural continuity through the undisrupted layers. The
 forms change; the structure persists; the celebrations of progress
 occur; the extraction continues.
-CONFIDENCE: SUPPORTED (15 of 83 relevant sources, 18%)
+CONFIDENCE: SUPPORTED (16 of 83 relevant sources, 19%)
 
 ## [The Structural Demand for Propaganda](structural-demand-for-propaganda.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information

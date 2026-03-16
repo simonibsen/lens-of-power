@@ -246,6 +246,11 @@ entries:
     variant: null
     note: Replacement of a secretary fired for enforcement failures with a secretary who defends those same failures presents
       the personnel change as reform while intensifying the approach that produced the crisis.
+  - source_id: 2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank
+    source_type: analysis
+    variant: null
+    note: '''Arrest wanted suspects'' operation produced four civilian deaths and zero arrests. ''Perceived immediate threat''
+      framing inverts the actual threat direction (armed undercover forces firing on a family car with children).'
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -428,10 +433,10 @@ entries:
       absorption of critique).'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.671
+  confidence_ratio: 0.683
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 55
+  corr_count: 56
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -1166,6 +1171,11 @@ entries:
     note: The gap between the ultra-wealthy's public confidence in the system (investing, operating, promoting) and their
       private preparation for its collapse (bunker construction) is the operating environment. Both positions serve their
       interests simultaneously.
+  - source_id: 2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank
+    source_type: analysis
+    variant: null
+    note: Justice Ministry misconduct probe manages perception of accountability while Yesh Din data documents structural
+      absence of accountability (<1% indictment rate). The probe is the appearance.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1336,10 +1346,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.61
+  confidence_ratio: 0.622
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 50
+  corr_count: 51
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -1773,6 +1783,11 @@ entries:
     note: Terrorism label constitutes defendants as terrorists through the act of prosecution. The designation "antifa terrorist
       cell" was applied without legal authority; the prosecution then treated it as established fact. Label precedes and produces
       the legal reality it claims to describe.
+  - source_id: 2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank
+    source_type: analysis
+    variant: null
+    note: The occupation's initial distribution of power (1967 military conquest) is maintained through continuing violence.
+      The Bani Odeh killing is an expression of the system's constitutive logic, not an aberration within it.
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
@@ -1876,10 +1891,10 @@ entries:
       constitutive.
   counter_evidence:
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.171
+  confidence_ratio: 0.183
   confidence_level: SUPPORTED
   relevant_corpus_size: 82
-  corr_count: 14
+  corr_count: 15
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
   file: patterns/three-phases-of-cultural-resistance.md
@@ -2323,6 +2338,11 @@ entries:
     variant: state surveillance variant
     note: 'Total information asymmetry: DHS/contractors know everything about the surveilled; surveilled populations know
       nothing about the apparatus. The leaked data is the only reason the public has visibility into the programme scope.'
+  - source_id: 2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank
+    source_type: analysis
+    variant: null
+    note: 'Israeli forces operate with total information asymmetry: undercover unit with Palestinian plates, surveillance
+      capacity, institutional impunity. The population knows nothing about the operation until lethal force is applied.'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -2407,10 +2427,10 @@ entries:
     note: The ultra-wealthy have better access to risk assessment and modelling. Their escape preparation is a product of
       information asymmetry — knowing more about the system's trajectory than the populations who bear its consequences.
   counter_evidence: []
-  confidence_ratio: 0.247
+  confidence_ratio: 0.259
   confidence_level: ESTABLISHED
   relevant_corpus_size: 81
-  corr_count: 20
+  corr_count: 21
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -3342,6 +3362,11 @@ entries:
     variant: null
     note: Noem replaced by Mullin. The person changes; the enforcement posture intensifies. Minneapolis shootings produced
       a personnel change, not a policy change.
+  - source_id: 2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank
+    source_type: analysis
+    variant: null
+    note: The Justice Ministry probe, if it follows historical pattern (<1% indictment rate since 2005), will produce formal
+      process (investigation) without structural change (indictment, conviction, reform).
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -3406,10 +3431,10 @@ entries:
     variant: null
     note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
   counter_evidence: []
-  confidence_ratio: 0.181
+  confidence_ratio: 0.193
   confidence_level: SUPPORTED
   relevant_corpus_size: 83
-  corr_count: 15
+  corr_count: 16
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md

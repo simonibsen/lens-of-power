@@ -343,3 +343,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`, `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-03-06-propublica-database-trump-financial-disclosures.md`
   File: `2026-03-15-opensecrets-profile-markwayne-mullin-dhs.md`
+
+### 2026-03-15 — Israeli police kill two young Palestinian boys and their parents in West Bank
+  Domain: Military occupation / extrajudicial killing / institutional impunity / settler violence / West Bank
+  Layers: Physical & Coercive (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  Null case: rejected (MEDIUM for individual incident in isolation; LOW at systemic level — 1,400+ killings since last indictment, <1% indictment rate, identical narrative templates across incidents, not explained by individual incident assessments)
+  IC-5 flag: True
+  Cross-references: `2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md`, `2026-03-01-guardian-article-israel-embracing-militarism-iran.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
+  File: `2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank.md`
