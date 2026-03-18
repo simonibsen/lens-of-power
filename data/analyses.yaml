@@ -3207,3 +3207,132 @@ entries:
   domain_text: US foreign policy / diplomacy / nuclear proliferation / UK-US relations
   layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
   null_case_text: plausible (LOW-MEDIUM — enrichment-pause gap gives some force; weakened by five simultaneous structural factors not explained by null case)
+
+- id: "2026-03-17-publicnotice-article-trump-russia-nato-iran-strait"
+  file: analyses/2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md
+  title: "Trump demands NATO help in war he started alone — alliance as extraction mechanism"
+  date: "2026-03-17"
+  time: "~18:00 UTC"
+  source_url: https://www.publicnotice.co/p/trump-russia-nato-iran-oil
+  source_type: essay
+  source_position: 5
+  source_position_note: "observer/analyst — Substack opinion with editorial voice"
+  hegemonic_contexts:
+  - national_security_state
+  - nation_state_sovereignty
+  layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  - surveillance_information
+  primary_layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  null_case: plausible
+  null_case_detail: "MEDIUM at component level (burden-sharing frustration genuine, individual contradictions attributable to incoherence); LOW-MEDIUM at configurational level (directionality of pattern — allies pressured, Russia shielded, risks demanded of others but refused by US — not explained by incoherence)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents liberal-internationalist defence of NATO as positive-sum; Russian perspective on NATO expansion, Iranian perspective on strait, and structural critique of NATO as US hegemonic instrument underrepresented"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-05-reuters-wirestory-indian-refiners-russian-oil"
+  - "2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy"
+  - "2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Article 5 (collective defence) invoked to demand allied participation in a war of aggression. The provision's defensive purpose is inverted — the aggressor demands collective support. Trump's fabricated debt narrative ('40 years protecting you') inverts the historical record (Article 5 invoked once, for the US; ~1,470 allied deaths in Afghanistan/Iraq dismissed)."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "The 'beleaguered protector' framing — US as selfless defender exploited by freeloading allies — is the operating terrain. The appearance (US sacrifice) is structurally necessary because it converts a demand for compliance into a claim of moral entitlement. The gap between appearance and record is documented (Article 5 history, casualty figures)."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "Self-generating threat cycle: war produces strait closure; strait closure produces demands on allies; allied reluctance produces threats to NATO. Each consequence of the prior action generates the justification for the next demand. The cycle has no equilibrium within existing institutional architecture."
+  - pattern: unprecedented_as_sanctuary
+    status: observed
+    variant: null
+    note: "Intra-alliance aggression (Greenland seizure threat against NATO founding member Denmark) operates in a legal void the treaty did not anticipate. The unanimity requirement for Article 5 invocation means the aggressor can block the accountability mechanism — the treaty's design contains its own neutralisation."
+  - pattern: institutional_abdication
+    status: inferred
+    variant: null
+    note: "NATO as institution does not invoke its own mechanisms to address a member threatening to invade another member. The institutional silence in response to the Greenland threat constitutes abdication of the alliance's foundational commitment to territorial integrity of members."
+  - pattern: ideological_judo
+    status: inferred
+    variant: inverse
+    note: "Inverse deployment: the most powerful member exploits the alliance's own language (burden-sharing, collective defence, territorial protection) to demand compliance while violating those standards. Scott documented the weak using this mechanism; here the powerful deploy it — holding others to standards they themselves violate."
+  findings_count: 11
+  commit: null
+  domain_text: US foreign policy / NATO / alliance politics / Iran war consequences / Russia-US relations
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  null_case_text: plausible (MEDIUM at component level; LOW-MEDIUM at configurational level — directionality not explained by incoherence)
+
+- id: "2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper"
+  file: analyses/2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md
+  title: "Iran emerges as Strait of Hormuz gatekeeper — military action amplifies the target's leverage"
+  date: "2026-03-18"
+  time: "~14:00 UTC"
+  source_url: https://www.aljazeera.com/news/2026/3/18/how-iran-defied-trump-threats-to-emerge-as-strait-of-hormuz-gatekeeper
+  source_type: news_article
+  source_position: 4
+  source_position_note: "intermediary/observer — Qatari state-funded broadcaster with institutional interests in strait access and regional diplomacy"
+  hegemonic_contexts:
+  - national_security_state
+  - market_capitalism
+  layers:
+  - physical_coercive
+  - economic
+  - institutional
+  - thought_narrative
+  - surveillance_information
+  primary_layers:
+  - physical_coercive
+  - economic
+  - institutional
+  null_case: plausible
+  null_case_detail: "MEDIUM — military dimension has genuine force (US strikes may degrade capacity, 97% traffic reduction unsustainable for all parties); weakened by deliberate Iranian strategic positioning (post-war bargaining framing), insurance mechanism (few attacks sufficient to keep premiums prohibitive), Fujairah workaround targeting, and convergence with prior analyses (Geneva talks foreclosure, failed coalition, serial goal-shifting)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Western energy-security framing treating open waterways as neutral public good; Iranian domestic experience and strategic perspective underrepresented; Al Jazeera's Qatari state funding creates institutional perspective on strait access the article does not disclose"
+  adversarial: false
+  sample_origin: true
+  cross_references:
+  - "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  - "2026-03-17-publicnotice-article-trump-russia-nato-iran-strait"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-05-reuters-wirestory-indian-refiners-russian-oil"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "War intended to eliminate Iranian threat capacity has amplified Iran's structural leverage over global energy transit. Iran controls de facto access to the strait; traffic 97% below average; countries negotiate with Iran rather than joining US coalition."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "The strait's international-waters legal status (UNCLOS transit passage rights) is the appearance. Iran's de facto control — 'permission-based transit' administered by Tehran — is the operating reality. The gap between legal status and operational control is the terrain on which Iran's new power operates."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "Self-generating cycle: US attack produces strait closure; closure justifies further military action (bunker-busting strikes on antiship sites); strikes fail to restore passage; failure justifies further escalation (Marines deployment, potential Kharg Island seizure). Each consequence generates justification for the next action."
+  - pattern: layered_redundancy_of_control
+    status: observed
+    variant: "deployed by the target rather than the dominant power"
+    note: "Iran + proxies deploy redundant pressure across three chokepoints: Strait of Hormuz (direct control), Fujairah port (drone attack on workaround terminal), Bab al-Mandeb (Houthi stated readiness). The pattern — multiple control mechanisms so failure at one is caught by another — operates in favour of the target of military action."
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: null
+    note: "Iran manufactures energy scarcity through geographic control of the strait. Crude up 20%+, gas up 40%+, largest emergency reserve releases in history. The scarcity is converted into leverage for sanctions relief and economic concessions — the material basis for post-war bargaining."
+  - pattern: serial_regime_change
+    status: inferred
+    variant: "template running in reverse"
+    note: "The serial regime change template (military action → present as unique and necessary → unintended consequences) is operating, but the expected outcome (target isolated, attacker's position strengthened) has inverted: the target's leverage has increased and the attacker is increasingly isolated diplomatically."
+  findings_count: 13
+  commit: null
+  domain_text: US foreign policy / energy security / Strait of Hormuz / Iran war consequences / alliance realignment
+  layers_text: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information (Legal & Regulatory active but absent)
+  null_case_text: plausible (MEDIUM — military dimension has force; structural dimensions weaken it)

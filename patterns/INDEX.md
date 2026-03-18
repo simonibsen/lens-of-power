@@ -10,27 +10,27 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (57 of 82 relevant sources, 70%)
+CONFIDENCE: ESTABLISHED (59 of 82 relevant sources, 72%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
 LAYERS: All layers
 STATEMENT: Durable power structures operate multiple control mechanisms
 simultaneously so that failure at one layer is caught by another.
-CONFIDENCE: ESTABLISHED (21 of 83 relevant sources, 25%)
+CONFIDENCE: ESTABLISHED (22 of 83 relevant sources, 26%)
 
 ## [Perpetual Threat as Perpetual Justification](perpetual-threat-as-perpetual-justification.md)
 LAYERS: Thought & Narrative, Economic, Physical & Coercive
 STATEMENT: A permanent external threat justifies permanent internal
 control, because a population at war accepts restrictions it would
 otherwise resist.
-CONFIDENCE: SUPPORTED (14 of 82 relevant sources, 17%)
+CONFIDENCE: SUPPORTED (16 of 82 relevant sources, 20%)
 
 ## [Manufactured Scarcity as Control](manufactured-scarcity-as-control.md)
 LAYERS: Thought & Narrative, Economic
 STATEMENT: Abundance is deliberately prevented or destroyed because
 material security reduces dependency and enables independence.
-CONFIDENCE: ESTABLISHED (21 of 82 relevant sources, 26%)
+CONFIDENCE: ESTABLISHED (22 of 82 relevant sources, 27%)
 CIRCUMVENTIONS: Economic Alternative, Collective Action
 
 ## [Temporal Control](temporal-control.md)
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (52 of 82 relevant sources, 63%)
+CONFIDENCE: ESTABLISHED (54 of 82 relevant sources, 66%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -89,7 +89,7 @@ STATEMENT: The weak exploit the gap between the powerful's legitimating
 ideology and their actual practice by holding the powerful to their own
 stated standards — turning the dominant ideology into a constraint on
 the dominant class.
-CONFIDENCE: PRELIMINARY (6 of 83 relevant sources, 7%)
+CONFIDENCE: PRELIMINARY (7 of 83 relevant sources, 8%)
 
 ## [The Double Performance](double-performance.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -139,7 +139,7 @@ LAYERS: Thought & Narrative, Institutional, Physical & Coercive
 STATEMENT: A state repeatedly applies the same military intervention
 template across different targets, each time presenting the operation as
 unique and necessary while following an identical structural pattern.
-CONFIDENCE: SUPPORTED (14 of 82 relevant sources, 17%)
+CONFIDENCE: SUPPORTED (15 of 82 relevant sources, 18%)
 
 ## [The Unprecedented as Sanctuary](unprecedented-as-sanctuary.md)
 LAYERS: Thought & Narrative, Legal & Regulatory, Institutional
@@ -148,7 +148,7 @@ conceptual, legal, and regulatory voids where existing frameworks have
 not yet developed categories of understanding or response. The
 unprecedented nature of the operation is not merely descriptive — it is
 a strategic advantage.
-CONFIDENCE: SUPPORTED (9 of 83 relevant sources, 11%)
+CONFIDENCE: SUPPORTED (10 of 83 relevant sources, 12%)
 
 ## [The Dispossession Cycle](dispossession-cycle.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -188,7 +188,7 @@ capture (where the institution is actively redirected by external
 actors) — here the institution simply stops functioning because its
 constituent professionals individually calculate that compliance is
 safer than independence.
-CONFIDENCE: ESTABLISHED (16 of 77 relevant sources, 21%)
+CONFIDENCE: ESTABLISHED (17 of 77 relevant sources, 22%)
 CIRCUMVENTIONS: Institutional Reform
 
 ## [The Peacetime Ratchet](peacetime-ratchet.md)

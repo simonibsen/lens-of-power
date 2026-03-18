@@ -257,6 +257,18 @@ entries:
     note: Stated purpose of Geneva talks was diplomatic resolution of Iranian nuclear programme. Talks terminated by military
       action while UK participant and Omani mediator judged a deal was within reach. Iran's FM claim that the US 'attacked
       during active negotiations twice in twelve months' now has western institutional corroboration.
+  - source_id: 2026-03-17-publicnotice-article-trump-russia-nato-iran-strait
+    source_type: analysis
+    variant: null
+    note: Article 5 (collective defence) invoked to demand allied participation in a war of aggression. The provision's defensive
+      purpose is inverted — the aggressor demands collective support. Trump's fabricated debt narrative ('40 years protecting
+      you') inverts the historical record (Article 5 invoked once, for the US; ~1,470 allied deaths in Afghanistan/Iraq dismissed).
+  - source_id: 2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper
+    source_type: analysis
+    variant: null
+    note: War intended to eliminate Iranian threat capacity has amplified Iran's structural leverage over global energy transit.
+      Iran controls de facto access to the strait; traffic 97% below average; countries negotiate with Iran rather than joining
+      US coalition.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -439,10 +451,10 @@ entries:
       absorption of critique).'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.695
+  confidence_ratio: 0.72
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 57
+  corr_count: 59
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -516,6 +528,12 @@ entries:
     variant: null
     note: 'Three simultaneous surveillance expansions on a single date (7 May 2025): mobile biometric adapters, airport CCTV
       AI, 911 data analytics. Failure of one does not affect the others.'
+  - source_id: 2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper
+    source_type: analysis
+    variant: deployed by the target rather than the dominant power
+    note: 'Iran + proxies deploy redundant pressure across three chokepoints: Strait of Hormuz (direct control), Fujairah
+      port (drone attack on workaround terminal), Bab al-Mandeb (Houthi stated readiness). The pattern — multiple control
+      mechanisms so failure at one is caught by another — operates in favour of the target of military action.'
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -608,10 +626,10 @@ entries:
       is the outer ditch; civil society is the fortresses and earthworks.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.253
+  confidence_ratio: 0.265
   confidence_level: ESTABLISHED
   relevant_corpus_size: 83
-  corr_count: 21
+  corr_count: 22
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
   file: patterns/perpetual-threat-as-perpetual-justification.md
@@ -688,6 +706,18 @@ entries:
     variant: null
     note: Iranian nuclear programme has served as justification for sanctions, military posture, and now war for two decades.
       The specific threat framing ('imminent') was not supported by UK intelligence assessment.
+  - source_id: 2026-03-17-publicnotice-article-trump-russia-nato-iran-strait
+    source_type: analysis
+    variant: null
+    note: 'Self-generating threat cycle: war produces strait closure; strait closure produces demands on allies; allied reluctance
+      produces threats to NATO. Each consequence of the prior action generates the justification for the next demand. The
+      cycle has no equilibrium within existing institutional architecture.'
+  - source_id: 2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper
+    source_type: analysis
+    variant: null
+    note: 'Self-generating cycle: US attack produces strait closure; closure justifies further military action (bunker-busting
+      strikes on antiship sites); strikes fail to restore passage; failure justifies further escalation (Marines deployment,
+      potential Kharg Island seizure). Each consequence generates justification for the next action.'
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -698,10 +728,10 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.171
+  confidence_ratio: 0.195
   confidence_level: SUPPORTED
   relevant_corpus_size: 82
-  corr_count: 14
+  corr_count: 16
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
   file: patterns/manufactured-scarcity-as-control.md
@@ -755,6 +785,12 @@ entries:
     variant: scarcity of acceptable futures
     note: Non-technological futures excluded from the thinkable. "Merge with AI or be left behind" eliminates the option of
       not pursuing the trajectory. Scarcity operates at the level of the imagination, not material resources.
+  - source_id: 2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper
+    source_type: analysis
+    variant: null
+    note: Iran manufactures energy scarcity through geographic control of the strait. Crude up 20%+, gas up 40%+, largest
+      emergency reserve releases in history. The scarcity is converted into leverage for sanctions relief and economic concessions
+      — the material basis for post-war bargaining.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -864,10 +900,10 @@ entries:
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.256
+  confidence_ratio: 0.268
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 21
+  corr_count: 22
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -1193,6 +1229,18 @@ entries:
     note: Geneva talks served as the visible surface of 'diplomatic exhaustion' — satisfying the formal requirement to attempt
       diplomacy — while the military decision operated beneath. Whether the talks were performative from the US side from
       the outset cannot be determined from this source.
+  - source_id: 2026-03-17-publicnotice-article-trump-russia-nato-iran-strait
+    source_type: analysis
+    variant: null
+    note: The 'beleaguered protector' framing — US as selfless defender exploited by freeloading allies — is the operating
+      terrain. The appearance (US sacrifice) is structurally necessary because it converts a demand for compliance into a
+      claim of moral entitlement. The gap between appearance and record is documented (Article 5 history, casualty figures).
+  - source_id: 2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper
+    source_type: analysis
+    variant: null
+    note: The strait's international-waters legal status (UNCLOS transit passage rights) is the appearance. Iran's de facto
+      control — 'permission-based transit' administered by Tehran — is the operating reality. The gap between legal status
+      and operational control is the terrain on which Iran's new power operates.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1363,10 +1411,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.634
+  confidence_ratio: 0.659
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 52
+  corr_count: 54
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -1575,6 +1623,12 @@ entries:
     variant: null
     note: Opponents held initiative to its own framing — CHF 0.92/day is less than a coffee. Cost argument turned against
       itself.
+  - source_id: 2026-03-17-publicnotice-article-trump-russia-nato-iran-strait
+    source_type: analysis
+    variant: inverse
+    note: 'Inverse deployment: the most powerful member exploits the alliance''s own language (burden-sharing, collective
+      defence, territorial protection) to demand compliance while violating those standards. Scott documented the weak using
+      this mechanism; here the powerful deploy it — holding others to standards they themselves violate.'
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -1610,10 +1664,10 @@ entries:
 
       structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.072
+  confidence_ratio: 0.084
   confidence_level: PRELIMINARY
   relevant_corpus_size: 83
-  corr_count: 6
+  corr_count: 7
 - id: double_performance
   name: The Double Performance
   file: patterns/double-performance.md
@@ -2138,11 +2192,17 @@ entries:
     note: 'Attack follows template: military action presented as necessary response to unique threat, launched while diplomatic
       process was progressing, with goals shifting post-launch. Structural parallel to Iraq (2003: inspectors sidelined) and
       Libya (2011).'
+  - source_id: 2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper
+    source_type: analysis
+    variant: template running in reverse
+    note: 'The serial regime change template (military action → present as unique and necessary → unintended consequences)
+      is operating, but the expected outcome (target isolated, attacker''s position strengthened) has inverted: the target''s
+      leverage has increased and the attacker is increasingly isolated diplomatically.'
   counter_evidence: []
-  confidence_ratio: 0.171
+  confidence_ratio: 0.183
   confidence_level: SUPPORTED
   relevant_corpus_size: 82
-  corr_count: 14
+  corr_count: 15
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
   file: patterns/unprecedented-as-sanctuary.md
@@ -2186,6 +2246,12 @@ entries:
     variant: null
     note: AGI and transhumanist enhancement technologies establish themselves in conceptual and regulatory voids. The "existential
       risk" framing defines the terms of regulation before regulatory frameworks can develop categories of response.
+  - source_id: 2026-03-17-publicnotice-article-trump-russia-nato-iran-strait
+    source_type: analysis
+    variant: null
+    note: Intra-alliance aggression (Greenland seizure threat against NATO founding member Denmark) operates in a legal void
+      the treaty did not anticipate. The unanimity requirement for Article 5 invocation means the aggressor can block the
+      accountability mechanism — the treaty's design contains its own neutralisation.
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -2207,10 +2273,10 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.108
+  confidence_ratio: 0.12
   confidence_level: SUPPORTED
   relevant_corpus_size: 83
-  corr_count: 9
+  corr_count: 10
 - id: dispossession_cycle
   name: The Dispossession Cycle
   file: patterns/dispossession-cycle.md
@@ -2654,6 +2720,12 @@ entries:
     note: US negotiating team (Kushner/Witkoff) did not bring technical experts to nuclear talks. Relied on IAEA DG for expertise
       outside his mandate. Witkoff's public pronouncements contained basic errors. The institutional function of competent
       negotiation was not staffed to succeed.
+  - source_id: 2026-03-17-publicnotice-article-trump-russia-nato-iran-strait
+    source_type: analysis
+    variant: null
+    note: NATO as institution does not invoke its own mechanisms to address a member threatening to invade another member.
+      The institutional silence in response to the Greenland threat constitutes abdication of the alliance's foundational
+      commitment to territorial integrity of members.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2698,10 +2770,10 @@ entries:
       than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.208
+  confidence_ratio: 0.221
   confidence_level: ESTABLISHED
   relevant_corpus_size: 77
-  corr_count: 16
+  corr_count: 17
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md

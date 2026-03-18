@@ -359,3 +359,19 @@
   IC-5 flag: True
   Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md`, `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`
   File: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`
+
+### 2026-03-17 — Trump demands NATO help in war he started alone — alliance as extraction mechanism
+  Domain: US foreign policy / NATO / alliance politics / Iran war consequences / Russia-US relations
+  Layers: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  Null case: plausible (MEDIUM at component level; LOW-MEDIUM at configurational level — directionality not explained by incoherence)
+  IC-5 flag: True
+  Cross-references: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`, `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`
+  File: `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`
+
+### 2026-03-18 — Iran emerges as Strait of Hormuz gatekeeper — military action amplifies the target's leverage
+  Domain: US foreign policy / energy security / Strait of Hormuz / Iran war consequences / alliance realignment
+  Layers: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information (Legal & Regulatory active but absent)
+  Null case: plausible (MEDIUM — military dimension has force; structural dimensions weaken it)
+  IC-5 flag: True
+  Cross-references: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
+  File: `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`
