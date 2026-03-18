@@ -10,7 +10,7 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (56 of 82 relevant sources, 68%)
+CONFIDENCE: ESTABLISHED (57 of 82 relevant sources, 70%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
@@ -24,7 +24,7 @@ LAYERS: Thought & Narrative, Economic, Physical & Coercive
 STATEMENT: A permanent external threat justifies permanent internal
 control, because a population at war accepts restrictions it would
 otherwise resist.
-CONFIDENCE: SUPPORTED (13 of 82 relevant sources, 16%)
+CONFIDENCE: SUPPORTED (14 of 82 relevant sources, 17%)
 
 ## [Manufactured Scarcity as Control](manufactured-scarcity-as-control.md)
 LAYERS: Thought & Narrative, Economic
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (51 of 82 relevant sources, 62%)
+CONFIDENCE: ESTABLISHED (52 of 82 relevant sources, 63%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -139,7 +139,7 @@ LAYERS: Thought & Narrative, Institutional, Physical & Coercive
 STATEMENT: A state repeatedly applies the same military intervention
 template across different targets, each time presenting the operation as
 unique and necessary while following an identical structural pattern.
-CONFIDENCE: SUPPORTED (13 of 82 relevant sources, 16%)
+CONFIDENCE: SUPPORTED (14 of 82 relevant sources, 17%)
 
 ## [The Unprecedented as Sanctuary](unprecedented-as-sanctuary.md)
 LAYERS: Thought & Narrative, Legal & Regulatory, Institutional
@@ -188,7 +188,7 @@ capture (where the institution is actively redirected by external
 actors) — here the institution simply stops functioning because its
 constituent professionals individually calculate that compliance is
 safer than independence.
-CONFIDENCE: SUPPORTED (15 of 77 relevant sources, 20%)
+CONFIDENCE: ESTABLISHED (16 of 77 relevant sources, 21%)
 CIRCUMVENTIONS: Institutional Reform
 
 ## [The Peacetime Ratchet](peacetime-ratchet.md)
@@ -254,7 +254,7 @@ comments, testimony) designed to produce specific outputs, (5) reward
 structures for compliant participants. The pipeline operates through
 formal institutional processes, not around them — satisfying formal
 requirements while controlling substantive outcomes.
-CONFIDENCE: SUPPORTED (14 of 81 relevant sources, 17%)
+CONFIDENCE: SUPPORTED (15 of 81 relevant sources, 18%)
 CIRCUMVENTIONS: Legal Challenge, Institutional Reform
 
 ## [Formal Transformation, Structural Continuity](formal-transformation-structural-continuity.md)

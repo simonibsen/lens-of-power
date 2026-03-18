@@ -251,6 +251,12 @@ entries:
     variant: null
     note: '''Arrest wanted suspects'' operation produced four civilian deaths and zero arrests. ''Perceived immediate threat''
       framing inverts the actual threat direction (armed undercover forces firing on a family car with children).'
+  - source_id: 2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach
+    source_type: analysis
+    variant: null
+    note: Stated purpose of Geneva talks was diplomatic resolution of Iranian nuclear programme. Talks terminated by military
+      action while UK participant and Omani mediator judged a deal was within reach. Iran's FM claim that the US 'attacked
+      during active negotiations twice in twelve months' now has western institutional corroboration.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -433,10 +439,10 @@ entries:
       absorption of critique).'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.683
+  confidence_ratio: 0.695
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 56
+  corr_count: 57
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -677,6 +683,11 @@ entries:
     variant: null
     note: Immigration constructed as permanent existential threat to the republic. The threat is structurally permanent because
       the demographic trends the brief cites are ongoing and the legal architecture continuously produces unauthorized status.
+  - source_id: 2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach
+    source_type: analysis
+    variant: null
+    note: Iranian nuclear programme has served as justification for sanctions, military posture, and now war for two decades.
+      The specific threat framing ('imminent') was not supported by UK intelligence assessment.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -687,10 +698,10 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.159
+  confidence_ratio: 0.171
   confidence_level: SUPPORTED
   relevant_corpus_size: 82
-  corr_count: 13
+  corr_count: 14
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
   file: patterns/manufactured-scarcity-as-control.md
@@ -1176,6 +1187,12 @@ entries:
     variant: null
     note: Justice Ministry misconduct probe manages perception of accountability while Yesh Din data documents structural
       absence of accountability (<1% indictment rate). The probe is the appearance.
+  - source_id: 2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach
+    source_type: analysis
+    variant: null
+    note: Geneva talks served as the visible surface of 'diplomatic exhaustion' — satisfying the formal requirement to attempt
+      diplomacy — while the military decision operated beneath. Whether the talks were performative from the US side from
+      the outset cannot be determined from this source.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1346,10 +1363,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.622
+  confidence_ratio: 0.634
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 51
+  corr_count: 52
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -2115,11 +2132,17 @@ entries:
     variant: null
     note: Venezuela template explicitly referenced as model for Iran; serial goal-shifting documented — four stated aims (protesters,
       nuclear, missiles, Strait) each replacing the previous without acknowledgment.
+  - source_id: 2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach
+    source_type: analysis
+    variant: null
+    note: 'Attack follows template: military action presented as necessary response to unique threat, launched while diplomatic
+      process was progressing, with goals shifting post-launch. Structural parallel to Iraq (2003: inspectors sidelined) and
+      Libya (2011).'
   counter_evidence: []
-  confidence_ratio: 0.159
+  confidence_ratio: 0.171
   confidence_level: SUPPORTED
   relevant_corpus_size: 82
-  corr_count: 13
+  corr_count: 14
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
   file: patterns/unprecedented-as-sanctuary.md
@@ -2625,6 +2648,12 @@ entries:
     variant: acting-secretary mechanism
     note: Senate's advise-and-consent function structurally weakened by the acting-secretary provision. The nominee serves
       before confirmation, reducing the hearing to ratification.
+  - source_id: 2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach
+    source_type: analysis
+    variant: null
+    note: US negotiating team (Kushner/Witkoff) did not bring technical experts to nuclear talks. Relied on IAEA DG for expertise
+      outside his mandate. Witkoff's public pronouncements contained basic errors. The institutional function of competent
+      negotiation was not staffed to succeed.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2669,10 +2698,10 @@ entries:
       than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.195
-  confidence_level: SUPPORTED
+  confidence_ratio: 0.208
+  confidence_level: ESTABLISHED
   relevant_corpus_size: 77
-  corr_count: 15
+  corr_count: 16
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -3245,6 +3274,13 @@ entries:
     variant: personnel selection stage — political loyalty over domain expertise
     note: 'Appointment selects for alignment with enforcement posture rather than DHS domain expertise. No relevant committee
       experience. Consistent with the pipeline''s first stage: selection through vetting process controlled by the executive.'
+  - source_id: 2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach
+    source_type: analysis
+    variant: null
+    note: Personnel selection (Kushner with documented commercial interests in counterparty states; Witkoff without nuclear
+      expertise) as mechanism through which the institutional function of diplomacy was redirected. Whether redirection was
+      toward Israeli interests (diplomat characterisation) or merely away from competent diplomacy is not determinable from
+      this source.
   - source_id: powell-memo
     source_type: principle
     variant: null
@@ -3304,10 +3340,10 @@ entries:
     note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
       captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.173
+  confidence_ratio: 0.185
   confidence_level: SUPPORTED
   relevant_corpus_size: 81
-  corr_count: 14
+  corr_count: 15
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md

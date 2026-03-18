@@ -3144,3 +3144,66 @@ entries:
   domain_text: Military occupation / extrajudicial killing / institutional impunity / settler violence / West Bank
   layers_text: Physical & Coercive (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
   null_case_text: rejected (MEDIUM for individual incident in isolation; LOW at systemic level — 1,400+ killings since last indictment, <1% indictment rate, identical narrative templates across incidents, not explained by individual incident assessments)
+
+- id: "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  file: analyses/2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md
+  title: "UK security adviser attended US-Iran talks and judged deal was within reach"
+  date: "2026-03-17"
+  time: "~14:00 UTC"
+  source_url: https://www.theguardian.com/world/2026/mar/17/uk-security-adviser-attended-us-iran-talks-and-judged-deal-was-within-reach
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — investigative diplomatic reporting with Position 4 (intermediary) sourcing"
+  hegemonic_contexts:
+  - national_security_state
+  layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  - surveillance_information
+  primary_layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  null_case: plausible
+  null_case_detail: "LOW-MEDIUM — enrichment-pause gap (3 vs 10 years) gives some force to null case, but weakened by five simultaneous structural factors: no US technical team, attack two days before scheduled follow-up, UK participant judged attack premature, Omani mediator judged deal within reach, war objectives shifted four times"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Western diplomatic and NPT-framework perspectives; Iranian negotiator perspective, Iranian civilian experience, and Omani mediator's full assessment absent"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  - "2026-03-04-guardian-article-leaked-cable-israel-hezbollah"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-11-reuters-wirestory-us-intel-iran-regime-stability"
+  - "2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Stated purpose of Geneva talks was diplomatic resolution of Iranian nuclear programme. Talks terminated by military action while UK participant and Omani mediator judged a deal was within reach. Iran's FM claim that the US 'attacked during active negotiations twice in twelve months' now has western institutional corroboration."
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: null
+    note: "Geneva talks served as the visible surface of 'diplomatic exhaustion' — satisfying the formal requirement to attempt diplomacy — while the military decision operated beneath. Whether the talks were performative from the US side from the outset cannot be determined from this source."
+  - pattern: institutional_abdication
+    status: observed
+    variant: null
+    note: "US negotiating team (Kushner/Witkoff) did not bring technical experts to nuclear talks. Relied on IAEA DG for expertise outside his mandate. Witkoff's public pronouncements contained basic errors. The institutional function of competent negotiation was not staffed to succeed."
+  - pattern: capture_pipeline
+    status: inferred
+    variant: null
+    note: "Personnel selection (Kushner with documented commercial interests in counterparty states; Witkoff without nuclear expertise) as mechanism through which the institutional function of diplomacy was redirected. Whether redirection was toward Israeli interests (diplomat characterisation) or merely away from competent diplomacy is not determinable from this source."
+  - pattern: serial_regime_change
+    status: inferred
+    variant: null
+    note: "Attack follows template: military action presented as necessary response to unique threat, launched while diplomatic process was progressing, with goals shifting post-launch. Structural parallel to Iraq (2003: inspectors sidelined) and Libya (2011)."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "Iranian nuclear programme has served as justification for sanctions, military posture, and now war for two decades. The specific threat framing ('imminent') was not supported by UK intelligence assessment."
+  findings_count: 12
+  commit: null
+  domain_text: US foreign policy / diplomacy / nuclear proliferation / UK-US relations
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  null_case_text: plausible (LOW-MEDIUM — enrichment-pause gap gives some force; weakened by five simultaneous structural factors not explained by null case)

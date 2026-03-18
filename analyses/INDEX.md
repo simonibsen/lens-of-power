@@ -351,3 +351,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md`, `2026-03-01-guardian-article-israel-embracing-militarism-iran.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
   File: `2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank.md`
+
+### 2026-03-17 — UK security adviser attended US-Iran talks and judged deal was within reach
+  Domain: US foreign policy / diplomacy / nuclear proliferation / UK-US relations
+  Layers: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  Null case: plausible (LOW-MEDIUM — enrichment-pause gap gives some force; weakened by five simultaneous structural factors not explained by null case)
+  IC-5 flag: True
+  Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md`, `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`
+  File: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`
