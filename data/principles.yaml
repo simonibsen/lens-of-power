@@ -2580,3 +2580,120 @@ entries:
   position_display: "3 (revolutionary — imprisoned Communist Party leader)"
   instruments_proposed_display: []
   source_type_display: primary_document
+- id: rushkoff-survival-of-the-richest
+  file: principles/rushkoff-survival-of-the-richest.md
+  source_name: Douglas Rushkoff
+  source_title: "Survival of the Richest: Escape Fantasies of the Tech Billionaires"
+  source_year: 2022
+  position:
+  - 5
+  position_note: "cultural critic / media theorist invited into Position 1 spaces — cross-positional witness"
+  provenance_tier: training_data
+  layers:
+  - thought_narrative
+  - economic
+  - institutional
+  - physical_coercive
+  - surveillance_information
+  principles_count: 6
+  principles_list:
+  - The Mindset
+  - The Insulation Equation
+  - Technology as Externality Concealment
+  - The Security-Force Problem
+  - "Escape as System Product, Not System Deviation"
+  - "The Alternative: Mutual Aid Over Insulation"
+  key_patterns:
+  - pattern: wealth_defense_industry
+    variant: 'post-civilisational — extended past the system boundary'
+    note: 'The bunker industry is the Wealth Defense Industry for the post-social-contract world. Bunker builders, tactical vehicle manufacturers, and survival consultants are the post-civilisational wealth managers.'
+  - pattern: peacetime_ratchet
+    variant: 'terminal logic — concentration enables exit'
+    note: 'The ratchet has concentrated wealth to the point where beneficiaries can price in system collapse. The bunker is the ratchet''s endpoint: not accumulating more than others but accumulating survival as a private good.'
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: 'Tech elite''s public narrative (innovation for everyone, technology as progress) coexists with private preparation (bunkers, escape plans, New Zealand citizenship). The gap is the operating environment.'
+  - pattern: double_performance
+    variant: null
+    note: 'The tech elite perform system confidence (investing, building, promoting) while preparing for system failure (bunkers, escape). Rushkoff witnessed both performances from the same individuals in the same meeting.'
+  - pattern: division_of_learning
+    variant: null
+    note: 'The ultra-wealthy have better access to risk assessment and modelling. Their escape preparation is a product of information asymmetry — knowing more about the system''s trajectory than the populations who bear its consequences.'
+  - pattern: democracy_oligarchy_coexistence
+    variant: null
+    note: 'The escape fantasy operates entirely in the private sphere, unconstrained by democratic mechanisms. No electoral process addresses elite exit from the social contract.'
+  - pattern: constitutive_violence
+    variant: 'pre-positioned — planned transition from consent to coercion'
+    note: 'The security-force problem reveals that post-collapse authority would depend on direct physical coercion. Shock collars, food-supply locks, robot guards — mechanisms of constitutive violence planned in advance of the system''s failure.'
+  ic1_flags:
+  - axiom: 3
+    note: 'The Mindset is a specific instance of hegemonic naturalisation (fifth mode) — the cognitive framework makes escape appear rational and systemic repair appear impossible. The framework within which alternatives are assessed is itself a product of the system producing the crises.'
+  - axiom: 9
+    note: 'Complicates: the axiom describes how compliance is manufactured in the governed. Rushkoff documents how exit fantasies are manufactured in the governors. Power produces not only compliance below but escape above. The axiom''s scope may need extension.'
+  - axiom: 10
+    note: 'The billionaires understand the system''s trajectory clearly (they know it may collapse) but understanding produces exit rather than repair. Fisher''s reflexive impotence applied to the ruling class: knowledge of the problem produces flight, not action.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Thought & Narrative (primary), Economic, Institutional, Physical & Coercive, Surveillance & Information
+  key_patterns_display: Wealth Defense Industry, Peacetime Ratchet, Appearance as Structural Terrain, Double Performance, Division of Learning, Democracy-Oligarchy Coexistence, Constitutive Violence
+  source_display: "Douglas Rushkoff, *Survival of the Richest* (2022)"
+  position_display: "5 (cultural critic with cross-positional access to Position 1 spaces)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+
+- id: lumen-cultural-anthropology-economics
+  file: principles/lumen-cultural-anthropology-economics.md
+  source_name: Lumen Learning / SUNY ESC
+  source_title: "Cultural Anthropology — Economics (OER textbook chapter)"
+  source_year: 2020
+  position:
+  - 5
+  position_note: pedagogical — textbook synthesising multiple ethnographic sources
+  provenance_tier: training_data
+  layers:
+  - economic
+  - thought_narrative
+  - institutional
+  - legal_regulatory
+  - physical_coercive
+  principles_list:
+  - "The Commensurability Destruction (general-purpose money destroys moral exchange boundaries)"
+  - "Structural Violence as Institutional Production of Harm (institutions produce suffering through normal operation)"
+  - "The Aid Reproduction Cycle (aid channelled through intermediaries reproduces the dependency it claims to address)"
+  - "The Autonomy Floor (ownership of means of production buffers against full market dependency)"
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: 'Aid system (stated: relief; function: reproduction of dependency). Fair trade (stated: equity; function: market absorption of critique).'
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: 'Separation from means of production as capitalism''s defining feature. Removal of the autonomy floor. Destruction of Tiv exchange spheres by general-purpose money.'
+  - pattern: moral_infrastructure_of_economic_power
+    variant: 'inverse — moral infrastructure constraining economic power'
+    note: 'Tiv moral spheres prevented treating people as commensurable with cattle. General-purpose money destroyed these constraints. Haiti reparations as moral obligation.'
+  - pattern: relay_class
+    variant: null
+    note: 'NGOs as intermediaries replacing colonial administrators in Haiti. Schuller: "trickle-down imperialism."'
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
+  - pattern: constitutive_violence
+    variant: null
+    note: 'Haiti''s inequality traces to colonial slavery and the 1825 reparations demand. The violence is not historical but constitutive.'
+  - pattern: compliance_gradient
+    variant: null
+    note: 'The autonomy floor determines position on the gradient. Those who can feed themselves resist more than those who cannot.'
+  - pattern: democracy_oligarchy_coexistence
+    variant: null
+    note: 'Haiti: second-oldest republic in Western Hemisphere; richest 20% hold 64%+ of wealth.'
+  ic1_flags:
+  - axiom: 9
+    note: 'Haiti shows compliance manufactured not through concealment but through impossibility of alternatives. Fifth independent domain (after workplace, housing, low-wage service, border crossing) confirming Axiom 9 overemphasises invisibility.'
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: Economic (primary), Thought & Narrative, Institutional, Legal & Regulatory, Physical & Coercive
+  key_patterns_display: Inversion of Stated Purpose, Manufactured Scarcity as Control, Moral Infrastructure of Economic Power, Relay Class, Formal Transformation/Structural Continuity, Constitutive Violence, Compliance Gradient, Democracy-Oligarchy Coexistence
+  source_display: "Lumen Learning / SUNY ESC, *Cultural Anthropology — Economics* (OER textbook chapter)"
+  position_display: "5 (pedagogical — textbook synthesising multiple ethnographic sources)"
+  instruments_proposed_display: []
+  source_type_display: training_data

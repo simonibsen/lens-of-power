@@ -2821,3 +2821,518 @@ entries:
   hegemonic_contexts:
   - nation_state_sovereignty
   - western_liberal_democracy
+- id: 2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement
+  file: analyses/2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md
+  date: '2026-03-14'
+  time: ~09:00 UTC
+  source_date: '2024'
+  title: 'Transhumanism: billionaires, tech enhancement, and the foreclosure of alternative futures'
+  source_name: The Conversation (Alexander Thomas)
+  source_type: essay
+  position:
+  - 5
+  url: https://theconversation.com/transhumanism-billionaires-want-to-use-tech-to-enhance-our-abilities-the-outcomes-could-change-what-it-means-to-be-human-220549
+  domain:
+  - ai_policy
+  - economics
+  - ethics_disclosure
+  layers_primary:
+  - thought_narrative
+  - economic
+  layers_secondary:
+  - institutional
+  - surveillance_information
+  layers_absent:
+  - legal_regulatory
+  - physical_coercive
+  null_case: plausible
+  null_case_level: MEDIUM for philosophy; LOW-MEDIUM for commercial deployment
+  adversarial: false
+  origin: null
+  ic5_flag: 'Analysis produced by Anthropic AI system — one of the companies named in the article as racing toward AGI. The analytical instrument is a product of the power arrangement under analysis. Training may overweight "responsible AI" framing that the article identifies as regulatory capture.'
+  hegemonic_contexts:
+  - technological_progress
+  - market_capitalism
+  cross_references:
+  - 2026-03-02-datasociety-policybrief-big-ai-state
+  - 2026-03-04-guardian-article-datacenter-politics-nc-primary
+  - 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+  - 2026-03-14-cra-policybrief-great-replacement-theory-practice
+  patterns_matched:
+  - pattern: manufactured_scarcity_as_control
+    status: inferred
+    variant: 'scarcity of acceptable futures'
+    note: 'Non-technological futures excluded from the thinkable. "Merge with AI or be left behind" eliminates the option of not pursuing the trajectory. Scarcity operates at the level of the imagination, not material resources.'
+  - pattern: unprecedented_as_sanctuary
+    status: observed
+    variant: null
+    note: 'AGI and transhumanist enhancement technologies establish themselves in conceptual and regulatory voids. The "existential risk" framing defines the terms of regulation before regulatory frameworks can develop categories of response.'
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: null
+    note: 'The gap between the transhumanist promise (enhancement for all, ending suffering) and the structural reality (market-distributed access, private ownership, VC-funded development) is the operating environment.'
+  - pattern: peacetime_ratchet
+    status: inferred
+    variant: 'biological dimension — enhancement as capital investment in the body'
+    note: 'Enhancement technologies as a new dimension of inequality accumulation. When the body becomes a site of capital investment, r > g extends from property to personhood. Returns compound for those with initial capital access.'
+  - pattern: inversion_of_stated_purpose
+    status: inferred
+    variant: null
+    note: 'AI safety discourse: stated purpose is protecting humanity from AI risk; function is protecting AI companies from present-harms regulation. Regulatory attention directed toward hypothetical future rather than documented present.'
+  - pattern: structural_demand_for_propaganda
+    status: inferred
+    variant: null
+    note: 'Transhumanist narrative meets the demand for a coherent story about the future. Populations anxious about technological change need a framework that makes the trajectory appear meaningful and beneficial. The demand precedes the supply.'
+  findings_count: 8
+  commit: null
+  domain_text: AI policy / transhumanism / technological determinism / inequality / regulatory capture
+  layers_text: Thought & Narrative (primary), Economic (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent), Physical & Coercive (active but absent)
+  null_case_text: plausible (MEDIUM for transhumanism as philosophy; LOW-MEDIUM for tech industry's deployment of transhumanist narrative — incentive structure and regulatory capture documented across multiple independent sources)
+- id: 2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich
+  file: analyses/2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich.md
+  date: '2026-03-14'
+  time: ~10:00 UTC
+  source_date: '2022'
+  title: 'Luxury doomsday bunkers — when the architects of the system price in its collapse'
+  source_name: Business Insider (supplemented by CBC, Rushkoff, Garrett)
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.businessinsider.com/photos-inside-luxury-bunkers-ultra-rich-prepare-for-doomsday-2022-9
+  domain:
+  - economics
+  - corruption
+  layers_primary:
+  - economic
+  - physical_coercive
+  - thought_narrative
+  layers_secondary:
+  - institutional
+  - surveillance_information
+  layers_absent:
+  - legal_regulatory
+  null_case: plausible
+  null_case_level: MEDIUM for individual purchases; LOW-MEDIUM at scale
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents aspirational wealth framing (lifestyle journalism); perspective of billions outside the bunker absent
+  hegemonic_contexts:
+  - market_capitalism
+  - property_rights
+  - meritocracy
+  cross_references:
+  - 2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement
+  - 2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy
+  - 2026-03-06-propublica-database-trump-financial-disclosures
+  patterns_matched:
+  - pattern: wealth_defense_industry
+    status: observed
+    variant: 'post-civilisational — extended past the system boundary'
+    note: 'Bunker industry is the Wealth Defense Industry extended to post-social-contract survival. Bunker builders are post-civilisational wealth managers. The professional class has expanded from defending wealth within the system to defending the wealthy after the system.'
+  - pattern: peacetime_ratchet
+    status: inferred
+    variant: 'terminal logic — concentration extended to survival itself'
+    note: 'The ratchet has concentrated wealth to the point where beneficiaries can afford to exit the system entirely. The bunker is the final stage: not accumulating more than others but accumulating survival as a private good.'
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: 'The gap between the ultra-wealthy''s public confidence in the system (investing, operating, promoting) and their private preparation for its collapse (bunker construction) is the operating environment. Both positions serve their interests simultaneously.'
+  - pattern: double_performance
+    status: inferred
+    variant: null
+    note: 'The ultra-wealthy perform system confidence (continued investment, public optimism, institutional participation) while preparing for system failure (bunker construction, tactical vehicles, security planning). Both sides know the other is performing.'
+  - pattern: division_of_learning
+    status: inferred
+    variant: null
+    note: 'The ultra-wealthy have access to intelligence, modelling, and expertise about systemic risks that ordinary populations do not. The bunker is a product of knowing more about the system''s trajectory — an information asymmetry materialised as physical infrastructure.'
+  - pattern: structural_demand_for_propaganda
+    status: inferred
+    variant: '"dread merchants" — cultivating the fear the industry serves'
+    note: 'Garrett characterises bunker companies as "dread merchants." The industry does not merely respond to fear; it cultivates it. The narrative of imminent collapse serves commercial interests. But the dread is not manufactured from nothing — the instability is real.'
+  - pattern: democracy_oligarchy_coexistence
+    status: inferred
+    variant: null
+    note: 'The bunker phenomenon operates entirely in the private sphere within a democratic system that does not constrain it. No electoral or democratic mechanism addresses the exit of the wealthy from the social contract. The exit is not illegal — it is legally and conceptually unremarkable.'
+  findings_count: 10
+  commit: null
+  domain_text: Ultra-wealthy survival infrastructure / Wealth Defense Industry / system-exit / consent-to-coercion transition
+  layers_text: Economic (primary), Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent)
+  null_case_text: plausible (MEDIUM for individual purchases as rational hedging; LOW-MEDIUM at scale — collective exit preparation by system architects reveals private assessment of systemic trajectory)
+- id: 2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement
+  file: analyses/2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md
+  date: '2026-03-15'
+  time: ~14:00 UTC
+  source_date: '2026-03-15'
+  title: 'Hacked DHS data reveals AI surveillance procurement pipeline'
+  source_name: The Guardian (investigative data report, based on hacked DHS records provided by Distributed Denial of Secrets)
+  source_type: investigative_data
+  position:
+  - 5
+  url: https://www.theguardian.com/us-news/2026/mar/15/hacked-data-homeland-security
+  domain:
+  - surveillance_capitalism
+  - domestic_policy
+  - privacy_regulation
+  - ai_policy
+  layers_primary:
+  - surveillance_information
+  - economic
+  - institutional
+  layers_secondary:
+  - legal_regulatory
+  - thought_narrative
+  - physical_coercive
+  layers_absent: []
+  null_case: plausible
+  null_case_level: MEDIUM at component level; LOW-MEDIUM at configurational level
+  adversarial: false
+  origin: null
+  ic5_flag: Training data overrepresents both security-state justification and civil-liberties critique; perspective of populations subjected to surveillance (Somali communities in Columbus, profiled airport travellers, 911 callers) absent
+  hegemonic_contexts:
+  - national_security_state
+  - technological_progress
+  cross_references:
+  - 2026-03-02-wikipedia-article-operation-metro-surge
+  - 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+  - 2026-03-02-datasociety-policybrief-big-ai-state
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: 'SBIR programme stated purpose is innovation support for small businesses; structural function includes commercialising surveillance technology for private-sector distribution. The commercialisation mandate is the mechanism — publicly funded R&D designed from inception to become commercial surveillance products.'
+  - pattern: division_of_learning
+    status: observed
+    variant: 'state surveillance variant'
+    note: 'Total information asymmetry: DHS/contractors know everything about the surveilled; surveilled populations know nothing about the apparatus. The leaked data is the only reason the public has visibility into the programme scope.'
+  - pattern: dispossession_cycle
+    status: inferred
+    variant: null
+    note: 'SPOT incursion into airport behavioural surveillance → decade of operation (habituation) → GAO/ACLU critique (adaptation) → AI-branded successors that present the same objective in new packaging (redirection). The four-stage normalisation ratchet operating in the state surveillance context.'
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: 'SPOT eliminated (2016-2017), FAST wound down, AI surveillance contracts awarded (2025) — the programme form changes; the surveillance objective persists; the new contracts do not reference the prior failures.'
+  - pattern: layered_redundancy_of_control
+    status: observed
+    variant: null
+    note: 'Three simultaneous surveillance expansions on a single date (7 May 2025): mobile biometric adapters, airport CCTV AI, 911 data analytics. Failure of one does not affect the others.'
+  - pattern: boomerang
+    status: inferred
+    variant: 'federal-to-commercial migration via statutory mandate'
+    note: 'Border/immigration enforcement biometric techniques migrating to domestic and commercial contexts through the SBIR commercialisation mandate. Extends the Boomerang from colonial-domestic migration to federal-commercial migration.'
+  findings_count: 12
+  commit: null
+  domain_text: DHS surveillance procurement / AI surveillance / predictive policing / biometric technology / SBIR commercialisation
+  layers_text: Surveillance & Information (primary), Economic (primary), Institutional (primary), Legal & Regulatory, Thought & Narrative, Physical & Coercive
+  null_case_text: plausible (MEDIUM at component level — individual contracts are routine SBIR; LOW-MEDIUM at configurational level — timing, clustering, commercialisation pipeline, and SPOT repetition form a pattern not explained by routine procurement)
+
+- id: "2026-03-15-opensecrets-profile-markwayne-mullin-dhs"
+  file: analyses/2026-03-15-opensecrets-profile-markwayne-mullin-dhs.md
+  title: "OpenSecrets profile — Markwayne Mullin, DHS Secretary nominee"
+  date: "2026-03-15"
+  time: "~17:00 UTC"
+  source_url: https://www.opensecrets.org/news/2026/03/trump-administration-profile-markwayne-mullin/
+  source_type: data_profile
+  source_position: 5
+  source_position_note: "observer — nonpartisan research organisation with campaign finance dataset access"
+  hegemonic_contexts:
+  - liberal_democracy
+  - national_security_state
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  - legal_regulatory
+  - physical_coercive
+  - surveillance_information
+  primary_layers:
+  - economic
+  - institutional
+  - thought_narrative
+  null_case: plausible
+  null_case_detail: "MEDIUM-HIGH at institutional level (cabinet appointments are inherently political); MEDIUM at configurational level (shooting defence + no DHS expertise + enforcement escalation signal not explained by routine political appointment)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-centre perspective on cabinet appointments; populations subject to DHS enforcement absent"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement"
+  - "2026-03-02-wikipedia-article-operation-metro-surge"
+  - "2026-03-06-propublica-database-trump-financial-disclosures"
+  patterns_matched:
+  - pattern: capture_pipeline
+    status: inferred
+    variant: 'personnel selection stage — political loyalty over domain expertise'
+    note: 'Appointment selects for alignment with enforcement posture rather than DHS domain expertise. No relevant committee experience. Consistent with the pipeline''s first stage: selection through vetting process controlled by the executive.'
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: 'Noem replaced by Mullin. The person changes; the enforcement posture intensifies. Minneapolis shootings produced a personnel change, not a policy change.'
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: 'Mullin''s public defence of the ICE shootings before being nominated is itself anticipatory obedience — demonstrating loyalty to the enforcement posture before being asked to lead it.'
+  - pattern: institutional_abdication
+    status: inferred
+    variant: 'acting-secretary mechanism'
+    note: 'Senate''s advise-and-consent function structurally weakened by the acting-secretary provision. The nominee serves before confirmation, reducing the hearing to ratification.'
+  - pattern: inversion_of_stated_purpose
+    status: inferred
+    variant: null
+    note: 'Replacement of a secretary fired for enforcement failures with a secretary who defends those same failures presents the personnel change as reform while intensifying the approach that produced the crisis.'
+  findings_count: 12
+  commit: null
+  domain_text: Cabinet appointment / DHS leadership / immigration enforcement / personnel selection / campaign finance
+  layers_text: Economic (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Physical & Coercive, Surveillance & Information (active but absent)
+  null_case_text: plausible (MEDIUM-HIGH at institutional level — cabinet appointments are inherently political; MEDIUM at configurational level — shooting defence + no DHS expertise + enforcement escalation signal not explained by routine political appointment)
+
+- id: "2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank"
+  file: analyses/2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank.md
+  title: "Israeli police kill two young Palestinian boys and their parents in West Bank"
+  date: "2026-03-15"
+  time: "~18:00 UTC"
+  source_url: https://www.theguardian.com/world/2026/mar/15/israeli-police-kill-two-young-palestinian-boys-and-their-parents-in-west-bank
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — international journalism with institutional distance"
+  hegemonic_contexts:
+  - national_security_state
+  - liberal_democracy
+  layers:
+  - physical_coercive
+  - legal_regulatory
+  - institutional
+  - thought_narrative
+  - surveillance_information
+  primary_layers:
+  - physical_coercive
+  - legal_regulatory
+  - institutional
+  null_case: rejected
+  null_case_detail: "MEDIUM for individual incident in isolation (threat perception not verifiable); LOW at systemic level (impunity structure documented across two decades of longitudinal data — 1,400+ killings since last indictment, <1% indictment rate — not explained by individual incident assessments)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Israeli institutional and Western diplomatic perspectives; Palestinian civilian experience mediated through international journalism; 'conflict' framing naturalises power asymmetry"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-02-forbiddenstories-investigation-settler-violence-west-bank"
+  - "2026-03-01-guardian-article-israel-embracing-militarism-iran"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  patterns_matched:
+  - pattern: constitutive_violence
+    status: observed
+    variant: null
+    note: "The occupation's initial distribution of power (1967 military conquest) is maintained through continuing violence. The Bani Odeh killing is an expression of the system's constitutive logic, not an aberration within it."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "'Arrest wanted suspects' operation produced four civilian deaths and zero arrests. 'Perceived immediate threat' framing inverts the actual threat direction (armed undercover forces firing on a family car with children)."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Justice Ministry misconduct probe manages perception of accountability while Yesh Din data documents structural absence of accountability (<1% indictment rate). The probe is the appearance."
+  - pattern: formal_transformation_structural_continuity
+    status: inferred
+    variant: null
+    note: "The Justice Ministry probe, if it follows historical pattern (<1% indictment rate since 2005), will produce formal process (investigation) without structural change (indictment, conviction, reform)."
+  - pattern: division_of_learning
+    status: observed
+    variant: null
+    note: "Israeli forces operate with total information asymmetry: undercover unit with Palestinian plates, surveillance capacity, institutional impunity. The population knows nothing about the operation until lethal force is applied."
+  findings_count: 14
+  commit: null
+  domain_text: Military occupation / extrajudicial killing / institutional impunity / settler violence / West Bank
+  layers_text: Physical & Coercive (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  null_case_text: rejected (MEDIUM for individual incident in isolation; LOW at systemic level — 1,400+ killings since last indictment, <1% indictment rate, identical narrative templates across incidents, not explained by individual incident assessments)
+
+- id: "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  file: analyses/2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md
+  title: "UK security adviser attended US-Iran talks and judged deal was within reach"
+  date: "2026-03-17"
+  time: "~14:00 UTC"
+  source_url: https://www.theguardian.com/world/2026/mar/17/uk-security-adviser-attended-us-iran-talks-and-judged-deal-was-within-reach
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — investigative diplomatic reporting with Position 4 (intermediary) sourcing"
+  hegemonic_contexts:
+  - national_security_state
+  layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  - surveillance_information
+  primary_layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  null_case: plausible
+  null_case_detail: "LOW-MEDIUM — enrichment-pause gap (3 vs 10 years) gives some force to null case, but weakened by five simultaneous structural factors: no US technical team, attack two days before scheduled follow-up, UK participant judged attack premature, Omani mediator judged deal within reach, war objectives shifted four times"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Western diplomatic and NPT-framework perspectives; Iranian negotiator perspective, Iranian civilian experience, and Omani mediator's full assessment absent"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  - "2026-03-04-guardian-article-leaked-cable-israel-hezbollah"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-11-reuters-wirestory-us-intel-iran-regime-stability"
+  - "2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Stated purpose of Geneva talks was diplomatic resolution of Iranian nuclear programme. Talks terminated by military action while UK participant and Omani mediator judged a deal was within reach. Iran's FM claim that the US 'attacked during active negotiations twice in twelve months' now has western institutional corroboration."
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: null
+    note: "Geneva talks served as the visible surface of 'diplomatic exhaustion' — satisfying the formal requirement to attempt diplomacy — while the military decision operated beneath. Whether the talks were performative from the US side from the outset cannot be determined from this source."
+  - pattern: institutional_abdication
+    status: observed
+    variant: null
+    note: "US negotiating team (Kushner/Witkoff) did not bring technical experts to nuclear talks. Relied on IAEA DG for expertise outside his mandate. Witkoff's public pronouncements contained basic errors. The institutional function of competent negotiation was not staffed to succeed."
+  - pattern: capture_pipeline
+    status: inferred
+    variant: null
+    note: "Personnel selection (Kushner with documented commercial interests in counterparty states; Witkoff without nuclear expertise) as mechanism through which the institutional function of diplomacy was redirected. Whether redirection was toward Israeli interests (diplomat characterisation) or merely away from competent diplomacy is not determinable from this source."
+  - pattern: serial_regime_change
+    status: inferred
+    variant: null
+    note: "Attack follows template: military action presented as necessary response to unique threat, launched while diplomatic process was progressing, with goals shifting post-launch. Structural parallel to Iraq (2003: inspectors sidelined) and Libya (2011)."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "Iranian nuclear programme has served as justification for sanctions, military posture, and now war for two decades. The specific threat framing ('imminent') was not supported by UK intelligence assessment."
+  findings_count: 12
+  commit: null
+  domain_text: US foreign policy / diplomacy / nuclear proliferation / UK-US relations
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  null_case_text: plausible (LOW-MEDIUM — enrichment-pause gap gives some force; weakened by five simultaneous structural factors not explained by null case)
+
+- id: "2026-03-17-publicnotice-article-trump-russia-nato-iran-strait"
+  file: analyses/2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md
+  title: "Trump demands NATO help in war he started alone — alliance as extraction mechanism"
+  date: "2026-03-17"
+  time: "~18:00 UTC"
+  source_url: https://www.publicnotice.co/p/trump-russia-nato-iran-oil
+  source_type: essay
+  source_position: 5
+  source_position_note: "observer/analyst — Substack opinion with editorial voice"
+  hegemonic_contexts:
+  - national_security_state
+  - nation_state_sovereignty
+  layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  - surveillance_information
+  primary_layers:
+  - thought_narrative
+  - institutional
+  - physical_coercive
+  null_case: plausible
+  null_case_detail: "MEDIUM at component level (burden-sharing frustration genuine, individual contradictions attributable to incoherence); LOW-MEDIUM at configurational level (directionality of pattern — allies pressured, Russia shielded, risks demanded of others but refused by US — not explained by incoherence)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents liberal-internationalist defence of NATO as positive-sum; Russian perspective on NATO expansion, Iranian perspective on strait, and structural critique of NATO as US hegemonic instrument underrepresented"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-05-reuters-wirestory-indian-refiners-russian-oil"
+  - "2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy"
+  - "2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Article 5 (collective defence) invoked to demand allied participation in a war of aggression. The provision's defensive purpose is inverted — the aggressor demands collective support. Trump's fabricated debt narrative ('40 years protecting you') inverts the historical record (Article 5 invoked once, for the US; ~1,470 allied deaths in Afghanistan/Iraq dismissed)."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "The 'beleaguered protector' framing — US as selfless defender exploited by freeloading allies — is the operating terrain. The appearance (US sacrifice) is structurally necessary because it converts a demand for compliance into a claim of moral entitlement. The gap between appearance and record is documented (Article 5 history, casualty figures)."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "Self-generating threat cycle: war produces strait closure; strait closure produces demands on allies; allied reluctance produces threats to NATO. Each consequence of the prior action generates the justification for the next demand. The cycle has no equilibrium within existing institutional architecture."
+  - pattern: unprecedented_as_sanctuary
+    status: observed
+    variant: null
+    note: "Intra-alliance aggression (Greenland seizure threat against NATO founding member Denmark) operates in a legal void the treaty did not anticipate. The unanimity requirement for Article 5 invocation means the aggressor can block the accountability mechanism — the treaty's design contains its own neutralisation."
+  - pattern: institutional_abdication
+    status: inferred
+    variant: null
+    note: "NATO as institution does not invoke its own mechanisms to address a member threatening to invade another member. The institutional silence in response to the Greenland threat constitutes abdication of the alliance's foundational commitment to territorial integrity of members."
+  - pattern: ideological_judo
+    status: inferred
+    variant: inverse
+    note: "Inverse deployment: the most powerful member exploits the alliance's own language (burden-sharing, collective defence, territorial protection) to demand compliance while violating those standards. Scott documented the weak using this mechanism; here the powerful deploy it — holding others to standards they themselves violate."
+  findings_count: 11
+  commit: null
+  domain_text: US foreign policy / NATO / alliance politics / Iran war consequences / Russia-US relations
+  layers_text: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  null_case_text: plausible (MEDIUM at component level; LOW-MEDIUM at configurational level — directionality not explained by incoherence)
+
+- id: "2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper"
+  file: analyses/2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md
+  title: "Iran emerges as Strait of Hormuz gatekeeper — military action amplifies the target's leverage"
+  date: "2026-03-18"
+  time: "~14:00 UTC"
+  source_url: https://www.aljazeera.com/news/2026/3/18/how-iran-defied-trump-threats-to-emerge-as-strait-of-hormuz-gatekeeper
+  source_type: news_article
+  source_position: 4
+  source_position_note: "intermediary/observer — Qatari state-funded broadcaster with institutional interests in strait access and regional diplomacy"
+  hegemonic_contexts:
+  - national_security_state
+  - market_capitalism
+  layers:
+  - physical_coercive
+  - economic
+  - institutional
+  - thought_narrative
+  - surveillance_information
+  primary_layers:
+  - physical_coercive
+  - economic
+  - institutional
+  null_case: plausible
+  null_case_detail: "MEDIUM — military dimension has genuine force (US strikes may degrade capacity, 97% traffic reduction unsustainable for all parties); weakened by deliberate Iranian strategic positioning (post-war bargaining framing), insurance mechanism (few attacks sufficient to keep premiums prohibitive), Fujairah workaround targeting, and convergence with prior analyses (Geneva talks foreclosure, failed coalition, serial goal-shifting)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Western energy-security framing treating open waterways as neutral public good; Iranian domestic experience and strategic perspective underrepresented; Al Jazeera's Qatari state funding creates institutional perspective on strait access the article does not disclose"
+  adversarial: false
+  sample_origin: true
+  cross_references:
+  - "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  - "2026-03-17-publicnotice-article-trump-russia-nato-iran-strait"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-05-reuters-wirestory-indian-refiners-russian-oil"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "War intended to eliminate Iranian threat capacity has amplified Iran's structural leverage over global energy transit. Iran controls de facto access to the strait; traffic 97% below average; countries negotiate with Iran rather than joining US coalition."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "The strait's international-waters legal status (UNCLOS transit passage rights) is the appearance. Iran's de facto control — 'permission-based transit' administered by Tehran — is the operating reality. The gap between legal status and operational control is the terrain on which Iran's new power operates."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "Self-generating cycle: US attack produces strait closure; closure justifies further military action (bunker-busting strikes on antiship sites); strikes fail to restore passage; failure justifies further escalation (Marines deployment, potential Kharg Island seizure). Each consequence generates justification for the next action."
+  - pattern: layered_redundancy_of_control
+    status: observed
+    variant: "deployed by the target rather than the dominant power"
+    note: "Iran + proxies deploy redundant pressure across three chokepoints: Strait of Hormuz (direct control), Fujairah port (drone attack on workaround terminal), Bab al-Mandeb (Houthi stated readiness). The pattern — multiple control mechanisms so failure at one is caught by another — operates in favour of the target of military action."
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: null
+    note: "Iran manufactures energy scarcity through geographic control of the strait. Crude up 20%+, gas up 40%+, largest emergency reserve releases in history. The scarcity is converted into leverage for sanctions relief and economic concessions — the material basis for post-war bargaining."
+  - pattern: serial_regime_change
+    status: inferred
+    variant: "template running in reverse"
+    note: "The serial regime change template (military action → present as unique and necessary → unintended consequences) is operating, but the expected outcome (target isolated, attacker's position strengthened) has inverted: the target's leverage has increased and the attacker is increasingly isolated diplomatically."
+  findings_count: 13
+  commit: null
+  domain_text: US foreign policy / energy security / Strait of Hormuz / Iran war consequences / alliance realignment
+  layers_text: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information (Legal & Regulatory active but absent)
+  null_case_text: plausible (MEDIUM — military dimension has force; structural dimensions weaken it)

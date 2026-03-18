@@ -274,3 +274,21 @@ PRINCIPLES: 8 — The Dual Architecture of Dominance: Consent + Coercion, Common
 LAYERS: All six (Thought & Narrative and Institutional primary)
 KEY PATTERNS: Appearance as Structural Terrain, Formal Transformation/Structural Continuity, Institutional Abdication, Anticipatory Obedience, Middle Stratum Trap, Layered Redundancy of Control, Capture Pipeline, Double Performance
 IC-1 FLAGS: Axiom 3 (Common sense as a fifth mode of invisible power: the background ontology that determines the thinkable. Not a hidden mechanism (the institutions are visible), not degraded perception (the subjects perceive accurately within the frame), but a frame so deeply sedimented across generations that it is experienced as reality itself.), Axiom 5 (Complicates: durable power concentration requires genuine concession to subordinate groups. The hegemonic group's interests prevail but only up to a certain point — real coordination with subordinate interests is necessary. The axiom's directive ("at whose expense?") may miss cases where expense is distributed across society while accumulation benefits the dominant disproportionately but not exclusively.), Axiom 10 (Specifies the conditions: understanding resists only when organised through institutional infrastructure (alternative personnel system) and sustained across generational timescales (war of position). Understanding without institutional organisation is structurally impotent. This defines when Axiom 10 holds and when it fails.)
+
+## rushkoff-survival-of-the-richest.md
+SOURCE: Douglas Rushkoff, *Survival of the Richest* (2022)
+POSITION: 5 (cultural critic with cross-positional access to Position 1 spaces)
+SOURCE TYPE: training_data
+PRINCIPLES: 6 — The Mindset, The Insulation Equation, Technology as Externality Concealment, The Security-Force Problem, Escape as System Product, Not System Deviation, The Alternative: Mutual Aid Over Insulation
+LAYERS: Thought & Narrative (primary), Economic, Institutional, Physical & Coercive, Surveillance & Information
+KEY PATTERNS: Wealth Defense Industry, Peacetime Ratchet, Appearance as Structural Terrain, Double Performance, Division of Learning, Democracy-Oligarchy Coexistence, Constitutive Violence
+IC-1 FLAGS: Axiom 3 (The Mindset is a specific instance of hegemonic naturalisation (fifth mode) — the cognitive framework makes escape appear rational and systemic repair appear impossible. The framework within which alternatives are assessed is itself a product of the system producing the crises.), Axiom 9 (Complicates: the axiom describes how compliance is manufactured in the governed. Rushkoff documents how exit fantasies are manufactured in the governors. Power produces not only compliance below but escape above. The axiom's scope may need extension.), Axiom 10 (The billionaires understand the system's trajectory clearly (they know it may collapse) but understanding produces exit rather than repair. Fisher's reflexive impotence applied to the ruling class: knowledge of the problem produces flight, not action.)
+
+## lumen-cultural-anthropology-economics.md
+SOURCE: Lumen Learning / SUNY ESC, *Cultural Anthropology — Economics* (OER textbook chapter)
+POSITION: 5 (pedagogical — textbook synthesising multiple ethnographic sources)
+SOURCE TYPE: training_data
+PRINCIPLES: 4 — The Commensurability Destruction (general-purpose money destroys moral exchange boundaries), Structural Violence as Institutional Production of Harm (institutions produce suffering through normal operation), The Aid Reproduction Cycle (aid channelled through intermediaries reproduces the dependency it claims to address), The Autonomy Floor (ownership of means of production buffers against full market dependency)
+LAYERS: Economic (primary), Thought & Narrative, Institutional, Legal & Regulatory, Physical & Coercive
+KEY PATTERNS: Inversion of Stated Purpose, Manufactured Scarcity as Control, Moral Infrastructure of Economic Power, Relay Class, Formal Transformation/Structural Continuity, Constitutive Violence, Compliance Gradient, Democracy-Oligarchy Coexistence
+IC-1 FLAGS: Axiom 9 (Haiti shows compliance manufactured not through concealment but through impossibility of alternatives. Fifth independent domain (after workplace, housing, low-wage service, border crossing) confirming Axiom 9 overemphasises invisibility.)

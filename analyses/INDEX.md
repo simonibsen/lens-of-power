@@ -311,3 +311,67 @@
   IC-5 flag: Training data overrepresents institutional-centre "conspiracy theory" framing which accurately describes white-nationalist version but may obscure the policy-laundering mechanism. May also underweight genuine anxieties about demographic change in affected communities.
   Cross-references: `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-03-13-guardian-article-texas-terrorism-trial-anti-ice-protesters.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
   File: `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`
+
+### 2024 — Transhumanism: billionaires, tech enhancement, and the foreclosure of alternative futures
+  Domain: AI policy / transhumanism / technological determinism / inequality / regulatory capture
+  Layers: Thought & Narrative (primary), Economic (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent), Physical & Coercive (active but absent)
+  Null case: plausible (MEDIUM for transhumanism as philosophy; LOW-MEDIUM for tech industry's deployment of transhumanist narrative — incentive structure and regulatory capture documented across multiple independent sources)
+  IC-5 flag: Analysis produced by Anthropic AI system — one of the companies named in the article as racing toward AGI. The analytical instrument is a product of the power arrangement under analysis. Training may overweight "responsible AI" framing that the article identifies as regulatory capture.
+  Cross-references: `2026-03-02-datasociety-policybrief-big-ai-state.md`, `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`, `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`
+  File: `2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md`
+
+### 2022 — Luxury doomsday bunkers — when the architects of the system price in its collapse
+  Domain: Ultra-wealthy survival infrastructure / Wealth Defense Industry / system-exit / consent-to-coercion transition
+  Layers: Economic (primary), Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Surveillance & Information, Legal & Regulatory (active but absent)
+  Null case: plausible (MEDIUM for individual purchases as rational hedging; LOW-MEDIUM at scale — collective exit preparation by system architects reveals private assessment of systemic trajectory)
+  IC-5 flag: Training data overrepresents aspirational wealth framing (lifestyle journalism); perspective of billions outside the bunker absent
+  Cross-references: `2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md`, `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`, `2026-03-06-propublica-database-trump-financial-disclosures.md`
+  File: `2026-03-14-businessinsider-article-luxury-doomsday-bunkers-ultra-rich.md`
+
+### 2026-03-15 — Hacked DHS data reveals AI surveillance procurement pipeline
+  Domain: DHS surveillance procurement / AI surveillance / predictive policing / biometric technology / SBIR commercialisation
+  Layers: Surveillance & Information (primary), Economic (primary), Institutional (primary), Legal & Regulatory, Thought & Narrative, Physical & Coercive
+  Null case: plausible (MEDIUM at component level — individual contracts are routine SBIR; LOW-MEDIUM at configurational level — timing, clustering, commercialisation pipeline, and SPOT repetition form a pattern not explained by routine procurement)
+  IC-5 flag: Training data overrepresents both security-state justification and civil-liberties critique; perspective of populations subjected to surveillance (Somali communities in Columbus, profiled airport travellers, 911 callers) absent
+  Cross-references: `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-02-datasociety-policybrief-big-ai-state.md`
+  File: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`
+
+### 2026-03-15 — OpenSecrets profile — Markwayne Mullin, DHS Secretary nominee
+  Domain: Cabinet appointment / DHS leadership / immigration enforcement / personnel selection / campaign finance
+  Layers: Economic (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Physical & Coercive, Surveillance & Information (active but absent)
+  Null case: plausible (MEDIUM-HIGH at institutional level — cabinet appointments are inherently political; MEDIUM at configurational level — shooting defence + no DHS expertise + enforcement escalation signal not explained by routine political appointment)
+  IC-5 flag: True
+  Cross-references: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`, `2026-03-02-wikipedia-article-operation-metro-surge.md`, `2026-03-06-propublica-database-trump-financial-disclosures.md`
+  File: `2026-03-15-opensecrets-profile-markwayne-mullin-dhs.md`
+
+### 2026-03-15 — Israeli police kill two young Palestinian boys and their parents in West Bank
+  Domain: Military occupation / extrajudicial killing / institutional impunity / settler violence / West Bank
+  Layers: Physical & Coercive (primary), Legal & Regulatory (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  Null case: rejected (MEDIUM for individual incident in isolation; LOW at systemic level — 1,400+ killings since last indictment, <1% indictment rate, identical narrative templates across incidents, not explained by individual incident assessments)
+  IC-5 flag: True
+  Cross-references: `2026-03-02-forbiddenstories-investigation-settler-violence-west-bank.md`, `2026-03-01-guardian-article-israel-embracing-militarism-iran.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
+  File: `2026-03-15-guardian-article-israeli-police-kill-palestinian-family-west-bank.md`
+
+### 2026-03-17 — UK security adviser attended US-Iran talks and judged deal was within reach
+  Domain: US foreign policy / diplomacy / nuclear proliferation / UK-US relations
+  Layers: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  Null case: plausible (LOW-MEDIUM — enrichment-pause gap gives some force; weakened by five simultaneous structural factors not explained by null case)
+  IC-5 flag: True
+  Cross-references: `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-guardian-article-leaked-cable-israel-hezbollah.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-11-reuters-wirestory-us-intel-iran-regime-stability.md`, `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`
+  File: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`
+
+### 2026-03-17 — Trump demands NATO help in war he started alone — alliance as extraction mechanism
+  Domain: US foreign policy / NATO / alliance politics / Iran war consequences / Russia-US relations
+  Layers: Thought & Narrative (primary), Institutional (primary), Physical & Coercive (primary), Surveillance & Information (Economic and Legal & Regulatory active but absent)
+  Null case: plausible (MEDIUM at component level; LOW-MEDIUM at configurational level — directionality not explained by incoherence)
+  IC-5 flag: True
+  Cross-references: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`, `2026-03-13-nyt-article-kushner-affinity-partners-mideast-envoy.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`
+  File: `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`
+
+### 2026-03-18 — Iran emerges as Strait of Hormuz gatekeeper — military action amplifies the target's leverage
+  Domain: US foreign policy / energy security / Strait of Hormuz / Iran war consequences / alliance realignment
+  Layers: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information (Legal & Regulatory active but absent)
+  Null case: plausible (MEDIUM — military dimension has force; structural dimensions weaken it)
+  IC-5 flag: True
+  Cross-references: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
+  File: `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`

@@ -482,3 +482,32 @@ entries:
   - institutional
   - thought_narrative
   relationship: complicates
+- id: 2026-03-15-red-team-third-self-examination
+  file: evidence/2026-03-15-red-team-third-self-examination.md
+  title: Third framework self-examination (IC-3)
+  date_recorded: "2026-03-15"
+  source: Framework self-analysis — 48 analyses, 34 principles, 7 instruments, 32 patterns, 28 evidence entries
+  source_url: null
+  evidence_source_type: self_examination
+  axioms: []
+  patterns: []
+  layers: []
+  relationship: self-examination
+- id: 2026-03-15-axiom-9-structural-violence-compliance-visible
+  file: evidence/2026-03-15-axiom-9-structural-violence-compliance-visible.md
+  title: 'Axiom 9 complication: structural violence — compliance through impossibility of alternatives (fifth domain)'
+  date_recorded: "2026-03-15"
+  source: "Lumen Learning / SUNY ESC, Cultural Anthropology — Economics (OER), drawing on Schuller"
+  source_url: https://courses.lumenlearning.com/suny-esc-culturalanthropology/chapter/economics/
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  - constitutive_violence
+  layers:
+  - economic
+  - institutional
+  - physical_coercive
+  relationship: complicates
