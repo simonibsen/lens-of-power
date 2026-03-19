@@ -375,3 +375,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
   File: `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`
+
+### 2026-03-18 — CHMR dismantlement — the mechanism connecting institutional destruction to civilian deaths
+  Domain: US military / civilian casualties / institutional dismantlement / accountability architecture / Iran war / counterterrorism
+  Layers: Physical & Coercive (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Surveillance & Information (Economic active but absent)
+  Null case: rejected (LOW — configuration of simultaneous institutional changes + quantified step-change + specific Minab mechanism not explained by null case)
+  IC-5 flag: True
+  Cross-references: `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`
+  File: `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`

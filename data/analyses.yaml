@@ -3336,3 +3336,75 @@ entries:
   domain_text: US foreign policy / energy security / Strait of Hormuz / Iran war consequences / alliance realignment
   layers_text: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information (Legal & Regulatory active but absent)
   null_case_text: plausible (MEDIUM — military dimension has force; structural dimensions weaken it)
+
+- id: "2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm"
+  file: analyses/2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md
+  title: "CHMR dismantlement — the mechanism connecting institutional destruction to civilian deaths"
+  date: "2026-03-18"
+  time: "~17:00 UTC"
+  source_url: https://www.propublica.org/article/trump-defense-department-iran-hegseth-civilian-casualties
+  source_type: investigation
+  source_position: 5
+  source_position_note: "observer — nonprofit investigative journalism with Position 4 (national security personnel on background) and Position 2 (victim families, villagers) sourcing"
+  hegemonic_contexts:
+  - national_security_state
+  layers:
+  - physical_coercive
+  - institutional
+  - thought_narrative
+  - legal_regulatory
+  - surveillance_information
+  primary_layers:
+  - physical_coercive
+  - institutional
+  - thought_narrative
+  null_case: rejected
+  null_case_detail: "LOW — configuration of simultaneous institutional changes (90% CHMR elimination, JAG firings, lowered authorisation, IG removal), quantified step-change in casualties predating Iran campaign, and specific Minab mechanism (school on maps since 2013, no-strike list would have caught it) not explained by null case"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional military perspective treating civilian casualties as errors within legitimate system; populations subjected to US strikes across five theatres underrepresented"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  - "2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers"
+  - "2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "CHMR dismantled under 'lethality' doctrine — stated purpose (operational effectiveness) inverts structural function (removing accountability for civilian deaths). Trump claimed Minab was 'done by Iran' while US is sole Tomahawk possessor. Bryant proposed renaming programme to avoid 'woke' label — the substance was less threatening than the name."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Confirmation testimony supporting CHMR (Caine, Colby, Cooper) vs 90% personnel elimination. Center of Excellence formally exists (congressional approval required to close) while emptied of mission, mandate, and budget. The form persists; the function is gone."
+  - pattern: institutional_abdication
+    status: observed
+    variant: null
+    note: "Bradley shifted from 'model' CHMR adopter to defender of double-tap strikes. Trajectory traces institutional accommodation: professional who embraced accountability abandoned it when institutional signals changed."
+  - pattern: capture_pipeline
+    status: observed
+    variant: null
+    note: "Five-stage accountability dismantlement: (1) select Hegseth (views accountability as constraint on warrior ethos), (2) fire JAGs (legal oversight), (3) eliminate CHMR personnel (harm prevention), (4) lower authorisation thresholds and broaden target categories, (5) remove inspectors general. Each step removes a layer of the accountability architecture."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: "Institutional actors adjusted behaviour to perceived expectations before explicit orders. Bradley's shift. The 'woke' framing that prevented even renaming the programme — the institutional environment communicated what was expected without requiring direct instruction."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "McChrystal's 'insurgent math': every innocent killed creates 10+ new enemies. Civilian casualties fuel recruitment → more targets → more strikes → more casualties. The war on terror's self-generating cycle documented across two decades."
+  - pattern: division_of_learning
+    status: observed
+    variant: null
+    note: "'Operational security' cited to withhold details of Somalia strike that killed clan mediator. Classification system as structural information asymmetry: civilian populations cannot access information about operations conducted against them."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: "inverse — form preserved, function eliminated"
+    note: "Center of Excellence formally exists (congressional approval required to close) while emptied of function. Inverse of the usual pattern: typically, form changes while structure persists. Here, form is preserved (to satisfy congressional requirements) while function is eliminated."
+  findings_count: 15
+  commit: null
+  domain_text: US military / civilian casualties / institutional dismantlement / accountability architecture / Iran war / counterterrorism
+  layers_text: Physical & Coercive (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Surveillance & Information (Economic active but absent)
+  null_case_text: rejected (LOW — configuration of simultaneous institutional changes + quantified step-change + specific Minab mechanism not explained by null case)

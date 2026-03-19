@@ -93,3 +93,17 @@ entries:
   - |-
     Jacques Ellul, *Propaganda: The Formation of Men's
     > Attitudes* (1962); Jason Stanley, *How Propagan
+- id: accountability-dismantlement-checklist
+  file: instruments/accountability-dismantlement-checklist.md
+  name: Accountability Dismantlement Checklist
+  status: complete
+  layers:
+  - institutional
+  - legal_regulatory
+  - thought_narrative
+  - surveillance_information
+  derived_from:
+  - |-
+    ProPublica CHMR investigation (2026); Heritage Foundation
+    > Project 2025 (2023); Church Committee COINTELPRO (1976);
+    > Snyder *On Tyranny* (2017); Defense One JAG review (2026)

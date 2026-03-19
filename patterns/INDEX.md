@@ -10,7 +10,7 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (59 of 82 relevant sources, 72%)
+CONFIDENCE: ESTABLISHED (60 of 82 relevant sources, 73%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
@@ -24,7 +24,7 @@ LAYERS: Thought & Narrative, Economic, Physical & Coercive
 STATEMENT: A permanent external threat justifies permanent internal
 control, because a population at war accepts restrictions it would
 otherwise resist.
-CONFIDENCE: SUPPORTED (16 of 82 relevant sources, 20%)
+CONFIDENCE: ESTABLISHED (17 of 82 relevant sources, 21%)
 
 ## [Manufactured Scarcity as Control](manufactured-scarcity-as-control.md)
 LAYERS: Thought & Narrative, Economic
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (54 of 82 relevant sources, 66%)
+CONFIDENCE: ESTABLISHED (55 of 82 relevant sources, 67%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -166,7 +166,7 @@ who cannot access the data, the predictions, or the modifications
 applied to them. This asymmetry is self-reinforcing — more data produces
 better predictions, which produces more effective modification, which
 generates more data.
-CONFIDENCE: ESTABLISHED (21 of 81 relevant sources, 26%)
+CONFIDENCE: ESTABLISHED (22 of 81 relevant sources, 27%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Anticipatory Obedience](anticipatory-obedience.md)
@@ -177,7 +177,7 @@ made. This pre-compliance is self-reinforcing — each act of anticipatory
 obedience shifts the baseline of what is normal, making the next demand
 more extreme and more acceptable. The powerful never needed to ask for
 what was freely given.
-CONFIDENCE: ESTABLISHED (20 of 82 relevant sources, 24%)
+CONFIDENCE: ESTABLISHED (21 of 82 relevant sources, 26%)
 
 ## [Institutional Abdication](institutional-abdication.md)
 LAYERS: Legal & Regulatory, Institutional
@@ -188,7 +188,7 @@ capture (where the institution is actively redirected by external
 actors) — here the institution simply stops functioning because its
 constituent professionals individually calculate that compliance is
 safer than independence.
-CONFIDENCE: ESTABLISHED (17 of 77 relevant sources, 22%)
+CONFIDENCE: ESTABLISHED (18 of 77 relevant sources, 23%)
 CIRCUMVENTIONS: Institutional Reform
 
 ## [The Peacetime Ratchet](peacetime-ratchet.md)
@@ -254,7 +254,7 @@ comments, testimony) designed to produce specific outputs, (5) reward
 structures for compliant participants. The pipeline operates through
 formal institutional processes, not around them — satisfying formal
 requirements while controlling substantive outcomes.
-CONFIDENCE: SUPPORTED (15 of 81 relevant sources, 18%)
+CONFIDENCE: SUPPORTED (16 of 81 relevant sources, 20%)
 CIRCUMVENTIONS: Legal Challenge, Institutional Reform
 
 ## [Formal Transformation, Structural Continuity](formal-transformation-structural-continuity.md)
@@ -265,7 +265,7 @@ simultaneously can survive regime changes that disrupt only some layers
 maintaining structural continuity through the undisrupted layers. The
 forms change; the structure persists; the celebrations of progress
 occur; the extraction continues.
-CONFIDENCE: SUPPORTED (16 of 83 relevant sources, 19%)
+CONFIDENCE: ESTABLISHED (17 of 83 relevant sources, 20%)
 
 ## [The Structural Demand for Propaganda](structural-demand-for-propaganda.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information

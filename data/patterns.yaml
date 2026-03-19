@@ -269,6 +269,12 @@ entries:
     note: War intended to eliminate Iranian threat capacity has amplified Iran's structural leverage over global energy transit.
       Iran controls de facto access to the strait; traffic 97% below average; countries negotiate with Iran rather than joining
       US coalition.
+  - source_id: 2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm
+    source_type: analysis
+    variant: null
+    note: CHMR dismantled under 'lethality' doctrine — stated purpose (operational effectiveness) inverts structural function
+      (removing accountability for civilian deaths). Trump claimed Minab was 'done by Iran' while US is sole Tomahawk possessor.
+      Bryant proposed renaming programme to avoid 'woke' label — the substance was less threatening than the name.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -451,10 +457,10 @@ entries:
       absorption of critique).'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.72
+  confidence_ratio: 0.732
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 59
+  corr_count: 60
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -718,6 +724,11 @@ entries:
     note: 'Self-generating cycle: US attack produces strait closure; closure justifies further military action (bunker-busting
       strikes on antiship sites); strikes fail to restore passage; failure justifies further escalation (Marines deployment,
       potential Kharg Island seizure). Each consequence generates justification for the next action.'
+  - source_id: 2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm
+    source_type: analysis
+    variant: null
+    note: 'McChrystal''s ''insurgent math'': every innocent killed creates 10+ new enemies. Civilian casualties fuel recruitment
+      → more targets → more strikes → more casualties. The war on terror''s self-generating cycle documented across two decades.'
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -728,10 +739,10 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.195
-  confidence_level: SUPPORTED
+  confidence_ratio: 0.207
+  confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 16
+  corr_count: 17
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
   file: patterns/manufactured-scarcity-as-control.md
@@ -1241,6 +1252,12 @@ entries:
     note: The strait's international-waters legal status (UNCLOS transit passage rights) is the appearance. Iran's de facto
       control — 'permission-based transit' administered by Tehran — is the operating reality. The gap between legal status
       and operational control is the terrain on which Iran's new power operates.
+  - source_id: 2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm
+    source_type: analysis
+    variant: null
+    note: Confirmation testimony supporting CHMR (Caine, Colby, Cooper) vs 90% personnel elimination. Center of Excellence
+      formally exists (congressional approval required to close) while emptied of mission, mandate, and budget. The form persists;
+      the function is gone.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1411,10 +1428,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.659
+  confidence_ratio: 0.671
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 54
+  corr_count: 55
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -2432,6 +2449,12 @@ entries:
     variant: null
     note: 'Israeli forces operate with total information asymmetry: undercover unit with Palestinian plates, surveillance
       capacity, institutional impunity. The population knows nothing about the operation until lethal force is applied.'
+  - source_id: 2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm
+    source_type: analysis
+    variant: null
+    note: '''Operational security'' cited to withhold details of Somalia strike that killed clan mediator. Classification
+      system as structural information asymmetry: civilian populations cannot access information about operations conducted
+      against them.'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -2516,10 +2539,10 @@ entries:
     note: The ultra-wealthy have better access to risk assessment and modelling. Their escape preparation is a product of
       information asymmetry — knowing more about the system's trajectory than the populations who bear its consequences.
   counter_evidence: []
-  confidence_ratio: 0.259
+  confidence_ratio: 0.272
   confidence_level: ESTABLISHED
   relevant_corpus_size: 81
-  corr_count: 21
+  corr_count: 22
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -2602,6 +2625,12 @@ entries:
     variant: null
     note: Mullin's public defence of the ICE shootings before being nominated is itself anticipatory obedience — demonstrating
       loyalty to the enforcement posture before being asked to lead it.
+  - source_id: 2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm
+    source_type: analysis
+    variant: null
+    note: Institutional actors adjusted behaviour to perceived expectations before explicit orders. Bradley's shift. The 'woke'
+      framing that prevented even renaming the programme — the institutional environment communicated what was expected without
+      requiring direct instruction.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2648,10 +2677,10 @@ entries:
       common sense absorbed during professional formation.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.244
+  confidence_ratio: 0.256
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 20
+  corr_count: 21
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -2726,6 +2755,11 @@ entries:
     note: NATO as institution does not invoke its own mechanisms to address a member threatening to invade another member.
       The institutional silence in response to the Greenland threat constitutes abdication of the alliance's foundational
       commitment to territorial integrity of members.
+  - source_id: 2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm
+    source_type: analysis
+    variant: null
+    note: 'Bradley shifted from ''model'' CHMR adopter to defender of double-tap strikes. Trajectory traces institutional
+      accommodation: professional who embraced accountability abandoned it when institutional signals changed.'
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2770,10 +2804,10 @@ entries:
       than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.221
+  confidence_ratio: 0.234
   confidence_level: ESTABLISHED
   relevant_corpus_size: 77
-  corr_count: 17
+  corr_count: 18
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -3353,6 +3387,12 @@ entries:
       expertise) as mechanism through which the institutional function of diplomacy was redirected. Whether redirection was
       toward Israeli interests (diplomat characterisation) or merely away from competent diplomacy is not determinable from
       this source.
+  - source_id: 2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm
+    source_type: analysis
+    variant: null
+    note: 'Five-stage accountability dismantlement: (1) select Hegseth (views accountability as constraint on warrior ethos),
+      (2) fire JAGs (legal oversight), (3) eliminate CHMR personnel (harm prevention), (4) lower authorisation thresholds
+      and broaden target categories, (5) remove inspectors general. Each step removes a layer of the accountability architecture.'
   - source_id: powell-memo
     source_type: principle
     variant: null
@@ -3412,10 +3452,10 @@ entries:
     note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
       captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.185
+  confidence_ratio: 0.198
   confidence_level: SUPPORTED
   relevant_corpus_size: 81
-  corr_count: 15
+  corr_count: 16
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -3475,6 +3515,12 @@ entries:
     variant: null
     note: The Justice Ministry probe, if it follows historical pattern (<1% indictment rate since 2005), will produce formal
       process (investigation) without structural change (indictment, conviction, reform).
+  - source_id: 2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm
+    source_type: analysis
+    variant: inverse — form preserved, function eliminated
+    note: 'Center of Excellence formally exists (congressional approval required to close) while emptied of function. Inverse
+      of the usual pattern: typically, form changes while structure persists. Here, form is preserved (to satisfy congressional
+      requirements) while function is eliminated.'
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -3539,10 +3585,10 @@ entries:
     variant: null
     note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
   counter_evidence: []
-  confidence_ratio: 0.193
-  confidence_level: SUPPORTED
+  confidence_ratio: 0.205
+  confidence_level: ESTABLISHED
   relevant_corpus_size: 83
-  corr_count: 16
+  corr_count: 17
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
