@@ -3408,3 +3408,64 @@ entries:
   domain_text: US military / civilian casualties / institutional dismantlement / accountability architecture / Iran war / counterterrorism
   layers_text: Physical & Coercive (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Surveillance & Information (Economic active but absent)
   null_case_text: rejected (LOW — configuration of simultaneous institutional changes + quantified step-change + specific Minab mechanism not explained by null case)
+
+- id: "2026-03-18-guardian-article-fbi-location-data-patel-wyden"
+  file: analyses/2026-03-18-guardian-article-fbi-location-data-patel-wyden.md
+  title: "FBI buying location data on Americans — the data broker loophole as surveillance mechanism"
+  date: "2026-03-18"
+  time: "~19:00 UTC"
+  source_url: https://www.theguardian.com/us-news/2026/mar/18/kash-patel-fbi-location-data
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — UK broadsheet; Position 1 sourcing (Patel under oath) and Position 4 (Wyden/Davidson)"
+  hegemonic_contexts:
+  - national_security_state
+  - rule_of_law
+  layers:
+  - surveillance_information
+  - legal_regulatory
+  - institutional
+  - thought_narrative
+  primary_layers:
+  - surveillance_information
+  - legal_regulatory
+  null_case: plausible
+  null_case_detail: "LOW-MEDIUM — some force for individual case legitimacy; does not explain the workaround's structural purpose (avoiding warrant requirement), the decade of bipartisan inaction, or the shift from Wray's 2023 denial to Patel's 2026 admission"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents legal-institutional framing of surveillance as loophole problem; communities disproportionately subjected to location tracking (Black, Muslim, immigrant) absent from article and likely underrepresented in training"
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement"
+  - "2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm"
+  - "2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors"
+  patterns_matched:
+  - pattern: division_of_learning
+    status: observed
+    variant: null
+    note: "FBI acquires comprehensive location data on Americans through commercial purchase. Subjects cannot access, audit, or challenge the surveillance. The information asymmetry is structural: the government knows where individuals are; individuals do not know they are being tracked."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "'Commercially available information consistent with the constitution' (Patel) is the appearance. Warrantless mass location tracking that circumvents the Fourth Amendment warrant requirement is the operating reality. The legality claim is the terrain on which the surveillance depends."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "ECPA (1986), a privacy protection law, is cited by Patel as the legal basis for warrantless data purchases that circumvent the privacy protections the Fourth Amendment guarantees. The law designed to protect privacy authorises the circumvention of privacy."
+  - pattern: democracy_oligarchy_coexistence
+    status: inferred
+    variant: null
+    note: "Bipartisan agreement on surveillance reform (Wyden-D, Davidson-R) has existed for over a decade without producing legislation. Democratic debate and substantive surveillance coexist without contradiction. The surveillance infrastructure operates undisturbed beneath the surface of democratic deliberation."
+  - pattern: dispossession_cycle
+    status: inferred
+    variant: null
+    note: "Commercial data economy normalization applied to government: initial targeted purchases → routine bulk acquisition → AI integration (Wyden flags this) → permanent surveillance infrastructure. The cycle ratchets the boundary of acceptable government data access outward."
+  - pattern: formal_transformation_structural_continuity
+    status: inferred
+    variant: null
+    note: "Warrant requirements evolve (Carpenter v. United States, 2018 — warrants required for telecom location data). Surveillance function persists through commercial pathway (data brokers sell the same information without warrant). Legal form changes; surveillance continues through adaptation."
+  findings_count: 7
+  commit: null
+  domain_text: Domestic surveillance / data brokers / Fourth Amendment / FBI / legislative inaction
+  layers_text: Surveillance & Information (primary), Legal & Regulatory (primary), Institutional, Thought & Narrative (Economic and Physical & Coercive active but absent)
+  null_case_text: plausible (LOW-MEDIUM — individual case legitimacy has some force; structural workaround purpose and decade of inaction not explained)

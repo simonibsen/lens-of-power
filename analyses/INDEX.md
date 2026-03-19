@@ -383,3 +383,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`
   File: `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`
+
+### 2026-03-18 — FBI buying location data on Americans — the data broker loophole as surveillance mechanism
+  Domain: Domestic surveillance / data brokers / Fourth Amendment / FBI / legislative inaction
+  Layers: Surveillance & Information (primary), Legal & Regulatory (primary), Institutional, Thought & Narrative (Economic and Physical & Coercive active but absent)
+  Null case: plausible (LOW-MEDIUM — individual case legitimacy has some force; structural workaround purpose and decade of inaction not explained)
+  IC-5 flag: True
+  Cross-references: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`, `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
+  File: `2026-03-18-guardian-article-fbi-location-data-patel-wyden.md`

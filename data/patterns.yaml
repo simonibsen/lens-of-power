@@ -275,6 +275,12 @@ entries:
     note: CHMR dismantled under 'lethality' doctrine — stated purpose (operational effectiveness) inverts structural function
       (removing accountability for civilian deaths). Trump claimed Minab was 'done by Iran' while US is sole Tomahawk possessor.
       Bryant proposed renaming programme to avoid 'woke' label — the substance was less threatening than the name.
+  - source_id: 2026-03-18-guardian-article-fbi-location-data-patel-wyden
+    source_type: analysis
+    variant: null
+    note: ECPA (1986), a privacy protection law, is cited by Patel as the legal basis for warrantless data purchases that
+      circumvent the privacy protections the Fourth Amendment guarantees. The law designed to protect privacy authorises the
+      circumvention of privacy.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -457,10 +463,10 @@ entries:
       absorption of critique).'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.732
+  confidence_ratio: 0.744
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 60
+  corr_count: 61
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -1258,6 +1264,12 @@ entries:
     note: Confirmation testimony supporting CHMR (Caine, Colby, Cooper) vs 90% personnel elimination. Center of Excellence
       formally exists (congressional approval required to close) while emptied of mission, mandate, and budget. The form persists;
       the function is gone.
+  - source_id: 2026-03-18-guardian-article-fbi-location-data-patel-wyden
+    source_type: analysis
+    variant: null
+    note: '''Commercially available information consistent with the constitution'' (Patel) is the appearance. Warrantless
+      mass location tracking that circumvents the Fourth Amendment warrant requirement is the operating reality. The legality
+      claim is the terrain on which the surveillance depends.'
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1428,10 +1440,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.671
+  confidence_ratio: 0.683
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 55
+  corr_count: 56
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -2336,6 +2348,12 @@ entries:
     note: SPOT incursion into airport behavioural surveillance → decade of operation (habituation) → GAO/ACLU critique (adaptation)
       → AI-branded successors that present the same objective in new packaging (redirection). The four-stage normalisation
       ratchet operating in the state surveillance context.
+  - source_id: 2026-03-18-guardian-article-fbi-location-data-patel-wyden
+    source_type: analysis
+    variant: null
+    note: 'Commercial data economy normalization applied to government: initial targeted purchases → routine bulk acquisition
+      → AI integration (Wyden flags this) → permanent surveillance infrastructure. The cycle ratchets the boundary of acceptable
+      government data access outward.'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -2373,10 +2391,10 @@ entries:
 
       resist t...'
   counter_evidence: []
-  confidence_ratio: 0.072
+  confidence_ratio: 0.084
   confidence_level: PRELIMINARY
   relevant_corpus_size: 83
-  corr_count: 6
+  corr_count: 7
 - id: division_of_learning
   name: The Division of Learning
   file: patterns/division-of-learning.md
@@ -2455,6 +2473,12 @@ entries:
     note: '''Operational security'' cited to withhold details of Somalia strike that killed clan mediator. Classification
       system as structural information asymmetry: civilian populations cannot access information about operations conducted
       against them.'
+  - source_id: 2026-03-18-guardian-article-fbi-location-data-patel-wyden
+    source_type: analysis
+    variant: null
+    note: 'FBI acquires comprehensive location data on Americans through commercial purchase. Subjects cannot access, audit,
+      or challenge the surveillance. The information asymmetry is structural: the government knows where individuals are;
+      individuals do not know they are being tracked.'
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -2539,10 +2563,10 @@ entries:
     note: The ultra-wealthy have better access to risk assessment and modelling. Their escape preparation is a product of
       information asymmetry — knowing more about the system's trajectory than the populations who bear its consequences.
   counter_evidence: []
-  confidence_ratio: 0.272
+  confidence_ratio: 0.284
   confidence_level: ESTABLISHED
   relevant_corpus_size: 81
-  corr_count: 22
+  corr_count: 23
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -3190,6 +3214,12 @@ entries:
     note: The bunker phenomenon operates entirely in the private sphere within a democratic system that does not constrain
       it. No electoral or democratic mechanism addresses the exit of the wealthy from the social contract. The exit is not
       illegal — it is legally and conceptually unremarkable.
+  - source_id: 2026-03-18-guardian-article-fbi-location-data-patel-wyden
+    source_type: analysis
+    variant: null
+    note: Bipartisan agreement on surveillance reform (Wyden-D, Davidson-R) has existed for over a decade without producing
+      legislation. Democratic debate and substantive surveillance coexist without contradiction. The surveillance infrastructure
+      operates undisturbed beneath the surface of democratic deliberation.
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
@@ -3246,10 +3276,10 @@ entries:
     note: 'Haiti: second-oldest republic in Western Hemisphere; richest 20% hold 64%+ of wealth.'
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.253
+  confidence_ratio: 0.265
   confidence_level: ESTABLISHED
   relevant_corpus_size: 83
-  corr_count: 21
+  corr_count: 22
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -3521,6 +3551,12 @@ entries:
     note: 'Center of Excellence formally exists (congressional approval required to close) while emptied of function. Inverse
       of the usual pattern: typically, form changes while structure persists. Here, form is preserved (to satisfy congressional
       requirements) while function is eliminated.'
+  - source_id: 2026-03-18-guardian-article-fbi-location-data-patel-wyden
+    source_type: analysis
+    variant: null
+    note: Warrant requirements evolve (Carpenter v. United States, 2018 — warrants required for telecom location data). Surveillance
+      function persists through commercial pathway (data brokers sell the same information without warrant). Legal form changes;
+      surveillance continues through adaptation.
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -3585,10 +3621,10 @@ entries:
     variant: null
     note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
   counter_evidence: []
-  confidence_ratio: 0.205
+  confidence_ratio: 0.217
   confidence_level: ESTABLISHED
   relevant_corpus_size: 83
-  corr_count: 17
+  corr_count: 18
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md

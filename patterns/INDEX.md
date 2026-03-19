@@ -10,7 +10,7 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (60 of 82 relevant sources, 73%)
+CONFIDENCE: ESTABLISHED (61 of 82 relevant sources, 74%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (55 of 82 relevant sources, 67%)
+CONFIDENCE: ESTABLISHED (56 of 82 relevant sources, 68%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -156,7 +156,7 @@ STATEMENT: Surveillance capitalism advances through a repeating four-
 stage normalization cycle — incursion, habituation, adaptation,
 redirection — that ratchets the boundary of acceptable extraction
 outward with each completion.
-CONFIDENCE: PRELIMINARY (6 of 83 relevant sources, 7%)
+CONFIDENCE: PRELIMINARY (7 of 83 relevant sources, 8%)
 
 ## [The Division of Learning](division-of-learning.md)
 LAYERS: Economic, Institutional, Surveillance & Information
@@ -166,7 +166,7 @@ who cannot access the data, the predictions, or the modifications
 applied to them. This asymmetry is self-reinforcing — more data produces
 better predictions, which produces more effective modification, which
 generates more data.
-CONFIDENCE: ESTABLISHED (22 of 81 relevant sources, 27%)
+CONFIDENCE: ESTABLISHED (23 of 81 relevant sources, 28%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Anticipatory Obedience](anticipatory-obedience.md)
@@ -229,7 +229,7 @@ simultaneously within the same polity without visible contradiction.
 Democratic institutions handle issues that don't affect wealth
 concentration; oligarchic mechanisms handle those that do. The
 coexistence is not a contradiction but a structural configuration.
-CONFIDENCE: ESTABLISHED (21 of 83 relevant sources, 25%)
+CONFIDENCE: ESTABLISHED (22 of 83 relevant sources, 26%)
 CIRCUMVENTIONS: Electoral / Democratic, Legal Challenge
 
 ## [The Moral Infrastructure of Economic Power](moral-infrastructure-of-economic-power.md)
@@ -265,7 +265,7 @@ simultaneously can survive regime changes that disrupt only some layers
 maintaining structural continuity through the undisrupted layers. The
 forms change; the structure persists; the celebrations of progress
 occur; the extraction continues.
-CONFIDENCE: ESTABLISHED (17 of 83 relevant sources, 20%)
+CONFIDENCE: ESTABLISHED (18 of 83 relevant sources, 22%)
 
 ## [The Structural Demand for Propaganda](structural-demand-for-propaganda.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
