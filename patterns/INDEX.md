@@ -10,7 +10,7 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (61 of 82 relevant sources, 74%)
+CONFIDENCE: ESTABLISHED (62 of 82 relevant sources, 76%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (56 of 82 relevant sources, 68%)
+CONFIDENCE: ESTABLISHED (57 of 82 relevant sources, 70%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -177,7 +177,7 @@ made. This pre-compliance is self-reinforcing — each act of anticipatory
 obedience shifts the baseline of what is normal, making the next demand
 more extreme and more acceptable. The powerful never needed to ask for
 what was freely given.
-CONFIDENCE: ESTABLISHED (21 of 82 relevant sources, 26%)
+CONFIDENCE: ESTABLISHED (22 of 82 relevant sources, 27%)
 
 ## [Institutional Abdication](institutional-abdication.md)
 LAYERS: Legal & Regulatory, Institutional
@@ -229,7 +229,7 @@ simultaneously within the same polity without visible contradiction.
 Democratic institutions handle issues that don't affect wealth
 concentration; oligarchic mechanisms handle those that do. The
 coexistence is not a contradiction but a structural configuration.
-CONFIDENCE: ESTABLISHED (22 of 83 relevant sources, 26%)
+CONFIDENCE: ESTABLISHED (23 of 83 relevant sources, 28%)
 CIRCUMVENTIONS: Electoral / Democratic, Legal Challenge
 
 ## [The Moral Infrastructure of Economic Power](moral-infrastructure-of-economic-power.md)
@@ -254,7 +254,7 @@ comments, testimony) designed to produce specific outputs, (5) reward
 structures for compliant participants. The pipeline operates through
 formal institutional processes, not around them — satisfying formal
 requirements while controlling substantive outcomes.
-CONFIDENCE: SUPPORTED (16 of 81 relevant sources, 20%)
+CONFIDENCE: ESTABLISHED (17 of 81 relevant sources, 21%)
 CIRCUMVENTIONS: Legal Challenge, Institutional Reform
 
 ## [Formal Transformation, Structural Continuity](formal-transformation-structural-continuity.md)
@@ -265,7 +265,7 @@ simultaneously can survive regime changes that disrupt only some layers
 maintaining structural continuity through the undisrupted layers. The
 forms change; the structure persists; the celebrations of progress
 occur; the extraction continues.
-CONFIDENCE: ESTABLISHED (18 of 83 relevant sources, 22%)
+CONFIDENCE: ESTABLISHED (19 of 83 relevant sources, 23%)
 
 ## [The Structural Demand for Propaganda](structural-demand-for-propaganda.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information

@@ -391,3 +391,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`, `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
   File: `2026-03-18-guardian-article-fbi-location-data-patel-wyden.md`
+
+### 2026-03-17 — NIH funding calls dismantlement — institutional function eliminated through process and personnel
+  Domain: Science policy / NIH funding / institutional dismantlement / research prioritisation / executive-legislative relations
+  Layers: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
+  Null case: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, congressional mandate delays, institutional silence, and cross-domain parallel weaken it)
+  IC-5 flag: True
+  Cross-references: `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`
+  File: `2026-03-17-nature-article-nih-funding-calls-dismantlement.md`

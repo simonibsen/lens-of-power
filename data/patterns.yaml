@@ -281,6 +281,12 @@ entries:
     note: ECPA (1986), a privacy protection law, is cited by Patel as the legal basis for warrantless data purchases that
       circumvent the privacy protections the Fourth Amendment guarantees. The law designed to protect privacy authorises the
       circumvention of privacy.
+  - source_id: 2026-03-17-nature-article-nih-funding-calls-dismantlement
+    source_type: analysis
+    variant: null
+    note: 'Stated purpose: innovation through investigator flexibility. Structural function: elimination of the mechanism
+      through which agency specialists direct research toward problems no individual investigator would independently pursue
+      (rare diseases, large collaborative projects, Human Genome Project model).'
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -463,10 +469,10 @@ entries:
       absorption of critique).'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.744
+  confidence_ratio: 0.756
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 61
+  corr_count: 62
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -1270,6 +1276,12 @@ entries:
     note: '''Commercially available information consistent with the constitution'' (Patel) is the appearance. Warrantless
       mass location tracking that circumvents the Fourth Amendment warrant requirement is the operating reality. The legality
       claim is the terrain on which the surveillance depends.'
+  - source_id: 2026-03-17-nature-article-nih-funding-calls-dismantlement
+    source_type: analysis
+    variant: null
+    note: '''Proven, efficient model'' framing vs 90%+ elimination of directed research mechanism. Congressional mandates
+      formally in force but administratively delayed through multi-layer review. The appearance is efficiency and innovation;
+      the structural function is elimination of institutional capacity to coordinate research.'
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1440,10 +1452,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.683
+  confidence_ratio: 0.695
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 56
+  corr_count: 57
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -2655,6 +2667,12 @@ entries:
     note: Institutional actors adjusted behaviour to perceived expectations before explicit orders. Bradley's shift. The 'woke'
       framing that prevented even renaming the programme — the institutional environment communicated what was expected without
       requiring direct instruction.
+  - source_id: 2026-03-17-nature-article-nih-funding-calls-dismantlement
+    source_type: analysis
+    variant: null
+    note: 'NIH employees speak anonymously to protect their jobs. The anonymity condition documents the institutional environment:
+      questioning changes carries perceived career risk. Professionals adjust behaviour to institutional signals without explicit
+      instruction.'
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2701,10 +2719,10 @@ entries:
       common sense absorbed during professional formation.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.256
+  confidence_ratio: 0.268
   confidence_level: ESTABLISHED
   relevant_corpus_size: 82
-  corr_count: 21
+  corr_count: 22
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -3220,6 +3238,11 @@ entries:
     note: Bipartisan agreement on surveillance reform (Wyden-D, Davidson-R) has existed for over a decade without producing
       legislation. Democratic debate and substantive surveillance coexist without contradiction. The surveillance infrastructure
       operates undisturbed beneath the surface of democratic deliberation.
+  - source_id: 2026-03-17-nature-article-nih-funding-calls-dismantlement
+    source_type: analysis
+    variant: null
+    note: Congress directs NIH to fund specific research (type 1 diabetes — democratic mechanism). Executive delays implementation
+      through administrative review process (substantive control). Both operate simultaneously without formal contradiction.
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
@@ -3276,10 +3299,10 @@ entries:
     note: 'Haiti: second-oldest republic in Western Hemisphere; richest 20% hold 64%+ of wealth.'
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.265
+  confidence_ratio: 0.277
   confidence_level: ESTABLISHED
   relevant_corpus_size: 83
-  corr_count: 22
+  corr_count: 23
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -3423,6 +3446,12 @@ entries:
     note: 'Five-stage accountability dismantlement: (1) select Hegseth (views accountability as constraint on warrior ethos),
       (2) fire JAGs (legal oversight), (3) eliminate CHMR personnel (harm prevention), (4) lower authorisation thresholds
       and broaden target categories, (5) remove inspectors general. Each step removes a layer of the accountability architecture.'
+  - source_id: 2026-03-17-nature-article-nih-funding-calls-dismantlement
+    source_type: analysis
+    variant: null
+    note: Multi-layer political review (NIH leadership + HHS + White House budget office) converts scientific prioritisation
+      into political prioritisation through formal administrative process. Funding calls previously approved by independent
+      scientific advisory councils now require executive branch sign-off.
   - source_id: powell-memo
     source_type: principle
     variant: null
@@ -3482,10 +3511,10 @@ entries:
     note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
       captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.198
-  confidence_level: SUPPORTED
+  confidence_ratio: 0.21
+  confidence_level: ESTABLISHED
   relevant_corpus_size: 81
-  corr_count: 16
+  corr_count: 17
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -3557,6 +3586,12 @@ entries:
     note: Warrant requirements evolve (Carpenter v. United States, 2018 — warrants required for telecom location data). Surveillance
       function persists through commercial pathway (data brokers sell the same information without warrant). Legal form changes;
       surveillance continues through adaptation.
+  - source_id: 2026-03-17-nature-article-nih-funding-calls-dismantlement
+    source_type: analysis
+    variant: inverse — form preserved, function eliminated
+    note: NIH mandate and form persist. Operational function (directing research through ~780 annual RFAs) reduced to 11 calls.
+      Congressional mandates formally in force but administratively delayed. Same inverse variant documented in CHMR analysis
+      (Center of Excellence formally exists, function eliminated).
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -3621,10 +3656,10 @@ entries:
     variant: null
     note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
   counter_evidence: []
-  confidence_ratio: 0.217
+  confidence_ratio: 0.229
   confidence_level: ESTABLISHED
   relevant_corpus_size: 83
-  corr_count: 18
+  corr_count: 19
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md

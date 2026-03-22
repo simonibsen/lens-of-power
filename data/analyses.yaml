@@ -3469,3 +3469,64 @@ entries:
   domain_text: Domestic surveillance / data brokers / Fourth Amendment / FBI / legislative inaction
   layers_text: Surveillance & Information (primary), Legal & Regulatory (primary), Institutional, Thought & Narrative (Economic and Physical & Coercive active but absent)
   null_case_text: plausible (LOW-MEDIUM — individual case legitimacy has some force; structural workaround purpose and decade of inaction not explained)
+
+- id: "2026-03-17-nature-article-nih-funding-calls-dismantlement"
+  file: analyses/2026-03-17-nature-article-nih-funding-calls-dismantlement.md
+  title: "NIH funding calls dismantlement — institutional function eliminated through process and personnel"
+  date: "2026-03-17"
+  time: "~12:00 UTC"
+  source_url: https://www.nature.com/articles/d41586-026-00823-2
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — premier scientific journal; anonymous NIH employees (Position 4) speaking to protect jobs"
+  hegemonic_contexts:
+  - market_capitalism
+  - national_security_state
+  layers:
+  - institutional
+  - thought_narrative
+  - legal_regulatory
+  - economic
+  - surveillance_information
+  primary_layers:
+  - institutional
+  - thought_narrative
+  null_case: plausible
+  null_case_detail: "MEDIUM — genuine science policy debate about directed vs investigator-initiated research has intellectual force; weakened by 90%+ scale (elimination not rebalancing), stalled congressional mandates (type 1 diabetes), NIH non-response, employees anonymous to protect jobs, and cross-domain structural parallel to CHMR dismantlement"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-scientific perspective treating agency-directed research as natural mode; investigator-freedom argument has genuine merit that training may underweight; populations with rare/neglected diseases absent"
+  adversarial: false
+  sample_origin: true
+  cross_references:
+  - "2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  patterns_matched:
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "'Proven, efficient model' framing vs 90%+ elimination of directed research mechanism. Congressional mandates formally in force but administratively delayed through multi-layer review. The appearance is efficiency and innovation; the structural function is elimination of institutional capacity to coordinate research."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Stated purpose: innovation through investigator flexibility. Structural function: elimination of the mechanism through which agency specialists direct research toward problems no individual investigator would independently pursue (rare diseases, large collaborative projects, Human Genome Project model)."
+  - pattern: capture_pipeline
+    status: inferred
+    variant: null
+    note: "Multi-layer political review (NIH leadership + HHS + White House budget office) converts scientific prioritisation into political prioritisation through formal administrative process. Funding calls previously approved by independent scientific advisory councils now require executive branch sign-off."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: "NIH employees speak anonymously to protect their jobs. The anonymity condition documents the institutional environment: questioning changes carries perceived career risk. Professionals adjust behaviour to institutional signals without explicit instruction."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: "inverse — form preserved, function eliminated"
+    note: "NIH mandate and form persist. Operational function (directing research through ~780 annual RFAs) reduced to 11 calls. Congressional mandates formally in force but administratively delayed. Same inverse variant documented in CHMR analysis (Center of Excellence formally exists, function eliminated)."
+  - pattern: democracy_oligarchy_coexistence
+    status: inferred
+    variant: null
+    note: "Congress directs NIH to fund specific research (type 1 diabetes — democratic mechanism). Executive delays implementation through administrative review process (substantive control). Both operate simultaneously without formal contradiction."
+  findings_count: 10
+  commit: null
+  domain_text: Science policy / NIH funding / institutional dismantlement / research prioritisation / executive-legislative relations
+  layers_text: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
+  null_case_text: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, congressional mandate delays, institutional silence, and cross-domain parallel weaken it)
