@@ -467,12 +467,17 @@ entries:
     variant: null
     note: 'Aid system (stated: relief; function: reproduction of dependency). Fair trade (stated: equity; function: market
       absorption of critique).'
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: '''Scientific management'' presents itself as science applied to work but is management of others'' work under capitalist
+      conditions.'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.756
+  confidence_ratio: 0.759
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 82
-  corr_count: 62
+  relevant_corpus_size: 83
+  corr_count: 63
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -644,9 +649,9 @@ entries:
       is the outer ditch; civil society is the fortresses and earthworks.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.265
+  confidence_ratio: 0.262
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 22
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
@@ -751,9 +756,9 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.207
+  confidence_ratio: 0.205
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 17
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
@@ -916,6 +921,11 @@ entries:
     variant: null
     note: Separation from means of production as capitalism's defining feature. Removal of the autonomy floor. Destruction
       of Tiv exchange spheres by general-purpose money.
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: Craft knowledge — formerly abundant among workers — is made scarce by design through the Babbage principle and the
+      separation of conception from execution.
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-9-housing-compliance-visible
@@ -923,10 +933,10 @@ entries:
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.268
+  confidence_ratio: 0.277
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 82
-  corr_count: 22
+  relevant_corpus_size: 83
+  corr_count: 23
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -960,7 +970,7 @@ entries:
   counter_evidence: []
   confidence_ratio: 0.036
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
@@ -1020,11 +1030,16 @@ entries:
     note: Organic intellectuals of the subaltern classes are systematically assimilated by the dominant formation. The most
       capable individuals from subordinate groups are absorbed into the dominant intellectual stratum, preventing subaltern
       autonomous intellectual leadership.
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: The professional-managerial middle class is a transitional stratum continuously produced and dissolved by capital
+      accumulation.
   counter_evidence: []
-  confidence_ratio: 0.06
+  confidence_ratio: 0.071
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 83
-  corr_count: 5
+  relevant_corpus_size: 84
+  corr_count: 6
 - id: economy_of_violence
   name: The Economy of Violence
   file: patterns/economy-of-violence.md
@@ -1061,9 +1076,9 @@ entries:
       but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.04
+  confidence_ratio: 0.039
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 75
+  relevant_corpus_size: 76
   corr_count: 3
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
@@ -1448,14 +1463,19 @@ entries:
     variant: null
     note: Tech elite's public narrative (innovation for everyone, technology as progress) coexists with private preparation
       (bunkers, escape plans, New Zealand citizenship). The gap is the operating environment.
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: The employment contract presents itself as purchase of defined labor but purchases undefined potential. Statistical
+      categories construct appearance of manageable unemployment.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.695
+  confidence_ratio: 0.699
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 82
-  corr_count: 57
+  relevant_corpus_size: 83
+  corr_count: 58
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -1538,9 +1558,9 @@ entries:
     note: Migrant route knowledge, survival strategies, mutual aid networks, and shared intelligence about terrain constitute
       a hidden transcript of the border — counter-knowledge developed by those subjected to the system.
   counter_evidence: []
-  confidence_ratio: 0.122
+  confidence_ratio: 0.12
   confidence_level: SUPPORTED
-  relevant_corpus_size: 74
+  relevant_corpus_size: 75
   corr_count: 9
 - id: compliance_gradient
   name: The Compliance Gradient
@@ -1627,6 +1647,11 @@ entries:
     variant: null
     note: The autonomy floor determines position on the gradient. Those who can feed themselves resist more than those who
       cannot.
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: '''Systematic soldiering'' — workers'' deliberate output restriction — is the paradigmatic case of calibrated partial
+      compliance.'
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-10-position-2-understanding-inert
@@ -1635,10 +1660,10 @@ entries:
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.133
+  confidence_ratio: 0.143
   confidence_level: SUPPORTED
-  relevant_corpus_size: 83
-  corr_count: 11
+  relevant_corpus_size: 84
+  corr_count: 12
 - id: ideological_judo
   name: Ideological Judo
   file: patterns/ideological-judo.md
@@ -1705,9 +1730,9 @@ entries:
 
       structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.084
+  confidence_ratio: 0.083
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 7
 - id: double_performance
   name: The Double Performance
@@ -1797,9 +1822,9 @@ entries:
     note: The tech elite perform system confidence (investing, building, promoting) while preparing for system failure (bunkers,
       escape). Rushkoff witnessed both performances from the same individuals in the same meeting.
   counter_evidence: []
-  confidence_ratio: 0.133
+  confidence_ratio: 0.131
   confidence_level: SUPPORTED
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 11
 - id: relay_class
   name: The Relay Class
@@ -1863,9 +1888,9 @@ entries:
     variant: null
     note: 'NGOs as intermediaries replacing colonial administrators in Haiti. Schuller: "trickle-down imperialism."'
   counter_evidence: []
-  confidence_ratio: 0.072
+  confidence_ratio: 0.071
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 6
 - id: constitutive_violence
   name: Constitutive Violence
@@ -2001,12 +2026,17 @@ entries:
     variant: null
     note: Haiti's inequality traces to colonial slavery and the 1825 reparations demand. The violence is not historical but
       constitutive.
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: The working class was created through dispossession. The initial coercion constituted the labour force; ongoing
+      economic compulsion maintains it.
   counter_evidence:
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.183
+  confidence_ratio: 0.193
   confidence_level: SUPPORTED
-  relevant_corpus_size: 82
-  corr_count: 15
+  relevant_corpus_size: 83
+  corr_count: 16
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
   file: patterns/three-phases-of-cultural-resistance.md
@@ -2045,7 +2075,7 @@ entries:
   counter_evidence: []
   confidence_ratio: 0.024
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
@@ -2145,9 +2175,9 @@ entries:
     note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites
       its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
   counter_evidence: []
-  confidence_ratio: 0.216
+  confidence_ratio: 0.213
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 74
+  relevant_corpus_size: 75
   corr_count: 16
 - id: serial_regime_change
   name: Serial Regime Change
@@ -2240,9 +2270,9 @@ entries:
       is operating, but the expected outcome (target isolated, attacker''s position strengthened) has inverted: the target''s
       leverage has increased and the attacker is increasingly isolated diplomatically.'
   counter_evidence: []
-  confidence_ratio: 0.183
+  confidence_ratio: 0.181
   confidence_level: SUPPORTED
-  relevant_corpus_size: 82
+  relevant_corpus_size: 83
   corr_count: 15
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
@@ -2314,9 +2344,9 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.12
+  confidence_ratio: 0.119
   confidence_level: SUPPORTED
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 10
 - id: dispossession_cycle
   name: The Dispossession Cycle
@@ -2403,9 +2433,9 @@ entries:
 
       resist t...'
   counter_evidence: []
-  confidence_ratio: 0.084
+  confidence_ratio: 0.083
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 7
 - id: division_of_learning
   name: The Division of Learning
@@ -2574,11 +2604,16 @@ entries:
     variant: null
     note: The ultra-wealthy have better access to risk assessment and modelling. Their escape preparation is a product of
       information asymmetry — knowing more about the system's trajectory than the populations who bear its consequences.
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: The foundational text for what the framework calls Division of Learning. Braverman documents the systematic creation
+      of knowledge asymmetry between management and workers through Taylor's three principles.
   counter_evidence: []
-  confidence_ratio: 0.284
+  confidence_ratio: 0.293
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 81
-  corr_count: 23
+  relevant_corpus_size: 82
+  corr_count: 24
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -2717,12 +2752,16 @@ entries:
     note: The organic intellectual system produces individuals who anticipate and advance the hegemonic programme through
       sincere professional practice. The teacher, journalist, administrator enforce hegemony not through orders but through
       common sense absorbed during professional formation.
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: Habituation aims at producing workers who self-regulate without continuous external coercion.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.268
+  confidence_ratio: 0.277
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 82
-  corr_count: 22
+  relevant_corpus_size: 83
+  corr_count: 23
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -2846,9 +2885,9 @@ entries:
       than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.234
+  confidence_ratio: 0.231
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 77
+  relevant_corpus_size: 78
   corr_count: 18
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
@@ -2988,9 +3027,9 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.185
+  confidence_ratio: 0.183
   confidence_level: SUPPORTED
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 15
 - id: compression_through_destruction
   name: Compression Through Destruction
@@ -3037,7 +3076,7 @@ entries:
   - 2026-03-04-compression-scandinavian-jubilee-counter
   confidence_ratio: 0.036
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
@@ -3152,9 +3191,9 @@ entries:
     note: The bunker industry is the Wealth Defense Industry for the post-social-contract world. Bunker builders, tactical
       vehicle manufacturers, and survival consultants are the post-civilisational wealth managers.
   counter_evidence: []
-  confidence_ratio: 0.148
+  confidence_ratio: 0.146
   confidence_level: SUPPORTED
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 12
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
@@ -3299,9 +3338,9 @@ entries:
     note: 'Haiti: second-oldest republic in Western Hemisphere; richest 20% hold 64%+ of wealth.'
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.277
+  confidence_ratio: 0.274
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 23
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
@@ -3374,11 +3413,15 @@ entries:
     variant: inverse — moral infrastructure constraining economic power
     note: Tiv moral spheres prevented treating people as commensurable with cattle. General-purpose money destroyed these
       constraints. Haiti reparations as moral obligation.
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: Education as moral obligation — credential requirements convert economic sorting into individual responsibility.
   counter_evidence: []
-  confidence_ratio: 0.085
+  confidence_ratio: 0.096
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 82
-  corr_count: 7
+  relevant_corpus_size: 83
+  corr_count: 8
 - id: capture_pipeline
   name: The Capture Pipeline
   file: patterns/capture-pipeline.md
@@ -3511,9 +3554,9 @@ entries:
     note: Each successive dominant formation captures the traditional intellectuals of the prior formation. Passive revolution
       captures oppositional energy — challenges are metabolised, personnel co-opted, rhetoric adopted, structure preserved.
   counter_evidence: []
-  confidence_ratio: 0.21
+  confidence_ratio: 0.207
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 17
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
@@ -3655,11 +3698,16 @@ entries:
     source_type: principle
     variant: null
     note: 'Haiti: colonialism → debt → dictatorship → NGO dependency. The forms change; the extraction continues.'
+  - source_id: braverman-labor-and-monopoly-capital
+    source_type: principle
+    variant: null
+    note: Form shifts from physical to economic compulsion but extraction structure persists. Taylorism disappears as a movement
+      but its principles become bedrock of all work design.
   counter_evidence: []
-  confidence_ratio: 0.229
+  confidence_ratio: 0.238
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 83
-  corr_count: 19
+  relevant_corpus_size: 84
+  corr_count: 20
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
@@ -3722,9 +3770,9 @@ entries:
       The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.084
+  confidence_ratio: 0.083
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 83
+  relevant_corpus_size: 84
   corr_count: 7
 - id: categorical_blindness
   name: Categorical Blindness
@@ -3762,7 +3810,7 @@ entries:
   - 2026-03-06-axiom-8-constitutive-absence
   confidence_ratio: 0.027
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 74
+  relevant_corpus_size: 75
   corr_count: 2
 - id: boomerang
   name: The Boomerang
@@ -3827,7 +3875,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.086
+  confidence_ratio: 0.085
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 81
+  relevant_corpus_size: 82
   corr_count: 7

@@ -2697,3 +2697,76 @@ entries:
   position_display: "5 (pedagogical — textbook synthesising multiple ethnographic sources)"
   instruments_proposed_display: []
   source_type_display: training_data
+
+- id: braverman-labor-and-monopoly-capital
+  file: principles/braverman-labor-and-monopoly-capital.md
+  source_name: Harry Braverman
+  source_title: "Labor and Monopoly Capital: The Degradation of Work in the Twentieth Century"
+  source_year: 1974
+  position:
+  - 3
+  - 5
+  position_note: "hybrid — skilled craftsman (coppersmith, pipefitter) turned Marxist editor/publisher; writes from both lived experience of industrial labor and theoretical analysis"
+  provenance_tier: primary_document
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  - surveillance_information
+  - physical_coercive
+  principles_list:
+  - "The Indeterminacy of Labor Power (labor power is potential, not output; the gap compels control)"
+  - "The Separation of Conception from Execution (removing planning from workers transfers control to management)"
+  - "The Babbage Principle (subdividing craft into fragments enables differential pay for each fragment)"
+  - "Management as Control, Not Coordination (management's essential function is extraction, not efficiency)"
+  - "The Destruction of Craft as Prerequisite of Control (comprehensive knowledge enables resistance; its destruction enables extraction)"
+  - "Habituation as Ongoing Production (each generation must be re-adapted to degraded work; the institutional apparatus for this is permanent)"
+  - "Machinery as Capital's Authority Over Living Labour (the machine dictates pace and method; attributing domination to technology depoliticises it)"
+  - "The Universal Market (commodification of all social life creates dependency on purchased goods and services)"
+  - "The Proletarianisation of Clerical and Professional Labour (office and professional work subjected to same deskilling as factory work)"
+  - "The Statistical Concealment of Structural Unemployment (measurement categories construct an appearance of manageable unemployment)"
+  - "Education as Credential Inflation (employers use diplomas as screening devices regardless of job content)"
+  key_patterns:
+  - pattern: division_of_learning
+    variant: null
+    note: "The foundational text for what the framework calls Division of Learning. Braverman documents the systematic creation of knowledge asymmetry between management and workers through Taylor's three principles."
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: "Craft knowledge — formerly abundant among workers — is made scarce by design through the Babbage principle and the separation of conception from execution."
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: "'Scientific management' presents itself as science applied to work but is management of others' work under capitalist conditions."
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: "The employment contract presents itself as purchase of defined labor but purchases undefined potential. Statistical categories construct appearance of manageable unemployment."
+  - pattern: compliance_gradient
+    variant: null
+    note: "'Systematic soldiering' — workers' deliberate output restriction — is the paradigmatic case of calibrated partial compliance."
+  - pattern: anticipatory_obedience
+    variant: null
+    note: "Habituation aims at producing workers who self-regulate without continuous external coercion."
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: "Form shifts from physical to economic compulsion but extraction structure persists. Taylorism disappears as a movement but its principles become bedrock of all work design."
+  - pattern: middle_stratum_trap
+    variant: null
+    note: "The professional-managerial middle class is a transitional stratum continuously produced and dissolved by capital accumulation."
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: "Education as moral obligation — credential requirements convert economic sorting into individual responsibility."
+  - pattern: constitutive_violence
+    variant: null
+    note: "The working class was created through dispossession. The initial coercion constituted the labour force; ongoing economic compulsion maintains it."
+  ic1_flags:
+  - axiom: 9
+    note: "Braverman's workers see coercion clearly — Taylor acknowledged workers were right to resist. Compliance manufactured through economic necessity (visible) not concealment. Sixth independent source confirming Axiom 9 overemphasises invisibility."
+  - axiom: 10
+    note: "Workers developed every technique Gilbreth codified — knowledge possessed by workers 'is not useful to capital.' Understanding exists but is structurally powerless without ownership of the means of production."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "All layers (Economic, Institutional, Thought & Narrative primary)"
+  key_patterns_display: "Division of Learning, Manufactured Scarcity, Inversion of Stated Purpose, Appearance as Structural Terrain, Compliance Gradient, Anticipatory Obedience, Formal Transformation/Structural Continuity, Middle Stratum Trap, Moral Infrastructure, Constitutive Violence"
+  source_display: "Harry Braverman, *Labor and Monopoly Capital* (1974)"
+  position_display: "3/5 (hybrid — skilled craftsman turned Marxist editor/publisher)"
+  instruments_proposed_display: []
+  source_type_display: primary_document
