@@ -41,11 +41,27 @@ patterns, or evidence. They are:
   argues that a mechanism exists, the mechanism must be independently
   documented through extraction or analysis before it enters the framework
 
-The essay's value is *generative* (it identifies what to study next) and
-*preservative* (it captures structural thinking). It does not produce
-framework content. The extraction of the sources the essay references
-produces framework content. The essay tells the analyst *why* to extract
-a source. That is the boundary.
+Essays serve three functions:
+
+1. **Synthesis** — they connect findings across multiple analyses,
+   patterns, and principles to make structural arguments that no single
+   source or analysis contains. The framework's components are discrete;
+   essays are where the analyst assembles them into coherent arguments
+   about how mechanisms interact across domains.
+2. **Sense-making** — they help the analyst (and reader) understand what
+   the framework's accumulated findings mean for a specific question or
+   concern. An essay takes the question "what does the framework say
+   about X?" and produces a reasoned answer grounded in the corpus.
+3. **Direction** — they identify gaps that suggest what to extract or
+   analyze next (e.g., "Braverman would ground this argument in
+   documented evidence").
+
+Essays do not produce framework content (patterns, principles, evidence,
+instruments). The extraction of the sources essays reference produces
+framework content. The distinction: essays are the analyst's thinking
+*with* the framework; analyses and extractions are the framework's
+documented findings. Both have value; they have different evidentiary
+status.
 
 ## IC-3 obligation
 
