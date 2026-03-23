@@ -269,6 +269,13 @@ framework producing suspiciously consistent results).
 > 7. "Has the framework ever concluded that the null case wins — that
 >    power dynamics are NOT the primary explanation? If not, IC-2 is
 >    decorative rather than functional."
+> 8. "Has the essays category introduced ungrounded claims into the
+>    framework's knowledge base? Are pattern or principle notes citing
+>    essays as though they were independently documented findings? Is
+>    the epistemic distinction between synthesis (essays) and
+>    documented analysis (analyses) clear to a reader encountering
+>    the framework for the first time? If essays have contaminated
+>    the evidentiary base, revise or remove the cross-references."
 
 A framework that cannot survive its own scrutiny has no business
 scrutinizing anything else. Record the results of red team reviews
