@@ -6,8 +6,12 @@ to surveillance and physical force — and understanding how these layers
 reinforce each other.
 
 This is a living analytical system. It accumulates knowledge over time
-as works are studied and current events are analyzed. It is designed to
-be used by both humans and LLMs.
+as works are studied and current events are analyzed. It is operated by
+a human-LLM composite: the human prompts, directs, judges, and decides
+what enters the framework; the LLM loads context, locates patterns,
+synthesises, and writes. The term "analyst" throughout the framework
+refers to this composite. See the [Methodology](methodology.md) for
+a full description of these roles.
 
 > [!TIP]
 > **Quick start**: Clone the repo, `cd` into it, and use the `/lop` skill

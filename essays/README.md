@@ -41,6 +41,16 @@ patterns, or evidence. They are:
   argues that a mechanism exists, the mechanism must be independently
   documented through extraction or analysis before it enters the framework
 
+## Authorship
+
+Essays are produced by the LLM in response to the human's questions,
+drawing on the framework's accumulated findings. The human prompts,
+directs, and judges; the LLM synthesises and articulates. Both
+contributions shape the output. See the "The analyst" section of
+`methodology.md` for the framework's definition of this composite.
+
+## Function
+
 Essays serve three functions:
 
 1. **Synthesis** — they connect findings across multiple analyses,

@@ -6,6 +6,38 @@
 
 ---
 
+## The analyst
+
+Throughout this document, "the analyst" refers to the composite of
+human and LLM that operates the framework. Neither party is the analyst
+alone. The roles are distinct:
+
+- **The human** prompts, directs, judges, corrects, and decides what
+  enters the framework. The human selects material, evaluates whether
+  findings are accurate, catches errors in reasoning, and determines
+  whether to commit results. Editorial judgment and domain knowledge
+  that the LLM lacks are the human's contribution.
+- **The LLM** loads context, decomposes material, locates patterns,
+  cross-references the knowledge base, connects across domains,
+  synthesises, and writes. The cognitive labour of the analytical
+  steps — processing material against 32 patterns, 35 principles,
+  and 8 instruments simultaneously — is the LLM's contribution.
+
+The analytical output is a product of this collaboration. The human's
+questions shape the LLM's responses; the LLM's responses shape the
+human's subsequent questions. Neither party has a fully independent
+vantage point on the other. This entanglement does not invalidate the
+work, but it should be named rather than obscured.
+
+IC-5 (LLM instrument bias) names the LLM as a biased instrument. The
+framing "the analyst must treat the LLM as a biased instrument" implies
+a human standing outside the LLM and evaluating its output independently.
+The reality is more entangled: the framework's accumulated content is
+the product of dozens of interleaved exchanges in which both parties'
+contributions are inseparable from the output. The human provides the
+independent judgment that IC-5 calls for, but that judgment operates on
+material the LLM has already shaped.
+
 ## Modes of operation
 
 Select a mode based on the task:
