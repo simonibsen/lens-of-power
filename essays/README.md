@@ -23,11 +23,29 @@ patterns, or evidence. They are:
   which are themselves grounded in documented sources. But the synthesis
   itself has not been independently corroborated.
 
-Essays are **not** evidence entries, pattern observations, or analytical
-findings. They should not be cited as evidentiary basis for framework
-updates. They may be cross-referenced from patterns and principles as
-places where structural arguments were developed, but the cross-reference
-should note the epistemic status.
+## What essays CAN and CANNOT do
+
+**Essays CAN**:
+- Be cross-referenced from pattern or principle notes as "a place where
+  this pattern was applied to [topic]" — a pointer, not evidence
+- Serve as a starting point when the analyst returns to a topic
+- Identify gaps that suggest what to extract or analyze next (e.g.,
+  "Braverman would ground this argument in documented evidence")
+- Preserve a line of structural thinking for future reference
+
+**Essays CANNOT**:
+- Be cited as evidentiary basis for pattern promotion or confidence changes
+- Produce principles, evidence entries, or instrument updates
+- Be treated as documented findings in any framework context
+- Substitute for extraction of the sources they reference — if an essay
+  argues that a mechanism exists, the mechanism must be independently
+  documented through extraction or analysis before it enters the framework
+
+The essay's value is *generative* (it identifies what to study next) and
+*preservative* (it captures structural thinking). It does not produce
+framework content. The extraction of the sources the essay references
+produces framework content. The essay tells the analyst *why* to extract
+a source. That is the boundary.
 
 ## IC-3 obligation
 
