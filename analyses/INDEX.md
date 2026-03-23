@@ -399,3 +399,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`
   File: `2026-03-17-nature-article-nih-funding-calls-dismantlement.md`
+
+### 2026-03-23 — Iran power supply threat postponement — the threat as mechanism of indefinite control
+  Domain: US foreign policy / Iran war / civilian infrastructure / coercive diplomacy / Strait of Hormuz / international humanitarian law
+  Layers: Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Economic, Surveillance & Information, Legal & Regulatory
+  Null case: plausible (MEDIUM diplomatic / LOW humanitarian — targeting 90 million people's power supply publicly not explained by diplomatic logic)
+  IC-5 flag: True
+  Cross-references: `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`, `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
+  File: `2026-03-23-guardian-article-iran-power-supply-threat-postponement.md`

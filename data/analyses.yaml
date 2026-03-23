@@ -3530,3 +3530,68 @@ entries:
   domain_text: Science policy / NIH funding / institutional dismantlement / research prioritisation / executive-legislative relations
   layers_text: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
   null_case_text: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, congressional mandate delays, institutional silence, and cross-domain parallel weaken it)
+
+- id: "2026-03-23-guardian-article-iran-power-supply-threat-postponement"
+  file: analyses/2026-03-23-guardian-article-iran-power-supply-threat-postponement.md
+  title: "Iran power supply threat postponement — the threat as mechanism of indefinite control"
+  date: "2026-03-23"
+  time: "~12:00 UTC"
+  source_url: https://www.theguardian.com/world/2026/mar/23/unimaginable-hell-iranian-relief-and-unease-after-trump-pauses-plan-to-cripple-power-supply
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — Guardian diplomatic editor with strongest Position 2 (Iranian civilian) sourcing in Iran war cluster"
+  hegemonic_contexts:
+  - national_security_state
+  layers:
+  - physical_coercive
+  - thought_narrative
+  - institutional
+  - economic
+  - surveillance_information
+  - legal_regulatory
+  primary_layers:
+  - physical_coercive
+  - thought_narrative
+  null_case: plausible
+  null_case_detail: "MEDIUM at diplomatic level (Turkish/Omani mediation genuine, postponement may reflect their work); LOW at humanitarian level (targeting civilian infrastructure publicly to produce mass fear is not explained by diplomatic logic; Fourth Geneva Convention prohibits attacks on civilian objects indispensable to civilian survival)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Western strategic-analysis framing treating infrastructure threats as escalation options. Experience of 90 million people contemplating extended darkness structurally unrepresentable in analytical frameworks. 3 million internally displaced mentioned in single clause."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper"
+  - "2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm"
+  - "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  - "2026-03-17-publicnotice-article-trump-russia-nato-iran-strait"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  patterns_matched:
+  - pattern: economy_of_violence
+    status: observed
+    variant: "threat-as-mechanism — threat maintained indefinitely produces compliance without requiring execution"
+    note: "Trump announced infrastructure attack, then postponed. The postponement maintains leverage without expenditure. Each reprieve reinforces the power relationship: the population experiences gratitude for the absence of destruction that should not have been threatened. The threat-then-postpone cycle is calibrated violence."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Power supply threat as visible surface; Hormuz seizure as potential structural objective (Motahari distraction thesis). Trump's claimed 'productive conversations' denied by Iran — diplomatic framing as appearance. Diego Garcia missile claim unconfirmed by NATO, contradicted by UK minister."
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: null
+    note: "Iran's defence council warns any coastal attack would lead to mining 'all access routes' in the Persian Gulf — manufacturing energy scarcity across the entire Gulf, extending beyond Hormuz. The threat of mining (without execution) constrains US options."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: "bidirectional"
+    note: "Operating in both directions: Iran's nuclear programme justifies US military posture; US attack justifies Iran's retaliatory threats; each side's threat justifies the other's. The cycle is self-generating and has no equilibrium within the current frame."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Trump's 'productive conversations' claim denied by Iran — the diplomatic framing inverts the structural function (maintaining threat leverage). The postponement is presented as a gesture of restraint; it functions as maintenance of indefinite leverage."
+  - pattern: serial_regime_change
+    status: inferred
+    variant: null
+    note: "Infrastructure targeting represents escalation after military strikes failed to produce capitulation. The template's escalation phase: when direct military action does not achieve stated objectives, target the civilian survival infrastructure to produce compliance through suffering."
+  findings_count: 13
+  commit: null
+  domain_text: US foreign policy / Iran war / civilian infrastructure / coercive diplomacy / Strait of Hormuz / international humanitarian law
+  layers_text: Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Economic, Surveillance & Information, Legal & Regulatory
+  null_case_text: plausible (MEDIUM diplomatic / LOW humanitarian — targeting 90 million people's power supply publicly not explained by diplomatic logic)

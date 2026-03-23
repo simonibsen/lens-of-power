@@ -10,7 +10,7 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (64 of 84 relevant sources, 76%)
+CONFIDENCE: ESTABLISHED (65 of 84 relevant sources, 77%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
@@ -24,13 +24,13 @@ LAYERS: Thought & Narrative, Economic, Physical & Coercive
 STATEMENT: A permanent external threat justifies permanent internal
 control, because a population at war accepts restrictions it would
 otherwise resist.
-CONFIDENCE: ESTABLISHED (17 of 84 relevant sources, 20%)
+CONFIDENCE: ESTABLISHED (18 of 84 relevant sources, 21%)
 
 ## [Manufactured Scarcity as Control](manufactured-scarcity-as-control.md)
 LAYERS: Thought & Narrative, Economic
 STATEMENT: Abundance is deliberately prevented or destroyed because
 material security reduces dependency and enables independence.
-CONFIDENCE: ESTABLISHED (24 of 84 relevant sources, 29%)
+CONFIDENCE: ESTABLISHED (25 of 84 relevant sources, 30%)
 CIRCUMVENTIONS: Economic Alternative, Collective Action
 
 ## [Temporal Control](temporal-control.md)
@@ -53,7 +53,7 @@ LAYERS: Thought & Narrative, Physical & Coercive
 STATEMENT: Violence is most effective when concentrated at the moment of
 acquisition and absent thereafter. The temporal calibration of coercion
 determines whether it produces stability or resistance.
-CONFIDENCE: PRELIMINARY (3 of 77 relevant sources, 4%)
+CONFIDENCE: PRELIMINARY (4 of 77 relevant sources, 5%)
 
 ## [Appearance as Structural Terrain](appearance-as-structural-terrain.md)
 LAYERS: Thought & Narrative, Institutional
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (59 of 84 relevant sources, 70%)
+CONFIDENCE: ESTABLISHED (60 of 84 relevant sources, 71%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -139,7 +139,7 @@ LAYERS: Thought & Narrative, Institutional, Physical & Coercive
 STATEMENT: A state repeatedly applies the same military intervention
 template across different targets, each time presenting the operation as
 unique and necessary while following an identical structural pattern.
-CONFIDENCE: SUPPORTED (15 of 84 relevant sources, 18%)
+CONFIDENCE: SUPPORTED (16 of 84 relevant sources, 19%)
 
 ## [The Unprecedented as Sanctuary](unprecedented-as-sanctuary.md)
 LAYERS: Thought & Narrative, Legal & Regulatory, Institutional

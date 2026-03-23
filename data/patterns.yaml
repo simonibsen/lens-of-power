@@ -287,6 +287,12 @@ entries:
     note: 'Stated purpose: innovation through investigator flexibility. Structural function: elimination of the mechanism
       through which agency specialists direct research toward problems no individual investigator would independently pursue
       (rare diseases, large collaborative projects, Human Genome Project model).'
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: null
+    note: Trump's 'productive conversations' claim denied by Iran — the diplomatic framing inverts the structural function
+      (maintaining threat leverage). The postponement is presented as a gesture of restraint; it functions as maintenance
+      of indefinite leverage.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -479,10 +485,10 @@ entries:
       objectives. Position 1 actors explicitly state the control motive.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.762
+  confidence_ratio: 0.774
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 64
+  corr_count: 65
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -751,6 +757,12 @@ entries:
     variant: null
     note: 'McChrystal''s ''insurgent math'': every innocent killed creates 10+ new enemies. Civilian casualties fuel recruitment
       → more targets → more strikes → more casualties. The war on terror''s self-generating cycle documented across two decades.'
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: bidirectional
+    note: 'Operating in both directions: Iran''s nuclear programme justifies US military posture; US attack justifies Iran''s
+      retaliatory threats; each side''s threat justifies the other''s. The cycle is self-generating and has no equilibrium
+      within the current frame.'
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -761,10 +773,10 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.202
+  confidence_ratio: 0.214
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 17
+  corr_count: 18
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
   file: patterns/manufactured-scarcity-as-control.md
@@ -824,6 +836,12 @@ entries:
     note: Iran manufactures energy scarcity through geographic control of the strait. Crude up 20%+, gas up 40%+, largest
       emergency reserve releases in history. The scarcity is converted into leverage for sanctions relief and economic concessions
       — the material basis for post-war bargaining.
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: null
+    note: Iran's defence council warns any coastal attack would lead to mining 'all access routes' in the Persian Gulf — manufacturing
+      energy scarcity across the entire Gulf, extending beyond Hormuz. The threat of mining (without execution) constrains
+      US options.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -943,10 +961,10 @@ entries:
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.286
+  confidence_ratio: 0.298
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 24
+  corr_count: 25
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -1061,6 +1079,12 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: threat-as-mechanism — threat maintained indefinitely produces compliance without requiring execution
+    note: 'Trump announced infrastructure attack, then postponed. The postponement maintains leverage without expenditure.
+      Each reprieve reinforces the power relationship: the population experiences gratitude for the absence of destruction
+      that should not have been threatened. The threat-then-postpone cycle is calibrated violence.'
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1086,10 +1110,10 @@ entries:
       but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.039
+  confidence_ratio: 0.052
   confidence_level: PRELIMINARY
   relevant_corpus_size: 77
-  corr_count: 3
+  corr_count: 4
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
   file: patterns/appearance-as-structural-terrain.md
@@ -1307,6 +1331,12 @@ entries:
     note: '''Proven, efficient model'' framing vs 90%+ elimination of directed research mechanism. Congressional mandates
       formally in force but administratively delayed through multi-layer review. The appearance is efficiency and innovation;
       the structural function is elimination of institutional capacity to coordinate research.'
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: null
+    note: Power supply threat as visible surface; Hormuz seizure as potential structural objective (Motahari distraction thesis).
+      Trump's claimed 'productive conversations' denied by Iran — diplomatic framing as appearance. Diego Garcia missile claim
+      unconfirmed by NATO, contradicted by UK minister.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1487,10 +1517,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.702
+  confidence_ratio: 0.714
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 59
+  corr_count: 60
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -2301,11 +2331,17 @@ entries:
     note: 'The serial regime change template (military action → present as unique and necessary → unintended consequences)
       is operating, but the expected outcome (target isolated, attacker''s position strengthened) has inverted: the target''s
       leverage has increased and the attacker is increasingly isolated diplomatically.'
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: null
+    note: 'Infrastructure targeting represents escalation after military strikes failed to produce capitulation. The template''s
+      escalation phase: when direct military action does not achieve stated objectives, target the civilian survival infrastructure
+      to produce compliance through suffering.'
   counter_evidence: []
-  confidence_ratio: 0.179
+  confidence_ratio: 0.19
   confidence_level: SUPPORTED
   relevant_corpus_size: 84
-  corr_count: 15
+  corr_count: 16
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
   file: patterns/unprecedented-as-sanctuary.md
