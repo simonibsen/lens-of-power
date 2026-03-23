@@ -2770,3 +2770,76 @@ entries:
   position_display: "3/5 (hybrid — skilled craftsman turned Marxist editor/publisher)"
   instruments_proposed_display: []
   source_type_display: primary_document
+
+- id: noble-forces-of-production
+  file: principles/noble-forces-of-production.md
+  source_name: David Noble
+  source_title: "Forces of Production: A Social History of Industrial Automation"
+  source_year: 1984
+  position:
+  - 5
+  position_note: "historian of technology with explicit political commitment to labour; extensive primary-source research in corporate and military archives"
+  provenance_tier: primary_document
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  - surveillance_information
+  - legal_regulatory
+  - physical_coercive
+  principles_list:
+  - "Technology Design as Social Choice Presented as Technical Necessity (viable alternatives denied funding, then cited as nonviable)"
+  - "The Control Premium (management sacrifices efficiency to retain hierarchical control — documented with Position 1 admissions)"
+  - "The Twin Wars Convergence (military threats and labour resistance converge on same technology — removing human judgment)"
+  - "Military Subsidy as Market Creation (state procurement creates artificial markets for control-oriented technology)"
+  - "The Suppression of Alternatives (independent inventors marginalised through institutional exclusion, not competitive failure)"
+  - "Standardisation as Lock-In (industry standards convert contingent choices into structural constraints)"
+  - "The Control-Productivity Contradiction (deskilling undermines the productivity gains technology was supposed to deliver)"
+  - "The Override as Contested Terrain (manual overrides become primary site of worker-management struggle)"
+  - "Technological Determinism as Depoliticisation (inevitability framing forecloses the question of who benefits)"
+  - "Wiener Warning (individual moral dissent by technically knowledgeable actors is structurally insufficient)"
+  key_patterns:
+  - pattern: division_of_learning
+    variant: null
+    note: "The entire N/C story is about separating knowledge from workers and concentrating it in management. Noble provides the empirical case study for what Braverman theorised and Zuboff generalised."
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: "Efficiency, progress, and technical superiority consistently served as stated rationales for choices driven by control objectives. Position 1 actors explicitly state the control motive."
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: "Technological inevitability as operating terrain through which power makes choices appear natural. The gap between promotional claims and operational reality (80% downtime)."
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: "Accessible technology alternatives systematically denied resources. 95% of small businesses owned no N/C machines. Scarcity produced by funding pattern."
+  - pattern: compliance_gradient
+    variant: null
+    note: "The override as material form of partial compliance. The 50 percent syndrome — workers collectively setting overrides at 50% — is calibrated resistance through machinery."
+  - pattern: capture_pipeline
+    variant: null
+    note: "Military-industrial-educational complex as pipeline: MIT develops, Air Force funds and procures, industry deploys. Revolving personnel between all three."
+  - pattern: constitutive_violence
+    variant: null
+    note: "Twin wars convergence — Cold War military threat used to justify domestic labour control."
+  - pattern: anticipatory_obedience
+    variant: null
+    note: "Unions internalised technological inevitability. Workers clung to the belief that their sacrifices were made for the sake of progress."
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: "Form shifts from foreman discipline to machine discipline. Taylorism evolves into numerical control. The structure of control persists through technological transformation."
+  - pattern: hidden_transcript
+    variant: null
+    note: "Covert collective agreements on override levels. Sabotage as structural response to deskilling."
+  - pattern: double_performance
+    variant: null
+    note: "Operators performing compliance while exercising control through override manipulation and selective sabotage."
+  ic1_flags:
+  - axiom: 10
+    note: "Wiener understood the system perfectly and tried to intervene. Result: exclusion from power. Reuther never responded. Strongest case of technically knowledgeable actor whose understanding produced exclusion, not resistance."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "All six (Economic, Institutional, Thought & Narrative primary)"
+  key_patterns_display: "Division of Learning, Inversion of Stated Purpose, Appearance as Structural Terrain, Manufactured Scarcity, Compliance Gradient, Capture Pipeline, Constitutive Violence, Anticipatory Obedience, Formal Transformation/Structural Continuity, Hidden Transcript, Double Performance"
+  source_display: "David Noble, *Forces of Production* (1984)"
+  position_display: "5 (historian of technology)"
+  instruments_proposed_display: []
+  source_type_display: primary_document
