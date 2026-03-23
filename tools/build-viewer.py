@@ -4653,14 +4653,14 @@ function buildGaps() {
   const cal = health.calibration || {};
   const calTotal = cal.total || 0;
   html += '<div class="health-card">';
-  html += '<h4 title="SAMPLE mode randomly selects material (including sports, recipes, science) and runs a READ analysis. The null case rate measures the false positive rate — how often it finds power dynamics in material where they may be absent. Target: 30-60%.">Calibration (SAMPLE)</h4>';
+  html += '<h4 title="SAMPLE mode randomly selects material (including sports, recipes, science) and runs a READ analysis. The null case rate measures how often the framework correctly produces null cases on random material. A rate below 30% suggests the framework is a confirmation machine. There is no upper bound — a high rate on random material is expected and healthy.">Calibration (SAMPLE)</h4>';
   if (calTotal === 0) {
     html += '<div class="health-metric health-status-critical">No samples</div>';
     html += '<div class="health-detail">Run /lop sample to begin calibration</div>';
   } else {
     const calNull = (cal.accepted || 0) + (cal.plausible || 0);
     const calRate = Math.round(calNull / calTotal * 100);
-    const calClass = calTotal < 5 ? 'health-status-warn' : (calRate >= 30 && calRate <= 60) ? 'health-status-ok' : 'health-status-critical';
+    const calClass = calTotal < 5 ? 'health-status-warn' : calRate >= 30 ? 'health-status-ok' : 'health-status-critical';
     html += '<div class="health-metric ' + calClass + '">' + calRate + '%</div>';
     html += '<div class="health-stacked-bar" style="margin-bottom:4px">';
     const calColors = { accepted: 'var(--green)', plausible: 'var(--orange)', rejected: '#e74c3c' };
@@ -4674,7 +4674,7 @@ function buildGaps() {
       html += '<span><span style="background:' + calColors[r] + ';width:8px;height:8px;border-radius:2px;display:inline-block;margin-right:4px;vertical-align:middle"></span>' + r + ': ' + (cal[r]||0) + '</span>';
     });
     html += '</div>';
-    html += '<div class="health-detail">' + calTotal + ' samples — target null rate: 30\u201360%' + (calTotal < 5 ? ' (need 5+ for significance)' : '') + '</div>';
+    html += '<div class="health-detail">' + calTotal + ' samples — minimum null rate: 30%' + (calTotal < 5 ? ' (need 5+ for significance)' : '') + '</div>';
     if ((cal.unacted_escalations || 0) > 0) {
       html += '<div class="health-warning">' + cal.unacted_escalations + ' unacted escalation' + (cal.unacted_escalations > 1 ? 's' : '') + ' in sample log</div>';
     }

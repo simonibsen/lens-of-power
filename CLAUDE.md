@@ -29,6 +29,7 @@ layers of society. It is both a knowledge base and an analytical tool.
 - `evidence/` — Concrete facts, data, cases that ground the framework
 - `analyses/INDEX.md` — Analysis registry (generated from YAML)
 - `analyses/` — Applied analyses of specific material
+- `essays/` — Framework-informed synthesis writing (different epistemic status from analyses; see `essays/README.md`)
 - `BACKLOG.md` — Prioritized recommendations from SUGGEST mode diagnostics (living document)
 - `tools/build-viewer.py` — Generates `viewer.html` + `viewer-data.js`
 - `tools/generate-indexes.py` — Generates INDEX.md files from YAML data

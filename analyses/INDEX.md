@@ -375,3 +375,27 @@
   IC-5 flag: True
   Cross-references: `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-05-reuters-wirestory-indian-refiners-russian-oil.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
   File: `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`
+
+### 2026-03-18 — CHMR dismantlement — the mechanism connecting institutional destruction to civilian deaths
+  Domain: US military / civilian casualties / institutional dismantlement / accountability architecture / Iran war / counterterrorism
+  Layers: Physical & Coercive (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Surveillance & Information (Economic active but absent)
+  Null case: rejected (LOW — configuration of simultaneous institutional changes + quantified step-change + specific Minab mechanism not explained by null case)
+  IC-5 flag: True
+  Cross-references: `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`, `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`
+  File: `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`
+
+### 2026-03-18 — FBI buying location data on Americans — the data broker loophole as surveillance mechanism
+  Domain: Domestic surveillance / data brokers / Fourth Amendment / FBI / legislative inaction
+  Layers: Surveillance & Information (primary), Legal & Regulatory (primary), Institutional, Thought & Narrative (Economic and Physical & Coercive active but absent)
+  Null case: plausible (LOW-MEDIUM — individual case legitimacy has some force; structural workaround purpose and decade of inaction not explained)
+  IC-5 flag: True
+  Cross-references: `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`, `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
+  File: `2026-03-18-guardian-article-fbi-location-data-patel-wyden.md`
+
+### 2026-03-17 — NIH funding calls dismantlement — institutional function eliminated through process and personnel
+  Domain: Science policy / NIH funding / institutional dismantlement / research prioritisation / executive-legislative relations
+  Layers: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
+  Null case: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, congressional mandate delays, institutional silence, and cross-domain parallel weaken it)
+  IC-5 flag: True
+  Cross-references: `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`
+  File: `2026-03-17-nature-article-nih-funding-calls-dismantlement.md`
