@@ -293,6 +293,17 @@ entries:
     note: Trump's 'productive conversations' claim denied by Iran — the diplomatic framing inverts the structural function
       (maintaining threat leverage). The postponement is presented as a gesture of restraint; it functions as maintenance
       of indefinite leverage.
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: 'AI framed as productivity tool that happens to displace workers. Structural function: workforce restructuring that
+      happens to produce productivity gains. The paper itself contributes to this inversion by measuring displacement through
+      the productivity frame.'
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: 'Collective defence alliance''s dominant member threatens to attack a member. NATO''s stated purpose (mutual defence)
+      inverted: the entity the alliance was designed to coordinate becomes the threat the alliance cannot address.'
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -485,10 +496,10 @@ entries:
       objectives. Position 1 actors explicitly state the control motive.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.774
+  confidence_ratio: 0.798
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 65
+  corr_count: 67
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -763,6 +774,11 @@ entries:
     note: 'Operating in both directions: Iran''s nuclear programme justifies US military posture; US attack justifies Iran''s
       retaliatory threats; each side''s threat justifies the other''s. The cycle is self-generating and has no equilibrium
       within the current frame.'
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: Trump's 'national security' framing for Greenland — Arctic threats from China and Russia invoked to justify territorial
+      acquisition from an ally. The permanent threat framework directed inward.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -773,10 +789,10 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.214
+  confidence_ratio: 0.226
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 18
+  corr_count: 19
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
   file: patterns/manufactured-scarcity-as-control.md
@@ -842,6 +858,11 @@ entries:
     note: Iran's defence council warns any coastal attack would lead to mining 'all access routes' in the Persian Gulf — manufacturing
       energy scarcity across the entire Gulf, extending beyond Hormuz. The threat of mining (without execution) constrains
       US options.
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: pipeline scarcity — entry points to knowledge pipeline made scarce rather than goods
+    note: AI eliminates the entry-level positions that served as the training pipeline through which tacit knowledge was acquired.
+      What is made scarce is not goods but access to the knowledge pipeline.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -961,10 +982,11 @@ entries:
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.298
+  - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  confidence_ratio: 0.31
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 25
+  corr_count: 26
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -1337,6 +1359,17 @@ entries:
     note: Power supply threat as visible surface; Hormuz seizure as potential structural objective (Motahari distraction thesis).
       Trump's claimed 'productive conversations' denied by Iran — diplomatic framing as appearance. Diego Garcia missile claim
       unconfirmed by NATO, contradicted by UK minister.
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: The automation-augmentation distinction is drawn from Anthropic's own classification of Claude conversations. The
+      technology provider's self-categorisation becomes the analytical framework for measuring the technology's employment
+      effects.
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: NATO's appearance as a partnership of equals is the structural terrain on which US hegemonic primacy operates. Denmark's
+      runway-demolition contingency reveals the gap between self-presentation and power structure.
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1517,10 +1550,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.714
+  confidence_ratio: 0.738
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 60
+  corr_count: 62
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -1632,6 +1665,11 @@ entries:
     source_type: analysis
     variant: null
     note: ''
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: Firms adjust via 'lowest-friction margin' (reduced hiring rather than layoffs). Displacement is invisible to the
+      displaced until they try to enter the market. The adjustment mechanism operates below the threshold of visible disruption.
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -1714,10 +1752,11 @@ entries:
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.153
+  - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  confidence_ratio: 0.165
   confidence_level: SUPPORTED
   relevant_corpus_size: 85
-  corr_count: 13
+  corr_count: 14
 - id: ideological_judo
   name: Ideological Judo
   file: patterns/ideological-judo.md
@@ -1749,6 +1788,12 @@ entries:
     note: 'Inverse deployment: the most powerful member exploits the alliance''s own language (burden-sharing, collective
       defence, territorial protection) to demand compliance while violating those standards. Scott documented the weak using
       this mechanism; here the powerful deploy it — holding others to standards they themselves violate.'
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: intra-alliance — medium power deploys alliance's own collective security principle against dominant member
+    note: Multinational deployment of 8+ NATO member forces to Greenland specifically designed to force the US to take hostile
+      action against multiple allies simultaneously. Alliance's collective security architecture converted from defensive
+      guarantee to defensive tripwire against the alliance's own dominant member.
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -1784,10 +1829,10 @@ entries:
 
       structures they nomin...'
   counter_evidence: []
-  confidence_ratio: 0.082
+  confidence_ratio: 0.094
   confidence_level: PRELIMINARY
   relevant_corpus_size: 85
-  corr_count: 7
+  corr_count: 8
 - id: double_performance
   name: The Double Performance
   file: patterns/double-performance.md
@@ -1983,6 +2028,11 @@ entries:
     variant: null
     note: The occupation's initial distribution of power (1967 military conquest) is maintained through continuing violence.
       The Bani Odeh killing is an expression of the system's constitutive logic, not an aberration within it.
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: NATO constituted through US military dominance. When that dominance is directed at a member, the constitutive violence
+      surfaces. Venezuela attack (January 3) provided demonstrated precedent three days before territorial demand on ally.
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
@@ -2095,10 +2145,10 @@ entries:
     note: Twin wars convergence — Cold War military threat used to justify domestic labour control.
   counter_evidence:
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.202
+  confidence_ratio: 0.214
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 17
+  corr_count: 18
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
   file: patterns/three-phases-of-cultural-resistance.md
@@ -2337,11 +2387,16 @@ entries:
     note: 'Infrastructure targeting represents escalation after military strikes failed to produce capitulation. The template''s
       escalation phase: when direct military action does not achieve stated objectives, target the civilian survival infrastructure
       to produce compliance through suffering.'
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: intra-alliance escalation
+    note: Venezuela attack (January 3) → Greenland demand (January 4). Same military intervention posture applied serially,
+      moving from non-allied state to allied territory.
   counter_evidence: []
-  confidence_ratio: 0.19
-  confidence_level: SUPPORTED
+  confidence_ratio: 0.202
+  confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 16
+  corr_count: 17
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
   file: patterns/unprecedented-as-sanctuary.md
@@ -2589,6 +2644,11 @@ entries:
     note: 'FBI acquires comprehensive location data on Americans through commercial purchase. Subjects cannot access, audit,
       or challenge the surveillance. The information asymmetry is structural: the government knows where individuals are;
       individuals do not know they are being tracked.'
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: Firms possess detailed knowledge of which tasks are being automated; displaced workers discover displacement at
+      the job application stage. Information asymmetry between deployer and displaced.
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -2683,10 +2743,10 @@ entries:
     note: The entire N/C story is about separating knowledge from workers and concentrating it in management. Noble provides
       the empirical case study for what Braverman theorised and Zuboff generalised.
   counter_evidence: []
-  confidence_ratio: 0.301
+  confidence_ratio: 0.313
   confidence_level: ESTABLISHED
   relevant_corpus_size: 83
-  corr_count: 25
+  corr_count: 26
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -2781,6 +2841,12 @@ entries:
     note: 'NIH employees speak anonymously to protect their jobs. The anonymity condition documents the institutional environment:
       questioning changes carries perceived career risk. Professionals adjust behaviour to institutional signals without explicit
       instruction.'
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: firm-level — organisations pre-adjusting hiring to anticipated AI demands
+    note: Data cannot distinguish AI capability from employer anticipation of AI capability. If firms reduce junior hiring
+      based on what they believe AI will do rather than what it currently does, the mechanism is social (narrative-driven
+      anticipatory action) rather than technological. Extends pattern from individual to firm level.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2836,10 +2902,11 @@ entries:
       the sake of progress.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.286
+  - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  confidence_ratio: 0.298
   confidence_level: ESTABLISHED
   relevant_corpus_size: 84
-  corr_count: 24
+  corr_count: 25
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -2919,6 +2986,12 @@ entries:
     variant: null
     note: 'Bradley shifted from ''model'' CHMR adopter to defender of double-tap strikes. Trajectory traces institutional
       accommodation: professional who embraced accountability abandoned it when institutional signals changed.'
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: training function — firms abandoning the training function that historically justified entry-level employment
+    note: Authors note 'inefficient incentives to train entry-level workers who may move firms.' Firms 'shrink junior inflows
+      rather than displace incumbents.' The training function is surrendered because AI reduces the immediate return on that
+      investment.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2963,10 +3036,11 @@ entries:
       than challengers organise.'
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.228
+  - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  confidence_ratio: 0.241
   confidence_level: ESTABLISHED
   relevant_corpus_size: 79
-  corr_count: 18
+  corr_count: 19
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -3017,6 +3091,11 @@ entries:
     variant: terminal logic — concentration extended to survival itself
     note: 'The ratchet has concentrated wealth to the point where beneficiaries can afford to exit the system entirely. The
       bunker is the final stage: not accumulating more than others but accumulating survival as a private good.'
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: Augmentation gains accrue to experienced workers with existing institutional position; automation costs fall on
+      entry-level workers without it. The displacement accelerates inequality during stability.
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
@@ -3105,10 +3184,10 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.181
+  confidence_ratio: 0.193
   confidence_level: SUPPORTED
   relevant_corpus_size: 83
-  corr_count: 15
+  corr_count: 16
 - id: compression_through_destruction
   name: Compression Through Destruction
   file: patterns/compression-through-destruction.md
@@ -3718,6 +3797,11 @@ entries:
     note: NIH mandate and form persist. Operational function (directing research through ~780 annual RFAs) reduced to 11 calls.
       Congressional mandates formally in force but administratively delayed. Same inverse variant documented in CHMR analysis
       (Center of Excellence formally exists, function eliminated).
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: Operation Arctic Endurance designated as exercise; functioned as real defensive deployment. Formal designation (exercise)
+      preserved while structural reality (defensive contingency against US) operated beneath.
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -3792,10 +3876,10 @@ entries:
     note: Form shifts from foreman discipline to machine discipline. Taylorism evolves into numerical control. The structure
       of control persists through technological transformation.
   counter_evidence: []
-  confidence_ratio: 0.247
+  confidence_ratio: 0.259
   confidence_level: ESTABLISHED
   relevant_corpus_size: 85
-  corr_count: 21
+  corr_count: 22
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
@@ -3942,6 +4026,12 @@ entries:
     variant: federal-to-commercial migration via statutory mandate
     note: Border/immigration enforcement biometric techniques migrating to domestic and commercial contexts through the SBIR
       commercialisation mandate. Extends the Boomerang from colonial-domestic migration to federal-commercial migration.
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: intra-alliance — military posture from non-allied targets directed at allied territory
+    note: US military posture developed for power projection against non-allied states (Venezuela) directed at an allied territory
+      (Greenland). Methods of domination from the periphery migrating toward the centre of the alliance system. Extends Arendt's
+      periphery-to-centre thesis to intra-alliance context.
   - source_id: arendt-origins-of-totalitarianism
     source_type: principle
     variant: null
@@ -3963,7 +4053,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.084
+  confidence_ratio: 0.096
   confidence_level: PRELIMINARY
   relevant_corpus_size: 83
-  corr_count: 7
+  corr_count: 8

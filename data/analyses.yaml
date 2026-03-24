@@ -3595,3 +3595,152 @@ entries:
   domain_text: US foreign policy / Iran war / civilian infrastructure / coercive diplomacy / Strait of Hormuz / international humanitarian law
   layers_text: Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Economic, Surveillance & Information, Legal & Regulatory
   null_case_text: plausible (MEDIUM diplomatic / LOW humanitarian — targeting 90 million people's power supply publicly not explained by diplomatic logic)
+- id: 2025-11-stanford-academic-paper-ai-employment-canaries
+  file: analyses/2025-11-stanford-academic-paper-ai-employment-canaries.md
+  date: '2025-11-13'
+  time: ~00:00 UTC (publication date; PDF retrieved 2026-03-24)
+  source_date: '2025-11-13'
+  title: "AI employment displacement concentrates at the entry-level (Brynjolfsson, Chandar, Chen)"
+  source_name: "Brynjolfsson, Chandar, Chen — Stanford Digital Economy Lab / ADP"
+  source_type: academic_paper
+  position:
+  - 5
+  url: https://digitaleconomy.stanford.edu/app/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf
+  domain:
+  - labour
+  - ai_policy
+  hegemonic_contexts:
+  - technological_progress
+  - market_capitalism
+  - wage_labour
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  - surveillance_information
+  primary_layers:
+  - economic
+  - institutional
+  null_case: rejected
+  null_case_detail: "LOW for pure non-AI explanations (robustness checks address post-pandemic correction, interest rates, remote work, education). MEDIUM for employer-perception alternative (data cannot distinguish AI capability from employer anticipation of AI capability). Power dynamics present under either interpretation."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-economic perspective on AI and labour — view from deploying firm and measuring economist rather than displaced worker. Position 2 entirely absent."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-02-opensecrets-report-ai-lobbying-defense-kstreet"
+  - "2026-03-04-guardian-article-datacenter-politics-nc-primary"
+  - "2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement"
+  patterns_matched:
+  - pattern: manufactured_scarcity_as_control
+    status: inferred
+    variant: "pipeline scarcity — entry points to knowledge pipeline made scarce rather than goods"
+    note: "AI eliminates the entry-level positions that served as the training pipeline through which tacit knowledge was acquired. What is made scarce is not goods but access to the knowledge pipeline."
+  - pattern: division_of_learning
+    status: inferred
+    variant: null
+    note: "Firms possess detailed knowledge of which tasks are being automated; displaced workers discover displacement at the job application stage. Information asymmetry between deployer and displaced."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "firm-level — organisations pre-adjusting hiring to anticipated AI demands"
+    note: "Data cannot distinguish AI capability from employer anticipation of AI capability. If firms reduce junior hiring based on what they believe AI will do rather than what it currently does, the mechanism is social (narrative-driven anticipatory action) rather than technological. Extends pattern from individual to firm level."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "The automation-augmentation distinction is drawn from Anthropic's own classification of Claude conversations. The technology provider's self-categorisation becomes the analytical framework for measuring the technology's employment effects."
+  - pattern: institutional_abdication
+    status: inferred
+    variant: "training function — firms abandoning the training function that historically justified entry-level employment"
+    note: "Authors note 'inefficient incentives to train entry-level workers who may move firms.' Firms 'shrink junior inflows rather than displace incumbents.' The training function is surrendered because AI reduces the immediate return on that investment."
+  - pattern: peacetime_ratchet
+    status: inferred
+    variant: null
+    note: "Augmentation gains accrue to experienced workers with existing institutional position; automation costs fall on entry-level workers without it. The displacement accelerates inequality during stability."
+  - pattern: compliance_gradient
+    status: inferred
+    variant: null
+    note: "Firms adjust via 'lowest-friction margin' (reduced hiring rather than layoffs). Displacement is invisible to the displaced until they try to enter the market. The adjustment mechanism operates below the threshold of visible disruption."
+  - pattern: inversion_of_stated_purpose
+    status: inferred
+    variant: null
+    note: "AI framed as productivity tool that happens to displace workers. Structural function: workforce restructuring that happens to produce productivity gains. The paper itself contributes to this inversion by measuring displacement through the productivity frame."
+  findings_count: 10
+  commit: null
+  domain_text: AI employment displacement / labour economics / technological progress
+  layers_text: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  null_case_text: rejected (LOW for non-AI explanations; MEDIUM for employer-perception alternative — power dynamics present under both)
+- id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+  file: analyses/2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md
+  date: '2026-03-19'
+  time: ~14:00 UTC
+  source_date: '2026-03-19'
+  title: "Denmark prepared for US attack on Greenland — alliance as revealed power structure"
+  source_name: "The Guardian (reporting on DR investigation)"
+  source_type: news_article
+  position:
+  - 5
+  - 4
+  url: https://www.theguardian.com/world/2026/mar/19/denmark-prepared-for-us-attack-donald-trump-greenland
+  domain:
+  - geopolitics
+  - us_foreign_policy
+  - military
+  hegemonic_contexts:
+  - national_security_state
+  - nation_state_sovereignty
+  layers:
+  - physical_coercive
+  - institutional
+  - thought_narrative
+  - legal_regulatory
+  - economic
+  primary_layers:
+  - physical_coercive
+  - institutional
+  null_case: rejected
+  null_case_detail: "LOW for routine contingency planning (urgency, scale, April 1940 comparison exceed routine). MEDIUM for coercive bluff rather than genuine invasion plan — but power dynamics operate under either interpretation."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents European institutional perspective. Greenlandic media, Inuit political perspectives, and lived experience of 56,000 people whose territory is contested are structurally underrepresented."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-17-publicnotice-article-trump-russia-nato-iran-strait"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  patterns_matched:
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "NATO's appearance as a partnership of equals is the structural terrain on which US hegemonic primacy operates. Denmark's runway-demolition contingency reveals the gap between self-presentation and power structure."
+  - pattern: ideological_judo
+    status: observed
+    variant: "intra-alliance — medium power deploys alliance's own collective security principle against dominant member"
+    note: "Multinational deployment of 8+ NATO member forces to Greenland specifically designed to force the US to take hostile action against multiple allies simultaneously. Alliance's collective security architecture converted from defensive guarantee to defensive tripwire against the alliance's own dominant member."
+  - pattern: constitutive_violence
+    status: inferred
+    variant: null
+    note: "NATO constituted through US military dominance. When that dominance is directed at a member, the constitutive violence surfaces. Venezuela attack (January 3) provided demonstrated precedent three days before territorial demand on ally."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "Trump's 'national security' framing for Greenland — Arctic threats from China and Russia invoked to justify territorial acquisition from an ally. The permanent threat framework directed inward."
+  - pattern: serial_regime_change
+    status: observed
+    variant: "intra-alliance escalation"
+    note: "Venezuela attack (January 3) → Greenland demand (January 4). Same military intervention posture applied serially, moving from non-allied state to allied territory."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Collective defence alliance's dominant member threatens to attack a member. NATO's stated purpose (mutual defence) inverted: the entity the alliance was designed to coordinate becomes the threat the alliance cannot address."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: "Operation Arctic Endurance designated as exercise; functioned as real defensive deployment. Formal designation (exercise) preserved while structural reality (defensive contingency against US) operated beneath."
+  - pattern: boomerang
+    status: inferred
+    variant: "intra-alliance — military posture from non-allied targets directed at allied territory"
+    note: "US military posture developed for power projection against non-allied states (Venezuela) directed at an allied territory (Greenland). Methods of domination from the periphery migrating toward the centre of the alliance system. Extends Arendt's periphery-to-centre thesis to intra-alliance context."
+  findings_count: 13
+  commit: null
+  domain_text: Geopolitics / US foreign policy / intra-alliance coercion / Arctic security / Greenland sovereignty
+  layers_text: Physical & Coercive (primary), Institutional (primary), Thought & Narrative, Legal & Regulatory, Economic
+  null_case_text: rejected (LOW for routine planning; MEDIUM for coercive bluff — power dynamics present under both)

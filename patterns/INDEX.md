@@ -10,7 +10,7 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (65 of 84 relevant sources, 77%)
+CONFIDENCE: ESTABLISHED (67 of 84 relevant sources, 80%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
@@ -24,13 +24,13 @@ LAYERS: Thought & Narrative, Economic, Physical & Coercive
 STATEMENT: A permanent external threat justifies permanent internal
 control, because a population at war accepts restrictions it would
 otherwise resist.
-CONFIDENCE: ESTABLISHED (18 of 84 relevant sources, 21%)
+CONFIDENCE: ESTABLISHED (19 of 84 relevant sources, 23%)
 
 ## [Manufactured Scarcity as Control](manufactured-scarcity-as-control.md)
 LAYERS: Thought & Narrative, Economic
 STATEMENT: Abundance is deliberately prevented or destroyed because
 material security reduces dependency and enables independence.
-CONFIDENCE: ESTABLISHED (25 of 84 relevant sources, 30%)
+CONFIDENCE: ESTABLISHED (26 of 84 relevant sources, 31%)
 CIRCUMVENTIONS: Economic Alternative, Collective Action
 
 ## [Temporal Control](temporal-control.md)
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (60 of 84 relevant sources, 71%)
+CONFIDENCE: ESTABLISHED (62 of 84 relevant sources, 74%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -80,7 +80,7 @@ STATEMENT: Between full compliance and open rebellion exists a
 continuous spectrum of partial, selective, delayed, malicious, and
 performative compliance that constitutes the primary terrain of power
 negotiation in most social orders.
-CONFIDENCE: SUPPORTED (13 of 85 relevant sources, 15%)
+CONFIDENCE: SUPPORTED (14 of 85 relevant sources, 16%)
 CIRCUMVENTIONS: Collective Action, Everyday Resistance
 
 ## [Ideological Judo](ideological-judo.md)
@@ -89,7 +89,7 @@ STATEMENT: The weak exploit the gap between the powerful's legitimating
 ideology and their actual practice by holding the powerful to their own
 stated standards — turning the dominant ideology into a constraint on
 the dominant class.
-CONFIDENCE: PRELIMINARY (7 of 85 relevant sources, 8%)
+CONFIDENCE: PRELIMINARY (8 of 85 relevant sources, 9%)
 
 ## [The Double Performance](double-performance.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -115,7 +115,7 @@ but constituted through it — the initial distribution of power,
 property, and legitimacy was established by force, and the system's
 ongoing operation depends on the continuing implicit threat of that
 foundational violence.
-CONFIDENCE: ESTABLISHED (17 of 84 relevant sources, 20%)
+CONFIDENCE: ESTABLISHED (18 of 84 relevant sources, 21%)
 
 ## [The Three Phases of Cultural Resistance](three-phases-of-cultural-resistance.md)
 LAYERS: Thought & Narrative, Institutional
@@ -139,7 +139,7 @@ LAYERS: Thought & Narrative, Institutional, Physical & Coercive
 STATEMENT: A state repeatedly applies the same military intervention
 template across different targets, each time presenting the operation as
 unique and necessary while following an identical structural pattern.
-CONFIDENCE: SUPPORTED (16 of 84 relevant sources, 19%)
+CONFIDENCE: ESTABLISHED (17 of 84 relevant sources, 20%)
 
 ## [The Unprecedented as Sanctuary](unprecedented-as-sanctuary.md)
 LAYERS: Thought & Narrative, Legal & Regulatory, Institutional
@@ -166,7 +166,7 @@ who cannot access the data, the predictions, or the modifications
 applied to them. This asymmetry is self-reinforcing — more data produces
 better predictions, which produces more effective modification, which
 generates more data.
-CONFIDENCE: ESTABLISHED (25 of 83 relevant sources, 30%)
+CONFIDENCE: ESTABLISHED (26 of 83 relevant sources, 31%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Anticipatory Obedience](anticipatory-obedience.md)
@@ -177,7 +177,7 @@ made. This pre-compliance is self-reinforcing — each act of anticipatory
 obedience shifts the baseline of what is normal, making the next demand
 more extreme and more acceptable. The powerful never needed to ask for
 what was freely given.
-CONFIDENCE: ESTABLISHED (24 of 84 relevant sources, 29%)
+CONFIDENCE: ESTABLISHED (25 of 84 relevant sources, 30%)
 
 ## [Institutional Abdication](institutional-abdication.md)
 LAYERS: Legal & Regulatory, Institutional
@@ -188,7 +188,7 @@ capture (where the institution is actively redirected by external
 actors) — here the institution simply stops functioning because its
 constituent professionals individually calculate that compliance is
 safer than independence.
-CONFIDENCE: ESTABLISHED (18 of 79 relevant sources, 23%)
+CONFIDENCE: ESTABLISHED (19 of 79 relevant sources, 24%)
 CIRCUMVENTIONS: Institutional Reform
 
 ## [The Peacetime Ratchet](peacetime-ratchet.md)
@@ -198,7 +198,7 @@ increases as a structural default. The mechanisms of concentration
 operate continuously during stability and are resisted only weakly by
 non-catastrophic counterforces. Extended stability corresponds to
 increasing concentration across all known civilizations.
-CONFIDENCE: SUPPORTED (15 of 83 relevant sources, 18%)
+CONFIDENCE: SUPPORTED (16 of 83 relevant sources, 19%)
 CIRCUMVENTIONS: Economic Alternative, Catastrophic Leveling
 
 ## [Compression Through Destruction](compression-through-destruction.md)
@@ -265,7 +265,7 @@ simultaneously can survive regime changes that disrupt only some layers
 maintaining structural continuity through the undisrupted layers. The
 forms change; the structure persists; the celebrations of progress
 occur; the extraction continues.
-CONFIDENCE: ESTABLISHED (21 of 85 relevant sources, 25%)
+CONFIDENCE: ESTABLISHED (22 of 85 relevant sources, 26%)
 
 ## [The Structural Demand for Propaganda](structural-demand-for-propaganda.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information
@@ -290,5 +290,5 @@ STATEMENT: Methods of domination developed at the periphery of a
 political system — in colonies, zones of exception, or territories where
 normal constraints do not apply — migrate to the center and are applied
 to domestic populations.
-CONFIDENCE: PRELIMINARY (7 of 83 relevant sources, 8%)
+CONFIDENCE: PRELIMINARY (8 of 83 relevant sources, 10%)
 CIRCUMVENTIONS: International Pressure
