@@ -310,3 +310,21 @@ PRINCIPLES: 10 — Technology Design as Social Choice Presented as Technical Nec
 LAYERS: All six (Economic, Institutional, Thought & Narrative primary)
 KEY PATTERNS: Division of Learning, Inversion of Stated Purpose, Appearance as Structural Terrain, Manufactured Scarcity, Compliance Gradient, Capture Pipeline, Constitutive Violence, Anticipatory Obedience, Formal Transformation/Structural Continuity, Hidden Transcript, Double Performance
 IC-1 FLAGS: Axiom 10 (Wiener understood the system perfectly and tried to intervene. Result: exclusion from power. Reuther never responded. Strongest case of technically knowledgeable actor whose understanding produced exclusion, not resistance.)
+
+## robinson-land-in-california.md
+SOURCE: W.W. Robinson, *Land in California* (1948)
+POSITION: 5 (historian)
+SOURCE TYPE: primary_document
+PRINCIPLES: 7 — Sequential Sovereignty — Each Regime Constitutes Legitimacy Through Delegitimation of the Previous (four regime transitions in California, each processing prior titles through new legal machinery), The Burden of Proof Reversal as Dispossession Mechanism (Act of 1851 required landowners to prove valid titles despite treaty guarantees), Procedural Attrition — Delay as Structural Dispossession (17-year average wait for patent; most claimants bankrupted proving valid claims), The Professional Extraction Class — Lawyers and Lenders as Structural Beneficiaries (revolving door of Jones/Halleck; undivided interests conveyed to attorneys), Squatterism as Political Movement — The Democratisation of Dispossession (squatter governors, legislators, courts, judges), The Regime-Transition Land Rush (interregnum between property regimes as moment of maximum extraction by the connected), The Absent Founding Dispossession — Indigenous Erasure as Structural Precondition (the framework's legitimacy depends on treating indigenous displacement as prehistory)
+LAYERS: Legal & Regulatory (primary), Economic, Institutional, Physical & Coercive, Thought & Narrative
+KEY PATTERNS: Constitutive Violence, Inversion of Stated Purpose, Formal Transformation/Structural Continuity, Appearance as Structural Terrain, Wealth Defense Industry (inverse), Democracy-Oligarchy Coexistence (inverse), Relay Class, Manufactured Scarcity, Compliance Gradient, Middle Stratum Trap, Ideological Judo, Peacetime Ratchet, Division of Learning
+IC-1 FLAGS: Axiom 3 (Robinson's treatment of indigenous dispossession is hegemonic naturalisation (fifth mode) — the framework within which the history is told is itself a product of the founding dispossession.), Axiom 5 (Squatterism complicates 'power concentrates unless counteracted' — concentrated property was dispersed through ethnically targeted democratic expropriation.), Axiom 7 (The Act of 1851 is a strong case of stated vs. function — stated purpose of settling claims, function of destroying claimants through procedural attrition. But IC-2 null case: Congress may not have intended this.), Axiom 8 (The absence of indigenous dispossession from the analytical frame is not merely significant but constitutive — the property framework depends on that absence.)
+
+## gates-california-land-act-1851.md
+SOURCE: Paul Gates, "The California Land Act of 1851" (1971)
+POSITION: 5 (historian — revisionist legal historian)
+SOURCE TYPE: primary_document
+PRINCIPLES: 0 — 
+LAYERS: Legal & Regulatory (primary), Institutional, Economic, Thought & Narrative
+KEY PATTERNS: Inversion of Stated Purpose, Capture Pipeline, Appearance as Structural Terrain, Constitutive Violence, Formal Transformation/Structural Continuity, Wealth Defense Industry, Compliance Gradient, Institutional Abdication, Democracy-Oligarchy Coexistence
+IC-1 FLAGS: Axiom 7 (Field's property absolutism — stated purpose = function. Power through ideological framing, not the gap between purpose and function.), Axiom 8 (Gates corrects Anglo-persecuting-Mexican narrative but perpetuates deeper indigenous absence.)
