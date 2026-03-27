@@ -3744,3 +3744,67 @@ entries:
   domain_text: Geopolitics / US foreign policy / intra-alliance coercion / Arctic security / Greenland sovereignty
   layers_text: Physical & Coercive (primary), Institutional (primary), Thought & Narrative, Legal & Regulatory, Economic
   null_case_text: rejected (LOW for routine planning; MEDIUM for coercive bluff — power dynamics present under both)
+- id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+  file: analyses/2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md
+  date: '2026-03-26'
+  time: ~18:00 UTC
+  source_date: '2026-03-26'
+  title: "Hegseth prays for 'overwhelming violence' at Pentagon — institutional merger of religious and military authority"
+  source_name: "The Guardian (reporting on AP investigation)"
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/us-news/2026/mar/26/hegseth-prayer-violence-pentagon
+  domain:
+  - domestic_policy
+  - institutional_capture
+  hegemonic_contexts:
+  - national_security_state
+  - western_liberal_democracy
+  layers:
+  - thought_narrative
+  - institutional
+  - legal_regulatory
+  - physical_coercive
+  primary_layers:
+  - thought_narrative
+  - institutional
+  null_case: rejected
+  null_case_detail: "MEDIUM for individual components (sincere faith, administrative streamlining). LOW for the configuration — exclusively evangelical presiding, Wilson's theocratic theology, pathological characterisation of pluralism, wartime violence prayer, coercive attendance context, cross-department spread collectively exceed what personal faith or administrative logic explains."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents both liberal-secular critique and evangelical self-presentation. Perspective of Muslim, Jewish, Hindu, Buddhist, atheist, and non-evangelical Christian service members structurally underrepresented."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-14-cra-policybrief-great-replacement-theory-practice"
+  - "2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors"
+  patterns_matched:
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "loyalty signalling — attendance at 'voluntary' prayer services as compliance signal under mass termination conditions"
+    note: "Laser identifies the mechanism: 'there is pressure on federal employees to attend in order to appease their bosses.' The prayer services are presented as voluntary; the institutional context (mass federal terminations for non-compliance) makes attendance a loyalty signal."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Chaplain corps (stated purpose: serving all faiths) restructured toward single-tradition alignment. Prayer service (stated purpose: worship) functioning as wartime narrative alignment. Hegseth accuses the enemy of 'religious fanaticism' while leading prayer services calling for 'overwhelming violence' in the name of 'righteousness.'"
+  - pattern: capture_pipeline
+    status: inferred
+    variant: "three-stage within religious infrastructure"
+    note: "Personnel (Wilson and CREC pastors as presiding figures), institutional redesign (chaplain corps restructuring — faith codes, insignia, pathological characterisation of pluralism), and narrative maintenance (monthly services converting war into religious mandate). Three-stage pipeline operating within a specific institutional subsystem."
+  - pattern: structural_demand_for_propaganda
+    status: inferred
+    variant: null
+    note: "Monthly prayer services provide continuous narrative maintenance during wartime. The Iran war is reframed as a struggle against 'enemies of righteousness,' reducing the cognitive cost of supporting it. The demand side: attendance signals loyalty during a purge period."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "'Voluntary' prayer services appearing as personal expression while functioning as institutional alignment. Administrative 'streamlining' appearing as efficiency while narrowing institutional recognition of religious diversity."
+  - pattern: institutional_abdication
+    status: inferred
+    variant: "chaplain corps restructured without visible internal resistance"
+    note: "The chaplain corps — the institution responsible for religious pluralism — is being restructured by the defence secretary without visible institutional resistance from within the corps. Silence may reflect Anticipatory Obedience rather than agreement."
+  findings_count: 13
+  commit: null
+  domain_text: Domestic policy / institutional capture / Christian nationalism / military religious infrastructure
+  layers_text: Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Physical & Coercive
+  null_case_text: rejected (MEDIUM for components; LOW for configuration — exclusively evangelical, Wilson's theocracy, pathological framing of pluralism, wartime violence prayer, coercive context)

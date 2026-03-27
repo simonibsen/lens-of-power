@@ -10,7 +10,7 @@
 LAYERS: Thought & Narrative, Institutional
 STATEMENT: Systems of control are frequently named for or justified by
 the opposite of their actual function.
-CONFIDENCE: ESTABLISHED (69 of 86 relevant sources, 80%)
+CONFIDENCE: ESTABLISHED (70 of 86 relevant sources, 81%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [Layered Redundancy of Control](layered-redundancy-of-control.md)
@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (64 of 86 relevant sources, 74%)
+CONFIDENCE: ESTABLISHED (65 of 86 relevant sources, 76%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -177,7 +177,7 @@ made. This pre-compliance is self-reinforcing — each act of anticipatory
 obedience shifts the baseline of what is normal, making the next demand
 more extreme and more acceptable. The powerful never needed to ask for
 what was freely given.
-CONFIDENCE: ESTABLISHED (25 of 86 relevant sources, 29%)
+CONFIDENCE: ESTABLISHED (26 of 86 relevant sources, 30%)
 
 ## [Institutional Abdication](institutional-abdication.md)
 LAYERS: Legal & Regulatory, Institutional
@@ -188,7 +188,7 @@ capture (where the institution is actively redirected by external
 actors) — here the institution simply stops functioning because its
 constituent professionals individually calculate that compliance is
 safer than independence.
-CONFIDENCE: ESTABLISHED (20 of 81 relevant sources, 25%)
+CONFIDENCE: ESTABLISHED (21 of 81 relevant sources, 26%)
 CIRCUMVENTIONS: Institutional Reform
 
 ## [The Peacetime Ratchet](peacetime-ratchet.md)
@@ -254,7 +254,7 @@ comments, testimony) designed to produce specific outputs, (5) reward
 structures for compliant participants. The pipeline operates through
 formal institutional processes, not around them — satisfying formal
 requirements while controlling substantive outcomes.
-CONFIDENCE: ESTABLISHED (19 of 85 relevant sources, 22%)
+CONFIDENCE: ESTABLISHED (20 of 85 relevant sources, 24%)
 CIRCUMVENTIONS: Legal Challenge, Institutional Reform
 
 ## [Formal Transformation, Structural Continuity](formal-transformation-structural-continuity.md)
@@ -274,7 +274,7 @@ is structurally needed — by those who exercise power (to govern at scale
 without continuous coercion) and by those subject to it (to reduce
 anxiety, provide certainty, and create belonging in an atomized
 society). The demand side stabilizes the supply.
-CONFIDENCE: PRELIMINARY (7 of 87 relevant sources, 8%)
+CONFIDENCE: PRELIMINARY (8 of 87 relevant sources, 9%)
 
 ## [Categorical Blindness](categorical-blindness.md)
 LAYERS: Thought & Narrative, Surveillance & Information

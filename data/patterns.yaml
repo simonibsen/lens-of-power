@@ -304,6 +304,12 @@ entries:
     variant: null
     note: 'Collective defence alliance''s dominant member threatens to attack a member. NATO''s stated purpose (mutual defence)
       inverted: the entity the alliance was designed to coordinate becomes the threat the alliance cannot address.'
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: null
+    note: 'Chaplain corps (stated purpose: serving all faiths) restructured toward single-tradition alignment. Prayer service
+      (stated purpose: worship) functioning as wartime narrative alignment. Hegseth accuses the enemy of ''religious fanaticism''
+      while leading prayer services calling for ''overwhelming violence'' in the name of ''righteousness.'''
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -506,10 +512,10 @@ entries:
       under weak district attorneys to aggressive prosecution under Black/Stanton.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.802
+  confidence_ratio: 0.814
   confidence_level: ESTABLISHED
   relevant_corpus_size: 86
-  corr_count: 69
+  corr_count: 70
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -1389,6 +1395,11 @@ entries:
     variant: null
     note: NATO's appearance as a partnership of equals is the structural terrain on which US hegemonic primacy operates. Denmark's
       runway-demolition contingency reveals the gap between self-presentation and power structure.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: null
+    note: '''Voluntary'' prayer services appearing as personal expression while functioning as institutional alignment. Administrative
+      ''streamlining'' appearing as efficiency while narrowing institutional recognition of religious diversity.'
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1579,10 +1590,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.744
+  confidence_ratio: 0.756
   confidence_level: ESTABLISHED
   relevant_corpus_size: 86
-  corr_count: 64
+  corr_count: 65
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -2906,6 +2917,12 @@ entries:
     note: Data cannot distinguish AI capability from employer anticipation of AI capability. If firms reduce junior hiring
       based on what they believe AI will do rather than what it currently does, the mechanism is social (narrative-driven
       anticipatory action) rather than technological. Extends pattern from individual to firm level.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: loyalty signalling — attendance at 'voluntary' prayer services as compliance signal under mass termination conditions
+    note: 'Laser identifies the mechanism: ''there is pressure on federal employees to attend in order to appease their bosses.''
+      The prayer services are presented as voluntary; the institutional context (mass federal terminations for non-compliance)
+      makes attendance a loyalty signal.'
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2962,10 +2979,10 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
   - 2026-03-24-axiom-9-ai-displacement-compliance-visible
-  confidence_ratio: 0.291
+  confidence_ratio: 0.302
   confidence_level: ESTABLISHED
   relevant_corpus_size: 86
-  corr_count: 25
+  corr_count: 26
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -3051,6 +3068,12 @@ entries:
     note: Authors note 'inefficient incentives to train entry-level workers who may move firms.' Firms 'shrink junior inflows
       rather than displace incumbents.' The training function is surrendered because AI reduces the immediate return on that
       investment.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: chaplain corps restructured without visible internal resistance
+    note: The chaplain corps — the institution responsible for religious pluralism — is being restructured by the defence
+      secretary without visible institutional resistance from within the corps. Silence may reflect Anticipatory Obedience
+      rather than agreement.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -3100,10 +3123,10 @@ entries:
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
   - 2026-03-24-axiom-9-ai-displacement-compliance-visible
-  confidence_ratio: 0.247
+  confidence_ratio: 0.259
   confidence_level: ESTABLISHED
   relevant_corpus_size: 81
-  corr_count: 20
+  corr_count: 21
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -3739,6 +3762,12 @@ entries:
     note: Multi-layer political review (NIH leadership + HHS + White House budget office) converts scientific prioritisation
       into political prioritisation through formal administrative process. Funding calls previously approved by independent
       scientific advisory councils now require executive branch sign-off.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: three-stage within religious infrastructure
+    note: Personnel (Wilson and CREC pastors as presiding figures), institutional redesign (chaplain corps restructuring —
+      faith codes, insignia, pathological characterisation of pluralism), and narrative maintenance (monthly services converting
+      war into religious mandate). Three-stage pipeline operating within a specific institutional subsystem.
   - source_id: powell-memo
     source_type: principle
     variant: null
@@ -3807,10 +3836,10 @@ entries:
     variant: null
     note: Personnel selection through patronage as first stage of institutional capture; revolving door as second stage.
   counter_evidence: []
-  confidence_ratio: 0.224
+  confidence_ratio: 0.235
   confidence_level: ESTABLISHED
   relevant_corpus_size: 85
-  corr_count: 19
+  corr_count: 20
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -4025,6 +4054,12 @@ entries:
     note: Garrett characterises bunker companies as "dread merchants." The industry does not merely respond to fear; it cultivates
       it. The narrative of imminent collapse serves commercial interests. But the dread is not manufactured from nothing —
       the instability is real.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: null
+    note: 'Monthly prayer services provide continuous narrative maintenance during wartime. The Iran war is reframed as a
+      struggle against ''enemies of righteousness,'' reducing the cognitive cost of supporting it. The demand side: attendance
+      signals loyalty during a purge period.'
   - source_id: ellul-propaganda
     source_type: principle
     variant: null
@@ -4042,10 +4077,10 @@ entries:
       The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.08
+  confidence_ratio: 0.092
   confidence_level: PRELIMINARY
   relevant_corpus_size: 87
-  corr_count: 7
+  corr_count: 8
 - id: categorical_blindness
   name: Categorical Blindness
   file: patterns/categorical-blindness.md

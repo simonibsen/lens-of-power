@@ -423,3 +423,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
   File: `2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md`
+
+### 2026-03-26 — Hegseth prays for 'overwhelming violence' at Pentagon — institutional merger of religious and military authority
+  Domain: Domestic policy / institutional capture / Christian nationalism / military religious infrastructure
+  Layers: Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Physical & Coercive
+  Null case: rejected (MEDIUM for components; LOW for configuration — exclusively evangelical, Wilson's theocracy, pathological framing of pluralism, wartime violence prayer, coercive context)
+  IC-5 flag: True
+  Cross-references: `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
+  File: `2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md`
