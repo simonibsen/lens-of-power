@@ -188,6 +188,7 @@ analysis_source_types:
   - speech_transcript
   - multi_source
   - organizational
+  - data_profile
 
 # Source types for evidence entries (what kind of evidence it is)
 evidence_source_types:
