@@ -3808,3 +3808,67 @@ entries:
   domain_text: Domestic policy / institutional capture / Christian nationalism / military religious infrastructure
   layers_text: Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Physical & Coercive
   null_case_text: rejected (MEDIUM for components; LOW for configuration — exclusively evangelical, Wilson's theocracy, pathological framing of pluralism, wartime violence prayer, coercive context)
+- id: 2026-03-28-jacobin-article-denmark-election-center-did-not-hold
+  file: analyses/2026-03-28-jacobin-article-denmark-election-center-did-not-hold.md
+  date: '2026-03-28'
+  time: ~20:00 UTC
+  source_date: '2026-03-28'
+  title: "Danish election — institutional reproduction of centrism despite popular rejection"
+  source_name: "Jacobin (Rune Moller Stahl)"
+  source_type: news_article
+  position:
+  - 3
+  - 5
+  url: https://jacobin.com/2026/03/denmark-social-democrats-centrism-elections
+  domain:
+  - politics
+  - economics
+  hegemonic_contexts:
+  - western_liberal_democracy
+  - market_capitalism
+  layers:
+  - institutional
+  - economic
+  - thought_narrative
+  - legal_regulatory
+  primary_layers:
+  - institutional
+  - economic
+  null_case: rejected
+  null_case_detail: "MEDIUM at component level (each element has non-power explanation). LOW-MEDIUM at configurational level — directionality (consistently rightward, consistently favouring capital) not explained by neutral institutional mechanics."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Nordic model as settled success and left-critical alternative. Business actors internal reasoning, centrist voters, and immigrant community perspectives underrepresented."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation"
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: "proportional-representation variant — coalition mathematics give centrist parties veto over redistributive policy despite popular mandate"
+    note: "Election produced popular rejection of centrism. Neither bloc has majority. Centrist Moderaterne is kingmaker. Wealth tax with popular support likely diluted through coalition negotiations. Democratic form coexists with oligarchic substance on wealth distribution."
+  - pattern: wealth_defense_industry
+    status: observed
+    variant: "Scandinavian corporatist context — transnational lobbying infrastructure"
+    note: "Same lobbying firms organised anti-wealth-tax campaigns in both Denmark and Norway. Firms poured millions into advertising. CEOs threatened to leave. Employers organisations issued warnings. New geographic context for the pattern. Historical precedent: Swedish SAF mobilisation against wage-earner funds (1980s)."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Coalition negotiation presented as democratic compromise; functions as mechanism through which business preferences override popular mandates. Immigration neutralisation: appearing tough on immigration to win right; function eroded Social Democrat left identity."
+  - pattern: peacetime_ratchet
+    status: inferred
+    variant: null
+    note: "Four decades of rising inequality as structural default. Wealth tax was proposed counterforce; business mobilisation defends the ratchet."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "party-level — Social Democrats pre-adjust rightward in government"
+    note: "Author notes Social Democrats usually move rightward when in government. This is anticipatory adjustment to known institutional incentives — the party pre-complies with business and centrist pressure before specific demands are made."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: "Electoral result transforms parliamentary composition (12 parties, fragmented). Policy direction (centrist governance) persists through coalition formation. The form changes; the structure continues."
+  findings_count: 12
+  commit: null
+  domain_text: Danish election / wealth tax / Scandinavian business mobilisation / coalition politics / inequality
+  layers_text: Institutional (primary), Economic (primary), Thought & Narrative, Legal & Regulatory
+  null_case_text: rejected (MEDIUM components; LOW-MEDIUM configuration — directionality not explained by neutral mechanics)

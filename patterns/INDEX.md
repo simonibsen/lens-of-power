@@ -61,7 +61,7 @@ STATEMENT: The gap between how a system presents itself and how it
 operates is not incidental — it is the operating environment power
 depends on. Power works through the management of perception, not the
 management of reality.
-CONFIDENCE: ESTABLISHED (65 of 86 relevant sources, 76%)
+CONFIDENCE: ESTABLISHED (66 of 86 relevant sources, 77%)
 CIRCUMVENTIONS: Transparency / Naming
 
 ## [The Hidden Transcript](hidden-transcript.md)
@@ -177,7 +177,7 @@ made. This pre-compliance is self-reinforcing — each act of anticipatory
 obedience shifts the baseline of what is normal, making the next demand
 more extreme and more acceptable. The powerful never needed to ask for
 what was freely given.
-CONFIDENCE: ESTABLISHED (26 of 86 relevant sources, 30%)
+CONFIDENCE: ESTABLISHED (27 of 86 relevant sources, 31%)
 
 ## [Institutional Abdication](institutional-abdication.md)
 LAYERS: Legal & Regulatory, Institutional
@@ -198,7 +198,7 @@ increases as a structural default. The mechanisms of concentration
 operate continuously during stability and are resisted only weakly by
 non-catastrophic counterforces. Extended stability corresponds to
 increasing concentration across all known civilizations.
-CONFIDENCE: ESTABLISHED (17 of 85 relevant sources, 20%)
+CONFIDENCE: ESTABLISHED (18 of 85 relevant sources, 21%)
 CIRCUMVENTIONS: Economic Alternative, Catastrophic Leveling
 
 ## [Compression Through Destruction](compression-through-destruction.md)
@@ -220,7 +220,7 @@ grow that wealth. This industry operates with its own institutional
 momentum, expanding the scope of wealth defense regardless of any
 individual oligarch's instructions. It is the civil oligarchy's
 functional equivalent of arms.
-CONFIDENCE: SUPPORTED (14 of 85 relevant sources, 16%)
+CONFIDENCE: SUPPORTED (15 of 85 relevant sources, 18%)
 
 ## [Democracy-Oligarchy Coexistence](democracy-oligarchy-coexistence.md)
 LAYERS: Thought & Narrative, Economic, Legal & Regulatory, Institutional
@@ -229,7 +229,7 @@ simultaneously within the same polity without visible contradiction.
 Democratic institutions handle issues that don't affect wealth
 concentration; oligarchic mechanisms handle those that do. The
 coexistence is not a contradiction but a structural configuration.
-CONFIDENCE: ESTABLISHED (25 of 87 relevant sources, 29%)
+CONFIDENCE: ESTABLISHED (26 of 87 relevant sources, 30%)
 CIRCUMVENTIONS: Electoral / Democratic, Legal Challenge
 
 ## [The Moral Infrastructure of Economic Power](moral-infrastructure-of-economic-power.md)
@@ -265,7 +265,7 @@ simultaneously can survive regime changes that disrupt only some layers
 maintaining structural continuity through the undisrupted layers. The
 forms change; the structure persists; the celebrations of progress
 occur; the extraction continues.
-CONFIDENCE: ESTABLISHED (24 of 87 relevant sources, 28%)
+CONFIDENCE: ESTABLISHED (25 of 87 relevant sources, 29%)
 
 ## [The Structural Demand for Propaganda](structural-demand-for-propaganda.md)
 LAYERS: Thought & Narrative, Institutional, Surveillance & Information

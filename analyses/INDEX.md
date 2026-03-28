@@ -431,3 +431,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
   File: `2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md`
+
+### 2026-03-28 — Danish election — institutional reproduction of centrism despite popular rejection
+  Domain: Danish election / wealth tax / Scandinavian business mobilisation / coalition politics / inequality
+  Layers: Institutional (primary), Economic (primary), Thought & Narrative, Legal & Regulatory
+  Null case: rejected (MEDIUM components; LOW-MEDIUM configuration — directionality not explained by neutral mechanics)
+  IC-5 flag: True
+  Cross-references: `2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md`
+  File: `2026-03-28-jacobin-article-denmark-election-center-did-not-hold.md`

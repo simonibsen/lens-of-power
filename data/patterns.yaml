@@ -1400,6 +1400,12 @@ entries:
     variant: null
     note: '''Voluntary'' prayer services appearing as personal expression while functioning as institutional alignment. Administrative
       ''streamlining'' appearing as efficiency while narrowing institutional recognition of religious diversity.'
+  - source_id: 2026-03-28-jacobin-article-denmark-election-center-did-not-hold
+    source_type: analysis
+    variant: null
+    note: 'Coalition negotiation presented as democratic compromise; functions as mechanism through which business preferences
+      override popular mandates. Immigration neutralisation: appearing tough on immigration to win right; function eroded
+      Social Democrat left identity.'
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1590,10 +1596,10 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.756
+  confidence_ratio: 0.767
   confidence_level: ESTABLISHED
   relevant_corpus_size: 86
-  corr_count: 65
+  corr_count: 66
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -2923,6 +2929,11 @@ entries:
     note: 'Laser identifies the mechanism: ''there is pressure on federal employees to attend in order to appease their bosses.''
       The prayer services are presented as voluntary; the institutional context (mass federal terminations for non-compliance)
       makes attendance a loyalty signal.'
+  - source_id: 2026-03-28-jacobin-article-denmark-election-center-did-not-hold
+    source_type: analysis
+    variant: party-level — Social Democrats pre-adjust rightward in government
+    note: Author notes Social Democrats usually move rightward when in government. This is anticipatory adjustment to known
+      institutional incentives — the party pre-complies with business and centrist pressure before specific demands are made.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2979,10 +2990,10 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
   - 2026-03-24-axiom-9-ai-displacement-compliance-visible
-  confidence_ratio: 0.302
+  confidence_ratio: 0.314
   confidence_level: ESTABLISHED
   relevant_corpus_size: 86
-  corr_count: 26
+  corr_count: 27
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -3182,6 +3193,11 @@ entries:
     variant: null
     note: Augmentation gains accrue to experienced workers with existing institutional position; automation costs fall on
       entry-level workers without it. The displacement accelerates inequality during stability.
+  - source_id: 2026-03-28-jacobin-article-denmark-election-center-did-not-hold
+    source_type: analysis
+    variant: null
+    note: Four decades of rising inequality as structural default. Wealth tax was proposed counterforce; business mobilisation
+      defends the ratchet.
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
@@ -3274,10 +3290,10 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.2
+  confidence_ratio: 0.212
   confidence_level: ESTABLISHED
   relevant_corpus_size: 85
-  corr_count: 17
+  corr_count: 18
 - id: compression_through_destruction
   name: Compression Through Destruction
   file: patterns/compression-through-destruction.md
@@ -3369,6 +3385,12 @@ entries:
     note: Bunker industry is the Wealth Defense Industry extended to post-social-contract survival. Bunker builders are post-civilisational
       wealth managers. The professional class has expanded from defending wealth within the system to defending the wealthy
       after the system.
+  - source_id: 2026-03-28-jacobin-article-denmark-election-center-did-not-hold
+    source_type: analysis
+    variant: Scandinavian corporatist context — transnational lobbying infrastructure
+    note: 'Same lobbying firms organised anti-wealth-tax campaigns in both Denmark and Norway. Firms poured millions into
+      advertising. CEOs threatened to leave. Employers organisations issued warnings. New geographic context for the pattern.
+      Historical precedent: Swedish SAF mobilisation against wage-earner funds (1980s).'
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
@@ -3448,10 +3470,10 @@ entries:
     note: Specialised legal class (Britton & Gray, Smith & Redington, Dibblee's Washington lobbying network) serving large
       landholders.
   counter_evidence: []
-  confidence_ratio: 0.165
+  confidence_ratio: 0.176
   confidence_level: SUPPORTED
   relevant_corpus_size: 85
-  corr_count: 14
+  corr_count: 15
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
   file: patterns/democracy-oligarchy-coexistence.md
@@ -3539,6 +3561,13 @@ entries:
     variant: null
     note: Congress directs NIH to fund specific research (type 1 diabetes — democratic mechanism). Executive delays implementation
       through administrative review process (substantive control). Both operate simultaneously without formal contradiction.
+  - source_id: 2026-03-28-jacobin-article-denmark-election-center-did-not-hold
+    source_type: analysis
+    variant: proportional-representation variant — coalition mathematics give centrist parties veto over redistributive policy
+      despite popular mandate
+    note: Election produced popular rejection of centrism. Neither bloc has majority. Centrist Moderaterne is kingmaker. Wealth
+      tax with popular support likely diluted through coalition negotiations. Democratic form coexists with oligarchic substance
+      on wealth distribution.
   - source_id: winters-oligarchy
     source_type: principle
     variant: null
@@ -3605,10 +3634,10 @@ entries:
       for 40 years through lobbying.
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.287
+  confidence_ratio: 0.299
   confidence_level: ESTABLISHED
   relevant_corpus_size: 87
-  corr_count: 25
+  corr_count: 26
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -3922,6 +3951,11 @@ entries:
     variant: null
     note: Operation Arctic Endurance designated as exercise; functioned as real defensive deployment. Formal designation (exercise)
       preserved while structural reality (defensive contingency against US) operated beneath.
+  - source_id: 2026-03-28-jacobin-article-denmark-election-center-did-not-hold
+    source_type: analysis
+    variant: null
+    note: Electoral result transforms parliamentary composition (12 parties, fragmented). Policy direction (centrist governance)
+      persists through coalition formation. The form changes; the structure continues.
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -4005,10 +4039,10 @@ entries:
     variant: null
     note: Mexican land grants reconstituted under Anglo-American property doctrine. Forms changed; land concentration persisted.
   counter_evidence: []
-  confidence_ratio: 0.276
+  confidence_ratio: 0.287
   confidence_level: ESTABLISHED
   relevant_corpus_size: 87
-  corr_count: 24
+  corr_count: 25
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
