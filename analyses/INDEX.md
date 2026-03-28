@@ -399,3 +399,35 @@
   IC-5 flag: True
   Cross-references: `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`
   File: `2026-03-17-nature-article-nih-funding-calls-dismantlement.md`
+
+### 2026-03-23 — Iran power supply threat postponement — the threat as mechanism of indefinite control
+  Domain: US foreign policy / Iran war / civilian infrastructure / coercive diplomacy / Strait of Hormuz / international humanitarian law
+  Layers: Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Economic, Surveillance & Information, Legal & Regulatory
+  Null case: plausible (MEDIUM diplomatic / LOW humanitarian — targeting 90 million people's power supply publicly not explained by diplomatic logic)
+  IC-5 flag: True
+  Cross-references: `2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper.md`, `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`, `2026-03-13-guardian-article-iran-war-no-clear-goal.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
+  File: `2026-03-23-guardian-article-iran-power-supply-threat-postponement.md`
+
+### 2025-11-13 — AI employment displacement concentrates at the entry-level (Brynjolfsson, Chandar, Chen)
+  Domain: AI employment displacement / labour economics / technological progress
+  Layers: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  Null case: rejected (LOW for non-AI explanations; MEDIUM for employer-perception alternative — power dynamics present under both)
+  IC-5 flag: True
+  Cross-references: `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`, `2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement.md`
+  File: `2025-11-stanford-academic-paper-ai-employment-canaries.md`
+
+### 2026-03-19 — Denmark prepared for US attack on Greenland — alliance as revealed power structure
+  Domain: Geopolitics / US foreign policy / intra-alliance coercion / Arctic security / Greenland sovereignty
+  Layers: Physical & Coercive (primary), Institutional (primary), Thought & Narrative, Legal & Regulatory, Economic
+  Null case: rejected (LOW for routine planning; MEDIUM for coercive bluff — power dynamics present under both)
+  IC-5 flag: True
+  Cross-references: `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`, `2026-03-01-guardian-liveblog-us-israel-iran-war.md`
+  File: `2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md`
+
+### 2026-03-26 — Hegseth prays for 'overwhelming violence' at Pentagon — institutional merger of religious and military authority
+  Domain: Domestic policy / institutional capture / Christian nationalism / military religious infrastructure
+  Layers: Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Physical & Coercive
+  Null case: rejected (MEDIUM for components; LOW for configuration — exclusively evangelical, Wilson's theocracy, pathological framing of pluralism, wartime violence prayer, coercive context)
+  IC-5 flag: True
+  Cross-references: `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
+  File: `2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md`

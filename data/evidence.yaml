@@ -511,3 +511,22 @@ entries:
   - institutional
   - physical_coercive
   relationship: complicates
+- id: 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  file: evidence/2026-03-24-axiom-9-ai-displacement-compliance-visible.md
+  title: 'Axiom 9 complication: AI labour displacement — compliance through impossibility of entry (sixth domain)'
+  date_recorded: "2026-03-24"
+  source: "Brynjolfsson, Chandar, Chen — Canaries in the Coal Mine (Stanford / ADP, November 2025)"
+  source_url: https://digitaleconomy.stanford.edu/app/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - compliance_gradient
+  - manufactured_scarcity_as_control
+  - anticipatory_obedience
+  - institutional_abdication
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  relationship: complicates

@@ -3530,3 +3530,281 @@ entries:
   domain_text: Science policy / NIH funding / institutional dismantlement / research prioritisation / executive-legislative relations
   layers_text: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
   null_case_text: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, congressional mandate delays, institutional silence, and cross-domain parallel weaken it)
+
+- id: "2026-03-23-guardian-article-iran-power-supply-threat-postponement"
+  file: analyses/2026-03-23-guardian-article-iran-power-supply-threat-postponement.md
+  title: "Iran power supply threat postponement — the threat as mechanism of indefinite control"
+  date: "2026-03-23"
+  time: "~12:00 UTC"
+  source_url: https://www.theguardian.com/world/2026/mar/23/unimaginable-hell-iranian-relief-and-unease-after-trump-pauses-plan-to-cripple-power-supply
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — Guardian diplomatic editor with strongest Position 2 (Iranian civilian) sourcing in Iran war cluster"
+  hegemonic_contexts:
+  - national_security_state
+  layers:
+  - physical_coercive
+  - thought_narrative
+  - institutional
+  - economic
+  - surveillance_information
+  - legal_regulatory
+  primary_layers:
+  - physical_coercive
+  - thought_narrative
+  null_case: plausible
+  null_case_detail: "MEDIUM at diplomatic level (Turkish/Omani mediation genuine, postponement may reflect their work); LOW at humanitarian level (targeting civilian infrastructure publicly to produce mass fear is not explained by diplomatic logic; Fourth Geneva Convention prohibits attacks on civilian objects indispensable to civilian survival)"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Western strategic-analysis framing treating infrastructure threats as escalation options. Experience of 90 million people contemplating extended darkness structurally unrepresentable in analytical frameworks. 3 million internally displaced mentioned in single clause."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-18-aljazeera-article-iran-strait-hormuz-gatekeeper"
+  - "2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm"
+  - "2026-03-17-guardian-article-uk-nsa-iran-talks-deal-within-reach"
+  - "2026-03-17-publicnotice-article-trump-russia-nato-iran-strait"
+  - "2026-03-13-guardian-article-iran-war-no-clear-goal"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  patterns_matched:
+  - pattern: economy_of_violence
+    status: observed
+    variant: "threat-as-mechanism — threat maintained indefinitely produces compliance without requiring execution"
+    note: "Trump announced infrastructure attack, then postponed. The postponement maintains leverage without expenditure. Each reprieve reinforces the power relationship: the population experiences gratitude for the absence of destruction that should not have been threatened. The threat-then-postpone cycle is calibrated violence."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Power supply threat as visible surface; Hormuz seizure as potential structural objective (Motahari distraction thesis). Trump's claimed 'productive conversations' denied by Iran — diplomatic framing as appearance. Diego Garcia missile claim unconfirmed by NATO, contradicted by UK minister."
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: null
+    note: "Iran's defence council warns any coastal attack would lead to mining 'all access routes' in the Persian Gulf — manufacturing energy scarcity across the entire Gulf, extending beyond Hormuz. The threat of mining (without execution) constrains US options."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: "bidirectional"
+    note: "Operating in both directions: Iran's nuclear programme justifies US military posture; US attack justifies Iran's retaliatory threats; each side's threat justifies the other's. The cycle is self-generating and has no equilibrium within the current frame."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Trump's 'productive conversations' claim denied by Iran — the diplomatic framing inverts the structural function (maintaining threat leverage). The postponement is presented as a gesture of restraint; it functions as maintenance of indefinite leverage."
+  - pattern: serial_regime_change
+    status: inferred
+    variant: null
+    note: "Infrastructure targeting represents escalation after military strikes failed to produce capitulation. The template's escalation phase: when direct military action does not achieve stated objectives, target the civilian survival infrastructure to produce compliance through suffering."
+  findings_count: 13
+  commit: null
+  domain_text: US foreign policy / Iran war / civilian infrastructure / coercive diplomacy / Strait of Hormuz / international humanitarian law
+  layers_text: Physical & Coercive (primary), Thought & Narrative (primary), Institutional, Economic, Surveillance & Information, Legal & Regulatory
+  null_case_text: plausible (MEDIUM diplomatic / LOW humanitarian — targeting 90 million people's power supply publicly not explained by diplomatic logic)
+- id: 2025-11-stanford-academic-paper-ai-employment-canaries
+  file: analyses/2025-11-stanford-academic-paper-ai-employment-canaries.md
+  date: '2025-11-13'
+  time: ~00:00 UTC (publication date; PDF retrieved 2026-03-24)
+  source_date: '2025-11-13'
+  title: "AI employment displacement concentrates at the entry-level (Brynjolfsson, Chandar, Chen)"
+  source_name: "Brynjolfsson, Chandar, Chen — Stanford Digital Economy Lab / ADP"
+  source_type: academic_paper
+  position:
+  - 5
+  url: https://digitaleconomy.stanford.edu/app/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf
+  domain:
+  - labour
+  - ai_policy
+  hegemonic_contexts:
+  - technological_progress
+  - market_capitalism
+  - wage_labour
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  - surveillance_information
+  primary_layers:
+  - economic
+  - institutional
+  null_case: rejected
+  null_case_detail: "LOW for pure non-AI explanations (robustness checks address post-pandemic correction, interest rates, remote work, education). MEDIUM for employer-perception alternative (data cannot distinguish AI capability from employer anticipation of AI capability). Power dynamics present under either interpretation."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-economic perspective on AI and labour — view from deploying firm and measuring economist rather than displaced worker. Position 2 entirely absent."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-02-opensecrets-report-ai-lobbying-defense-kstreet"
+  - "2026-03-04-guardian-article-datacenter-politics-nc-primary"
+  - "2026-03-15-guardian-investigation-dhs-ai-surveillance-procurement"
+  patterns_matched:
+  - pattern: manufactured_scarcity_as_control
+    status: inferred
+    variant: "pipeline scarcity — entry points to knowledge pipeline made scarce rather than goods"
+    note: "AI eliminates the entry-level positions that served as the training pipeline through which tacit knowledge was acquired. What is made scarce is not goods but access to the knowledge pipeline."
+  - pattern: division_of_learning
+    status: inferred
+    variant: null
+    note: "Firms possess detailed knowledge of which tasks are being automated; displaced workers discover displacement at the job application stage. Information asymmetry between deployer and displaced."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "firm-level — organisations pre-adjusting hiring to anticipated AI demands"
+    note: "Data cannot distinguish AI capability from employer anticipation of AI capability. If firms reduce junior hiring based on what they believe AI will do rather than what it currently does, the mechanism is social (narrative-driven anticipatory action) rather than technological. Extends pattern from individual to firm level."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "The automation-augmentation distinction is drawn from Anthropic's own classification of Claude conversations. The technology provider's self-categorisation becomes the analytical framework for measuring the technology's employment effects."
+  - pattern: institutional_abdication
+    status: inferred
+    variant: "training function — firms abandoning the training function that historically justified entry-level employment"
+    note: "Authors note 'inefficient incentives to train entry-level workers who may move firms.' Firms 'shrink junior inflows rather than displace incumbents.' The training function is surrendered because AI reduces the immediate return on that investment."
+  - pattern: peacetime_ratchet
+    status: inferred
+    variant: null
+    note: "Augmentation gains accrue to experienced workers with existing institutional position; automation costs fall on entry-level workers without it. The displacement accelerates inequality during stability."
+  - pattern: compliance_gradient
+    status: inferred
+    variant: null
+    note: "Firms adjust via 'lowest-friction margin' (reduced hiring rather than layoffs). Displacement is invisible to the displaced until they try to enter the market. The adjustment mechanism operates below the threshold of visible disruption."
+  - pattern: inversion_of_stated_purpose
+    status: inferred
+    variant: null
+    note: "AI framed as productivity tool that happens to displace workers. Structural function: workforce restructuring that happens to produce productivity gains. The paper itself contributes to this inversion by measuring displacement through the productivity frame."
+  findings_count: 10
+  commit: null
+  domain_text: AI employment displacement / labour economics / technological progress
+  layers_text: Economic (primary), Institutional (primary), Thought & Narrative, Surveillance & Information
+  null_case_text: rejected (LOW for non-AI explanations; MEDIUM for employer-perception alternative — power dynamics present under both)
+- id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+  file: analyses/2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md
+  date: '2026-03-19'
+  time: ~14:00 UTC
+  source_date: '2026-03-19'
+  title: "Denmark prepared for US attack on Greenland — alliance as revealed power structure"
+  source_name: "The Guardian (reporting on DR investigation)"
+  source_type: news_article
+  position:
+  - 5
+  - 4
+  url: https://www.theguardian.com/world/2026/mar/19/denmark-prepared-for-us-attack-donald-trump-greenland
+  domain:
+  - geopolitics
+  - us_foreign_policy
+  - military
+  hegemonic_contexts:
+  - national_security_state
+  - nation_state_sovereignty
+  layers:
+  - physical_coercive
+  - institutional
+  - thought_narrative
+  - legal_regulatory
+  - economic
+  primary_layers:
+  - physical_coercive
+  - institutional
+  null_case: rejected
+  null_case_detail: "LOW for routine contingency planning (urgency, scale, April 1940 comparison exceed routine). MEDIUM for coercive bluff rather than genuine invasion plan — but power dynamics operate under either interpretation."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents European institutional perspective. Greenlandic media, Inuit political perspectives, and lived experience of 56,000 people whose territory is contested are structurally underrepresented."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-17-publicnotice-article-trump-russia-nato-iran-strait"
+  - "2026-03-01-guardian-liveblog-us-israel-iran-war"
+  patterns_matched:
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "NATO's appearance as a partnership of equals is the structural terrain on which US hegemonic primacy operates. Denmark's runway-demolition contingency reveals the gap between self-presentation and power structure."
+  - pattern: ideological_judo
+    status: observed
+    variant: "intra-alliance — medium power deploys alliance's own collective security principle against dominant member"
+    note: "Multinational deployment of 8+ NATO member forces to Greenland specifically designed to force the US to take hostile action against multiple allies simultaneously. Alliance's collective security architecture converted from defensive guarantee to defensive tripwire against the alliance's own dominant member."
+  - pattern: constitutive_violence
+    status: inferred
+    variant: null
+    note: "NATO constituted through US military dominance. When that dominance is directed at a member, the constitutive violence surfaces. Venezuela attack (January 3) provided demonstrated precedent three days before territorial demand on ally."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: null
+    note: "Trump's 'national security' framing for Greenland — Arctic threats from China and Russia invoked to justify territorial acquisition from an ally. The permanent threat framework directed inward."
+  - pattern: serial_regime_change
+    status: observed
+    variant: "intra-alliance escalation"
+    note: "Venezuela attack (January 3) → Greenland demand (January 4). Same military intervention posture applied serially, moving from non-allied state to allied territory."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Collective defence alliance's dominant member threatens to attack a member. NATO's stated purpose (mutual defence) inverted: the entity the alliance was designed to coordinate becomes the threat the alliance cannot address."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: "Operation Arctic Endurance designated as exercise; functioned as real defensive deployment. Formal designation (exercise) preserved while structural reality (defensive contingency against US) operated beneath."
+  - pattern: boomerang
+    status: inferred
+    variant: "intra-alliance — military posture from non-allied targets directed at allied territory"
+    note: "US military posture developed for power projection against non-allied states (Venezuela) directed at an allied territory (Greenland). Methods of domination from the periphery migrating toward the centre of the alliance system. Extends Arendt's periphery-to-centre thesis to intra-alliance context."
+  findings_count: 13
+  commit: null
+  domain_text: Geopolitics / US foreign policy / intra-alliance coercion / Arctic security / Greenland sovereignty
+  layers_text: Physical & Coercive (primary), Institutional (primary), Thought & Narrative, Legal & Regulatory, Economic
+  null_case_text: rejected (LOW for routine planning; MEDIUM for coercive bluff — power dynamics present under both)
+- id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+  file: analyses/2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md
+  date: '2026-03-26'
+  time: ~18:00 UTC
+  source_date: '2026-03-26'
+  title: "Hegseth prays for 'overwhelming violence' at Pentagon — institutional merger of religious and military authority"
+  source_name: "The Guardian (reporting on AP investigation)"
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/us-news/2026/mar/26/hegseth-prayer-violence-pentagon
+  domain:
+  - domestic_policy
+  - institutional_capture
+  hegemonic_contexts:
+  - national_security_state
+  - western_liberal_democracy
+  layers:
+  - thought_narrative
+  - institutional
+  - legal_regulatory
+  - physical_coercive
+  primary_layers:
+  - thought_narrative
+  - institutional
+  null_case: rejected
+  null_case_detail: "MEDIUM for individual components (sincere faith, administrative streamlining). LOW for the configuration — exclusively evangelical presiding, Wilson's theocratic theology, pathological characterisation of pluralism, wartime violence prayer, coercive attendance context, cross-department spread collectively exceed what personal faith or administrative logic explains."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents both liberal-secular critique and evangelical self-presentation. Perspective of Muslim, Jewish, Hindu, Buddhist, atheist, and non-evangelical Christian service members structurally underrepresented."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-14-cra-policybrief-great-replacement-theory-practice"
+  - "2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors"
+  patterns_matched:
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "loyalty signalling — attendance at 'voluntary' prayer services as compliance signal under mass termination conditions"
+    note: "Laser identifies the mechanism: 'there is pressure on federal employees to attend in order to appease their bosses.' The prayer services are presented as voluntary; the institutional context (mass federal terminations for non-compliance) makes attendance a loyalty signal."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Chaplain corps (stated purpose: serving all faiths) restructured toward single-tradition alignment. Prayer service (stated purpose: worship) functioning as wartime narrative alignment. Hegseth accuses the enemy of 'religious fanaticism' while leading prayer services calling for 'overwhelming violence' in the name of 'righteousness.'"
+  - pattern: capture_pipeline
+    status: inferred
+    variant: "three-stage within religious infrastructure"
+    note: "Personnel (Wilson and CREC pastors as presiding figures), institutional redesign (chaplain corps restructuring — faith codes, insignia, pathological characterisation of pluralism), and narrative maintenance (monthly services converting war into religious mandate). Three-stage pipeline operating within a specific institutional subsystem."
+  - pattern: structural_demand_for_propaganda
+    status: inferred
+    variant: null
+    note: "Monthly prayer services provide continuous narrative maintenance during wartime. The Iran war is reframed as a struggle against 'enemies of righteousness,' reducing the cognitive cost of supporting it. The demand side: attendance signals loyalty during a purge period."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "'Voluntary' prayer services appearing as personal expression while functioning as institutional alignment. Administrative 'streamlining' appearing as efficiency while narrowing institutional recognition of religious diversity."
+  - pattern: institutional_abdication
+    status: inferred
+    variant: "chaplain corps restructured without visible internal resistance"
+    note: "The chaplain corps — the institution responsible for religious pluralism — is being restructured by the defence secretary without visible institutional resistance from within the corps. Silence may reflect Anticipatory Obedience rather than agreement."
+  findings_count: 13
+  commit: null
+  domain_text: Domestic policy / institutional capture / Christian nationalism / military religious infrastructure
+  layers_text: Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Physical & Coercive
+  null_case_text: rejected (MEDIUM for components; LOW for configuration — exclusively evangelical, Wilson's theocracy, pathological framing of pluralism, wartime violence prayer, coercive context)

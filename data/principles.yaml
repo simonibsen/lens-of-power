@@ -2843,3 +2843,143 @@ entries:
   position_display: "5 (historian of technology)"
   instruments_proposed_display: []
   source_type_display: primary_document
+- id: robinson-land-in-california
+  file: principles/robinson-land-in-california.md
+  source_name: W.W. Robinson
+  source_title: Land in California
+  source_year: 1948
+  position:
+  - 5
+  position_note: historian (title-company historian, sympathetic to rancheros, treats indigenous dispossession as background)
+  provenance_tier: primary_document
+  layers:
+  - legal_regulatory
+  - economic
+  - institutional
+  - physical_coercive
+  - thought_narrative
+  principles_list:
+  - "Sequential Sovereignty — Each Regime Constitutes Legitimacy Through Delegitimation of the Previous (four regime transitions in California, each processing prior titles through new legal machinery)"
+  - "The Burden of Proof Reversal as Dispossession Mechanism (Act of 1851 required landowners to prove valid titles despite treaty guarantees)"
+  - "Procedural Attrition — Delay as Structural Dispossession (17-year average wait for patent; most claimants bankrupted proving valid claims)"
+  - "The Professional Extraction Class — Lawyers and Lenders as Structural Beneficiaries (revolving door of Jones/Halleck; undivided interests conveyed to attorneys)"
+  - "Squatterism as Political Movement — The Democratisation of Dispossession (squatter governors, legislators, courts, judges)"
+  - "The Regime-Transition Land Rush (interregnum between property regimes as moment of maximum extraction by the connected)"
+  - "The Absent Founding Dispossession — Indigenous Erasure as Structural Precondition (the framework's legitimacy depends on treating indigenous displacement as prehistory)"
+  key_patterns:
+  - pattern: constitutive_violence
+    variant: null
+    note: "Each regime transition is a constitutive act — sovereignty established through assertion of new property framework over old. Robinson documents a sequence of constitutive moments rather than a single founding."
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: "The Act of 1851 stated its purpose as settling claims and implementing treaty guarantees; functioned as mechanism of dispossession through procedural attrition."
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: "The structure of extraction persisted across four regime transitions while legal form of title changed completely. Land concentrated in few hands under each regime."
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: "The Land Commission and courts presented the appearance of fair adjudication while the process itself destroyed claimants."
+  - pattern: wealth_defense_industry
+    variant: inverse
+    note: "Robinson documents the inverse — a professional extraction class of lawyers and lenders who profited from adjudication complexity rather than defending existing wealth."
+  - pattern: democracy_oligarchy_coexistence
+    variant: inverse
+    note: "Squatterism shows the inverse — democratic majorities coexisting with and enabling expropriation of a propertied minority."
+  - pattern: relay_class
+    variant: null
+    note: "At each transition a new class steps into the structural position of the displaced: rancheros replacing mission fathers, settlers replacing rancheros."
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: "Unsaleability of land during 17-year adjudication manufactured artificial scarcity in the land market."
+  - pattern: compliance_gradient
+    variant: null
+    note: "Ranchero responses ranged from full compliance with adjudication to selling to speculators to abandoning claims."
+  - pattern: middle_stratum_trap
+    variant: null
+    note: "Rancheros occupied a middle stratum — powerful relative to indigenous populations but vulnerable to the American system."
+  - pattern: ideological_judo
+    variant: null
+    note: "Squatters invoked American democratic values (free land, anti-monopoly) against rancheros to legitimate dispossession."
+  - pattern: peacetime_ratchet
+    variant: null
+    note: "Each land rush following regime transition concentrated ownership among the connected and legally sophisticated."
+  - pattern: division_of_learning
+    variant: null
+    note: "Knowledge asymmetry between American lawyers/courts and Spanish-speaking rancheros enabled extraction."
+  ic1_flags:
+  - axiom: 3
+    note: "Robinson's treatment of indigenous dispossession is hegemonic naturalisation (fifth mode) — the framework within which the history is told is itself a product of the founding dispossession."
+  - axiom: 5
+    note: "Squatterism complicates 'power concentrates unless counteracted' — concentrated property was dispersed through ethnically targeted democratic expropriation."
+  - axiom: 7
+    note: "The Act of 1851 is a strong case of stated vs. function — stated purpose of settling claims, function of destroying claimants through procedural attrition. But IC-2 null case: Congress may not have intended this."
+  - axiom: 8
+    note: "The absence of indigenous dispossession from the analytical frame is not merely significant but constitutive — the property framework depends on that absence."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "Legal & Regulatory (primary), Economic, Institutional, Physical & Coercive, Thought & Narrative"
+  key_patterns_display: "Constitutive Violence, Inversion of Stated Purpose, Formal Transformation/Structural Continuity, Appearance as Structural Terrain, Wealth Defense Industry (inverse), Democracy-Oligarchy Coexistence (inverse), Relay Class, Manufactured Scarcity, Compliance Gradient, Middle Stratum Trap, Ideological Judo, Peacetime Ratchet, Division of Learning"
+  source_display: "W.W. Robinson, *Land in California* (1948)"
+  position_display: "5 (historian)"
+  instruments_proposed_display: []
+  source_type_display: primary_document
+- id: gates-california-land-act-1851
+  file: principles/gates-california-land-act-1851.md
+  source: 'Paul Gates, "The California Land Act of 1851," California Historical Quarterly, Vol. 50, No. 4 (Dec., 1971)'
+  source_type: primary_document
+  position: [5]
+  principle_count: 7
+  principles:
+  - "The Patronage System as Adjudication Sabotage"
+  - "The Revolving Door as Structural Corruption"
+  - "Property-Rights Absolutism as Judicial Ideology"
+  - "The Default as Confirmation"
+  - "The Lobbying Apparatus as Judicial Override"
+  - "The Survey as Boundary Manipulation"
+  - "The Forty-Two Percent — Dispossession as Multi-Directional Process"
+  layers:
+  - legal_regulatory
+  - institutional
+  - economic
+  - thought_narrative
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: "Land Act stated purpose of adjudicating claims; structural function varied by era — from rubber-stamp confirmation under weak district attorneys to aggressive prosecution under Black/Stanton."
+  - pattern: capture_pipeline
+    variant: null
+    note: "Personnel selection through patronage as first stage of institutional capture; revolving door as second stage."
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: "Legal ideology (Field's property absolutism) presenting contingent choices as principled necessity; technical surveys presenting boundary manipulation as neutral measurement."
+  - pattern: constitutive_violence
+    variant: null
+    note: "The entire adjudicatory framework rests on the prior violence of conquest. Indigenous population completely absent."
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: "Mexican land grants reconstituted under Anglo-American property doctrine. Forms changed; land concentration persisted."
+  - pattern: wealth_defense_industry
+    variant: null
+    note: "Specialised legal class (Britton & Gray, Smith & Redington, Dibblee's Washington lobbying network) serving large landholders."
+  - pattern: compliance_gradient
+    variant: null
+    note: "District attorneys' partial compliance — showing up but not contesting — functionally equivalent to active collusion."
+  - pattern: institutional_abdication
+    variant: null
+    note: "District attorneys ceasing to function due to underfunding, overwork, and temptation of private practice."
+  - pattern: democracy_oligarchy_coexistence
+    variant: null
+    note: "Congressional special acts serving concentrated interests through formal legislative process. McGarrahan claim alive for 40 years through lobbying."
+  ic1_flags:
+  - axiom: 7
+    note: "Field's property absolutism — stated purpose = function. Power through ideological framing, not the gap between purpose and function."
+  - axiom: 8
+    note: "Gates corrects Anglo-persecuting-Mexican narrative but perpetuates deeper indigenous absence."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "Legal & Regulatory (primary), Institutional, Economic, Thought & Narrative"
+  key_patterns_display: "Inversion of Stated Purpose, Capture Pipeline, Appearance as Structural Terrain, Constitutive Violence, Formal Transformation/Structural Continuity, Wealth Defense Industry, Compliance Gradient, Institutional Abdication, Democracy-Oligarchy Coexistence"
+  source_display: 'Paul Gates, "The California Land Act of 1851" (1971)'
+  position_display: "5 (historian — revisionist legal historian)"
+  instruments_proposed_display: []
+  source_type_display: primary_document

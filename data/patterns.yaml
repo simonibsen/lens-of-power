@@ -287,6 +287,29 @@ entries:
     note: 'Stated purpose: innovation through investigator flexibility. Structural function: elimination of the mechanism
       through which agency specialists direct research toward problems no individual investigator would independently pursue
       (rare diseases, large collaborative projects, Human Genome Project model).'
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: null
+    note: Trump's 'productive conversations' claim denied by Iran — the diplomatic framing inverts the structural function
+      (maintaining threat leverage). The postponement is presented as a gesture of restraint; it functions as maintenance
+      of indefinite leverage.
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: 'AI framed as productivity tool that happens to displace workers. Structural function: workforce restructuring that
+      happens to produce productivity gains. The paper itself contributes to this inversion by measuring displacement through
+      the productivity frame.'
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: 'Collective defence alliance''s dominant member threatens to attack a member. NATO''s stated purpose (mutual defence)
+      inverted: the entity the alliance was designed to coordinate becomes the threat the alliance cannot address.'
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: null
+    note: 'Chaplain corps (stated purpose: serving all faiths) restructured toward single-tradition alignment. Prayer service
+      (stated purpose: worship) functioning as wartime narrative alignment. Hegseth accuses the enemy of ''religious fanaticism''
+      while leading prayer services calling for ''overwhelming violence'' in the name of ''righteousness.'''
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -477,12 +500,22 @@ entries:
     variant: null
     note: Efficiency, progress, and technical superiority consistently served as stated rationales for choices driven by control
       objectives. Position 1 actors explicitly state the control motive.
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: The Act of 1851 stated its purpose as settling claims and implementing treaty guarantees; functioned as mechanism
+      of dispossession through procedural attrition.
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: Land Act stated purpose of adjudicating claims; structural function varied by era — from rubber-stamp confirmation
+      under weak district attorneys to aggressive prosecution under Black/Stanton.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
-  confidence_ratio: 0.762
+  confidence_ratio: 0.814
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 84
-  corr_count: 64
+  relevant_corpus_size: 86
+  corr_count: 70
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -654,9 +687,9 @@ entries:
       is the outer ditch; civil society is the fortresses and earthworks.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.259
+  confidence_ratio: 0.253
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 85
+  relevant_corpus_size: 87
   corr_count: 22
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
@@ -751,6 +784,17 @@ entries:
     variant: null
     note: 'McChrystal''s ''insurgent math'': every innocent killed creates 10+ new enemies. Civilian casualties fuel recruitment
       → more targets → more strikes → more casualties. The war on terror''s self-generating cycle documented across two decades.'
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: bidirectional
+    note: 'Operating in both directions: Iran''s nuclear programme justifies US military posture; US attack justifies Iran''s
+      retaliatory threats; each side''s threat justifies the other''s. The cycle is self-generating and has no equilibrium
+      within the current frame.'
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: Trump's 'national security' framing for Greenland — Arctic threats from China and Russia invoked to justify territorial
+      acquisition from an ally. The permanent threat framework directed inward.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -761,10 +805,10 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.202
+  confidence_ratio: 0.221
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 84
-  corr_count: 17
+  relevant_corpus_size: 86
+  corr_count: 19
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
   file: patterns/manufactured-scarcity-as-control.md
@@ -824,6 +868,17 @@ entries:
     note: Iran manufactures energy scarcity through geographic control of the strait. Crude up 20%+, gas up 40%+, largest
       emergency reserve releases in history. The scarcity is converted into leverage for sanctions relief and economic concessions
       — the material basis for post-war bargaining.
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: null
+    note: Iran's defence council warns any coastal attack would lead to mining 'all access routes' in the Persian Gulf — manufacturing
+      energy scarcity across the entire Gulf, extending beyond Hormuz. The threat of mining (without execution) constrains
+      US options.
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: pipeline scarcity — entry points to knowledge pipeline made scarce rather than goods
+    note: AI eliminates the entry-level positions that served as the training pipeline through which tacit knowledge was acquired.
+      What is made scarce is not goods but access to the knowledge pipeline.
   - source_id: orwell-1984
     source_type: principle
     variant: null
@@ -936,6 +991,10 @@ entries:
     variant: null
     note: Accessible technology alternatives systematically denied resources. 95% of small businesses owned no N/C machines.
       Scarcity produced by funding pattern.
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: Unsaleability of land during 17-year adjudication manufactured artificial scarcity in the land market.
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-9-housing-compliance-visible
@@ -943,10 +1002,11 @@ entries:
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.286
+  - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  confidence_ratio: 0.314
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 84
-  corr_count: 24
+  relevant_corpus_size: 86
+  corr_count: 27
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -978,9 +1038,9 @@ entries:
 
       transition between the two is the moment of maximum danger for democratic order'
   counter_evidence: []
-  confidence_ratio: 0.035
+  confidence_ratio: 0.034
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 85
+  relevant_corpus_size: 87
   corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
@@ -1045,11 +1105,16 @@ entries:
     variant: null
     note: The professional-managerial middle class is a transitional stratum continuously produced and dissolved by capital
       accumulation.
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: Rancheros occupied a middle stratum — powerful relative to indigenous populations but vulnerable to the American
+      system.
   counter_evidence: []
-  confidence_ratio: 0.071
+  confidence_ratio: 0.08
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 85
-  corr_count: 6
+  relevant_corpus_size: 87
+  corr_count: 7
 - id: economy_of_violence
   name: The Economy of Violence
   file: patterns/economy-of-violence.md
@@ -1061,6 +1126,12 @@ entries:
   circumventions: []
   originated_by: null
   observed_in:
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: threat-as-mechanism — threat maintained indefinitely produces compliance without requiring execution
+    note: 'Trump announced infrastructure attack, then postponed. The postponement maintains leverage without expenditure.
+      Each reprieve reinforces the power relationship: the population experiences gratitude for the absence of destruction
+      that should not have been threatened. The threat-then-postpone cycle is calibrated violence.'
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1086,10 +1157,10 @@ entries:
       but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.039
+  confidence_ratio: 0.051
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 77
-  corr_count: 3
+  relevant_corpus_size: 79
+  corr_count: 4
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
   file: patterns/appearance-as-structural-terrain.md
@@ -1307,6 +1378,28 @@ entries:
     note: '''Proven, efficient model'' framing vs 90%+ elimination of directed research mechanism. Congressional mandates
       formally in force but administratively delayed through multi-layer review. The appearance is efficiency and innovation;
       the structural function is elimination of institutional capacity to coordinate research.'
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: null
+    note: Power supply threat as visible surface; Hormuz seizure as potential structural objective (Motahari distraction thesis).
+      Trump's claimed 'productive conversations' denied by Iran — diplomatic framing as appearance. Diego Garcia missile claim
+      unconfirmed by NATO, contradicted by UK minister.
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: The automation-augmentation distinction is drawn from Anthropic's own classification of Claude conversations. The
+      technology provider's self-categorisation becomes the analytical framework for measuring the technology's employment
+      effects.
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: NATO's appearance as a partnership of equals is the structural terrain on which US hegemonic primacy operates. Denmark's
+      runway-demolition contingency reveals the gap between self-presentation and power structure.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: null
+    note: '''Voluntary'' prayer services appearing as personal expression while functioning as institutional alignment. Administrative
+      ''streamlining'' appearing as efficiency while narrowing institutional recognition of religious diversity.'
   - source_id: machiavelli-the-prince
     source_type: principle
     variant: null
@@ -1483,14 +1576,24 @@ entries:
     variant: null
     note: Technological inevitability as operating terrain through which power makes choices appear natural. The gap between
       promotional claims and operational reality (80% downtime).
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: The Land Commission and courts presented the appearance of fair adjudication while the process itself destroyed
+      claimants.
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: Legal ideology (Field's property absolutism) presenting contingent choices as principled necessity; technical surveys
+      presenting boundary manipulation as neutral measurement.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.702
+  confidence_ratio: 0.756
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 84
-  corr_count: 59
+  relevant_corpus_size: 86
+  corr_count: 65
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -1577,9 +1680,9 @@ entries:
     variant: null
     note: Covert collective agreements on override levels. Sabotage as structural response to deskilling.
   counter_evidence: []
-  confidence_ratio: 0.132
+  confidence_ratio: 0.128
   confidence_level: SUPPORTED
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 10
 - id: compliance_gradient
   name: The Compliance Gradient
@@ -1602,6 +1705,11 @@ entries:
     source_type: analysis
     variant: null
     note: ''
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: Firms adjust via 'lowest-friction margin' (reduced hiring rather than layoffs). Displacement is invisible to the
+      displaced until they try to enter the market. The adjustment mechanism operates below the threshold of visible disruption.
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -1676,6 +1784,14 @@ entries:
     variant: null
     note: The override as material form of partial compliance. The 50 percent syndrome — workers collectively setting overrides
       at 50% — is calibrated resistance through machinery.
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: Ranchero responses ranged from full compliance with adjudication to selling to speculators to abandoning claims.
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: District attorneys' partial compliance — showing up but not contesting — functionally equivalent to active collusion.
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-10-position-2-understanding-inert
@@ -1684,10 +1800,11 @@ entries:
   - 2026-03-13-axiom-9-low-wage-service-compliance-visible
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.153
+  - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  confidence_ratio: 0.184
   confidence_level: SUPPORTED
-  relevant_corpus_size: 85
-  corr_count: 13
+  relevant_corpus_size: 87
+  corr_count: 16
 - id: ideological_judo
   name: Ideological Judo
   file: patterns/ideological-judo.md
@@ -1719,6 +1836,12 @@ entries:
     note: 'Inverse deployment: the most powerful member exploits the alliance''s own language (burden-sharing, collective
       defence, territorial protection) to demand compliance while violating those standards. Scott documented the weak using
       this mechanism; here the powerful deploy it — holding others to standards they themselves violate.'
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: intra-alliance — medium power deploys alliance's own collective security principle against dominant member
+    note: Multinational deployment of 8+ NATO member forces to Greenland specifically designed to force the US to take hostile
+      action against multiple allies simultaneously. Alliance's collective security architecture converted from defensive
+      guarantee to defensive tripwire against the alliance's own dominant member.
   - source_id: scott-weapons-of-the-weak
     source_type: principle
     variant: null
@@ -1753,11 +1876,15 @@ entries:
       reinforce dominance; "free speech" and "equal opportunity" deployed to protect the
 
       structures they nomin...'
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: Squatters invoked American democratic values (free land, anti-monopoly) against rancheros to legitimate dispossession.
   counter_evidence: []
-  confidence_ratio: 0.082
-  confidence_level: PRELIMINARY
-  relevant_corpus_size: 85
-  corr_count: 7
+  confidence_ratio: 0.103
+  confidence_level: SUPPORTED
+  relevant_corpus_size: 87
+  corr_count: 9
 - id: double_performance
   name: The Double Performance
   file: patterns/double-performance.md
@@ -1850,9 +1977,9 @@ entries:
     variant: null
     note: Operators performing compliance while exercising control through override manipulation and selective sabotage.
   counter_evidence: []
-  confidence_ratio: 0.141
+  confidence_ratio: 0.138
   confidence_level: SUPPORTED
-  relevant_corpus_size: 85
+  relevant_corpus_size: 87
   corr_count: 12
 - id: relay_class
   name: The Relay Class
@@ -1915,11 +2042,16 @@ entries:
     source_type: principle
     variant: null
     note: 'NGOs as intermediaries replacing colonial administrators in Haiti. Schuller: "trickle-down imperialism."'
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: 'At each transition a new class steps into the structural position of the displaced: rancheros replacing mission
+      fathers, settlers replacing rancheros.'
   counter_evidence: []
-  confidence_ratio: 0.071
+  confidence_ratio: 0.08
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 85
-  corr_count: 6
+  relevant_corpus_size: 87
+  corr_count: 7
 - id: constitutive_violence
   name: Constitutive Violence
   file: patterns/constitutive-violence.md
@@ -1953,6 +2085,11 @@ entries:
     variant: null
     note: The occupation's initial distribution of power (1967 military conquest) is maintained through continuing violence.
       The Bani Odeh killing is an expression of the system's constitutive logic, not an aberration within it.
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: NATO constituted through US military dominance. When that dominance is directed at a member, the constitutive violence
+      surfaces. Venezuela attack (January 3) provided demonstrated precedent three days before territorial demand on ally.
   - source_id: fanon-wretched-of-the-earth
     source_type: principle
     variant: null
@@ -2063,12 +2200,21 @@ entries:
     source_type: principle
     variant: null
     note: Twin wars convergence — Cold War military threat used to justify domestic labour control.
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: Each regime transition is a constitutive act — sovereignty established through assertion of new property framework
+      over old. Robinson documents a sequence of constitutive moments rather than a single founding.
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: The entire adjudicatory framework rests on the prior violence of conquest. Indigenous population completely absent.
   counter_evidence:
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
-  confidence_ratio: 0.202
+  confidence_ratio: 0.233
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 84
-  corr_count: 17
+  relevant_corpus_size: 86
+  corr_count: 20
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
   file: patterns/three-phases-of-cultural-resistance.md
@@ -2105,9 +2251,9 @@ entries:
 
       control and resistance'
   counter_evidence: []
-  confidence_ratio: 0.024
+  confidence_ratio: 0.023
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 84
+  relevant_corpus_size: 86
   corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
@@ -2207,9 +2353,9 @@ entries:
     note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites
       its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
   counter_evidence: []
-  confidence_ratio: 0.211
+  confidence_ratio: 0.205
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 16
 - id: serial_regime_change
   name: Serial Regime Change
@@ -2301,11 +2447,22 @@ entries:
     note: 'The serial regime change template (military action → present as unique and necessary → unintended consequences)
       is operating, but the expected outcome (target isolated, attacker''s position strengthened) has inverted: the target''s
       leverage has increased and the attacker is increasingly isolated diplomatically.'
+  - source_id: 2026-03-23-guardian-article-iran-power-supply-threat-postponement
+    source_type: analysis
+    variant: null
+    note: 'Infrastructure targeting represents escalation after military strikes failed to produce capitulation. The template''s
+      escalation phase: when direct military action does not achieve stated objectives, target the civilian survival infrastructure
+      to produce compliance through suffering.'
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: intra-alliance escalation
+    note: Venezuela attack (January 3) → Greenland demand (January 4). Same military intervention posture applied serially,
+      moving from non-allied state to allied territory.
   counter_evidence: []
-  confidence_ratio: 0.179
+  confidence_ratio: 0.198
   confidence_level: SUPPORTED
-  relevant_corpus_size: 84
-  corr_count: 15
+  relevant_corpus_size: 86
+  corr_count: 17
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
   file: patterns/unprecedented-as-sanctuary.md
@@ -2376,9 +2533,9 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.118
+  confidence_ratio: 0.115
   confidence_level: SUPPORTED
-  relevant_corpus_size: 85
+  relevant_corpus_size: 87
   corr_count: 10
 - id: dispossession_cycle
   name: The Dispossession Cycle
@@ -2465,9 +2622,9 @@ entries:
 
       resist t...'
   counter_evidence: []
-  confidence_ratio: 0.082
+  confidence_ratio: 0.08
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 85
+  relevant_corpus_size: 87
   corr_count: 7
 - id: division_of_learning
   name: The Division of Learning
@@ -2553,6 +2710,11 @@ entries:
     note: 'FBI acquires comprehensive location data on Americans through commercial purchase. Subjects cannot access, audit,
       or challenge the surveillance. The information asymmetry is structural: the government knows where individuals are;
       individuals do not know they are being tracked.'
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: Firms possess detailed knowledge of which tasks are being automated; displaced workers discover displacement at
+      the job application stage. Information asymmetry between deployer and displaced.
   - source_id: zuboff-age-of-surveillance-capitalism
     source_type: principle
     variant: null
@@ -2646,11 +2808,15 @@ entries:
     variant: null
     note: The entire N/C story is about separating knowledge from workers and concentrating it in management. Noble provides
       the empirical case study for what Braverman theorised and Zuboff generalised.
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: Knowledge asymmetry between American lawyers/courts and Spanish-speaking rancheros enabled extraction.
   counter_evidence: []
-  confidence_ratio: 0.301
+  confidence_ratio: 0.318
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 83
-  corr_count: 25
+  relevant_corpus_size: 85
+  corr_count: 27
 - id: anticipatory_obedience
   name: Anticipatory Obedience
   file: patterns/anticipatory-obedience.md
@@ -2745,6 +2911,18 @@ entries:
     note: 'NIH employees speak anonymously to protect their jobs. The anonymity condition documents the institutional environment:
       questioning changes carries perceived career risk. Professionals adjust behaviour to institutional signals without explicit
       instruction.'
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: firm-level — organisations pre-adjusting hiring to anticipated AI demands
+    note: Data cannot distinguish AI capability from employer anticipation of AI capability. If firms reduce junior hiring
+      based on what they believe AI will do rather than what it currently does, the mechanism is social (narrative-driven
+      anticipatory action) rather than technological. Extends pattern from individual to firm level.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: loyalty signalling — attendance at 'voluntary' prayer services as compliance signal under mass termination conditions
+    note: 'Laser identifies the mechanism: ''there is pressure on federal employees to attend in order to appease their bosses.''
+      The prayer services are presented as voluntary; the institutional context (mass federal terminations for non-compliance)
+      makes attendance a loyalty signal.'
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2800,10 +2978,11 @@ entries:
       the sake of progress.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.286
+  - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  confidence_ratio: 0.302
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 84
-  corr_count: 24
+  relevant_corpus_size: 86
+  corr_count: 26
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -2883,6 +3062,18 @@ entries:
     variant: null
     note: 'Bradley shifted from ''model'' CHMR adopter to defender of double-tap strikes. Trajectory traces institutional
       accommodation: professional who embraced accountability abandoned it when institutional signals changed.'
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: training function — firms abandoning the training function that historically justified entry-level employment
+    note: Authors note 'inefficient incentives to train entry-level workers who may move firms.' Firms 'shrink junior inflows
+      rather than displace incumbents.' The training function is surrendered because AI reduces the immediate return on that
+      investment.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: chaplain corps restructured without visible internal resistance
+    note: The chaplain corps — the institution responsible for religious pluralism — is being restructured by the defence
+      secretary without visible institutional resistance from within the corps. Silence may reflect Anticipatory Obedience
+      rather than agreement.
   - source_id: snyder-on-tyranny
     source_type: principle
     variant: null
@@ -2925,12 +3116,17 @@ entries:
     note: 'The crisis of hegemony: social classes detach from their traditional parties, institutions cease to represent their
       constituency. The field opens to charismatic leaders and violent solutions. The ruling class reabsorbs control faster
       than challengers organise.'
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: District attorneys ceasing to function due to underfunding, overwork, and temptation of private practice.
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
-  confidence_ratio: 0.228
+  - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  confidence_ratio: 0.259
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 79
-  corr_count: 18
+  relevant_corpus_size: 81
+  corr_count: 21
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
   file: patterns/peacetime-ratchet.md
@@ -2981,6 +3177,11 @@ entries:
     variant: terminal logic — concentration extended to survival itself
     note: 'The ratchet has concentrated wealth to the point where beneficiaries can afford to exit the system entirely. The
       bunker is the final stage: not accumulating more than others but accumulating survival as a private good.'
+  - source_id: 2025-11-stanford-academic-paper-ai-employment-canaries
+    source_type: analysis
+    variant: null
+    note: Augmentation gains accrue to experienced workers with existing institutional position; automation costs fall on
+      entry-level workers without it. The displacement accelerates inequality during stability.
   - source_id: piketty-capital-in-the-twenty-first-century
     source_type: principle
     variant: null
@@ -3066,13 +3267,17 @@ entries:
     variant: terminal logic — concentration enables exit
     note: 'The ratchet has concentrated wealth to the point where beneficiaries can price in system collapse. The bunker is
       the ratchet''s endpoint: not accumulating more than others but accumulating survival as a private good.'
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: Each land rush following regime transition concentrated ownership among the connected and legally sophisticated.
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.181
-  confidence_level: SUPPORTED
-  relevant_corpus_size: 83
-  corr_count: 15
+  confidence_ratio: 0.2
+  confidence_level: ESTABLISHED
+  relevant_corpus_size: 85
+  corr_count: 17
 - id: compression_through_destruction
   name: Compression Through Destruction
   file: patterns/compression-through-destruction.md
@@ -3116,9 +3321,9 @@ entries:
       Hartmann''s Progressive Era/New...'
   counter_evidence:
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.035
+  confidence_ratio: 0.034
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 85
+  relevant_corpus_size: 87
   corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
@@ -3232,11 +3437,21 @@ entries:
     variant: post-civilisational — extended past the system boundary
     note: The bunker industry is the Wealth Defense Industry for the post-social-contract world. Bunker builders, tactical
       vehicle manufacturers, and survival consultants are the post-civilisational wealth managers.
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: inverse
+    note: Robinson documents the inverse — a professional extraction class of lawyers and lenders who profited from adjudication
+      complexity rather than defending existing wealth.
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: Specialised legal class (Britton & Gray, Smith & Redington, Dibblee's Washington lobbying network) serving large
+      landholders.
   counter_evidence: []
-  confidence_ratio: 0.145
+  confidence_ratio: 0.165
   confidence_level: SUPPORTED
-  relevant_corpus_size: 83
-  corr_count: 12
+  relevant_corpus_size: 85
+  corr_count: 14
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
   file: patterns/democracy-oligarchy-coexistence.md
@@ -3378,12 +3593,22 @@ entries:
     source_type: principle
     variant: null
     note: 'Haiti: second-oldest republic in Western Hemisphere; richest 20% hold 64%+ of wealth.'
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: inverse
+    note: Squatterism shows the inverse — democratic majorities coexisting with and enabling expropriation of a propertied
+      minority.
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: Congressional special acts serving concentrated interests through formal legislative process. McGarrahan claim alive
+      for 40 years through lobbying.
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.271
+  confidence_ratio: 0.287
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 85
-  corr_count: 23
+  relevant_corpus_size: 87
+  corr_count: 25
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
   file: patterns/moral-infrastructure-of-economic-power.md
@@ -3460,9 +3685,9 @@ entries:
     variant: null
     note: Education as moral obligation — credential requirements convert economic sorting into individual responsibility.
   counter_evidence: []
-  confidence_ratio: 0.095
+  confidence_ratio: 0.093
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 84
+  relevant_corpus_size: 86
   corr_count: 8
 - id: capture_pipeline
   name: The Capture Pipeline
@@ -3537,6 +3762,12 @@ entries:
     note: Multi-layer political review (NIH leadership + HHS + White House budget office) converts scientific prioritisation
       into political prioritisation through formal administrative process. Funding calls previously approved by independent
       scientific advisory councils now require executive branch sign-off.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: three-stage within religious infrastructure
+    note: Personnel (Wilson and CREC pastors as presiding figures), institutional redesign (chaplain corps restructuring —
+      faith codes, insignia, pathological characterisation of pluralism), and narrative maintenance (monthly services converting
+      war into religious mandate). Three-stage pipeline operating within a specific institutional subsystem.
   - source_id: powell-memo
     source_type: principle
     variant: null
@@ -3600,11 +3831,15 @@ entries:
     variant: null
     note: 'Military-industrial-educational complex as pipeline: MIT develops, Air Force funds and procures, industry deploys.
       Revolving personnel between all three.'
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: Personnel selection through patronage as first stage of institutional capture; revolving door as second stage.
   counter_evidence: []
-  confidence_ratio: 0.217
+  confidence_ratio: 0.235
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 83
-  corr_count: 18
+  relevant_corpus_size: 85
+  corr_count: 20
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -3682,6 +3917,11 @@ entries:
     note: NIH mandate and form persist. Operational function (directing research through ~780 annual RFAs) reduced to 11 calls.
       Congressional mandates formally in force but administratively delayed. Same inverse variant documented in CHMR analysis
       (Center of Excellence formally exists, function eliminated).
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: null
+    note: Operation Arctic Endurance designated as exercise; functioned as real defensive deployment. Formal designation (exercise)
+      preserved while structural reality (defensive contingency against US) operated beneath.
   - source_id: cobb-most-southern-place-on-earth
     source_type: principle
     variant: null
@@ -3755,11 +3995,20 @@ entries:
     variant: null
     note: Form shifts from foreman discipline to machine discipline. Taylorism evolves into numerical control. The structure
       of control persists through technological transformation.
+  - source_id: robinson-land-in-california
+    source_type: principle
+    variant: null
+    note: The structure of extraction persisted across four regime transitions while legal form of title changed completely.
+      Land concentrated in few hands under each regime.
+  - source_id: gates-california-land-act-1851
+    source_type: principle
+    variant: null
+    note: Mexican land grants reconstituted under Anglo-American property doctrine. Forms changed; land concentration persisted.
   counter_evidence: []
-  confidence_ratio: 0.247
+  confidence_ratio: 0.276
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 85
-  corr_count: 21
+  relevant_corpus_size: 87
+  corr_count: 24
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
@@ -3805,6 +4054,12 @@ entries:
     note: Garrett characterises bunker companies as "dread merchants." The industry does not merely respond to fear; it cultivates
       it. The narrative of imminent collapse serves commercial interests. But the dread is not manufactured from nothing —
       the instability is real.
+  - source_id: 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+    source_type: analysis
+    variant: null
+    note: 'Monthly prayer services provide continuous narrative maintenance during wartime. The Iran war is reframed as a
+      struggle against ''enemies of righteousness,'' reducing the cognitive cost of supporting it. The demand side: attendance
+      signals loyalty during a purge period.'
   - source_id: ellul-propaganda
     source_type: principle
     variant: null
@@ -3822,10 +4077,10 @@ entries:
       The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.082
+  confidence_ratio: 0.092
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 85
-  corr_count: 7
+  relevant_corpus_size: 87
+  corr_count: 8
 - id: categorical_blindness
   name: Categorical Blindness
   file: patterns/categorical-blindness.md
@@ -3862,7 +4117,7 @@ entries:
   - 2026-03-06-axiom-8-constitutive-absence
   confidence_ratio: 0.026
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 76
+  relevant_corpus_size: 78
   corr_count: 2
 - id: boomerang
   name: The Boomerang
@@ -3906,6 +4161,12 @@ entries:
     variant: federal-to-commercial migration via statutory mandate
     note: Border/immigration enforcement biometric techniques migrating to domestic and commercial contexts through the SBIR
       commercialisation mandate. Extends the Boomerang from colonial-domestic migration to federal-commercial migration.
+  - source_id: 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+    source_type: analysis
+    variant: intra-alliance — military posture from non-allied targets directed at allied territory
+    note: US military posture developed for power projection against non-allied states (Venezuela) directed at an allied territory
+      (Greenland). Methods of domination from the periphery migrating toward the centre of the alliance system. Extends Arendt's
+      periphery-to-centre thesis to intra-alliance context.
   - source_id: arendt-origins-of-totalitarianism
     source_type: principle
     variant: null
@@ -3927,7 +4188,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.084
+  confidence_ratio: 0.094
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 83
-  corr_count: 7
+  relevant_corpus_size: 85
+  corr_count: 8
