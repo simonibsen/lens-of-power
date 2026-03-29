@@ -455,3 +455,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-17-nature-article-nih-funding-calls-dismantlement.md`
   File: `2026-03-22-nature-article-nih-pivots-agency-directed-science.md`
+
+### 2023-07 — Stop Predatory Investing Act — legislative response to institutional housing extraction
+  Domain: Housing / institutional investor acquisition / tax policy / racial targeting (absent from source)
+  Layers: Economic (primary), Legal & Regulatory (primary), Institutional, Thought & Narrative
+  Null case: plausible (MEDIUM-HIGH at component level; MEDIUM at configurational level — delay plausible, directionality is not)
+  Adversarial input: yes — selected to test whether framework produces null-case-plausible result; adversarial ratio 11% against 20% target
+  IC-5 flag: True
+  File: `2023-07-senate-pressrelease-stop-predatory-investing-act.md`

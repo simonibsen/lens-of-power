@@ -3996,3 +3996,62 @@ entries:
   domain_text: Science policy / NIH funding / institutional abdication / research prioritisation / political control of science
   layers_text: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
   null_case_text: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, structural contradiction, congressional mandate delays, institutional silence weaken it)
+
+- id: "2023-07-senate-pressrelease-stop-predatory-investing-act"
+  file: analyses/2023-07-senate-pressrelease-stop-predatory-investing-act.md
+  title: "Stop Predatory Investing Act — legislative response to institutional housing extraction"
+  date: "2026-03-29"
+  time: "~16:00 UTC"
+  source_date: "2023-07"
+  source_name: "Senate Banking Committee (Chair Brown), press release"
+  source_type: government_document
+  position:
+  - 4
+  url: https://www.banking.senate.gov/newsroom/majority/brown-colleagues-introduce-bill-crack-down-big-corporate-investors-buy-up-local-homes-drive-housing-prices
+  domain:
+  - housing
+  layers_primary:
+  - economic
+  - legal_regulatory
+  layers_secondary:
+  - institutional
+  - thought_narrative
+  layers_absent: []
+  null_case: plausible
+  null_case_detail: "MEDIUM-HIGH at component level (legislative delay, universal framing, lack of bipartisan support each have non-power explanations). MEDIUM at configurational level (no committee vote + documented beneficiary lobbying capacity + absent racial dimension exceeds what legislative inertia alone explains)."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents legislative-institutional perspective; renter, community-level, and Black neighbourhood perspectives underrepresented"
+  adversarial: true
+  adversarial_note: "selected to test whether framework produces null-case-plausible result; adversarial ratio 11% against 20% target"
+  sample_origin: false
+  origin: null
+  cross_references: []
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: null
+    note: "Democratic process produced the bill; institutional mechanism prevented the vote. Eight senators, hearings, advocacy coalition — all visible democratic activity. No committee vote after 2+ years — the decision stage is blocked while the proposal stage functions."
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: "housing stock conversion from ownership to rental"
+    note: "Institutional investors purchasing single-family homes at scale, converting from ownership to rental tenure. Cleveland 16% (70% in one zip code), Cincinnati 15% (50% in some communities). Two investors own 12,000+ homes in three Ohio markets."
+  - pattern: wealth_defense_industry
+    status: inferred
+    variant: null
+    note: "No direct evidence of lobbying against this specific bill in the press release, but beneficiaries (institutional investors, real estate industry, financial institutions) have documented lobbying capacity and the bill's failure to receive even a committee vote is consistent with the pattern."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: "tax provisions designed for productive investment subsidising extractive acquisition"
+    note: "Interest deductibility and depreciation — tax code provisions designed for productive real estate investment — subsidise leveraged institutional acquisition of existing housing stock. The inversion is in the tax code, not in the bill."
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: null
+    note: "The bill's existence manages the appearance of democratic responsiveness while the structural arrangement (tax subsidy preserved, no vote) persists."
+  findings_count: 8
+  commit: null
+  domain_text: Housing / institutional investor acquisition / tax policy / racial targeting (absent from source)
+  layers_text: Economic (primary), Legal & Regulatory (primary), Institutional, Thought & Narrative
+  null_case_text: plausible (MEDIUM-HIGH at component level; MEDIUM at configurational level — delay plausible, directionality is not)
+  hegemonic_contexts:
+  - property_rights
+  - market_capitalism
