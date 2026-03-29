@@ -3872,3 +3872,127 @@ entries:
   domain_text: Danish election / wealth tax / Scandinavian business mobilisation / coalition politics / inequality
   layers_text: Institutional (primary), Economic (primary), Thought & Narrative, Legal & Regulatory
   null_case_text: rejected (MEDIUM components; LOW-MEDIUM configuration — directionality not explained by neutral mechanics)
+- id: 2026-03-12-defenseone-article-hegseth-ruthless-jag-review
+  file: analyses/2026-03-12-defenseone-article-hegseth-ruthless-jag-review.md
+  date: '2026-03-12'
+  time: ~14:00 UTC
+  source_date: '2026-03-12'
+  title: "Hegseth orders 'ruthless' JAG review — dismantling military legal accountability during wartime"
+  source_name: "Defense One (Marcus Weisgerber, Caitlin Kenney)"
+  source_type: news_article
+  position:
+  - 4
+  - 5
+  url: https://www.defenseone.com/policy/2026/03/hegseth-orders-ruthless-review-jag-offices-some-see-attempt-evade-accountability/412076/
+  domain:
+  - domestic_policy
+  - military
+  hegemonic_contexts:
+  - national_security_state
+  - rule_of_law
+  layers_primary:
+  - institutional
+  - legal_regulatory
+  layers_secondary:
+  - physical_coercive
+  - thought_narrative
+  layers_absent:
+  - economic
+  - surveillance_information
+  null_case: rejected
+  null_case_detail: "MEDIUM for administrative overlap (Brynildson concedes duplication is real). LOW for configuration — sequence (fire TJAGs, reassign 600+ JAGs, restructure authority toward political appointees), timing (during Iran war, after school strike killing 175), and direction (independence removed, political dependence installed) exceed administrative streamlining."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-legal perspective on JAG independence. Military commander perspective (legal review as operational constraint) and serving JAG perspective underrepresented."
+  adversarial: false
+  sample_origin: true
+  origin: "SAMPLE mode escalation (2026-03-14)"
+  cross_references:
+  - "2026-03-26-guardian-article-hegseth-pentagon-prayer-violence"
+  - "2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm"
+  - "2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers"
+  patterns_matched:
+  - pattern: institutional_abdication
+    status: observed
+    variant: "dismantlement by the authority the institution was designed to check"
+    note: "The JAG corps — the institution responsible for independent military legal advice — is being restructured by the defence secretary. TJAGs fired, 600+ JAGs reassigned, authority transferred to political appointees. No visible resistance from serving JAGs."
+  - pattern: capture_pipeline
+    status: inferred
+    variant: "three-stage within military legal system"
+    note: "Stage 1: personnel removal (fired TJAGs, reassigned 600+ JAGs). Stage 2: institutional redesign (duty split directing authority to political appointees). Stage 3: narrative framing ('ruthless review' presenting restructuring as management discipline)."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "'Ruthless review' presented as improving military legal services while operational effect is removing independent legal accountability. 'Clarify roles' presented as deconfliction while structural effect is transferring authority from independent to politically dependent officers."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "compliance signalling to surviving JAGs"
+    note: "Fired TJAGs + 'roadblocks' characterisation + 'ruthless review' = signal to remaining JAGs about the cost of independence. The mechanism operates before specific demands are made — legal advice adjusts toward permissiveness pre-emptively."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Duty split appears as administrative rationalisation while functioning as authority transfer. Statute requiring independent legal advice remains on the books while the institution that operationalised it is dismantled."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: "operating in reverse — formal structure preserved, operational capacity dismantled"
+    note: "The statutory requirement for independent legal advice is not repealed. The institution that gave it operational effect is hollowed out. The law remains; the function terminates."
+  findings_count: 12
+  commit: null
+  domain_text: Domestic policy / military / legal accountability / JAG corps restructuring / Iran war
+  layers_text: Institutional (primary), Legal & Regulatory (primary), Physical & Coercive, Thought & Narrative
+  null_case_text: rejected (MEDIUM for overlap; LOW for configuration — sequence, timing, direction exceed streamlining)
+
+- id: "2026-03-22-nature-article-nih-pivots-agency-directed-science"
+  file: analyses/2026-03-22-nature-article-nih-pivots-agency-directed-science.md
+  title: "NIH pivots away from agency-directed science — political approval as scientific freedom"
+  date: "2026-03-22"
+  time: "~14:00 UTC"
+  source_url: https://www.nature.com/articles/d41586-026-00823-2
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — Nature science journalism with deep source access; anonymous NIH employees (Position 4) speaking to protect jobs; Lauer (Position 5, named, former NIH extramural research chief)"
+  hegemonic_contexts:
+  - technological_progress
+  - western_liberal_democracy
+  layers:
+  - institutional
+  - thought_narrative
+  - legal_regulatory
+  - economic
+  - surveillance_information
+  primary_layers:
+  - institutional
+  - thought_narrative
+  null_case: plausible
+  null_case_detail: "MEDIUM — genuine science policy debate about directed vs investigator-initiated research has intellectual force; weakened by 90%+ scale (elimination not rebalancing), structural contradiction between flexibility framing and political approval chain, stalled congressional mandates, NIH non-response, employees anonymous to protect jobs"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-scientific perspective; investigator-freedom argument has genuine merit; perspectives of patients with rare/neglected diseases and populations whose health needs are systematically underrepresented in NIH funding absent"
+  adversarial: false
+  sample_origin: true
+  cross_references:
+  - "2026-03-17-nature-article-nih-funding-calls-dismantlement"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Stated purpose: flexibility and efficiency for investigators. Structural function: elimination of the mechanism through which NIH directed research toward problems the market would not address, combined with insertion of political approval over remaining calls."
+  - pattern: institutional_abdication
+    status: observed
+    variant: "institutional function vacated rather than captured"
+    note: "NIH ceasing to perform its coordinating function — the agency's capacity to identify and fund under-studied problems (rare diseases, large collaborative projects) is being abandoned. Prior analysis (2026-03-17) argued this pattern was not operating; this analysis identifies the vacating of institutional function as abdication."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "'Unsolicited is better' framing presents political control of research direction as scientific freedom. White House approval chain operates behind the flexibility narrative. Congressional mandates formally in force but administratively suspended."
+  - pattern: capture_pipeline
+    status: inferred
+    variant: null
+    note: "Approval chain extended from independent scientific advisory councils to NIH leadership + HHS + White House budget office. Scientific prioritisation converted to political prioritisation through formal administrative process."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "researcher self-censorship on proposal topics"
+    note: "Researchers will avoid topics they anticipate will not survive the political approval chain. NIH employees already speak anonymously. Institutional signals communicate that independence carries career risk. Forward-looking: the approval chain shapes what research is proposed, not just what is approved."
+  findings_count: 10
+  commit: null
+  domain_text: Science policy / NIH funding / institutional abdication / research prioritisation / political control of science
+  layers_text: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
+  null_case_text: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, structural contradiction, congressional mandate delays, institutional silence weaken it)

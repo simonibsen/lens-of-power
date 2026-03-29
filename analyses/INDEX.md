@@ -439,3 +439,19 @@
   IC-5 flag: True
   Cross-references: `2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md`
   File: `2026-03-28-jacobin-article-denmark-election-center-did-not-hold.md`
+
+### 2026-03-12 — Hegseth orders 'ruthless' JAG review — dismantling military legal accountability during wartime
+  Domain: Domestic policy / military / legal accountability / JAG corps restructuring / Iran war
+  Layers: Institutional (primary), Legal & Regulatory (primary), Physical & Coercive, Thought & Narrative
+  Null case: rejected (MEDIUM for overlap; LOW for configuration — sequence, timing, direction exceed streamlining)
+  IC-5 flag: True
+  Cross-references: `2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md`, `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`
+  File: `2026-03-12-defenseone-article-hegseth-ruthless-jag-review.md`
+
+### 2026-03-22 — NIH pivots away from agency-directed science — political approval as scientific freedom
+  Domain: Science policy / NIH funding / institutional abdication / research prioritisation / political control of science
+  Layers: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
+  Null case: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, structural contradiction, congressional mandate delays, institutional silence weaken it)
+  IC-5 flag: True
+  Cross-references: `2026-03-17-nature-article-nih-funding-calls-dismantlement.md`
+  File: `2026-03-22-nature-article-nih-pivots-agency-directed-science.md`
