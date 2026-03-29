@@ -2983,3 +2983,59 @@ entries:
   position_display: "5 (historian — revisionist legal historian)"
   instruments_proposed_display: []
   source_type_display: primary_document
+
+- id: an-institutional-sfr-investors
+  file: principles/an-institutional-sfr-investors.md
+  source_name: Brian Y. An
+  source_title: "The Influence of Institutional Single-Family Rental Investors on Homeownership: Who Gets Targeted and Pushed Out of the Local Market?"
+  source_year: 2024
+  position:
+  - 5
+  position_note: "academic — planning scholar using quantitative methods"
+  provenance_tier: training_data
+  layers:
+  - economic
+  - surveillance_information
+  - institutional
+  - legal_regulatory
+  - thought_narrative
+  principles_list:
+  - "Racially Targeted Capital Deployment (institutional investors systematically target Black neighborhoods, approximately twice as likely to purchase there)"
+  - "Racially Differential Displacement from Homeownership (4.2pp Black homeownership decline, no effect on white homeownership)"
+  - "Community Wealth Extraction Through Institutional Ownership Concentration (multi-channel wealth extraction; $4 billion in Black home equity lost)"
+  - "Technology as Racial Extraction Accelerant (algorithmic property identification and all-cash offers scale racial extraction)"
+  - "The Post-Crisis Regulatory Channel (Fannie Mae REO bulk sales and crisis-response regulation enabled institutional entry)"
+  key_patterns:
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: "Institutional investors absorb affordable starter homes targeted by first-time Black homebuyers, creating artificial scarcity in homeownership-accessible housing."
+  - pattern: division_of_learning
+    variant: null
+    note: "Proprietary databases, algorithmic property identification, and automated valuation give institutional investors structural information advantage over individual buyers."
+  - pattern: constitutive_violence
+    variant: null
+    note: "Institutional investor targeting operates on terrain constituted by prior racial dispossession: slavery → redlining → blockbusting → subprime → institutional acquisition. Quantitatively documented $4B wealth transfer."
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: "Form of extraction shifts across eras (legal exclusion, spatial exclusion, predatory inclusion, ownership displacement) but structural extraction from Black homeownership wealth persists."
+  - pattern: compliance_gradient
+    variant: null
+    note: "Black first-time buyers cannot resist institutional investors' structural advantages. Compliance with a diffuse, agent-less market structure rather than an identifiable coercer."
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: "Market framing presents racially targeted investment as race-neutral 'market efficiency' — structural dispossession reframed as individual competitive failure."
+  ic1_flags:
+  - axiom: 3
+    note: "Mechanism is visible (public records, academic documentation) but operates through hegemonic naturalisation (fifth mode) — market ideology renders racial targeting contingent yet naturalised."
+  - axiom: 9
+    note: "Compliance without identifiable coercer. Black homebuyers displaced by diffuse institutional capital — no landlord, employer, or agent to resist. Seventh source confirming Axiom 9 operates through structural constraint, here additionally agent-less."
+  - axiom: 10
+    note: "Understanding is quantitatively complete (peer-reviewed, causally identified) but no leverage point exists. Individual buyers cannot out-compete; collective action faces diffuse target; cross-racial coalition undermined by racial specificity of harm."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "Economic (primary), Surveillance & Information, Institutional, Legal & Regulatory, Thought & Narrative"
+  key_patterns_display: "Manufactured Scarcity, Division of Learning, Constitutive Violence, Formal Transformation/Structural Continuity, Compliance Gradient, Moral Infrastructure of Economic Power"
+  source_display: 'Brian Y. An, "The Influence of Institutional Single-Family Rental Investors on Homeownership" (2024)'
+  position_display: "5 (academic — planning scholar using quantitative methods)"
+  instruments_proposed_display: []
+  source_type_display: training_data
