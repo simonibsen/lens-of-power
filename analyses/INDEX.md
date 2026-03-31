@@ -463,3 +463,11 @@
   Adversarial input: yes — selected to test whether framework produces null-case-plausible result; adversarial ratio 11% against 20% target
   IC-5 flag: True
   File: `2023-07-senate-pressrelease-stop-predatory-investing-act.md`
+
+### 2026-03-30 — Putin's Salisbury logic and the oligarchy that never was (Guardian/Khodorkovsky interview)
+  Domain: Geopolitics / Russian power structure / Western sanctions policy / oligarchy theory
+  Layers: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Legal & Regulatory, Surveillance & Information
+  Null case: partially plausible (MEDIUM — predictive claims self-serving and unverifiable; structural analysis corroborated by three independent sources)
+  IC-5 flag: True
+  Cross-references: `2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`
+  File: `2026-03-30-guardian-article-khodorkovsky-salisbury-oligarchy.md`

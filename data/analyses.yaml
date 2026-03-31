@@ -4055,3 +4055,66 @@ entries:
   hegemonic_contexts:
   - property_rights
   - market_capitalism
+- id: 2026-03-30-guardian-article-khodorkovsky-salisbury-oligarchy
+  file: analyses/2026-03-30-guardian-article-khodorkovsky-salisbury-oligarchy.md
+  date: '2026-03-30'
+  time: ~16:00 UTC
+  source_date: '2026-03-30'
+  title: "Putin's Salisbury logic and the oligarchy that never was (Guardian/Khodorkovsky interview)"
+  source_name: 'The Guardian, "Putin likely to stage another Salisbury-style attack, exiled oil tycoon says"'
+  source_type: news_article
+  position:
+  - 1
+  - 3
+  - 5
+  url: https://www.theguardian.com/world/2026/mar/30/putin-salisbury-style-attack-exiled-oligarch-mikhail-khodorkovsky
+  domain:
+  - geopolitics
+  - institutional_capture
+  layers_primary:
+  - physical_coercive
+  - economic
+  - institutional
+  layers_secondary:
+  - thought_narrative
+  - legal_regulatory
+  - surveillance_information
+  layers_absent: []
+  null_case: partially_plausible
+  null_case_level: "MEDIUM overall — strongest for predictive claims (unverifiable, self-serving), weakest for structural analysis (corroborated by Guriev-Rachinsky, Schimpfössl, personal experience)"
+  adversarial: false
+  origin: null
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Western media framing of Russian dissidents as democratic heroes; Russian domestic population perspective absent; 1990s privatisation impoverishment underrepresented"
+  cross_references:
+  - 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+  - 2026-03-17-publicnotice-article-trump-russia-nato-iran-strait
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: "IC-1 boundary condition — pattern holds in civil oligarchy, fails in autocratic contexts"
+    note: "Khodorkovsky's direct testimony from Position 1 experience: 'money without any weapons is food for somebody else.' Challenges the pattern's application beyond civil oligarchy. Corroborated by Guriev-Rachinsky (structural vulnerability) and Schimpfössl (state ultimate authority). Pattern requires boundary condition stating mechanism depends on independent legal-institutional framework."
+  - pattern: economy_of_violence
+    status: observed
+    variant: "state demonstration violence against rival power"
+    note: "Salisbury logic: 'not important whether the victim dies or not' — violence calibrated for psychological effect, not elimination. Estonian border massing as threat-without-execution."
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: "private transaction as state resource positioning"
+    note: "Chelsea sale: appears as private wealth dispute / sanctions compliance; may function as Russian state post-war reconstruction resource (single-source claim). Western sanctions: appear as pressure on oligarchs, function as neutering of Russian agents of influence."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: "European allies 'bending over backwards' to work with Trump — consistent with Greenland and Georgetown SFS analyses."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: inferred
+    variant: "threat-without-execution as power demonstration"
+    note: "Estonian border troop massing to 'flex muscles' — designed to 'have an impact' without the costs of military conflict."
+  findings_count: 10
+  commit: null
+  domain_text: Geopolitics / Russian power structure / Western sanctions policy / oligarchy theory
+  layers_text: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Legal & Regulatory, Surveillance & Information
+  null_case_text: "partially plausible (MEDIUM — predictive claims self-serving and unverifiable; structural analysis corroborated by three independent sources)"
+  hegemonic_contexts:
+  - national_security_state
+  - rule_of_law
