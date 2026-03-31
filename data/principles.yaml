@@ -3039,3 +3039,59 @@ entries:
   position_display: "5 (academic — planning scholar using quantitative methods)"
   instruments_proposed_display: []
   source_type_display: training_data
+
+- id: liberties-rule-of-law-report-2026
+  file: principles/liberties-rule-of-law-report-2026.md
+  source_name: Civil Liberties Union for Europe (Liberties)
+  source_title: Rule of Law Report 2026
+  source_year: 2026
+  position:
+  - 5
+  - 4
+  position_note: "civil society watchdog network with advocacy function across 22 EU countries"
+  provenance_tier: url
+  layers:
+  - institutional
+  - legal_regulatory
+  - thought_narrative
+  - surveillance_information
+  principles_list:
+  - "The Implementation Gap as Self-Legitimating Mechanism (recommendation-without-enforcement produces the appearance of accountability without its substance)"
+  - "Informal Erosion Beneath Formal Adequacy (erosion through discourse, administrative practice, and funding manipulation while formal framework remains intact)"
+  - "Functional Opacity Through Structural Fragmentation (distributed oversight and informal norms prevent any single point from seeing the whole)"
+  - "Recommendation Drift as Accountability Erosion (reformulation across cycles displaces the standard against which compliance is measured)"
+  - "Civic Space Restriction Through Conditional Legitimacy (funding conditionality, delegitimising rhetoric, and administrative burden produce self-censorship without formal prohibition)"
+  - "The Monitoring Paradox — Legibility as Shield (highest-ranking countries most resistant to scrutiny because indicators are cited as evidence scrutiny is unnecessary)"
+  - "Convention Scepticism as Selective Compliance Infrastructure (normalising the idea that compliance is a political choice rather than a legal obligation)"
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: "EU Rule of Law Cycle's stated purpose is to prevent erosion; documented function is to produce the appearance of prevention. 93% recommendation repetition, 61% no progress, zero fully implemented."
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: "Monitoring framework changes form across cycles (recommendations rephrased, reformulated) without changing substance or outcomes. The forms change; the erosion continues."
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: "The monitoring process is the appearance; continued erosion is the reality. Denmark's Rule of Law Index ranking is the appearance; documented regression is the reality."
+  - pattern: institutional_abdication
+    variant: null
+    note: "Commission recommending without enforcing — possessing but not deploying enforcement tools (Article 7, infringement proceedings, budgetary conditionality). Institutional non-use as calculated compliance."
+  - pattern: capture_pipeline
+    variant: null
+    note: "Judicial appointment mechanisms across EU states subject to political influence (Malta, Latvia, Bulgaria, Slovakia). Media regulatory authority leadership under political control."
+  - pattern: anticipatory_obedience
+    variant: null
+    note: "Journalist self-censorship across EU. Civil society self-censorship in Denmark. CSOs refrain from challenging government policy to maintain funding. Slovakia's 500+ hateful Meta ads as signalling mechanism."
+  - pattern: democracy_oligarchy_coexistence
+    variant: null
+    note: "Formal democratic institutions coexisting with substantive informal power networks — Denmark demonstrates the variant in one of the world's formally strongest democracies."
+  ic1_flags:
+  - axiom: 7
+    note: "Monitoring systems can function as the inversion of their stated purpose — not incidentally but structurally. The monitoring process is the gap between stated purpose and actual function."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "Institutional (primary), Legal & Regulatory, Thought & Narrative, Surveillance & Information"
+  key_patterns_display: "Inversion of Stated Purpose, Formal Transformation/Structural Continuity, Appearance as Structural Terrain, Institutional Abdication, Capture Pipeline, Anticipatory Obedience, Democracy-Oligarchy Coexistence"
+  source_display: "Civil Liberties Union for Europe (Liberties), *Rule of Law Report 2026* (2026)"
+  position_display: "5/4 (civil society watchdog network with advocacy function across 22 EU countries)"
+  instruments_proposed_display: []
