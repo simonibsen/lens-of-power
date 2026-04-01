@@ -4080,7 +4080,7 @@ entries:
   - legal_regulatory
   - surveillance_information
   layers_absent: []
-  null_case: partially_plausible
+  null_case: plausible
   null_case_level: "MEDIUM overall — strongest for predictive claims (unverifiable, self-serving), weakest for structural analysis (corroborated by Guriev-Rachinsky, Schimpfössl, personal experience)"
   adversarial: false
   origin: null
