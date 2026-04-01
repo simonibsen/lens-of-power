@@ -5,6 +5,20 @@ within the same polity without visible contradiction. Democratic institutions ha
 issues that don't affect wealth concentration; oligarchic mechanisms handle those
 that do. The coexistence is not a contradiction but a structural configuration.
 
+SCOPE: This pattern applies to **civil oligarchy** — systems where property rights
+are legally independent of sovereign will and wealth holders can defend their
+interests through law, institutions, and political influence rather than through
+arms. In autocratic systems where the state can and does expropriate wealth holders
+at will, oligarchy in the Winters sense does not operate. Khodorkovsky (Position 1
+testimony from direct experience): "How can you reconcile oligarchy with
+dictatorship? If you have money without any weapons, you are just food for somebody
+else." Corroborated by Guriev-Rachinsky (Russian oligarchs' structural
+vulnerability to state expropriation) and Schimpfössl (oligarchs as position-holders
+within a state-managed hierarchy, not autonomous power actors). The pattern's
+analytical value depends on the presence of a legal order that wealth can use as a
+defensive instrument — without that, "oligarchy" is merely concentration of wealth
+without the political autonomy the pattern describes.
+
 MECHANISM: In civil oligarchy, elections are real. Political competition is real.
 Policy outcomes on many issues reflect genuine democratic deliberation. But on
 matters directly affecting wealth concentration — tax policy, property rights,

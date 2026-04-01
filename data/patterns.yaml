@@ -534,6 +534,7 @@ entries:
       prevention. 93% recommendation repetition, 61% no progress, zero fully implemented.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
+  - 2026-03-30-axiom-7-sincere-ideology-as-power
   confidence_ratio: 0.813
   confidence_level: ESTABLISHED
   relevant_corpus_size: 91
@@ -1039,6 +1040,9 @@ entries:
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
   - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  - 2026-03-30-axiom-3-market-ideology-racial-displacement
+  - 2026-03-30-axiom-9-agentless-structural-displacement
+  - 2026-03-30-axiom-10-quantitative-understanding-no-leverage
   confidence_ratio: 0.319
   confidence_level: ESTABLISHED
   relevant_corpus_size: 91
@@ -1664,6 +1668,7 @@ entries:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
+  - 2026-03-30-axiom-7-sincere-ideology-as-power
   confidence_ratio: 0.78
   confidence_level: ESTABLISHED
   relevant_corpus_size: 91
@@ -1880,6 +1885,7 @@ entries:
   - 2026-03-13-axiom-10-low-wage-service-understanding-inert
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
   - 2026-03-24-axiom-9-ai-displacement-compliance-visible
+  - 2026-03-30-axiom-9-agentless-structural-displacement
   confidence_ratio: 0.185
   confidence_level: SUPPORTED
   relevant_corpus_size: 92
@@ -2295,6 +2301,7 @@ entries:
       → blockbusting → subprime → institutional acquisition. Quantitatively documented $4B wealth transfer.'
   counter_evidence:
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
+  - 2026-03-30-axiom-3-market-ideology-racial-displacement
   confidence_ratio: 0.231
   confidence_level: ESTABLISHED
   relevant_corpus_size: 91
@@ -2901,7 +2908,8 @@ entries:
     variant: null
     note: Proprietary databases, algorithmic property identification, and automated valuation give institutional investors
       structural information advantage over individual buyers.
-  counter_evidence: []
+  counter_evidence:
+  - 2026-03-30-axiom-10-quantitative-understanding-no-leverage
   confidence_ratio: 0.311
   confidence_level: ESTABLISHED
   relevant_corpus_size: 90
