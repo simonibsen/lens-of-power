@@ -530,3 +530,81 @@ entries:
   - institutional
   - thought_narrative
   relationship: complicates
+- id: 2026-03-30-red-team-fourth-self-examination
+  file: evidence/2026-03-30-red-team-fourth-self-examination.md
+  title: Fourth framework self-examination (IC-3)
+  date_recorded: "2026-03-30"
+  source: "Framework self-analysis — 65 analyses, 41 principles, 8 instruments, 32 patterns, 31 evidence entries"
+  source_url: null
+  evidence_source_type: self_examination
+  axioms: []
+  patterns: []
+  layers: []
+  relationship: self-examination
+- id: 2026-03-30-axiom-7-sincere-ideology-as-power
+  file: evidence/2026-03-30-axiom-7-sincere-ideology-as-power.md
+  title: "Axiom 7 complication: sincere ideology produces systematic bias without stated-purpose inversion"
+  date_recorded: "2026-03-30"
+  source: "Gates (Field property absolutism) + Liberties (EU monitoring as self-legitimation)"
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 7
+  patterns:
+  - appearance_as_structural_terrain
+  - inversion_of_stated_purpose
+  layers:
+  - legal_regulatory
+  - institutional
+  - thought_narrative
+  relationship: complicates
+- id: 2026-03-30-axiom-3-market-ideology-racial-displacement
+  file: evidence/2026-03-30-axiom-3-market-ideology-racial-displacement.md
+  title: "Axiom 3 complication: market ideology as hegemonic naturalisation of racially targeted displacement"
+  date_recorded: "2026-03-30"
+  source: "An, Institutional Single-Family Rental Investors (2024)"
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 3
+  patterns:
+  - manufactured_scarcity_as_control
+  - constitutive_violence
+  layers:
+  - economic
+  - thought_narrative
+  - institutional
+  relationship: complicates
+- id: 2026-03-30-axiom-9-agentless-structural-displacement
+  file: evidence/2026-03-30-axiom-9-agentless-structural-displacement.md
+  title: "Axiom 9 complication: agentless structural displacement — compliance without identifiable coercer (seventh domain)"
+  date_recorded: "2026-03-30"
+  source: "An, Institutional Single-Family Rental Investors (2024)"
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 9
+  patterns:
+  - manufactured_scarcity_as_control
+  - compliance_gradient
+  layers:
+  - economic
+  - institutional
+  relationship: complicates
+- id: 2026-03-30-axiom-10-quantitative-understanding-no-leverage
+  file: evidence/2026-03-30-axiom-10-quantitative-understanding-no-leverage.md
+  title: "Axiom 10 complication: quantitatively complete understanding with no leverage point"
+  date_recorded: "2026-03-30"
+  source: "An, Institutional Single-Family Rental Investors (2024)"
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 10
+  patterns:
+  - manufactured_scarcity_as_control
+  - division_of_learning
+  layers:
+  - economic
+  - institutional
+  - thought_narrative
+  relationship: complicates

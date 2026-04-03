@@ -2983,3 +2983,115 @@ entries:
   position_display: "5 (historian — revisionist legal historian)"
   instruments_proposed_display: []
   source_type_display: primary_document
+
+- id: an-institutional-sfr-investors
+  file: principles/an-institutional-sfr-investors.md
+  source_name: Brian Y. An
+  source_title: "The Influence of Institutional Single-Family Rental Investors on Homeownership: Who Gets Targeted and Pushed Out of the Local Market?"
+  source_year: 2024
+  position:
+  - 5
+  position_note: "academic — planning scholar using quantitative methods"
+  provenance_tier: training_data
+  layers:
+  - economic
+  - surveillance_information
+  - institutional
+  - legal_regulatory
+  - thought_narrative
+  principles_list:
+  - "Racially Targeted Capital Deployment (institutional investors systematically target Black neighborhoods, approximately twice as likely to purchase there)"
+  - "Racially Differential Displacement from Homeownership (4.2pp Black homeownership decline, no effect on white homeownership)"
+  - "Community Wealth Extraction Through Institutional Ownership Concentration (multi-channel wealth extraction; $4 billion in Black home equity lost)"
+  - "Technology as Racial Extraction Accelerant (algorithmic property identification and all-cash offers scale racial extraction)"
+  - "The Post-Crisis Regulatory Channel (Fannie Mae REO bulk sales and crisis-response regulation enabled institutional entry)"
+  key_patterns:
+  - pattern: manufactured_scarcity_as_control
+    variant: null
+    note: "Institutional investors absorb affordable starter homes targeted by first-time Black homebuyers, creating artificial scarcity in homeownership-accessible housing."
+  - pattern: division_of_learning
+    variant: null
+    note: "Proprietary databases, algorithmic property identification, and automated valuation give institutional investors structural information advantage over individual buyers."
+  - pattern: constitutive_violence
+    variant: null
+    note: "Institutional investor targeting operates on terrain constituted by prior racial dispossession: slavery → redlining → blockbusting → subprime → institutional acquisition. Quantitatively documented $4B wealth transfer."
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: "Form of extraction shifts across eras (legal exclusion, spatial exclusion, predatory inclusion, ownership displacement) but structural extraction from Black homeownership wealth persists."
+  - pattern: compliance_gradient
+    variant: null
+    note: "Black first-time buyers cannot resist institutional investors' structural advantages. Compliance with a diffuse, agent-less market structure rather than an identifiable coercer."
+  - pattern: moral_infrastructure_of_economic_power
+    variant: null
+    note: "Market framing presents racially targeted investment as race-neutral 'market efficiency' — structural dispossession reframed as individual competitive failure."
+  ic1_flags:
+  - axiom: 3
+    note: "Mechanism is visible (public records, academic documentation) but operates through hegemonic naturalisation (fifth mode) — market ideology renders racial targeting contingent yet naturalised."
+  - axiom: 9
+    note: "Compliance without identifiable coercer. Black homebuyers displaced by diffuse institutional capital — no landlord, employer, or agent to resist. Seventh source confirming Axiom 9 operates through structural constraint, here additionally agent-less."
+  - axiom: 10
+    note: "Understanding is quantitatively complete (peer-reviewed, causally identified) but no leverage point exists. Individual buyers cannot out-compete; collective action faces diffuse target; cross-racial coalition undermined by racial specificity of harm."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "Economic (primary), Surveillance & Information, Institutional, Legal & Regulatory, Thought & Narrative"
+  key_patterns_display: "Manufactured Scarcity, Division of Learning, Constitutive Violence, Formal Transformation/Structural Continuity, Compliance Gradient, Moral Infrastructure of Economic Power"
+  source_display: 'Brian Y. An, "The Influence of Institutional Single-Family Rental Investors on Homeownership" (2024)'
+  position_display: "5 (academic — planning scholar using quantitative methods)"
+  instruments_proposed_display: []
+  source_type_display: training_data
+
+- id: liberties-rule-of-law-report-2026
+  file: principles/liberties-rule-of-law-report-2026.md
+  source_name: Civil Liberties Union for Europe (Liberties)
+  source_title: Rule of Law Report 2026
+  source_year: 2026
+  position:
+  - 5
+  - 4
+  position_note: "civil society watchdog network with advocacy function across 22 EU countries"
+  provenance_tier: url
+  layers:
+  - institutional
+  - legal_regulatory
+  - thought_narrative
+  - surveillance_information
+  principles_list:
+  - "The Implementation Gap as Self-Legitimating Mechanism (recommendation-without-enforcement produces the appearance of accountability without its substance)"
+  - "Informal Erosion Beneath Formal Adequacy (erosion through discourse, administrative practice, and funding manipulation while formal framework remains intact)"
+  - "Functional Opacity Through Structural Fragmentation (distributed oversight and informal norms prevent any single point from seeing the whole)"
+  - "Recommendation Drift as Accountability Erosion (reformulation across cycles displaces the standard against which compliance is measured)"
+  - "Civic Space Restriction Through Conditional Legitimacy (funding conditionality, delegitimising rhetoric, and administrative burden produce self-censorship without formal prohibition)"
+  - "The Monitoring Paradox — Legibility as Shield (highest-ranking countries most resistant to scrutiny because indicators are cited as evidence scrutiny is unnecessary)"
+  - "Convention Scepticism as Selective Compliance Infrastructure (normalising the idea that compliance is a political choice rather than a legal obligation)"
+  key_patterns:
+  - pattern: inversion_of_stated_purpose
+    variant: null
+    note: "EU Rule of Law Cycle's stated purpose is to prevent erosion; documented function is to produce the appearance of prevention. 93% recommendation repetition, 61% no progress, zero fully implemented."
+  - pattern: formal_transformation_structural_continuity
+    variant: null
+    note: "Monitoring framework changes form across cycles (recommendations rephrased, reformulated) without changing substance or outcomes. The forms change; the erosion continues."
+  - pattern: appearance_as_structural_terrain
+    variant: null
+    note: "The monitoring process is the appearance; continued erosion is the reality. Denmark's Rule of Law Index ranking is the appearance; documented regression is the reality."
+  - pattern: institutional_abdication
+    variant: null
+    note: "Commission recommending without enforcing — possessing but not deploying enforcement tools (Article 7, infringement proceedings, budgetary conditionality). Institutional non-use as calculated compliance."
+  - pattern: capture_pipeline
+    variant: null
+    note: "Judicial appointment mechanisms across EU states subject to political influence (Malta, Latvia, Bulgaria, Slovakia). Media regulatory authority leadership under political control."
+  - pattern: anticipatory_obedience
+    variant: null
+    note: "Journalist self-censorship across EU. Civil society self-censorship in Denmark. CSOs refrain from challenging government policy to maintain funding. Slovakia's 500+ hateful Meta ads as signalling mechanism."
+  - pattern: democracy_oligarchy_coexistence
+    variant: null
+    note: "Formal democratic institutions coexisting with substantive informal power networks — Denmark demonstrates the variant in one of the world's formally strongest democracies."
+  ic1_flags:
+  - axiom: 7
+    note: "Monitoring systems can function as the inversion of their stated purpose — not incidentally but structurally. The monitoring process is the gap between stated purpose and actual function."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "Institutional (primary), Legal & Regulatory, Thought & Narrative, Surveillance & Information"
+  key_patterns_display: "Inversion of Stated Purpose, Formal Transformation/Structural Continuity, Appearance as Structural Terrain, Institutional Abdication, Capture Pipeline, Anticipatory Obedience, Democracy-Oligarchy Coexistence"
+  source_display: "Civil Liberties Union for Europe (Liberties), *Rule of Law Report 2026* (2026)"
+  position_display: "5/4 (civil society watchdog network with advocacy function across 22 EU countries)"
+  instruments_proposed_display: []

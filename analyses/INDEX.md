@@ -431,3 +431,43 @@
   IC-5 flag: True
   Cross-references: `2026-03-14-cra-policybrief-great-replacement-theory-practice.md`, `2026-03-02-propublica-investigation-ziklag-christian-nationalist-donors.md`
   File: `2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md`
+
+### 2026-03-28 — Danish election — institutional reproduction of centrism despite popular rejection
+  Domain: Danish election / wealth tax / Scandinavian business mobilisation / coalition politics / inequality
+  Layers: Institutional (primary), Economic (primary), Thought & Narrative, Legal & Regulatory
+  Null case: rejected (MEDIUM components; LOW-MEDIUM configuration — directionality not explained by neutral mechanics)
+  IC-5 flag: True
+  Cross-references: `2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md`
+  File: `2026-03-28-jacobin-article-denmark-election-center-did-not-hold.md`
+
+### 2026-03-12 — Hegseth orders 'ruthless' JAG review — dismantling military legal accountability during wartime
+  Domain: Domestic policy / military / legal accountability / JAG corps restructuring / Iran war
+  Layers: Institutional (primary), Legal & Regulatory (primary), Physical & Coercive, Thought & Narrative
+  Null case: rejected (MEDIUM for overlap; LOW for configuration — sequence, timing, direction exceed streamlining)
+  IC-5 flag: True
+  Cross-references: `2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md`, `2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm.md`, `2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers.md`
+  File: `2026-03-12-defenseone-article-hegseth-ruthless-jag-review.md`
+
+### 2026-03-22 — NIH pivots away from agency-directed science — political approval as scientific freedom
+  Domain: Science policy / NIH funding / institutional abdication / research prioritisation / political control of science
+  Layers: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
+  Null case: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, structural contradiction, congressional mandate delays, institutional silence weaken it)
+  IC-5 flag: True
+  Cross-references: `2026-03-17-nature-article-nih-funding-calls-dismantlement.md`
+  File: `2026-03-22-nature-article-nih-pivots-agency-directed-science.md`
+
+### 2023-07 — Stop Predatory Investing Act — legislative response to institutional housing extraction
+  Domain: Housing / institutional investor acquisition / tax policy / racial targeting (absent from source)
+  Layers: Economic (primary), Legal & Regulatory (primary), Institutional, Thought & Narrative
+  Null case: plausible (MEDIUM-HIGH at component level; MEDIUM at configurational level — delay plausible, directionality is not)
+  Adversarial input: yes — selected to test whether framework produces null-case-plausible result; adversarial ratio 11% against 20% target
+  IC-5 flag: True
+  File: `2023-07-senate-pressrelease-stop-predatory-investing-act.md`
+
+### 2026-03-30 — Putin's Salisbury logic and the oligarchy that never was (Guardian/Khodorkovsky interview)
+  Domain: Geopolitics / Russian power structure / Western sanctions policy / oligarchy theory
+  Layers: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Legal & Regulatory, Surveillance & Information
+  Null case: partially plausible (MEDIUM — predictive claims self-serving and unverifiable; structural analysis corroborated by three independent sources)
+  IC-5 flag: True
+  Cross-references: `2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`
+  File: `2026-03-30-guardian-article-khodorkovsky-salisbury-oligarchy.md`

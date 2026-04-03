@@ -3808,3 +3808,313 @@ entries:
   domain_text: Domestic policy / institutional capture / Christian nationalism / military religious infrastructure
   layers_text: Thought & Narrative (primary), Institutional (primary), Legal & Regulatory, Physical & Coercive
   null_case_text: rejected (MEDIUM for components; LOW for configuration — exclusively evangelical, Wilson's theocracy, pathological framing of pluralism, wartime violence prayer, coercive context)
+- id: 2026-03-28-jacobin-article-denmark-election-center-did-not-hold
+  file: analyses/2026-03-28-jacobin-article-denmark-election-center-did-not-hold.md
+  date: '2026-03-28'
+  time: ~20:00 UTC
+  source_date: '2026-03-28'
+  title: "Danish election — institutional reproduction of centrism despite popular rejection"
+  source_name: "Jacobin (Rune Moller Stahl)"
+  source_type: news_article
+  position:
+  - 3
+  - 5
+  url: https://jacobin.com/2026/03/denmark-social-democrats-centrism-elections
+  domain:
+  - politics
+  - economics
+  hegemonic_contexts:
+  - western_liberal_democracy
+  - market_capitalism
+  layers:
+  - institutional
+  - economic
+  - thought_narrative
+  - legal_regulatory
+  primary_layers:
+  - institutional
+  - economic
+  null_case: rejected
+  null_case_detail: "MEDIUM at component level (each element has non-power explanation). LOW-MEDIUM at configurational level — directionality (consistently rightward, consistently favouring capital) not explained by neutral institutional mechanics."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Nordic model as settled success and left-critical alternative. Business actors internal reasoning, centrist voters, and immigrant community perspectives underrepresented."
+  adversarial: false
+  sample_origin: false
+  cross_references:
+  - "2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation"
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: "proportional-representation variant — coalition mathematics give centrist parties veto over redistributive policy despite popular mandate"
+    note: "Election produced popular rejection of centrism. Neither bloc has majority. Centrist Moderaterne is kingmaker. Wealth tax with popular support likely diluted through coalition negotiations. Democratic form coexists with oligarchic substance on wealth distribution."
+  - pattern: wealth_defense_industry
+    status: observed
+    variant: "Scandinavian corporatist context — transnational lobbying infrastructure"
+    note: "Same lobbying firms organised anti-wealth-tax campaigns in both Denmark and Norway. Firms poured millions into advertising. CEOs threatened to leave. Employers organisations issued warnings. New geographic context for the pattern. Historical precedent: Swedish SAF mobilisation against wage-earner funds (1980s)."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Coalition negotiation presented as democratic compromise; functions as mechanism through which business preferences override popular mandates. Immigration neutralisation: appearing tough on immigration to win right; function eroded Social Democrat left identity."
+  - pattern: peacetime_ratchet
+    status: inferred
+    variant: null
+    note: "Four decades of rising inequality as structural default. Wealth tax was proposed counterforce; business mobilisation defends the ratchet."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "party-level — Social Democrats pre-adjust rightward in government"
+    note: "Author notes Social Democrats usually move rightward when in government. This is anticipatory adjustment to known institutional incentives — the party pre-complies with business and centrist pressure before specific demands are made."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: null
+    note: "Electoral result transforms parliamentary composition (12 parties, fragmented). Policy direction (centrist governance) persists through coalition formation. The form changes; the structure continues."
+  findings_count: 12
+  commit: null
+  domain_text: Danish election / wealth tax / Scandinavian business mobilisation / coalition politics / inequality
+  layers_text: Institutional (primary), Economic (primary), Thought & Narrative, Legal & Regulatory
+  null_case_text: rejected (MEDIUM components; LOW-MEDIUM configuration — directionality not explained by neutral mechanics)
+- id: 2026-03-12-defenseone-article-hegseth-ruthless-jag-review
+  file: analyses/2026-03-12-defenseone-article-hegseth-ruthless-jag-review.md
+  date: '2026-03-12'
+  time: ~14:00 UTC
+  source_date: '2026-03-12'
+  title: "Hegseth orders 'ruthless' JAG review — dismantling military legal accountability during wartime"
+  source_name: "Defense One (Marcus Weisgerber, Caitlin Kenney)"
+  source_type: news_article
+  position:
+  - 4
+  - 5
+  url: https://www.defenseone.com/policy/2026/03/hegseth-orders-ruthless-review-jag-offices-some-see-attempt-evade-accountability/412076/
+  domain:
+  - domestic_policy
+  - military
+  hegemonic_contexts:
+  - national_security_state
+  - rule_of_law
+  layers_primary:
+  - institutional
+  - legal_regulatory
+  layers_secondary:
+  - physical_coercive
+  - thought_narrative
+  layers_absent:
+  - economic
+  - surveillance_information
+  null_case: rejected
+  null_case_detail: "MEDIUM for administrative overlap (Brynildson concedes duplication is real). LOW for configuration — sequence (fire TJAGs, reassign 600+ JAGs, restructure authority toward political appointees), timing (during Iran war, after school strike killing 175), and direction (independence removed, political dependence installed) exceed administrative streamlining."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-legal perspective on JAG independence. Military commander perspective (legal review as operational constraint) and serving JAG perspective underrepresented."
+  adversarial: false
+  sample_origin: true
+  origin: "SAMPLE mode escalation (2026-03-14)"
+  cross_references:
+  - "2026-03-26-guardian-article-hegseth-pentagon-prayer-violence"
+  - "2026-03-18-propublica-investigation-chmr-dismantlement-civilian-harm"
+  - "2026-03-04-foxnews-article-operation-epic-fury-senate-war-powers"
+  patterns_matched:
+  - pattern: institutional_abdication
+    status: observed
+    variant: "dismantlement by the authority the institution was designed to check"
+    note: "The JAG corps — the institution responsible for independent military legal advice — is being restructured by the defence secretary. TJAGs fired, 600+ JAGs reassigned, authority transferred to political appointees. No visible resistance from serving JAGs."
+  - pattern: capture_pipeline
+    status: inferred
+    variant: "three-stage within military legal system"
+    note: "Stage 1: personnel removal (fired TJAGs, reassigned 600+ JAGs). Stage 2: institutional redesign (duty split directing authority to political appointees). Stage 3: narrative framing ('ruthless review' presenting restructuring as management discipline)."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "'Ruthless review' presented as improving military legal services while operational effect is removing independent legal accountability. 'Clarify roles' presented as deconfliction while structural effect is transferring authority from independent to politically dependent officers."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "compliance signalling to surviving JAGs"
+    note: "Fired TJAGs + 'roadblocks' characterisation + 'ruthless review' = signal to remaining JAGs about the cost of independence. The mechanism operates before specific demands are made — legal advice adjusts toward permissiveness pre-emptively."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "Duty split appears as administrative rationalisation while functioning as authority transfer. Statute requiring independent legal advice remains on the books while the institution that operationalised it is dismantled."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: "operating in reverse — formal structure preserved, operational capacity dismantled"
+    note: "The statutory requirement for independent legal advice is not repealed. The institution that gave it operational effect is hollowed out. The law remains; the function terminates."
+  findings_count: 12
+  commit: null
+  domain_text: Domestic policy / military / legal accountability / JAG corps restructuring / Iran war
+  layers_text: Institutional (primary), Legal & Regulatory (primary), Physical & Coercive, Thought & Narrative
+  null_case_text: rejected (MEDIUM for overlap; LOW for configuration — sequence, timing, direction exceed streamlining)
+
+- id: "2026-03-22-nature-article-nih-pivots-agency-directed-science"
+  file: analyses/2026-03-22-nature-article-nih-pivots-agency-directed-science.md
+  title: "NIH pivots away from agency-directed science — political approval as scientific freedom"
+  date: "2026-03-22"
+  time: "~14:00 UTC"
+  source_url: https://www.nature.com/articles/d41586-026-00823-2
+  source_type: news_article
+  source_position: 5
+  source_position_note: "observer — Nature science journalism with deep source access; anonymous NIH employees (Position 4) speaking to protect jobs; Lauer (Position 5, named, former NIH extramural research chief)"
+  hegemonic_contexts:
+  - technological_progress
+  - western_liberal_democracy
+  layers:
+  - institutional
+  - thought_narrative
+  - legal_regulatory
+  - economic
+  - surveillance_information
+  primary_layers:
+  - institutional
+  - thought_narrative
+  null_case: plausible
+  null_case_detail: "MEDIUM — genuine science policy debate about directed vs investigator-initiated research has intellectual force; weakened by 90%+ scale (elimination not rebalancing), structural contradiction between flexibility framing and political approval chain, stalled congressional mandates, NIH non-response, employees anonymous to protect jobs"
+  ic5_flag: true
+  ic5_note: "Training data overrepresents institutional-scientific perspective; investigator-freedom argument has genuine merit; perspectives of patients with rare/neglected diseases and populations whose health needs are systematically underrepresented in NIH funding absent"
+  adversarial: false
+  sample_origin: true
+  cross_references:
+  - "2026-03-17-nature-article-nih-funding-calls-dismantlement"
+  patterns_matched:
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: null
+    note: "Stated purpose: flexibility and efficiency for investigators. Structural function: elimination of the mechanism through which NIH directed research toward problems the market would not address, combined with insertion of political approval over remaining calls."
+  - pattern: institutional_abdication
+    status: observed
+    variant: "institutional function vacated rather than captured"
+    note: "NIH ceasing to perform its coordinating function — the agency's capacity to identify and fund under-studied problems (rare diseases, large collaborative projects) is being abandoned. Prior analysis (2026-03-17) argued this pattern was not operating; this analysis identifies the vacating of institutional function as abdication."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "'Unsolicited is better' framing presents political control of research direction as scientific freedom. White House approval chain operates behind the flexibility narrative. Congressional mandates formally in force but administratively suspended."
+  - pattern: capture_pipeline
+    status: inferred
+    variant: null
+    note: "Approval chain extended from independent scientific advisory councils to NIH leadership + HHS + White House budget office. Scientific prioritisation converted to political prioritisation through formal administrative process."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "researcher self-censorship on proposal topics"
+    note: "Researchers will avoid topics they anticipate will not survive the political approval chain. NIH employees already speak anonymously. Institutional signals communicate that independence carries career risk. Forward-looking: the approval chain shapes what research is proposed, not just what is approved."
+  findings_count: 10
+  commit: null
+  domain_text: Science policy / NIH funding / institutional abdication / research prioritisation / political control of science
+  layers_text: Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Economic, Surveillance & Information (anonymity condition)
+  null_case_text: plausible (MEDIUM — genuine policy debate has force; 90%+ scale, structural contradiction, congressional mandate delays, institutional silence weaken it)
+
+- id: "2023-07-senate-pressrelease-stop-predatory-investing-act"
+  file: analyses/2023-07-senate-pressrelease-stop-predatory-investing-act.md
+  title: "Stop Predatory Investing Act — legislative response to institutional housing extraction"
+  date: "2026-03-29"
+  time: "~16:00 UTC"
+  source_date: "2023-07"
+  source_name: "Senate Banking Committee (Chair Brown), press release"
+  source_type: government_document
+  position:
+  - 4
+  url: https://www.banking.senate.gov/newsroom/majority/brown-colleagues-introduce-bill-crack-down-big-corporate-investors-buy-up-local-homes-drive-housing-prices
+  domain:
+  - housing
+  layers_primary:
+  - economic
+  - legal_regulatory
+  layers_secondary:
+  - institutional
+  - thought_narrative
+  layers_absent: []
+  null_case: plausible
+  null_case_detail: "MEDIUM-HIGH at component level (legislative delay, universal framing, lack of bipartisan support each have non-power explanations). MEDIUM at configurational level (no committee vote + documented beneficiary lobbying capacity + absent racial dimension exceeds what legislative inertia alone explains)."
+  ic5_flag: true
+  ic5_note: "Training data overrepresents legislative-institutional perspective; renter, community-level, and Black neighbourhood perspectives underrepresented"
+  adversarial: true
+  adversarial_note: "selected to test whether framework produces null-case-plausible result; adversarial ratio 11% against 20% target"
+  sample_origin: false
+  origin: null
+  cross_references: []
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: null
+    note: "Democratic process produced the bill; institutional mechanism prevented the vote. Eight senators, hearings, advocacy coalition — all visible democratic activity. No committee vote after 2+ years — the decision stage is blocked while the proposal stage functions."
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: "housing stock conversion from ownership to rental"
+    note: "Institutional investors purchasing single-family homes at scale, converting from ownership to rental tenure. Cleveland 16% (70% in one zip code), Cincinnati 15% (50% in some communities). Two investors own 12,000+ homes in three Ohio markets."
+  - pattern: wealth_defense_industry
+    status: inferred
+    variant: null
+    note: "No direct evidence of lobbying against this specific bill in the press release, but beneficiaries (institutional investors, real estate industry, financial institutions) have documented lobbying capacity and the bill's failure to receive even a committee vote is consistent with the pattern."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: "tax provisions designed for productive investment subsidising extractive acquisition"
+    note: "Interest deductibility and depreciation — tax code provisions designed for productive real estate investment — subsidise leveraged institutional acquisition of existing housing stock. The inversion is in the tax code, not in the bill."
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: null
+    note: "The bill's existence manages the appearance of democratic responsiveness while the structural arrangement (tax subsidy preserved, no vote) persists."
+  findings_count: 8
+  commit: null
+  domain_text: Housing / institutional investor acquisition / tax policy / racial targeting (absent from source)
+  layers_text: Economic (primary), Legal & Regulatory (primary), Institutional, Thought & Narrative
+  null_case_text: plausible (MEDIUM-HIGH at component level; MEDIUM at configurational level — delay plausible, directionality is not)
+  hegemonic_contexts:
+  - property_rights
+  - market_capitalism
+- id: 2026-03-30-guardian-article-khodorkovsky-salisbury-oligarchy
+  file: analyses/2026-03-30-guardian-article-khodorkovsky-salisbury-oligarchy.md
+  date: '2026-03-30'
+  time: ~16:00 UTC
+  source_date: '2026-03-30'
+  title: "Putin's Salisbury logic and the oligarchy that never was (Guardian/Khodorkovsky interview)"
+  source_name: 'The Guardian, "Putin likely to stage another Salisbury-style attack, exiled oil tycoon says"'
+  source_type: news_article
+  position:
+  - 1
+  - 3
+  - 5
+  url: https://www.theguardian.com/world/2026/mar/30/putin-salisbury-style-attack-exiled-oligarch-mikhail-khodorkovsky
+  domain:
+  - geopolitics
+  - institutional_capture
+  layers_primary:
+  - physical_coercive
+  - economic
+  - institutional
+  layers_secondary:
+  - thought_narrative
+  - legal_regulatory
+  - surveillance_information
+  layers_absent: []
+  null_case: plausible
+  null_case_level: "MEDIUM overall — strongest for predictive claims (unverifiable, self-serving), weakest for structural analysis (corroborated by Guriev-Rachinsky, Schimpfössl, personal experience)"
+  adversarial: false
+  origin: null
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Western media framing of Russian dissidents as democratic heroes; Russian domestic population perspective absent; 1990s privatisation impoverishment underrepresented"
+  cross_references:
+  - 2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation
+  - 2026-03-17-publicnotice-article-trump-russia-nato-iran-strait
+  patterns_matched:
+  - pattern: democracy_oligarchy_coexistence
+    status: observed
+    variant: "IC-1 boundary condition — pattern holds in civil oligarchy, fails in autocratic contexts"
+    note: "Khodorkovsky's direct testimony from Position 1 experience: 'money without any weapons is food for somebody else.' Challenges the pattern's application beyond civil oligarchy. Corroborated by Guriev-Rachinsky (structural vulnerability) and Schimpfössl (state ultimate authority). Pattern requires boundary condition stating mechanism depends on independent legal-institutional framework."
+  - pattern: economy_of_violence
+    status: observed
+    variant: "state demonstration violence against rival power"
+    note: "Salisbury logic: 'not important whether the victim dies or not' — violence calibrated for psychological effect, not elimination. Estonian border massing as threat-without-execution."
+  - pattern: appearance_as_structural_terrain
+    status: inferred
+    variant: "private transaction as state resource positioning"
+    note: "Chelsea sale: appears as private wealth dispute / sanctions compliance; may function as Russian state post-war reconstruction resource (single-source claim). Western sanctions: appear as pressure on oligarchs, function as neutering of Russian agents of influence."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: null
+    note: "European allies 'bending over backwards' to work with Trump — consistent with Greenland and Georgetown SFS analyses."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: inferred
+    variant: "threat-without-execution as power demonstration"
+    note: "Estonian border troop massing to 'flex muscles' — designed to 'have an impact' without the costs of military conflict."
+  findings_count: 10
+  commit: null
+  domain_text: Geopolitics / Russian power structure / Western sanctions policy / oligarchy theory
+  layers_text: Physical & Coercive (primary), Economic (primary), Institutional (primary), Thought & Narrative, Legal & Regulatory, Surveillance & Information
+  null_case_text: "partially plausible (MEDIUM — predictive claims self-serving and unverifiable; structural analysis corroborated by three independent sources)"
+  hegemonic_contexts:
+  - national_security_state
+  - rule_of_law

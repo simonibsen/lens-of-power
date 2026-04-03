@@ -165,10 +165,41 @@ frequently deliberate and always informative.
 Dependency, precarity, social pressure, algorithmic curation, default
 settings, and bureaucratic friction all produce compliance without the
 appearance of coercion. The absence of visible force does not indicate
-the absence of control.
+the absence of control. Nor does the visibility of the mechanism confer
+the capacity to resist it — seven independent domains document that
+subjects who see the coercion clearly comply because the structural
+cost of refusal is prohibitive, the entry point to the relationship
+has been eliminated, or the displacing force has no identifiable agent
+to confront.
 
-> DIRECTIVE: Ask: "What soft mechanisms are producing conformity here?
-> What would a person need in order to resist, and do they have it?"
+> DIRECTIVE: Ask three questions, corresponding to three modes of
+> manufactured compliance:
+>
+> 1. "What soft mechanisms are producing conformity here?" — invisible
+>    manipulation through design: algorithmic curation, default settings,
+>    bureaucratic friction, social pressure. The subject does not see the
+>    mechanism. (Original framing.)
+>
+> 2. "What visible structural constraints make refusal prohibitive?" —
+>    the subject sees the coercion clearly but complies because the
+>    alternative (unemployment, homelessness, destitution, death) is
+>    worse. The mechanism is not hidden; the cost of resistance is
+>    structural. Seven independent sources document this mode: workplace
+>    dependency (Terkel), housing exploitation (Desmond), low-wage
+>    precarity (Ehrenreich), border lethality (De León), structural
+>    violence (Schuller), AI pipeline elimination (Brynjolfsson).
+>
+> 3. "What aggregated structural forces produce compliance without any
+>    identifiable agent demanding it?" — no individual coerces; the
+>    displacement is a product of thousands of individually neutral
+>    decisions that aggregate into racially or economically specific
+>    outcomes. The mechanism is genuinely invisible — not because it is
+>    soft but because it has no agent. (An: institutional investors
+>    produce 4.2pp Black homeownership decline through formally neutral
+>    market behaviour.)
+>
+> Then ask for all three modes: "What would a person need in order to
+> resist, and do they have it?"
 
 ### 10. Understanding is an act of resistance — conditionally
 
