@@ -471,3 +471,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-19-guardian-article-denmark-greenland-us-invasion-preparation.md`, `2026-03-17-publicnotice-article-trump-russia-nato-iran-strait.md`
   File: `2026-03-30-guardian-article-khodorkovsky-salisbury-oligarchy.md`
+
+### 2026-04-05 — Satellite mirror plans and the enclosure of darkness — planetary-scale environmental alteration as regulatory filing
+  Domain: Environment / orbital deployment / planetary commons / circadian biology / regulatory jurisdiction
+  Layers: Institutional (primary), Economic (primary), Thought & Narrative (primary), Legal & Regulatory, Surveillance & Information
+  Null case: partially plausible (MEDIUM-HIGH procedural; MEDIUM substantive; LOW structural — regulatory void is structural, not accidental)
+  IC-5 flag: True
+  Cross-references: `2026-03-02-datasociety-policybrief-big-ai-state.md`, `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`
+  File: `2026-04-05-guardian-article-satellite-mirrors-night-sky-planetary.md`

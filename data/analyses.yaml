@@ -4118,3 +4118,64 @@ entries:
   hegemonic_contexts:
   - national_security_state
   - rule_of_law
+- id: 2026-04-05-guardian-article-satellite-mirrors-night-sky-planetary
+  file: analyses/2026-04-05-guardian-article-satellite-mirrors-night-sky-planetary.md
+  date: '2026-04-05'
+  time: ~19:00 UTC
+  source_date: '2026-04-05'
+  title: "Satellite mirror plans and the enclosure of darkness — planetary-scale environmental alteration as regulatory filing"
+  source_name: 'The Guardian, "Satellite mirror plans could disrupt sleep and ecosystems worldwide, scientists say"'
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/science/2026/apr/05/satellite-mirror-plans-could-disrupt-sleep-and-ecosystems-worldwide-scientists-say
+  domain:
+  - environment
+  layers_primary:
+  - institutional
+  - economic
+  - thought_narrative
+  layers_secondary:
+  - legal_regulatory
+  - surveillance_information
+  layers_absent:
+  - physical_coercive
+  null_case: partially_plausible
+  null_case_level: "MEDIUM-HIGH at procedural level; MEDIUM at substantive level; LOW at structural level"
+  adversarial: false
+  origin: null
+  ic5_flag: true
+  ic5_note: "Training data overrepresents tech-industry perspective on orbital deployment and Western regulatory frameworks. Global South populations, equatorial communities, indigenous astronomical traditions, and non-human biological interests structurally underrepresented."
+  cross_references:
+  - 2026-03-02-datasociety-policybrief-big-ai-state
+  - 2026-02-opensecrets-report-ai-lobbying-defense-kstreet
+  - 2026-03-04-guardian-article-datacenter-politics-nc-primary
+  patterns_matched:
+  - pattern: unprecedented_as_sanctuary
+    status: observed
+    variant: "regulatory void — FCC has no framework for planetary-scale environmental assessment"
+    note: "The FCC regulates radio frequencies and orbital slots, not sky brightness. The regulatory void IS the sanctuary. First corroboration in environmental domain."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: "scale-of-description — both descriptions accurate at different scales"
+    note: "Companies describe a product (targeted illumination, computing efficiency); scientists describe a planetary transformation. The product description renders the planetary dimension invisible within the regulatory filing."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: "routine regulatory filing as appearance for planetary-scale decision"
+    note: "FCC filing (appearance: routine satellite licensing) and planetary environmental alteration (function). The appearance of routine process is the terrain on which a planetary-scale decision is made."
+  - pattern: manufactured_scarcity_as_control
+    status: inferred
+    variant: "enclosure through elimination — darkness made scarce not by restricting access but by unilateral elimination"
+    note: "If illumination can be sold on demand, darkness becomes an enclosed resource. Not the historical enclosure pattern (fencing off) but the pollution pattern (degrading a commons until it ceases to function)."
+  - pattern: dispossession_cycle
+    status: inferred
+    variant: "environmental domain — deploy before regulate"
+    note: "Incursion (deploy satellites), habituation (sky gets brighter), adaptation (regulators develop frameworks after deployment), redirection (new capabilities built on deployed infrastructure). First environmental-domain corroboration."
+  findings_count: 12
+  commit: null
+  domain_text: Environment / orbital deployment / planetary commons / circadian biology / regulatory jurisdiction
+  layers_text: Institutional (primary), Economic (primary), Thought & Narrative (primary), Legal & Regulatory, Surveillance & Information
+  null_case_text: "partially plausible (MEDIUM-HIGH procedural; MEDIUM substantive; LOW structural — regulatory void is structural, not accidental)"
+  hegemonic_contexts:
+  - technological_progress
+  - property_rights
