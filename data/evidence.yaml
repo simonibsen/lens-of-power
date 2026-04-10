@@ -608,3 +608,20 @@ entries:
   - institutional
   - thought_narrative
   relationship: complicates
+- id: 2026-04-10-axiom-6-language-preceded-enforcement-immigration
+  file: evidence/2026-04-10-axiom-6-language-preceded-enforcement-immigration.md
+  title: "Axiom 6 support: illegal alien preceded and enabled the enforcement architecture"
+  date_recorded: "2026-04-10"
+  source: "Garcia Hernandez, Migrating to Prison (2019)"
+  source_url: null
+  evidence_source_type: case_study
+  axioms:
+  - 6
+  patterns:
+  - inversion_of_stated_purpose
+  - constitutive_violence
+  layers:
+  - thought_narrative
+  - legal_regulatory
+  - physical_coercive
+  relationship: supports

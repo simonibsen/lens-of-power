@@ -130,7 +130,7 @@ entries:
     category: "Trade / professional press"
     null_case: rejected
     escalation: analyze
-    escalated_to: null
+    escalated_to: "2026-03-12-defenseone-article-hegseth-ruthless-jag-review"
     axis_tags:
       institution: trade
       domain: [military, politics]
@@ -220,7 +220,7 @@ entries:
     category: "Null-case-likely: Science / nature"
     null_case: plausible
     escalation: analyze
-    escalated_to: null
+    escalated_to: "2026-03-22-nature-article-nih-pivots-agency-directed-science"
     axis_tags:
       institution: academic
       domain: [science, politics]
