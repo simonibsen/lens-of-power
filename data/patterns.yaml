@@ -543,13 +543,19 @@ entries:
     variant: null
     note: EU Rule of Law Cycle's stated purpose is to prevent erosion; documented function is to produce the appearance of
       prevention. 93% recommendation repetition, 61% no progress, zero fully implemented.
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: aid-as-extraction-cover
+    note: 'Strongest documented inversion in the corpus: $100bn ODA per year alongside $1.4tn unequal exchange + $486bn profit
+      repatriation + $1.1tn illicit financial flows. $14-30 extracted per $1 of aid. Development orthodoxy operates as ideological
+      cover.'
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-30-axiom-7-sincere-ideology-as-power
-  confidence_ratio: 0.817
+  confidence_ratio: 0.819
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 93
-  corr_count: 76
+  relevant_corpus_size: 94
+  corr_count: 77
 - id: layered_redundancy_of_control
   name: Layered Redundancy of Control
   file: patterns/layered-redundancy-of-control.md
@@ -721,9 +727,9 @@ entries:
       is the outer ditch; civil society is the fortresses and earthworks.'
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
-  confidence_ratio: 0.234
+  confidence_ratio: 0.232
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 22
 - id: perpetual_threat_as_perpetual_justification
   name: Perpetual Threat as Perpetual Justification
@@ -843,9 +849,9 @@ entries:
     note: The "illegal alien" functions as a permanent internal threat category justifying permanent enforcement architecture.
       The threat is structurally permanent because the legal architecture continuously produces unauthorized status.
   counter_evidence: []
-  confidence_ratio: 0.215
+  confidence_ratio: 0.213
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 93
+  relevant_corpus_size: 94
   corr_count: 20
 - id: manufactured_scarcity_as_control
   name: Manufactured Scarcity as Control
@@ -1054,6 +1060,11 @@ entries:
     variant: null
     note: Institutional investors absorb affordable starter homes targeted by first-time Black homebuyers, creating artificial
       scarcity in homeownership-accessible housing.
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: fiscal scarcity through structural adjustment + extraction
+    note: Drain of $62tn cumulative produces structural fiscal scarcity in Southern economies. SAPs cut subsidies and public-sector
+      wages, forcing households into deeper market dependence. Foreclosure of development resources is empirically quantified.
   counter_evidence:
   - 2026-03-12-axiom-9-workplace-compliance-visible
   - 2026-03-12-axiom-9-housing-compliance-visible
@@ -1065,10 +1076,10 @@ entries:
   - 2026-03-30-axiom-3-market-ideology-racial-displacement
   - 2026-03-30-axiom-9-agentless-structural-displacement
   - 2026-03-30-axiom-10-quantitative-understanding-no-leverage
-  confidence_ratio: 0.333
+  confidence_ratio: 0.34
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 93
-  corr_count: 31
+  relevant_corpus_size: 94
+  corr_count: 32
 - id: temporal_control
   name: Temporal Control
   file: patterns/temporal-control.md
@@ -1102,7 +1113,7 @@ entries:
   counter_evidence: []
   confidence_ratio: 0.032
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 3
 - id: middle_stratum_trap
   name: The Middle Stratum Trap
@@ -1175,7 +1186,7 @@ entries:
   counter_evidence: []
   confidence_ratio: 0.074
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 7
 - id: economy_of_violence
   name: The Economy of Violence
@@ -1224,9 +1235,9 @@ entries:
       but not lethal coercion. Temporal calibration: maximum lethality at the boundary, invisibility thereafter.'
   counter_evidence:
   - 2026-03-09-fanon-economy-of-violence-perspective-asymmetry
-  confidence_ratio: 0.058
+  confidence_ratio: 0.057
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 86
+  relevant_corpus_size: 87
   corr_count: 5
 - id: appearance_as_structural_terrain
   name: Appearance as Structural Terrain
@@ -1697,15 +1708,20 @@ entries:
     variant: null
     note: The monitoring process is the appearance; continued erosion is the reality. Denmark's Rule of Law Index ranking
       is the appearance; documented regression is the reality.
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: price-structure-as-appearance
+    note: Price differentials appear as natural facts; the structural relationship producing them is invisible to ordinary
+      trade accounting. Methodological nationalism functions as the analytical apparatus that maintains the appearance.
   counter_evidence:
   - 2026-03-04-axiom-10-understanding-captured
   - 2026-03-04-axiom-3-contingency-beyond-three-modes
   - 2026-03-06-axiom-8-constitutive-absence
   - 2026-03-30-axiom-7-sincere-ideology-as-power
-  confidence_ratio: 0.785
+  confidence_ratio: 0.787
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 93
-  corr_count: 73
+  relevant_corpus_size: 94
+  corr_count: 74
 - id: hidden_transcript
   name: The Hidden Transcript
   file: patterns/hidden-transcript.md
@@ -1792,9 +1808,9 @@ entries:
     variant: null
     note: Covert collective agreements on override levels. Sabotage as structural response to deskilling.
   counter_evidence: []
-  confidence_ratio: 0.118
+  confidence_ratio: 0.116
   confidence_level: SUPPORTED
-  relevant_corpus_size: 85
+  relevant_corpus_size: 86
   corr_count: 10
 - id: compliance_gradient
   name: The Compliance Gradient
@@ -1919,9 +1935,9 @@ entries:
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
   - 2026-03-24-axiom-9-ai-displacement-compliance-visible
   - 2026-03-30-axiom-9-agentless-structural-displacement
-  confidence_ratio: 0.181
+  confidence_ratio: 0.179
   confidence_level: SUPPORTED
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 17
 - id: ideological_judo
   name: Ideological Judo
@@ -1999,9 +2015,9 @@ entries:
     variant: null
     note: Squatters invoked American democratic values (free land, anti-monopoly) against rancheros to legitimate dispossession.
   counter_evidence: []
-  confidence_ratio: 0.096
+  confidence_ratio: 0.095
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 9
 - id: double_performance
   name: The Double Performance
@@ -2095,9 +2111,9 @@ entries:
     variant: null
     note: Operators performing compliance while exercising control through override manipulation and selective sabotage.
   counter_evidence: []
-  confidence_ratio: 0.128
+  confidence_ratio: 0.126
   confidence_level: SUPPORTED
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 12
 - id: relay_class
   name: The Relay Class
@@ -2168,7 +2184,7 @@ entries:
   counter_evidence: []
   confidence_ratio: 0.074
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 7
 - id: constitutive_violence
   name: Constitutive Violence
@@ -2332,13 +2348,19 @@ entries:
     variant: null
     note: 'Institutional investor targeting operates on terrain constituted by prior racial dispossession: slavery → redlining
       → blockbusting → subprime → institutional acquisition. Quantitatively documented $4B wealth transfer.'
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: wage-differential interventions
+    note: Congo 1960, Indonesia 1965, Chile 1973 — interventions to remove governments that attempted to raise Southern wages
+      and prices. The wage differential is constituted through historical violence, not merely correlated with the institutional
+      architecture.
   counter_evidence:
   - 2026-03-15-axiom-9-structural-violence-compliance-visible
   - 2026-03-30-axiom-3-market-ideology-racial-displacement
-  confidence_ratio: 0.226
+  confidence_ratio: 0.234
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 93
-  corr_count: 21
+  relevant_corpus_size: 94
+  corr_count: 22
 - id: three_phases_of_cultural_resistance
   name: The Three Phases of Cultural Resistance
   file: patterns/three-phases-of-cultural-resistance.md
@@ -2375,9 +2397,9 @@ entries:
 
       control and resistance'
   counter_evidence: []
-  confidence_ratio: 0.022
+  confidence_ratio: 0.021
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 93
+  relevant_corpus_size: 94
   corr_count: 2
 - id: real_time_narrative_saturation
   name: Real-Time Narrative Saturation
@@ -2477,9 +2499,9 @@ entries:
     note: 'Hegemonic dreamwork: contradictions are absorbed through confabulation rather than confronted. The system rewrites
       its history in real time, asserting one narrative today and its opposite tomorrow without rupture.'
   counter_evidence: []
-  confidence_ratio: 0.188
+  confidence_ratio: 0.186
   confidence_level: SUPPORTED
-  relevant_corpus_size: 85
+  relevant_corpus_size: 86
   corr_count: 16
 - id: serial_regime_change
   name: Serial Regime Change
@@ -2583,9 +2605,9 @@ entries:
     note: Venezuela attack (January 3) → Greenland demand (January 4). Same military intervention posture applied serially,
       moving from non-allied state to allied territory.
   counter_evidence: []
-  confidence_ratio: 0.183
+  confidence_ratio: 0.181
   confidence_level: SUPPORTED
-  relevant_corpus_size: 93
+  relevant_corpus_size: 94
   corr_count: 17
 - id: unprecedented_as_sanctuary
   name: The Unprecedented as Sanctuary
@@ -2662,9 +2684,9 @@ entries:
 
       categorize what is happening delays resistance past the point of effectiveness'
   counter_evidence: []
-  confidence_ratio: 0.117
+  confidence_ratio: 0.116
   confidence_level: SUPPORTED
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 11
 - id: dispossession_cycle
   name: The Dispossession Cycle
@@ -2756,9 +2778,9 @@ entries:
 
       resist t...'
   counter_evidence: []
-  confidence_ratio: 0.085
+  confidence_ratio: 0.084
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 8
 - id: division_of_learning
   name: The Division of Learning
@@ -2953,9 +2975,9 @@ entries:
       structural information advantage over individual buyers.
   counter_evidence:
   - 2026-03-30-axiom-10-quantitative-understanding-no-leverage
-  confidence_ratio: 0.304
+  confidence_ratio: 0.301
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 92
+  relevant_corpus_size: 93
   corr_count: 28
 - id: anticipatory_obedience
   name: Anticipatory Obedience
@@ -3147,13 +3169,18 @@ entries:
     variant: null
     note: Journalist self-censorship across EU. Civil society self-censorship in Denmark. CSOs refrain from challenging government
       policy to maintain funding. Slovakia's 500+ hateful Meta ads as signalling mechanism.
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: sovereign-scale race-to-the-bottom
+    note: Southern governments compete with one another to offer cheaper wages and resources to attract foreign investment.
+      Pre-compliance at sovereign scale before any explicit creditor demand. The race-to-the-bottom is the structural form.
   counter_evidence:
   - 2026-03-04-axiom-9-terror-beyond-compliance
   - 2026-03-24-axiom-9-ai-displacement-compliance-visible
-  confidence_ratio: 0.344
+  confidence_ratio: 0.351
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 93
-  corr_count: 32
+  relevant_corpus_size: 94
+  corr_count: 33
 - id: institutional_abdication
   name: Institutional Abdication
   file: patterns/institutional-abdication.md
@@ -3311,9 +3338,9 @@ entries:
   counter_evidence:
   - 2026-03-12-axiom-7-ntsb-stated-purpose-matches-function
   - 2026-03-24-axiom-9-ai-displacement-compliance-visible
-  confidence_ratio: 0.273
+  confidence_ratio: 0.27
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 88
+  relevant_corpus_size: 89
   corr_count: 24
 - id: peacetime_ratchet
   name: The Peacetime Ratchet
@@ -3467,9 +3494,9 @@ entries:
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
   - 2026-03-04-compression-scandinavian-jubilee-counter
-  confidence_ratio: 0.196
+  confidence_ratio: 0.194
   confidence_level: SUPPORTED
-  relevant_corpus_size: 92
+  relevant_corpus_size: 93
   corr_count: 18
 - id: compression_through_destruction
   name: Compression Through Destruction
@@ -3516,7 +3543,7 @@ entries:
   - 2026-03-04-compression-scandinavian-jubilee-counter
   confidence_ratio: 0.032
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 3
 - id: wealth_defense_industry
   name: The Wealth Defense Industry
@@ -3657,11 +3684,16 @@ entries:
     variant: null
     note: Specialised legal class (Britton & Gray, Smith & Redington, Dibblee's Washington lobbying network) serving large
       landholders.
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: international wealth-defense architecture
+    note: IMF, World Bank, WTO, TRIPS as the international-scale equivalent of the wealth-defense industry. G8 majority share
+      of IMF/World Bank votes; market-size-determined WTO bargaining power; 97% Northern patent control bolstered by TRIPS.
   counter_evidence: []
-  confidence_ratio: 0.185
+  confidence_ratio: 0.194
   confidence_level: SUPPORTED
-  relevant_corpus_size: 92
-  corr_count: 17
+  relevant_corpus_size: 93
+  corr_count: 18
 - id: democracy_oligarchy_coexistence
   name: Democracy-Oligarchy Coexistence
   file: patterns/democracy-oligarchy-coexistence.md
@@ -3840,9 +3872,9 @@ entries:
       in one of the world's formally strongest democracies.
   counter_evidence:
   - 2026-03-04-axiom-5-concentration-normative-complexity
-  confidence_ratio: 0.309
+  confidence_ratio: 0.305
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 29
 - id: moral_infrastructure_of_economic_power
   name: The Moral Infrastructure of Economic Power
@@ -3930,11 +3962,17 @@ entries:
     variant: null
     note: Market framing presents racially targeted investment as race-neutral 'market efficiency' — structural dispossession
       reframed as individual competitive failure.
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: methodological nationalism + productivity-wage moral frame
+    note: Methodological nationalism places moral blame on the impoverished for conditions produced by structural extraction.
+      The productivity-wage account moralizes the wage differential ('productive people deserve higher wages') while empirical
+      productivity data refutes the productivity claim.
   counter_evidence: []
-  confidence_ratio: 0.108
+  confidence_ratio: 0.117
   confidence_level: SUPPORTED
-  relevant_corpus_size: 93
-  corr_count: 10
+  relevant_corpus_size: 94
+  corr_count: 11
 - id: capture_pipeline
   name: The Capture Pipeline
   file: patterns/capture-pipeline.md
@@ -4097,11 +4135,16 @@ entries:
     variant: null
     note: Judicial appointment mechanisms across EU states subject to political influence (Malta, Latvia, Bulgaria, Slovakia).
       Media regulatory authority leadership under political control.
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: trade institution capture
+    note: TRIPS as Northern firm preferences enforced through WTO institutional process. Structural adjustment conditionalities
+      as IMF/World Bank policy enforcement of Northern interests. Capture pipeline at international scale.
   counter_evidence: []
-  confidence_ratio: 0.25
+  confidence_ratio: 0.258
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 92
-  corr_count: 23
+  relevant_corpus_size: 93
+  corr_count: 24
 - id: formal_transformation_structural_continuity
   name: Formal Transformation, Structural Continuity
   file: patterns/formal-transformation-structural-continuity.md
@@ -4292,11 +4335,16 @@ entries:
     variant: null
     note: Monitoring framework changes form across cycles (recommendations rephrased, reformulated) without changing substance
       or outcomes. The forms change; the erosion continues.
+  - source_id: hickel-plunder-post-colonial-era
+    source_type: principle
+    variant: post-colonial extraction
+    note: Colonial extraction continues across formal independence. Form changes from direct rule to trade structure, monetary
+      institutions, and patent monopoly. Empirically quantified across the post-colonial period as continuous net drain.
   counter_evidence: []
-  confidence_ratio: 0.309
+  confidence_ratio: 0.316
   confidence_level: ESTABLISHED
-  relevant_corpus_size: 94
-  corr_count: 29
+  relevant_corpus_size: 95
+  corr_count: 30
 - id: structural_demand_for_propaganda
   name: The Structural Demand for Propaganda
   file: patterns/structural-demand-for-propaganda.md
@@ -4365,9 +4413,9 @@ entries:
       The system is sustained through its subjects'' need for coherence, even dysfunctional coherence.'
   counter_evidence:
   - 2026-03-09-propaganda-demand-symmetry-axiom-tension
-  confidence_ratio: 0.085
+  confidence_ratio: 0.084
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 94
+  relevant_corpus_size: 95
   corr_count: 8
 - id: categorical_blindness
   name: Categorical Blindness
@@ -4403,9 +4451,9 @@ entries:
       detect Black faces. ...'
   counter_evidence:
   - 2026-03-06-axiom-8-constitutive-absence
-  confidence_ratio: 0.024
+  confidence_ratio: 0.023
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 85
+  relevant_corpus_size: 86
   corr_count: 2
 - id: boomerang
   name: The Boomerang
@@ -4476,7 +4524,7 @@ entries:
 
       no-fly list. The ...'
   counter_evidence: []
-  confidence_ratio: 0.087
+  confidence_ratio: 0.086
   confidence_level: PRELIMINARY
-  relevant_corpus_size: 92
+  relevant_corpus_size: 93
   corr_count: 8

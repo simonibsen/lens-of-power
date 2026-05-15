@@ -3095,3 +3095,69 @@ entries:
   source_display: "Civil Liberties Union for Europe (Liberties), *Rule of Law Report 2026* (2026)"
   position_display: "5/4 (civil society watchdog network with advocacy function across 22 EU countries)"
   instruments_proposed_display: []
+
+- id: hickel-plunder-post-colonial-era
+  file: principles/hickel-plunder-post-colonial-era.md
+  source_name: "Jason Hickel, Dylan Sullivan & Huzaifa Zoomkawala"
+  source_title: "Plunder in the Post-Colonial Era: Quantifying Drain from the Global South Through Unequal Exchange, 1960–2018"
+  source_year: 2021
+  position:
+  - 5
+  position_note: "academic — economic anthropologist, political economist, independent scholar; LSE, University of Sydney, Karachi"
+  provenance_tier: primary_document
+  layers:
+  - economic
+  - legal_regulatory
+  - institutional
+  - physical_coercive
+  - thought_narrative
+  principles_list:
+  - "Unequal Exchange as Hidden Value Transfer (systematic price asymmetries produce uncompensated transfer through the price structure of the world economy; $2.2tn/year, $62tn cumulative 1960-2017)"
+  - "Monopoly Power as Price-Maintenance Architecture (TRIPS, IMF/World Bank voting, WTO bargaining asymmetry, structural adjustment, corporate monopsony actively maintain the price differential)"
+  - "Border Enforcement as Wage Differential Maintenance (militarized borders prevent labor mobility and international wage convergence; physical-coercive layer load-bearing for Economic layer)"
+  - "Structural Adjustment as Intensifier of Exploitation (price distortion factor doubled from 1.4 to 2.8 during the 1980s-1990s through specific IMF/World Bank policy intervention)"
+  - "Methodological Nationalism as Ideological Cover for Structural Extraction (the analytical frame locating poverty in domestic factors is itself a feature of the extractive system)"
+  - "Wage-Productivity Inversion (Southern workers often more productive than Northern counterparts at one-fifth the wage; the productivity-wage account inverts the actual causation)"
+  - "Government Removal as Wage-Defense Mechanism (Congo 1960, Indonesia 1965, Chile 1973 — physical-coercive backstop of the extraction architecture)"
+  - "The Aid-Drain Asymmetry ($14-30 extracted for every $1 of aid; the donor-recipient framework inverts the actual direction of net value flow)"
+  key_patterns:
+  - pattern: manufactured_scarcity_as_control
+    variant: "fiscal scarcity through structural adjustment + extraction"
+    note: "Drain of $62tn cumulative produces structural fiscal scarcity in Southern economies. SAPs cut subsidies and public-sector wages, forcing households into deeper market dependence. Foreclosure of development resources is empirically quantified."
+  - pattern: inversion_of_stated_purpose
+    variant: "aid-as-extraction-cover"
+    note: "Strongest documented inversion in the corpus: $100bn ODA per year alongside $1.4tn unequal exchange + $486bn profit repatriation + $1.1tn illicit financial flows. $14-30 extracted per $1 of aid. Development orthodoxy operates as ideological cover."
+  - pattern: wealth_defense_industry
+    variant: "international wealth-defense architecture"
+    note: "IMF, World Bank, WTO, TRIPS as the international-scale equivalent of the wealth-defense industry. G8 majority share of IMF/World Bank votes; market-size-determined WTO bargaining power; 97% Northern patent control bolstered by TRIPS."
+  - pattern: appearance_as_structural_terrain
+    variant: "price-structure-as-appearance"
+    note: "Price differentials appear as natural facts; the structural relationship producing them is invisible to ordinary trade accounting. Methodological nationalism functions as the analytical apparatus that maintains the appearance."
+  - pattern: capture_pipeline
+    variant: "trade institution capture"
+    note: "TRIPS as Northern firm preferences enforced through WTO institutional process. Structural adjustment conditionalities as IMF/World Bank policy enforcement of Northern interests. Capture pipeline at international scale."
+  - pattern: formal_transformation_structural_continuity
+    variant: "post-colonial extraction"
+    note: "Colonial extraction continues across formal independence. Form changes from direct rule to trade structure, monetary institutions, and patent monopoly. Empirically quantified across the post-colonial period as continuous net drain."
+  - pattern: anticipatory_obedience
+    variant: "sovereign-scale race-to-the-bottom"
+    note: "Southern governments compete with one another to offer cheaper wages and resources to attract foreign investment. Pre-compliance at sovereign scale before any explicit creditor demand. The race-to-the-bottom is the structural form."
+  - pattern: constitutive_violence
+    variant: "wage-differential interventions"
+    note: "Congo 1960, Indonesia 1965, Chile 1973 — interventions to remove governments that attempted to raise Southern wages and prices. The wage differential is constituted through historical violence, not merely correlated with the institutional architecture."
+  - pattern: moral_infrastructure_of_economic_power
+    variant: "methodological nationalism + productivity-wage moral frame"
+    note: "Methodological nationalism places moral blame on the impoverished for conditions produced by structural extraction. The productivity-wage account moralizes the wage differential ('productive people deserve higher wages') while empirical productivity data refutes the productivity claim."
+  ic1_flags:
+  - axiom: 3
+    note: "Strongest quantitative anchor in the corpus for invisible-mechanism axiom in Economic layer. The price-structure mechanism is invisible not because it is concealed but because prices appear as natural facts. $62tn cumulative drain operates through ordinary trade accounting."
+  - axiom: 7
+    note: "Strongest stated-purpose-vs-function case in the corpus. ODA ($100bn) and net extraction ($1.4tn+) are not merely different but inverted — the donor is structurally the recipient and vice versa."
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "Economic (primary), Legal & Regulatory, Institutional, Physical & Coercive, Thought & Narrative"
+  key_patterns_display: "Manufactured Scarcity as Control, Inversion of Stated Purpose, Wealth Defense Industry, Appearance as Structural Terrain, Capture Pipeline, Formal Transformation/Structural Continuity, Anticipatory Obedience, Constitutive Violence, Moral Infrastructure of Economic Power"
+  source_display: 'Jason Hickel, Dylan Sullivan & Huzaifa Zoomkawala, "Plunder in the Post-Colonial Era: Quantifying Drain from the Global South Through Unequal Exchange, 1960–2018," *New Political Economy* 26(6): 1030–1047 (2021)'
+  position_display: "5 (academic — peer-reviewed quantitative analysis within world-systems / unequal-exchange tradition)"
+  instruments_proposed_display: []
+  source_type_display: primary_document
