@@ -479,3 +479,11 @@
   IC-5 flag: True
   Cross-references: `2026-03-02-datasociety-policybrief-big-ai-state.md`, `2026-02-opensecrets-report-ai-lobbying-defense-kstreet.md`, `2026-03-04-guardian-article-datacenter-politics-nc-primary.md`
   File: `2026-04-05-guardian-article-satellite-mirrors-night-sky-planetary.md`
+
+### 2026-04-29 — 'Suicidal capitalism' at Santa Marta — the debt-fossil-fuel feedback loop and the limits of a forum without finance
+  Domain: Energy economics / climate diplomacy / sovereign debt / multilateral forum dynamics / energy transition
+  Layers: Economic (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Physical & Coercive (latent — named by Petro as predicted endpoint)
+  Null case: partially plausible (MEDIUM procedural/substantive; LOW structural — institutional separation between climate forum and debt-enforcement venues is a feature of the architecture, not an oversight)
+  IC-5 flag: True
+  Cross-references: `2026-04-05-guardian-article-satellite-mirrors-night-sky-planetary.md`, `2026-03-08-guardian-article-africa-reparative-justice.md`
+  File: `2026-05-12-guardian-article-santa-marta-fossil-fuel-summit.md`
