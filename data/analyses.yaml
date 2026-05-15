@@ -4179,3 +4179,73 @@ entries:
   hegemonic_contexts:
   - technological_progress
   - property_rights
+- id: 2026-05-12-guardian-article-santa-marta-fossil-fuel-summit
+  file: analyses/2026-05-12-guardian-article-santa-marta-fossil-fuel-summit.md
+  date: '2026-05-12'
+  time: ~17:30 UTC
+  source_date: '2026-04-29'
+  title: "'Suicidal capitalism' at Santa Marta — the debt-fossil-fuel feedback loop and the limits of a forum without finance"
+  source_name: 'The Guardian, "‘Suicidal’ model of capitalism leading to war and fascism, climate summit told"'
+  source_type: news_article
+  position:
+  - 5
+  url: https://www.theguardian.com/environment/2026/apr/29/capitalism-colombia-climate-summit-gustavo-petro
+  domain:
+  - energy_economics
+  - international_governance
+  layers_primary:
+  - economic
+  - institutional
+  - thought_narrative
+  layers_secondary:
+  - legal_regulatory
+  layers_absent:
+  - surveillance_information
+  - physical_coercive
+  null_case: partially_plausible
+  null_case_level: "MEDIUM at procedural and substantive levels; LOW at structural level (institutional separation between climate forum and debt-enforcement venues is a feature, not an accident)"
+  adversarial: false
+  origin: null
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Anglo-Atlantic climate-policy discourse. Latin American left-developmentalist thought (Galeano, contemporary buen vivir / post-extractivism), African debt-justice activist analyses, Indigenous Colombian perspectives, and specific debt-mechanics expertise (IMF conditionality, private creditor contracts) underrepresented. Framework's existing corpus is also weaker on Latin American political economy than on US/Western — a framework-level IC-7 finding."
+  cross_references:
+  - 2026-04-05-guardian-article-satellite-mirrors-night-sky-planetary
+  - 2026-03-08-guardian-article-africa-reparative-justice
+  patterns_matched:
+  - pattern: moral_infrastructure_of_economic_power
+    status: observed
+    variant: "debt-as-obligation compelling fossil-fuel expansion"
+    note: "Berman/Muhamad document the mechanism by which sovereign-debt service requirements force fossil-fuel-producing global south countries to expand production. Nacpil's naming of debts as 'predatory, unsustainable and illegitimate' is the counter-moral move against the debt-as-obligation framework."
+  - pattern: manufactured_scarcity_as_control
+    status: observed
+    variant: "fiscal scarcity through debt service — forecloses fiscal space for transition"
+    note: "Berman: 'It is impossible for countries to even imagine a fossil fuel transition with such limited fiscal space.' Muhamad: countries 'cannot afford imports such as medicines, fertilisers and technology without the revenues from exporting fossil fuels.' Scarcity is not of energy or capacity but of fiscal room to redirect — a debt-mediated variant."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: "subsidy and regulation function inversion"
+    note: "Banking regulations stated to ensure financial stability permit the fossil-fuel industry to assess its own climate risk (Robins/WRI). $1.5tn in annual subsidies stated to ensure energy security flows to the industries climate policy claims to phase out (Roberts/E3G)."
+  - pattern: wealth_defense_industry
+    status: observed
+    variant: "industry self-assessment as wealth defence under banking regulation"
+    note: "Robins names the fossil-fuel industry's capacity to assess its own climate risk as the specific mechanism. The industry is positioned as the assessor of the risk its operations produce, structurally preserving the asset base."
+  - pattern: formal_transformation_structural_continuity
+    status: observed
+    variant: "energy-hegemon export structure preserved across fuel transition"
+    note: "France's 'electricity Saudi Arabia of Europe' framing. The fuel changes (fossil → renewable + nuclear); the political-economic form (state exporting energy to dependent neighbours) does not. Faraco's statement is the explicit articulation of structural continuity."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: "forum-as-conversation acknowledged from inside"
+    note: "Roberts/E3G: 'Santa Marta was never going to be the place to produce a big new number on finance for the transition away from fossil fuels.' The appearance/function gap is stated openly by a participating analyst — appearance (57 governments, head-of-state framing, national roadmaps) for a forum with no binding authority over the financial constraints it names."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "pre-compliance with sovereign-debt obligations through fossil-fuel expansion"
+    note: "Debt-burdened countries expand fossil-fuel production to service obligations creditors have not yet escalated to coercive enforcement. The pre-compliance is structural: expansion happens because default is treated as unthinkable. Aggregate behaviour rather than individual decision."
+  findings_count: 14
+  commit: null
+  domain_text: Energy economics / climate diplomacy / sovereign debt / multilateral forum dynamics / energy transition
+  layers_text: Economic (primary), Institutional (primary), Thought & Narrative (primary), Legal & Regulatory, Physical & Coercive (latent — named by Petro as predicted endpoint)
+  null_case_text: "partially plausible (MEDIUM procedural/substantive; LOW structural — institutional separation between climate forum and debt-enforcement venues is a feature of the architecture, not an oversight)"
+  hegemonic_contexts:
+  - market_capitalism
+  - nation_state_sovereignty
+  - growth_imperative
