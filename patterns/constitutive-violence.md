@@ -39,6 +39,8 @@ obligation rather than a historical fact.
 
 NOTE: Mishra (2014) adds a consumptive dimension — colonial violence not only established the current distribution but consumed the material conditions that would allow others to follow the same path. The violence is doubly constitutive: it creates the order AND forecloses alternatives. Reparations-naming variant: the word "reparations" would convert constitutive violence from an invisible substrate into a named liability — Germany paid €1.1bn to Namibia for the Herero-Nama genocide but refused to call it "reparations" because the category would transform voluntary generosity into obligatory redress, threatening the post-colonial economic arrangement (Guardian, March 2026).
 
+NOTE: Magnifica Humanitas ([Leo XIV, 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md)) provides a digital-economy variant: the seemingly immaterial AI stack rests on bodies "scarred, injured and worn down so that computational flow may continue uninterruptedly" — data-labelers and content-moderators (predominantly young women) and rare-earth miners (including children). The encyclical names the hidden labor chain as the constitutive violence beneath societies that present themselves as "advanced" and "civilized" (¶173).
+
 ---
 
 ## Evidence trail

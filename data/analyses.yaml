@@ -4249,3 +4249,89 @@ entries:
   - market_capitalism
   - nation_state_sovereignty
   - growth_imperative
+- id: 2026-05-28-holysee-encyclical-magnifica-humanitas-ai
+  file: analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md
+  date: '2026-05-28'
+  time: ~19:30 UTC
+  source_date: '2026-05-15'
+  title: "Magnifica Humanitas — the Church as interpreter of the AI age"
+  source_name: 'Pope Leo XIV / The Holy See, Encyclical Letter "Magnifica Humanitas" (On Safeguarding the Human Person in the Time of Artificial Intelligence)'
+  source_type: encyclical
+  position:
+  - 1
+  - 5
+  url: https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html
+  domain:
+  - ai_policy
+  layers_primary:
+  - thought_narrative
+  - institutional
+  layers_secondary:
+  - economic
+  - surveillance_information
+  - legal_regulatory
+  - physical_coercive
+  layers_absent: []
+  null_case: plausible
+  null_case_level: "MEDIUM-HIGH — sincere continuation of a 135-year doctrinal tradition fully fits the evidence; the power reading is co-present rather than rival. The framework adds a frame-level operation (defining 'the human', Axiom 6/IC-7) that is largely independent of motive."
+  adversarial: false
+  origin: null
+  ic5_flag: true
+  ic5_note: "Training data overrepresents Vatican self-presentation, Western secular commentary on the Church, and 'responsible AI' discourse. The analytical instrument (Claude, Anthropic) is itself a product of the AI industry the encyclical critiques — a recursive IC-5/IC-7 condition. Underrepresented: the lived perspective of the gig workers, data-labelers, content-moderators, and rare-earth miners the encyclical names but does not let speak; Global South populations subject to data colonialism; and non-Catholic/non-Christian accounts of personhood and of the Church's standing to define 'the human'."
+  cross_references:
+  - 2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement
+  - 2025-11-stanford-academic-paper-ai-employment-canaries
+  - 2026-05-12-guardian-article-santa-marta-fossil-fuel-summit
+  - 2026-03-26-guardian-article-hegseth-pentagon-prayer-violence
+  - 2026-03-08-guardian-article-africa-reparative-justice
+  - 2026-03-02-datasociety-policybrief-big-ai-state
+  patterns_matched:
+  - pattern: division_of_learning
+    status: observed
+    variant: "Position 1 (Vatican) restatement"
+    note: "Para 95, 109, 171 restate the pattern nearly verbatim: epistemic, economic and political asymmetry between those who control data, infrastructure and compute and those who are 'merely subjected to' the models. Notable because a Position 1 institution independently arrives at a pattern derived from Position 5 (Zuboff)."
+  - pattern: unprecedented_as_sanctuary
+    status: observed
+    variant: null
+    note: "Para 106: AI advancing ahead of 'awareness, norms, safeguards and institutions', with change 'presented as necessary and inevitable, ultimately imposing rules shaped by those who control data, infrastructure and computing power'."
+  - pattern: inversion_of_stated_purpose
+    status: observed
+    variant: "AI neutrality veneer"
+    note: "Para 102-104: algorithmic exclusion 'cloaked in a veneer of neutrality and objectivity'; AI 'present[s] itself as neutral and objective' while reflecting and reinforcing the bias of its designers — stated purpose (objective decision) inverts to function (unaccountable exclusion)."
+  - pattern: appearance_as_structural_terrain
+    status: observed
+    variant: null
+    note: "The neutrality/objectivity veneer is the operating terrain on which automated exclusion proceeds 'without the possibility of appeal' and 'against which it becomes difficult to raise objections' (para 103-104)."
+  - pattern: perpetual_threat_as_perpetual_justification
+    status: observed
+    variant: "false realism / war as inevitable"
+    note: "Para 204-205: a 'false realism' grounded in 'the cultural and anthropological belief that war is an inevitable part of human nature' justifies rearmament and the erosion of limits; perpetual threat as perpetual justification at civilizational scale."
+  - pattern: constitutive_violence
+    status: observed
+    variant: "hidden labor chain of the digital economy"
+    note: "Para 173: the digital economy rests on bodies 'scarred, injured and worn down so that computational flow may continue uninterruptedly' — data-labelers, content-moderators, and rare-earth miners (predominantly young women and, in extraction, children) as the violent substrate of AI."
+  - pattern: boomerang
+    status: observed
+    variant: "data colonialism"
+    note: "Para 178: extraction methods applied to 'regions marked by structural fragility and limited geopolitical relevance' generate 'the new rare earths of power' (health, genetic, demographic data) — 'colonialism in another form', often collected 'under the pretext of aid'. A data-extraction variant of periphery-to-center method migration; restates Hickel's aid-drain asymmetry in theological idiom."
+  - pattern: anticipatory_obedience
+    status: inferred
+    variant: "civilizational-scale resignation to technological/military inevitability"
+    note: "Para 212: 'a polite form of resignation, often disguised as realism' — pre-compliance with the framing that AI deployment and war are inevitable. Named and explicitly resisted by the encyclical."
+  - pattern: real_time_narrative_saturation
+    status: observed
+    variant: null
+    note: "Para 190, 192: 'algorithms that prioritize conflict and confrontation' and fragmented information environments magnify polarization and make shared discernment harder."
+  - pattern: moral_infrastructure_of_economic_power
+    status: observed
+    variant: "inverse — moral vocabulary wielded against economic power"
+    note: "First inverse instance in the corpus: the encyclical itself deploys a moral vocabulary, but to hold technological/economic power to a moral standard rather than to enlist subjects into compliance with it (Ideological Judo register)."
+  findings_count: 11
+  commit: null
+  domain_text: AI policy / Catholic social doctrine / moral authority / technology governance / war and peace
+  layers_text: Thought & Narrative (primary), Institutional (primary), Economic, Surveillance & Information, Legal & Regulatory, Physical & Coercive (the last four active as objects of the encyclical's own analysis)
+  null_case_text: "plausible (MEDIUM-HIGH — sincere continuation of a 135-year doctrinal tradition fully fits; framework adds a frame-level Axiom 6/IC-7 dimension that is independent of motive)"
+  hegemonic_contexts:
+  - technological_progress
+  - market_capitalism
+  - growth_imperative

@@ -48,6 +48,8 @@ NOTE: Related to Serial Regime Change (same techniques across targets) and Const
 
 NOTE: Roshchyna/ghost detainees ([Forbidden Stories 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-03-02-forbiddenstories-investigation-roshchyna-ghost-detainees.md)) adds temporal Boomerang: gulag-era methods (reception beatings, institutionalized torture, extrajudicial detention of civilians) applied to occupied Ukrainian population. The article explicitly describes SIZO-2 as "reminiscent of the worst Soviet gulags." Church Committee COINTELPRO (1976) provides the earliest primary-source documentation: wartime counterintelligence techniques transferred wholesale to domestic populations without formal authorization — the Bureau described as running "a sophisticated vigilante operation against domestic enemies."
 
+NOTE: Magnifica Humanitas ([Leo XIV, 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md)) provides a data-colonialism variant: extraction methods applied to "regions marked by structural fragility and limited geopolitical relevance" — health, genetic and demographic data, "the new rare earths of power," often gathered "under the pretext of aid" — are named as "colonialism in another form" (¶178). The periphery-to-center migration of method operates on data rather than bodies; restates Hickel's aid-drain asymmetry in theological idiom.
+
 ---
 
 ## Evidence trail

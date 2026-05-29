@@ -487,3 +487,11 @@
   IC-5 flag: True
   Cross-references: `2026-04-05-guardian-article-satellite-mirrors-night-sky-planetary.md`, `2026-03-08-guardian-article-africa-reparative-justice.md`
   File: `2026-05-12-guardian-article-santa-marta-fossil-fuel-summit.md`
+
+### 2026-05-15 — Magnifica Humanitas — the Church as interpreter of the AI age
+  Domain: AI policy / Catholic social doctrine / moral authority / technology governance / war and peace
+  Layers: Thought & Narrative (primary), Institutional (primary), Economic, Surveillance & Information, Legal & Regulatory, Physical & Coercive (the last four active as objects of the encyclical's own analysis)
+  Null case: plausible (MEDIUM-HIGH — sincere continuation of a 135-year doctrinal tradition fully fits; framework adds a frame-level Axiom 6/IC-7 dimension that is independent of motive)
+  IC-5 flag: True
+  Cross-references: `2026-03-14-conversation-article-transhumanism-billionaires-tech-enhancement.md`, `2025-11-stanford-academic-paper-ai-employment-canaries.md`, `2026-05-12-guardian-article-santa-marta-fossil-fuel-summit.md`, `2026-03-26-guardian-article-hegseth-pentagon-prayer-violence.md`, `2026-03-08-guardian-article-africa-reparative-justice.md`, `2026-03-02-datasociety-policybrief-big-ai-state.md`
+  File: `2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md`

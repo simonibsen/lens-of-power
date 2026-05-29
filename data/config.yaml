@@ -189,6 +189,7 @@ analysis_source_types:
   - multi_source
   - organizational
   - data_profile
+  - encyclical
 
 # Source types for evidence entries (what kind of evidence it is)
 evidence_source_types:
@@ -209,6 +210,7 @@ provenance_tiers:
 null_case_outcomes:
   - accepted
   - plausible
+  - partially_plausible
   - rejected
 
 finding_statuses:
