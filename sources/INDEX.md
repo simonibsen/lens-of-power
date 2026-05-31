@@ -50,3 +50,17 @@ ARCHIVE: [Publisher (Taylor & Francis)](https://www.tandfonline.com/doi/full/10.
 EXTRACTION STATUS: Full paper extracted, 8 principles, 9 patterns corroborated
 
 QUOTE STATUS: verbatim with page references
+
+## magnifica-humanitas-encyclical.md
+
+SOURCE: Pope Leo XIV / The Holy See, Encyclical Letter "Magnifica Humanitas" (On Safeguarding the Human Person in the Time of Artificial Intelligence) (15 May 2026)
+
+SOURCE TYPE: primary_document
+
+HASH: sha256:c545a74cbc0bbbf6242f49bb942afb458c90e9ddc6f0eb923b9eac8d63e63cd1
+
+ARCHIVE: [Holy See (vatican.va)](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html)
+
+EXTRACTION STATUS: Analyzed (ANALYZE mode) and partially extracted — 10 descriptive principles from Chapters 3-5. See analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md and principles/leo-xiv-magnifica-humanitas.md. Chapters 1-2 (doctrinal history; normative theological principles) and Intro/Conclusion not extracted.
+
+QUOTE STATUS: verbatim with paragraph references

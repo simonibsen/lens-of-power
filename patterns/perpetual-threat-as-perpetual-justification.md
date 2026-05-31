@@ -17,6 +17,8 @@ threats remained active.
 
 NOTE: Economic-reinforcement variant: when the war economy generates positive-sum returns for the domestic population (arms exports, military-tech sector growth), the perpetual threat frame is reinforced by prosperity rather than just fear. The standard cost-based circuit-breaker (war costs trigger democratic course-correction) does not operate. Observed: Israeli military-tech boom and arms exports funding popular support for permanent war (Guardian, March 2026). Hegseth's "this is not Iraq, this is not endless" (2026-03-02) confirms the administration recognizes the Serial Regime Change parallel as politically dangerous enough to preempt.
 
+NOTE: Magnifica Humanitas ([Leo XIV, 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md)) names the civilizational variant directly: a "false realism" grounded in "the cultural and anthropological belief that war is an inevitable part of human nature" justifies open-ended rearmament and the erosion of the limits ("just war," humanitarian law) that previously constrained force (¶204–205). The encyclical treats the inevitability framing itself — not any specific threat — as the mechanism.
+
 ---
 
 ## Evidence trail

@@ -3161,3 +3161,68 @@ entries:
   position_display: "5 (academic — peer-reviewed quantitative analysis within world-systems / unequal-exchange tradition)"
   instruments_proposed_display: []
   source_type_display: primary_document
+- id: leo-xiv-magnifica-humanitas
+  file: principles/leo-xiv-magnifica-humanitas.md
+  source_name: "Pope Leo XIV / The Holy See"
+  source_title: "Magnifica Humanitas: On Safeguarding the Human Person in the Time of Artificial Intelligence (Chapters 3-5)"
+  source_year: 2026
+  position:
+  - 1
+  - 5
+  position_note: "institutional sovereign — the magisterium of the Catholic Church, writing in an adopted observer/moral-analyst voice; descriptive principles extracted from Chapters 3-5, deliberately separated from the encyclical's normative theological principles"
+  provenance_tier: primary_document
+  layers:
+  - thought_narrative
+  - economic
+  - surveillance_information
+  - physical_coercive
+  - institutional
+  - legal_regulatory
+  principles_list:
+  - "Technology as Non-Neutral Inheritance (a technology is never neutral; it carries the priorities of those who devise, finance, regulate and use it, and the 'neutral tool' framing conceals embedded interest by misdirecting scrutiny from design to use)"
+  - "The Privatization of Technological Sovereignty (when private transnational actors exceed states in resources and capacity, the governing functions of setting access, visibility and participation relocate from accountable public to unaccountable private hands)"
+  - "Opacity Voids Accountability (systems 'cultivated, not built' cannot be reconstructed, so responsibility cannot be assigned; the resulting exclusion is cloaked as neutral objectivity and made unappealable)"
+  - "Technical Power Is Not a Title to Govern (the slippage from capacity-to-build to authority-to-rule is a naturalization to be contested; 'disarming' means breaking monopoly control and reopening the technology to political contestation)"
+  - "The Architecture of Visibility (control via amplification/suppression and reward/penalty produces conformity and self-censorship without prohibition; the attention economy is its engine, treating the person as means)"
+  - "Resource-Enabled Imposition of Truth (actors commanding sufficient resources can impose what others accept as true independent of its truth; 'pure power detached from truth' degrades democracy's factual ground)"
+  - "Data Colonialism — Extraction Under the Pretext of Aid (health/genetic/demographic data taken from fragile regions 'under the pretext of aid' become 'the new rare earths of power'; colonialism in dematerialized form)"
+  - "The Constitutive Labor Chain of the Digital Economy (every 'immediate and flawless' output rests on hidden labelers, moderators and miners whose bodies bear the cost; concealment produces the appearance of immateriality)"
+  - "Threshold-Lowering by Automation of Force (delegating lethal/irreversible decisions to automated, opaque systems lowers the threshold for force by outpacing judgment, de-facing the target, and diffusing responsibility)"
+  - "False Realism as Manufactured Resignation (the claim that war/domination is inevitable functions as a mechanism producing resignation, not a description; civilizational-scale anticipatory obedience)"
+  key_patterns:
+  - pattern: division_of_learning
+    variant: "Position 1 statement of epistemic asymmetry"
+    note: "P2/P3/P5/P7: those who control data, infrastructure and compute set the terms of access and visibility while those subjected to the models cannot see or audit them. A Position 1 institution independently states the mechanism the framework derived from Zuboff (Position 5)."
+  - pattern: inversion_of_stated_purpose
+    variant: "neutral-tool / objective-system inversion"
+    note: "P1/P3/P7/P9: the 'neutral tool', the 'objective' algorithm, 'aid'-framed data collection, and 'defense' each invert to their function (carrying embedded interest, unaccountable exclusion, extraction, threat-prediction)."
+  - pattern: appearance_as_structural_terrain
+    variant: "objectivity as operating terrain"
+    note: "P1/P3: the veneer of neutrality and objectivity is the terrain on which automated exclusion proceeds 'without the possibility of appeal'."
+  - pattern: unprecedented_as_sanctuary
+    variant: "technical novelty as claim to authority"
+    note: "P4: technical capability is treated as self-authorizing and change is 'presented as necessary and inevitable', operating ahead of norms and institutions."
+  - pattern: anticipatory_obedience
+    variant: "self-censorship and civilizational resignation"
+    note: "P5 (self-censorship under the architecture of visibility) and P10 (false realism as resignation) are pre-compliance before any explicit demand."
+  - pattern: constitutive_violence
+    variant: "the digital labor chain"
+    note: "P8: the digital economy is constituted through the bodily cost borne by hidden labelers, moderators, and rare-earth miners; concealment of the chain is load-bearing."
+  - pattern: boomerang
+    variant: "data colonialism"
+    note: "P7: extraction methods concentrated at structurally fragile, geopolitically marginal regions generate 'the new rare earths of power'; colonialism in dematerialized form, often under the pretext of aid."
+  - pattern: perpetual_threat_as_perpetual_justification
+    variant: "false realism / war as inevitable"
+    note: "P10 (war framed as an inevitable feature of human nature) and P9 (force as the optimized default) sustain open-ended rearmament and the erosion of limits."
+  - pattern: democracy_oligarchy_coexistence
+    variant: "private power exceeding states"
+    note: "P2: governing functions (access, visibility, participation) are exercised by private actors whose scale exceeds the states nominally regulating them, without corresponding accountability."
+  ic1_flags: []
+  instruments_proposed: []
+  instruments_produced: []
+  layers_text: "Thought & Narrative (primary), Economic, Surveillance & Information, Physical & Coercive, Institutional, Legal & Regulatory"
+  key_patterns_display: "Division of Learning, Inversion of Stated Purpose, Appearance as Structural Terrain, The Unprecedented as Sanctuary, Anticipatory Obedience, Constitutive Violence, The Boomerang, Perpetual Threat as Perpetual Justification, Democracy-Oligarchy Coexistence"
+  source_display: 'Pope Leo XIV / The Holy See, Encyclical Letter "Magnifica Humanitas" (15 May 2026), Chapters 3-5'
+  position_display: "1/5 (institutional magisterium writing in an observer/moral-analyst voice)"
+  instruments_proposed_display: []
+  source_type_display: primary_document

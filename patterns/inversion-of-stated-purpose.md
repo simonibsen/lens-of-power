@@ -7,6 +7,8 @@ MECHANISM: Naming a system for a desirable outcome (truth, peace, security,
 freedom) prevents scrutiny of its actual function by making criticism appear
 to oppose the desirable outcome itself.
 
+NOTE: Magnifica Humanitas ([Leo XIV, 2026](https://github.com/simonibsen/lens-of-power/blob/main/analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md)) — AI "present[s] itself as neutral and objective" while reflecting and reinforcing the bias of its designers; algorithmic exclusion proceeds "cloaked in a veneer of neutrality and objectivity" against which it becomes difficult to object (¶102–104). Stated purpose (objective decision) inverts to function (unaccountable exclusion); the encyclical names the neutrality claim itself as the mechanism.
+
 ---
 
 ## Evidence trail

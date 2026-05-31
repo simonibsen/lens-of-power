@@ -42,3 +42,14 @@ entries:
   archive_labels:
     https://static1.squarespace.com/static/59bc0e610abd04bd1e067ccc/t/60642e4f3bd29a1c5bb36e31/1617178208144/Hickel+et+al+-+Plunder+in+the+post-colonial+era.pdf: Author's hosted copy (jasonhickel.org)
     https://www.tandfonline.com/doi/full/10.1080/13563467.2021.1899153: Publisher (Taylor & Francis)
+- id: magnifica-humanitas-encyclical
+  file: sources/magnifica-humanitas-encyclical.md
+  source: 'Pope Leo XIV / The Holy See, Encyclical Letter "Magnifica Humanitas" (On Safeguarding the Human Person in the Time of Artificial Intelligence) (15 May 2026)'
+  provenance_tier: primary_document
+  hash: sha256:c545a74cbc0bbbf6242f49bb942afb458c90e9ddc6f0eb923b9eac8d63e63cd1
+  archive_urls:
+  - https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html
+  extraction_status: 'Analyzed (ANALYZE mode) and partially extracted — 10 descriptive principles from Chapters 3-5. See analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md and principles/leo-xiv-magnifica-humanitas.md. Chapters 1-2 (doctrinal history; normative theological principles) and Intro/Conclusion not extracted.'
+  quote_status: verbatim with paragraph references
+  archive_labels:
+    https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html: Holy See (vatican.va)
