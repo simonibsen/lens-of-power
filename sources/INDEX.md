@@ -61,6 +61,6 @@ HASH: sha256:c545a74cbc0bbbf6242f49bb942afb458c90e9ddc6f0eb923b9eac8d63e63cd1
 
 ARCHIVE: [Holy See (vatican.va)](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html)
 
-EXTRACTION STATUS: Analyzed in ANALYZE mode (not extracted) — see analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md; 10 patterns corroborated
+EXTRACTION STATUS: Analyzed (ANALYZE mode) and partially extracted — 10 descriptive principles from Chapters 3-5. See analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md and principles/leo-xiv-magnifica-humanitas.md. Chapters 1-2 (doctrinal history; normative theological principles) and Intro/Conclusion not extracted.
 
 QUOTE STATUS: verbatim with paragraph references

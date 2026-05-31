@@ -64,6 +64,8 @@ simultaneously.
 
 NOTE: Chen (2026) documents a specific mechanism: state equity investment ($10B+) with deliberate refusal of governance (no board seats, worker protections characterized as "ideological agendas," Sanders/Warren public-benefit alternative rejected). The democratic state invests public capital but declines every tool that would convert investment into public accountability. This is the pattern operating through industrial policy — not as structural default but as explicit design choice. Openly-displayed variant: Ellison/Paramount-WBD acquisition (Variety 2026) documents political connections advertised as competitive regulatory advantage without concealment. Ellison "was not shy at all about touting that connection as a key advantage for Paramount in the regulatory review process." The formal regulatory process (FCC, HSR antitrust) handles the review; the substantive editorial-political determination operates through wealth-funded political relationships. The open display is itself analytically significant — the mechanism no longer requires concealment.
 
+NOTE: Magnifica Humanitas ([Leo XIV, 2026](https://github.com/simonibsen/lens-of-power/blob/main/principles/leo-xiv-magnifica-humanitas.md) P2) states the mechanism from a Position 1 source: governing functions — setting access, the rules of visibility, and the conditions of participation — are increasingly exercised by private, transnational actors whose resources and capacity to intervene "surpass those of many Governments," without corresponding accountability (¶5, 95). The democratic state persists in form while a substantive governing function migrates to private hands.
+
 ---
 
 ## Evidence trail

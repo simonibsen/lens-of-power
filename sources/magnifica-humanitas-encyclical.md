@@ -17,10 +17,15 @@ LOCAL FILE: `sources/files/leo-xiv-2026-magnifica-humanitas.pdf`
 
 QUOTE STATUS: verbatim with paragraph references (¶)
 
-EXTRACTION STATUS: Not extracted. Analyzed in ANALYZE mode — see
-`analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md`.
-Text obtained via `pdftotext -layout`; paragraph numbering follows the
-encyclical's own numbered paragraphs.
+EXTRACTION STATUS: Partially extracted. Analyzed in ANALYZE mode (see
+`analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md`) and
+10 descriptive principles extracted from Chapters 3–5 (see
+`principles/leo-xiv-magnifica-humanitas.md`). Chapters 1–2 (doctrinal
+history; the Church's normative theological principles) and the
+Introduction/Conclusion are not extracted — they yield doctrine and
+normative axioms rather than the descriptive power-mechanics EXTRACT mode
+formalizes. Text obtained via `pdftotext -layout`; paragraph numbering
+follows the encyclical's own numbered paragraphs.
 
 PROVENANCE NOTES: The document was supplied by the user as a PDF titled
 "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas (15 May
@@ -35,23 +40,30 @@ hash. Canonical Holy See URL confirmed by the user.
 - `analyses/2026-05-28-holysee-encyclical-magnifica-humanitas-ai.md` —
   ANALYZE-mode analysis (Position 1 institution analyzed as both a power
   analysis and a power act)
+- `principles/leo-xiv-magnifica-humanitas.md` — EXTRACT-mode output,
+  10 descriptive principles from Chapters 3–5
 - Pattern OBSERVED IN / NOTE entries added to: Division of Learning,
   The Boomerang, Inversion of Stated Purpose, Constitutive Violence,
   Perpetual Threat as Perpetual Justification (corroboration counts for
-  these and the five further patterns in the analysis registry are
-  computed by tooling from `data/analyses.yaml`)
+  these and the further patterns referenced in the analysis registry and
+  the principles registry are computed by tooling from
+  `data/analyses.yaml` and `data/principles.yaml`)
 
 ## Remaining material
 
-The encyclical is self-contained and was read in full. It is, in addition,
-a candidate for EXTRACT mode: Chapters 3–5 contain principle-grade material
-about power that the ANALYZE pass did not formalize — e.g. "technology is
-never neutral because it takes on the characteristics of those who devise,
-finance, regulate and use it" (¶9); the shift of technological power to
-"predominantly private," transnational actors exceeding states (¶5); and
-the theological critique of transhumanism/posthumanism (¶115–117). An
-EXTRACT pass would yield principles cross-referencing the existing Fisher,
-Gramsci, Zuboff, and Hickel material.
+Chapters 3–5 have now been extracted (10 principles —
+`principles/leo-xiv-magnifica-humanitas.md`). The remainder is read in
+full but not extracted, by design:
+
+- **Chapters 1–2** — doctrinal history (Rerum Novarum → Vatican II) and the
+  Church's normative principles (dignity as *imago Dei*, subsidiarity,
+  common good, solidarity, social justice). These are prescriptive/
+  theological rather than descriptive power-mechanics; subsidiarity and the
+  universal destination of goods could at most be reframed as *counter-power*
+  principles, the weakest possible extraction. Left unextracted.
+- **Introduction / Conclusion** — the Babel/Jerusalem framing and the
+  Eucharistic/Marian programme; devotional and structural, not principle-
+  grade.
 
 Adjacent sources in the same magisterial lineage already cited by the text:
 *Laudato Si'* (2015) and *Fratelli Tutti* (2020) — the immediate
